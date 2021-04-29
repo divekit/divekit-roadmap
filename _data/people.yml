@@ -1,0 +1,60 @@
+SBA:
+  nickname: sba
+  team: requirements
+  sig:
+SBE:
+  nickname: Stefan Bente
+  team:
+  sig:
+HBU:
+  nickname: hbuhl
+  team: impact
+  sig: devops
+MHA:
+  nickname: mhallweg
+  team: analysis
+  sig: devops
+PKL:
+  nickname: Peter Klein
+  team:
+  sig:
+AKO:
+#  nickname: akosmehl
+  nickname: user1
+  team: variants
+  sig: eventing
+JLÜ:
+  nickname: jalue 
+  team: requirements
+  sig: apis
+FOB:
+  nickname: FalahSama
+  team: analysis
+  sig: apis
+KRU:
+#  nickname: kruck
+  nickname: user2
+  team: variants
+  sig: eventing
+PSC:
+  nickname: psc
+  team: impact
+  sig:
+JSP:
+  nickname: SohleDelfin6504
+  team: requirements
+  sig: apis
+MTO:
+  nickname: TheBuro
+  team: requirements
+  sig: apis
+DUZ:
+#  nickname: Duzun
+  nickname: user3
+  team: variants
+  sig: eventing
+TZA:
+#  nickname: tzaika
+  nickname: user4
+  team: impact
+  sig: devops
