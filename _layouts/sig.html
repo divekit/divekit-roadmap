@@ -8,7 +8,7 @@ layout: default
 
 Team members:
 <ol>
-    {% for person in site.data.people %} 
+    {% for person in site.data.people %}
     {% if person[1].sig == page.acronym %}
     {% assign team = site.teams | where: "acronym", person[1].team | first %}
     {% assign team_url = "/teams/" | append: team.acronym | append: ".html" | relative_url %}
