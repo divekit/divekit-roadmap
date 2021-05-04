@@ -14,6 +14,7 @@ Team members:
     {% assign team_url = "/teams/" | append: team.acronym | append: ".html" | relative_url %}
     <li>
         {{ person[1].nickname }} (also member of team <a href="{{ site.url }}{{ team_url }}">{{ team.title }}</a>)
+        {{person|jsonify}}
     </li>
     {% endif %}
     {% endfor %}
@@ -21,5 +22,6 @@ Team members:
 
 {% assign filtered_decisions = site.decisions | where_exp: "decision", "decision.decision_type != 'team'" %}
 {% include /functions/print-sorted-decision-table.html mydecision_list=filtered_decisions typefilter="sig" group_acronym=page.acronym %}
+
 
 

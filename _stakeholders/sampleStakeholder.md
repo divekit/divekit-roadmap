@@ -1,5 +1,6 @@
 ---
 type: stakeholder
+acronym: sampleStakeholder
 name: Max Mustermann
 contact details: 0180-0815
 knowledge: some
@@ -9,4 +10,4 @@ communication history: had a real nice chat yesterday!
 #Content
 some Content
 #even More Content
-even MOAR?!
+even MOAR??

@@ -1,6 +1,9 @@
 ---
 type: goal
-description: this is a goal!
+acronym: sampleGoal
+source: 
+    - source1
+    - source2
 ---
 #Content
 some Content

@@ -59,6 +59,10 @@ collections:
     output: true
   sigs:
     output: true
+  goals:
+    output: true
+  stakeholders:
+    output: true
 
 defaults:
   - scope:
@@ -76,3 +80,13 @@ defaults:
       type: "sigs"
     values:
       layout: "sig"
+  - scope:
+      path: ""
+      type: "goals"
+    values:
+      layout: "goal"
+  - scope:
+      path: ""
+      type: "stakeholders"
+    values:
+      layout: "stakeholder"
