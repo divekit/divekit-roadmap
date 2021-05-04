@@ -63,6 +63,10 @@ collections:
     output: true
   stakeholders:
     output: true
+  roles:
+    output: true
+  contexts:
+    output: true
 
 defaults:
   - scope:
@@ -90,3 +94,13 @@ defaults:
       type: "stakeholders"
     values:
       layout: "stakeholder"
+  - scope:
+      path: ""
+      type: "roles"
+    values:
+      layout: "role"
+  - scope:
+      path: ""
+      type: "contexts"
+    values:
+      layout: "context"

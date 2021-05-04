@@ -1,9 +1,6 @@
 ---
-type: goal
-acronym: sampleGoal
-source: 
-    - source1
-    - source2
+type: context
+acronym: sampleContext
 history:
     v1:
         date: 2021-05-04
