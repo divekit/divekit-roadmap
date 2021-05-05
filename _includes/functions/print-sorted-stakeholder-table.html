@@ -8,6 +8,7 @@ If a typefilter ("team" or "sig") is specified, then two additional filterings a
 2) the decision is only listed, if it fits to the group_acronym
 {% endcomment %}
 
+{%comment%}
 <!--s
 {% if typefilter %}
 {% assign decision_list = decision_list | where_exp: "dec", "dec.belongs_to == group_acronym" %}
@@ -29,34 +30,30 @@ If a typefilter ("team" or "sig") is specified, then two additional filterings a
 
 {% assign decision_list = decision_list | concat: done_group_decisions | concat: done_team_decisions %}
 -->
+{%endcomment%}
 <table>
     <thead>
     <tr>
-        <th width="12%">Status</th>
-        <th width="58%">Title</th>
-        <th width="15%">Responsible</th>
-        <th width="15%">Deadline</th>
+        <th width="12%">Acronym</th>
+        <th width="58%">Name</th>
+        <th width="40%">Role</th>
+
+
     </tr>
     </thead>
     <tbody>
-    {% for decision in decision_list %}
+    {% for stakeholder in stakeholder_list %}
     <tr>
-        {% include /functions/error-icon-string.html mydecision=decision %}
-        {% if error_icon_string.size == 0 %}
-        {% include /functions/todo-icon-string.html mydecision=decision %}
-        {% else %}
-        {% assign todo_icon_string = "" %}
-        {% endif %}
 
-        {% include /functions/get-status-infos.html mydecision=decision %}
-        <td><img class={{ status_class }} src="{{ site.url }}{{ status_filename | relative_url }}"/> {{ error_icon_string }}{{ todo_icon_string }}</td>
 
-        {% assign decision_file_name = decision.url %}
-        <td><a href="{{ site.url }}{{ decision_file_name | relative_url }}">{{ decision.title }}</a> </td>
-        {% include /functions/resolve-names.html mydecision=decision %}
-        <td>{{ responsible_string }}</td>
-        {% include /functions/is-decision-open.html mydecision=decision %}
-        <td>{% if decision_is_open %}{{ decision.deadline }}{% endif %}</td>
+        {% assign stakeholder_file_name = stakeholder.url %}
+        <td><a href="{{ site.url }}{{ stakeholder_file_name | relative_url }}">{{ stakeholder.title }}</a> </td>
+        <td>{{ stakeholder.name }} </td>
+        <td>{{ stakeholder.stakeholderRole }} </td>
+
+
+
+
     </tr>
     {% endfor %}
     </tbody>

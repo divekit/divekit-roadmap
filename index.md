@@ -9,4 +9,7 @@ This is the architectural decision log for EVATool. <a target="_blank" type="app
 
 {% include /functions/print-sorted-stakeholder-table.html mystakeholder_list = site.stakeholders %}
 
-<!--- {% include /functions/print-sorted-decision-table.html mydecision_list = site.decisions %} --->
+{%comment%}
+{% include /functions/print-sorted-stakeholder-table.html mystakeholder_list = site.decisions %}
+{% include /functions/print-sorted-decision-table.html mydecision_list = site.decisions %}
+{%endcomment%}

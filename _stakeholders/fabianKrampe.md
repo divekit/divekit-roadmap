@@ -2,7 +2,7 @@
 type: stakeholder
 acronym: fabianKrampe
 name: Fabian Krampe
-role: wmaProg
+stakeholderRole: wmaProg
 relationship_to_project: >
     Anwender des Systems in mehreren Lehrveranstaltungen. Interessiert an sinnvoller Weiterentwicklung, 
     möchte eigene Ideen einbringen. 

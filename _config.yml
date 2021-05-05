@@ -63,9 +63,9 @@ collections:
     output: true
   stakeholders:
     output: true
-  roles:
+  stakeholderRoles:
     output: true
-  contexts:
+  systemContexts:
     output: true
 
 defaults:
@@ -96,11 +96,11 @@ defaults:
       layout: "stakeholder"
   - scope:
       path: ""
-      type: "roles"
+      type: "stakeholderRoles"
     values:
-      layout: "role"
+      layout: "stakeholderRole"
   - scope:
       path: ""
-      type: "contexts"
+      type: "systemContexts"
     values:
-      layout: "context"
+      layout: "systemContext"
