@@ -9,13 +9,20 @@ layout: default
     <dt>Acronym</dt>
     <dd>{{ page.acronym }}</dd>
 
-    <dt>Stakeholder</dt>
-    <dd>{{ page.stakeholder }}</dd>
+    <dt>Subject</dt>
+    <dd>{{ page.subject }}</dd>
 
-    <dt>Responsible</dt>
-    <dd>{% include /functions/resolve-names.html mydecision=page %}{{ responsible_string }}</dd>
+    <dt>Stakeholder Role</dt>
+    <dd>{{ page.stakeholder_role }}</dd>
 
+    <dt>Distribution Channels</dt>
+    <dd>{{ page.distribution_channels }}</dd>
 
+    <dt>Number of Participants</dt>
+    <dd>{{ page.number_of_participants }}</dd>
+
+    <dt>Reference Population</dt>
+    <dd>{{ page.reference_population }}</dd>
 
     {% if page.todos and page.todos.size > 0 %}
         {% assign todo_counter = 0 %}
@@ -25,6 +32,10 @@ layout: default
             <dd>({{ todo_counter }}) {{ entry }}</dd>
         {% endfor %}
     {% endif %}
+
+    <dt>Responsible</dt>
+    <dd>{% include /functions/resolve-names.html mydecision=page %}{{ responsible_string }}</dd>
+
 
     <dt>History</dt>
     {% for entry in page.history %}

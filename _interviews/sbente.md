@@ -1,8 +1,8 @@
 ---
 acronym: sbente
 type: interview
-responsible:
-    -fk
+name: Interview mit Stefan Bente
+responsible: FKR
 stakeholder: sbe
 date: 2020-12-29
 duration: 00:51:51
@@ -14,7 +14,7 @@ history:
 
 ---
 ## Interviewleitfaden
-siehe MA Jann Intveen s.128
+[siehe MA Jann Intveen](./../literatureReferences/intveen.html) s.128
 
 ## Ergebnisprotokoll
 siehe MA Jann Intveen s.128

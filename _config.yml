@@ -67,6 +67,14 @@ collections:
     output: true
   systemContexts:
     output: true
+  interviews:
+    output: true
+  literatureReferences:
+    output: true
+  surveys:
+    output: true
+  workshops:
+    output: true
 
 defaults:
   - scope:
@@ -104,3 +112,23 @@ defaults:
       type: "systemContexts"
     values:
       layout: "systemContext"
+  - scope:
+      path: ""
+      type: "interviews"
+    values:
+      layout: "interview"
+  - scope:
+      path: ""
+      type: "literatureReferences"
+    values:
+      layout: "literatureReference"
+  - scope:
+      path: ""
+      type: "surveys"
+    values:
+      layout: "survey"
+  - scope:
+      path: ""
+      type: "workshops"
+    values:
+      layout: "workshop"

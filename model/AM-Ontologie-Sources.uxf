@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
+  <help_text>// Uncomment the following line to change the fontsize and font:
+fontsize=10
+// fontfamily=SansSerif //possible: SansSerif,Serif,Monospaced
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+// Welcome to UMLet!
+//
+// Double-click on elements to add them to the diagram, or to copy them
+// Edit elements by modifying the text in this panel
+// Hold Ctrl to select multiple elements
+// Use Ctrl+mouse to select via lasso
+//
+// Use +/- or Ctrl+mouse wheel to zoom
+// Drag a whole relation at its central square icon
+//
+// Press Ctrl+C to copy the whole diagram to the system clipboard (then just paste it to, eg, Word)
+// Edit the files in the "palettes" directory to create your own element palettes
+//
+// Select "Custom Elements &gt; New..." to create new element types
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// This text will be stored with each diagram;  use it for notes.</help_text>
   <zoom_level>13</zoom_level>
   <element>
     <id>UMLClass</id>
@@ -24,7 +48,7 @@ date
       <w>182</w>
       <h>156</h>
     </coordinates>
-    <panel_attributes>Expert Interview
+    <panel_attributes>Interview
 --
 date
 time
@@ -53,11 +77,12 @@ result protocol</panel_attributes>
       <w>351</w>
       <h>130</h>
     </coordinates>
-    <panel_attributes>Online Survey
+    <panel_attributes>Survey
 --
 distribution channels
 number of participants
-reference population (Grundgesamtheit)</panel_attributes>
+reference population (Grundgesamtheit)
+subject</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -207,7 +232,7 @@ m2=*</panel_attributes>
     <coordinates>
       <x>390</x>
       <y>182</y>
-      <w>195</w>
+      <w>182</w>
       <h>195</h>
     </coordinates>
     <panel_attributes>lt=-
@@ -233,7 +258,7 @@ m2=*</panel_attributes>
     <coordinates>
       <x>650</x>
       <y>104</y>
-      <w>65</w>
+      <w>52</w>
       <h>273</h>
     </coordinates>
     <panel_attributes>lt=-
@@ -313,7 +338,7 @@ URL
     <coordinates>
       <x>559</x>
       <y>715</y>
-      <w>65</w>
+      <w>52</w>
       <h>130</h>
     </coordinates>
     <panel_attributes>lt=-
@@ -326,7 +351,7 @@ m2=*</panel_attributes>
     <coordinates>
       <x>910</x>
       <y>689</y>
-      <w>65</w>
+      <w>52</w>
       <h>156</h>
     </coordinates>
     <panel_attributes>lt=-

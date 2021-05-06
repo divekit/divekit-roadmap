@@ -1,0 +1,6 @@
+{% assign stakeholderAcronym = include.myStakeholderAcronym %}
+
+{% assign stakeholder = site.stakeholders | where: "acronym", stakeholderAcronym | first %}
+{% assign urlString = "stakeholders/" | append: stakeholder.acronym | append: ".html" | relative_url %}
+
+<a href="{{ site.url }}{{ urlString }}">{{ stakeholder.name }}</a>

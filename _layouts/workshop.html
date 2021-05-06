@@ -9,11 +9,21 @@ layout: default
     <dt>Acronym</dt>
     <dd>{{ page.acronym }}</dd>
 
-    <dt>Stakeholder</dt>
-    <dd>{{ page.stakeholder }}</dd>
+    <dt>Ziele</dt>
+    <dd>{{ page.goals }}</dd>
 
-    <dt>Responsible</dt>
-    <dd>{% include /functions/resolve-names.html mydecision=page %}{{ responsible_string }}</dd>
+    <dt>Datum</dt>
+    <dd>{{ page.date | date: '%B %d, %Y'}}</dd>
+
+    <dt>Uhrzeit</dt>
+    <dd>{{ page.time }}</dd>
+
+    <dt>Angewandte Methode</dt>
+    <dd>{{ page.method }}</dd>
+
+    <dt>Stakeholderrollen</dt>
+    <dd>{{ page.stakeholder_role }}</dd>
+
 
 
 
@@ -25,6 +35,10 @@ layout: default
             <dd>({{ todo_counter }}) {{ entry }}</dd>
         {% endfor %}
     {% endif %}
+
+    <dt>Responsible</dt>
+    <dd>{% include /functions/resolve-names.html mydecision=page %}{{ responsible_string }}</dd>
+
 
     <dt>History</dt>
     {% for entry in page.history %}

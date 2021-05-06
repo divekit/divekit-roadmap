@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<h1>Stakeholder</h1>
+
+<p>
+    Ein <b>Interview</b> eine Form der Befragung mit dem Ziel, persönliche Informationen, Sachverhalte oder Meinungen zu ermitteln.
+</p>
+
+
+<table>
+    <thead>
+    <tr>
+        <th width="10%">Akronym</th>
+        <th width="45%">Name</th>
+        <th width="30%">Stakeholder</th>
+        <th width="15%">Datum</th>
+    </tr>
+    </thead>
+    <tbody>
+        {% for interview in site.interviews %}
+        <tr>
+            {% assign file_name = interview.url | relative_url %}
+            <td>{{ interview.acronym }}</td>
+            <td><a href="{{ site.url }}{{ file_name | relative_url }}">{{ interview.name }}</a></td>
+            <td>{% include /functions/link-to-stakeholder.html myStakeholderAcronym=interview.stakeholder %}</td>
+            <td>{{ interview.date | date: '%B %d, %Y'}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

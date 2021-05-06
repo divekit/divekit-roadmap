@@ -9,8 +9,17 @@ layout: default
     <dt>Acronym</dt>
     <dd>{{ page.acronym }}</dd>
 
-    <dt>Stakeholder</dt>
-    <dd>{{ page.stakeholder }}</dd>
+    <dt>Titel</dt>
+    <dd>{{ page.title }}</dd>
+
+    <dt>Autor</dt>
+    <dd>{{page.author}}</dd>
+
+    <dt>Publisher</dt>
+    <dd>{{page.publisher}}</dd>
+
+    <dt>URL</dt>
+    <dd>{{page.source_url}}</dd>
 
     <dt>Responsible</dt>
     <dd>{% include /functions/resolve-names.html mydecision=page %}{{ responsible_string }}</dd>

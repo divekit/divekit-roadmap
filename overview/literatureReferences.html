@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<h1>Stakeholder</h1>
+
+<p>
+    Ein <b>Literaturverweis</b> ist ein Verweis auf eine Quelle, die in der Literatur oder im Web zu finden ist.
+</p>
+
+
+<table>
+    <thead>
+    <tr>
+        <th width="10%">Akronym</th>
+        <th width="60%">Titel</th>
+        <th width="30%">Autor</th>
+
+    </tr>
+    </thead>
+    <tbody>
+        {% for reference in site.literatureReferences %}
+        <tr>
+            {% assign file_name = reference.url | relative_url %}
+            <td>{{ reference.acronym }}</td>
+            <td><a href="{{ site.url }}{{ file_name | relative_url }}">{{ reference.title }}</a></td>
+            <td>{{ reference.author }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

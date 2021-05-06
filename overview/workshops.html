@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<h1>Stakeholder</h1>
+
+<p>
+    Ein <b>Interview</b> eine Form der Befragung mit dem Ziel, persönliche Informationen, Sachverhalte oder Meinungen zu ermitteln.
+</p>
+
+
+<table>
+    <thead>
+    <tr>
+        <th width="10%">Akronym</th>
+        <th width="70%">Ziele</th>
+        <th width="20%">Datum</th>
+
+    </tr>
+    </thead>
+    <tbody>
+        {% for workshop in site.workshops %}
+        <tr>
+            {% assign file_name = workshop.url | relative_url %}
+            <td>{{ workshop.acronym }}</td>
+            <td><a href="{{ site.url }}{{ file_name | relative_url }}">{{ workshop.goals }}</a></td>
+            <td>{{ workshop.date | date: '%B %d, %Y'}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

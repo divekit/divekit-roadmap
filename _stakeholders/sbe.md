@@ -1,9 +1,7 @@
 ---
 type: stakeholder
 acronym: sbe
-responsible: 
-    - sbe
-    - fkr
+responsible: SBE;FKR
 name: Stefan Bente
 stakeholderRole: profInf
 relationshipToProject: >
