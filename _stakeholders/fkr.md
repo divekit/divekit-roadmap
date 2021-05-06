@@ -16,8 +16,3 @@ history:
 
 (mehr Informationen über Fabians Schwerpunkte in der Lehre)
 
-
-Bitte in das HTML-File kopieren (Detail View von Stakeholder)
-{% assign stakeholderRole = site.stakeholderRoles | where: "acronym", page.role | first %}
-{% assign urlString = "stakeholderRoles/" | append: stakeholderRole.acronym %}
-<li ><a href="{{ site.url }}{{ urlString | relative_url }}">{{ stakeholderRole.description }}</a></li>
