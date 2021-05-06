@@ -2,14 +2,11 @@
 layout: default
 ---
 
-<h1>Overview on all Items</h1>
+<h1>Lastenheft für die Weiterentwicklung von »Divekit«</h1>
 
-This is the architectural decision log for EVATool. <a target="_blank" type="application/csv" charset="UTF-8
-" href="{{site.baseurl}}/all_decisions.csv">Download as CSV.</a>
+Diese Website bietet einen Ausblick auf die Weiterentwicklung 
+von [»Divekit«](https://www.archi-lab.io/display/public/Divekit) in Form eines nach klassischem dokumentenzentriertem
+Ansatz erstellten Lastenhefts. 
 
-{% include /functions/print-sorted-stakeholder-table.html mystakeholder_list = site.stakeholders %}
+Dieses wird hier in einer Hypermedia-basierten Form dokumentiert.  
 
-{%comment%}
-{% include /functions/print-sorted-stakeholder-table.html mystakeholder_list = site.decisions %}
-{% include /functions/print-sorted-decision-table.html mydecision_list = site.decisions %}
-{%endcomment%}
