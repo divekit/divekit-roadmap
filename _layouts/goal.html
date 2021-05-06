@@ -9,31 +9,12 @@ layout: default
     <dt>Acronym</dt>
     <dd>{{ page.acronym }}</dd>
 
-    <dt>Name</dt>
-    <dd>{{ page.name }}</dd>
-
-<!--
-    <dt>Belongs to</dt>
-    <dd>{% include /functions/print-belongs-to-link.html mydecision=page %}</dd>
+    <dt>Kurzbeschreibung</dt>
+    <dd>{{ page.description }}</dd>
 
     <dt>Responsible</dt>
     <dd>{% include /functions/resolve-names.html mydecision=page %}{{ responsible_string }}</dd>
 
-    {% include /functions/is-decision-open.html mydecision=page %}
-    {% if decision_is_open %}
-        <dt>Deadline</dt>
-        <dd>{{ page.deadline }}</dd>
-    {% endif %}
-
-    {% include /functions/find-decision-errors.html mydecision=page %}
-    {% if error_string.size > 0 %}
-        <dt><img src="{{ site.url }}{{ '/assets/error-4-24.png' | relative_url }}"/> &nbsp; Errors</dt>
-        {% assign error_list = error_string | split: ";" %}
-        {% for error in error_list %}
-            <dd>{{ error }}</dd>
-        {% endfor %}
-    {% endif %}
--->
 
     {% if page.todos and page.todos.size > 0 %}
         {% assign todo_counter = 0 %}

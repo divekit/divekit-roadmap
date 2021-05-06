@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<h1>Ziele</h1>
+
+<p>
+    Ein <b>Ziel</b> ist die intentionale Beschreibung eines charakteristischen Merkmals
+    des zu entwickelnden Systems bzw. des zugehörigen Entwicklungsprozesses. Sie dienen dem Schaffen eines gemeinsamen Systemverständnisses.
+</p>
+
+
+
+<table>
+    <thead>
+    <tr>
+        <th width="15%">Akronym</th>
+        <th width="85%">Beschreibung</th>
+
+    </tr>
+    </thead>
+    <tbody>
+        {% for goal in site.goals %}
+        <tr>
+            {% assign file_name = goal.url | relative_url %}
+            <td>{{ goal.acronym }}</td>
+            <td><a href="{{ site.url }}{{ file_name | relative_url }}">{{ goal.description }}</a></td>
+
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

@@ -1,8 +1,7 @@
 ---
 acronym: wmaProg
 type: stakeholderRole
-responsible: 
-    - sbe
+responsible: SBE
 name: WMA Informatik, Schwerpunkt Programmierung
 description: >
     Wissenschaftliche*r Mitarbeiter*in in der Informatik, mit Haupttätigkeitsfeld in der Lehre (Programmieren)

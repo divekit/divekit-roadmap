@@ -12,6 +12,8 @@ layout: default
     <dt>Name</dt>
     <dd>{{ page.name }}</dd>
 
+    <dt>Responsible</dt>
+    <dd>{% include /functions/resolve-names.html mydecision=page %}{{ responsible_string }}</dd>
 <!--
     <dt>Belongs to</dt>
     <dd>{% include /functions/print-belongs-to-link.html mydecision=page %}</dd>
