@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<h1>Stakeholder-Rollen</h1>
+
+<p>
+    <b>Stakeholder-Rollen</b> sind verallgemeinerte, "typische" Rollen von Stakeholdern, die dann etwa in
+    Use Cases Verwendung finden können. Ein Beispiel: "Prof. Dr. Erika Musterfrau, Professorin für angewandte
+    Mathematik" wäre ein Stakeholder, während "Professor*in" die Stakeholder-Rolle ist.
+</p>
+
+
+<table>
+    <thead>
+    <tr>
+        <th width="10%">Akronym</th>
+        <th width="30%">Name</th>
+        <th width="60%">Beschreibung</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for stakeholderRole in site.stakeholderRoles %}
+    <tr>
+        <td>{{ stakeholderRole.acronym }}</td>
+        <td>{{ stakeholderRole.name }}</td>
+        <td>{{ stakeholderRole.description }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>

@@ -1,9 +1,9 @@
 ---
 type: stakeholder
-acronym: fabianKrampe
+acronym: fkr
 name: Fabian Krampe
 stakeholderRole: wmaProg
-relationship_to_project: >
+relationshipToProject: >
     Anwender des Systems in mehreren Lehrveranstaltungen. Interessiert an sinnvoller Weiterentwicklung, 
     möchte eigene Ideen einbringen. 
 history:

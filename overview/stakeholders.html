@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1>Stakeholder und Stakeholder-Rollen</h1>
+<h1>Stakeholder</h1>
 
 <p>
     Ein <b>Stakeholder</b> ist eine Person oder eine Organisation, die direkten Einfluss auf die Anforderungen
@@ -15,75 +15,24 @@ layout: default
     einer Expertenbefragung). U.U. sind Namen und Kontaktdetails anonymisiert, aber der Redaktion dieser
     Seite bekannt.
 </p>
-<p>
-    <b>Stakeholder-Rollen</b> sind verallgemeinerte, "typische" Rollen von Stakeholdern, die dann etwa in
-    Use Cases Verwendung finden können. Ein Beispiel: "Prof. Dr. Erika Musterfrau, Professorin für angewandte
-    Mathematik" wäre ein Stakeholder, während "Professor*in" die Stakeholder-Rolle ist.
-</p>
 
 
 <table>
     <thead>
     <tr>
         <th width="10%">Akronym</th>
-        <th width="15%">Nickname</th>
-        <th width="10%">Team</th>
-        <th width="10%">SIG</th>
-        <th width="50%">Decisions</th>
+        <th width="15%">Name</th>
+        <th width="30%">Rolle</th>
+        <th width="45%">Beziehung zum Projekt</th>
     </tr>
     </thead>
     <tbody>
-        {% for person in site.data.people %}
+        {% for stakeholder in site.stakeholders %}
         <tr>
-            <td>{{ person[0] }}</td>
-
-            {% if person[1].nickname %}
-                <td>{{ person[1].nickname }}</td>
-            {% else %}
-                <td>???</td>
-            {% endif %}
-
-            {% if person[1].team %}
-                {% assign team_list = site.teams | where_exp: "team", "team.acronym == person[1].team" %}
-                {% if team_list.size > 0 %}
-                    {% assign team = team_list[0] %}
-                    <td><a href="{{ site.url }}{{ team.url | relative_url }}">{{ team.title }}</a></td>
-                {% else %}
-                    <td><img src="{{ site.url }}{{ '/assets/error-4-24.png' | relative_url }}" width="12px"/> Unknown team: {{ person[1].team }}</td>
-                {% endif %}
-            {% else %}
-                <td>???</td>
-            {% endif %}
-
-            {% if person[1].sig %}
-                {% assign sig_list = site.sigs | where_exp: "sig", "sig.acronym == person[1].sig" %}
-                {% if sig_list.size > 0 %}
-                    {% assign sig = sig_list[0] %}
-                    <td><a href="{{ site.url }}{{ sig.url | relative_url }}">{{ sig.title }}</a></td>
-                {% else %}
-                    <td><img src="{{ site.url }}{{ '/assets/error-4-24.png' | relative_url }}" width="12px"/> Unknown SIG: {{ person[1].sig }}</td>
-                {% endif %}
-            {% else %}
-                <td>???</td>
-            {% endif %}
-
-            <td>
-                {% for decision in site.decisions %}
-                    {% assign acronym = person[0] %}
-                    {% include /functions/is-responsible-for-decision.html mydecision=decision person_acronym=acronym %}
-                    {% if is_responsible_for_decision %}
-                        {% include /functions/find-decision-errors.html mydecision=decision %}
-                        {% if error_string.size > 0 %}
-                            <img src="{{ site.url }}{{ '/assets/error-4-24.png' | relative_url }}" />
-                        {% else %}
-                            {% include /functions/get-status-infos.html mydecision=decision %}
-                            <img class={{ status_class }} src="{{ site.url }}{{ status_filename | relative_url }}" />
-                        {% endif %} &nbsp;
-                        <a href="{{ site.url }}{{ decision.url | relative_url }}">{{ decision.title }}</a>
-                        <br>
-                    {% endif %}
-                {% endfor %}
-            </td>
+            <td>{{ stakeholder.acronym }}</td>
+            <td>{{ stakeholder.name }}</td>
+            <td>{% include /functions/link-to-role.html myRoleAcronym=stakeholder.stakeholderRole %}</td>
+            <td>{{ stakeholder.relationshipToProject }}</td>
         </tr>
         {% endfor %}
     </tbody>
