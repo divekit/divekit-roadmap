@@ -2,15 +2,16 @@
 layout: default
 ---
 
-<!-- {% include /functions/get-status-infos.html mydecision=page %} -->
-<h1>{{ page.title }}</h1>
+{% assign stakeholder = site.stakeholders | where: "acronym", page.stakeholder | first %}
+
+<h1>Interview mit {{ stakeholder.name }}</h1>
 
 <dl>
     <dt>Acronym</dt>
     <dd>{{ page.acronym }}</dd>
 
     <dt>Stakeholder</dt>
-    <dd>{{ page.stakeholder }}</dd>
+    <dd>{{ stakeholder.name }}</dd>
 
     <dt>Responsible</dt>
     <dd>{% include /functions/resolve-names.html mydecision=page %}{{ responsible_string }}</dd>

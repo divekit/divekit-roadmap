@@ -1,8 +1,8 @@
 ---
 acronym: sbente
 type: interview
-name: Interview mit Stefan Bente
-responsible: FKR
+responsible: 
+    - jin
 stakeholder: sbe
 date: 2020-12-29
 duration: 00:51:51

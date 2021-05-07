@@ -1,7 +1,9 @@
 ---
 type: stakeholder
 acronym: fkr
-responsible: SBE;FKR
+responsible: 
+    - fkr
+    - sbe
 name: Fabian Krampe
 stakeholderRole: wmaProg
 relationshipToProject: >

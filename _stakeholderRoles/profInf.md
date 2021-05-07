@@ -1,7 +1,8 @@
 ---
 acronym: profInf
 type: stakeholderRole
-responsible: FKR
+responsible: 
+    - fkr
 name: Professor für Informatik
 description: >
     Professur in einem oder mehreren Informatik-Studiengängen

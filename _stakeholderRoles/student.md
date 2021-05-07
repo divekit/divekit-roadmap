@@ -1,7 +1,8 @@
 ---
 acronym: student
 type: stakeholderRole
-responsible: FKR
+responsible: 
+    - fkr
 name: Student (Informatik)
 description: >
     Student in einem Informatikstudiengang 

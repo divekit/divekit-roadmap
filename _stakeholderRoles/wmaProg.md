@@ -1,7 +1,8 @@
 ---
 acronym: wmaProg
 type: stakeholderRole
-responsible: SBE
+responsible: 
+    - fkr
 name: WMA Informatik, Schwerpunkt Programmierung
 description: >
     Wissenschaftliche*r Mitarbeiter*in in der Informatik, mit Haupttätigkeitsfeld in der Lehre (Programmieren)

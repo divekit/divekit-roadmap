@@ -2,7 +2,8 @@
 acronym: studSurv
 type: survey
 subject: Erfahrung in der Nutzung von GIT
-responsible: FKR
+responsible: 
+    - fkr
 distribution_channels: email and discord
 number_of_participants: 45
 reference_population: 3000

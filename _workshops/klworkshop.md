@@ -1,7 +1,8 @@
 ---
 acronym: klworkshop
 type: workshop
-responsible: FK
+responsible: 
+    - fkr
 goals: Kennenlernen der AM Teilnehmer
 date: 2021-05-07
 time: 12:00

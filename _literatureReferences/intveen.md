@@ -1,7 +1,8 @@
 ---
 acronym: intveen
 type: literature reference
-responsible: FKR
+responsible: 
+    - fkr
 title: Digitalisierung und Individualisierung der praxisorientierten Lehre von modernen Coding-Ansätzen
 author: Jann Intveen
 publisher: none
