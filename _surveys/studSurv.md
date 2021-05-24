@@ -14,4 +14,3 @@ history:
         comment: initially created
 ---
 
-## Ergebnis der Umfrage

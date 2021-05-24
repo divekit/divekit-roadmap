@@ -3,6 +3,7 @@ type: goal
 acronym: individualAufg
 responsible: 
     - fkr
+    - sbe
 description: Einfache Individualisierung von Aufgaben
 source: 
     - source1

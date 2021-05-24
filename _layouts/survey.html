@@ -44,5 +44,6 @@ layout: default
 
 </dl>
 
+{% assign mycontent = page.content | replace: "<akr>", "[Link](https://www.archi-lab.io/display/public/AM#AM-Stakeholder)" %}
 
-{{ page.content }}
+{{ mycontent | markdownify }}

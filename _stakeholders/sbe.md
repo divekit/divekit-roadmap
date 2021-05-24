@@ -7,15 +7,15 @@ responsible:
 name: Stefan Bente
 stakeholderRole: profInf
 relationshipToProject: >
-    Anwender des Systems in mehreren Lehrveranstaltungen. Interessiert an sinnvoller Weiterentwicklung, 
-    möchte eigene Ideen einbringen. 
+    "Sponsor" von Divekit, versucht das Tool im Kollegenkreis zu promoten.
 history:
     v1:
         date: 2021-05-06
         comment: created initially
 ---
 
-## Tätigkeitsgebiete 
+## Lehre 
+
 Aktuell:
 * Softwaretechnik I
 * Softwaretechnik II
