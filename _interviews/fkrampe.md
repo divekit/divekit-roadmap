@@ -71,7 +71,11 @@ Komplettes Interview:
 * [Text](https://github.com/divekit/divekit-roadmap/blob/master/_literatureReferences/krampe.md)
 * [PDF](https://github.com/divekit/divekit-roadmap/blob/master/_literatureReferences/krampe.pdf)
 
-## Ergebnisprotokoll
+## Ergebnisprotokoll (Kategorisierung)
+
+TODO
+
+## Protokoll
 
 1. Was ist Deine Rolle bezogen auf das DiveKit? 
     * Klassischer Nutzer als Lehrender 
@@ -252,10 +256,6 @@ Komplettes Interview:
             * Da können Sachen untergehen 
             * Großes Problem: Leute können keine Stacktraces lesen 
             * Sobald sie git verstanden haben, geht es eingentlich 
-
-## Kategorisierung
-
-TODO
 
 
 
