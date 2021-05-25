@@ -253,6 +253,11 @@ Komplettes Interview:
             * Großes Problem: Leute können keine Stacktraces lesen 
             * Sobald sie git verstanden haben, geht es eingentlich 
 
+## Kategorisierung
+
+TODO
+
+
 
 
 
