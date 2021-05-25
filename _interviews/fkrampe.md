@@ -23,19 +23,19 @@ history:
  
 ### Modalitäten
 
-Dauer: 1 – 2 h 
-Datum: 12. Mai 2021 
-Uhrzeit: 16:00 Uhr 
-Zoom-Meeting: https://zoom.us/j/96401271548?pwd=T1N4SVRsTDZkN2FKNWp4VVlkcmVmQT09 
-Meeting ID: 964 0127 1548 
-Passcode: 92r2Zf 
-Ziel: Bedarf und Einsatz von Tools (DiveKit) 
+* Dauer: 1 – 2 h 
+* Datum: 12. Mai 2021 
+* Uhrzeit: 16:00 Uhr 
+* Zoom-Meeting: https://zoom.us/j/96401271548?pwd=T1N4SVRsTDZkN2FKNWp4VVlkcmVmQT09 
+* Meeting ID: 964 0127 1548 
+* Passcode: 92r2Zf 
+* Ziel: Bedarf und Einsatz von Tools (DiveKit) 
 
 ### Ablauf
 
-Vorstellung des Interviewers und des Protokollanten 
-Einverständnis für die Aufnahme bzw. das Anfertigen eines Transskriptes 
-Vorstellung des zu Interviewenden 
+* Vorstellung des Interviewers und des Protokollanten 
+* Einverständnis für die Aufnahme bzw. das Anfertigen eines Transskriptes 
+* Vorstellung des zu Interviewenden 
 
 1. Was ist Deine Rolle bezogen auf das DiveKit? 
 2. Welche Erwartungen hast Du persönlich an das DiveKit? 
