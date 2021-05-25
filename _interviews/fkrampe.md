@@ -67,8 +67,7 @@ Vorstellung des zu Interviewenden
 22. Ist der Einsatz künstlicher Intelligenz für die Lösungsbewertung für dich denkbar? 
 23. Wie stellst du dir die Verwendung des Tools ohne Programmierkenntnissen vor? 
 
-TODO: if link works
-[siehe Interview](./../literatureReferences/krampe.html)
+[siehe Interview](https://github.com/divekit/divekit-roadmap/blob/master/_literatureReferences/krampe.md)
 
 ## Ergebnisprotokoll
 
