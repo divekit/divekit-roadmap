@@ -62,4 +62,4 @@ Erster, technischer Überblick über das DiveKit.
 
 ## Ergebnisprotokoll
 
-ToDo: Transkript verlinken
+[Transkript des Interviews](../sources/nnWMA2_transkript.md)
