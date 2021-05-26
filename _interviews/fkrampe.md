@@ -67,10 +67,6 @@ history:
 22. Ist der Einsatz künstlicher Intelligenz für die Lösungsbewertung für dich denkbar? 
 23. Wie stellst du dir die Verwendung des Tools ohne Programmierkenntnissen vor? 
 
-Komplettes Interview:
-* [Text](https://github.com/divekit/divekit-roadmap/blob/master/_literatureReferences/krampe.md)
-* [PDF](https://github.com/divekit/divekit-roadmap/blob/master/_literatureReferences/krampe.pdf)
-
 ## Ergebnisprotokoll (Kategorisierung)
 
 TODO
