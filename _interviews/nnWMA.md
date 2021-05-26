@@ -61,5 +61,3 @@ Erster, technischer Überblick über das DiveKit.
 * Haben Sie sonstige Anmerkungen / Hinweise? Möchten Sie noch etwas Ergänzen? 
 
 ## Ergebnisprotokoll
-
-[Transkript des Interviews](../sources/nnWMA2_transkript.md)
