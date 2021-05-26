@@ -115,4 +115,4 @@ Für Klausuren lässt sich das Tool laut des Interviewten aus rechtlichen Gründ
 
 **Das Transkript des Interviews kann hier gefunden werden:**
 
-## TODO: Transkript verlinken
+## [Transkript des Interviews](../sources/nnWMA2_transkript.md)
