@@ -50,4 +50,4 @@ Wofür wird Individualisierung in der Digitalen Lehre benötigt?
 
 ## Ergebnisprotokoll
 
-ToDo: Transkript verlinken
+[Transcript des Leitfadens](../sources/wörzberger.md)
