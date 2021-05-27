@@ -2,7 +2,8 @@
 acronym: n.n. WMA 2
 type: interview
 responsible: 
-    - fgr, ngi
+    - fgr
+    - ngi
 stakeholder: n.n. WMA 2
 date: 2021-05-11
 duration: 1h
