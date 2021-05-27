@@ -3,8 +3,9 @@ acronym: fkrampe
 type: interview
 responsible: 
     - hbu
+    - tza
 stakeholder: fkr
-date: 2020-12-29
+date: 2021-05-12
 duration: 01:07:24
 location: Zoom-Meeting
 history:
@@ -34,7 +35,7 @@ history:
 ### Ablauf
 
 * Vorstellung des Interviewers und des Protokollanten 
-* Einverständnis für die Aufnahme bzw. das Anfertigen eines Transskriptes 
+* Einverständnis für die Aufnahme bzw. das Anfertigen eines Transkriptes 
 * Vorstellung des zu Interviewenden 
 
 1. Was ist Deine Rolle bezogen auf das DiveKit? 
@@ -70,6 +71,39 @@ history:
 ## Ergebnisprotokoll (Kategorisierung)
 
 TODO
+
+### Background
+Frage 1, 3, 4
+* Klassischer Nutzer aus Lehrender-Sicht
+* Erstellung und Korrektur von Praktika und Klausuren
+* Nicht mehr bei der Entwicklung beteiligt
+* Praktika: ST1, ST2, eventuell AP2 in Zukunft
+* Vorbereitung von Praktika-Meilensteinen
+* Feedback und Beratung von Studenten
+
+### Nutzen und Erwartungen
+Frage 2, 6, 7, 8, 9
+
+TODO
+
+### Aktueller Ablauf
+Frage 10, 12
+
+TODO
+
+### Änderungsvorschläge
+Frage 11, 14, 16, 21
+
+
+### Klausureinsatz
+Frage 15
+
+### Bedenken
+Frage 18
+
+### Nutzung ohne Programmierkenntnissen
+Frage 23
+
 
 ## Protokoll
 
@@ -255,9 +289,4 @@ TODO
 
 
 
-
-
-
-
-
-
+    
