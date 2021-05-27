@@ -1,3 +1,20 @@
+---
+acronym: n.n. WMA 2
+type: literature reference
+responsible: 
+    - fgr
+    - ngi
+title: Interview Transkript n.n. WMA 2
+author: Nathalie Giessler
+publisher: none
+source_url: none
+history:
+    v1:
+        date: 2021-05-24
+        comment: initially created
+
+---
+
 ## Transkript des Interviews mit n.n. WMA 2
 
 **I [00:00:00]** Recording in progress. Ja dann, Hallo zum Interview. Ja, wir nehmen das Ganze auf und würden das Ganze nachher als Transkript dann gerne hochladen. Jetzt vielleicht auch nochmal. Du hast ja schon schriftlich eingewilligt. Aber nochmals manche Einwilligungen, dass wir es ja auch haben. Ist das okay für dich? Wenn wir das dann nachher bei github hochladen?
