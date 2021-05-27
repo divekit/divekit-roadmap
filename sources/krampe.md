@@ -3,6 +3,7 @@ acronym: krampe
 type: literature reference
 responsible: 
     - hbu
+    - tza
 title:
 author: Henning Buhl
 publisher: none
