@@ -288,5 +288,32 @@ Frage 23
             * Sobald sie git verstanden haben, geht es eingentlich 
 
 
+## (temp) Wichtige Stichpunkte
+* Erwartung der Entlastung generell und bei den Korrekturen
+* Qualität der Lehre darf nicht drunter leiden
+* Textaufgaben oder Modellier-Aufgaben
+* Am Ende des Meilensteins: bestanden / nicht bestanden?
+* Studis trauen sich nicht nach Feedback zu fragen
+* Erstellen/Korrektur von Aufgaben soll erleichtert werden
+* Übersicht: (Zusammenfassung von Ergebnissen von allen Studenten) (bestanden / nicht bestanden)
+* Beratung von 4-5-er Gruppe ist deutlich effizienter (Idee von tza: Studenten zusammensuchen, die bei gleichen Aufgaben Probleme haben und zusammen beraten.)
+* gute Betreuung; keine Massenabfertigung
+* Individualisierbarkeit: Erschweren von Betrugsversuchen; Aufgaben-Konzepte können in anderen Kontexten verwendet werden
+* Obergrenze für Feedback für Studis (wegen bruteforce)
+* (optional) mehr Automatisierung beim Initialisierung (Repos anlegen, ...)
+* Musterlösung und Studenten-Ansicht. Mehrere Ausprägungen werden aktuell nicht im Vorfeld generiert.
+* UMLet
+* Bei Benotung von Klausuren gibt es kein richtig oder falsch mehr.
+* Studenten können in Klausur durch Verwendung des komplexen Tools überforder sein.
+* Alle pushen in letzten 5 Minuten
+* aktuell kein Backup-Server
+* Auf Stärken von DiveKit konzentrieren; Einsatz in diesen Bereichen
+* Nicht komplettes Praktikum darüber zu regeln
+* Interaktion mit Studierenden nimmt ab
+* personalisiertes Bereich für die Studierenden
+* Editor für Konfiguration von "Variations"
+* Erstellen von Repos -> One-Button-Solution
+* DiveKit ist kein Tool mehr, sondern Ökosystem
+* Freiwillige Wiederholung von Praktikum - kann niedriger priorisiert werden
+* Es wäre gut, wenn die Studierende besser durch das Praktikum auf die Klausur vorbereitet sind
 
-    
