@@ -4,7 +4,7 @@ type: stakeholderRole
 responsible: 
     - fkr
 name: Student (Informatik)
-shortDescription: >
+title: >
     Student in einem Informatikstudiengang 
 history:
     v1:

@@ -4,7 +4,7 @@ type: stakeholderRole
 responsible: 
     - fkr
 name: WMA Informatik, Schwerpunkt Programmierung
-shortDescription: >
+title: >
     Wissenschaftliche*r Mitarbeiter*in in der Informatik, mit Haupttätigkeitsfeld in der Lehre (Programmieren)
 history:
     v1:

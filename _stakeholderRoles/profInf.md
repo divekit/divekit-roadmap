@@ -4,7 +4,7 @@ type: stakeholderRole
 responsible: 
     - fkr
 name: Professor für Informatik
-shortDescription: >
+title: >
     Professur in einem oder mehreren Informatik-Studiengängen
 history:
     v1:

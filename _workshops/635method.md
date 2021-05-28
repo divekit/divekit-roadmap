@@ -10,7 +10,7 @@ goals: Sammeln von Ideen für Weiterentwicklung des DiveKit aus Studenten-Sicht
 date: 2021-05-19
 time: 13:00
 method: 6-3-5 Methode
-stakeholder_role: student
+stakeholderRole: student
 history:
     v1:
         date: 2021-05-27
