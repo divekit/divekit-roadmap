@@ -17,7 +17,6 @@ history:
 todo:
 ---
 ## Interviewleitfaden
-Hier den Leitfaden ergänzen.
 
 ### Teilnehmer:
 * Interviewer: I
@@ -28,6 +27,7 @@ Hier den Leitfaden ergänzen.
 * Dauer: 1 Stunde
 * Datum: 28. Mai 2021
 * Uhrzeit: 16:00 Uhr
+* Ort: Zoom-Meeting
 
 ### Ziel
 Hier das Ziel des Interviews beschreiben/definieren.
@@ -38,11 +38,10 @@ Hier das Ziel des Interviews beschreiben/definieren.
 * Vorstellung des zu Interviewenden.
 
 ### Fragenkatalog
-Hier den Fragenkatalog verlinken [Fragenkatalog](Hier kommt der Pfad hin!), oder händisch einfügen.
+Hier den [Fragenkatalog](Hier kommt der Pfad hin!) verlinken, oder händisch einfügen.
 
 ## Transkript
-Hier das Transkript **verlinken**.
-[Beispiel](Hier kommt der Pfad hin!).
+Hier das [Transkript](Hier kommt der Pfad hin!) **verlinken**.
 
 ## Ergebnisprotokoll
 
@@ -52,8 +51,8 @@ Hier das Transkript **verlinken**.
 * Zusammenfassung der Kernaussagen
 * in Fließtext oder Bulletpoints
 
-#### Frage 2 (Beispiel: Wie zufrieden, oder unzufrieden sind Sie mit diesen und warum?)
-So geht es auch.
+#### Frage 2 (Beispiel: Wie zufrieden, oder unzufrieden sind Sie mit diesen Tools und warum?)
+So im Fließtext geht es auch.
 
 ### Dimension 2
 
