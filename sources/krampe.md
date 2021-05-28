@@ -12,7 +12,6 @@ history:
     v1:
         date: 2021-05-25
         comment: initially created
-
 ---
 ## Inhalt
 
