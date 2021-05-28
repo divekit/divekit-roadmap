@@ -34,7 +34,7 @@ Ehemals:
 * AP I
 * AP II
 
-In Zukunft eventuel aushelfen bei:
+In Zukunft eventuell aushelfen bei:
 * AP II
 
 ### Relevanz als Stakeholder
