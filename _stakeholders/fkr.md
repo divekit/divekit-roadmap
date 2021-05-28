@@ -2,8 +2,6 @@
 type: stakeholder
 acronym: fkr
 responsible: 
-    - fkr
-    - sbe
     - hbu
 name: Fabian Krampe
 stakeholderRole: wmaProg
@@ -12,8 +10,11 @@ relationshipToProject: >
     möchte eigene Ideen einbringen. 
 history:
     v1:
-        date: 2021-05-28
+        date: 2021-01-22
         comment: created initially
+    v2:
+        date: 2021-05-28
+        comment: addeed Steckbrief, Tätigkeitsgebiete and Relevanz
 todo:
 ---
 
