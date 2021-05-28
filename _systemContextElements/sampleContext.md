@@ -3,6 +3,9 @@ acronym: sampleContext
 type: itsystem, regulation, process, event 
 responsible:
     - sbe
+mentionnedInSource: 
+    - xxx   
+    - yyyy 
 history:
     v1:
         date: 2021-05-04

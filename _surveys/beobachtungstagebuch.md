@@ -4,9 +4,9 @@ type: survey
 subject: 
 responsible: 
     - xxx
-distributionChannels: 
-numberOfParticipants: 
-referencePopulation: 
+distributionChannels: Email, Discord
+numberOfParticipants: 13
+referencePopulation: 100
 stakeholderRole: student
 history:
     v1:

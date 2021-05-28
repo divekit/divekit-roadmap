@@ -8,7 +8,7 @@ stakeholder: fkr
 date: 2021-05-12
 duration: 01:07:24
 location: Zoom-Meeting
-transcriptUrl: 
+transcriptUrl: /sources/krampe.pdf
 history:
     v1:
         date: 2021-05-25
