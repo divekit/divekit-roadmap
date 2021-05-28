@@ -12,6 +12,9 @@ history:
     v1:
         date: 2021-05-06
         comment: created initially
+todo: 
+    - ausführlicher
+    - Rolle passt nicht ganz        
 ---
 
 ## Lehre 

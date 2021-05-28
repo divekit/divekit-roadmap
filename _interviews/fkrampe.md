@@ -8,11 +8,13 @@ stakeholder: fkr
 date: 2021-05-12
 duration: 01:07:24
 location: Zoom-Meeting
+transcriptUrl: 
 history:
     v1:
         date: 2021-05-25
         comment: initially created
-
+todo:
+    - Transkript-Referenz
 ---
 ## Interviewleitfaden
 

@@ -12,6 +12,9 @@ history:
     v1:
         date: 2021-05-07
         comment: grober Steckbrief und Relevanz des Stakeholders für Divekit
+todo:
+    - Anonymisierung oder Klärung zur Veröffentlichung
+    - andere Rolle   
 ---
 
 ## Steckbrief

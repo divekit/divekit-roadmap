@@ -9,11 +9,13 @@ stakeholder: n. n. WMA
 date: 2021-04-27
 duration: 2h
 location: Zoom-Meeting
+transcriptUrl: 
 history:
     v1:
         date: 2021-05-21
         comment: initially created & draft
-
+todo: 
+    - Stakeholder-Referenz
 ---
 
 ## Interviewleitfaden

@@ -13,6 +13,8 @@ history:
     v1:
         date: 2021-01-22
         comment: created initially
+todo:
+    - Ausführlichere Beschreibung
 ---
 
 ## Tätigkeitsgebiete 

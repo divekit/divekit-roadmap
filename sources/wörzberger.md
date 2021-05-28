@@ -4,7 +4,7 @@ type: literature reference
 responsible: 
     - jlü
 title:
-author: Jannis Lüchtefeld
+responsible: Jannis Lüchtefeld
 publisher: none
 source_url: none
 history:

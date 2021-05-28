@@ -5,7 +5,7 @@ responsible:
     - hbu
     - tza
 title:
-author: Henning Buhl
+responsible: Henning Buhl
 publisher: none
 source_url: none
 history:

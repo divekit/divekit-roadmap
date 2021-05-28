@@ -1,17 +1,20 @@
 ---
 acronym: n. n. Prof
-type: literature reference
+type: document
 responsible: 
     - mba
 title: Interview Transkript 
 author: Mert Barutcu
 publisher: none
-source_url: none
+sourceUrl: none
+date: 
+belongsToSystemContext: false
 history:
     v1:
         date: 2021-05-25
         comment: initially created and filled
-
+todo: 
+    - zum entsprechenden Interview verschieben
 ---
 
 ## Inhalt

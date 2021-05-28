@@ -5,12 +5,14 @@ responsible:
     - jlü
 name: Rene Wörzberger
 stakeholderRole: profInf
-relationshipToProject: >
-    
+relationshipToProject: 
 history:
     v1:
         date: 2021-05-14
         comment: created initially
+todo:
+    - ausformulieren
+    - Anonymisierung? 
 ---
 
 ## Tätigkeitsgebiete 

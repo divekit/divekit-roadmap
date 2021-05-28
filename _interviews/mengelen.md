@@ -7,6 +7,7 @@ stakeholder: men
 date: 2021-05-11
 duration: tba
 location: Zoom-Meeting
+transcriptUrl: 
 history:
     v1:
         date: 2021-05-07

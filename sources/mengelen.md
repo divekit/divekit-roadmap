@@ -4,7 +4,7 @@ type: literature reference
 responsible: 
     - psc
 title:
-author: Pascal Schorde
+responsible: Pascal Schorde
 publisher: none
 source_url: none
 history:

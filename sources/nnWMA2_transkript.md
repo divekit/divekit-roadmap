@@ -5,7 +5,7 @@ responsible:
     - fgr
     - ngi
 title: Interview Transkript n.n. WMA 2
-author: Nathalie Giessler
+responsible: Nathalie Giessler
 publisher: none
 source_url: none
 history:
