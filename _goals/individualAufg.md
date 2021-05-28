@@ -10,6 +10,7 @@ source:
     - [interview, fkrampe, Minute 00:05:05]
     - [interview, fkrampe, Minute 00:12:01]
     - [interview, fkrampe, Minute 00:13:25]
+    - [interview, fkrampe, Minute 00:20:49]
 partOfLargerGoal:
 history:
     v1:
