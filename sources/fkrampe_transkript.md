@@ -1,13 +1,10 @@
 ---
-acronym: krampe
+acronym: fkrampe_transkript
 type: literature reference
 responsible: 
     - hbu
     - tza
-title:
-responsible: Henning Buhl
-publisher: none
-source_url: none
+title: Interview Transkript 
 history:
     v1:
         date: 2021-05-25
