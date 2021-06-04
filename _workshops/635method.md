@@ -23,7 +23,7 @@ todo:
 
 ### Workshop 19.05.2021
 
-**Miroboard: https://miro.com/app/board/o9J_lER6ffY=/**
+**[Miroboard](https://miro.com/app/board/o9J_lER6ffY=/)**
 
 Beginn bei Runde 1  
 Ideen/Anforderungen aus Studentensicht an Divekit einfach mal aufschreiben  
@@ -92,3 +92,4 @@ Jeder startet wieder bei der gleichen Boardnummer. Sinn ist es neue Ideen reinzu
 Infos für das Tagebuch ist im Ilias zu finden  
 Danke und tschüss :)  
 
+**[Miroboard Export (20.05.2021)](../sources/635method_miro.pdf)**
