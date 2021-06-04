@@ -23,7 +23,7 @@ todo:
 Der wmaProg muss in seinem täglichen Arbeitsablauf grundsätzlich verschiedene Dinge im Bezug auf die Lehre absolvieren:
 
 * Praktika Meilensteine konzipieren
-* Praktika Meilensteine erstellen, individualiseren, korrigieren (manuell)
+* Praktika Meilensteine erstellen, individualisieren, korrigieren (manuell)
 * Studenten bei der Aufgabenstellung unterstützen
 * Klausuren korrigieren
 
