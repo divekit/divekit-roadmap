@@ -26,7 +26,7 @@ todo:
 
 ## Beschreibung
 
-Praktikumsaufgaben sollen sich mit geringem Arbeitsaufwand individualisieren lassen. Die verschiednen Versionen werden automatisch
+Praktikumsaufgaben sollen sich mit geringem Arbeitsaufwand individualisieren lassen. Die verschiedenen Versionen werden automatisch
 und zufällig verteilt.
 
 ## Begründung
