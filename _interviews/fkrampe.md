@@ -93,43 +93,99 @@ Bedarf und Einsatz von Tools (DiveKit)
 * Vorbereitung von Praktika-Meilensteinen
 * Feedback und Beratung von Studenten
 
-### Nutzen und Erwartungen
-**Frage 2: Welche Erwartungen hast Du persönlich an das DiveKit?**\
-**Frage 6: Welche Tätigkeiten soll Dir das DiveKit abnehmen/erleichtern?**\
-**Frage 7: Wie viel Zeit erwartest Du mit dem Tool zu sparen?**\
-**Frage 8: Welche anderen Aspekte (außer Zeitersparnissen) spielen eine wichtige Rolle für Dich?**\
-**Frage 9: Wozu würdest Du die Individualisierbarkeit der Aufgaben verwenden?**
 
-TODO
+### Nutzen und Erwartungen
+**Frage 2: Welche Erwartungen hast Du persönlich an das DiveKit?**
+* Erwartung der Entlastung generell und bei den Korrekturen
+* Qualität der Lehre darf nicht drunter leiden
+
+**Frage 6: Welche Tätigkeiten soll Dir das DiveKit abnehmen/erleichtern?**
+* Erstellen/Korrektur von Aufgaben soll erleichtert werden
+* Individualisierbarkeit bei Aufgaben, die nicht mit richtig oder falsch gelöst werden können
+* Übersicht: (Zusammenfassung von Ergebnissen von allen Studenten) (bestanden / nicht bestanden)
+
+**Frage 7: Wie viel Zeit erwartest Du mit dem Tool zu sparen?**
+* Zeitersparnis nicht klar erkennbar, wenn die Aufgaben so lange erstellt werden
+* Für Programmieraufgaben gut geeignet
+* Nicht automatisch Testbaren Aufgaben bewirken das Gegenteil (mehr Zeitaufwand)
+* Beratung von 4-5-er Gruppe ist deutlich effizienter (Idee von tza: Studenten zusammensuchen, die bei gleichen Aufgaben Probleme haben und zusammen beraten.)
+
+**Frage 8: Welche anderen Aspekte (außer Zeitersparnissen) spielen eine wichtige Rolle für Dich?**
+* Individuelle Betreuung
+* gute Betreuung; keine Massenabfertigung
+* Man vermeidet, dass im Team nur einer sich um die Aufgaben kümmert
+* Ist noch nicht 100 % Betrugssicherung, aber Leute müssen sicht mit der Aufgabe befassen
+
+**Frage 9: Wozu würdest Du die Individualisierbarkeit der Aufgaben verwenden?**
+* Individualisierbarkeit: Erschweren von Betrugsversuchen
+* Aufgaben-Konzepte können in anderen Kontexten verwendet werden (Workshop bei AOK)
+
+**Frage 20: Wie würden Sie persönlich den Erfolg dieses Projektes definieren?**
+* Es wäre gut, wenn die Studierende besser durch das Praktikum auf die Klausur vorbereitet sind
 
 ### Aktueller Ablauf
-**Frage 10: Wie sieht der Nutzungsablauf mit dem Tool aktuell aus?**\
-**Frage 12: Ist das Ausprobieren von erstellten Aufgaben für dich wichtig? (Studentensicht)**
+**Frage 10: Wie sieht der Nutzungsablauf mit dem Tool aktuell aus?**
+* Neuer Meilenstein -> Repo (Kopie vom letzten Meilenstein) -> Aufgaben erstellen (Individualisierung) -> Test erstellen -> Musterlösung erstellen -> Repos für Studierenden -> Bearbeitung von Aufgaben (bei Studierenden) -> Feedback und Beratung -> bestanden / nicht bestanden
 
-TODO
+**Frage 12: Ist das Ausprobieren von erstellten Aufgaben für dich wichtig? (Studentensicht)**
+* Wird aktuell bei erstellung von Musterlösung verwendet
+* Mehrere Ausprägungen (mehr als 1) werden aktuell nicht im Vorfeld generiert
+
 
 ### Änderungsvorschläge
-**Frage 11: Was würdest du an diesem ändern?**\
-**Frage 14: Welche Technologien soll man in das DiveKit integrieren und warum?**\
-**Frage 16: Wenn du das DiveKit nochmal entwickeln könntest, würdest du etwas ändern?**\
-**Frage 21: Wie stellst du dir die Verwendung des Tools in Zukunft vor? (Funktionsumfang)**
+**Frage 11: Was würdest du an diesem ändern?**
+* Obergrenze für Feedback für Studis (wegen bruteforce)
+* (optional) mehr Automatisierung beim Initialisierung (Repos anlegen, ...)
 
-TODO
+**Frage 14: Welche Technologien soll man in das DiveKit integrieren und warum?**
+* UML editor
+* UMLet
+
+**Frage 16: Wenn du das DiveKit nochmal entwickeln könntest, würdest du etwas ändern?**
+* Auf Stärken von DiveKit konzentrieren; Einsatz in diesen Bereichen
+* Profil schärfen
+* Nicht komplettes Praktikum darüber zu regeln
+* Interaktion mit Studierenden nimmt ab
+* Dialog fördern
+
+**Frage 21: Wie stellst du dir die Verwendung des Tools in Zukunft vor? (Funktionsumfang)**
+* Definitiv: Für Aufgaben wo es richtig und falsch gibt
+* personalisiertes Bereich für die Studierenden (freiwillige Aufgaben zur Lernstandeskontrolle)
+
 
 ### Klausureinsatz
 **Frage 15: Welche Herausforderungen siehst du, das DiveKit auch bei Klausuren einzusetzen?**
+* Automatische Korrektur kann man knicken
+* Bei Benotung von Klausuren gibt es kein richtig oder falsch mehr
+* Man muss mit dem Konstrukt vertraut sein
+* Studenten können in Klausur durch Verwendung des komplexen Tools überforder sein
+* Alle pushen in letzten 5 Minuten
+* Es ist ein komplexes System, wo an vielen Ecken etwas schiefgehen kann  
+* aktuell kein Backup-Server
 
-TODO
 
 ### Bedenken
 **Frage 18: Haben Sie Bedenken / Sorgen, bezogen auf das Projekt? Wenn ja, welche?**
-
-TODO
+* Befürchtung, dass das DiveKit das Praktikum ersetzt, statt es zu unterstützen
+* Die Interaktion mit den Studierenden flöten geht
+* Asynchrones Feedback vs. Gesprächsrunde
 
 ### Nutzung ohne Programmierkenntnissen
 **Frage 23: Wie stellst du dir die Verwendung des Tools ohne Programmierkenntnissen vor?**
-
-TODO
+* Lehrersicht:
+    * Editor für Konfiguration von "Variations"
+    * aktuell JSON
+    * Es geht auch darum, ob es schön ist oder nicht
+    * Erstellen von Repos -> One-Button-Solution
+* Studentensicht:
+    * IDE haben meiste Commands in UI eingebaut
+    * Die Studierenden kommen mit dem Tool klar
+    * Sie bekommen eine Einführung
+    * DiveKit ist kein Tool mehr, sondern Ökosystem
+    * Studierende können keine Stacktraces lesen
+    * Sobald sie verstanden haben, wie Git funktioniert, geht es eigentlich
+    * Benachrichtigung-Problem wird bereits in einer Bachelorarbeit ausgearbeitet
+    * Es gibt Leute, die das Praktikum freiwillig wiederholen -> Sie könnte man niedriger priorisieren
 
 
 ## (temp) Wichtige Stichpunkte
