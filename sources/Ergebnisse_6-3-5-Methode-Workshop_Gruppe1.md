@@ -1,7 +1,7 @@
 ---
 acronym: 6-3-5-No.1
 type: literature reference
-title: Ergebnisse 6-3-5-Methode-Workshop Gruppe 1
+title: Ergebnisse_6-3-5-Methode-Workshop_Gruppe1
 responsible: tza,ngi,fgr,jsp
 publisher: none
 source_url: none
