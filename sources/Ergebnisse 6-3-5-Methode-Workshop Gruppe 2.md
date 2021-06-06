@@ -13,6 +13,7 @@ history:
 ---
 
 **Schwerpunkt Interface:**
+
 Es soll ein Darkmode für Divekit eingeführt werden. Mit der Einstellung „Systemfarbe“ kann automatisch überprüft werden, ob White oder Darkmode genutzt werden soll. Gewünscht wären auch verschiede Varianten wie IDE Theme, Solarized, Dracula, High Contrast und true black.
 Vergangenes Feedback über Dropdown Menü anzeigen.
 
@@ -23,6 +24,7 @@ History über die bisherigen Abgaben ein- und ausklappbar machen.
 Position in der Warteschlange anzeigen, wann der Student überprüft wird.
 
 **Schwerpunkt Interaktion:**
+
 Es soll benachrichtigt werden, sobald die Überprüfung der Aufgaben abgeschlossen wurde. Mögliche Ansätze dies umzusetzen wäre eine E-Mail über die TH-Adresse, eine persönliche Nachricht auf Diskord von einem Bot oder eine gitlab Issue, wo der Student Staff member ist. Sobald die Issue vom Kontrolleur geschlossen wird, wird der Student automatisch informiert. 
 Um Zeit sparen zu können sollen an den Aufgaben mit Haken markiert werden können, welche Aufgabe kontrolliert werden sollen. 
 
@@ -52,6 +54,7 @@ Commit Messages nach einem vorgegebenen Muster verfassen lassen, um die Prüfer 
 Tools zur Förderung von Gruppenarbeiten wie Peer-Review oder auch studentische Förderung von Studenten mit Schwierigkeiten.
 
 **Schwerpunkt Technik:**
+
 Bessere Rückmeldung, wenn die Pipe gestorben ist, z.B. „Bitte ändere nicht deine om.xml“ anstatt nur eines Sterben der Testseite. Es soll bei solchen Problemen auch direkt ein Tutorial gegeben werden, mit dem dieses Problem gelöst werden kann.
 
 Automatische Tests sollen schneller gehen als 5 bis 10 Minuten.
@@ -71,6 +74,7 @@ Divekite sollte als Multiprozesssystem aufbauen.
 Eine Erkennungssoftware für Betrugsversuche von Studenten einführen.
 
 **Schwerpunkt Aufgaben:**
+
 Aufgaben sollen auch lokal getestet werden können, ohne sie schon commiten zu müssen.
 
 Automatisierte Erzeugung von komplexen Aufgabenstellungen über AI oder einen Pool mit Aufgaben gleicher Schwierigkeit. 
