@@ -94,9 +94,11 @@ Danke und tschüss :)
 
 **[Miroboard Export (20.05.2021)](../sources/635method_miro.pdf)**
 <br>
-Die Ergebnisse der Workshops sind in den folgenden Dateien festgehalen.
+
+Die Ergebnisse der Workshops sind in den folgenden Dateien festgehalten:
 <br>
-**[Ergebnisse des ersten Workshops (19.05.2021)](../sources/Ergebnisse 6-3-5-Methode-Workshop Gruppe 1.md)**
-**[Ergebnisse des zweiten Workshops(20.05.2021)](../sources/Ergebnisse 6-3-5-Methode-Workshop Gruppe 2.md)**
+**[Ergebnisse des ersten Workshops vom 19.05.2021](../sources/Ergebnisse_6-3-5-Methode-Workshop_Gruppe1.md)**
+<br>
+**[Ergebnisse des zweiten Workshops vom 20.05.2021](../sources/Ergebnisse_6-3-5-Methode-Workshop_Gruppe2.md)**
 
 
