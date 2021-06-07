@@ -39,7 +39,7 @@ todo:
 4. Reflexion der Methode und der Ergebnisse (ca. 15 Minuten)
 5. Feedback und Verabschiedung
 
-## Liste der Idden/Vorschläge
+## Liste der Ideen/Vorschläge
 
 1. Es wäre wünschenswert, Anfragen an den Kontrolleur stellen zu können, um Feedback einzuholen. Dies könnte mittels Kontaktfeld realisiert werden. Allerdings kann dies einen deutlichen Mehraufwand verursachen.
 2. Es wäre wünschenswert, bei einem Hardcrash des Tests einen Link zu einer Google oder Stakeoverflow Seite/Suche für den Fehler bereitzustellen. Dieser Link könnte automatisch auf Basis des Fehlers erstellt werden. Allerdings müsste der Fehler sinnvoll für die Suche aufbereitet werden, damit die Suche nicht ins Leere läuft.
@@ -93,20 +93,17 @@ todo:
 Mert...
 
 
-
-46.	Das System soll es ermöglichen, Feedback zum gesamten Code zu geben.
-    Das System soll es ermöglichen, Feedback zum gesamten Code zu erhalten.
-47.	Das System soll eine Chatfunktion bieten, mit der auf direktem Weg Fragen zu den korrigierten Aufgaben gestellt werden können.
-48.	Das System soll eine Chatfunktion für direkte Kommunikation über das Feedback bieten.
-49.	Das UI des Systems soll für eine bessere Optik überarbeitet werden.
-50.	Das UI des Systems soll einen Dark Mode bieten.
-51.	Das System soll die Möglichkeit bieten, auch das Feedback auf die vorherigen Tests zu sehen. (wird z.Zt. mit dem neuen Test überschrieben)
-52.	Das System soll es ermöglichen, auch zu bestandenen Tests Feedback zu geben.
-    Das System soll es ermöglichen, auch zu bestandenen Tests Feedback zu erhalten. 
-53.	Das System soll spontane Änderungen des Praktika-Konzepts unterbinden.
-54.	Das System soll einen Link oder Button für den schnellen Zugriff auf die Testseite erhalten.
-55.	Das System soll für häufig auftretende Fehler mehr Informationen bereitstellen.
-56.	Das System soll alle Aufgaben automatisch prüfen und keine manuellen Reviews mehr benötigen.
+46. __Es wird sich gewünscht, dass allgemeines Feedback zum gesamten Code gegeben wird.__ Es wird angemerkt, dass man dafür jemanden benötige, der sich die Zeit dafür nähme und ein zusätzliches Feld für allgemeines Feedback implementiert werden müsse. _Es wird kritisiert, dass man dies nicht benötige und dass es Zeit und Aufwand verursache, wodurch sich die Korrektur der anderen Abgaben verzögere._
+47. __Es wird sich gewünscht, ohne Discord Fragen zu den korrigierten Aufgaben stellen zu können.__ Es wird angemerkt, dass man dafür eine Chatfunktion auf der Feedbackseite brauche, die dann einen Betreuer z.B. per E-Mail benachrichtige. _Es wird kritisiert, dass es mit Discord doch bereits ein gutes Tool dafür gebe und der zusätzliche Aufwand unnötig sei._
+48. __Es wird sich gewünscht, eine Chatfunktion für direkte Kommunikation über das Feedback zu haben.__ Es wird angemerkt, dass man dafür ein eigenes Portal benötige und nicht nur die einfachen, generierten Testseiten. _Es wird kritisiert, dass das zu viel Aufwand sei und dass es dafür ja Discord gebe._
+49. __Es wird sich gewünscht, dass das Benutzerinterface für eine bessere Optik überarbeitet wird (Testseite, Feedbackseite).__ Es wird angemerkt, dass man dafür einen Web-Designer brauche. _Es wird kritisiert, dass ein Web-Designer unnötige Kosten verursache, da man das auch selber machen könne. In Bezug auf die optische Verbesserung der Testseite wird kritisiert, dass dies unnötig sei, da der Fokus auf der Funktionalität der Testseite liege._
+50. __Es wird sich gewünscht, dass die Webseite einen Dark Mode bekommt.__ Es wird angemerkt, dass dies einfach umzusetzen sei, z.B. mit einem Button zum Ändern des Farbschemas. _Es wird kritisiert, dass dies unnötig sei._
+51. Es wird sich gewünscht, auch vorheriges Feedback einsehen zu können.__ Es wird angemerkt, dass man dazu auch die vorherigen Tests speichern müsse. Man könne dann das Feedback über Feile unter den jeweiligen Tests einbinden. _Es wird kritisiert, dass dies die Testseite verkompliziere und dass sich der zusätzliche Speicherbedarf mit der Zeit häufen könne._
+52. Es wird sich gewünscht, auch zu bestandenen Tests Feedback zu erhalten.__ Es wird angemerkt, dass dies aufwändig, aber machbar sei. Es wird außerdem angemerkt, dass dies die generelle Korrektur der Abgaben verzögern würde. _Es wird kritisiert, dass dies einen höheren Aufwand für die Betreuer bedeute und dass Kommentare evtl. verunsichern könnten. Dies wird wiederum kritisiert, da bei manuellen Tests ohnehin der Code betrachtet und als "Bestanden" markiert werden müsse, weshalb der Aufwand nicht deutlich größer sei._
+53. Es wird sich gewünscht, dass es keine spontanen Änderungen des Praktika-Konzepts geben soll.__ Es wird angemerkt, dass man analysieren müsse, was die spontanen Änderungen verursacht und wie man das verhindern könne. _Es wird kritisiert, dass es immer situationsabhängige Fälle geben werde, die man nicht oder nur schwer verhindern könne._
+54. __Es wird sich gewünscht, dass es einen Button oder Link für den schnellen Zugriff auf die Testseite geben soll.__ Es wird angemerkt, dass dies sinnvoll sei und mit einer einfachen Änderung an der README-Datei umgesetzt werden könne. _Die Kritik stimmt ebenfalls zu, dass dies einfach zu machen sei._
+55. __Es wird sich gewünscht, bessere Informationen für häufig auftretende Fehler zu erhalten.__ Es wird angemerkt, dass man dafür ein FAQ nutzen könne. Weiter wird angemerkt, dass es besser sei, stattdessen diese häufigen Fehler abzufangen und dann zusätzliche Informationen bereit zu stellen. _Es wird kritisiert, dass diese Probleme schwer differenzierbar seien und daher nur wenige Fehler mehr Informationen erhalten würden._
+56. __Es wird sich gewünscht, die Aufgaben so zu gestalten, dass keine manuelle Prüfung mehr nötig ist.__ Es wird angemerkt, dass die Aufgabensteller dazu die Aufgaben so stellen müssten, dass die Lösungen automatisch geprüft werden können und dass ein einmaliger Mehraufwand für die Erstellung weiterer automatischer Tests entstehe. _Es wird kritisiert, dass einige Dinge nicht automatisch prüfbar seien, wie z.B. der Codestyle._
 
 
 
