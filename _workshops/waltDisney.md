@@ -15,7 +15,7 @@ history:
     v1:
         date: 2021-06-01
         comment: Initially created
-    v1:
+    v2:
         date: 2021-06-07
         comment: Added Ablauf and rough list of ideas
 todo:
