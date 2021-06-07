@@ -120,11 +120,15 @@ Kategorisieren in _Interface, Interaktion, Technik, Aufgaben, Usability, Respons
 Im folgenden werden die einzelnen Wünsche zusammengetragen.
 
 
-
-
-
-* Responsivity (schnellere Ergebnisse, Automatische Hinweise, automatische Korrektur für alles, Musterlösung bei bestandener Abgabe)
-* Usability (bessere Feedback Seite, Feedback schon in der IDE, manuelle Prüfungswarteschlange, direkter Kontakt in Test seite)
+Ein großer Teil der Fragen können in das Feld der Usability (UI, Responsibility, etc) zusammengefasst werden. Viele Wünsche der Studenten lassen sich in folgenden Stichpunkten zusammengefassen:
+* schnellere Ergebnisse
+* Automatische Hinweise
+* automatische Korrektur für alles
+* Musterlösung bei bestandener Abgabe
+* bessere Feedback Seite
+* Feedback schon in der IDE
+* manuelle Prüfungswarteschlange
+* direkter Kontakt in Test seite
 
 
 
