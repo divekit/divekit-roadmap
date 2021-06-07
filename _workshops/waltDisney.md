@@ -54,80 +54,27 @@ todo:
 11. Es wäre wünschenswert, wenn Divekit auf für andere Fächer (z. B. DB1, Algo, AP1, AP2, PP) eingsetzt werden würde. Dafür müsste Divekit verschiedene Aufgabentypen die zu den jeweiligen Fächern passen abbilden.
 12. Es wäre wünschenswert, wenn es Bonuspunkte für Commits gäbe. Diese könnten automatisiert überprüft werden. Allerdings bedarf es eine faire Bewertungsmaßstab, der Missbrauch verhindert.
 
+13. Es wird sich gewünscht, Feedback direkt in der IDE anstatt erst im Browser zu sehen. Als Vorschlag wurde eine Helfer-Klasse oder die Kontaktaufnahme mit den Entwicklern der IDE genannt. Es wird gewarnt, dass die IDE evtl. nicht open-source sei oder dass mehrere IDEs supported werden müssten.
 
+14. Es wird sich gewünscht, dass auch Diagramme automatisch korrigiert werden. Als Vorschlag wurde eine Bilderkennung zwischen Muster- und Studentenlösung genannt. Es wird gewarnt, dass es zu aufwändig sei und dass der Argumentationsspielraum für verschiedenen Lösungen verloren geht.
 
-13. Direktes Feedback in der IDE anstatt im Browser
-    * Mit den Entwicklern der IDE in Verbindung setzen um die Integration besser zu ermöglichen
-    * Helfer- Klasse im Repo hinzufügen, welche die Tests Remote ausführt
-    * Automatischen git Pull
-        * IDE eventuell nicht Open Source oder ohne Plugin Möglichkeiten
-        * Es müssten im sich besser Optimalfall mehr als eine IDE supported werden um den Studenten immernoch die Wahl der IDE zu lassen
+15. Es wird sich gewünscht, die Testseite in einer App zugänglich zu machen. Als Vorschlag wurde die Entwicklung auf Android und iOS oder die Cross-Platform Entwicklung einer App vorgeschlagen. Der Browser könnte auch als Anzeige verwendet werden. Es wird gewarnt, dass die Entwicklung der App viel Zeit und Geld kosten würde und die App evtl. sogar kaum benutzt werden könnte.
 
-14. Automatische Korrektur auch für Diagramme
-    *  Eine oder mehrere feste Musterlösungen die mit Image Recognition verglichen werden müssen.
-        * Aufwändig. Argumentationspotenzial für verschiedene Ansichten geht dabei verloren.
-        * Spielraum der Betreuer bei kleinen Syntaxfehlern geht verloren
+16. Es wird sich gewünscht, dass Studenten andere Studenten kontrollieren können um Bonuspunkte zu sammlen. Als Vorschlag wurde die Implementierung eines Belohnungs- und Reviewsystems genannt. Es wird gewarnt, dass Studenten falschen Feedbach geben könnten und nicht immer richtig korrigieren. Studenten könnten sich auch gegenseitig gut bewerten und das müsste dann wieder kontrolliert werden.
 
-15. Testseite in einer App für bessere Zugänglichkeit + Usability
-    * Man würde mind. einen Entwickler für iOS sowie einen Entwickler für die Android App benötigen um jedem Studenten Zugriff auf die App zu gewähleisten
-    * Es gibt auch Möglichkeiten zur Cross- Plattform- Entwicklung für iOS und Android
-    * Einfache Anzeige des Browsers in der App
-    * Verbindung über den Benutzernamen in Git
-        * App Entwicklung kostet viel Zeit, und benötigt Leute die es können. Zudem kann es sein das die App einfach von niemandem genutzt wird.
+17. Es wird sich gewünscht, automatisch Tips bei falscher Lösung zu bekommen. Als Vorschlag wurde die Hinterlegung einer Musterlösung und die Ausgabe von Tips die zum jeweiligen Fehler passen genannt. Es wird gewarnt, dass damit ein trial-and-error Ansatz zur Lösung der hidden Tests führen kann.
 
-16. Studenten können andere Studenten kontrollieren und Bonuspunkte sammeln
-    * Implementierung eines geeigneten Belohnungssystems ggf. auf Basis von Fehlerfreien Commits oder sauberer Commit History
-    * Reviewsystem wird benötigt
-    * Zusätzliche Testseite.
-        * Studenten könnten falsches Feedback geben, da sie es nicht besser wissen und selber noch lernen
-        * Studenten cheated Es müssten im sich besser
-        * Studenten geben sich absichtlich besseres Feedback
+18. Es wird sich gewünscht, Bonuspunkte für die schnelle Lösung der Aufgaben zu bekommen. Als Vorschlag werden 24/7 Arbeitsschichten der manuelle Kontrollen und ein geeignetes Belohnungssystem genannt. Es wird gewarnt, dass dieser Ansatz unfair gegenüber arbeitenden Studenten sei. Studenten mit Vorwissen haben evenfalls einen Vorteil. Die Codequalität könnte auch darunter leiden und im schlimmsten Fall könnte es einen Handel für die Lösungen der individualisierten Aufgaben geben (Echtgeld gegen Bonuspunkte).
 
-17. Bei fehlgeschlagenen Tests sollte man Tipps zur Lösung bekommen
-    * Hinterlegen einer Musterlösung um Tipps geben zu können
-    * Ausgabe der Tipps, die zum jeweiligen Fehler passen.
-        * Führt zu Trial and Error Verhalten, was mit Hidden Tests eigentlich verhindert werden soll
+19. Es wird sich gewünscht, die Ergebnisseite übersichtlicher zu machen. Als Vorschlag wird eine Überarbeitung der Testseite genannt. Es wird gewarnt, dass die Überarbeitung zu mehr Aufwand führt.
 
-18. Bonuspunkte nach Geschwindigkeit, also 1-3 Tage nach Begin 2 BP 4-6 Tage 1BP
-    * 24/7 Schichten haben damit jede Manuelle Prüfung sofort durchgeführt werden kann
-    * Geeignetes Belohnungssystem implementieren
-        * Unfair gegenüber Studenten welche auch Arbeiten nebenbei um sich das Studium zu finanzieren und nicht direkt Zeit für die Aufgabe haben
-        * Könnte zu generell schlechterem Code führen da Studenten unter "Zeitdruck" arbeiten
-        * Studenten mit Vorwissen haben Vorteile
-        * Es würde eventuell eine "Black Market" geben in dem Lösungen von Erfahrenen Studente verkauft werden
-        * we gonna get money yeah
+20. Es wird sich gewünscht, einsehbar zu machen, in welcher Warteschlagenposition man bei der manuelle Korrektur ist. Als Vorschlag wurde eine Anzeige der Position genannt. Es wird gewarnt, dass Kontrollen unterschiedliche lange dauern und durch verschiedene Arbeitszeiten der Mitarbeiter keine genaue Aussage dazu getroffen werden kann. Oft ist es auch so, dass am Ende eines Meilensteins viele Leute gleichzeitig abgeben und daruch ein Engpass entsteht.
 
-19. Die Ergebnisseite übersichtlicher gestalten um schneller sehen zu können wo das Problem liegt
-    * Überarbeitung der Testseite im Design und in der Struktur.
-        * Erstellung von Design und neuer Struktur bedeutet wieder mehr Aufwand. Finde zudem persönlich ist die Testseite selber soweit übersichtlich.
+21. Es wird sich gewünscht, die Aufgaben weiter zu idividualisieren und das DiveKit auf anderen Module zu erweitern. Als Vorschlag dazu die Erstellung von neuen Aufgaben passend zu den Module genannt. Es wird gewarnt, dass Dozenten nur schwer von dem System überzeugt werden können und eine Umstellung eine Katastrophe sein könnte (wie die Umstellung auf Online auf Grund von Corona - War eine absolute Katastrophe in 90% der Fächer).
 
-20. Eine Warteschlange, in der man sehen kann, wann die manuelle Prüfung meiner Tests ansteht
-    * Einfache Anzeige, die zeigt an welcher Stelle man steht.
-    * Feste Arbeitszeiten der Kontrolleure festlegen und eine durchschnittliche Kontrolldauer für jede Aufgabe ermitteln
-        * Sind nicht unbedingt immer zu festen Zeiten verfügbar.
-        * Schwierig, da die Diagramme unterschiedlich gut sind und die Kontrolle pro Student unterschiedlich lange dauert
-        * Problematisch, da am Anfang eines Meilensteins fast kein Arbeitsaufwand für die Betreuer besteht, während sie 2 Tage vor der Deadline dann überrannt werden. 
-        -> Vermutlich bezogen auf die Leute die auf den letzten Drücker warten. Das gibt dann n Problem für die Zeitplanung der Betreuer.
-        -> Das ist ja aber eher ein generelles Problem und keiner einer Warteschlangenanz eige
-        -> Klar. Aber Realistkarte geht halt von den festen Arbeitszeiten für die Umsetzung aus. Deshalb schon eTwAs problematisch
+22. Es wird sich gewünscht, ein Chatsystem auf der Testseite zu haben um direkt mit dem Betreuer in Kontakt zu treten. Als Vorschlag wurde dafür die Endingung einer Chatbox mit IRC Protokoll auf der Testseite genannt. Es wird gewarnt, dass es immer jemand für den Chat verfügbar sein muss.
 
-21. Bessere Individualisierung der Aufgaben. Auch ausweitbar auf andere Module wie z.B. Mathe.
-    * Dozenten/ Betreuer müssen neue Aufgaben passend zum Divekit erstellen
-        * Dozenten sind nur sehr schwer zu überzeugen von ihrem gewohnten System wegzugehen und ein neues zu verwenden ( siehe Umstellung auf Online auf Grund von Corona. War eine absolute Katastrophe in 90% der Fächer )
-
-22. Integrierter Chat auf Testseite, damit ggf. vorheriges Feedback bei einem Betreuertausch für den nächsten ebenfalls vorhanden ist, oder das der Student spezielle Fragen stellen kann, um den Nachrichtenfluss in Discord zu minimieren.
-    * Einbindung einer Chatbox. Integrierbar auf der Testseite.
-    * Chat per IRC Protokoll (wie Twitch) umsetzen
-        * Es müsste immer jemand im Chat verfügbar sein
-
-23. Anzeigen einer Musterlösung nach erfolgreichem Bestehen des Tests
-    * Anfertigen der Individuellen Musterlösungen durch die Betreuer
-        * Hoher Zeitaufwand für die Betreuer, außer, die Lösungen werden Automatisch von einer Musterlösung Abgeleitet, da die Aufgaben sich eh fast nur in Variablennamen und Szenarien Unterscheiden.
-        * Problematisch bei Aufgaben mit vielen Umsetzungsmöglichkeiten
-
-
-
-
+23. Es wird sich gewünscht, eine Musterlösung angezeigt zu bekommen nachdem man die Aufgabe erfolgreich gelöst hat. Als Vorschlag wurde die Anfertigung einer individuellen Musterlösung durch den Beteuer genannt. Es wird gewarnt, dass dies zu hohem Zeitaufwand für den Betreuer führen würde.
 
 24. Es wird sich gewünscht, dass die Studierenden schneller benachrichtigt werden, wenn die Korrektur einer Aufgabe abgeschlossen ist. Als Vorschlag werden Discord-Bots genannt, die Bescheid geben. Es wird gewarnt, sich nicht zu stark von Discord abhängig zu machen.
 25. Es wird sich gewünscht, das es eine Meldung/Notification für abgeschlosses Feedback gibt. Es wird vorgeschlagen, den Nutzern mehrere Benachrichtigunsmittel anzubieten, welche dann frei gewählt werden können. Als Kritik wird angemerkt, dass das Berücksichtigen aller Nutzerpräferenzen sehr aufwendig wäre.
