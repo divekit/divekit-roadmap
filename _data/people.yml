@@ -35,7 +35,7 @@ ako:
   nickname: Alexander Kosmehl
   team: 1
 ngi:
-  nickname: Nathalie Giessler
+  nickname: Nathalie \
   team: 6
 fgr:
   nickname: Fabian Grüterich
@@ -45,4 +45,7 @@ jsp:
   team: 2a
 cpo:
   nickname: Christopher Poloczek
+  team: 8
+aha:
+  nickname: André Hahn
   team: 8
