@@ -2,7 +2,10 @@
 acronym: waltDisney
 type: workshop
 responsible: 
-    - 
+    - aha
+    - cpo
+    - hbu
+    - psc
 goals: 
 date: 
 time: 
@@ -10,17 +13,33 @@ method:
 stakeholderRole: student
 history:
     v1:
-        date: 
-        comment: 
+        date: 2021-06-01
+        comment: Initially created
+    v1:
+        date: 2021-06-07
+        comment: Added Ablauf and rough list of ideas
 todo:
     - füllen       
 ---
 
 ## Ablauf
 
-TODO
+1. Begrüßung
+2. Einführung (ca. 15 Minuten)
+	1. Bereitstellung des Miroboards (https://miro.com/app/board/o9J_lER6fao=/)
+	2. Vorstellung des DiveKit-Szenarios und
+	3. Vorstellung der Methode _Walt-Disney_
+		1. Die Rolle _Träumer_
+		2. Die Rolle _Realist_
+		3. Die Rolle _Kritiker_
+3. Workshop (ca. 45 Minuten)
+	1. Hineinversetzen in die Rolle _Träumer_ (ca. 15 Minuten)
+	2. Hineinversetzen in die Rolle _Realist_ (ca. 15 Minuten)
+	3. Hineinversetzen in die Rolle _Kritiker_ (ca. 15 Minuten)
+4. Reflexion der Methode und der Ergebnisse (ca. 15 Minuten)
+5. Feedback und Verabschiedung
 
-## Liste
+## Liste der Idden/Vorschläge
 
 1. Es wäre wünschenswert, Anfragen an den Kontrolleur stellen zu können, um Feedback einzuholen. Dies könnte mittels Kontaktfeld realisiert werden. Allerdings kann dies einen deutlichen Mehraufwand verursachen.
 2. Es wäre wünschenswert, bei einem Hardcrash des Tests einen Link zu einer Google oder Stakeoverflow Seite/Suche für den Fehler bereitzustellen. Dieser Link könnte automatisch auf Basis des Fehlers erstellt werden. Allerdings müsste der Fehler sinnvoll für die Suche aufbereitet werden, damit die Suche nicht ins Leere läuft.
@@ -34,13 +53,6 @@ TODO
 10. Es wäre wünschenswert, wenn eine Vorhersage über die Dauer über das Ende des Tests gegeben werden könnte.
 11. Es wäre wünschenswert, wenn Divekit auf für andere Fächer (z. B. DB1, Algo, AP1, AP2, PP) eingsetzt werden würde. Dafür müsste Divekit verschiedene Aufgabentypen die zu den jeweiligen Fächern passen abbilden.
 12. Es wäre wünschenswert, wenn es Bonuspunkte für Commits gäbe. Diese könnten automatisiert überprüft werden. Allerdings bedarf es eine faire Bewertungsmaßstab, der Missbrauch verhindert.
-
-
-
-
-
-
-
 
 
 
@@ -129,7 +141,11 @@ TODO
 33. Es wird sich gewünscht, dass Bonuspunkte für schnelöle und fehlerfreie Abgaben vergeben werden. Es wurde aich vorgeschlagen, zu zählen, wie oft eine Aufgabe kontrolliert wurde. Dies wird aber dafür kritisiert, dass so Studierende bestraft werden, wenn sie die Aufgaben später macehn.
 34. Es wird sich eine komplette Automatisierung des Feedbacks gewünscht. Es Vorschlag wurede ergänzt, dass die Studireden sich selbst eine manuelle Überprüfung wünschen könnten. Kritisiert wird der Vorschlag dafür, dass viele Sachen nicht komplett automatisiert werden können.
 
+
+
 Mert...
+
+
 
 46.	Das System soll es ermöglichen, Feedback zum gesamten Code zu geben.
     Das System soll es ermöglichen, Feedback zum gesamten Code zu erhalten.
@@ -167,7 +183,7 @@ Im folgenden werden die einzelnen Wünsche zusammengetragen.
 
 
 
-
+## Miro-Workshops
 
 
 
