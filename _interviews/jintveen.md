@@ -1,11 +1,11 @@
 ---
-acronym: n.n. WMA
+acronym: jintveen
 type: interview
 responsible: 
     - kru
     - duz
     - ako
-stakeholder: n. n. WMA
+stakeholder: jin
 date: 2021-04-27
 duration: 2h
 location: Zoom-Meeting
@@ -14,11 +14,26 @@ history:
     v1:
         date: 2021-05-21
         comment: initially created & draft
-todo: 
-    - Stakeholder-Referenz
+    v2:
+        date: 2021-06-07
+        comment: updated data
+todo:
+    - Anpassen an die Vorlage
+    - Ergebnisprotokoll
 ---
 
 ## Interviewleitfaden
+
+### Teilnehmer:
+* Interviewer: Deniz Uzun
+* Protokollant: Alexander Kosmehl, Kay Ruck
+* Interviewpartner: Jann Intveen
+
+### Modalitäten
+* Dauer: 2 Stunden
+* Datum: 27. April 2021
+* Uhrzeit: 11:00 Uhr
+* Ort: Zoom-Meeting
 
 ### Ziel 
 
@@ -32,7 +47,7 @@ Erster, technischer Überblick über das DiveKit.
 
 ### Fragenkatalog
 
-### Ist Zustand
+#### Ist Zustand
 * Wie sind Sie zu dem Projekt gekommen? / Welche Funktion nehmen Sie ein? 
 * Wer benutzt das DiveKit? Welche Rollen sind am DiveKit beteiligt?
 * Welche Ziele sollen durch das DiveKit erreicht werden? 
@@ -45,7 +60,7 @@ Erster, technischer Überblick über das DiveKit.
 * Welche Richtlinien müssen eingehalten werden? (Datenschutz, Datensicherheit, Barrierefreiheit)
 * Wie kommt das DiveKit zum Einsatz? (Systemstruktur)
 
-### Einschränkungen
+#### Einschränkungen
 * Welche Tools wurden zur Weiter-/Entwicklung genutzt? 
     * Gibt es eine Technologie, die angewandt / eingebunden werden soll?
     * Kann plattformunabhängig genutzt werden?
@@ -55,11 +70,27 @@ Erster, technischer Überblick über das DiveKit.
     * Wenn ja wie wird damit verfahren? 
     * Werden die Daten anonymisiert? 
 
-### Weiterentwicklung
+#### Weiterentwicklung
 * Wie ist die Weiterentwicklung geplant?
     * Gibt es Kriterien, welche diese beeinflussen?
 * Gibt es weitere Bereiche bzw. Personen, mit denen wir sprechen sollten?
 * Wenn Sie das DiveKit nochmal entwickeln könnten, würden Sie etwas ändern? Wenn ja was?
 * Haben Sie sonstige Anmerkungen / Hinweise? Möchten Sie noch etwas Ergänzen? 
 
+## Transkript
+Link zum [Transkript](../sources/jintveen_transkript.pdf).
+
 ## Ergebnisprotokoll
+
+### Dimension 1 (Beispiel: Digitale Lehre)
+
+#### Frage 1 (Beispiel: Welche Tools nutzen Sie für die digitale Lehre?)
+* Zusammenfassung der Kernaussagen
+* in Fließtext oder Bulletpoints
+
+#### Frage 2 (Beispiel: Wie zufrieden, oder unzufrieden sind Sie mit diesen Tools und warum?)
+So im Fließtext geht es auch.
+
+### Dimension 2
+
+#### Frage 1
