@@ -1,5 +1,5 @@
 ---
-acronym: legalRegulationsForIndividualExams
+acronym: gesetzlicheBedingungen
 type: regulation
 responsible:
     - jlü
