@@ -1,11 +1,10 @@
 ---
 acronym: n.n. WMA 2
 type: literature reference
+title: Interview Transkript n.n. WMA 2
 responsible: 
     - fgr
     - ngi
-title: Interview Transkript n.n. WMA 2
-responsible: Nathalie Giessler
 publisher: none
 source_url: none
 history:

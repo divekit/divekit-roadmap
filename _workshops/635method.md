@@ -23,7 +23,7 @@ todo:
 
 ### Workshop 19.05.2021
 
-**Miroboard: https://miro.com/app/board/o9J_lER6ffY=/**
+**[Miroboard](https://miro.com/app/board/o9J_lER6ffY=/)**
 
 Beginn bei Runde 1  
 Ideen/Anforderungen aus Studentensicht an Divekit einfach mal aufschreiben  
@@ -91,4 +91,14 @@ Jeder startet wieder bei der gleichen Boardnummer. Sinn ist es neue Ideen reinzu
 18:24 zurück ins Zoom  
 Infos für das Tagebuch ist im Ilias zu finden  
 Danke und tschüss :)  
+
+**[Miroboard Export (20.05.2021)](../sources/635method_miro.pdf)**
+<br>
+
+Die Ergebnisse der Workshops sind in den folgenden Dateien festgehalten:
+<br>
+**[Ergebnisse des ersten Workshops vom 19.05.2021](../sources/Ergebnisse_6-3-5-Methode-Workshop_Gruppe1.md)**
+<br>
+**[Ergebnisse des zweiten Workshops vom 20.05.2021](../sources/Ergebnisse_6-3-5-Methode-Workshop_Gruppe2.md)**
+
 

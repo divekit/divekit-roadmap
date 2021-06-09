@@ -14,6 +14,7 @@ relationshipToProject: >
 source: 
     - [interview, fkrampe, Minute 21:02]
     - [workshop, 635method, p. 2 oben]
+    - [Calabria 2004, An introduction to personas]
 history:
     v1:
         date: 2021-05-04

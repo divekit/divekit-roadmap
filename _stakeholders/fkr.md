@@ -39,7 +39,7 @@ In Zukunft eventuell aushelfen bei:
 
 ### Relevanz als Stakeholder
 
-Herr Krampe ist sehr stark in das das Erstellen und das Korrigieren der Praktika und Klausuren involviert. Durch die langjährige Tätigkeit in diesem
+Herr Krampe ist sehr stark in das Erstellen und das Korrigieren der Praktika und Klausuren involviert. Durch die langjährige Tätigkeit in diesem
 Bereich und durch die Benutzung des DiveKits sind seine Ansichten, Erwartungen und Erfahrungen sehr wichtig für die Analyse des Systems. 
 
 

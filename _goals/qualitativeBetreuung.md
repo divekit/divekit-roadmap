@@ -24,5 +24,5 @@ ist dabei sehr wichtig.
 
 ## Begründung
 
-Manche Stundenten möchten oder/und brauchen Hilfestellung bei der Lösung der Aufgaben die sie auch schließlich auf die Klausur
+Manche Studierende möchten oder/und brauchen Hilfestellung bei der Lösung der Aufgaben, die sie auch schließlich auf die Klausur
 vorbereiten sollen.
