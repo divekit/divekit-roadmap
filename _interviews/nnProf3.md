@@ -57,7 +57,97 @@ Wofür wird Individualisierung in der Digitalen Lehre benötigt?
 
 ---
 ## Protokoll
+Protokoll Interview 
+_______
+1.
+* 07 technische Informatik
+* Master Studiengangsleiter
+* DevOPS im BA
+* Softwareengineering
+* Softwareentwurfspratikum im BA
+* Code&Context
+* Softwarearchitektur und Entwürfe
+________________
+2.
+* Risiken:
+    * Prüfungsorganisation
+    * Betrugsversuche aufdecken geht Remote nicht so gut
+    * Studierendenverhalten (keine Kamera, kein Bild)
+* Chancen:
+    * Lehre wird effizienter
+    * Lehrform kann umgestellt werden (flipped Classroom)
+    * Über Übungen in die Diskussion
+    * Freitext aufgaben fast ausschließen
+__________
+3.
+* Git, gitlab -> sollte möglichst früh gelernt, da wichtig für einen Entwickeler
+* Ilias
+* Google Cloud
+* Kursangebot von Google
+* Quicklabs in der Google Cloud für Tutorials
+* IDEs, Visual Studio Code hauptsächlich
+* Ascii-doc Vorlagen-> besser als md
+* Plant-uml
+* Camtasia zum Videos vorbereiten
+* a.)
+    * Ziehmlich um Supportfälle zu minimieren.
+    * Viele Vorgaben
+    * Zu viel Kreativität erhöht den Aufwand für den Lehrenden
+* b) 
+    *  der Teufel steckt im Detail
+    * keine Pauschale Lösung
+    * Tolls die ähms rausschreiben
+__________
+4.
+* Hands on
+* Labs
+*   Git
+*  Programme sind relativ trivial
+*   Commandozeilen programme
+*   Merge requests
+*   Kleinschrittige Aufgabenstellung
+*   Docker, Kubernetes wie man damit arbeitet
 
+* Ba
+  * Entwicklungsprozess einmal durchgehen
+  * Jedes Team hat andere Aufgabenstellung
+  * Nicht Productowner-> inhaltich schwierig zu bewerten
+
+* MA
+    * Jedes Team stellt sich Aufgabe selbst
+    * Muss sich um Cloud drehen
+    * Research question
+    * Kleinen Prototypen entwickeln
+    * IEEE Paper schreiben
+    * Eher Forschungsprojekt ähnlich
+    * Begrenzter workload
+________
+5.
+*  Lehrformen ändern sich
+* Flipped Classroom
+* Über zoom ist reguläre Vorlesung nicht mehr zeitgemäß
+* Mehr Eigeninitiative der Studierenden
+* Automatisierung von Prüfungen -> Mathe, Programmierung
+________
+6.
+* Bewegt sich alles im Rahmen eines Templates
+* Je hoher die Abstraktion umso schwerer
+* Code Coverage messen
+* Viel arbeit für automatisierung
+* Problem: man stellt nur einen Aufgabentyp weil der durch automatisiert ist
+* Als zwischenübung gut, aber nicht so praxisnah
+_____
+7.
+* Mathe, Informatik da leicht automatisiert Prüfbar
+_________
+8.
+* Eigentlich ausschließlich für Betrugsprävention
+* Prüfungsrelevant
+* Rechtlich: Wie weit darf man Variiren? Ist man benachteiligt durch bestimmte Variationen
+* Aufgabenstellungen vertauschen
+_________
+9
+* Nicht allzuviel in die Richtung gedacht
 
 
 ---
