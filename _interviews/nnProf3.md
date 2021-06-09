@@ -57,7 +57,8 @@ Wofür wird Individualisierung in der Digitalen Lehre benötigt?
 
 ---
 ## Protokoll
-Protokoll Interview 
+Protokoll Interview:
+Die Nummern entsprechen den Fragen aus dem Fragekatalog
 _______
 1.
 * 07 technische Informatik
