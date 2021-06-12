@@ -26,6 +26,9 @@ history:
     v2:
         date: 2021-06-12
         comment: added description
+    v3:
+        date: 2021-06-12
+        comment: modified description
     todo:
 ---
 
@@ -39,7 +42,9 @@ mit der Entwicklung von Software und generell der Softwaretechnik beschäftigen.
 ist er für die Abnahme von Praktikumsergebnissen und dem Gestalten und Leiten einiger Praktika zuständig. Mittlerweile
 übernimmt er auch eigene Lehrveranstaltungen komplett.
 
-Dennis hat bereits etwas mit dem DiveKit gearbeitet und hat großes Interesse daran, das Tool in der Lehre einzusetzen.
+Dennis lässt sich immer gerne auf neue Technologien ein. Es gibt kaum etwas, dass ihn mehr begeistern könnte. Bei der
+Suche nach einem unterstützenden Tool in der digitalen Lehre ist er über das DiveKit gestoßen.
+Er hat etwas damit gearbeitet und hat jetzt großes Interesse daran, das Tool in der Lehre einzusetzen. 
 Er sieht sehr großes Potenzial im Einsatz. Dadurch erhofft er sich insbesondere eine Entlastung bei den Korrekturen und
 einen besseren Lernerfolg der Studierenden. Die Individualisierung von Aufgaben soll nämlich dazu anregen, dass
 eigenständige Lösungen entwickelt werden. Schummeln soll für die Studierenden so aufwendig werden, dass es sich nicht
