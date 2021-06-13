@@ -6,6 +6,7 @@ responsible:
     - cpo
     - hbu
     - psc
+    - mba
 goals: Sammeln von Ideen für Weiterentwicklung des DiveKit aus Studenten-Sicht
 date: 2021-05-19
 time: 13:00
@@ -88,10 +89,17 @@ todo:
 33. Es wird sich gewünscht, dass Bonuspunkte für schnelöle und fehlerfreie Abgaben vergeben werden. Es wurde aich vorgeschlagen, zu zählen, wie oft eine Aufgabe kontrolliert wurde. Dies wird aber dafür kritisiert, dass so Studierende bestraft werden, wenn sie die Aufgaben später macehn.
 34. Es wird sich eine komplette Automatisierung des Feedbacks gewünscht. Es Vorschlag wurede ergänzt, dass die Studireden sich selbst eine manuelle Überprüfung wünschen könnten. Kritisiert wird der Vorschlag dafür, dass viele Sachen nicht komplett automatisiert werden können.
 
-
-
-Mert...
-
+35. Es wird sich gewünscht, eine Übersicht die zusammenhängende Meilensteine eines Semesters/Kurses darstellt. Personalisiertes Projekt für jeden Kurs und jeden User in das die Repos hinzugefügt werden, damit sie zugeordnet werden können. Es wird kritisiert, dass ein sehr hoher Aufwand entsteht, wenn eine komplett neue Struktur der Gitlab Projekte und Gruppen erstellt werden muss.
+36. Es wird sich gewünscht, direktes Feedback ohne lange wartezeiten zu bekommen. Build kann direkt in der Pipe gemacht werden und nicht eine Pipe die irgendwo den Build triggert.
+37. Es wird sich gewünscht, dass das Staff Team benachrichtigt wird, wenn etwas gepusht wird für eine Kontrolle, bzw. eine manuelle Korrektur soll für einen Commit angestoßen werden können. Erweiterung des Tools welches die Commit Message an einen z.B. Discord bot weiterreicht der dem Staff Team eine Notification schickt. Es wird kritisiert, dass es Zeitaufwändiger als die jetzige Lösung ist.
+38. Es wird sich gewünscht, automatisierung ohne Discord. Dafür müsste ein eigener Kommunikationskanal entwickelt werden. Sehr Aufwendig, für die meisten ist eine Zentrale Kommunikationsplattform besser geeignet.
+39. Es wird sich gewünscht, eine stärkere Individualisierung der Aufgabenstellungen. Würde zu deutlich mehr arbeit seitens der Profs/WMA’s führen. Z.B. eine AI die individualisierte Aufgaben generiert wäre für dieses Projekt nicht tragbar. Keine gute Bilanz zwischen Aufwand und Mehrwert
+40. Es wird sich gewünscht, dass manuell korrigierte Tests auch in IntelliJ einsehbar sind. Es würde eine Bridge notwendig sein die zu einem IntelliJ Plugin führt. Was auch möglich wäre, eine Datei ins Repo zu legen wenn eine Korrektur fertig ist.
+41. Es wird sich gewünscht, dass angezeigt wird welcher Commit zuletzt manuell korrigierte wurde. Als Lösung wird vorgeschlagen, dass es eine Seite geben soll wo der Verlauf angezeigt wird. Es wird kritisiert, dass eine weitere Seite nur mehr Aufwand bedeuten würde und stattdessen mit timestamps neben der Aufgabe gearbeitet werden solle. Als weiterer Lösungsvorschlag wird gegeben, dass es ein Link geben sollte, der auf die Gitlab Seite führt mit dem commit.
+42. Es wird sich gewünscht, dass es möglich ist Korrekturen selber kommentieren zu können, mit dem Zweck der Kommunikation mit den Betreuern für missverständnisse. Dafür müssen die Testseiten erweitert werden, diese kann dann dieses Feedback Feature liefern. Es wird kritisiert, dass es nur noch mehr Aufwand eine API mit einzubinden.
+43. Es wird sich gewünscht, dass die GIT repos sinnvollere Namen haben. Dafür müsste zuerst definiert werden was sinnvoll bedeutet. Es wird kritisiert, dass die Namen im Rahmen der Veranstaltung bereits sinnvoll sind.
+44. Es wird sich gewünscht, dass mehr Teilnehmer an einem Projekt arbeiten. In diesem Falle wäre eine Bewertungen einzelner schwerer. Es wird kritisiert, dass die User jetzt zusätzlich pullen lernen müssten, was zu merge Konflikten führen kann.
+45. Es wird sich gewünscht, längeres und detailliertes Feedback zu bekommen. Es wird nachgefragt, wie hoch die aktuelle limitierung hinsichtlich des Textes ist. Es wird kritisiert, dass dies zu Mehraufwand führen könnte.
 
 46. __Es wird sich gewünscht, dass allgemeines Feedback zum gesamten Code gegeben wird.__ Es wird angemerkt, dass man dafür jemanden benötige, der sich die Zeit dafür nähme und ein zusätzliches Feld für allgemeines Feedback implementiert werden müsse. _Es wird kritisiert, dass man dies nicht benötige und dass es Zeit und Aufwand verursache, wodurch sich die Korrektur der anderen Abgaben verzögere._
 47. __Es wird sich gewünscht, ohne Discord Fragen zu den korrigierten Aufgaben stellen zu können.__ Es wird angemerkt, dass man dafür eine Chatfunktion auf der Feedbackseite brauche, die dann einen Betreuer z.B. per E-Mail benachrichtige. _Es wird kritisiert, dass es mit Discord doch bereits ein gutes Tool dafür gebe und der zusätzliche Aufwand unnötig sei._
