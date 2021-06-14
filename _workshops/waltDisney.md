@@ -22,6 +22,9 @@ history:
     v3:
         date: 2021-06-14
         comment: Added link to miroboard export
+    v4:
+        date: 2021-06-14
+        comment: Added Categories
 todo:
     - füllen       
 ---
@@ -120,15 +123,8 @@ todo:
 
 ## Kategorien
 
-Anforderungen an das Divekit für den Stakeholder _Student:innen_, wurde im Rahmen der Kreativmethode _Walt Disney_ ermittelt. Die Methode ist gut geeignet um Leistungs- und Begeisterungsfaktoren zu ermitteln.
-
-
-Kategorisieren in _Interface, Interaktion, Technik, Aufgaben, Usability, Responsibility_ vornehmen.
-
-Im folgenden werden die einzelnen Wünsche zusammengetragen.
-
-
-Ein großer Teil der Fragen können in das Feld der Usability (UI, Responsibility, etc) zusammengefasst werden. Viele Wünsche der Studenten lassen sich in folgenden Stichpunkten zusammengefassen:
+### Usability
+Usability beschreibt Verbesserungsvorschläge für bestehende Funktionen, bzw. kleinere neue Features für Quality of Life.
 * schnellere Ergebnisse
 * Automatische Hinweise
 * automatische Korrektur für alles
@@ -138,21 +134,16 @@ Ein großer Teil der Fragen können in das Feld der Usability (UI, Responsibilit
 * manuelle Prüfungswarteschlange
 * direkter Kontakt in Test seite
 
+### Funktionalität
+Funktionalität beschreibt neue Features, die zum System hinzugefügt werden sollen.
 
+### Interaktion
+Beschreibt Wünsche im Bezug auf menschliche Interaktion zwischen den Beteiligten im System.
+* Schnelle Benarichtigung, wenn die z.B. Korrektur abgeschlossen ist
 
+### Aufgaben
+Probleme, die sich auf das Erstellen/Bearbeiten/Korrigieren der studentischen Aufgaben beziehen.
 
 
 ## Miro-Workshops
 **[Miroboards Export (19.05.21 + 20.05.21)](../sources/walt_disney_miro.pdf)**
-
-
-
-
-
-
-
-
-
-
-
-
