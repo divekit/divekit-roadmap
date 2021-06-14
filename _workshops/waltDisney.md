@@ -19,6 +19,9 @@ history:
     v2:
         date: 2021-06-07
         comment: Added Ablauf and rough list of ideas
+    v3:
+        date: 2021-06-14
+        comment: Added link to miroboard export
 todo:
     - füllen       
 ---
@@ -140,8 +143,7 @@ Ein großer Teil der Fragen können in das Feld der Usability (UI, Responsibilit
 
 
 ## Miro-Workshops
-
-
+**[Miroboards Export (19.05.21 + 20.05.21)](../sources/walt_disney_miro.pdf)**
 
 
 
