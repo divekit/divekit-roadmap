@@ -16,7 +16,8 @@ todo:
     - Format anpassen
 ---
 ## Interviewleitfaden
-[siehe MA Jann Intveen](./../literatureReferences/intveen.html) s.128
+## Transkript
+[siehe Interviewtranskript mit Prof. Dr. Bente](./../sources/jintveen_MA_sbente_transkript.md)
 
 ## Ergebnisprotokoll
 siehe MA Jann Intveen s.128
