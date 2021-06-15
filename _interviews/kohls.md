@@ -18,7 +18,7 @@ todo:
     - Format anpassen
 ---
 ## Interviewleitfaden
-[siehe MA Jann Intveen](./../sources/Masterarbeit Jann Intveen final.pdf) s.93
+[siehe MA Jann Intveen]("./../sources/Masterarbeit Jann Intveen final.pdf") s.93
 
 ## Transkript
 [siehe Interviewtranskript mit Prof. Dr. Kohls](./../sources/jintveen_MA_Kohls_transkript.md)
