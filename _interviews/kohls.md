@@ -3,6 +3,8 @@ acronym: ckohls
 type: interview
 responsible: 
     - ako
+    - kru
+    - duz
 stakeholder: cko
 date: 2020-12-17
 duration: 00:50:27

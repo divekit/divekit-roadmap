@@ -4,6 +4,8 @@ type: literature reference
 title: Interview Transkript n.n. WMA 4
 responsible: 
     - ako
+    - kru
+    - duz
 publisher: none
 source_url: none
 history:

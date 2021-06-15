@@ -3,6 +3,8 @@ acronym: mreitano
 type: interview
 responsible: 
     - ako
+    - kru
+    - duz
 stakeholder: sbe
 date: 2020-01-21
 duration: 00:55:37

@@ -3,6 +3,8 @@ acronym: n. n. WMA 4
 type: interview
 responsible: 
     - ako
+    - duz
+    - kru
 stakeholder: nnWMA4
 date: 2020-12-17
 duration: 00:40:34

@@ -4,6 +4,8 @@ type: literature reference
 title: Interview Transkript Kohls
 responsible: 
     - ako
+    - kru
+    - duz
 publisher: none
 source_url: none
 history:
