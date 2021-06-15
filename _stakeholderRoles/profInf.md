@@ -20,6 +20,8 @@ todo:
     - ausformulieren                
 ---
 
+<!-- Rolle ist aktuell extrem weit gefasst und deckt nahezu alle Professorenbereiche ab. Wäre eine Unterteilung in "profProg", "profArch", etc nicht sinnvoll? -->
+
 ## Rollenbeschreibung
 
 Die Rolle _profInf_ stellt einen möglichen neuen Stakeholder des Systems dar, welche dabei zusätzliche bzw. neue Anforderungen an das System stellt.
