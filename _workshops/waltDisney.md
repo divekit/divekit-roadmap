@@ -6,6 +6,7 @@ responsible:
     - cpo
     - hbu
     - psc
+    - mba
 goals: Sammeln von Ideen für Weiterentwicklung des DiveKit aus Studenten-Sicht
 date: 2021-05-19
 time: 13:00
@@ -18,6 +19,12 @@ history:
     v2:
         date: 2021-06-07
         comment: Added Ablauf and rough list of ideas
+    v3:
+        date: 2021-06-14
+        comment: Added link to miroboard export
+    v4:
+        date: 2021-06-14
+        comment: Added Categories
 todo:
     - füllen       
 ---
@@ -88,36 +95,36 @@ todo:
 33. Es wird sich gewünscht, dass Bonuspunkte für schnelöle und fehlerfreie Abgaben vergeben werden. Es wurde aich vorgeschlagen, zu zählen, wie oft eine Aufgabe kontrolliert wurde. Dies wird aber dafür kritisiert, dass so Studierende bestraft werden, wenn sie die Aufgaben später macehn.
 34. Es wird sich eine komplette Automatisierung des Feedbacks gewünscht. Es Vorschlag wurede ergänzt, dass die Studireden sich selbst eine manuelle Überprüfung wünschen könnten. Kritisiert wird der Vorschlag dafür, dass viele Sachen nicht komplett automatisiert werden können.
 
+35. Es wird sich gewünscht, eine Übersicht die zusammenhängende Meilensteine eines Semesters/Kurses darstellt. Personalisiertes Projekt für jeden Kurs und jeden User in das die Repos hinzugefügt werden, damit sie zugeordnet werden können. Es wird kritisiert, dass ein sehr hoher Aufwand entsteht, wenn eine komplett neue Struktur der Gitlab Projekte und Gruppen erstellt werden muss.
+36. Es wird sich gewünscht, direktes Feedback ohne lange wartezeiten zu bekommen. Build kann direkt in der Pipe gemacht werden und nicht eine Pipe die irgendwo den Build triggert.
+37. Es wird sich gewünscht, dass das Staff Team benachrichtigt wird, wenn etwas gepusht wird für eine Kontrolle, bzw. eine manuelle Korrektur soll für einen Commit angestoßen werden können. Erweiterung des Tools welches die Commit Message an einen z.B. Discord bot weiterreicht der dem Staff Team eine Notification schickt. Es wird kritisiert, dass es Zeitaufwändiger als die jetzige Lösung ist.
+38. Es wird sich gewünscht, automatisierung ohne Discord. Dafür müsste ein eigener Kommunikationskanal entwickelt werden. Sehr Aufwendig, für die meisten ist eine Zentrale Kommunikationsplattform besser geeignet.
+39. Es wird sich gewünscht, eine stärkere Individualisierung der Aufgabenstellungen. Würde zu deutlich mehr arbeit seitens der Profs/WMA’s führen. Z.B. eine AI die individualisierte Aufgaben generiert wäre für dieses Projekt nicht tragbar. Keine gute Bilanz zwischen Aufwand und Mehrwert
+40. Es wird sich gewünscht, dass manuell korrigierte Tests auch in IntelliJ einsehbar sind. Es würde eine Bridge notwendig sein die zu einem IntelliJ Plugin führt. Was auch möglich wäre, eine Datei ins Repo zu legen wenn eine Korrektur fertig ist.
+41. Es wird sich gewünscht, dass angezeigt wird welcher Commit zuletzt manuell korrigierte wurde. Als Lösung wird vorgeschlagen, dass es eine Seite geben soll wo der Verlauf angezeigt wird. Es wird kritisiert, dass eine weitere Seite nur mehr Aufwand bedeuten würde und stattdessen mit timestamps neben der Aufgabe gearbeitet werden solle. Als weiterer Lösungsvorschlag wird gegeben, dass es ein Link geben sollte, der auf die Gitlab Seite führt mit dem commit.
+42. Es wird sich gewünscht, dass es möglich ist Korrekturen selber kommentieren zu können, mit dem Zweck der Kommunikation mit den Betreuern für missverständnisse. Dafür müssen die Testseiten erweitert werden, diese kann dann dieses Feedback Feature liefern. Es wird kritisiert, dass es nur noch mehr Aufwand eine API mit einzubinden.
+43. Es wird sich gewünscht, dass die GIT repos sinnvollere Namen haben. Dafür müsste zuerst definiert werden was sinnvoll bedeutet. Es wird kritisiert, dass die Namen im Rahmen der Veranstaltung bereits sinnvoll sind.
+44. Es wird sich gewünscht, dass mehr Teilnehmer an einem Projekt arbeiten. In diesem Falle wäre eine Bewertungen einzelner schwerer. Es wird kritisiert, dass die User jetzt zusätzlich pullen lernen müssten, was zu merge Konflikten führen kann.
+45. Es wird sich gewünscht, längeres und detailliertes Feedback zu bekommen. Es wird nachgefragt, wie hoch die aktuelle limitierung hinsichtlich des Textes ist. Es wird kritisiert, dass dies zu Mehraufwand führen könnte.
 
-
-Mert...
-
-
-46. __Es wird sich gewünscht, dass allgemeines Feedback zum gesamten Code gegeben wird.__ Es wird angemerkt, dass man dafür jemanden benötige, der sich die Zeit dafür nähme und ein zusätzliches Feld für allgemeines Feedback implementiert werden müsse. _Es wird kritisiert, dass man dies nicht benötige und dass es Zeit und Aufwand verursache, wodurch sich die Korrektur der anderen Abgaben verzögere._
-47. __Es wird sich gewünscht, ohne Discord Fragen zu den korrigierten Aufgaben stellen zu können.__ Es wird angemerkt, dass man dafür eine Chatfunktion auf der Feedbackseite brauche, die dann einen Betreuer z.B. per E-Mail benachrichtige. _Es wird kritisiert, dass es mit Discord doch bereits ein gutes Tool dafür gebe und der zusätzliche Aufwand unnötig sei._
-48. __Es wird sich gewünscht, eine Chatfunktion für direkte Kommunikation über das Feedback zu haben.__ Es wird angemerkt, dass man dafür ein eigenes Portal benötige und nicht nur die einfachen, generierten Testseiten. _Es wird kritisiert, dass das zu viel Aufwand sei und dass es dafür ja Discord gebe._
-49. __Es wird sich gewünscht, dass das Benutzerinterface für eine bessere Optik überarbeitet wird (Testseite, Feedbackseite).__ Es wird angemerkt, dass man dafür einen Web-Designer brauche. _Es wird kritisiert, dass ein Web-Designer unnötige Kosten verursache, da man das auch selber machen könne. In Bezug auf die optische Verbesserung der Testseite wird kritisiert, dass dies unnötig sei, da der Fokus auf der Funktionalität der Testseite liege._
-50. __Es wird sich gewünscht, dass die Webseite einen Dark Mode bekommt.__ Es wird angemerkt, dass dies einfach umzusetzen sei, z.B. mit einem Button zum Ändern des Farbschemas. _Es wird kritisiert, dass dies unnötig sei._
-51. Es wird sich gewünscht, auch vorheriges Feedback einsehen zu können.__ Es wird angemerkt, dass man dazu auch die vorherigen Tests speichern müsse. Man könne dann das Feedback über Feile unter den jeweiligen Tests einbinden. _Es wird kritisiert, dass dies die Testseite verkompliziere und dass sich der zusätzliche Speicherbedarf mit der Zeit häufen könne._
-52. Es wird sich gewünscht, auch zu bestandenen Tests Feedback zu erhalten.__ Es wird angemerkt, dass dies aufwändig, aber machbar sei. Es wird außerdem angemerkt, dass dies die generelle Korrektur der Abgaben verzögern würde. _Es wird kritisiert, dass dies einen höheren Aufwand für die Betreuer bedeute und dass Kommentare evtl. verunsichern könnten. Dies wird wiederum kritisiert, da bei manuellen Tests ohnehin der Code betrachtet und als "Bestanden" markiert werden müsse, weshalb der Aufwand nicht deutlich größer sei._
-53. Es wird sich gewünscht, dass es keine spontanen Änderungen des Praktika-Konzepts geben soll.__ Es wird angemerkt, dass man analysieren müsse, was die spontanen Änderungen verursacht und wie man das verhindern könne. _Es wird kritisiert, dass es immer situationsabhängige Fälle geben werde, die man nicht oder nur schwer verhindern könne._
-54. __Es wird sich gewünscht, dass es einen Button oder Link für den schnellen Zugriff auf die Testseite geben soll.__ Es wird angemerkt, dass dies sinnvoll sei und mit einer einfachen Änderung an der README-Datei umgesetzt werden könne. _Die Kritik stimmt ebenfalls zu, dass dies einfach zu machen sei._
-55. __Es wird sich gewünscht, bessere Informationen für häufig auftretende Fehler zu erhalten.__ Es wird angemerkt, dass man dafür ein FAQ nutzen könne. Weiter wird angemerkt, dass es besser sei, stattdessen diese häufigen Fehler abzufangen und dann zusätzliche Informationen bereit zu stellen. _Es wird kritisiert, dass diese Probleme schwer differenzierbar seien und daher nur wenige Fehler mehr Informationen erhalten würden._
-56. __Es wird sich gewünscht, die Aufgaben so zu gestalten, dass keine manuelle Prüfung mehr nötig ist.__ Es wird angemerkt, dass die Aufgabensteller dazu die Aufgaben so stellen müssten, dass die Lösungen automatisch geprüft werden können und dass ein einmaliger Mehraufwand für die Erstellung weiterer automatischer Tests entstehe. _Es wird kritisiert, dass einige Dinge nicht automatisch prüfbar seien, wie z.B. der Codestyle._
+46. Es wird sich gewünscht, dass allgemeines Feedback zum gesamten Code gegeben wird. Es wird angemerkt, dass man dafür jemanden benötige, der sich die Zeit dafür nähme und ein zusätzliches Feld für allgemeines Feedback implementiert werden müsse. Es wird kritisiert, dass man dies nicht benötige und dass es Zeit und Aufwand verursache, wodurch sich die Korrektur der anderen Abgaben verzögere.
+47. Es wird sich gewünscht, ohne Discord Fragen zu den korrigierten Aufgaben stellen zu können. Es wird angemerkt, dass man dafür eine Chatfunktion auf der Feedbackseite brauche, die dann einen Betreuer z.B. per E-Mail benachrichtige. Es wird kritisiert, dass es mit Discord doch bereits ein gutes Tool dafür gebe und der zusätzliche Aufwand unnötig sei.
+48. Es wird sich gewünscht, eine Chatfunktion für direkte Kommunikation über das Feedback zu haben. Es wird angemerkt, dass man dafür ein eigenes Portal benötige und nicht nur die einfachen, generierten Testseiten. Es wird kritisiert, dass das zu viel Aufwand sei und dass es dafür ja Discord gebe.
+49. Es wird sich gewünscht, dass das Benutzerinterface für eine bessere Optik überarbeitet wird (Testseite, Feedbackseite). Es wird angemerkt, dass man dafür einen Web-Designer brauche. Es wird kritisiert, dass ein Web-Designer unnötige Kosten verursache, da man das auch selber machen könne. In Bezug auf die optische Verbesserung der Testseite wird kritisiert, dass dies unnötig sei, da der Fokus auf der Funktionalität der Testseite liege.
+50. Es wird sich gewünscht, dass die Webseite einen Dark Mode bekommt. Es wird angemerkt, dass dies einfach umzusetzen sei, z.B. mit einem Button zum Ändern des Farbschemas. Es wird kritisiert, dass dies unnötig sei.
+51. Es wird sich gewünscht, auch vorheriges Feedback einsehen zu können. Es wird angemerkt, dass man dazu auch die vorherigen Tests speichern müsse. Man könne dann das Feedback über Feile unter den jeweiligen Tests einbinden. Es wird kritisiert, dass dies die Testseite verkompliziere und dass sich der zusätzliche Speicherbedarf mit der Zeit häufen könne.
+52. Es wird sich gewünscht, auch zu bestandenen Tests Feedback zu erhalten. Es wird angemerkt, dass dies aufwändig, aber machbar sei. Es wird außerdem angemerkt, dass dies die generelle Korrektur der Abgaben verzögern würde. Es wird kritisiert, dass dies einen höheren Aufwand für die Betreuer bedeute und dass Kommentare evtl. verunsichern könnten. Dies wird wiederum kritisiert, da bei manuellen Tests ohnehin der Code betrachtet und als "Bestanden" markiert werden müsse, weshalb der Aufwand nicht deutlich größer sei.
+53. Es wird sich gewünscht, dass es keine spontanen Änderungen des Praktika-Konzepts geben soll. Es wird angemerkt, dass man analysieren müsse, was die spontanen Änderungen verursacht und wie man das verhindern könne. Es wird kritisiert, dass es immer situationsabhängige Fälle geben werde, die man nicht oder nur schwer verhindern könne.
+54. Es wird sich gewünscht, dass es einen Button oder Link für den schnellen Zugriff auf die Testseite geben soll. Es wird angemerkt, dass dies sinnvoll sei und mit einer einfachen Änderung an der README-Datei umgesetzt werden könne. Die Kritik stimmt ebenfalls zu, dass dies einfach zu machen sei.
+55. Es wird sich gewünscht, bessere Informationen für häufig auftretende Fehler zu erhalten. Es wird angemerkt, dass man dafür ein FAQ nutzen könne. Weiter wird angemerkt, dass es besser sei, stattdessen diese häufigen Fehler abzufangen und dann zusätzliche Informationen bereit zu stellen. Es wird kritisiert, dass diese Probleme schwer differenzierbar seien und daher nur wenige Fehler mehr Informationen erhalten würden.
+56. Es wird sich gewünscht, die Aufgaben so zu gestalten, dass keine manuelle Prüfung mehr nötig ist. Es wird angemerkt, dass die Aufgabensteller dazu die Aufgaben so stellen müssten, dass die Lösungen automatisch geprüft werden können und dass ein einmaliger Mehraufwand für die Erstellung weiterer automatischer Tests entstehe. Es wird kritisiert, dass einige Dinge nicht automatisch prüfbar seien, wie z.B. der Codestyle.
 
 
 
 ## Kategorien
 
-Anforderungen an das Divekit für den Stakeholder _Student:innen_, wurde im Rahmen der Kreativmethode _Walt Disney_ ermittelt. Die Methode ist gut geeignet um Leistungs- und Begeisterungsfaktoren zu ermitteln.
-
-
-Kategorisieren in _Interface, Interaktion, Technik, Aufgaben, Usability, Responsibility_ vornehmen.
-
-Im folgenden werden die einzelnen Wünsche zusammengetragen.
-
-
-Ein großer Teil der Fragen können in das Feld der Usability (UI, Responsibility, etc) zusammengefasst werden. Viele Wünsche der Studenten lassen sich in folgenden Stichpunkten zusammengefassen:
+### Usability
+Usability beschreibt Verbesserungsvorschläge für bestehende Funktionen, bzw. kleinere neue Features für Quality of Life.
 * schnellere Ergebnisse
 * Automatische Hinweise
 * automatische Korrektur für alles
@@ -127,22 +134,16 @@ Ein großer Teil der Fragen können in das Feld der Usability (UI, Responsibilit
 * manuelle Prüfungswarteschlange
 * direkter Kontakt in Test seite
 
+### Funktionalität
+Funktionalität beschreibt neue Features, die zum System hinzugefügt werden sollen.
 
+### Interaktion
+Beschreibt Wünsche im Bezug auf menschliche Interaktion zwischen den Beteiligten im System.
+* Schnelle Benarichtigung, wenn die z.B. Korrektur abgeschlossen ist
 
+### Aufgaben
+Probleme, die sich auf das Erstellen/Bearbeiten/Korrigieren der studentischen Aufgaben beziehen.
 
 
 ## Miro-Workshops
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**[Miroboards Export (19.05.21 + 20.05.21)](../sources/walt_disney_miro.pdf)**

@@ -17,7 +17,6 @@ history:
         date: 2021-06-04
         comment: changed according to template
 todo:
-    - Transkript-Referenz
 ---
 ## Interviewleitfaden
 
@@ -207,7 +206,7 @@ Bedarf und Einsatz von Tools (DiveKit)
     * Es gibt Leute, die das Praktikum freiwillig wiederholen -> Sie könnte man niedriger priorisieren
 
 
-## (temp) Wichtige Stichpunkte
+## Wichtige Stichpunkte (zusammengefasst)
 * Erwartung der Entlastung generell und bei den Korrekturen
 * Qualität der Lehre darf nicht drunter leiden
 * Textaufgaben oder Modellier-Aufgaben
