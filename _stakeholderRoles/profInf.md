@@ -2,7 +2,6 @@
 acronym: profInf
 type: stakeholderRole
 responsible: 
-    - fkr
     - ako
     - kru
     - duz
@@ -24,7 +23,7 @@ todo:
 
 ## Rollenbeschreibung
 
-Die Rolle _profInf_ stellt einen möglichen neuen Stakeholder des Systems dar, welche dabei zusätzliche bzw. neue Anforderungen an das System stellt.
+Die Rolle _profInf_ stellt einen möglichen neuen Stakeholder des Systems dar, welcher dabei zusätzliche bzw. neue Anforderungen an das System stellt.
 Hauptsächlich werden dabei die Kernfunktionalitäten des Systems benutzt, also die Generierung von individualisierten Programmieraufgaben und korrespondierenden Tests.
 
 
