@@ -4,6 +4,7 @@ acronym: sbe
 responsible: 
     - sbe
     - fkr
+    - ako
 name: Stefan Bente
 stakeholderRole: profInf
 relationshipToProject: >
@@ -12,10 +13,16 @@ history:
     v1:
         date: 2021-05-06
         comment: created initially
+    v2:
+        date: 2021-06-15
+        comment: added Allgemein
 todo: 
-    - ausführlicher
-    - Rolle passt nicht ganz        
+    - ausführlicher      
 ---
+
+## Allgemein
+
+[Personenseite der TH](https://www.th-koeln.de/personen/stefan.bente/)
 
 ## Lehre 
 
