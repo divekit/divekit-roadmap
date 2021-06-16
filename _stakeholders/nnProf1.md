@@ -18,6 +18,12 @@ todo:
 
 nnProf1 unterrichtet bereits seit vielen Jahren an der Hochschule. Er vertritt besonders die Lehre im Bereich der Modellierung, Softwaretechnik und Projektmanagement.
 
+### Tätigkeitsgebiete in der Lehre
+
+* Modellierung
+* Projektmanagement
+* Softwaretechnik
+
 ### Relevanz als Stakeholder
 
 nnProf1 stellt Studenten in seiner Lehrveranstaltung, ebenfalls wie andere Dozenten, Aufgaben, welche mittels Software
