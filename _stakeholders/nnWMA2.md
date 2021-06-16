@@ -1,6 +1,6 @@
 ---
 type: stakeholder
-acronym: mmWMA2
+acronym: nnWMA2
 responsible:
     - ngi
     - fgr
