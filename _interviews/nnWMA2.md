@@ -8,7 +8,7 @@ stakeholder: n.n. WMA 2
 date: 2021-05-11
 duration: 1h
 location: Zoom-Meeting
-transcriptUrl: 
+transcriptUrl: [Transkript](../sources/nnWMA2_transkript.md)
 history:
     v1:
         date: 2021-05-24
