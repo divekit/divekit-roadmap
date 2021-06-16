@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: Betrugsverhinderung
+acronym: API
 responsible: 
     - fgr,ngi
 title: API für eigene Entwicklung
