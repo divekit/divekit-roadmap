@@ -4,7 +4,7 @@ acronym: pschmitz
 stakeholderRole: wmaProg
 responsible:
     - jlü
-name: Peter Schmitz
+name: Paul Schmitz
 age: 36
 isPrimary: yes
 relationshipToProject: >
@@ -21,8 +21,9 @@ history:
 
 ## Beschreibung
 
-Peter Schmitz ist 36 Jahre alt. 
-
+Paul Schmitz ist 36 Jahre alt. Nach seiner Promotion und einigen Stellen als Dozierender
+ist er nun seit zwei Jahren als Dozent an der TH Köln. In seinem Forschungsgebiet beschäftigt er sich 
+viel mit Softwaretechnik 
 
 Dennis Peters ist 30 Jahre alt. Er hat vor 4 Jahren seinen Masterabschluss in Informatik an der TH Köln gemacht.
 Nach seinem Abschluss bekam er ein Angebot von der Hochschule weiterhin dort angestellt zu sein als wissenschaftlicher
