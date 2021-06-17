@@ -5,8 +5,9 @@ responsible:
     - kru
     - ako
     - duz
+    -jlü
 mentionnedInSource: 
-    - 
+    - [Interview, nnProf3]
 history:
     v1:
         date: 2021-06-17
