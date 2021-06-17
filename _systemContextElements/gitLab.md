@@ -15,6 +15,9 @@ history:
     v2:
         date: 2021-06-17
         comment: added responsible
+    v2:
+        date: 2021-06-17
+        comment: added responsible und Quelle
 todo:
     - Add sources
 
