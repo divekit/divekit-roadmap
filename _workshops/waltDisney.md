@@ -11,7 +11,7 @@ goals: Sammeln von Ideen für Weiterentwicklung des DiveKit aus Studenten-Sicht
 date: 2021-05-19
 time: 13:00
 method: Walt Disney Methode
-stakeholderRole: student
+stakeholderRole: studentInf
 history:
     v1:
         date: 2021-06-01

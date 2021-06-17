@@ -1,9 +1,10 @@
 ---
-acronym: student
+acronym: studentInf
 type: stakeholderRole
 responsible: 
     - fkr
     - tza
+    - psc
 name: Student (Informatik)
 title: >
     Student in einem Informatikstudiengang 
@@ -14,6 +15,9 @@ history:
     v2:
         date: 2021-06-04
         comment: Rollenbeschreibung hinzugefügt
+    v3:
+        date: 2021-06-18
+        comment: Role umbennen um zwischen Inf und nicht Inf Rollen zu unterscheiden
 todo:
     - feinschliff
 ---
