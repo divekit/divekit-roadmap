@@ -4,7 +4,7 @@ type: interview
 responsible: 
     - jlü
     -ama
-stakeholder: nnProf3
+stakeholder: rwö
 date: 2021-05-10
 duration: 35:30
 location: Zoom-Meeting
