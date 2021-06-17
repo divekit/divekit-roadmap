@@ -7,7 +7,7 @@ responsible:
     - ako
 title: Verbesserung von technischer Sprache & Relationen 
 source:
-    - [interview, jintveen, 00:35:39]
+    - [interview, jintveen, 00:54:13]
 partOfLargerGoal: yes
 history:
     v1:
