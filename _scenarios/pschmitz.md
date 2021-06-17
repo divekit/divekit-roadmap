@@ -22,11 +22,11 @@ source:
     - [interview, nnProf3]
 history:
     v1:
-        date: 2021-05-04
+        date: 2021-06-17
         comment: initially created
 todo: 
     - Auswählen von 1 oder mehr scenarioTypes
-    - löschen wenn echte Szenarien da sind
+    - Szenario typ definieren
 ---
 
 ## Beschreibung
