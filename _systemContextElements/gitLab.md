@@ -5,8 +5,11 @@ responsible:
     - kru
     - ako
     - duz
-mentionnedInSource: 
-    - 
+    - jlü
+mentionnedInSource:
+    - [interview, jintveen, Minute 00:26:21]
+    - [interview, jintveen, Minute 00:28:03]
+    - [Interview, nnProf3]
 history:
     v1:
         date: 2021-06-17
@@ -14,6 +17,9 @@ history:
     v2:
         date: 2021-06-17
         comment: added responsible
+    v2:
+        date: 2021-06-17
+        comment: added responsible und Quelle
 todo:
     - Add sources
 
