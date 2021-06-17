@@ -302,4 +302,4 @@ PROBLEM: Gegen das Tool arbeiten.
  ZIEL Lehre verbessern \
  ZIEL zeitliche Entlastung
 
-* [Volles Interview](https://github.com/divekit/divekit-roadmap/blob/master/_literatureReferences/nnProfTranskirpt.md)
+* [Volles Interview](https://github.com/divekit/divekit-roadmap/blob/master/_interviews/nnProfTranskirpt.md)
