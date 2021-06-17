@@ -3,23 +3,29 @@ type: goal
 acronym: Betrugsverhinderung
 responsible: 
     - jlü
+    - duz
 title: Betrugsversuche verhindern
 source: 
     - Interview mmProf3
+    - [interview, jintveen, 00:06:56]
 partOfLargerGoal: 
 history:
     v1:
         date: 2021-06-10
         comment: initially created
+    v2:
+        date: 2021-06-17
+        comment: added source & reason
 todo: 
 ---
 
 ## Beschreibung
 
-Der Mitarbeiter möchte, dass Studierende nicht versuchen die Lösungen von Aufgaben von den kommilitonen zu kopieren
+Der Mitarbeiter möchte, dass Studierende nicht versuchen die Lösungen von Aufgaben von den Kommilitonen zu kopieren.
 
 ## Begründung
 
-Gerade in der aktuellen Zeit ist es schwierig Betrugsversuche aufzudecken. Wenn gar nicht die Möglichkeit besteht abzuschreiben, entfällt die Notwendigkeit
-auf Betrugsversuche zu achten zu Mindest zum Teil. 
+Gerade in der aktuellen Zeit ist es schwierig Betrugsversuche aufzudecken. Wenn gar nicht die Möglichkeit besteht abzuschreiben, entfällt die Notwendigkeit auf Betrugsversuche zu achten zu Mindest zum Teil. 
+
+In solchen Fällen ist es notwendig Studierende mit extrinsischen Faktoren zum Lernen und zum eigenverantwortlichen Arbeiten zu motivieren.
 
