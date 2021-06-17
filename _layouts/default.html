@@ -19,34 +19,44 @@
 </head>
 <body>
 
-<div id="header">
-  <h1 style="text-align:center;position: relative; top: 4px;line-height: 1em;margin-top: 0.2em;">
-    {{ site.title | default: site.github.repository_name }}
-  </h1>
-  <nav>
-    <li class="sig"><a href="{{ site.url }}{{ '' | relative_url }}">Home</a></li>
-    <li class="title">Artefakte:</li>
-    <li class="sig"><a href="{{ site.url }}{{ '/overview/stakeholders.html' | relative_url }}">Stakeholder</a></li>
-    <li class="sig"><a href="{{ site.url }}{{ '/overview/stakeholderRoles.html' | relative_url }}">Rollen</a></li>
-    <li class="sig"><a href="{{ site.url }}{{ '/overview/goals.html' | relative_url }}">Ziele</a></li>
-    <li class="title">Quellen:</li>
-    <li class="sig"><a href="{{ site.url }}{{ '/overview/interviews.html' | relative_url }}">Interviews</a></li>
-    <li class="sig"><a href="{{ site.url }}{{ '/overview/literatureReferences.html' | relative_url }}">Literaturverweise</a></li>
-    <li class="sig"><a href="{{ site.url }}{{ '/overview/surveys.html' | relative_url }}">Umfragen</a></li>
-    <li class="sig"><a href="{{ site.url }}{{ '/overview/workshops.html' | relative_url }}">Workshops</a></li>
-    <!--
-    <li class="sig"><a href="{{ site.url }}{{ '/overview/stakeholders.html' | relative_url }}">Ziele</a></li>
-    <li class="sig"><a href="{{ site.url }}{{ '/overview/stakeholders.html' | relative_url }}">Systemkontext</a></li>
-    <li class="sig"><a href="{{ site.url }}{{ '/overview/stakeholders.html' | relative_url }}">Personas</a></li>
-    <li class="sig"><a href="{{ site.url }}{{ '/overview/stakeholders.html' | relative_url }}">Szenarien</a></li>
-    <li class="sig"><a href="{{ site.url }}{{ '/overview/stakeholders.html' | relative_url }}">Funktionale Anforderungen</a></li>
-    <li class="sig"><a href="{{ site.url }}{{ '/overview/stakeholders.html' | relative_url }}">Nichtfunktionale Anforderungen</a></li>
-    <li class="sig"><a href="{{ site.url }}{{ '/overview/stakeholders.html' | relative_url }}">Use Cases</a></li>
-    <li class="sig"><a href="{{ site.url }}{{ '/overview/stakeholders.html' | relative_url }}">User Stories</a></li>
-    <li class="sig"><a href="{{ site.url }}{{ '/overview/stakeholders.html' | relative_url }}">Qualitätssicherung</a></li>
-    -->
-  </nav>
-</div><!-- end header -->
+<div class="navbar">
+
+  <a href="{{ site.url }}{{ '' | relative_url }}">Home</a>
+  <div class="subnav">
+    <button class="subnavbtn">Artefakte<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="{{ site.url }}{{ '/overview/stakeholders.html' | relative_url }}">Stakeholder</a>
+      <a href="{{ site.url }}{{ '/overview/stakeholderRoles.html' | relative_url }}">Rollen</a>
+      <a href="{{ site.url }}{{ '/overview/goals.html' | relative_url }}">Ziele</a>
+    </div>
+
+
+  </div>
+
+  <div class="subnav">
+    <button class="subnavbtn">Quellen<i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="{{ site.url }}{{ '/overview/interviews.html' | relative_url }}">Interviews</a>
+        <a href="{{ site.url }}{{ '/overview/literatureReferences.html' | relative_url }}">Literaturverweise</a>
+        <a href="{{ site.url }}{{ '/overview/surveys.html' | relative_url }}">Umfragen</a>
+        <a href="{{ site.url }}{{ '/overview/workshops.html' | relative_url }}">Workshops</a>
+      </div>
+  </div>
+
+<!--
+
+  Artefakte:
+  <a href="{{ site.url }}{{ '/overview/stakeholders.html' | relative_url }}">Stakeholder</a>
+  <a href="{{ site.url }}{{ '/overview/stakeholderRoles.html' | relative_url }}">Rollen</a>
+  <a href="{{ site.url }}{{ '/overview/goals.html' | relative_url }}">Ziele</a><br>
+  Quellen:</li>
+  <a href="{{ site.url }}{{ '/overview/interviews.html' | relative_url }}">Interviews</a>
+  <a href="{{ site.url }}{{ '/overview/literatureReferences.html' | relative_url }}">Literaturverweise</a>
+  <a href="{{ site.url }}{{ '/overview/surveys.html' | relative_url }}">Umfragen</a>
+  <a href="{{ site.url }}{{ '/overview/workshops.html' | relative_url }}">Workshops</a>
+  -->
+</div>
+
 
 <div class="wrapper">
   <section>
