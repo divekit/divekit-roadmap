@@ -3,13 +3,19 @@ acronym: ci-pipeline
 type: itsystem 
 responsible:
     - kru
+    - ako
+    - duz
 mentionnedInSource: 
     - 
 history:
     v1:
-        date: 2021-06-04
+        date: 2021-06-17
         comment: initially created
+    v2:
+        date: 2021-06-17
+        comment: added responsible
 todo:
+    - Add sources
 ---
 
 ## Erläuterung

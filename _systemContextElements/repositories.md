@@ -11,7 +11,11 @@ history:
     v1:
         date: 2021-06-17
         comment: initially created
+    v2:
+        date: 2021-06-17
+        comment: added responsible
 todo:
+    - Add sources
 ---
 
 ## Erläuterung
