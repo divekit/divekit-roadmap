@@ -5,8 +5,10 @@ responsible:
     - kru
     - ako
     - duz
-    -jlü
-mentionnedInSource: 
+    - jlü
+mentionnedInSource:
+    - [interview, jintveen, Minute 00:26:21]
+    - [interview, jintveen, Minute 00:28:03]
     - [Interview, nnProf3]
 history:
     v1:
