@@ -17,6 +17,9 @@ history:
     v1:
         date: 2021-06-17
         comment: initially created
+    v2:
+        date: 2021-06-18
+        comment: fix some typos
 todo:
 ---
 
@@ -34,6 +37,6 @@ Cora setzt in ihren Veranstaltungen verschiedene Tools zur Lernunterstützung ei
 
 Um ihre Studierenden optimal zu unterstützen, gibt Cora viel Feedback zu den Aufgaben und Lösungen. Ihr ist wichtig, dass sich die Studierenden an sie wenden dürfen, wenn Hilfe benötigt wird.
 
-Die Auswertung von Projektberichten kann für Cora und ihre Kolleg:innen sehr aufwendig sein. Hier würden sie sich wünschen, dass es technische Lösung sie hierbei unterstützen könnte. Wenngleich sie sich kaum Werkzeuge vorstellen können, die diese hoch individuellen Ausarbeitungen sinnvoll beurteilen können.
+Die Auswertung von Projektberichten kann für Cora und ihre Kolleg:innen sehr aufwendig sein. Hier würde sie sich wünschen, dass es technisch eine Lösung gäbem, die sie hierbei unterstützen könnte. Wenngleich sie sich kaum Werkzeuge vorstellen kann, welches die hoch individuellen Ausarbeitungen sinnvoll beurteilen können.
 
-Sie ist nicht glücklich mit der Prüfungsform _Single Choice_ bei Veranstaltungen mit sehr vielen Studierenden. Um den Aufwand für die Auswertung möglichst gering halten zu können, stellt dies fpr Cora einen pragamtischen Weg dar. Sie würde sich wünschen, dass hier ein gewisse Zufälligkeit in den Aufgaben möglich wäre.
+Sie ist nicht glücklich mit der Prüfungsform _Single Choice_ bei Veranstaltungen mit sehr vielen Studierenden. Um den Aufwand für die Auswertung möglichst gering halten zu können, stellt dies für Cora einen pragamtischen Weg dar. Sie würde sich wünschen, dass hier ein gewisse Zufälligkeit in den Aufgaben möglich wäre.
