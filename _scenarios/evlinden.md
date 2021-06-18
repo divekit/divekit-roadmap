@@ -2,7 +2,7 @@
 type: scenario
 acronym: evlinden
 title: Schneller und Effektiver Einstieg in das Praktikum
-persona: Kayaya
+persona: evlinden
 scenarioTypes: 
     - main
     - alternative
@@ -11,14 +11,24 @@ scenarioTypes:
 responsible: 
     - kru
 source: 
-    - [interview, fkrampe, Minute 21:02]
-    - [workshop, 635method, p. 2 oben]
-    - [Pohl 2008, S. 127-138]
-history:
+    - 
     v1:
         date: 2021-06-14
         comment: initially created
+    v2:
+        date: 2021-06-18
+        comment: added description
 ---
 
 ## Beschreibung
 
+Emilia ist im dritten Semester und nimmt im akutellen Semester an dem Praktikum für das Modul Softwaretechnik 1 teil. Noch vor der Abgabe des ersten Meilensteins hat sie Probleme mit dem DiveKit umzugehen. Aus diesem Grund fragt sie einen der Betreuer um Hilfe.
+
+### Hauptszenario
+
+
+
+### Alternativszenario
+
+
+### Negativszenario
