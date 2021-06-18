@@ -1,9 +1,9 @@
 ---
 type: functionalRequirement
-acronym: provideRepo
+acronym: cloneOriginRepo
 responsible: 
     - hbu
-title: Repos müssen bereitgestellt werden
+title: Origin Repo muss kopiert werden
 source:
     - [interview, fkrampe, Minute 00:09:47]
     - [interview, fkrampe, Minute 00:25:49]
@@ -15,8 +15,7 @@ todo:
     - goals
 ---
 
-Das DiveKit muss ein git repository mit Aufgaben bereit stellen. Dieses Repository wird für jeden Studenten einzelnd
-aus einem origin repo erstellt.
+Das DiveKit muss ein origin git repository mit Aufgaben für jeden Studenten individuel kopieren und bereitstellen.
 
 ## Begründung
 
