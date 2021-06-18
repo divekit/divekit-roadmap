@@ -2,7 +2,8 @@
 acronym: E-Assasment-Tool     
 type: itsystem
 responsible:
-    - fgr,ngi
+    - fgr
+    - ngi
 mentionnedInSource: 
     - nnWMA2_transkript.md
 history:
