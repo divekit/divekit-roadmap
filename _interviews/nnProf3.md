@@ -152,7 +152,55 @@ _________
 
 ---
 ## Ergebnisprotokoll
+### Background
+#### Welche Studiengänge und Fächer betreuen Sie?
+* Arbeitet in der Fakultät 10 und ist in der Technischen Informatik eingebunden
+* Lehrt in zwei Studiengängen Bachelor Technische Informatik, Master Technische Informatik
+* Studiengangsleiter im Master und veranstaltet eine Vorlesung und betreut auch Abschlussarbeiten
+* Die Vorlesung im Master ist Large and Cloud based Software Systems.
+* Studenten sollen ein gesamten Softwareentwicklungsprozesse mitmachen. Vom Requirements Engineering bis zur Abnahme
 
+### Digitale Lehre
+#### Welche Chancen und Risiken sehen Sie in der digitalen Lehre?
+* Betrugsversuche aufdecken ist bei Remote-Klausuren schwierig
+* Kameras werden relativ selten während einer digitalen Vorlesung von den Studenten aktiviert (Nachteil)
+* Produziert die Vorlesungen als Video
+* Chancen das die Lehre effizienter wird
+
+#### Wo belastet Sie manueller Korrekturaufwand stark
+* Zu der Lehre passen nur Freitext Aufgaben. 
+
+#### Welche Tools nutzen Sie aktuell in der digitalen Lehre?
+* Verwendet Git, GitLab (ist relativ zentral), Ilias, Google Cloud. Möchte auch das die Studenten damit umgehen können
+* Verwendet zusätzlich das Kursangebot Coursera von Google um Tutorials durchzuführen
+* Stellt den Studenten 50 € für die Google Cloud zur Verfügung
+* Verwendet IDEs wie Visual Studio Code 
+* Will den Studierenden nicht zu viel Freiheit lassen, weil es bei großen Teams leicht unübersichtlich werden kann
+
+#### Wie nutzerfreundlich muss das Tool aus Lehrenden und Studierenden Ansicht gestaltet sein?
+* Ja, ziemlich natürlich
+* weil sonst hat man viele Probleme
+* Git soll früh möglichst früh gelehrt werden (im ersten oder Zweiten Semester)
+* Die Studierenden lernen zu viel Java, aber dafür können sie kein Git
+
+####  Welche Arten von Aufgaben stellen Sie den Studierenden in Praktika?
+* Als erstes geht es mit Git los
+* Es geht nicht um die Innereien des Programms, sondern was drumherum passiert.
+* Die Programm sind immer etwas banal in den Vorlesungen.
+* Die Aufgaben müssen Hands on gelöst werden
+* Verwendung von Docker und Kubernetes erlernen, wie ein Images erzeugt wird.
+* Jedes Team soll ein Entwicklungsprozess einmal komplett durchlaufen und die Aufgaben werden auch für jedes Team neu gestellt.
+* Die Teams sollen sich an eine bestimmte Research Question fokussieren zum Beispiel was bedeutet Function as a Service oder Serverless Computing und welche Rolle spielt Cold Start Problem. Viele der vorgefertigten Themen können die Studierenden auswählen, falls sie selber keine Research Question finden. Danach müssen die Studierende ein Protoype implementieren im Bezug auf die Research Question. Ihre Ergebnisse müssen sie dann präsentieren und ein IEEE Paper schreiben. Es ist kein richtiges Praktikum mehr, sondern geht mehr in Richtung Forschungsprojekt.
+
+#### Welche Auswirkungen hat die Corona Pandemie auf die digitale Lehre?
+* Die meisten Fragen wurden schon vorher von dem Interviewten beantwortet und das meiste wurde wiederholt.
+* Lehrfromen ändern sich - es geht Richtung Flipped Classroom
+* was digitale Lehre auch mehr erfordert, ist mir Eigeninitiative von Studierenden.
+
+### Automatisierung
+#### Wie würde sich die Automatisierung von individuellen Aufgabenstellungen Ihrer Meinung nach auf die digitale Lehre auswirken?
+* Vom Interviewten wird beschrieben welche  Tools es gibt beim Thema Automatisierung und welche Features sie dem Benutzer bieten. Konkrete Infos zu Divekit gibt es nicht. Nur im welchen Bereich das Divekit verwendet wird.
+* Der Interviewte hat keine konkrete Idee beim Thema Automatisierung, aber er könnte sich vorstellen, dass bei Git automatisch geprüft wird ob im lokalen Repository die richtige Situation hergestellt wurde. Dies sei nach seiner Meinung einigermaßen einfach zu lösen. Zusätzlich sieht er auch im Bereich Code Coverage also der Qualitätssicherung eine sinnvolle Verwendung.  
 ---
 ## Transcript
 
