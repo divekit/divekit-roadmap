@@ -11,17 +11,11 @@ history:
         date: 2021-06-18
         comment: initially created
 todo: 
+    - goals
+    - sources
 ---
 
-mit Bedingung:
-
-{Bedingung} {Verbindlichkeit/Wichtigkeit} das DiveKit {Art der Funktionalität} {Objekt} {Prozesswort}.
-
-ohne Bedigung:
-
-Das DiveKit {Verbindlichkeit/Wichtigkeit} {Art der Funktionalität} {Objekt} {Prozesswort}.
-
-Das DiveKit muss ein git repository mit Aufgaben zur Verfügung stellen.
+Das DiveKit muss ein git repository mit Aufgaben bereit stellen.
 
 ## Begründung
 
