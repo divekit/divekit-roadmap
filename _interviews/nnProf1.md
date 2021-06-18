@@ -3,6 +3,7 @@ acronym: nnProf1
 type: interview
 responsible: 
     - jsp
+    - mwi
 stakeholder: nnProf1
 date: 2021-05-10
 duration: 28:16
@@ -12,6 +13,9 @@ history:
     v1:
         date: 2021-06-16
         comment: initially created
+    v2:
+        date: 2021-06-17
+        comment: update responsible
 
 ---
 ## Interviewleitfaden

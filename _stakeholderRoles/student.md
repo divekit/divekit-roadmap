@@ -2,29 +2,24 @@
 acronym: student
 type: stakeholderRole
 responsible: 
-    - fkr
-    - tza
-name: Student (Informatik)
+    - psc
+name: Student (Allgemein)
 title: >
-    Student in einem Informatikstudiengang 
+    Student eines informatikfernen Studiengangs
 history:
     v1:
-        date: 2021-05-04
+        date: 2021-06-18
         comment: initially created
-    v2:
-        date: 2021-06-04
-        comment: Rollenbeschreibung hinzugefügt
 todo:
-    - feinschliff
 ---
 
 ## Rollenbeschreibung
-Ein aktiver Benutzer des Systems. Er nutzt das System meist während des Praktikums für ein Fach während des Studiums.
-Die Nutzung des Systems wird in den meisten Fällen von Lehrkräften verlangt, die es zur Wissenskontrolle einsetzen.
-Er ist an einer guten Usability interessiert, damit die Lösung der Aufgaben möglichst einfach bleibt. 
+
+Die Rolle _Student_ repräsentiert Studierende aus informatikfernen Studiengänge. Dies Rolle ist deshalb relevant, da sie durch fehlendes Know-How andere Ansprüche an das System stellt. Dieser Stakeholder ist insb. an guten User Interfaces interessiert. Es muss eine Lösbarkeit von Aufgaben sichergestellt werden, die kein Erlernen von Tools wie bspw. Git, GitHub oder IDEs verlangt.
 
 Typische Aufgaben:
-* Aufgaben bearbeiten
+
+* Aufgaben aus informatikfernen Studienmodulen bearbeiten
 * Lösungen zu einem Zeitpunkt bereitstellen
 * Feedback / Beratung bei Lehrenden einfordern
 * Klausuren schreiben
