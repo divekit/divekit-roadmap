@@ -292,7 +292,7 @@ PROBLEM: Gegen das Tool arbeiten.
 * Tool soll somit learing outcome des Moduls beachten
 * Die einpflege der Aufgaben könnte so aufwendig sein, dass es über Jahre hinweg
      genutzt werden könnte. Und sich die Studenten daran gewöhnen und es sich
-     rumspricht di Lösungen oder Skripte etc.
+     rumspricht die Lösungen oder Skripte etc.
 * Weil die Aufgaben mechanisch ja lösbar sind, bedeutet ja auch Lösung. Also muss aus
      Sicht der Studenten die Lösung berechenbar sein.
 * Das Ergebnis mit dem eigenen wird getestet, wenn korrekt kommen Vorschläge was
@@ -302,4 +302,4 @@ PROBLEM: Gegen das Tool arbeiten.
  ZIEL Lehre verbessern \
  ZIEL zeitliche Entlastung
 
-* [Volles Interview](https://github.com/divekit/divekit-roadmap/blob/master/_literatureReferences/nnProfTranskirpt.md)
+* [Volles Interview](https://github.com/divekit/divekit-roadmap/blob/master/_interviews/nnProfTranskirpt.md)

@@ -18,8 +18,10 @@ history:
     v3:
         date: 2021-05-28
         comment: Transkript aus separaten Datei mit dieser Datei zusammegeführt
+    v4:
+       data: 2021-06-17
+       comment: Ergebnisprotokoll aus Transkript ergänzt
 todo:
-    - Ergebnisprotokoll anlegen (siehe template.md)
 ---
 ## Interviewleitfaden
 
@@ -68,10 +70,131 @@ Der folgende Interviewleitfaden soll durch das Gespräch mit Frau Engelen führe
 1. Wenn das Tooling Sie optimal unterstützen würde, wie stark würden Sie Aufgaben individualisieren?
 2. Wo sehen Sie Grenzen in einer Individualisierung von Aufgaben?
 
+---
+
+## Ergebnisprotokoll
+
+### Dimension - Digitale Lehre
+
+#### (1) Zu welchen Modulen bzw. Themenkomplexen geben Sie Lehrveranstaltungen (auch außerhalb der TH)?
+
+* Grundlagen der BWL
+* Marketing
+* verschiedene Bereiche des Entrepreneurships
+* E-Entrepreneurship
+* Businesspläne
+* Unternehmensplanspiele (TopSlim)
+
+#### (2) Nach welchen Methoden gestalten Sie Ihre (digitale) Lehre?
+
+* Typischerweiese eine Kombination aus Theorieinputs und praktischer Anwendung
+* Klassische Vorlesung
+* Übungsaufgaben, die von den Studierenden vorzubereiten sind
+* Aufgaben an reale Projekte
+* Outside-In-Cases
+* Entwiclung eigener Ideen
+
+#### (3) Welche Tools (z. B. Miroboard, Whiteboard etc.) nutzen Sie in Ihrer digitalen Lehre bzw. in Ihren Lehrveranstaltungen?
+
+* Videos
+* Umfragen
+* Zoom-Stempel
+* Kleingruppen in Breakouts
+* ilias
+* Microsoft Teams
+* Zoom
+* Miroboards
+
+### Dimension - Aufgaben und Aufgabenformen
+
+#### (1) Welche Aufgabentypen/-formen setzen Sie in Ihrer Lehre ein?
+
+* Standardisierte Übungen an realen Cases
+* offene Fragestellungen mit Eigenrecherche
+* Rechenaufgaben in unterschiedlicher Komplexität
+    * Anwendung von Formeln; ausrechnen
+    * Kombination von Zahlen aus verschiedenen Sachverhalten
+    * Interpretation der Ergebnisse
+* Zuordnungsaufgaben
+* Anwendung von Modellen (als Beispiel: Five-Forces-Analyse)
+* Einordnung in Matrizen
+* Einordnung von Minicases anhand von Vorgaben bzw. Rahmenwerke
+
+Die Aufgaben sind von den Studierenden meistens als Vorbereitung oder im Nachgang an die Vorlesungen zu erstellen.
+
+#### (2) Wie gut funktioniert die Lehrunterstützung mit Ihren jetzigen Tools?
+
+Die ist schwierig zu sagen, da der Vergleich fehlt.
+
+#### (3) Was würden Sie sich noch wünschen?
+
+* Selbsttest für Studierende fehlt
+* wird teilweise in ilias abgebildet
+* mit automatischem Feedback
+* nicht einzeln korrigieren müssen
+* schön wäre dies auch bei offenen und Interpretationsaufgaben zu haben
+    * _Wie wurde argumentiert?_
+    * _In welche Richtung geht der eine Fakt mehr als der Andere?_
+* Ideenentwicklungstool
+
+#### (5) Wenn Sie ein beliebig mächtiges Tool hätten, welche Aufgabenformen könnten Sie sich dann noch vorstellen?
+
+* Rechenaufgaben lass sich wahrscheinlich realtiv leicht umsetzen
+* Vll. zusätzlich mit anschließender Interpretation
+* intelligente Erkennung
+* Im Falle der Cases mehr Zufälligkeit
+* komplexere Aufgaben durch logische Bäume abbilden
+* Lösungen automatisiert geben, wenn möglich
+* textuelle Antworten bewerten können
+    * ggf. aus Musterlösung
+    * oder automatisiert
+
+### Dimension - Beurteilung bzw. Auswertung von Aufgaben
+
+#### (1) Für wie viele Studierende müssen Sie oder Ihre Kollegen Aufgaben erstellen und wieviel Aufwand bedeutet die Auswertungen?
+
+* Kleingruppen bis 350 Teilnehmenden
+* bei vielen Studierenden wird Single-Choice eingesetzt, Auswertung ist dann schnell möglich
+* Hoher Aufwand bei projektbasierten Berichtauswertungen (teilweise 100 Studierende in Kleingruppen aufgeteilt)
+* Sonderfälle und qualitative Bewertungen sehr aufwendig
+* Rechenaufgaben teils standardisierbar, daher weniger aufwendig
+* Auswertung teilweise per ilias
+* Prüfung ist bewusst lean für die Korrektur angelegt
+
+#### (3) Wie häufig würden Sie sagen, weisen die Abgaben Ähnlichkeiten auf und ist das kritisch?
+
+* dies ist nicht kritisch
+* ob die Studierenden die Übungen machen, bleibt ihnen überlassen
+* in der Regel unterscheiden sich die Projekte so stark, dass kaum Ähnlichkeit auftritt
+
+#### (4) Was möchten Sie im Kontext der Aufgabenstellungen automatisieren?
+
+siehe [**Dimensionen** Frage (5)](#dimension-aufgaben-und-aufgabenformen)
+
+### Dimension - Individualisierung von Aufgaben
+
+#### (1) Wenn das Tooling Sie optimal unterstützen würde, wie stark würden Sie Aufgaben individualisieren?
+
+* Rechenaufgaben die aufeinander aufbauen und wo verschiedene Richtungen möglich sind
+* kommt auch auf die Menge möglicher Parameter an
+
+#### (2) Wo sehen Sie Grenzen in einer Individualisierung von Aufgaben?
+
+* sobald es reale Projekte sind, die vielen externe Einflüssen haben
+* z. B. die Outside-In-Analyse
+    * es werden gar keine Informationen vorgegeben
+    * Studierenden soll selbstständig recherchieren
+    * individuelle Meinung
+    * Auswertung nicht automatisierbar
+* Projekte mit eigenen Ideen
+* Ideen die mehrere Studierenden weiterentwickeln können
+* daraus dann Finanzpläne oder Busniesspläne entwickeln
+
+---
 
 ## Transkript
 
-I = Interviewer
+I = Interviewer  
 B = Befragte
 
 ---
@@ -136,7 +259,7 @@ Ich hab teilweise dann auch, dass Dinge eingeordnet werden müssen. Beispielswei
 
 **I [00:13:55]** Ja, es gibt teilweise - ich weiß nicht ob Sie das mitbekommen haben - einige KIs. Diese GPT-3, die ja schon ziemlich mächtig ist was Textanalysen und -zusammenstellungen angeht. Vielleicht sind da ja die ersten Möglichkeiten denkbar auch für ein TH Tool. Müsste man mal gucken wie man da dran kommt. Sie hatten gerade ganz kurz erwähnt: Je nach Fach haben Sie ziemlich viele Studierende. Im Bereich BWL ist mal die Zahl hundert gefallen. Das ist ja schon immens. Wie aufwendig ist denn dann auch für Sie oder ihre Kollegen letztlich dann der Aufwand des Erstellens und besonders aber auch der Auswertung?
 
-**B [00:14:46]** Es kommt drauf an wie intelligent man das Ganze angeht. Also ich hab auch eine Prüfung, die schreiben drei mal im Jahr ungefähr 350 Leute. Die ist allerdings eine Single-Choice Prüfung, wo es verschiedene Statements gibt. Aber das haben wir bewusst so angelegt, dass es machbar ist. Je nach dem wie man das eben macht. Ich hab auch Kolleginnen und Kollegen die mit 100 Leuten dann auch wirklich so projektbasierte Arbeiten in Kleingruppen machen und dann da einzelne Berichte und sowas bewerten, dass ist dann schon echt ordentlich aufwendig. Je mehr man halt händisch irgendwie machen muss. Alles was so in Zahlenwelt geht, das kann man halt noch ganz gut standardisieren, dass man ein paar Parameter vorgibt und das dann auch individualisiert. Aber sobald das dann in Sonderfälle reingeht oder wirklich qualitative Bewertungen ist es halt schwieriger das irgendwo abzubilden. Ein paar Kollegen verwenden auch Unternehmensplanspiele, da haben wir im BWL Bereich _TopSim_ als ein sehr gutes. Wo man auch gegeneinander spielt, also die Marktdynamiken auch ganz gut drin sind. Mein Kollege Roman Bartnik verwendet im Supplychain auch verschiedene Lernspiele in der Richtung. Aber ich weiß nicht wie automatisiert wie da die Auswertung dann immer ist, da bin ich nicht ganz sicher. Wie gesagt, wir habe es so gemacht, und das habe ich von meinem Vorgänger übernommen, dass wir für die extrem große BWL I Prüfung da eben Single-Choice Verfahren haben. Früher über evaexam hatten wir - mitleerweile über ilias abgebildet - da geben wir immer Statements vor und danach Ankreuzmöglichkeiten wiev iele dieser Statements richtig sind. Genau so gehen wir auch in der Übung vor, dass wir anhand dieser Typen mit den Studierenden das Ganze eben üben. Genau so ist die Klausur aufgebaut. Hier könnte man natürlich relativ einfach randomizen. Also die [Statements] durchmischen und dementsprechend auch automatisch anpassen. Das haben wir glaube ich bisher nicht gemacht. Wir haben die Reihenfolge auf jeden Fall verändert und bei den Fragen glaube ich Formelfragen gemacht. Also das ist bewusst lean für die Korrektur angelegt.
+**B [00:14:46]** Es kommt drauf an wie intelligent man das Ganze angeht. Also ich hab auch eine Prüfung, die schreiben drei mal im Jahr ungefähr 350 Leute. Die ist allerdings eine Single-Choice Prüfung, wo es verschiedene Statements gibt. Aber das haben wir bewusst so angelegt, dass es machbar ist. Je nach dem wie man das eben macht. Ich hab auch Kolleginnen und Kollegen die mit 100 Leuten dann auch wirklich so projektbasierte Arbeiten in Kleingruppen machen und dann da einzelne Berichte und sowas bewerten, dass ist dann schon echt ordentlich aufwendig. Je mehr man halt händisch irgendwie machen muss. Alles was so in Zahlenwelt geht, das kann man halt noch ganz gut standardisieren, dass man ein paar Parameter vorgibt und das dann auch individualisiert. Aber sobald das dann in Sonderfälle reingeht oder wirklich qualitative Bewertungen ist es halt schwieriger das irgendwo abzubilden. Ein paar Kollegen verwenden auch Unternehmensplanspiele, da haben wir im BWL Bereich _TopSim_ als ein sehr gutes. Wo man auch gegeneinander spielt, also die Marktdynamiken auch ganz gut drin sind. Mein Kollege Roman Bartnik verwendet im Supplychain auch verschiedene Lernspiele in der Richtung. Aber ich weiß nicht wie automatisiert wie da die Auswertung dann immer ist, da bin ich nicht ganz sicher. Wie gesagt, wir habe es so gemacht, und das habe ich von meinem Vorgänger übernommen, dass wir für die extrem große BWL I Prüfung da eben Single-Choice Verfahren haben. Früher über evaexam hatten wir - mittlerweile über ilias abgebildet - da geben wir immer Statements vor und danach Ankreuzmöglichkeiten wie viele dieser Statements richtig sind. Genau so gehen wir auch in der Übung vor, dass wir anhand dieser Typen mit den Studierenden das Ganze eben üben. Genau so ist die Klausur aufgebaut. Hier könnte man natürlich relativ einfach randomizen. Also die [Statements] durchmischen und dementsprechend auch automatisch anpassen. Das haben wir glaube ich bisher nicht gemacht. Wir haben die Reihenfolge auf jeden Fall verändert und bei den Fragen glaube ich Formelfragen gemacht. Also das ist bewusst lean für die Korrektur angelegt.
 
 **I [00:18:12]** Genau, also quasi eine gewisse Form der Schablonisierung, das man dann hinterher ein bisschen vereinfacht hat.
 
@@ -144,7 +267,7 @@ Ich hab teilweise dann auch, dass Dinge eingeordnet werden müssen. Beispielswei
 
 **I [00:18:55]** Total. Ich denke auch, dass man auch hier aus der BWL Perspektive eine gewisse Skalierbarkeit irgendwie herstellen muss, sonst ist das letztlich auch nicht zu realisieren, wenn man 250 offene Klausuren korrigieren muss. Irgendwann wollen die Studierenden auch nach Monaten des Wartens ihre Note haben. Um im Kontext der Übungsaufgaben nochmal zu bleiben, wo dann die Studierenden vll. in diesem Bereich offene Aufgaben, die Aufgaben werden wahrscheinlich bei allen dieselbe sein, stellen Sie fest das bei den Abgaben häufig dann auch ähnliche Abgaben darunter befinden. Also das man das Gefühl bekommt, hier wurden Aufgaben unter den Studierenden ausgetauscht. Stellen Sie das fest und ist das für Sie kritisch?
 
-**B [00:19:54]** Ich fange von hinten an. Es ist nicht kritisch. Ich habr keine wirklichen Abgaben oder Übungsblätter, wie das in der Mathematik und wahrscheinlich auch in der Informatik der Fall ist, sondern ob die Studierenden eine Übung machen oder nicht ist ihnen selbst überlassen. Ich vergebe - optional und nur nach Anmeldung - die Möglichkeit einen Teil unseres Projektes oder eine Übungsaufgabe zu bearbeiten. Dafür muss mich sich bei mir zum Beginn des Semesters bei mir melden bzw. anmelden. Diejenigen machen dann singulär eine individuelle Aufgabe und bekommen dafür, wenn sies präsentieren und das Ganze gut machen 5 Bonuspunkte. Aber das ist komplett freiwillig. Also ich hab diese Abgaben eigentlich nicht. Da wo ich Abgabe habe, hat jeder einen eigenen Fall oder Case und das ist dann eher bei kleinen Seminaren, wo sie beispielweise eine Case-Analyse machen müssen. Da bekommt jeder ein eigenes Thema oder ein eigenes Unternehmen. Das mache ich aber nur bis maximal 20 Teilnehmer.
+**B [00:19:54]** Ich fange von hinten an. Es ist nicht kritisch. Ich habe keine wirklichen Abgaben oder Übungsblätter, wie das in der Mathematik und wahrscheinlich auch in der Informatik der Fall ist, sondern ob die Studierenden eine Übung machen oder nicht ist ihnen selbst überlassen. Ich vergebe - optional und nur nach Anmeldung - die Möglichkeit einen Teil unseres Projektes oder eine Übungsaufgabe zu bearbeiten. Dafür muss mich sich bei mir zum Beginn des Semesters bei mir melden bzw. anmelden. Diejenigen machen dann singulär eine individuelle Aufgabe und bekommen dafür, wenn sies präsentieren und das Ganze gut machen 5 Bonuspunkte. Aber das ist komplett freiwillig. Also ich hab diese Abgaben eigentlich nicht. Da wo ich Abgabe habe, hat jeder einen eigenen Fall oder Case und das ist dann eher bei kleinen Seminaren, wo sie beispielweise eine Case-Analyse machen müssen. Da bekommt jeder ein eigenes Thema oder ein eigenes Unternehmen. Das mache ich aber nur bis maximal 20 Teilnehmer.
 
 **I [00:21:08]** Sind in diesem Kontext die Aufgabenstellungen in einer Form automatisierbar? Können Sie dazu was sagen? Oder sind die Aufgaben in diesem speziellen Fall so hoch individuell, letztlich das man eher sagt, dass hier so ne gewisse - also das berührt ein bisschen das Thema was wir vorhin hatten - hier haben wir wieder sehr offene und individuelle Lösungen: Was ist hier überhaupt automatisierbar wäre hier die Frage?
 
@@ -152,9 +275,9 @@ Ich hab teilweise dann auch, dass Dinge eingeordnet werden müssen. Beispielswei
 
 **I [00:22:42]** Das heißt also, das selbst die Elemente der CustomerJourney nicht starr genug sind, dass man sagt, sie sind vorhanden. Eine gewisse Teilbepunktung wäre möglich. Das man sagt, die grundsätzliche Journey ist da, und dann wäre der andere Bereich die individuelle Überprüfung, dass man untersucht, was wurden denn genau geschrieben? Passt das logisch zusammen oder sind zu große Lücken drinnen?
 
-**B [00:23:21]** Ne, das macht in dem Fall nicht wo wirklich viel Sinn, weil die wirklich sehr sehr unterschiedlich sein können, ich den Studierenden auch sage: Das ich ein Framework, bitte wenden sie es an, bitte weichen sie auch davon ab, wenn das für den Case irgendwie sinnvoll ist. Und jetzt zu gucken, haben die die fünf Stufen drin haben, dass krieg ich auch noch schnell eben selber hin, wenn ich mir das Gesamte sowieso dazu durchlesen muss. Sie stellen fest, ich habe ein paar Dinge, die sind super individualisiert und ich bräuchte da schon eine sehr intelligente KI, die extra Informationen aus dem Internet zieht und dann selber sozusagen diese Cases erstellt gegen die das gematcht werden könnte. Da sind wir glaube ich noch etwas von entfernt. Ich hab super standardisiert. Diese Single-Choice die sie in BWL sehen. Und ich hab sowas zwischendrin, so Rechenaufgaben mit Interpretationen oder dann eben fiktive kleine Casebeschreibungen anhand derer gewisse logische Analysen vorgenommen werden müssen. Also das Thema _DiveKit_, wenn ichs richtig verstanden habe - wäre für mich eher für die mittleren beiden glaub ich eher anwendbar.
+**B [00:23:21]** Ne, das macht in dem Fall nicht so wirklich viel Sinn, weil die wirklich sehr sehr unterschiedlich sein können, ich den Studierenden auch sage: Das ich ein Framework, bitte wenden sie es an, bitte weichen sie auch davon ab, wenn das für den Case irgendwie sinnvoll ist. Und jetzt zu gucken, haben die die fünf Stufen drin haben, dass krieg ich auch noch schnell eben selber hin, wenn ich mir das Gesamte sowieso dazu durchlesen muss. Sie stellen fest, ich habe ein paar Dinge, die sind super individualisiert und ich bräuchte da schon eine sehr intelligente KI, die extra Informationen aus dem Internet zieht und dann selber sozusagen diese Cases erstellt gegen die das gematcht werden könnte. Da sind wir glaube ich noch etwas von entfernt. Ich hab super standardisiert. Diese Single-Choice die sie in BWL sehen. Und ich hab sowas zwischendrin, so Rechenaufgaben mit Interpretationen oder dann eben fiktive kleine Casebeschreibungen anhand derer gewisse logische Analysen vorgenommen werden müssen. Also das Thema _DiveKit_, wenn ichs richtig verstanden habe - wäre für mich eher für die mittleren beiden glaub ich eher anwendbar.
 
-**I [00:24:20]** Unser Ziel ist, darum ist das eigentlich wahnsinnig spannend was sie gerade beschreiben, weil vielleicht der Bereich der hochindividuell ist ggf. ja doch eine Perspektive darstellen könnte für due Zukunft. Aber das man trotz alledem schaut, dass man nach und nach die Aufgabenformen über Programmieraufgaben und Codegenerierung hinausgehen und letztlich auch abbilden lassen, damit sie dann ein Tooling haben, was für Ihre Aufgaben dann sogar einsetzbar wäre. Wenn das Tooling Sie optimal unterstützen würde, wie stark würden Sie die Aufgaben denn dann individualisieren?
+**I [00:24:20]** Unser Ziel ist, darum ist das eigentlich wahnsinnig spannend was sie gerade beschreiben, weil vielleicht der Bereich der hochindividuell ist ggf. ja doch eine Perspektive darstellen könnte für die Zukunft. Aber das man trotz alledem schaut, dass man nach und nach die Aufgabenformen über Programmieraufgaben und Codegenerierung hinausgehen und letztlich auch abbilden lassen, damit sie dann ein Tooling haben, was für Ihre Aufgaben dann sogar einsetzbar wäre. Wenn das Tooling Sie optimal unterstützen würde, wie stark würden Sie die Aufgaben denn dann individualisieren?
 
 **B [00:25:22]** Ja, ist eine schwierige Frage. Sobald es irgendwie geht und sinnvoll ist, also bei Rechenaufgaben, also es kommt auch immer drauf an wie viele Optionen können hinten rauskommen. Also wenn ich irgendwie eine Rechenaufgabe hab die fünf Schritte irgendwie berechnet, dann kann im Endeffekt man sich die Variationsmöglichkeiten selber ausrechnen. Wenn ich dann sag, in welchen Bereichen sollte man reingehen und was wären dann Ansätze... Also das ist ein wenig abhängig davon, wie viele Parameter ich halt auch verändern kann. Also wenn ich die Five-Forces Analyse, da hab ich grundsätzlich fünf Aspekte und da hab ich je Aspekt zwei bis drei Art Indikatoren die ich verwenden, um die Stärke dieses Aspektes zu verwenden. Das heißt, ich hätte wahrscheinlich irgendwo zwischen 10 und 15 Parametern die unterschiedlich sein können. Und entsprechend dann auch Interpretationen danach.
 
@@ -163,18 +286,3 @@ Ich hab teilweise dann auch, dass Dinge eingeordnet werden müssen. Beispielswei
 **B [00:27:00]** Sobald es reale Projekte sind, die einfach auch viele externe Einflüsse haben. Wie gesagt, ich lass meine Studierenden so Outside-In-Analysen von Unternehmen machen. Das heißt ich gebe denen gar keine Informationen vor, sondern ich sag denen: recherchieren sie die, lesen sie darüber und kommen sie dann selber zu einer Meinung. Da sehe ich es halt schwierig. Und ich hab teilweise auch eigene Projekte, wo Studierende Ideen mit entwickeln. Also das wir so Ideenentwicklungstools anwenden und dann gibts da auch kein richtig oder falsch, weil da können die wildesten Dinge irgendwie rauskommen. Und die dann weiterentwickeln, ein Geschäftsmodell dazu machen, eben überlegen was bedeutet es finanziell, einen Finanzplan zu machen. Ich glaube da kommt es an die Grenzen wo es halt wirklich reale Beispiele und extrem vielen Informationen aus dem realen Leben sind. Da gibt es dann keine automatisierte Musterlösung. Aber ich glaube für fiktive Fälle wo es auch so ein paar Stellhebel gibt - ich hatte mir das Beispiel von Herrn Bente angeschaut - ich glaub dafür ist es schon sehr geeignet. Oder wie gesagt, ich sehe es neben den Rechenaufgaben eben auch in den standardisierten Fallbeschreibungen die ich mache, wo man dann eben gucken muss wo sind gewisse Begriffe, was bedeuten die Begriffe, wie kann ich die interpretieren und im Endeffekt halt auch bisschen eine begrenzte Möglichkeit an Lösungen rauskommen kann.
 
 **I [00:28:30]** Herzlichen Dank Frau Engelen für Ihre Zeit, dass sehr nette Gespräch und die vielen Informationen die Sie uns mit dem Interview zur Verfügung stellen.
-
-## Ergebnisprotokoll
-
-### Dimension 1 (Beispiel: Digitale Lehre)
-
-#### Frage 1 (Beispiel: Welche Tools nutzen Sie für die digitale Lehre?)
-* Zusammenfassung der Kernaussagen
-* in Fließtext oder Bulletpoints
-
-#### Frage 2 (Beispiel: Wie zufrieden, oder unzufrieden sind Sie mit diesen Tools und warum?)
-So im Fließtext geht es auch.
-
-### Dimension 2
-
-#### Frage 1
