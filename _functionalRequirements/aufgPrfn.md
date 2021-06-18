@@ -3,7 +3,12 @@ type: functionalRequirement
 acronym: aufgPrfn
 responsible: 
     - hbu
-title: Die Programmieraufgaben automatisiert überprüfen
+title: Aufgaben automatisiert überprüfen
+goals: 
+    - studAutoSystem
+    - studKompakt
+    - entlastung
+    - korrekturVonAufg
 source:
     - [interview, fkrampe, Minute 00:09:47]
     - [interview, fkrampe, Minute 00:17:21]
@@ -12,8 +17,10 @@ history:
     v1:
         date: 2021-06-18
         comment: initially created
+    v2:
+        date: 2021-06-18
+        comment: added goals
 todo: 
-    - goals
 ---
 
 Das DiveKit muss die Lösungen eines Studenten automatisch beim push event in das repo überprüfen.
