@@ -199,8 +199,12 @@ _________
 
 ### Automatisierung
 #### Wie würde sich die Automatisierung von individuellen Aufgabenstellungen Ihrer Meinung nach auf die digitale Lehre auswirken?
-* Vom Interviewten wird beschrieben welche  Tools es gibt beim Thema Automatisierung und welche Features sie dem Benutzer bieten. Konkrete Infos zu Divekit gibt es nicht. Nur im welchen Bereich das Divekit verwendet wird.
-* Der Interviewte hat keine konkrete Idee beim Thema Automatisierung, aber er könnte sich vorstellen, dass bei Git automatisch geprüft wird ob im lokalen Repository die richtige Situation hergestellt wurde. Dies sei nach seiner Meinung einigermaßen einfach zu lösen. Zusätzlich sieht er auch im Bereich Code Coverage also der Qualitätssicherung eine sinnvolle Verwendung.  
+* Vom Interviewten wird beschrieben welche Tools es gibt beim Thema Automatisierung und welche Features sie dem Benutzer bieten. Konkrete Infos zu Divekit gibt es nicht. Nur im welchen Bereich das Divekit verwendet wird.
+* Der Interviewte hat keine konkrete Idee beim Thema Automatisierung, aber er könnte sich vorstellen, dass bei Git automatisch geprüft wird ob im lokalen Repository die richtige Situation hergestellt wurde. Dies sei nach seiner Meinung einigermaßen einfach zu lösen. Zusätzlich sieht er auch im Bereich Code Coverage also der Qualitätssicherung eine sinnvolle Verwendung.
+
+#### Wofür brauchen Sie Individualisierung in der digitalen Lehre?
+* Der Einsatz der Individualisierung ergibt nur im Bereich Betrugsprävention und push Prävention Sinn. Der Studierende braucht die Abwechselung nicht da er ja eine Vorlesung oder Modul nur einmal macht. Der Interviewte ist auch kein Fan davon sich immer neue Aufgaben auszudenken. Er konzentriert sich lieber darauf die Bugs zu entfernen und dafür zu sorgen, dass die Aufgaben fehlerfrei funktionieren. Er sieht Probleme im rechtlichem Kontext. Weil die Schwierigkeit der erstellten Aufgabe sollte immer gleich sein. Sonst könnte ein Studierender sagen er wäre benachteiligt behandelt worden. 
+
 ---
 ## Transcript
 
