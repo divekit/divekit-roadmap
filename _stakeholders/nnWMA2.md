@@ -8,6 +8,7 @@ name: anonym
 stakeholderRole: 
     - wmaProg
     - wmaInf
+    - wmaDev
 relationshipToProject: >
     Potentieller Nutzer in der Lehre und Entwickler von Erweiterungen
 history:
