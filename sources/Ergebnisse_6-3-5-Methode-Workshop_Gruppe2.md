@@ -2,7 +2,10 @@
 acronym: 6-3-5-No.2
 type: literature reference
 title: Ergebnisse_6-3-5-Methode-Workshop_Gruppe2
-responsible: tza,ngi,fgr,jsp
+responsible: -tza
+             -ngi
+             -fgr
+             -jsp
 publisher: none
 source_url: none
 history:
