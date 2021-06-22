@@ -2,7 +2,8 @@
 type: goal
 acronym: API
 responsible: 
-    - fgr,ngi
+    - fgr
+    - ngi
 title: API für eigene Entwicklung
 source: 
     - Interview n.n. WMA  50:45
