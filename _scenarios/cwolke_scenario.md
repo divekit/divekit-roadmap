@@ -7,6 +7,7 @@ scenarioTypes:
     - main
     - negative
     - misuse
+    - exceptional
 responsible: 
     - ngi
 source: [interview, nnWMA2]
@@ -34,3 +35,8 @@ Eine Woche später bekommt er die Abgaben der Studierenden und damit gleich ein 
 ## Missbrauchsszenario
 
 Das Erstellen der Aufgaben und Lösungen mit dem Tool hat sehr gut geklappt. Christian Wolke wartet nun auf die Abgaben der Studierenden. Er ist positiv überrascht: Bei allen Abgaben sind alle Aufgaben richtig gelöst. Er ist interessiert an den Lösungswegen und schaut stichprobenartig in die Abgaben rein. Dabei fällt ihm auf, dass die Studierenden alle völlig identische Abgaben geliefert haben. Offenbar haben sie das System durchschaut und die Lösungen untereinander verbreitet. Wenn Christan Wolke nicht nachgeschaut hätte, wäre ihm der Betrug seiner Studierenden nicht aufgefallen.
+
+
+## Ausnahmeszenario
+
+Bei der Abgabe der Studierenden fällt Christian Wolke auf, dass im Wissensteil seiner Aufgabe alle Freitextaufgaben bei der automatisierten Auswertung als falsch markiert wurden. Er geht nun hin und überprüft alle Abgaben manuell und korrigiert die zuvor ermittelten Ergebnisse. Er findet es schade, dass das Tool offenbar nicht mit diesem Aufgabentyp klarkommt, wäre allerdings auch dazu bereit, diesen Teil der Abgaben manuell als Workaround abzunehmen.
