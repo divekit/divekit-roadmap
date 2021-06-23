@@ -1,8 +1,9 @@
 ---
 type: functionalRequirement
 acronym: API
-responsible: 
+responsible:    
     - fgr
+    - ngi
 title: APi zur Weiterentwicklung 
 goals: 
     - Weiterentwicklung
@@ -13,7 +14,7 @@ history:
     v1:
         date: 2021-06-23
         comment: initially created
-
+---
 
 Das DiveKit muss eine API zur Erweiterung des Divekit bereitstellen.
 ## Begründung
