@@ -5,7 +5,10 @@ responsible:
     - ngi
     - fgr
 name: anonym
-stakeholderRole: wmaProg, profInf
+stakeholderRole: 
+    - wmaProg
+    - wmaInf
+    - wmaDev
 relationshipToProject: >
     Potentieller Nutzer in der Lehre und Entwickler von Erweiterungen
 history:

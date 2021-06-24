@@ -2,7 +2,11 @@
 acronym: 6-3-5-No.2
 type: literature reference
 title: Ergebnisse_6-3-5-Methode-Workshop_Gruppe2
-responsible: tza,ngi,fgr,jsp
+responsible: 
+  - tza
+  - ngi
+  - fgr
+  - jsp
 publisher: none
 source_url: none
 history:
@@ -26,6 +30,7 @@ Position in der Warteschlange anzeigen, wann der Student überprüft wird.
 **Schwerpunkt Interaktion:**
 
 Es soll benachrichtigt werden, sobald die Überprüfung der Aufgaben abgeschlossen wurde. Mögliche Ansätze dies umzusetzen wäre eine E-Mail über die TH-Adresse, eine persönliche Nachricht auf Diskord von einem Bot oder eine gitlab Issue, wo der Student Staff member ist. Sobald die Issue vom Kontrolleur geschlossen wird, wird der Student automatisch informiert. 
+
 Um Zeit sparen zu können sollen an den Aufgaben mit Haken markiert werden können, welche Aufgabe kontrolliert werden sollen. 
 
 Von den Kontrolleuren soll auch bei bestandenen Tests allgemeines Feedback gegeben werden, was ihnen beim Kontrollieren des Tests auffällt. Dieses kann zum Beispiel häufige Fehler oder schlechte Angewohnheiten beinhalten. Es sollen auch Fragen zur Aufgabenlösung gestellt werden können und bei folgenden Aufgabenstellungen Anmerkungen zu häufigen Fehler der gesamten Studierenden gegeben werden.

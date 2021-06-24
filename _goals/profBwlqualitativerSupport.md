@@ -5,12 +5,16 @@ responsible:
     - psc
 title: Qualitative Unterstützung bei Auswertung von Projektarbeiten
 source:
-    - [interview, mengelen, Minute 00:14:46]
+    - [interview, mengelen, Minute 00:23:21]
+    - [interview, mengelen, Minute 00:27:00]
 partOfLargerGoal: 
 history:
     v1:
         date: 2021-06-17
         comment: initially created
+    v2:
+        date: 2021-06-24
+        comment: fix quellen
 todo: 
 ---
 

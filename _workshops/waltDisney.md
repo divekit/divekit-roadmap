@@ -25,8 +25,10 @@ history:
     v4:
         date: 2021-06-14
         comment: Added Categories
-todo:
-    - füllen       
+    v5:
+        date: 2021-06-24
+        comment: Add Content 1.-12. to Categories
+todo:    
 ---
 
 ## Ablauf
@@ -84,16 +86,16 @@ todo:
 23. Es wird sich gewünscht, eine Musterlösung angezeigt zu bekommen nachdem man die Aufgabe erfolgreich gelöst hat. Als Vorschlag wurde die Anfertigung einer individuellen Musterlösung durch den Beteuer genannt. Es wird gewarnt, dass dies zu hohem Zeitaufwand für den Betreuer führen würde.
 
 24. Es wird sich gewünscht, dass die Studierenden schneller benachrichtigt werden, wenn die Korrektur einer Aufgabe abgeschlossen ist. Als Vorschlag werden Discord-Bots genannt, die Bescheid geben. Es wird gewarnt, sich nicht zu stark von Discord abhängig zu machen.
-25. Es wird sich gewünscht, das es eine Meldung/Notification für abgeschlosses Feedback gibt. Es wird vorgeschlagen, den Nutzern mehrere Benachrichtigunsmittel anzubieten, welche dann frei gewählt werden können. Als Kritik wird angemerkt, dass das Berücksichtigen aller Nutzerpräferenzen sehr aufwendig wäre.
-26. Es wird sich gewünscht, dass Notifcations versendet werden, wenn sich die Testseite ändert. Es wird vorgeschlagen, E-Mails zu versenden. Auch wurde vorgeschlagen, dass man beim Commit angeben können sollte, ob man sich so eine Notification überhaupt wünscht. Als Kritik wird angemerkt, dass so eine Erweiterung (Erweiterung der Pipe, Mailserver, Templates...) evtl. sehr aufwendig sein könnte, falls Gitlab so eine Funktionalität nicht bereits anbietet.
-27. Es wird sich gewünscht, dass Abschreiben komplett unterbunden wird. Dazu müssten Vergeleiche für die implementierten Mehoden eingeführt werden. Es wird kritisiert, dass dies zum einen sehr aufwendig wäre und zum anderen auch bedacht werden muss, dass bei ähnlichen Aufgaben ähnliche oder gleiche Methoden entstehen.
-28. Es wird sich gewünscht, dass mehr Funktionalitäten von Gitlabverwendet werden. Dazu wurde angemerkt, dass man dafür evtl. die Aufgabenstellungen erleichtern müsste, wobei dieser Einwand auch infrage gestellt wurde. Ein andere Einwand ist, dass man so Kenntnisse über Gitlab vorraussetzen können müsste und unklar ist, welche Funktionen sich genau gewünscht wurden.
-29. Es wird sich gewünscht, dass Aufgaben ohne großen Arbeitsaufwand kontrolliert werden können. Dazu wurde angemerkt, dass dies eine vereinfachung der Aufgabenstellungen erfordern würde und evtl. nicht alle Aspekte richtig und komplett getestet werden könnten. Ein weiterer Kritikpunkt ist, dass evtl. nicht alle Anforderungen deutlich vermittelt weden können.
-30. Es wird sich gewünscht, das zusammen mit der Aufgabe auch eine Musterlösung erzeugt wird. Es wird vorgeschlagen, dies mit Maschienenlernen und Tools zur automatischen Codegenerierung zu lösen. Es gibt Befürchtungen, dass sie sehr Fehleranfällig sein könnte oder dadurch die Variationsmöglichkeiten für die Aufgabenerstellung leiden könnte. 
-31. Es wird sich gewünscht, dass jeder Teilnehmer eine komplett eigene Aufgabe erzeugt, die sich nur in ihrer Art und Schwierigkeit unterscheiden. Es wird kritisiert, dass dies sehr aufwendig sein würde. 
-32. Es wird sich gewünscht, dass je nach Arbeitsfortschritt Hints/Tipps gegeben werden. Es wird kritisiert, dass dies einen sehr hochen Arbeitsaufwand bei dem Veranstalter Team erzeugen würde.
-33. Es wird sich gewünscht, dass Bonuspunkte für schnelöle und fehlerfreie Abgaben vergeben werden. Es wurde aich vorgeschlagen, zu zählen, wie oft eine Aufgabe kontrolliert wurde. Dies wird aber dafür kritisiert, dass so Studierende bestraft werden, wenn sie die Aufgaben später macehn.
-34. Es wird sich eine komplette Automatisierung des Feedbacks gewünscht. Es Vorschlag wurede ergänzt, dass die Studireden sich selbst eine manuelle Überprüfung wünschen könnten. Kritisiert wird der Vorschlag dafür, dass viele Sachen nicht komplett automatisiert werden können.
+25. Es wird sich gewünscht, dass es eine Meldung/Notification für abgeschlossenes Feedback gibt. Es wird vorgeschlagen, den Nutzern mehrere Benachrichtigungsmittel anzubieten, welche dann frei gewählt werden können. Als Kritik wird angemerkt, dass das Berücksichtigen aller Nutzerpräferenzen sehr aufwendig wäre.
+26. Es wird sich gewünscht, dass Notifcations versendet werden, wenn sich die Testseite ändert. Es wird vorgeschlagen, E-Mails zu versenden. Auch wurde vorgeschlagen, dass man beim Commit angeben können sollte, ob man sich so eine Notification überhaupt wünscht. Als Kritik wird angemerkt, dass so eine Erweiterung (Erweiterung der Pipe, Mailserver, Templates...) evtl. sehr aufwendig sein könnte, falls GitLab so eine Funktionalität nicht bereits anbietet.
+27. Es wird sich gewünscht, dass Abschreiben komplett unterbunden wird. Dazu müssten Vergleiche für die implementierten Methoden eingeführt werden. Es wird kritisiert, dass dies zum einen sehr aufwendig wäre und zum anderen auch bedacht werden muss, dass bei ähnlichen Aufgaben ähnliche oder gleiche Methoden entstehen.
+28. Es wird sich gewünscht, dass mehr Funktionalitäten von GitLab verwendet werden. Dazu wurde angemerkt, dass man dafür evtl. die Aufgabenstellungen erleichtern müsste, wobei dieser Einwand auch infrage gestellt wurde. Ein anderer Einwand ist, dass man so Kenntnisse über GitLab voraussetzen können müsste und unklar ist, welche Funktionen sich genau gewünscht wurden.
+29. Es wird sich gewünscht, dass Aufgaben ohne großen Arbeitsaufwand kontrolliert werden können. Dazu wurde angemerkt, dass dies eine Vereinfachung der Aufgabenstellungen erfordern würde und evtl. nicht alle Aspekte richtig und komplett getestet werden könnten. Ein weiterer Kritikpunkt ist, dass evtl. nicht alle Anforderungen deutlich vermittelt werden können.
+30. Es wird sich gewünscht, das zusammen mit der Aufgabe auch eine Musterlösung erzeugt wird. Es wird vorgeschlagen, dies mit Maschinenlernen und Tools zur automatischen Codegenerierung zu lösen. Es gibt Befürchtungen, dass sie sehr Fehleranfällig sein könnte oder dadurch die Variationsmöglichkeiten für die Aufgabenerstellung leiden könnte. 
+31. Es wird sich gewünscht, dass für jeden Teilnehmer eine komplett eigene Aufgabe erzeugt wird, die sich nur in ihrer Art und Schwierigkeit unterscheiden. Es wird kritisiert, dass dies sehr aufwendig sein würde. 
+32. Es wird sich gewünscht, dass je nach Arbeitsfortschritt Hints/Tipps gegeben werden. Es wird kritisiert, dass dies einen sehr hohen Arbeitsaufwand bei dem Veranstalter Team erzeugen würde.
+33. Es wird sich gewünscht, dass Bonuspunkte für schnelle und fehlerfreie Abgaben vergeben werden. Es wurde auch vorgeschlagen, zu zählen, wie oft eine Aufgabe kontrolliert wurde. Dies wird aber dafür kritisiert, dass so Studierende bestraft werden, wenn sie die Aufgaben später machen.
+34. Es wird sich eine komplette Automatisierung des Feedbacks gewünscht. Es Vorschlag wurde ergänzt, dass die Studierenden sich selbst eine manuelle Überprüfung wünschen könnten. Kritisiert wird der Vorschlag dafür, dass viele Sachen nicht komplett automatisiert werden können.
 
 35. Es wird sich gewünscht, eine Übersicht die zusammenhängende Meilensteine eines Semesters/Kurses darstellt. Personalisiertes Projekt für jeden Kurs und jeden User in das die Repos hinzugefügt werden, damit sie zugeordnet werden können. Es wird kritisiert, dass ein sehr hoher Aufwand entsteht, wenn eine komplett neue Struktur der Gitlab Projekte und Gruppen erstellt werden muss.
 36. Es wird sich gewünscht, direktes Feedback ohne lange wartezeiten zu bekommen. Build kann direkt in der Pipe gemacht werden und nicht eine Pipe die irgendwo den Build triggert.
@@ -120,29 +122,47 @@ todo:
 56. Es wird sich gewünscht, die Aufgaben so zu gestalten, dass keine manuelle Prüfung mehr nötig ist. Es wird angemerkt, dass die Aufgabensteller dazu die Aufgaben so stellen müssten, dass die Lösungen automatisch geprüft werden können und dass ein einmaliger Mehraufwand für die Erstellung weiterer automatischer Tests entstehe. Es wird kritisiert, dass einige Dinge nicht automatisch prüfbar seien, wie z.B. der Codestyle.
 
 
-
 ## Kategorien
 
 ### Usability
+
 Usability beschreibt Verbesserungsvorschläge für bestehende Funktionen, bzw. kleinere neue Features für Quality of Life.
+
 * schnellere Ergebnisse
-* Automatische Hinweise
+* automatische Hinweise
 * automatische Korrektur für alles
 * Musterlösung bei bestandener Abgabe
 * bessere Feedback Seite
 * Feedback schon in der IDE
 * manuelle Prüfungswarteschlange
-* direkter Kontakt in Test seite
+* direkter Kontakt in Testseite
+* Meilensteine nacheinander abarbeitbar
+* Darkmode
 
 ### Funktionalität
+
 Funktionalität beschreibt neue Features, die zum System hinzugefügt werden sollen.
 
+* Bei Exceptions Links zu Fehler bereitstellen (via Google oder stackoverflow)
+* Abschreiben komplett unterbinden, Plagiatsprüfung
+* Überprüfung durch KI
+
 ### Interaktion
+
 Beschreibt Wünsche im Bezug auf menschliche Interaktion zwischen den Beteiligten im System.
-* Schnelle Benarichtigung, wenn die z.B. Korrektur abgeschlossen ist
+
+* Schnelle Benachrichtigung, wenn die Korrektur abgeschlossen ist
+* Mehrere Berichtigungskanäle (E-Mail, Discord, WhatsApp...) anbieten, die frei wählbar sind für die Studierenden
+* Feedback ist komplett automatisiert, manuelles Feedback auf Nachfrage noch möglich
 
 ### Aufgaben
+
 Probleme, die sich auf das Erstellen/Bearbeiten/Korrigieren der studentischen Aufgaben beziehen.
+
+* Musterlösung zusammen mit der Aufgaben generieren
+* Noch stärkere Individualisierung
+* Hinweise anbieten, die je nach Aufgabenfortschritt offenbart werden können
+* Aufgaben anderer Informatikmodule integrieren (wie DB1, WT, VI, etc.)
 
 
 ## Miro-Workshops

@@ -4,17 +4,17 @@ acronym: men
 responsible: 
     - psc
 name: Monika Engelen
-stakeholderRole: profInf
+stakeholderRole: profBwl
 relationshipToProject: >
-    Anwender des Systems in mehreren Lehrveranstaltungen. Interessiert an sinnvoller Weiterentwicklung, 
-    möchte eigene Ideen einbringen. 
+    Anwender des Systems in mehreren Lehrveranstaltungen. Interessiert an sinnvoller Weiterentwicklung, möchte eigene Ideen einbringen. 
 history:
     v1:
         date: 2021-05-07
         comment: grober Steckbrief und Relevanz des Stakeholders für Divekit
+    v2:
+        date: 2021-06-24
+        comment: add correct role
 todo:
-    - Anonymisierung oder Klärung zur Veröffentlichung
-    - andere Rolle   
 ---
 
 ## Steckbrief

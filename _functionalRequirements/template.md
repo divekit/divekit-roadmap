@@ -4,6 +4,9 @@ acronym: template
 responsible: 
     - jlü
 title: Kurze Beschreibung
+goals: 
+    -
+    -
 source:
     - [interview, fkrampe, Minute 00:12:01]
 history:
@@ -12,7 +15,10 @@ history:
         comment: initially created
     v2:
         date: 2021-06-16
-        comment: update Template 
+        comment: update Template
+    v3:
+        date: 2021-06-18
+        comment: update Template
 todo: 
 ---
 
@@ -26,4 +32,4 @@ Das DiveKit {Verbindlichkeit/Wichtigkeit} {Art der Funktionalität} {Objekt} {Pr
 
 ## Begründung
 
-Wird dieses Ziel erreicht, wird der Mitarbeiter etwas entlastet, was ein übergeordnetes Ziel ist.
+Falls es zusätzliche Begründung für eine Anforderung benötigt (neben den oben referenzierten Zielen), hier kurz erläutern
