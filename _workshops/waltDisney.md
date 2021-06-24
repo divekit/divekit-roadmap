@@ -28,6 +28,9 @@ history:
     v5:
         date: 2021-06-24
         comment: Add Content 1.-12. to Categories
+    v6: 
+        date: 2021-06-24
+        comment: Added values to categories
 todo:    
 ---
 
