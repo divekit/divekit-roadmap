@@ -25,8 +25,10 @@ history:
     v4:
         date: 2021-06-14
         comment: Added Categories
-todo:
-    - füllen       
+    v5:
+        date: 2021-06-24
+        comment: Add Content 1.-12. to Categories
+todo:    
 ---
 
 ## Ablauf
@@ -120,35 +122,47 @@ todo:
 56. Es wird sich gewünscht, die Aufgaben so zu gestalten, dass keine manuelle Prüfung mehr nötig ist. Es wird angemerkt, dass die Aufgabensteller dazu die Aufgaben so stellen müssten, dass die Lösungen automatisch geprüft werden können und dass ein einmaliger Mehraufwand für die Erstellung weiterer automatischer Tests entstehe. Es wird kritisiert, dass einige Dinge nicht automatisch prüfbar seien, wie z.B. der Codestyle.
 
 
-
 ## Kategorien
 
 ### Usability
+
 Usability beschreibt Verbesserungsvorschläge für bestehende Funktionen, bzw. kleinere neue Features für Quality of Life.
+
 * schnellere Ergebnisse
-* Automatische Hinweise
+* automatische Hinweise
 * automatische Korrektur für alles
 * Musterlösung bei bestandener Abgabe
 * bessere Feedback Seite
 * Feedback schon in der IDE
 * manuelle Prüfungswarteschlange
-* direkter Kontakt in Test seite
+* direkter Kontakt in Testseite
+* Meilensteine nacheinander abarbeitbar
+* Darkmode
 
 ### Funktionalität
+
 Funktionalität beschreibt neue Features, die zum System hinzugefügt werden sollen.
-* Abschreiben komplett unterbinden, Plagiat Prüfung
+
+* Bei Exceptions Links zu Fehler bereitstellen (via Google oder stackoverflow)
+* Abschreiben komplett unterbinden, Plagiatsprüfung
+* Überprüfung durch KI
 
 ### Interaktion
+
 Beschreibt Wünsche im Bezug auf menschliche Interaktion zwischen den Beteiligten im System.
-* Schnelle Benarichtigung, wenn die z.B. Korrektur abgeschlossen ist
+
+* Schnelle Benachrichtigung, wenn die Korrektur abgeschlossen ist
 * Mehrere Berichtigungskanäle (E-Mail, Discord, WhatsApp...) anbieten, die frei wählbar sind für die Studierenden
 * Feedback ist komplett automatisiert, manuelles Feedback auf Nachfrage noch möglich
 
 ### Aufgaben
+
 Probleme, die sich auf das Erstellen/Bearbeiten/Korrigieren der studentischen Aufgaben beziehen.
-* Musterlösung zusammen mit der Aufgaben generieren 
+
+* Musterlösung zusammen mit der Aufgaben generieren
 * Noch stärkere Individualisierung
-* Hinweise anbieten, die je nach Aufgabenfortschritt offenbart werden können  
+* Hinweise anbieten, die je nach Aufgabenfortschritt offenbart werden können
+* Aufgaben anderer Informatikmodule integrieren (wie DB1, WT, VI, etc.)
 
 
 ## Miro-Workshops
