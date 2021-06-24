@@ -138,6 +138,14 @@ Usability beschreibt Verbesserungsvorschläge für bestehende Funktionen, bzw. k
 * direkter Kontakt in Testseite
 * Meilensteine nacheinander abarbeitbar
 * Darkmode
+* Übersicht die zusammenhängende Meilensteine eines Semesters/Kurses darstellt
+* Automatisierung ohne Discord
+* Stärkere Individualisierung der Aufgabenstellungen
+* Manuell korrigierte Tests sollen auch in IntelliJ einsehbar sein
+* Anziegen welcher Commit korrigiert wurde
+* Korrekturen selber Kommentieren
+
+
 
 ### Funktionalität
 
@@ -154,6 +162,9 @@ Beschreibt Wünsche im Bezug auf menschliche Interaktion zwischen den Beteiligte
 * Schnelle Benachrichtigung, wenn die Korrektur abgeschlossen ist
 * Mehrere Berichtigungskanäle (E-Mail, Discord, WhatsApp...) anbieten, die frei wählbar sind für die Studierenden
 * Feedback ist komplett automatisiert, manuelles Feedback auf Nachfrage noch möglich
+* Schnelleres Feedback
+* Statt Team soll benachrichtigt werden, wenn estwas gepusht wird
+* Längeres und detaillierteres Feedback
 
 ### Aufgaben
 
