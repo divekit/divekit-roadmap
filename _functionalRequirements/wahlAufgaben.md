@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: Aufgabentypen
+acronym: wahlAufgaben
 responsible: 
     - psc
 title: verschiedenen Aufgabentypen
@@ -16,6 +16,9 @@ history:
     v1:
         date: 2021-06-24
         comment: initially created
+    v2:
+        date: 2021-06-24
+        comment: fix acronym
 todo: 
 ---
 
