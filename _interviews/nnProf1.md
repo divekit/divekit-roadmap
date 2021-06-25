@@ -74,7 +74,7 @@ Frage 2: Welche Erwartungen für ihre Studierenden haben sie an ein solches Syst
 * Interaktionen zwischen Studierenden untereinander
 * Interaktionen zwischen Lerhenden untereinander
 * Werkzeuge zur Unterstürzung von echter Kooperation
-* Lehrräume, in welchen mehr als Audi,Video, Texten und geteilten Bilschrime möglich sind
+* Lehrräume, in welchen mehr als Audi,Video, Texten und geteilten Bildschirme möglich sind
 
 ### Erfahrung
 
