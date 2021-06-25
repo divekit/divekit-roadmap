@@ -5,7 +5,7 @@ responsible:
     - jlü
 title: individualisierte Aufgaben haben einen Vergleichbaren Schwierigkeitsgrad
 goals: 
-    -
+    - individualAufg
     -
 source:
     - [interview, nnProf3]
