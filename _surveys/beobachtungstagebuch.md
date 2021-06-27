@@ -20,9 +20,12 @@ history:
     v2:
         date: 2021-06-18
         comment: added description and concept
+    v3:
+        date: 2021-06-27
+        comment: added list of participants, results and corresponding documents
         
 todo: 
-    - füllen        
+
 ---
 
 ##Erläuterung
@@ -50,8 +53,116 @@ Das hat mich begeistert: "Hier kannst du Punkte nennen, die dich über "Das gef�
 
 Kreativbereich/Sonstiges: "In diesem Feld bist du frei Dinge aufzuschreiben oder zu illustrieren, die du uns gerne mitteilen möchtest, aber nicht in eine der anderen Kategorien gepasst haben. Du bist hier nicht nur an das Wort gebunden, sondern kannst gerne kleine Sketche oder Mindmaps verwenden."
 
+## Teilnehmer (anonymisiert)
+1. Percival Craig (PC)
+2. Harvey Specter (HS)
+3. Rick Dalton (RD)
+4. PSSG (PS)
+5. Peter Pan (PP)
+6. Flaschenhals (FH)
+7. Weißer Wolf (WW)
+8. Anonym (AN)
+9. Averroes (AV)
+10. Besoffski (BE)
+11. Snake (SN)
+12. Kaktus (KA)
+13. Phil Banks (PB)
+
 ##Ergebnisse
-- folgen
+(PC1)	Das System muss in der Lage sein Fehlermeldungen anzuzeigen.
+
+(PC2)	Das System muss in der Lage sein Studierenden zu nicht bestandenen Tests Feedback anzuzeigen.
+
+(PC3)	Das System sollte eine simple Gliederung der Testseite haben.
+
+(PC4)	Das System muss so aufgebaut sein, dass der (Kennen)Lernprozess nicht zu aufwendig ist.
+
+(PC5)	Das System muss eine kurze Refresh-Time haben.
+
+(PC6)	Das System muss in der Lage sein, die durch die Studierenden eingestellten Tests zur Testseite hinzuzufügen, sobald sie im richtigen Projektordner abgelegt wurden.
+
+(PC7)	Das System sollte in der Lage sein eine visuelle und/oder textuelle Rückmeldung nach der Prüfung der Tests zu geben, um die Übersichtlichkeit zu verbessern.
+
+(PC8)	Das System muss in der Lage sein dem Prüfer nach Abschluss eines Tests eine Benachrichtigung zuzusenden, damit manuelles Feedback zeitnah durchgeführt werden kann und Wartezeiten verringert werden.
+
+(PC9)	Das System muss in der Lage sein dem Studierenden nach durchgeführtem Feedback eine Benachrichtigung zu senden, damit das Feedback direkt eingesehen werden kann und Wartezeiten verringert werden.
+
+(PC10)	Das System muss in der Lage sein dem Studierenden zu bestandenen Test und/oder zu allgemeinen Dingen Feedback zu geben. Es soll zudem eine Aussage darüber geben wie “gut” eine Lösung ist.
+
+(PC11)	Das System sollte in der Lage sein den Studierenden ein Feedback Archiv zur Verfügung zu stellen, um vorherige Kommentare einsehen zu können.
+
+---
+
+(HS1)	Das System muss in der Lage sein die Ergebnisse eines Tests auf der gleichen Seite und nicht auf einer extra Seite anzeigen zu können.
+
+(HS2)	Das System muss in der Lage sein den Studierenden mithilfe von visuellen Mitteln anzuzeigen, bei welchen Komponenten es Probleme gab beziehungsweise welche Aufgaben noch nicht bearbeitet wurden.
+
+(HS3)	Das System sollte Usern die Möglichkeit bieten das Design individuell festlegen zu können.
+
+---
+
+(RD1)	Das System sollte Studierenden die Möglichkeit bieten sich Hilfe oder (Code-) Reviews bei anderen Studierenden suchen zu können.
+
+(RD2)	Das System sollte in der Lage sein Studierenden weiterführende Informationen (z.B. Videos/Webseiten/Vorlesungsmaterialien) zu konkreten Fehlern zur Verfügung zu stellen.
+
+(RD3)	Das System sollte in der Lage sein Studierenden anzuzeigen, wie lange die Korrektur der Aufgaben dauert bzw. welchen Stand die Korrektur gerade hat.
+
+---
+
+(PS1)	Das System sollte dem User die Möglichkeit bieten Tests lokal auszuführen.
+
+(PS2)	Das System muss die Pseudonyme der korrigierenden Personen eindeutig angeben können.
+
+(PS3)	Das System sollte die Zeitzone an den Nutzenden anpassen können.
+
+(PS4)	Das System sollte dem User die Möglichkeit bieten einsehen zu können, wann die Aufgaben manuell korrigiert werden.
+
+(PS5)	Das System muss in der Lage sein Usern mit Farbfehlsichtigkeit, insbesondere Usern mit Rot-Grün-Schwäche, die Interpretation der Ergebnisse zu ermöglichen.
+
+(PS6)	Das System muss unverständliche und nicht nachvollziehbare Fehler in der Aufgabenstellung sowie im Testablauf vermeiden.
+
+(PS7)	Das System sollte die Durchführung von manuelle Korrekturen vor der Abgabe ermöglichen.
+
+---
+
+(PP1)	Das System soll mehr Tests bereitstellen, die den Code testen.
+
+(PP2)	Das System sollte das Durchlaufen von Tests bei falschen Lösungen verhindern.
+
+---
+
+(FH1)	Das System sollte in der Lage sein den User einfach zwischen Meilensteinen wechseln zu lassen.
+
+(FH2)	Das System sollte Studierenden die Möglichkeit bieten ohne Medienbruch Fragen an betreuende Personen stellen zu können.
+
+
+---
+
+(AN1)	Das System darf den Status eines Tests erst dann auf grün setzen, wenn der Benutzer die Aufgabe erfolgreich bearbeitet hat.
+
+(AN2)	Das System sollte in der Lage sein den Zeitstempel der letzten Aktualisierung des Codes anzeigen zu können.
+
+---
+
+(AV1)	Das System sollte in der Lage sein die Testseite nach der Prüfung eines Test selbstständig zu aktualisieren.
+
+---
+
+(BE1)	Das System sollte in der Lage sein dem Studierenden die Deadline der zu bearbeitenden Aufgabe auf der Testseite anzeigen zu können.
+
+---
+
+(KA1)	Das System sollte über eine Schnittstelle für Anbindungen anderer Systeme verfügen.
+
+---
+
+(PB1)	Das System muss in der Lage sein Änderungen an Dateien automatisch zu registrieren.
+(PB2)	Das System sollte in der Lage sein dem Benutzer einfache Qualitätstests, wie Ausführungszeit, Ressourcenauslastung, etc. bereitzustellen.
+
 
 ##Dokumente
-- folgen
+**[Beobachtungstagebuch Anforderungen](../sources/tagebuch_reqirements.pdf)**
+
+**[Beobachtungstagebuch Anforderungssammlung (Rohdaten)](../sources/tagebuch_req_sammlung.pdf)**
+
+**[Beobachtungstagebuch Kano Priorisierungsmatrix](../sources/tagebuch_req_priorisierung.pdf)**
