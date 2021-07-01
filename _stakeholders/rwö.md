@@ -3,6 +3,7 @@ type: stakeholder
 acronym: rwö
 responsible: 
     - jlü
+    - ama
 name: Rene Wörzberger
 stakeholderRole: profInf
 relationshipToProject: 

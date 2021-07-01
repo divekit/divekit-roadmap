@@ -180,7 +180,7 @@ _________
 #### Wie nutzerfreundlich muss das Tool aus Lehrenden und Studierenden Ansicht gestaltet sein?
 * Ja, ziemlich natürlich
 * weil sonst hat man viele Probleme
-* Git soll früh möglichst früh gelehrt werden (im ersten oder Zweiten Semester)
+* Git soll möglichst früh gelehrt werden (im ersten oder Zweiten Semester)
 * Die Studierenden lernen zu viel Java, aber dafür können sie kein Git
 
 ####  Welche Arten von Aufgaben stellen Sie den Studierenden in Praktika?

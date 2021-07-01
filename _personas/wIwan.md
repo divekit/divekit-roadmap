@@ -18,7 +18,7 @@ todo:
 ---
 
 ## Beschreibung
-Walter ist 29 Jahre alt und ist im 9.Semester Medieninformatik Bachelor und er hat schon viele der Praktikas absolviert. 
+Walter ist 29 Jahre alt und ist im 9. Semester Medieninformatik Bachelor und er hat schon viele der Praktikas absolviert. 
 Er ist erleichtert, dass er nur noch die Klausuren schreiben muss, aber trotzdem ist er etwas neidisch darauf, dass er das System nicht zu seiner Zeit benutzen konnte, als er noch die Praktikas machen musste. 
 Aber er ist glücklich darüber, dass er jetzt die Möglichkeit hat das Divekit zu benutzen, um sich für die Klausur vorzubereiten. 
 Während seines Studiums hat Walter als Werkstudent gearbeitet und hat so auch praktische Erfahrung gesammelt und konnte seine Programmierkenntnisse erweitern. 
