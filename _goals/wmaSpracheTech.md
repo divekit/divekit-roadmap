@@ -21,7 +21,7 @@ todo:
 
 ## Beschreibung
 
-Das Tool soll dabei Unterützen das Beziehung zwischen Entitäten individualisiert werden können. (Beziehungstypen)
+Das Tool soll dabei unterstützen, dass Beziehungen zwischen Entitäten individualisiert werden können. (Beziehungstypen)
 
 ## Begründung
 

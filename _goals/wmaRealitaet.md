@@ -21,8 +21,8 @@ todo:
 
 ## Beschreibung
 
-Die Studierenden sollen realitätsnahe zu Programme nutzen. 
+Die Studierenden sollen realitätsnahe Programme nutzen. 
 
 ## Begründung
 
-Es soll Raum gegeben werden um mit realitätnaher Software wie IntelliJ und Git/Lab erste Erfahrungen zu sammeln. 
+Es soll Raum gegeben werden, um mit realitätsnaher Software wie IntelliJ und Git/Lab erste Erfahrungen zu sammeln. 
