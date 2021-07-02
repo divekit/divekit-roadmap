@@ -8,7 +8,7 @@ responsible:
 title: Moderne Programmiertechniken - Versionierungstools
 source:
     - [interview, Kohls, Minute 00:00:22]
-partOfLargerGoal: 
+partOfLargerGoal: modernesCoding
 history:
     v1:
         date: 2021-07-02
