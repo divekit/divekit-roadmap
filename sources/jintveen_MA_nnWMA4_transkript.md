@@ -17,9 +17,9 @@ history:
 
 ## Transkript des Interviews mit n.n. WMA 4
 
-Durchgeführt durch Jann Intveen
-Tätigkeitsfeld: Wissenschaftlicher Mitarbeiter
-Datum: 17.12.0
+Durchgeführt durch Jann Intveen\
+Tätigkeitsfeld: Wissenschaftlicher Mitarbeiter\
+Datum: 17.12.2020
 
 ## Inhalt
 

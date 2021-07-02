@@ -26,4 +26,4 @@ Der Entwickler möchte die aktuell vorhandene Unterstützung der deutschen Sprac
 
 ## Begründung
 
-Eine Verbesserung fördert die Verständlichkeit und Richtigkeit der zu individualisierten Texte. Zum Beispiel werden in der deutschen Sprachen die Artikel von Nomen und substantivierte Verben je nach Fall geändert.
+Eine Verbesserung fördert die Verständlichkeit und Richtigkeit der zu individualisierenden Texte. Zum Beispiel werden in der deutschen Sprachen die Artikel von Nomen und substantivierte Verben je nach Fall geändert.

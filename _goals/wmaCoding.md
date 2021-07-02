@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: condinganteil
+acronym: codinganteil
 responsible: 
     - kru
     - duz
@@ -25,4 +25,4 @@ Die Studierenden sollen mehr zum Coden animiert werden.
 
 Durch einen gesteigerten Codinganteil im Praktikum sollen die Studierenden vertrauter mit der Programmierung werden. 
 
-Des Weitern soll das Praktikum eine Sicht auf das Gesammtbild fördern
+Des Weitern soll das Praktikum eine Sicht auf das Gesamtbild fördern.

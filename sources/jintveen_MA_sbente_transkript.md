@@ -17,7 +17,7 @@ history:
 
 ## Transkript des Interviews mit Prof. Dr. Stefan Bente 
 
-Interviewpartner: Prof. Dr. Stefan Bente
+Interviewpartner: Prof. Dr. Stefan Bente\
 Datum: 29.12.2020
 
 ## Inhalt
