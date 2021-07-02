@@ -7,7 +7,8 @@ responsible:
     - ako
 title: Moderne Programmiertechniken - Versionierungstools
 source:
-    - [interview, Kohls, Minute 00:00:22]
+    - [interview, cko, Minute 00:00:22]
+    - [interview, cko, Minute 00:02:33]
 partOfLargerGoal: modernesCoding
 history:
     v1:
