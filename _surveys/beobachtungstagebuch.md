@@ -28,13 +28,13 @@ todo:
 
 ---
 
-##Erläuterung
+## Erläuterung
 Die Studierenden wurden in der Zeit vom 20.05.2021 bis zum 04.06.2021 mit einem Beobachtungstagebuch ausgestattet. Damit sollten Sie ihre Erfahrungen bei der Verwendung des Divekit im Modul Softwaretechnik 2 dokumentieren.
 Die Durchführung fand komplett anonymisiert statt. Um die Tagebücher dennoch zuordnen zu können, wählten die Teilnehmer persönliche Pseudonyme.
 Die Teilnehmer wurden explizit darauf hingewiesen aktiven Input über das Beobachtungstagebuch zu liefern. Aufgrund der gegebenen Anonymität wurden sie explizit darauf hingewiesen nicht vor Kritik zu scheuen.
 Die Bereitstellung und Abgabe des Beobachtungstagebuchs erfolgte über Ilias.
 
-#Konzept
+## Konzept
 Das erarbeitete Beobachtungstagebuch bestand aus acht Abschnitten zu denen die Teilnehmer aufgefordert waren Antwort zu geben. Die verwendeten Abschnitte sind nachfolgend erläutert:
 
 Sehen: "Hier soll alles beschrieben werden, was du siehst und als nennenswert empfindest. Gerne kannst du hier beispielsweise aufschreiben, ob es Bugs gab, etwas anders war als sonst oder auch welches Feedback du für die Meilensteine bekommen hast."
@@ -68,7 +68,7 @@ Kreativbereich/Sonstiges: "In diesem Feld bist du frei Dinge aufzuschreiben oder
 12. Kaktus (KA)
 13. Phil Banks (PB)
 
-##Ergebnisse
+## Ergebnisse
 (PC1)	Das System muss in der Lage sein Fehlermeldungen anzuzeigen.
 
 (PC2)	Das System muss in der Lage sein Studierenden zu nicht bestandenen Tests Feedback anzuzeigen.
@@ -160,7 +160,7 @@ Kreativbereich/Sonstiges: "In diesem Feld bist du frei Dinge aufzuschreiben oder
 (PB2)	Das System sollte in der Lage sein dem Benutzer einfache Qualitätstests, wie Ausführungszeit, Ressourcenauslastung, etc. bereitzustellen.
 
 
-##Dokumente
+## Dokumente
 **[Beobachtungstagebuch Anforderungen](../sources/tagebuch_reqirements.pdf)**
 
 **[Beobachtungstagebuch Anforderungssammlung (Rohdaten)](../sources/tagebuch_req_sammlung.pdf)**
