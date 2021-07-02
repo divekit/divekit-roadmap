@@ -21,7 +21,7 @@ todo:
 Die Studiernden sollen bei ihrer Arbeit motiviert werden. Motivation ist hierbei als Kollektivum (Sammelbegriff) zu betrachten, da es viele voneinander unabhängige Formen der Motivation gibt:
 
 * [Allgemeiner Lerndruck]()
-* [Extrinsische Motivation durch Bonuspunkte o. Ä.]()
-* [Intrinsische Motivation durch Gamification o. Ä.]()
+* [Extrinsische Motivation durch Bonuspunkte o. Ä.](./motivationExtrinsisch.md)
+* [Intrinsische Motivation durch Gamification o. Ä.](./motivationIntrinsisch.md)
 
 ## Begründung
