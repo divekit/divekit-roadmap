@@ -27,4 +27,4 @@ Den Studierenden soll die Arbeit mit Versionierungstools näher gebracht werden.
 
 ## Begründung
 
-Man soll vertraut sein mit den wichtigsten Kommandos und die Funktionsweise besser nachvollziehen können.
+Man soll vertraut sein mit den wichtigsten Kommandos und die Funktionsweise soll besser nachvollzogen werden können.
