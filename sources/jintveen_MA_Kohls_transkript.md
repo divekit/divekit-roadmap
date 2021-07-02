@@ -15,8 +15,10 @@ history:
         
 ---
 
-## Transkript des Interviews mit Prof. Dr. Christian Kohls 
-Interviewpartner: Prof. Dr. Christian Kohls Datum: 18.12.2 
+## Transkript des Interviews mit Prof. Dr. Christian Kohls
+
+Interviewpartner: Prof. Dr. Christian Kohls\
+Datum: 18.12.2 
 
 ## Inhalt 
  
