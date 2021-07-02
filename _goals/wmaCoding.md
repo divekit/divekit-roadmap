@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: condinganteil
+acronym: codinganteil
 responsible: 
     - kru
     - duz
