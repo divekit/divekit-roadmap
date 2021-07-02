@@ -8,7 +8,7 @@ responsible:
 title: Motivation von Studierenden - Extrinsisch
 source:
     - [interview, ckohls, Minute 00:29:13]
-partOfLargerGoal: 
+partOfLargerGoal: motivation
 history:
     v1:
         date: 2021-07-02
