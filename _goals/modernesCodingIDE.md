@@ -9,11 +9,15 @@ title: Moderne Programmiertechniken - IDEs
 source:
     - [interview, ckohls, Minute 00:00:22]
     - [interview, sbente, Minute 00:00:16]
+    - [interview, nnWMA4, Minute 00:02:58]
 partOfLargerGoal: modernesCoding
 history:
     v1:
         date: 2021-07-02
         comment: initially created
+    v2:
+        date: 2021-07-03
+        comment: added source and reason
 todo: 
 ---
 
