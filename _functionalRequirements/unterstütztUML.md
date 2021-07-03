@@ -9,7 +9,7 @@ title: Untertützung von diagrammbasierten Aufgaben
 goals: 
     - modernesCodingFormaleNotation
 source:
-    - [interview, Kohls, Minute 00:00:22]
+    - [interview, ckohls, Minute 00:00:22]
 history:
     v1:
         date: 2021-07-03
