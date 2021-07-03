@@ -1,12 +1,14 @@
 ---
-acronym: sampleContext
+acronym: ilias
 type: itsystem
 responsible:
     - jsp
     - psc
+    - duz
 mentionnedInSource: 
     - Interview nnProf1
     - Interview mengelen
+    - [interview, sbente, Minute 00:48:05]
 history:
     v1:
         date: 2021-06-16
@@ -14,6 +16,11 @@ history:
     v2:
         date: 2021-06-17
         comment: profBwl nutzt das Übungs- und Klausurmodul
+    v3:
+        date: 2021-07-03
+        comment: added source, acronym and todo
+todo:
+    - Bitte Timestamps ergänzen!
 ---
 
 ## Erläuterung
