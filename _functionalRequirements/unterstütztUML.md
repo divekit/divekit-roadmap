@@ -7,9 +7,10 @@ responsible:
     - duz
 title: Untertützung von diagrammbasierten Aufgaben
 goals: 
-    - modernesCodingFormaleNotation
+    - umlAufgaben
 source:
-    - [interview, Kohls, Minute 00:00:22]
+    - [interview, ckohls, Minute 00:00:22]
+    - [interview, sbente, Minute 00:39:23]
 history:
     v1:
         date: 2021-07-03
