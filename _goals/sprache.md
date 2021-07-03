@@ -24,6 +24,13 @@ todo:
 
 Der Entwickler strebt eine verbesserte Nutzung der Sprache an, sowohl grammatikalisch als auch technisch.
 
+Dieses Ziel ist ein Oberziel von:
+
+* [Grammatisch richtige Sprache](wmaSpracheGram.md)
+* [Technische Sprache & Relationen](wmaSpracheTech.md) 
+* [Optionen für die Sprache](wmaSpracheOptEinst.md)
+
+
 ## Begründung
 
-Siehe Subziele: [Grammatisch richtige Sprache](wmaSpracheGram.md), [technische Sprache & Relationen](wmaSpracheTech.md) und [Optionen für die Sprache](wmaSpracheOptEinst.md)
+Eine vergesserte Unterstützung von der Sprache soll fördern, komplexere Aufgaben fachlich und grammatikalisch korrekt zu generieren. 

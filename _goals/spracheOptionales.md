@@ -17,7 +17,9 @@ todo:
 ---
 
 ## Beschreibung
+
 Das Tool soll optionale Einstellungen bei der Erstellung von Aufgabentexten bieten.
 
 ## Begründung
-Durch optionale Einstellungen sollen zum Beispiel bestimmte Varianten ausgeschlossen werden können.
+
+Durch optionale Einstellungen sollen z. B. nur bestimmte Varianten ein- oder ausgeschlossen werden können. 

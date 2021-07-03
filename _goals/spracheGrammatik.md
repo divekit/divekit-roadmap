@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: grammatik
+acronym: spracheGrammatik
 responsible: 
     - kru
     - duz
