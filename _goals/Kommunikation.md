@@ -11,10 +11,14 @@ history:
         date: 2021-06-25
         comment: initially created
 todo:
+    - Quellformat anpassen
+    - Bitte Begründung in einem ganzen Satz ausformulieren
 ---
 
-##Beschreibung
+## Beschreibung
+
 Zwischen den Anwendern soll es möglich sein zu Kommunizieren ohne auf eine Drittanwendung auszuweichen.
 
-##Begründung
+## Begründung
+
 Sammelpunkt in einem System.

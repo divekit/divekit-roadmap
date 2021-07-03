@@ -11,10 +11,12 @@ history:
         date: 2021-06-25
         comment: initially created
 todo:
+    - Quellformat anpassen
+    - Bitte Begründung in einem ganzen Satz ausformulieren
 ---
 
-##Beschreibung
+## Beschreibung
 Medienbrüche sollen vermieden werden, damit so ein besser Ablauf des Prozesses gewährleistet wird
 
-##Begründung
+## Begründung
 Sammelpunkt in einem System.
