@@ -18,3 +18,7 @@ todo:
 ---
 
 Das DiveKit soll neben Programmieraufgaben auch die Möglichkeit bieten Diagramme (wie UML) abzugeben und zu bewerten.
+
+## Begründung
+
+Siehe Ziel

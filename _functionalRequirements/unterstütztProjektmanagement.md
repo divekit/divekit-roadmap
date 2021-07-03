@@ -24,3 +24,7 @@ Das DiveKit soll Studierenden die Möglichkeit bieten ihren Fortschritt mit mode
     Grundsätzlich sollte dies schon Möglich sein, es besteht nur keine Kommunikation zwischen den Systemen.
     Außerdem ist unklar, ob eine Erwähnung "Studierende sollten X können" vom DiveKit auch umgesetzt werden soll.
 -->
+
+## Begründung
+
+Siehe Ziel

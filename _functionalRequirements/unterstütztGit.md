@@ -18,3 +18,7 @@ todo:
 ---
 
 Das DiveKit soll den Studierenden die Möglichkeit bieten, ihren Codefortschritt mit Versionierungssystemen wie Git zu sichern um den Umgang mit diesen zu üben.
+
+## Begründung
+
+Siehe Ziel

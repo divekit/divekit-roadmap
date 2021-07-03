@@ -20,3 +20,7 @@ todo:
 Das DiveKit soll den Studierenden die Möglichkeit bieten, die Aufgaben mit modernen IDEs zu bearbeiten.
 
 <!-- Sollte bereits möglich sein, Anforderung nur der Vollständigkeit halber eingefügt -->
+
+## Begründung
+
+Siehe Ziel
