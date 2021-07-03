@@ -19,8 +19,8 @@ history:
         date: 2021-07-02
         comment: added source and reference to sub-goals
     v3:
-        date: 2021-07-02
-        comment: added source and reason
+        date: 2021-07-03
+        comment: added source
 todo: 
 ---
 

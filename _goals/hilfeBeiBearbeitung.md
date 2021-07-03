@@ -14,8 +14,10 @@ history:
 todo:
 ---
 
-##Beschreibung
+## Beschreibung
+
 Der Student soll die Möglichkeit haben mit dem Tool zusammen an die Lösung angeleietet zu werden.
 
-##Begründung
+## Begründung
+
 Ein effektiverer Lernprozess für die Studenten.

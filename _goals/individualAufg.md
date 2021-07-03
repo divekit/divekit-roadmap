@@ -27,10 +27,8 @@ todo:
 
 ## Beschreibung
 
-Praktikumsaufgaben sollen sich mit geringem Arbeitsaufwand individualisieren lassen. Die verschiedenen Versionen werden automatisch
-und zufällig verteilt.
+Praktikumsaufgaben sollen sich mit geringem Arbeitsaufwand individualisieren lassen. Die verschiedenen Versionen werden automatisch und zufällig verteilt.
 
 ## Begründung
 
-Allen Studenten die gleiche Aufgabe zu geben würde das gegenseitige Abschreiben zu leicht machen. Der notwendige Schritt der Individualisierung
-sollte daher so wenig Zeit wie mögliche beanspruchen.
+Allen Studenten die gleiche Aufgabe zu geben würde das gegenseitige Abschreiben zu leicht machen. Der notwendige Schritt der Individualisierung sollte daher so wenig Zeit wie mögliche beanspruchen.

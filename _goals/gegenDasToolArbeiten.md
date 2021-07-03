@@ -14,8 +14,10 @@ history:
 todo:
 ---
 
-##Beschreibung
-Studenten sollen nicht in der Lage sein gegen das Tool zu arbeiten. Das heißt sie sollen nicht in der Lage sein 
-solange ihre Lösungen einzutragen bis es richtig ist quasi Brute Force Methoden.
-##Begründung
+## Beschreibung
+
+Studenten sollen nicht in der Lage sein gegen das Tool zu arbeiten. Das heißt sie sollen nicht in der Lage sein solange ihre Lösungen einzutragen bis es richtig ist quasi Brute Force Methoden.
+
+## Begründung
+
 Es soll sichergestllt werden, dass das Tool mit den Lehrinhalten nämlich das übermitteln von Wissen übereinstimmt.
