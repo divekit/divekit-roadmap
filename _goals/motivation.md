@@ -15,7 +15,7 @@ history:
         comment: initially created
     v2:
         date: 2021-07-03
-        comment: added description
+        comment: added description and explanation
 todo: 
 ---
 
@@ -29,3 +29,5 @@ Die Studiernden sollen bei ihrer Arbeit motiviert werden. Motivation ist hierbei
 * [Motivation durch Übung](./motivationCodingAnteil.md)
 
 ## Begründung
+
+In erster Linie sollen die Studierenden motivierter Lernen und sich eigenständig motivieren können. Die jeweiligen Begründungen sind den Subzielen zu entnehmen.
