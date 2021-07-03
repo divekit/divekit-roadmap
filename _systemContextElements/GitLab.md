@@ -9,6 +9,7 @@ responsible:
 mentionnedInSource:
     - [interview, jintveen, Minute 00:26:21]
     - [interview, jintveen, Minute 00:28:03]
+    - [interview, sbente, Minute 00:00:16]
     - [Interview, nnProf3]
 history:
     v1:
@@ -20,7 +21,11 @@ history:
     v3:
         date: 2021-06-17
         comment: added responsible and sources
+    v4:
+        date: 2021-07-02
+        comment: added source and todo
 todo:
+    - Bitte Timestamp ergänzen!
 ---
 
 ## Erläuterung
