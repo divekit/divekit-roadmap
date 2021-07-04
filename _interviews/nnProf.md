@@ -65,7 +65,7 @@ könnten.
 
 ## Ergebnisprotokoll
 
-### Fragen und Antworten
+### Dimension aktuelle Form der Lehre
 
 Wie sieht Ihre Lehre aktuell aus Stickwort "Digitale Lehre"?
 * Bis jetzt noch keine analoge Lehrerfahrung gehabt.
@@ -132,6 +132,8 @@ Es wäre toll, wenn wir noch über die Probleme reden könnten, die Sie beim Ein
 
 * Tools sind Ad Hoc Lösungen und stellen keine dauerhafte Lösung darf
 * Kann die Studierenden kaum bei der Bearbeitung unterstützen. Also kein Einblick auf die Teilschritte der Studierenden
+
+### Dimension Erwartungen
 
 Wie sehen Ihre Erwartungen gegenüber Tool Unterstützung aus?
 * Es muss ein Mehrwert für die Lehre oder zeitliche Entlastung erkennbar sein
