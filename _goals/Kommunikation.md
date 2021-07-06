@@ -10,9 +10,11 @@ history:
     v1:
         date: 2021-06-25
         comment: initially created
+    v2:
+        date: 2021-07-06
+        comment: initially created
 todo:
     - Quellformat anpassen
-    - Bitte Begründung in einem ganzen Satz ausformulieren
 ---
 
 ## Beschreibung
@@ -21,4 +23,5 @@ Zwischen den Anwendern soll es möglich sein zu Kommunizieren ohne auf eine Drit
 
 ## Begründung
 
-Sammelpunkt in einem System.
+Die Kommunikation über externe Systeme verleitet dazu, das System komplett zu verlassen. Beispielweise
+auch wenn ein UML-Tool weiterhin verwendet wird.

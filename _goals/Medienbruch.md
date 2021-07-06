@@ -10,13 +10,15 @@ history:
     v1:
         date: 2021-06-25
         comment: initially created
+    v2:
+        date: 2021-07-06
+        comment: update Begründung
 todo:
     - Quellformat anpassen
-    - Bitte Begründung in einem ganzen Satz ausformulieren
 ---
 
 ## Beschreibung
 Medienbrüche sollen vermieden werden, damit so ein besser Ablauf des Prozesses gewährleistet wird
 
 ## Begründung
-Sammelpunkt in einem System.
+Um Medienbrüche zu vermeiden soll das System als Sammelpunkt für Dokumente und Aufgaben dienen.
