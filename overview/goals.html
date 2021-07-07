@@ -24,7 +24,7 @@ layout: default
         <tr>
             {% assign file_name = goal.url | relative_url %}
             <td>{{ goal.acronym }}</td>
-            <td><a href="{{ site.url }}{{ file_name | relative_url }}">{{ goal.description }}</a></td>
+            <td><a href="{{ site.url }}{{ file_name | relative_url }}">{{ goal.title }}</a></td>
 
         </tr>
         {% endfor %}
