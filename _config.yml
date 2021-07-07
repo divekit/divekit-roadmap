@@ -65,7 +65,7 @@ collections:
     output: true
   stakeholderRoles:
     output: true
-  systemContexts:
+  systemContextElements:
     output: true
   interviews:
     output: true
@@ -75,6 +75,7 @@ collections:
     output: true
   workshops:
     output: true
+
 
 defaults:
   - scope:
@@ -109,9 +110,9 @@ defaults:
       layout: "stakeholderRole"
   - scope:
       path: ""
-      type: "systemContexts"
+      type: "systemContextElements"
     values:
-      layout: "systemContext"
+      layout: "systemContextElement"
   - scope:
       path: ""
       type: "interviews"

@@ -23,7 +23,7 @@ layout: default
         <tr>
             {% assign file_name = interview.url | relative_url %}
             <td>{{ interview.acronym }}</td>
-            <td><a href="{{ site.url }}{{ file_name | relative_url }}">{{ interview.name }}</a></td>
+            <td><a href="{{ site.url }}{{ file_name | relative_url }}">Interview mit {{ interview.stakeholder }}</a></td>
             <td>{% include /functions/link-to-stakeholder.html myStakeholderAcronym=interview.stakeholder %}</td>
             <td>{{ interview.date | date: '%B %d, %Y'}}</td>
         </tr>

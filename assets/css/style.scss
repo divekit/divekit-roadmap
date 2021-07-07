@@ -183,7 +183,8 @@ section {
   background-color: #333;
   top:0;
   width: 100%;
-  align-content: center;
+  display: flex;
+  justify-content: center;
 
 }
 
@@ -206,12 +207,15 @@ section {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+
 }
 
 /* The subnavigation menu */
 .subnav {
   float: left;
   overflow: hidden;
+
+
 }
 
 /* Subnav button */
@@ -241,6 +245,7 @@ section {
   width: 100%;
   z-index: 1;
 
+
 }
 
 /* Style the subnav links */
@@ -264,3 +269,6 @@ section {
 }
 
 
+subnav ul {
+  display: inline-block;
+}

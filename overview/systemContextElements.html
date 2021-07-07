@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<h1>Systemkontext</h1>
+
+<p>
+    Der <b>Systemkontext</b> ist der Teil der Umgebung des Systems, der für die Definition und das Verständnis der Systemanforderungen relevant ist, selbst aber nicht gestalt- oder veränderbar ist
+</p>
+
+
+
+<table>
+    <thead>
+    <tr>
+        <th width="15%">Akronym</th>
+        <th width="85%">Beschreibung</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    {% for context in site.systemContextElements %}
+    <tr>
+        {% assign file_name = context.url | relative_url %}
+        <td><a href="{{ site.url }}{{ file_name | relative_url }}">{{ context.acronym }}</td>
+        <td>{{ context.type }}</a></td>
+
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
