@@ -8,16 +8,19 @@ goals:
     - barrierefrei
     -
 source:
-    - [beobachtungstagebuch]
+    - [beobachtungstagebuch, PS5]
 history:
     v1:
         date: 2021-07-07
         comment: initially created
+    v2:
+        date: 2021-07-07
+        comment: edited wording
 
 todo: 
 ---
 
-Das DiveKit muss Studierenden mit Rot-/Grün-Schwäche die Möglichkeit bieten das Korrekturergebnis zu erkennen. 
+Das System muss in der Lage sein Usern mit Farbfehlsichtigkeit, insbesondere Usern mit Rot-Grün-Schwäche, die Interpretation der Ergebnisse zu ermöglichen.
 
 
 ## Begründung
