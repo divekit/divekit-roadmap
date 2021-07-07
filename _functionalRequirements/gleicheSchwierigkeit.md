@@ -18,7 +18,7 @@ todo:
 
 mit Bedingung:
 
-Wenn eine Aufgabe für eine Klausur individualisiert wird, muss das System sicherstellen, dass die Aufgaben
+Wenn eine Aufgabe für eine Klausur individualisiert wird, muss das DiveKit sicherstellen, dass die Aufgaben
 der Studierenden einen gleichen Schwierigkeitsgrad aufweisen.
 
 
