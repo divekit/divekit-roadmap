@@ -17,7 +17,7 @@ history:
 todo: 
 ---
 
-Das DiveKit muss sich Sicher
+Das DiveKit muss eindeutiges Feedback zu nicht bestandenen Aufgaben dem Kontrollierten anzeigen
 
 
 ## Begründung
