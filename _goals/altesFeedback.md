@@ -5,12 +5,15 @@ responsible:
     - aha
 title: Altes Feedback zu Tests weiterhin bereitstellen
 source:
-    - Walt Disney Workshop
+    - [workshop, waltDisney]
 partOfLargerGoal: 
 history:
     v1:
         date: 2021-07-08
         comment: initially created
+    v1:
+        date: 2021-07-08
+        comment: fix source
 todo: 
 ---
 
