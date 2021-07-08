@@ -13,11 +13,14 @@ history:
     v1:
         date: 2021-06-25
         comment: initially created
+    v1:
+        date: 2021-07-08
+        comment: update
 todo: 
 ---
 
 
-Das DiveKit muss es ermöglichen das Dokumente/Aufgabenstellungen bereitgestellt werden können.
+Das DiveKit soll es ermöglichen das Dokumente/Aufgabenstellungen bereitgestellt werden können.
 
 ## Begründung
 

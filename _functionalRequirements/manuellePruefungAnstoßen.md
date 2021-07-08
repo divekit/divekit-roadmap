@@ -12,11 +12,14 @@ history:
     v1:
         date: 2021-07-06
         comment: initially created
+    v2:
+        date: 2021-07-08
+        comment: update
 todo: 
 ---
 
 
-Das DiveKit muss es ermöglichen das Manuelle Pruefungen angetoßen werden können.
+Das DiveKit soll es ermöglichen das Manuelle Pruefungen angetoßen werden können.
 
 ## Begründung
 
