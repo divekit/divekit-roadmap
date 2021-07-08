@@ -8,7 +8,7 @@ goals:
     - fehlerAusgabe
     -
 source:
-    - [beobachtungstagebuch]
+    - [beobachtungstagebuch, PC1]
 history:
     v1:
         date: 2021-07-07

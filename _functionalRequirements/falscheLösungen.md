@@ -8,7 +8,7 @@ goals:
     - Fehlererkennung
     -
 source:
-    - [beobachtungstagebuch]
+    - [beobachtungstagebuch, PP2]
 history:
     v1:
         date: 2021-07-07
