@@ -6,13 +6,14 @@ responsible:
 title: Aufgabentyp mit Bilder hochladen
 goals: 
 source:
-    - [Interview nnWMA2]
+    - Interview nnWMA2
 history:
     v1:
         date: 2021-07-08
         comment: initially created
 todo: 
 ---
+## Beschreibung
 Im System soll es möglich sein Bilder als Abgabe für bestimmte Aufgaben hochzuladen.
 
 ## Begründung
