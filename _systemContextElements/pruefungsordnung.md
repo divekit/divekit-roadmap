@@ -6,7 +6,7 @@ responsible:
 mentionnedInSource: 
     - [interview, fkrampe, Minute 00:09:47]
     - [interview, fkrampe, Minute 00:39:16]
-    - [interview, nnWMA2, ?]
+    - [interview, nnWMA2, time unclear]
 history:
     v1:
         date: 2021-06-04
