@@ -17,11 +17,14 @@ history:
     v2:
         date: 2021-07-07
         comment: edited wording
+    v3: 
+        date: 2021-07-08
+        comment: edited wording
 
 todo: 
 ---
 
-Das System muss die Pseudonyme der korrigierenden Personen eindeutig angeben können.
+Das DiveKit muss die Pseudonyme der manuel korrigierenden Personen eindeutig angeben können.
 
 
 ## Begründung
