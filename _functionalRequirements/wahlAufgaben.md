@@ -5,8 +5,7 @@ responsible:
     - psc
 title: verschiedenen Aufgabentypen
 goals: 
-    - profBwlfortlaufendeAufgaben
-    - profBwlinterpretierbareAufgaben
+    - profBwlAufgabentypen
     - individualAufg
 source:
     - [interview, mengelen, Minute 00:12:01]
@@ -19,6 +18,9 @@ history:
     v2:
         date: 2021-06-24
         comment: fix acronym
+    v3:
+        date: 2021-07-08
+        comment: fix greater goal
 todo: 
 ---
 
