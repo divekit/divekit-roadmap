@@ -6,7 +6,7 @@ responsible:
 title: Aufgabentyp mit Bilder hochladen
 goals: 
 source:
-    - [Interview nnWMA2 [00:24:16]]
+    - [Interview nnWMA2]
 history:
     v1:
         date: 2021-07-08
