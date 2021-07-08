@@ -16,7 +16,7 @@ todo:
 ---
 
 ## Beschreibung
-Es soll die Möglichkeit geben von anderen Kommilitonen kopierte Teilaufgaben in der Abgabe kenntlich zu machen.
+Das System soll die Möglichkeit bieten von anderen Kommilitonen kopierte Teilaufgaben in der Abgabe kenntlich zu machen.
 
 ## Begründung
 Dies ermöglicht es Studierenden, die eine Teilaufgabe nicht eigenständig bearbeiten können, die Aufgabe im Gesamten dennoch bearbeiten zu können.
