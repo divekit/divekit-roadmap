@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<!-- {% include /functions/get-status-infos.html mydecision=page %} -->
+<h1>Funktionale Anforderung »{{ page.title }}«</h1>
+
+<dl>
+    <dt>Autor(en)</dt>
+    <dd>{% include /functions/resolve-names.html mydecision=page %}{{responsible_string}}</dd>
+
+    <dt>Zahlt ein auf Ziel(e)</dt>
+    <dd>(tbd.)</dd>
+
+    <dt>History</dt>
+    {% for entry in page.history %}
+        <dd>({{ entry[0]}}) &nbsp; {{ entry[1].date }} - {{ entry[1].comment }}</dd>
+    {% endfor %}
+
+    <dt>Todos</dt>
+    <dd>(tbd.)</dd>
+</dl>
+
+
+{{ page.content }}
