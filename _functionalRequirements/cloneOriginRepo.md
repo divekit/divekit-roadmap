@@ -10,6 +10,7 @@ goals:
 source:
     - [interview, fkrampe, Minute 00:09:47]
     - [interview, fkrampe, Minute 00:25:49]
+status: implemented
 history:
     v1:
         date: 2021-06-18
@@ -20,7 +21,7 @@ history:
 todo: 
 ---
 
-Das DiveKit muss ein origin git repository mit Aufgaben für jeden Studenten individuel kopieren und bereitstellen.
+Das DiveKit muss ein origin git repository mit Aufgaben für jeden Studenten individuell kopieren und bereitstellen.
 
 ## Begründung
 

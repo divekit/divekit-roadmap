@@ -8,6 +8,7 @@ goals:
     - zeitnahePrüfungUndFeedback
 source:
     - [beobachtungstagebuch, PC8]
+status: inProgress
 history:
     v1:
         date: 2021-07-08
