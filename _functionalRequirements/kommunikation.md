@@ -7,6 +7,7 @@ title: Kommunikation zwischen den Anwendern
 goals: 
     - Kommunikation
     -
+status: open
 source:
     - Interview nnProf1
 history:
@@ -14,6 +15,7 @@ history:
         date: 2021-06-25
         comment: initially created
 todo: 
+    - bitte präzisieren - wie kommunizieren? worüber? warum nicht Discord? 
 ---
 
 

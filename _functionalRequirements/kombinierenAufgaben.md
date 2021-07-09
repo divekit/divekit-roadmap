@@ -16,6 +16,8 @@ history:
         date: 2021-07-08
         comment: initially created
 todo: 
+    - bitte präzieren. Was genau ist mit "Kombinieren" gemeint?
+    - Personas sind keine Quellen (die haben Sie ja selbst geschrieben)
 ---
 
 Bei der Konstruktion von zusammenhängenden Aufgaben wird das DiveKit für die Lehrverantwortlichen die Möglichkeit bieten, die Ergebnisse der Aufgabetypen zu kombinieren.

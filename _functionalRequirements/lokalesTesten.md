@@ -7,6 +7,7 @@ title: Die abzugebende Lösung soll bereits lokal getestet werden können
 goals: 
     - lokalerTest
     -
+status: implemented
 source:
     - [beobachtungstagebuch, PS1]
 history:

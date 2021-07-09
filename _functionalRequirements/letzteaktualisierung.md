@@ -7,6 +7,7 @@ title: Letzte Aktualisierung des Codes
 goals: 
     - KorrekturVonAufg
     - relevanteInformationen
+status: implemented
 source:
     - [beobachtungstagebuch, AN2]
 history:

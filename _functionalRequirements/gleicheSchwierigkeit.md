@@ -9,11 +9,13 @@ goals:
     -
 source:
     - [interview, nnProf3]
+status: open
 history:
     v1:
         date: 2021-06-25
         comment: initially created
 todo: 
+    - Scheint mir keine sinnvolle Anforderung - wie genau soll das DiveKit das tun? Die Aufgaben stellt doch der Mensch. Was genau muss Divekit hier an Unterschützung liefern?
 ---
 
 mit Bedingung:
