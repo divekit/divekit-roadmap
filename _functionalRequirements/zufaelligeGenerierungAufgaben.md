@@ -7,6 +7,7 @@ title: zufällige Generierung von Aufgaben
 goals: 
     - profBwlAufgabentypen
     - individualAufg
+status: implemented
 source:
     - [interview, mengelen, Minute 00:14:46]
     - [persona, cbeckert]

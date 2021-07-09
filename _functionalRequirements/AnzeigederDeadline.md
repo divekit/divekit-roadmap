@@ -7,6 +7,7 @@ title: Anzeige der Deadline
 goals: 
     - relevanteInformationen
     -
+status: open
 source:
     - [Beobachtungstagebuch, BE1]
 history:

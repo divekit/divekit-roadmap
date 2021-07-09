@@ -6,6 +6,7 @@ responsible:
 title: weiterführendeInformationen
 goals:
     - gezieltesLernen
+status: open
 source:
     - [beobachtungstagebuch, RD2]
 history:

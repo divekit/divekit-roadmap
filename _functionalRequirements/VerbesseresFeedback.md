@@ -7,12 +7,15 @@ title: Verbesserung des Feedbacks
 goals: 
     - qualitativeBetreuung
     -
+status: open
 source:
     - [sources/Ergebnisse_6-3-5-Methode-Workshop_Gruppe1.md]
 history:
     v1:
         date: 2021-06-23
         comment: initially created
+goal: 
+    - Die Forderung nach Musterlösungen ist ein Duplikat (siehe auch musterloesung und generierungVonDatensätzen)         
 ---
 
 Das DiveKit soll auch Vorschläge zur Verbesserung oder eine Musterlösung geben, auch wenn die Abgabe bestanden ist.

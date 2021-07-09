@@ -6,6 +6,7 @@ responsible:
 title: Zitieren von kopierten Inhalten
 goals: 
     - ZitierenBeimAbschreiben
+status: open
 source:
     - [Interview nnWMA2]
 history:
@@ -13,6 +14,7 @@ history:
         date: 2021-07-08
         comment: initially created
 todo: 
+    - ... aber das wäre doch ein Plagiat ...? Ist dann ein Meilenstein bestanden, wenn so eine Kopie drin ist? Anforderung ist mir etwas unklar. 
 ---
 
 ## Beschreibung

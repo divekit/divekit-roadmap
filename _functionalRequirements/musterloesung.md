@@ -15,6 +15,7 @@ history:
 todo: 
     - goals ergänzen
     - Bitte Wording präzisieren. Ist "bereitstellen" gemeint? Und dann wem?
+    - Die Forderung nach Musterlösungen ist ein Duplikat (siehe auch generierungVonDatensätzen und VerbesseresFeedback.md) 
 ---
 
 Das DiveKit soll zusammen mit der Aufgabe auch die Musterlösung erzeugen können.
