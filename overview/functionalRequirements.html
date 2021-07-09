@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<h1>Funktionale Anforderungen</h1>
+
+<p>
+    Funktionale Anforderungen beschreiben die gewünschte Funktionalität eines Systems, dessen
+    Verhalten und dessen Daten. Dabei kondensiert man die Anforderungen an ein IT-System in eine Menge
+    von kompakten (ein Satz!) Forderungen, die man gut priorisieren und in eine Projektplanung überführen kann.
+</p>
+<p>
+    Solche Ein-Satz-Anforderungen können oft unterschiedlich interpretiert werden.
+    Um diesem Problem entgegenzuwirken, sollten potentielle sprachliche Unklarheiten eliminiert
+    und Anforderungen mittels Satzschablonen eindeutig formuliert werden.
+</p>
+
+
+<table>
+    <thead>
+    <tr>
+        <th width="15%">Name</th>
+        <th width="30%">Zahlt ein auf Ziel(e)</th>
+    </tr>
+    </thead>
+    <tbody>
+        {% for functionalRequirement in site.functionalRequirements %}
+        <tr>
+            {% assign file_name = functionalRequirement.url | relative_url %}
+            <td><a href="{{ site.url }}{{ file_name | relative_url }}">{{ functionalRequirement.title }}</a></td>
+            <td>tbd</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
