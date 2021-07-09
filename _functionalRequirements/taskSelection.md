@@ -15,7 +15,7 @@ history:
         date: 2021-06-23
         comment: initially created
 todo:
-
+    - Bitte Begründung klarer machen, ich verstehe das noch nicht. Was hat der Student davon, dass eine Aufgabe noch nicht kontrolliert wird, obwohl er/sie als fertig gepusht hat?
 ---
 
 Das System soll dem Benutzer (Student) die Möglichkeit bieten die zu kontrollierenden Aufgaben zu markieren.

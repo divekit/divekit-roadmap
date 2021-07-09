@@ -3,10 +3,11 @@ type: functionalRequirement
 acronym: Test Feedback
 responsible: 
     - jlü
-title: Feeedback zu Tests
+title: Feedback zu Tests
 goals: 
     - fehlerAusgabe
     -
+status: implemented
 source:
     - [beobachtungstagebuch, PC2]
 history:

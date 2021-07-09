@@ -9,6 +9,7 @@ goals:
     -
 source:
     - [interview, fkrampe, Minute 00:12:01]
+status: open
 history:
     v1:
         date: 2021-06-04
@@ -20,6 +21,7 @@ history:
         date: 2021-06-18
         comment: update Template
 todo: 
+    - In der QS sollte mal überprüft werden, ob die Schablone eingehalten wurde ... ist kaum der Fall. 
 ---
 
 mit Bedingung:
