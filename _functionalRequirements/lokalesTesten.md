@@ -20,7 +20,7 @@ history:
 todo: 
 ---
 
-Das System sollte dem User die Möglichkeit bieten Tests lokal zu testen.
+Das DiveKit soll dem User die Möglichkeit bieten Tests lokal zu testen.
 
 
 ## Begründung

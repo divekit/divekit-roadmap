@@ -20,7 +20,7 @@ history:
 todo: 
 ---
 
-Das System muss in der Lage sein Studierenden zu nicht bestandenen Tests Feedback anzuzeigen.
+Das DiveKit muss in der Lage sein Studierenden zu nicht bestandenen Tests Feedback anzuzeigen.
 
 
 ## Begründung

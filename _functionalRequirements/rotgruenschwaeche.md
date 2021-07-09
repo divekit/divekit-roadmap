@@ -20,7 +20,7 @@ history:
 todo: 
 ---
 
-Das System muss in der Lage sein Usern mit Farbfehlsichtigkeit, insbesondere Usern mit Rot-Grün-Schwäche, die Interpretation der Ergebnisse zu ermöglichen.
+Das DiveKit muss in der Lage sein Usern mit Farbfehlsichtigkeit, insbesondere Usern mit Rot-Grün-Schwäche, die Interpretation der Ergebnisse zu ermöglichen.
 
 
 ## Begründung

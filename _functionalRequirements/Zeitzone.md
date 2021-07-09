@@ -19,7 +19,7 @@ history:
 todo: 
 ---
 
-Das System sollte die Zeitzone an den Nutzenden anpassen können.
+Das DiveKit soll die Zeitzone an den Nutzenden anpassen können.
 
 ## Begründung
 

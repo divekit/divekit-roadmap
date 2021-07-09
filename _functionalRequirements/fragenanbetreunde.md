@@ -18,6 +18,6 @@ todo:
 ---
 
 
-Das System sollte Studierenden die Möglichkeit bieten ohne Medienbruch Fragen an betreuende Personen stellen zu können.
+Das DiveKit soll Studierenden die Möglichkeit bieten ohne Medienbruch Fragen an betreuende Personen zu stellen.
 
 ## Begründung

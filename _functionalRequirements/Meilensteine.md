@@ -17,7 +17,7 @@ todo:
 ---
 
 
-Das System sollte in der Lage sein den nutzenden Studierenden einfach zwischen Meilensteinen, welche in den Aufgaben vorhanden sind, wechseln zu lassen.
+Das Divekit soll den nutzenden Studierenden die Möglichkeit bieten einfach zwischen Meilensteinen, welche in den Aufgaben vorhanden sind, wechseln zu lassen.
 
 
 ## Begründung

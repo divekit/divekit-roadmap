@@ -15,7 +15,7 @@ history:
         comment: initially created
 todo: 
 ---
-Das System wird über eine Schnittstelle für Anbindungen anderer Systeme verfügen.
+Das DiveKit wird über eine Schnittstelle für Anbindungen anderer Systeme verfügen.
 
 ## Begründung
 

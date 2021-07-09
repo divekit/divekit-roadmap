@@ -15,7 +15,7 @@ history:
         comment: initially created
 todo: 
 ---
-Das System soll dem Studierenden die Deadline der zu bearbeitenden Aufgabe auf der Testseite anzeigen.
+Das DiveKit soll dem Studierenden die Deadline der zu bearbeitenden Aufgabe auf der Testseite anzeigen.
 
 
 ## Begründung
