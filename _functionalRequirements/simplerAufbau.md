@@ -8,11 +8,13 @@ goals:
     - simplerAufbau
 source:
     - [beobachtungstagebuch , PC3]
+status: open
 history:
     v1:
         date: 2021-07-07
         comment: initially created
 todo:
+    - Bitte präzisieren. Was genau heißt "simpler Aufbau"?
 ---
 
 Das System sollte eine simple Gliederung der Testseite haben.

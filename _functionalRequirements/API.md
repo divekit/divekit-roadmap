@@ -15,6 +15,8 @@ history:
     v1:
         date: 2021-06-23
         comment: initially created
+todo: 
+    - Duplikat (siehe Schnittstelle)        
 ---
 
 Das DiveKit muss eine API zur Erweiterung des Divekit bereitstellen.

@@ -10,6 +10,7 @@ goals:
 source:
     - [interview, fkrampe, Minute 00:09:47]
     - [interview, fkrampe, Minute 00:13:25]
+status: inProgress
 history:
     v1:
         date: 2021-06-18
@@ -18,6 +19,7 @@ history:
         date: 2021-06-23
         comment: added description
 todo:
+    - Bitte ergänzen - wem? Übersicht mit was?
 
 ---
 

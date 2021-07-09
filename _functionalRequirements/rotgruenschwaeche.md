@@ -9,6 +9,7 @@ goals:
     -
 source:
     - [beobachtungstagebuch, PS5]
+status: open
 history:
     v1:
         date: 2021-07-07
@@ -16,8 +17,8 @@ history:
     v2:
         date: 2021-07-07
         comment: edited wording
-
-todo: 
+todo:
+    - Duplikat (siehe barrierefreiheit) 
 ---
 
 Das DiveKit muss in der Lage sein Usern mit Farbfehlsichtigkeit, insbesondere Usern mit Rot-Grün-Schwäche, die Interpretation der Ergebnisse zu ermöglichen.

@@ -7,12 +7,14 @@ title: Schneller Lernprozess
 goals:
     - geringeEinarbeitungszeit
 source:
-- [beobachtungstagebuch , PC4]
+    - [beobachtungstagebuch , PC4]
+status: open
 history:
     v1:
         date: 2021-07-07
         comment: initially created
 todo:
+    - Bitte präzisieren. Was genau heißt das? Wie kann man das testen?
 ---
 
 Das System muss so aufgebaut sein, dass der (Kennen)Lernprozess einfach ist.

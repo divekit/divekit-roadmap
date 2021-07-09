@@ -7,8 +7,9 @@ title: Rückfragen zu Aufgaben
 goals: 
     - rueckfragen
     -
+status: open
 source:
-- [workshop, waltDisney]
+    - [workshop, waltDisney]
 history:
     v1:
         date: 2021-07-08
@@ -16,5 +17,7 @@ history:
 ---
 
 Das DiveKit soll Studierenden die Möglichkeit bieten, direkt Rückfragen zu Aufgaben zu stellen.
+
 ## Begründung
+
 Vermeidung eines Medienbruchs und Ausnutzung des vorhandenen Systemkontexts zur Vereinfachung der Kommunikation.
