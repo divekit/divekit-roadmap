@@ -7,6 +7,7 @@ title: Medienbrüche entfernen
 goals: 
     - Medienbruch
     -
+status: implemented
 source:
     - Interview nnProf1
 history:

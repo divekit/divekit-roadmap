@@ -6,6 +6,7 @@ responsible:
 title: Manuelle Prüfung anstoßen
 goals: 
     - manuellePruefungAnstoßen
+status: inProgress
 source:
     - Workshop 6-3-5-No.1
 history:
@@ -19,7 +20,7 @@ todo:
 ---
 
 
-Das DiveKit soll es ermöglichen das Manuelle Pruefungen angetoßen werden können.
+Das DiveKit soll es ermöglichen das manuelle Pruefungen angetoßen werden können.
 
 ## Begründung
 
