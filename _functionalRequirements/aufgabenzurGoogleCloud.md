@@ -10,6 +10,7 @@ goals:
     - korrekturVonAufg
 source:
     - [interview, nnProf3]
+status: open
 history:
     v1:
         date: 2021-07-08

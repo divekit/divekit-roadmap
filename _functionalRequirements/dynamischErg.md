@@ -8,6 +8,7 @@ goals:
     - studAutoSystem
     - studKompakt
     - entlastung
+status: open
 source:
     - [sources/walt_disney_miro.pdf]
 history:
@@ -15,6 +16,8 @@ history:
         date: 2021-07-07
         comment: initially created
 todo: 
+    - Bitte Satzschablone verwenden
+    - bitte präzisieren - was genau heißt "dynamisch und interaktiv", welche Information sollte in dieser Form gezeigt werden?
 ---
 
 Die Feedback-Seite die bei der automatisierten Abgabe erstellt werden sollte dynamisch und interaktiv sein.

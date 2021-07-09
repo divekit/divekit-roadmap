@@ -6,6 +6,7 @@ responsible:
 title: Aussagekräftige Fehlermeldungen
 goals: 
     - falscheKonfig
+status: open
 source:
     - Workshop 6-3-5-No.2
 history:
@@ -15,8 +16,7 @@ history:
 todo: 
 ---
 
-
-Bei fehlerhaften Umgebungseinstellungen (om.xml), muss das DiveKit eine entsprechende Fehlermeldung erzeugen.
+Bei fehlerhaften Umgebungseinstellungen (pom.xml), muss das DiveKit eine entsprechende Fehlermeldung erzeugen.
 
 ## Begründung
 

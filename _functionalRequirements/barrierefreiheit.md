@@ -6,6 +6,7 @@ responsible:
 title: Barrierefreiheit
 goals: 
     - barrierefreiheit
+status: open
 source:
     - Workshop 6-3-5-No.1
 history:
@@ -16,7 +17,7 @@ todo:
 ---
 
 
-Das DiveKit muss es ermöglichen das bspw. auch Farbenblinde Ergebnisse erkennen können.
+Das DiveKit muss es ermöglichen dass bspw. auch Farbenblinde Ergebnisse erkennen können.
 
 ## Begründung
 

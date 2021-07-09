@@ -8,6 +8,7 @@ goals:
     - onlineBeratungsleistung
     - betreuung
     - Kommunikation
+status: open
 source:
     - [beobachtungstagebuch, FH2]
 history:
@@ -18,6 +19,6 @@ todo:
 ---
 
 
-Das DiveKit soll Studierenden die Möglichkeit bieten ohne Medienbruch Fragen an betreuende Personen zu stellen.
+Das DiveKit soll Studierenden die Möglichkeit bieten, ohne Medienbruch Fragen an betreuende Personen zu stellen.
 
 ## Begründung

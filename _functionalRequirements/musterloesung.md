@@ -5,6 +5,7 @@ responsible:
     - cpo
 title: musterloesung
 goals: 
+status: open
 source:
     - [workshop, waltDisney]
 history:
@@ -13,6 +14,7 @@ history:
         comment: initially created
 todo: 
     - goals ergänzen
+    - Bitte Wording präzisieren. Ist "bereitstellen" gemeint? Und dann wem?
 ---
 
 Das DiveKit soll zusammen mit der Aufgabe auch die Musterlösung erzeugen können.

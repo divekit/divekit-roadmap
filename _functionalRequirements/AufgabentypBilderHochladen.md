@@ -5,6 +5,7 @@ responsible:
     - ngi
 title: Aufgabentyp mit Bilder hochladen
 goals: 
+status: implemented
 source:
     - Interview nnWMA2
 history:
@@ -12,6 +13,7 @@ history:
         date: 2021-07-08
         comment: initially created
 todo: 
+    - Ziel fehlt
 ---
 ## Beschreibung
 Im System soll es möglich sein Bilder als Abgabe für bestimmte Aufgaben hochzuladen.

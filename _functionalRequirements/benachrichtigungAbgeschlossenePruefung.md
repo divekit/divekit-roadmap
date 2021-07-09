@@ -6,6 +6,7 @@ responsible:
 title: benachrichtigungAbgeschlossenePruefung
 goals:
     - zeitnahesFeedback
+status: open
 source:
     - [beobachtungstagebuch, PC9]
 history:

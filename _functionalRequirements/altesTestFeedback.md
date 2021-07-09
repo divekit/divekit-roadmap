@@ -6,7 +6,7 @@ responsible:
 title: Altes Feedback zu alten Testergebnissen
 goals: 
     - altesFeedback
-    -
+status: inProgress
 source:
 - [workshop, waltDisney]
 history:

@@ -5,6 +5,7 @@ responsible:
     - cpo
 title: Frei Wahl für Benachrichtigungskanal
 goals: 
+status: open
 source:
     - [workshop, waltDisney]
 history:

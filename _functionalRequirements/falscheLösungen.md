@@ -6,14 +6,13 @@ responsible:
 title: Fehlermeldungen der Fehlgeschlagenen Tests
 goals: 
     - Fehlererkennung
-    -
+status: implemented
 source:
     - [beobachtungstagebuch, PP2]
 history:
     v1:
         date: 2021-07-07
         comment: initially created
-
 todo: 
 ---
 
