@@ -9,7 +9,7 @@ goals:
     - individualAufg
     - korrekturVonAufg
 source:
-    - [interview, fkrampe, Minute 00:37:33]]
+    - [interview, fkrampe, Minute 00:37:33]
 history:
     v1:
         date: 2021-06-23

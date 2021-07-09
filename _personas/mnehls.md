@@ -31,7 +31,7 @@ history:
         comment: initially created
 todo: 
     - Stakeholder ergänzen und anpassen
-	- isPrimary anpasseen
+    - isPrimary anpasseen
 ---
 
 ## Beschreibung
