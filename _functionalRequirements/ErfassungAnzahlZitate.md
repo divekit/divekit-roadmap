@@ -8,11 +8,13 @@ goals:
     - ZitierenBeimAbschreiben
 source:
     - [Interview nnWMA2]
+status: open
 history:
     v1:
         date: 2021-07-08
         comment: initially created
 todo: 
+    - Unverständlich. Was genau ist ein "Zitat" in diesem Kontext? 
 ---
 
 ## Beschreibung
