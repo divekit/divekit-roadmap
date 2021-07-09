@@ -3,17 +3,17 @@ type: persona
 acronym: wIwan
 stakeholderRole: 9.semester-student
 responsible:
-- ama
+    - ama
 name: Walter Iwan
 age: 29
 isPrimary: no
 relationshipToProject: >
-Kein Anwender des Systems, weil er die Praktikas schon absolviert hat, aber er ist etwas enttäuscht, dass es so ein System nicht damals schon gegeben hat.
+    Kein Anwender des Systems, weil er die Praktikas schon absolviert hat, aber er ist etwas enttäuscht, dass es so ein System nicht damals schon gegeben hat.
 source:
 history:
-v1:
-date: 2021-06-20
-comment: initially created
+    v1:
+        date: 2021-06-20
+        comment: initially created
 todo:
 ---
 
