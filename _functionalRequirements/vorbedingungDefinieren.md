@@ -7,6 +7,7 @@ title: Richtlinien für die Programmieraufgaben definieren
 goals:
     - automatisieren
     - richtlinienDefinieren
+status: open
 source:
     - [ckohls]
 history:

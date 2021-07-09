@@ -8,6 +8,7 @@ goals:
     - korrekturVonAufg
     - fehlerAusgabe
     - autoUpdate
+status: implemented
 source:
     - [beobachtungstagebuch, AV1]
 history:

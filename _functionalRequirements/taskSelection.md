@@ -8,6 +8,7 @@ goals:
     - studVorbereiten
     - studAutoSystem
     - studKompakt
+status: open
 source:
     - [635 workshop gr 2, interaktion, 2. point]
 history:

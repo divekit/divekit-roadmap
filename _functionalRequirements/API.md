@@ -9,6 +9,7 @@ goals:
     - Weiterentwicklung
     -
 status: open
+prefilterPriorizationPoints: 8
 source:
     - [Interview n.n. WMA 50:45]
 history:

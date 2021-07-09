@@ -20,16 +20,22 @@ layout: default
 <table>
     <thead>
     <tr>
-        <th width="15%">Name</th>
+        <th width="30%">Name</th>
         <th width="30%">Zahlt ein auf Ziel(e)</th>
+        <th width="20%">Status</th>
+        <th width="10%">Punkte aus Vorpriorisierung</th>
     </tr>
     </thead>
     <tbody>
-        {% for functionalRequirement in site.functionalRequirements %}
+        {% assign functionalRequirements = site.functionalRequirements | sort: "prefilterPriorizationPoints" | reverse %}
+        {% for functionalRequirement in functionalRequirements %}
         <tr>
             {% assign file_name = functionalRequirement.url | relative_url %}
             <td><a href="{{ site.url }}{{ file_name | relative_url }}">{{ functionalRequirement.title }}</a></td>
-            <td>tbd</td>
+            <td>(tbd.)</td>
+            {% include /functions/requirementStatus.html my_requirement=functionalRequirement %}
+            <td>{{ requirement_status }}</td>
+            <td>{{ functionalRequirement.prefilterPriorizationPoints }}</td>
         </tr>
         {% endfor %}
     </tbody>

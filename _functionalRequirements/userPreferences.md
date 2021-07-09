@@ -8,6 +8,7 @@ goals:
     - userPreferencen
     - barrierefreiheit
 status: open
+prefilterPriorizationPoints: 5
 source:
     - Workshop 6-3-5-No.2
 history:

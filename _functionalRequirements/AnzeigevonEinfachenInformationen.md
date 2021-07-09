@@ -6,6 +6,7 @@ responsible:
 title: Anzeigen von Einfachen Informationen
 goals: 
     - relevanteInforamtionen
+status: open
 source:
     - [Beobachtungstagebuch, PB2]
 history:
@@ -13,6 +14,7 @@ history:
         date: 2021-07-08
         comment: initially created
 todo: 
+    - Wofür soll das gut sein? Bitte begründen. Wer ist "der Benutzer"? Wessen Ressourcen sind gemeint - die der Pipeline?
 ---
 Das DiveKit soll dem Benutzer einfache Qualitätstests, wie Ausführungszeit, Ressourcenauslastung, etc. bereitstellen.
 

@@ -7,6 +7,7 @@ title: Erst Grün, wenn Aufgabe bearbeitet
 goals: 
     - Korrektur
     - studAutoSystem
+status: implemented
 source:
     - [beobachtungstagebuch, AN2]
 history:
@@ -14,6 +15,7 @@ history:
         date: 2021-07-08
         comment: initially created
 todo: 
+    - Unklares Requirement - das ist doch jetzt schon so ...?
 ---
 
 Das DiveKit darf den Status eines Tests erst dann auf grün setzen, wenn der Benutzer die Aufgabe erfolgreich bearbeitet hat.

@@ -9,6 +9,7 @@ goals:
     -
 source:
     - [interview, nnProf3]
+prefilterPriorizationPoints: 3
 status: open
 history:
     v1:

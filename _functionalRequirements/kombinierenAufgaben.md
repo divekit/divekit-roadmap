@@ -11,6 +11,7 @@ source:
     - [interview, mengelen, Minute 00:12:01]
     - [persona, cbeckert]
     - [scenario, cbeckert]
+status: open
 history:
     v1:
         date: 2021-07-08
