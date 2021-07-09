@@ -8,6 +8,7 @@ responsible:
 title: Untertützung von Gamification
 goals: 
     - motivationIntrinsisch
+status: open
 source:
     - [interview, ckohls, Minute 00:29:13]
     - [interview, nnWMA4, Minute 00:20:10]
