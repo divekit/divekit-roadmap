@@ -8,6 +8,7 @@ goals:
     - devops
     - individualAufg
     - korrekturVonAufg
+status: open
 source:
     - [interview, nnProf3]
 history:
