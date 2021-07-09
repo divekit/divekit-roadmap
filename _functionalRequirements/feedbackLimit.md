@@ -10,6 +10,7 @@ goals:
 source:
     - [interview, fkrampe, Minute 00:15:22]
     - [interview, fkrampe, Minute 00:29:07]
+status: open
 history:
     v1:
         date: 2021-06-23
