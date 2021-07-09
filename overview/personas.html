@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<h1>Personas</h1>
+
+<p>
+    Eine <b>Persona</b> stellt einen Prototyp für eine Gruppe von Stakeholdern dar, mit konkret ausgeprägten Eigenschaften und einem konkreten Nutzungsverhalten.
+</p>
+
+
+
+<table>
+    <thead>
+    <tr>
+        <th width="40%">Name</th>
+        <th width="60%">Rolle</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    {% for persona in site.personas %}
+    <tr>
+        {% assign file_name = persona.url | relative_url %}
+        <td><a href="{{ site.url }}{{ file_name | relative_url }}">{{ persona.name }}</a></td>
+        <td>{% include /functions/link-to-role.html myRoleAcronym=persona.stakeholderRole %}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
