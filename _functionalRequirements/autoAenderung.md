@@ -6,7 +6,6 @@ responsible:
 title: Automatische Erkennung von Änderungen an Dateien
 goals: 
     - autoUpdate
-    -
 source:
     - [Beobachtungstagebuch, PB1]
 history:
