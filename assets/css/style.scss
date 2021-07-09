@@ -178,14 +178,12 @@ section {
 
 /* The navigation menu */
 .navbar {
-
   overflow: hidden;
   background-color: #333;
   top:0;
   width: 100%;
   display: flex;
   justify-content: center;
-
 }
 
 .btn {
@@ -214,8 +212,6 @@ section {
 .subnav {
   float: left;
   overflow: hidden;
-
-
 }
 
 /* Subnav button */
@@ -244,8 +240,6 @@ section {
   background-color: #93bd20;
   width: 100%;
   z-index: 1;
-
-
 }
 
 /* Style the subnav links */
@@ -254,6 +248,7 @@ section {
   color: black;
   text-decoration: none;
 }
+
 
 /* Add a grey background color on hover */
 .subnav-content a:hover {
