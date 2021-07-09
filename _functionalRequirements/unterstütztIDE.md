@@ -5,9 +5,10 @@ responsible:
     - ako
     - kru
     - duz
-title: Untertützung von modernen IDEs
+title: Unterstützung von modernen IDEs
 goals: 
     - modernesCodingIDE
+status: implemented
 source:
     - [interview, ckohls, Minute 00:00:22]
 history:

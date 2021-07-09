@@ -8,6 +8,7 @@ responsible:
 title: Untertützung von Projektmanagementsystemen
 goals: 
     - modernesCodingProjektmanagement
+status: open
 source:
     - [interview, ckohls, Minute 00:00:22]
 history:
@@ -16,6 +17,7 @@ history:
         comment: initially created
 todo: 
     - Relevanz klären
+    - ... genau, vielleicht kann man das in der Begründung noch klären. Wofür soll das gut sein, und wie stellt man sich das vor?
 ---
 
 Das DiveKit soll Studierenden die Möglichkeit bieten ihren Fortschritt mit modernen Projektmanagementsystemen wie Jira dokumentieren.

@@ -3,10 +3,11 @@ type: functionalRequirement
 acronym: userPreferencen
 responsible: 
     - jsp
-title: ereitstellung von User Preferencen
+title: Bereitstellung von User Preferencen
 goals: 
     - userPreferencen
     - barrierefreiheit
+status: open
 source:
     - Workshop 6-3-5-No.2
 history:

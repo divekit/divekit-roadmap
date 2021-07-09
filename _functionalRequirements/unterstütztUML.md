@@ -8,6 +8,7 @@ responsible:
 title: Untertützung von diagrammbasierten Aufgaben
 goals: 
     - umlAufgaben
+status: implemented
 source:
     - [interview, ckohls, Minute 00:00:22]
     - [interview, sbente, Minute 00:39:23]
