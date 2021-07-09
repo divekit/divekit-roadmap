@@ -13,7 +13,7 @@ history:
     v1:
         date: 2021-06-23
         comment: initially created
-
+---
 
 Das DiveKit soll auch Vorschläge zur Verbesserung oder eine Musterlösung geben, auch wenn die Abgabe bestanden ist.
 
