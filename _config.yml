@@ -67,6 +67,14 @@ collections:
     output: true
   systemContextElements:
     output: true
+  personas:
+    output: true
+  scenarios:
+    output: true
+  functionalRequirements:
+    output: true
+  nonFunctionalRequirements:
+    output: true
   interviews:
     output: true
   literatureReferences:
