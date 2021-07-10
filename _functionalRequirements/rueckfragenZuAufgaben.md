@@ -8,6 +8,7 @@ goals:
     - rueckfragen
     -
 status: open
+prefilterPriorizationPoints: 2
 source:
     - [workshop, waltDisney]
 history:
