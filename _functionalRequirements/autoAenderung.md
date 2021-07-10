@@ -7,6 +7,7 @@ title: Automatische Erkennung von Änderungen an Dateien
 goals: 
     - autoUpdate
 status: implemented
+prefilterPriorizationPoints: 2
 source:
     - [Beobachtungstagebuch, PB1]
 history:
