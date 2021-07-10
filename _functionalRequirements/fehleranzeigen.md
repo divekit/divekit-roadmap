@@ -10,6 +10,7 @@ goals:
 source:
     - [beobachtungstagebuch, PC1]
 status: implemented
+prefilterPriorizationPoints: 1
 history:
     v1:
         date: 2021-07-07
