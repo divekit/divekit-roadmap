@@ -7,6 +7,7 @@ title: Fehlermeldungen der Fehlgeschlagenen Tests
 goals: 
     - Fehlererkennung
 status: implemented
+prefilterPriorizationPoints: 1
 source:
     - [beobachtungstagebuch, PP2]
 history:
