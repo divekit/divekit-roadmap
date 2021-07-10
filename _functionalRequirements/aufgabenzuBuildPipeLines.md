@@ -9,6 +9,7 @@ goals:
     - individualAufg
     - korrekturVonAufg
 status: open
+prefilterPriorizationPoints: 1
 source:
     - [interview, nnProf3]
 history:
