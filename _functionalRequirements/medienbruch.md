@@ -8,6 +8,7 @@ goals:
     - Medienbruch
     -
 status: implemented
+prefilterPriorizationPoints: 0
 source:
     - Interview nnProf1
 history:
