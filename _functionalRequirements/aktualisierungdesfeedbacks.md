@@ -9,6 +9,7 @@ goals:
     - fehlerAusgabe
     - autoUpdate
 status: implemented
+prefilterPriorizationPoints: 0
 source:
     - [beobachtungstagebuch, AV1]
 history:
