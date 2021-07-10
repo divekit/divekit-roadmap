@@ -8,6 +8,7 @@ goals:
     - Kommunikation
     -
 status: open
+prefilterPriorizationPoints: 4
 source:
     - Interview nnProf1
 history:
