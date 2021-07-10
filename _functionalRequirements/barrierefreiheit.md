@@ -7,6 +7,7 @@ title: Barrierefreiheit
 goals: 
     - barrierefreiheit
 status: open
+prefilterPriorizationPoints: 2
 source:
     - Workshop 6-3-5-No.1
 history:
