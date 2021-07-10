@@ -12,6 +12,7 @@ source:
     - [persona, cbeckert]
     - [scenario, cbeckert]
 status: implemented
+prefilterPriorizationPoints: 2
 history:
     v1:
         date: 2021-06-24
