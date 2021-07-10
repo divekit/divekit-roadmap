@@ -6,6 +6,7 @@ responsible:
 title: musterloesung
 goals: 
 status: open
+prefilterPriorizationPoints: 2
 source:
     - [workshop, waltDisney]
 history:
