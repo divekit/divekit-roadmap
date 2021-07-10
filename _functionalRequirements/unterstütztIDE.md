@@ -9,6 +9,7 @@ title: Unterstützung von modernen IDEs
 goals: 
     - modernesCodingIDE
 status: implemented
+prefilterPriorizationPoints: 7
 source:
     - [interview, ckohls, Minute 00:00:22]
 history:
