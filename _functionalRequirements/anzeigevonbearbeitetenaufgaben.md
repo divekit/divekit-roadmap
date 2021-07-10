@@ -8,6 +8,7 @@ goals:
     - Korrektur
     - studAutoSystem
 status: implemented
+prefilterPriorizationPoints: 2
 source:
     - [beobachtungstagebuch, AN2]
 history:
