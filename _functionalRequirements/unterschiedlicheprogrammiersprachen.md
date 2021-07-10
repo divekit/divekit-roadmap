@@ -8,6 +8,7 @@ goals:
     - individualAufg
     - KorrekturVonAufgaben
 status: open
+prefilterPriorizationPoints: 
 source:
     - [interview, sbente]
 history:
