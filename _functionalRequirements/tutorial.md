@@ -7,6 +7,7 @@ title: Tutorial für Umgebungseinstellungen
 goals: 
     - falscheKonfig
 status: open
+prefilterPriorizationPoints: 0
 source:
     - Workshop 6-3-5-No.2
 history:
