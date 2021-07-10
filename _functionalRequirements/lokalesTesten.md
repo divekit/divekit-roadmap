@@ -8,6 +8,7 @@ goals:
     - lokalerTest
     -
 status: implemented
+prefilterPriorizationPoints: 1
 source:
     - [beobachtungstagebuch, PS1]
 history:
