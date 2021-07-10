@@ -8,6 +8,7 @@ goals:
     - relevanteInformationen
     -
 status: open
+prefilterPriorizationPoints: 8
 source:
     - [Beobachtungstagebuch, BE1]
 history:
@@ -16,6 +17,7 @@ history:
         comment: initially created
 todo: 
 ---
+
 Das DiveKit soll dem Studierenden die Deadline der zu bearbeitenden Aufgabe auf der Testseite anzeigen.
 
 
