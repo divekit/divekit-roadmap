@@ -9,6 +9,7 @@ goals:
 source:
     - [beobachtungstagebuch, HS3]
 status: open
+prefilterPriorizationPoints: 0
 history:
     v1:
         date: 2021-07-08
