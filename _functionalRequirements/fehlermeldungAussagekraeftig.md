@@ -1,12 +1,13 @@
 ---
 type: functionalRequirement
-acronym: fehlermeldungAussagekraefit
+acronym: fehlermeldungAussagekraeftig
 responsible: 
     - jsp
 title: Aussagekräftige Fehlermeldungen
 goals: 
     - falscheKonfig
 status: open
+prefilterPriorizationPoints: 4
 source:
     - Workshop 6-3-5-No.2
 history:
