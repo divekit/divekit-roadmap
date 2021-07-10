@@ -9,6 +9,7 @@ title: Untertützung von Bonuspunkten
 goals: 
     - motivationExtrinsisch
 status: open
+prefilterPriorizationPoints: 1
 source:
     - [interview, ckohls, Minute 00:29:13]
 history:
