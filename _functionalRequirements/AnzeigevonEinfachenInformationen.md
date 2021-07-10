@@ -7,6 +7,7 @@ title: Anzeigen von Einfachen Informationen
 goals: 
     - relevanteInforamtionen
 status: open
+prefilterPriorizationPoints: 4
 source:
     - [Beobachtungstagebuch, PB2]
 history:
