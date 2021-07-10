@@ -7,6 +7,7 @@ title: Manuelle Prüfung anstoßen
 goals: 
     - manuellePruefungAnstoßen
 status: inProgress
+prefilterPriorizationPoints: 3
 source:
     - Workshop 6-3-5-No.1
 history:
