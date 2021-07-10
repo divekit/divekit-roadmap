@@ -9,6 +9,7 @@ goals:
     - studAutoSystem
     - studKompakt
 status: open
+prefilterPriorizationPoints: 1
 source:
     - [635 workshop gr 2, interaktion, 2. point]
 history:
