@@ -9,6 +9,7 @@ title: Untertützung von Projektmanagementsystemen
 goals: 
     - modernesCodingProjektmanagement
 status: open
+prefilterPriorizationPoints: 0
 source:
     - [interview, ckohls, Minute 00:00:22]
 history:
