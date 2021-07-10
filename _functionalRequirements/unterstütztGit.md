@@ -9,6 +9,7 @@ title: Untertützung von diagrammbasierten Aufgaben
 goals: 
     - modernesCodingVersionierung
 status: implemented
+prefilterPriorizationPoints: 0
 source:
     - [interview, ckohls, Minute 00:00:22]
 history:
