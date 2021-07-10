@@ -25,6 +25,3 @@ todo:
 ---
 
 Das DiveKit muss die Pseudonyme der manuell korrigierenden Personen eindeutig angeben können.
-
-
-## Begründung

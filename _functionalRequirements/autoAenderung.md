@@ -18,7 +18,6 @@ todo:
     - Bitte präzisieren. Was genau heißt "automatisch registrieren"? Was heißt "automatisch" - nach einem Push des Users ? Was soll das System dann tun (also was heißt "registrieren")?  
 ---
 
-Das DiveKit muss Änderungen an Dateien automatisch registrieren.
+Das DiveKit muss Änderungen an Dateien automatisch feststellen und entsprechend darauf reagieren.
 
-## Begründung
 

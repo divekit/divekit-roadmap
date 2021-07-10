@@ -16,6 +16,9 @@ history:
     v1:
         date: 2021-07-08
         comment: initially created
+    v2:
+        date: 2021-07-08
+        comment: Entfernung der Begründung
 todo: 
 ---
 

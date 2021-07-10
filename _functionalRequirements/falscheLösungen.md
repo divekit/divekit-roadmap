@@ -14,11 +14,14 @@ history:
     v1:
         date: 2021-07-07
         comment: initially created
+    v2:
+        date: 2021-07-10
+        comment: Entfernung der Begründung und des Duplikats
 todo: 
-    - Duplikat (siehe auch fehleranzeigen.md)
+    
 ---
 
 Wenn die von den Studierenden eingereichte Lösung Fehler erzeugt, soll das DiveKit die Fehler feststellen und diese als inkorrekt markieren.
 
 
-## Begründung
+

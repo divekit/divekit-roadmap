@@ -24,5 +24,3 @@ todo:
 
 Das DiveKit soll dem User die Möglichkeit bieten Tests lokal zu testen.
 
-
-## Begründung

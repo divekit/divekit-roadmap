@@ -15,10 +15,12 @@ history:
     v1:
         date: 2021-07-08
         comment: initially created
+    v2:
+        date: 2021-07-10
+        comment: Anmerkung zum Todo
 todo: 
-    - Unklares Requirement - das ist doch jetzt schon so ...?
+    - Unklares Requirement - das ist doch jetzt schon so ...? 
+    -  Anmerkung: Bei einem Studenten sind die Tests durchgelaufen, obwohl die Aufgabe offensichtlich nicht richtig war 
 ---
 
 Das DiveKit darf den Status eines Tests erst dann auf grün setzen, wenn der Benutzer die Aufgabe erfolgreich bearbeitet hat.
-
-## Begründung

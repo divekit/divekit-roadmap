@@ -24,5 +24,3 @@ todo:
 
 Das DiveKit muss in der Lage sein Studierenden zu nicht bestandenen Tests Feedback anzuzeigen.
 
-
-## Begründung

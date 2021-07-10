@@ -19,6 +19,6 @@ todo:
     - Bitte präzisieren - welche?
 ---
 
-Das DiveKit soll mehrere Programmiersprachen unterstützen.
+Das DiveKit soll alle gängigen Programmiersprachen unterstützen.
 
 ## Begründung

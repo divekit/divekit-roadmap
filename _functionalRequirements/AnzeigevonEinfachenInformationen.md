@@ -17,7 +17,7 @@ history:
 todo: 
     - Wofür soll das gut sein? Bitte begründen. Wer ist "der Benutzer"? Wessen Ressourcen sind gemeint - die der Pipeline?
 ---
-Das DiveKit soll dem Benutzer einfache Qualitätstests, wie Ausführungszeit, Ressourcenauslastung, etc. bereitstellen.
+Das DiveKit soll dem Nutzenden einfache Qualitätstests, wie Ausführungszeit, Ressourcenauslastung, etc. bereitstellen.
 
 ## Begründung
 

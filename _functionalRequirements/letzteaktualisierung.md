@@ -21,4 +21,4 @@ todo:
 
 Das DiveKit soll den Zeitstempel der letzten Aktualisierung des eingereichten Codes anzeigen können.
 
-## Begründung
+
