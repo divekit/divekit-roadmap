@@ -12,6 +12,7 @@ source:
     - [persona, cbeckert]
     - [scenario, cbeckert]
 status: open
+prefilterPriorizationPoints: 1
 history:
     v1:
         date: 2021-07-08
