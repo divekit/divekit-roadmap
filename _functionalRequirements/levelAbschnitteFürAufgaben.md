@@ -9,6 +9,7 @@ goals:
     - levelsystem
     - Motivation
 status: implemented
+prefilterPriorizationPoints: 
 source:
     - [ckohls]
 history:
