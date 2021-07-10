@@ -10,6 +10,7 @@ goals:
 source:
     - [sources/Ergebnisse_6-3-5-Methode-Workshop_Gruppe2.md]
 status: implemented
+prefilterPriorizationPoints: 1
 history:
     v1:
         date: 2021-06-23
