@@ -7,6 +7,7 @@ title: Zeitzone dem Nutzenden anpassen
 goals: 
     - wmaRobustheit
 status: open
+prefilterPriorizationPoints: 0
 source:
     - [beobachtungstagebuch, PS2]
 history:
