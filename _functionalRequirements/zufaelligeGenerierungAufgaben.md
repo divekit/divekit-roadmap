@@ -8,6 +8,7 @@ goals:
     - profBwlAufgabentypen
     - individualAufg
 status: implemented
+prefilterPriorizationPoints: 0
 source:
     - [interview, mengelen, Minute 00:14:46]
     - [persona, cbeckert]
