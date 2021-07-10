@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: Fragen an Betreuende
+acronym: FragenAnBetreuende
 responsible: 
     - jlü
 title: Rückfragen an Betreuende
@@ -9,6 +9,7 @@ goals:
     - betreuung
     - Kommunikation
 status: open
+prefilterPriorizationPoints: 1
 source:
     - [beobachtungstagebuch, FH2]
 history:
