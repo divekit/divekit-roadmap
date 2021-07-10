@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: aufgabenzurGoogleCloud
+acronym: aufgabenzuKubernetes
 responsible: 
     - jlü
 title: Aufgaben im Umgang mit Kubernetes
@@ -9,6 +9,7 @@ goals:
     - individualAufg
     - korrekturVonAufg
 status: open
+prefilterPriorizationPoints: 0
 source:
     - [interview, nnProf3]
 history:
