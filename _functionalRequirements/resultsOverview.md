@@ -11,6 +11,7 @@ source:
     - [interview, fkrampe, Minute 00:09:47]
     - [interview, fkrampe, Minute 00:13:25]
 status: inProgress
+prefilterPriorizationPoints: 5
 history:
     v1:
         date: 2021-06-18
