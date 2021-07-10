@@ -13,8 +13,6 @@ history:
     v1:
         date: 2021-07-08
         comment: initially created
-todo: 
-    - Ziel fehlt
 ---
 ## Beschreibung
 Im System soll es möglich sein Bilder als Abgabe für bestimmte Aufgaben hochzuladen.
