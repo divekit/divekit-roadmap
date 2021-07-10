@@ -4,7 +4,7 @@ acronym: AufgabentypBilderHochladen
 responsible: 
     - ngi
 title: Aufgabentyp mit Bilder hochladen
-goals: 
+goals: VerschiedeneAufgabentypen
 status: implemented
 prefilterPriorizationPoints: 4
 source:
