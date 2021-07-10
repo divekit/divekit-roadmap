@@ -11,7 +11,7 @@ goals:
 source:
     - [interview, nnProf3]
 status: open
-prefilterPriorizationPoints: 0
+prefilterPriorizationPoints: 1
 history:
     v1:
         date: 2021-07-08
