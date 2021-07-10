@@ -11,7 +11,7 @@ goals:
 status: open
 prefilterPriorizationPoints: 8
 source:
-    - [Interview n.n. WMA 50:45]
+    - [Interview nnWMA]
 history:
     v1:
         date: 2021-06-23
