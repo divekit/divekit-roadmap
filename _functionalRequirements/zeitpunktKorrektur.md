@@ -7,6 +7,7 @@ title: zeitpunktKorrektur
 goals:
     - besseresZeitmanagement
 status: open
+prefilterPriorizationPoints: 1
 source:
     - [beobachtungstagebuch, PS4]
 history:
