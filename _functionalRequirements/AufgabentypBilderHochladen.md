@@ -6,6 +6,7 @@ responsible:
 title: Aufgabentyp mit Bilder hochladen
 goals: 
 status: implemented
+prefilterPriorizationPoints: 4
 source:
     - Interview nnWMA2
 history:
