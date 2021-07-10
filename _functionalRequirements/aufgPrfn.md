@@ -14,6 +14,7 @@ source:
     - [interview, fkrampe, Minute 00:17:21]
     - [interview, fkrampe, Minute 00:37:33]
 status: implemented
+prefilterPriorizationPoints: 9
 history:
     v1:
         date: 2021-06-18
