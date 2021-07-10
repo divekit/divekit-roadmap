@@ -7,6 +7,7 @@ title: benachrichtigungAbgeschlossenePruefung
 goals:
     - zeitnahesFeedback
 status: open
+prefilterPriorizationPoints: 0
 source:
     - [beobachtungstagebuch, PC9]
 history:
