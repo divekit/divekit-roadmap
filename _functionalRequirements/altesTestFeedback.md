@@ -7,6 +7,7 @@ title: Altes Feedback zu alten Testergebnissen
 goals: 
     - altesFeedback
 status: inProgress
+prefilterPriorizationPoints: 0
 source:
 - [workshop, waltDisney]
 history:
