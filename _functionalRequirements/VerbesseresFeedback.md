@@ -8,6 +8,7 @@ goals:
     - qualitativeBetreuung
     -
 status: open
+prefilterPriorizationPoints: 4
 source:
     - [sources/Ergebnisse_6-3-5-Methode-Workshop_Gruppe1.md]
 history:
@@ -15,7 +16,8 @@ history:
         date: 2021-06-23
         comment: initially created
 goal: 
-    - Die Forderung nach Musterlösungen ist ein Duplikat (siehe auch musterloesung und generierungVonDatensätzen)         
+    - Die Forderung nach Musterlösungen ist ein Duplikat (siehe auch musterloesung und generierungVonDatensätzen)   
+todo: Acronym hat nichts mit dem Titel der Anforderung zu tun
 ---
 
 Das DiveKit soll auch Vorschläge zur Verbesserung oder eine Musterlösung geben, auch wenn die Abgabe bestanden ist.
