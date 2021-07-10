@@ -8,6 +8,7 @@ goals:
     - automatisieren
     - richtlinienDefinieren
 status: open
+prefilterPriorizationPoints: 
 source:
     - [ckohls]
 history:
