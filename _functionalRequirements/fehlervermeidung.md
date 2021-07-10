@@ -7,6 +7,7 @@ title: fehlervermeidung
 goals:
     - fehlervermeidung
 status: open
+prefilterPriorizationPoints: 0
 source:
     - [beobachtungstagebuch, PS6]
 history:
