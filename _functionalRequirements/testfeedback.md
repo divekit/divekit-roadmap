@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: Test Feedback
+acronym: TestFeedback
 responsible: 
     - jlü
 title: Feedback zu Tests
@@ -8,6 +8,7 @@ goals:
     - fehlerAusgabe
     -
 status: implemented
+prefilterPriorizationPoints: 2
 source:
     - [beobachtungstagebuch, PC2]
 history:
