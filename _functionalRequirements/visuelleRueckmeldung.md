@@ -7,6 +7,7 @@ title: visuelleRückmeldung
 goals:
     - besseresVerständnis
 status: open
+prefilterPriorizationPoints: 0
 source:
     - [beobachtungstagebuch, HS2]
 history:
