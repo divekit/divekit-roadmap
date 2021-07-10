@@ -10,6 +10,7 @@ goals:
 source:
     - [Beobachtungstagebuch, KA1]
 status: open
+prefilterPriorizationPoints: 1
 history:
     v1:
         date: 2021-07-08
