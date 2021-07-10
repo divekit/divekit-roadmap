@@ -8,6 +8,7 @@ goals:
     - Meilensteine
     -
 status: open
+prefilterPriorizationPoints: 1
 source:
     - [beobachtungstagebuch, FH1]
 history:
