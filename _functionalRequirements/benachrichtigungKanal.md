@@ -6,6 +6,7 @@ responsible:
 title: Frei Wahl für Benachrichtigungskanal
 goals: 
 status: open
+prefilterPriorizationPoints: 0
 source:
     - [workshop, waltDisney]
 history:
