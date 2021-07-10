@@ -9,6 +9,7 @@ goals:
 source:
     - [beobachtungstagebuch, PC11]
 status: open
+prefilterPriorizationPoints: 3
 history:
     v1:
         date: 2021-07-08
