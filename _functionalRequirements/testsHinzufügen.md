@@ -7,6 +7,7 @@ title: Tests hinzufügen
 goals:
     - simplerAufbau
 status: open
+prefilterPriorizationPoints: 0
 source:
     - [beobachtungstagebuch , PC6]
 history:
