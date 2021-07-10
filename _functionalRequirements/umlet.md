@@ -9,6 +9,7 @@ goals:
     - individualAufg
     - korrekturVonAufg
 status: open
+prefilterPriorizationPoints: 1
 source:
     - [interview, fkrampe, Minute 00:37:33]
 history:
