@@ -7,6 +7,7 @@ title: allgemeinesFeedback
 goals:
     - besseresVerständnis
 status: open
+prefilterPriorizationPoints: 4
 source:
     - [beobachtungstagebuch, PC10]
 history:
