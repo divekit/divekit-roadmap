@@ -7,6 +7,7 @@ title: weiterführendeInformationen
 goals:
     - gezieltesLernen
 status: open
+prefilterPriorizationPoints: 7
 source:
     - [beobachtungstagebuch, RD2]
 history:
