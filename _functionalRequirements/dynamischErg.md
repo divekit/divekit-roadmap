@@ -9,6 +9,7 @@ goals:
     - studKompakt
     - entlastung
 status: open
+prefilterPriorizationPoints: 0
 source:
     - [sources/walt_disney_miro.pdf]
 history:
