@@ -8,6 +8,7 @@ goals:
     - KorrekturVonAufg
     - relevanteInformationen
 status: implemented
+prefilterPriorizationPoints: 1
 source:
     - [beobachtungstagebuch, AN2]
 history:
