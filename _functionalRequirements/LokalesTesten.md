@@ -1,12 +1,11 @@
 ---
 type: functionalRequirement
-acronym: lokalesTesten
+acronym: LokalesTesten
 responsible: 
     - jlü
 title: Die abzugebende Lösung soll bereits lokal getestet werden können
 goals: 
     - lokalerTest
-    -
 status: implemented
 prefilterPriorizationPoints: 1
 source:
