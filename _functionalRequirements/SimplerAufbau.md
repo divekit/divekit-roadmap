@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: aufbau
+acronym: SimplerAufbau
 responsible:
     - mwi
 title: Simpler Seitenaufbau
