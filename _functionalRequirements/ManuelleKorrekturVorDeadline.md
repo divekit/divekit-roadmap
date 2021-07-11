@@ -1,9 +1,9 @@
 ---
 type: functionalRequirement
-acronym: manuelleKorrekturVorDeadline
+acronym: ManuelleKorrekturVorDeadline
 responsible:
     - mwi
-title: manuelleKorrekturVorDeadline
+title: Manuelle Korrektur vor der Deadline
 goals:
     - rückmeldungJederzeit
 source:
@@ -18,6 +18,4 @@ todo:
     - bitte präzisieren - was genau kann Divekit hier beitragen? Hier scheint eher die Kapazität der Betreuer der limitierende Faktor. 
 ---
 
-Das System sollte die Durchführung von manuelle Korrekturen bis kurz vor der Abgabe ermöglichen.
-
-## Begründung
+Das System sollte die Durchführung von manuellen Korrekturen bis kurz vor der Abgabe ermöglichen.
