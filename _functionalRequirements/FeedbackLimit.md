@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: feedbackLimit
+acronym: FeedbackLimit
 responsible:
     - tza
 title: Obergrenze für Feedback
@@ -8,22 +8,21 @@ goals:
     - entlastung
     - gegenDasToolArbeiten (partial)
 source:
-
 status: open
 prefilterPriorizationPoints: 3
 history:
     v1:
         date: 2021-06-23
         comment: initially created
-todo:
+todo: sources fehlen
 
 ---
 
-Das System soll die Möglichkeit bieten eine Obergrenze für die Anzahl von Feedback-Anfragen zu setzten.
+Das System soll die Möglichkeit bieten eine Obergrenze für die Anzahl von Feedback-Anfragen zu setzen.
 
 ## Begründung
 
-Da die Studierende unbegrenzte Anzahl von Feedback-Anfragen stellen können, is es nicht auszuschließen,
+Da die Studierenden eine unbegrenzte Anzahl von Feedback-Anfragen stellen können, ist es nicht auszuschließen,
 dass die Betreuer überlastet werden. Darüber hinaus können die Studierenden die Lösung
 mittels Brute-Force erfragen.
 
