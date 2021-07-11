@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: eindeutigePseudonyme
+acronym: EindeutigePseudonyme
 responsible: 
     - jlü
     - mwi
