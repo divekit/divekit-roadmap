@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: resultsOverview
+acronym: UebersichtErgebnisse
 responsible:
     - tza
 title: Übersicht über Meilensteinergebnisse
@@ -19,14 +19,15 @@ history:
         comment: added description
 todo:
     - Bitte ergänzen - wem? Übersicht mit was?
+    - Sources fehlen
 
 ---
 
-Am Ende eines Praktikumsmeilensteins muss das System eine Übersicht über die Ergebnisse bereitzustellen.
+Am Ende eines Praktikummeilensteins muss das System eine Übersicht über die Ergebnisse bereitstellen.
 
 ## Begründung
 
-Am Ende eines Praktikumsmeilensteins ist es notwendig den Überblick zu verschaffen und zu wissen,
+Am Ende eines Praktikummeilensteins ist es notwendig sich einen Überblick zu verschaffen und zu wissen,
 wer das Praktikum bestanden hat und wer nicht. Diese Informationen werden sowohl an das Prüfungsamt,
 als auch an die Studierende gemeldet.
 
