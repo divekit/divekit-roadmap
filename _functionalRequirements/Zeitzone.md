@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: zeitzone
+acronym: Zeitzone
 responsible: 
     - jlü
 title: Zeitzone dem Nutzenden anpassen
