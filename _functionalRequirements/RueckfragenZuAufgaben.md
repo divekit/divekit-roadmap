@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: RückfragenZuAufgaben
+acronym: RueckfragenZuAufgaben
 responsible:    
     - aha
 title: Rückfragen zu Aufgaben
