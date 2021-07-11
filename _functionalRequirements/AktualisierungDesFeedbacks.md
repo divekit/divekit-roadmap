@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: aktualisierungdesfeedbacks
+acronym: AktualisierungDesFeedbacks
 responsible: 
     - jlü
 title: Feedback automatisch aktualisieren
