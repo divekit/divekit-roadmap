@@ -3,23 +3,27 @@ type: functionalRequirement
 acronym: barrierefreiheit
 responsible: 
     - jsp
+    - jlü
 title: Barrierefreiheit
 goals: 
     - barrierefreiheit
 status: open
-prefilterPriorizationPoints: 2
+prefilterPriorizationPoints: 3
 source:
     - Workshop 6-3-5-No.1
+    - Beobachtungstagebuch
 history:
     v1:
         date: 2021-07-06
         comment: initially created
-todo: 
-    - Duplikat (siehe rotgruenschwaeche)
+    v2:
+        date: 2021-07-10
+        comment: merge duplikat
+todo:
 ---
 
 
-Das DiveKit muss es ermöglichen dass bspw. auch Farbenblinde Ergebnisse erkennen können.
+Das DiveKit muss es ermöglichen dass auch Farbenblinde Ergebnisse erkennen können.
 
 ## Begründung
 
