@@ -1,9 +1,9 @@
 ---
 type: functionalRequirement
-acronym: abgeschlossenepruefung
+acronym: BenachrichtigungAbgeschlossenePruefung
 responsible:
     - mwi
-title: benachrichtigungAbgeschlossenePruefung
+title: Benachrichtigung nach abgeschlossener Prüfung
 goals:
     - zeitnahesFeedback
 status: open
@@ -14,7 +14,7 @@ history:
     v1:
         date: 2021-07-08
         comment: initially created
-todo:
+todo: Bitte präzisieren ob es sich um eine Korrektur/Prüfung handelt oder um Feedback (Inkonsistenz in Titel und Beschreibung)
 ---
 
 Das System muss in der Lage sein dem Studierenden nach durchgeführtem Feedback eine Benachrichtigung zu senden, damit das Feedback direkt eingesehen werden kann und Wartezeiten verringert werden.
