@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: umlEditor
+acronym: UMLEditor
 responsible:
     - tza
 title: UML Editor
