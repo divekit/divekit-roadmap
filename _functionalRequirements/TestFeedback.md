@@ -6,7 +6,6 @@ responsible:
 title: Feedback zu Tests
 goals: 
     - fehlerAusgabe
-    -
 status: implemented
 prefilterPriorizationPoints: 2
 source:
@@ -18,8 +17,6 @@ history:
     v2:
         date: 2021-07-07
         comment: edited wording
-
-todo: 
 ---
 
 Das DiveKit muss in der Lage sein Studierenden zu nicht bestandenen Tests Feedback anzuzeigen.
