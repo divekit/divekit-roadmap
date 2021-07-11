@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: fehleranzeige
+acronym: FalscheLoesungen
 responsible: 
     - jlü
 title: Fehlermeldungen der Fehlgeschlagenen Tests
