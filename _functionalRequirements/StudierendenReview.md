@@ -1,9 +1,9 @@
 ---
 type: functionalRequirement
-acronym: studentReview
+acronym: StudierendenReview
 responsible:
     - mwi
-title: studentReview
+title: Studierenden Review
 goals:
     - austauschUnterStudierenden
 source:
@@ -19,5 +19,3 @@ todo:
 ---
 
 Das System sollte Studierenden die Möglichkeit bieten sich Hilfe oder (Code-) Reviews bei anderen Studierenden suchen zu können.
-
-## Begründung
