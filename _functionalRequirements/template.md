@@ -10,6 +10,11 @@ goals:
 source:
 status: open
 prefilterPriorizationPoints: 
+kano:
+    type: basic|performance|excitement
+    reasoning: >
+        Hier kommt die Begründung für die Einordnung. Wenn man das Feature weglässt, dann ist das gesamte
+        Konzept in Frage gestellt. Daher ist es ein Basisfaktor.
 history:
     v1:
         date: 2021-06-04
