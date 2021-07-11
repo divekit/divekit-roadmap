@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: unterschiedlicheprogrammiersprachen
+acronym: UnterschiedlicheProgrammiersprachen
 responsible: 
     - jlü
 title: Unterstützung mehrerer Programmiersprachen
@@ -8,7 +8,7 @@ goals:
     - individualAufg
     - KorrekturVonAufgaben
 status: open
-prefilterPriorizationPoints: 
+prefilterPriorizationPoints: 0
 source:
     - [interview, sbente]
 history:
@@ -21,4 +21,5 @@ todo:
 
 Das DiveKit soll alle gängigen Programmiersprachen unterstützen.
 
-## Begründung
+## Anmerkung
+Diese Anforderung wurde nachträglich definiert und war daher nicht Teil des Priorisierungsverfahrens. Die Priorisierungspunkte wurden daher auf 0 gesetzt.
