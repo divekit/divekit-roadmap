@@ -1,11 +1,11 @@
 ---
 type: functionalRequirement
-acronym: unterstütztUML
+acronym: UnterstuetztUML
 responsible: 
     - ako
     - kru
     - duz
-title: Untertützung von diagrammbasierten Aufgaben
+title: Unterstützung von diagrammbasierten Aufgaben
 goals: 
     - umlAufgaben
 status: implemented
