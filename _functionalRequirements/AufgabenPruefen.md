@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: aufgPrfn
+acronym: AufgabenPruefen
 responsible: 
     - hbu
 title: Aufgaben automatisiert überprüfen
