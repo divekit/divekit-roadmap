@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: plagiat
+acronym: PlagiatPruefung
 responsible: 
     - cpo
 title: Plagiatsprüfung
