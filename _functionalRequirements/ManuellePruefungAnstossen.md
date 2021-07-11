@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: manuellePruefungAnstoßen
+acronym: ManuellePruefungAnstossen
 responsible: 
     - jsp
 title: Manuelle Prüfung anstoßen
@@ -21,7 +21,7 @@ todo:
 ---
 
 
-Das DiveKit soll es ermöglichen das manuelle Pruefungen angetoßen werden können.
+Das DiveKit soll es ermöglichen, dass manuelle Prüfungen angestoßen werden können.
 
 ## Begründung
 
