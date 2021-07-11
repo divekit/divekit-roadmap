@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: dynamischErg
+acronym: DynamischeFeedbackSeite
 responsible: 
     - hbu
 title: Die Feedback-Seite muss dynamisch und interaktiv sein
@@ -21,7 +21,7 @@ todo:
     - bitte präzisieren - was genau heißt "dynamisch und interaktiv", welche Information sollte in dieser Form gezeigt werden?
 ---
 
-Die Feedback-Seite die bei der automatisierten Abgabe erstellt werden sollte dynamisch und interaktiv sein.
+Die Feedback-Seite, die bei der automatisierten Abgabe erstellt wird, sollte dynamisch und interaktiv sein.
 
 ## Begründung
 
