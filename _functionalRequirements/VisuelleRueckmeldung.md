@@ -1,9 +1,9 @@
 ---
 type: functionalRequirement
-acronym: visuelleRueckmeldung
+acronym: VisuelleRueckmeldung
 responsible:
     - mwi
-title: visuelleRückmeldung
+title: Visuelle Rückmeldung
 goals:
     - besseresVerständnis
 status: open
