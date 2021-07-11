@@ -1,9 +1,9 @@
 ---
 type: functionalRequirement
-acronym: manuellepruefung
+acronym: BenachrichtigungFuerManuellePruefung
 responsible:
     - mwi
-title: benachrichtigungManuellePruefung
+title: Benachrichtigung für manuelle Prüfung
 goals:
     - zeitnahePrüfungUndFeedback
 source:
@@ -14,10 +14,6 @@ history:
     v1:
         date: 2021-07-08
         comment: initially created
-todo: 
 ---
 
 Das System muss in der Lage sein dem Prüfer nach Abschluss eines Tests eine Benachrichtigung zuzusenden, damit manuelles Feedback zeitnah durchgeführt werden kann und Wartezeiten verringert werden.
-
-## Begründung
-
