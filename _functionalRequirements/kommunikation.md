@@ -15,8 +15,10 @@ history:
     v1:
         date: 2021-06-25
         comment: initially created
+    v2:
+        date: 2021-07-11
+        comment: update Begründung
 todo: 
-    - bitte präzisieren - wie kommunizieren? worüber? warum nicht Discord? 
 ---
 
 
@@ -24,4 +26,7 @@ Das DiveKit soll es ermöglichen das Stundenten untereinander auch kommunizieren
 
 ## Begründung
 
-Es wird sich gewünscht einen Punkt für Kommunikation zu haben, so dass das DiveKit auch ein Sammelpunkt wird.
+Es wird sich gewünscht einen Punkt für Kommunikation zu haben, so dass das DiveKit auch ein Sammelpunkt wird. 
+Mit Kommunikation ist sowohl Ton, Video und Text gemeint. Dies soll dazu dienen, dass keine weitere Software für Kommunikation genutzt wird, 
+damit Informationen auch an einem Punkt gesammelt werden und nicht verstreut sind. Besonders wichtig ist dieser Punkt in verbindung mit dem entfernen von Medienbrüchen
+und der erweiterung der Abgabe von Lösungen im Tool (bsp. UML-Aufgaben).
