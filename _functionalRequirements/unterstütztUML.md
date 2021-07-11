@@ -11,8 +11,6 @@ goals:
 status: implemented
 prefilterPriorizationPoints: 0
 source:
-    - [interview, ckohls, Minute 00:00:22]
-    - [interview, sbente, Minute 00:39:23]
 history:
     v1:
         date: 2021-07-03
@@ -25,3 +23,7 @@ Das DiveKit soll neben Programmieraufgaben auch die Möglichkeit bieten Diagramm
 ## Begründung
 
 Siehe Ziel
+
+## FIXME - muss wieder ins Front Matter hochkopiert werden
+    - [interview, ckohls, Minute 00:00:22]
+    - [interview, sbente, Minute 00:39:23]

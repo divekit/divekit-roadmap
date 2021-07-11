@@ -11,7 +11,6 @@ goals:
 status: open
 prefilterPriorizationPoints: 1
 source:
-    - [interview, ckohls, Minute 00:29:13]
 history:
     v1:
         date: 2021-07-03
@@ -24,3 +23,6 @@ Das DiveKit soll eine einfache Vergabe von Bonuspunkten für Klausuren o.Ä. ber
 ## Begründung
 
 Siehe Ziel
+
+## FIXME - muss wieder ins Front Matter hochkopiert werden
+    - [interview, ckohls, Minute 00:29:13]

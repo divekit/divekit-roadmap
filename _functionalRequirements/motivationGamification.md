@@ -11,8 +11,6 @@ goals:
 status: open
 prefilterPriorizationPoints: 2
 source:
-    - [interview, ckohls, Minute 00:29:13]
-    - [interview, nnWMA4, Minute 00:20:10]
 history:
     v1:
         date: 2021-07-03
@@ -25,3 +23,7 @@ Das DiveKit soll durch den Einsatz von Gamification eine intrinsische Motivation
 ## Begründung
 
 Siehe Ziel
+
+## FIXME - muss wieder ins Front Matter hochkopiert werden
+    - [interview, ckohls, Minute 00:29:13]
+    - [interview, nnWMA4, Minute 00:20:10]

@@ -11,7 +11,6 @@ goals:
 status: open
 prefilterPriorizationPoints: 1
 source:
-    - [interview, fkrampe, Minute 00:37:33]
 history:
     v1:
         date: 2021-06-23
@@ -28,3 +27,7 @@ Um UML basierte Aufgaben zu bearbeiten, soll das System fähig sein mit einer UM
 
 Mehrere Stakeholder (Informatik Professoren) sind daran interessiert, individualisierbare UML-Aufgaben
 zu erstellen und diese im Rahmen des Praktikums zu verwenden.
+
+
+## FIXME - muss wieder ins Front Matter hochkopiert werden
+    - [interview, fkrampe, Minute 00:37:33]

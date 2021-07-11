@@ -8,7 +8,6 @@ goals:
     - profBwlAufgabentypen
     - individualAufg
 source:
-    - [interview, mengelen, Minute 00:14:46]
     - [persona, cbeckert]
     - [scenario, cbeckert]
 status: open
@@ -22,3 +21,6 @@ todo:
 ---
 
 Bei der Aufgabenerstellung wird das DiveKit den Lehrverantwortlichen die Möglichkeit bieten, Rechenaufgaben zu erstellen.
+
+## FIXME - muss wieder ins Front Matter hochkopiert werden
+    - [interview, mengelen, Minute 00:14:46]

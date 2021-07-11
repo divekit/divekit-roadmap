@@ -8,8 +8,6 @@ goals:
     - entlastung
     - korrekturVonAufg
 source:
-    - [interview, fkrampe, Minute 00:09:47]
-    - [interview, fkrampe, Minute 00:13:25]
 status: inProgress
 prefilterPriorizationPoints: 5
 history:
@@ -33,3 +31,7 @@ wer das Praktikum bestanden hat und wer nicht. Diese Informationen werden sowohl
 als auch an die Studierende gemeldet.
 
 Es entlastet den Verantwortlichen, da diese Tätigkeit derzeit manuell durchgeführt werden muss.
+
+## FIXME - muss wieder ins Front Matter hochkopiert werden
+    - [interview, fkrampe, Minute 00:09:47]
+    - [interview, fkrampe, Minute 00:13:25]

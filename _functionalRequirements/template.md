@@ -8,7 +8,6 @@ goals:
     -
     -
 source:
-    - [interview, fkrampe, Minute 00:12:01]
 status: open
 history:
     v1:
@@ -35,3 +34,7 @@ Das DiveKit {Verbindlichkeit/Wichtigkeit} {Art der Funktionalität} {Objekt} {Pr
 ## Begründung
 
 Falls es zusätzliche Begründung für eine Anforderung benötigt (neben den oben referenzierten Zielen), hier kurz erläutern
+
+
+## FIXME - muss wieder ins Front Matter hochkopiert werden
+    - [interview, fkrampe, Minute 00:12:01]

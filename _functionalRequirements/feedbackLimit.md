@@ -8,8 +8,7 @@ goals:
     - entlastung
     - gegenDasToolArbeiten (partial)
 source:
-    - [interview, fkrampe, Minute 00:15:22]
-    - [interview, fkrampe, Minute 00:29:07]
+
 status: open
 prefilterPriorizationPoints: 3
 history:
@@ -27,3 +26,7 @@ Das System soll die Möglichkeit bieten eine Obergrenze für die Anzahl von Feed
 Da die Studierende unbegrenzte Anzahl von Feedback-Anfragen stellen können, is es nicht auszuschließen,
 dass die Betreuer überlastet werden. Darüber hinaus können die Studierenden die Lösung
 mittels Brute-Force erfragen.
+
+## FIXME - muss wieder ins Front Matter hochkopiert werden
+    - [interview, fkrampe, Minute 00:15:22]
+    - [interview, fkrampe, Minute 00:29:07]

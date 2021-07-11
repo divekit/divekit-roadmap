@@ -11,7 +11,6 @@ goals:
 status: implemented
 prefilterPriorizationPoints: 0
 source:
-    - [interview, ckohls, Minute 00:00:22]
 history:
     v1:
         date: 2021-07-03
@@ -24,3 +23,6 @@ Das DiveKit soll den Studierenden die Möglichkeit bieten, ihren Codefortschritt
 ## Begründung
 
 Siehe Ziel
+
+## FIXME - muss wieder ins Front Matter hochkopiert werden
+    - [interview, ckohls, Minute 00:00:22]

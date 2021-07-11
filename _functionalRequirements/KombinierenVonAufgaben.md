@@ -8,7 +8,6 @@ goals:
     - profBwlAufgabentypen
     - individualAufg
 source:
-    - [interview, mengelen, Minute 00:12:01]
     - [persona, cbeckert]
     - [scenario, cbeckert]
 status: open
@@ -24,3 +23,6 @@ todo:
 ---
 
 Bei der Konstruktion von zusammenhängenden Aufgaben wird das DiveKit für die Lehrverantwortlichen die Möglichkeit bieten, die Ergebnisse der Aufgabetypen zu kombinieren.
+
+## FIXME - muss wieder ins Front Matter hochkopiert werden
+    - [interview, mengelen, Minute 00:12:01]
