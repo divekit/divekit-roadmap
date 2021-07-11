@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: levelAbschnitteFürAufgaben
+acronym: LevelAbschnitteFuerAufgaben
 responsible:
     - ama
 title: Aufgaben in Level-Abschnitten aufteilen
@@ -9,7 +9,7 @@ goals:
     - levelsystem
     - Motivation
 status: implemented
-prefilterPriorizationPoints: 
+prefilterPriorizationPoints: 0
 source:
     - [ckohls]
 history:
@@ -19,7 +19,7 @@ v1:
 todo:
 ---
 
-Das Divekit sollte die Möglichkeit bieten eine beliebige Anzahl an Programmieraufgaben zu erstellen und 
+Das DiveKit sollte die Möglichkeit bieten eine beliebige Anzahl an Programmieraufgaben zu erstellen und 
 jede Aufgabe ist ein Level-Abschnitt, die der Benutzer lösen muss, um das nächste Level zu erreichen.
 
 ## Begründung
