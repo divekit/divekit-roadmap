@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: aufgabenzurGoogleCloud
+acronym: AufgabenZurGoogleCloud
 responsible: 
     - jlü
 title: Aufgaben im Umgang mit der Google Cloud
