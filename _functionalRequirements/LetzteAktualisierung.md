@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: letzteaktualisierung
+acronym: LetzteAktualisierung
 responsible: 
     - jlü
 title: Letzte Aktualisierung des Codes
@@ -15,7 +15,6 @@ history:
     v1:
         date: 2021-07-08
         comment: initially created
-todo: 
 ---
 
 
