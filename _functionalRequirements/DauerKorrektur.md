@@ -1,9 +1,9 @@
 ---
 type: functionalRequirement
-acronym: dauerKorrektur
+acronym: DauerKorrektur
 responsible:
     - mwi
-title: dauerKorrektur
+title: Dauer der Korrektur
 goals:
     - besseresZeitmanagement
 source:
