@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: vorbedingungDefinieren
+acronym: VorbedingungDefinieren
 responsible:
     - ama
 title: Richtlinien für die Programmieraufgaben definieren
@@ -8,7 +8,7 @@ goals:
     - automatisieren
     - richtlinienDefinieren
 status: open
-prefilterPriorizationPoints: 
+prefilterPriorizationPoints: 0
 source:
     - [ckohls]
 history:
@@ -25,3 +25,6 @@ Aufgabenstellung zu definieren, wie viele Klassen die Lösung der Aufgabe mindes
 ## Begründung
 Die Aufgabenstellung sollte vorher definierte Richtlinien haben wie zum Beispiel wie viel Klassen für die Lösung der Aufgabe benötigt wird oder welche Eigenschaften gegeben sein müssen.
 Das soll Clean Coding von den Studierenden fördern. 
+
+## Anmerkung
+Diese Anforderung wurde nachträglich definiert und war daher nicht Teil des Priorisierungsverfahrens. Die Priorisierungspunkte wurden daher auf 0 gesetzt.
