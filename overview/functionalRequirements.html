@@ -30,8 +30,7 @@ layout: default
         {% assign functionalRequirements = site.functionalRequirements | sort: "prefilterPriorizationPoints" | reverse %}
         {% for functionalRequirement in functionalRequirements %}
         <tr>
-            {% assign file_name = functionalRequirement.url | relative_url %}
-            <td><a href="{{ site.url }}{{ file_name | relative_url }}">{{ functionalRequirement.title }}</a></td>
+            <td><a href="{{ site.url }}{{ functionalRequirement.url | relative_url }}">{{ functionalRequirement.title }}</a></td>
             <td>(tbd.)</td>
             {% include /functions/requirementStatus.html my_requirement=functionalRequirement %}
             <td>{{ requirement_status }}</td>
