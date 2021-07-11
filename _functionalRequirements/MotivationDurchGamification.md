@@ -1,11 +1,11 @@
 ---
 type: functionalRequirement
-acronym: motivationGamification
+acronym: MotivationDurchGamification
 responsible: 
     - ako
     - kru
     - duz
-title: Untertützung von Gamification
+title: Untertützung von Gamification zur Motivation
 goals: 
     - motivationIntrinsisch
 status: open
