@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: testsHinzufügen
+acronym: TestsHinzufuegen
 responsible:
     - mwi
 title: Tests hinzufügen
