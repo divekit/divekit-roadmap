@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: aufgabenzuKubernetes
+acronym: AufgabenZuKubernetes
 responsible: 
     - jlü
 title: Aufgaben im Umgang mit Kubernetes
