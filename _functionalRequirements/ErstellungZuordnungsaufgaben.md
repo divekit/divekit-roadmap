@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: erstellenZuordnungsaufgaben
+acronym: ErstellungZuordnungsaufgaben
 responsible: 
     - psc
 title: Zuordnungsaufgaben erstellen
