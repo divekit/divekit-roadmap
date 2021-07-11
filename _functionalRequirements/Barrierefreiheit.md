@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: barrierefreiheit
+acronym: Barrierefreiheit
 responsible: 
     - jsp
     - jlü
@@ -19,7 +19,6 @@ history:
     v2:
         date: 2021-07-10
         comment: merge duplikat
-todo:
 ---
 
 
