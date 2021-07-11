@@ -1,12 +1,11 @@
 ---
 type: functionalRequirement
-acronym: gleicheSchwierigkeit
+acronym: GleicheSchwierigkeit
 responsible: 
     - jlü
-title: individualisierte Aufgaben haben einen Vergleichbaren Schwierigkeitsgrad
+title: Individualisierte Aufgaben haben einen Vergleichbaren Schwierigkeitsgrad
 goals: 
     - individualAufg
-    -
 source:
     - [interview, nnProf3]
 prefilterPriorizationPoints: 3
@@ -24,4 +23,3 @@ Wenn eine Aufgabe für eine Klausur individualisiert wird, muss das DiveKit sich
 der Studierenden einen gleichen Schwierigkeitsgrad aufweisen.
 
 
-## Begründung
