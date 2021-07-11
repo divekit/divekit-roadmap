@@ -1,9 +1,9 @@
 ---
 type: functionalRequirement
-acronym: individuellesDesign
+acronym: IndividuellesDesign
 responsible:
     - mwi
-title: individuellesDesign
+title: Individuelles Design
 goals:
     - individualität
 source:
