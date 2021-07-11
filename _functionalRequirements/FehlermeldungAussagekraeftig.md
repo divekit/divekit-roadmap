@@ -21,4 +21,4 @@ Bei fehlerhaften Umgebungseinstellungen (pom.xml), muss das DiveKit eine entspre
 
 ## Begründung
 
-Wenn die DiveKit-Gui einen Fehler aufweißt, welcher nicht auf Tests/Aufgaben, zurückzuführen ist, sollte eine entsprechende Fehlermeldung angezeigt werden.
+Wenn die DiveKit-Gui einen Fehler aufweist, welcher nicht auf Tests/Aufgaben zurückzuführen ist, sollte eine entsprechende Fehlermeldung angezeigt werden.
