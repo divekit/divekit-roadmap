@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: ladezeiten
+acronym: KurzeLadezeiten
 responsible:
     - mwi
 title: Kurze Ladezeiten
@@ -15,9 +15,8 @@ history:
         date: 2021-07-07
         comment: initially created
 todo: 
-    - bitte präzisieren - was genau soll refreshed werden?        
+    - bitte präzisieren - was genau soll refreshed werden?
+    - 
 ---
 
 Das System muss eine kurze Refresh Time haben.
-
-## Begründung
