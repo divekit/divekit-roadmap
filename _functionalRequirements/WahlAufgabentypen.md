@@ -1,9 +1,9 @@
 ---
 type: functionalRequirement
-acronym: wahlAufgaben
+acronym: WahlAufgabentypen
 responsible: 
     - psc
-title: verschiedenen Aufgabentypen
+title: Wahl aus verschiedenen Aufgabentypen
 goals: 
     - profBwlAufgabentypen
     - individualAufg
