@@ -1,9 +1,9 @@
 ---
 type: functionalRequirement
-acronym: zeitpunktKorrektur
+acronym: ZeitpunktKorrektur
 responsible:
     - mwi
-title: zeitpunktKorrektur
+title: Zeitpunkt Korrektur
 goals:
     - besseresZeitmanagement
 status: open
