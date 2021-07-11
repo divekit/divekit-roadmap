@@ -24,3 +24,6 @@ jede Aufgabe ist ein Level-Abschnitt, die der Benutzer lösen muss, um das näch
 
 ## Begründung
 Die Idee ist durch Gamification den Lernfortschritt der Studierenden bei den Praktikumsaufgaben zu verbessern. Durch den spielerischen Lernfortschritt kann die Motivation gesteigert werden Levelabschnitt zu lösen. 
+
+## Anmerkung
+Diese Anforderung wurde nachträglich definiert und war daher nicht Teil des Priorisierungsverfahrens. Die Priorisierungspunkte wurden daher auf 0 gesetzt.
