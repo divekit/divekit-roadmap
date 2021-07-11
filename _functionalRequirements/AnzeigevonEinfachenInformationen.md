@@ -8,6 +8,10 @@ goals:
     - relevanteInforamtionen
 status: open
 prefilterPriorizationPoints: 4
+kano:
+    type: excitement
+    reasoning: >
+        Hier kommt die Begründung für die Einordnung.
 source:
     - [Beobachtungstagebuch, PB2]
 history:

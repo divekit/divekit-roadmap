@@ -10,6 +10,10 @@ source:
     - [beobachtungstagebuch , PC4]
 status: open
 prefilterPriorizationPoints: 6
+kano:
+    type: basic
+    reasoning: >
+        Hier kommt die Begründung für die Einordnung.
 history:
     v1:
         date: 2021-07-07

@@ -12,6 +12,10 @@ goals:
     - Kommunikation
 status: open
 prefilterPriorizationPoints: 9
+kano:
+    type: excitement
+    reasoning: >
+        Hier kommt die Begründung für die Einordnung.
 source:
     - [Interview nnWMA]
     - [Beobachtungstagebuch, KA1]

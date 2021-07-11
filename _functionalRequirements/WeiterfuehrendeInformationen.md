@@ -8,6 +8,10 @@ goals:
     - gezieltesLernen
 status: open
 prefilterPriorizationPoints: 7
+kano:
+    type: excitement
+    reasoning: >
+        Hier kommt die Begründung für die Einordnung.
 source:
     - [beobachtungstagebuch, RD2]
 history:
