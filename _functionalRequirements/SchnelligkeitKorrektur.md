@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: schnelligkeitTest
+acronym: SchnelligkeitKorrektur
 responsible: 
     - fgr
 title: Schnellere Korrektur mit automatischen Tests
@@ -19,7 +19,8 @@ todo:
     - Bitte präzisieren. Was heißt "schneller als 5-10 min" - was wäre eine gewünschte Zeit?
     - Die Tests selbst sind schnell durch. Das Bauen der Testseite dauert einige Minuten. Das ist kaum zu ändern. 
     - Man kann immer lokal testen. Das dauert nur Sekunden. 
-    - Insgesamt IMHO eine inkonsistente Anforderung, jedenfalls in der gegenwärtigen Form.         
+    - Insgesamt IMHO eine inkonsistente Anforderung, jedenfalls in der gegenwärtigen Form. 
+    - Zugehörige Ziele fehlen
 ---
 
 Die automatischen Testes des DiveKit müssen schneller als 5-10 Minuten ablaufen.
