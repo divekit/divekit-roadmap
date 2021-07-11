@@ -1,9 +1,9 @@
 ---
 type: functionalRequirement
-acronym: zufaelligeGenerierungAufgaben
+acronym: ZufaelligeGenerierungAufgaben
 responsible: 
     - psc
-title: zufällige Generierung von Aufgaben
+title: Zufällige Generierung von Aufgaben
 goals: 
     - profBwlAufgabentypen
     - individualAufg
