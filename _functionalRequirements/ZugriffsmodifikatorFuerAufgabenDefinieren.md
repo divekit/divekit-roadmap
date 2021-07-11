@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: zugriffsmodifikatorFürAufgabenDefinieren
+acronym: ZugriffsmodifikatorFuerAufgabenDefinieren
 responsible:
     - ama
 title: Zugriffsmodifikator für Programmieraufgaben definieren
@@ -8,7 +8,7 @@ goals:
     - automatisieren
     - richtlinienDefinieren
 status: open
-prefilterPriorizationPoints: 
+prefilterPriorizationPoints: 0
 source:
     - [ckohls]
 history:
@@ -24,3 +24,6 @@ Erstellung der Aufgabe vorzugeben, welche Sichtbarkeit Variablen oder Klassen ha
 
 ## Begründung
 Es wäre wichtig für die Aufgabenerstellung Richtlinien für die Studierenden zu definieren wie zum Beispiel welche Sichtbarkeit bei Variablen oder Klassen vorausgesetzt sind, um dafür zu sorgen, dass die Studierenden die Regeln des Clean Coding beachten.
+
+## Anmerkung
+Diese Anforderung wurde nachträglich definiert und war daher nicht Teil des Priorisierungsverfahrens. Die Priorisierungspunkte wurden daher auf 0 gesetzt.
