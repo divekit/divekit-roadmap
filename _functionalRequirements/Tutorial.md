@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: tutorial
+acronym: Tutorial
 responsible: 
     - jsp
 title: Tutorial für Umgebungseinstellungen
@@ -20,9 +20,9 @@ todo:
     
 ---
 
-DiveKit muss eine Bedienhilfe anbieten, in welchem Nutzer die Standardeinstellungen nachrpüfen kann.
+Das DiveKit muss eine Bedienhilfe anbieten, in welchem der Nutzer die Standardeinstellungen nachprüfen kann.
 
 ## Begründung
 
-Bei fehlerhaften Umgebungseinstellungen (pom.xml) soll dem Nutzer die Möglichkeit gegeben sein, nachzuschauen, wie diese korrekt auszusehen hat.
-(Git rollback/compare nicht beachten).
+Bei fehlerhaften Umgebungseinstellungen (pom.xml) soll dem Nutzer die Möglichkeit gegeben sein nachzuschauen, wie diese korrekt auszusehen haben.
+(Git rollback/compare nicht beachten)
