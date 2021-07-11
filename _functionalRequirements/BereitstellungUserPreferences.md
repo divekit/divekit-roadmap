@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: userPreferencen
+acronym: BereitstellungUserPreferences
 responsible: 
     - jsp
 title: Bereitstellung von User Preferencen
@@ -18,10 +18,9 @@ history:
 todo: 
 ---
 
-
-DiveKit soll eine Konfiguration von User Preferencen ermöglichen.
+Das DiveKit soll eine Konfiguration von User Preferences ermöglichen.
 
 ## Begründung
 
-Die Konfiguration von User Preferencen ermöglicht es besser, auf Barrierefreiheit einzugehen, weil beispielsweise Leute die keine Farbschwäche haben 
+Die Konfiguration von User Preferences ermöglicht es, besser auf Barrierefreiheit einzugehen, weil beispielsweise Leute, die keine Farbschwäche haben, 
 Farben schneller aufnehmen als bspw. Zeichen.
