@@ -1,12 +1,11 @@
 ---
 type: functionalRequirement
-acronym: medienbruch
+acronym: Medienbruch
 responsible: 
     - jsp
 title: Medienbrüche entfernen
 goals: 
     - Medienbruch
-    -
 status: implemented
 prefilterPriorizationPoints: 0
 source:
@@ -21,8 +20,7 @@ history:
 todo: 
 ---
 
-
-Das DiveKit soll es ermöglichen das Dokumente/Aufgabenstellungen bereitgestellt werden können.
+Das DiveKit soll es ermöglichen, dass Dokumente/Aufgabenstellungen bereitgestellt werden können.
 
 ## Begründung
 
