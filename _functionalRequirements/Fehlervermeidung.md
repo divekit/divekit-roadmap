@@ -1,9 +1,9 @@
 ---
 type: functionalRequirement
-acronym: fehlervermeidung
+acronym: Fehlervermeidung
 responsible:
     - mwi
-title: fehlervermeidung
+title: Fehlervermeidung
 goals:
     - fehlervermeidung
 status: open
@@ -20,4 +20,3 @@ todo:
 
 Das System muss unverständliche und nicht nachvollziehbare Fehler in der Aufgabenstellung sowie im Testablauf vermeiden.
 
-## Begründung
