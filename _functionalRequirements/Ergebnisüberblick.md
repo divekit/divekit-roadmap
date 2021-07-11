@@ -1,9 +1,9 @@
 ---
 type: functionalRequirement
-acronym: ergebnisüberblick
+acronym: Ergebnisüberblick
 responsible:
     - mwi
-title: ergebnisüberblick
+title: Ergebnisüberblick
 goals:
     - verbesserteDarstellung
 source:
