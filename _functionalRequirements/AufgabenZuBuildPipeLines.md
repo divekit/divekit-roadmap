@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: aufgabenzuBuildPipelines
+acronym: AufgabenZuBuildPipelines
 responsible: 
     - jlü
 title: Aufgaben zu  der Arbeit mit Build Pipelines

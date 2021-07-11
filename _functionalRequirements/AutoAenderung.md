@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: autoAenderung
+acronym: AutoAenderung
 responsible: 
     - jlü
 title: Automatische Erkennung von Änderungen an Dateien

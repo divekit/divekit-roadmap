@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: aufgabenzudockercontainern
+acronym: AufgabenZuDockerContainern
 responsible: 
     - jlü
 title: Aufgaben zu  der Arbeit mit Docker 
