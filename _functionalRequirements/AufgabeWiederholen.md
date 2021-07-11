@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: aufgabeWiederholen
+acronym: AufgabeWiederholen
 responsible:
     - ama
 title: Möglichkeit eine Aufgabe zu wiederholen
@@ -9,7 +9,7 @@ goals:
     - levelsystem
     - Motivation
 status: open
-prefilterPriorizationPoints: 
+prefilterPriorizationPoints: 0
 source:
     - [ckohls]
 history:
@@ -25,3 +25,6 @@ Wenn der Studierende ein Level-Abschnitt nicht geschafft hat, sollte das Divekit
 
 ## Begründung 
 Für die Gamification der Aufgabe ist es wichtig, dass der Lernfortschritt vom Studierenden durchs Scheitern einer Aufgabe nicht verhindert wird, sondern er/sie dazu motiviert werden weiter zu machen. 
+
+## Anmerkung
+Diese Anforderung wurde nachträglich definiert und war daher nicht Teil des Priorisierungsverfahrens. Die Priorisierungspunkte wurden daher auf 0 gesetzt.
