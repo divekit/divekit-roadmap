@@ -1,9 +1,9 @@
 ---
 type: functionalRequirement
-acronym: testfunktionalitaeten
+acronym: MehrTestfunktionalitaeten
 responsible:
     - mwi
-title: mehrTestfunktionalitäten
+title: Mehr Testfunktionalitäten
 goals:
     - verbesserteLösungsqualität
 source:
