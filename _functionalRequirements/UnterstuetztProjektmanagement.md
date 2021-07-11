@@ -1,11 +1,11 @@
 ---
 type: functionalRequirement
-acronym: unterstütztProjektmanagement
+acronym: UnterstuetztProjektmanagement
 responsible: 
     - ako
     - kru
     - duz
-title: Untertützung von Projektmanagementsystemen
+title: Unterstützung von Projektmanagementsystemen
 goals: 
     - modernesCodingProjektmanagement
 status: open
@@ -20,7 +20,7 @@ todo:
     - ... genau, vielleicht kann man das in der Begründung noch klären. Wofür soll das gut sein, und wie stellt man sich das vor?
 ---
 
-Das DiveKit soll Studierenden die Möglichkeit bieten ihren Fortschritt mit modernen Projektmanagementsystemen wie Jira dokumentieren.
+Das DiveKit soll Studierenden die Möglichkeit bieten ihren Fortschritt mit modernen Projektmanagementsystemen wie z.B. Jira zu dokumentieren.
 
 <!-- 
     Grundsätzlich sollte dies schon Möglich sein, es besteht nur keine Kommunikation zwischen den Systemen.
