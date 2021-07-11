@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: lernprozess
+acronym: SchnellerLernprozess
 responsible:
     - mwi
 title: Schneller Lernprozess
@@ -16,6 +16,7 @@ history:
         comment: initially created
 todo:
     - Bitte präzisieren. Was genau heißt das? Wie kann man das testen?
+    - ist das nicht eine Nichtfunktionale Anforderung?
 ---
 
 Das System muss so aufgebaut sein, dass der (Kennen)Lernprozess einfach ist.
