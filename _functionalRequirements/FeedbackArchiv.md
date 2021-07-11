@@ -1,9 +1,9 @@
 ---
 type: functionalRequirement
-acronym: feedbackArchiv
+acronym: FeedbackArchiv
 responsible:
     - mwi
-title: feedbackArchiv
+title: Feedback-Archiv
 goals:
     - besseresVerständnis
 source:
