@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: fehlermeldungAussagekraeftig
+acronym: FehlermeldungAussagekraeftig
 responsible: 
     - jsp
 title: Aussagekräftige Fehlermeldungen
