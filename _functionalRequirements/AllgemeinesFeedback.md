@@ -1,9 +1,9 @@
 ---
 type: functionalRequirement
-acronym: allgemeinesFeedback
+acronym: AllgemeinesFeedback
 responsible:
     - mwi
-title: allgemeinesFeedback
+title: Allgemeines Feedback
 goals:
     - besseresVerständnis
 status: open
