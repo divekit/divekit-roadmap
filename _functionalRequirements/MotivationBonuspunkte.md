@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: motivationBonuspunkte
+acronym: MotivationBonuspunkte
 responsible: 
     - ako
     - kru
