@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: taskSelection
+acronym: AuswahlAufgabenZurÜberprüfung
 responsible:
     - tza
 title: Auswahl der Aufgaben für Überprüfung
@@ -20,10 +20,9 @@ todo:
     - Bitte Begründung klarer machen, ich verstehe das noch nicht. Was hat der Student davon, dass eine Aufgabe noch nicht kontrolliert wird, obwohl er/sie als fertig gepusht hat?
 ---
 
-Das System soll dem Benutzer (Student) die Möglichkeit bieten die zu kontrollierenden Aufgaben zu markieren.
+Das System soll dem Benutzer (Studierenden) die Möglichkeit bieten, die zu kontrollierenden Aufgaben zu markieren.
 (Nur die markierten Aufgaben werden ausgeführt und geprüft)
 
 ## Begründung
 
-Wenn nicht alle Aufgaben ausgeführt werden, entsteht auch eine bessere und kompaktere Übersicht.
-Dies spart Zeit bei der Bearbeitung.
+Wenn nicht alle Aufgaben ausgeführt werden, entsteht auch eine bessere und kompaktere Übersicht. Dies spart Zeit bei der Bearbeitung.
