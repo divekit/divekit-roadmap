@@ -1,9 +1,9 @@
 ---
 type: functionalRequirement
-acronym: rückmeldung
+acronym: ErweiterteRueckmeldung
 responsible:
     - mwi
-title: erweitereRückmeldung
+title: Erweiterte Rückmeldung
 goals:
     - besseresVerständnisFürEigeneLeistung
 source:
