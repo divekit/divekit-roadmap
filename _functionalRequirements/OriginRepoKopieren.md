@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: cloneOriginRepo
+acronym: OriginRepoKopieren
 responsible: 
     - hbu
 title: Origin Repo muss kopiert werden
