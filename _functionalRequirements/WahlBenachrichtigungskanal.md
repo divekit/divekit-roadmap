@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: channel
+acronym: WahlBenachrichtigungskanal
 responsible: 
     - cpo
 title: Frei Wahl für Benachrichtigungskanal
