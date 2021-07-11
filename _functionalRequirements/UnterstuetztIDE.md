@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: unterstütztIDE
+acronym: UnterstuetztIDE
 responsible: 
     - ako
     - kru
