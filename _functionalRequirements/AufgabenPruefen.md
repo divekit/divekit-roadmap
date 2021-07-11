@@ -10,9 +10,9 @@ goals:
     - entlastung
     - korrekturVonAufg
 source:
-    - [interview, fkrampe, Minute 00:09:47]
-    - [interview, fkrampe, Minute 00:17:21]
-    - [interview, fkrampe, Minute 00:37:33]
+    - [interview, fkrampe, Minute 00\:09\:47]
+    - [interview, fkrampe, Minute 00\:17\:21]
+    - [interview, fkrampe, Minute 00\:37\:33]
 status: implemented
 prefilterPriorizationPoints: 9
 history:
