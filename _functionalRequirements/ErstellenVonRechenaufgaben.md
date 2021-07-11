@@ -1,6 +1,6 @@
 ---
 type: functionalRequirement
-acronym: erstellenRechenaufgaben
+acronym: ErstellenVonRechenaufgaben
 responsible: 
     - psc
 title: Rechenaufgaben erstellen
