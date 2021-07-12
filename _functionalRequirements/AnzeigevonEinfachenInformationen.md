@@ -2,7 +2,12 @@
 type: functionalRequirement
 acronym: AnzeigevonEinfachenInformationen
 responsible: 
+    - mwi
+    - mba
     - jlü
+    - kru
+    - duz
+    - ako
 title: Anzeigen von Einfachen Informationen
 goals: 
     - relevanteInforamtionen
@@ -15,7 +20,7 @@ kano:
         der Informationen kaum ein*e Nutzer*in das Fehlen bemerken würde oder die Funktion vermissen würde. Auf der Anderen
         Seite würden sich Nutzende über solche Informationen freuen.
 source:
-    - [Beobachtungstagebuch, PB2]
+    - [beobachtungstagebuch, PB2]
 history:
     v1:
         date: 2021-07-08
@@ -26,11 +31,14 @@ history:
     v3:
         date: 2021-07-12
         comment: Begründung Kano
+    v3:
+        date: 2021-07-12
+        comment: Added all responsible authors
 todo: 
 ---
+
 Das DiveKit soll den Nutzenden einfache Qualitätstests, wie Ausführungszeit, Ressourcenauslastung, etc. bereitstellen.
 
 ## Begründung
 Einige Studierende wünschen sich eine Übersicht über einige Leistungsfaktoren,
-wie der Ausführungszeit oder auch der Ressourcen, die der implementierte Code verbraucht. Sinnvoll wäre eventuel ein Vergleich zur 
-Musterlösung oder zu anderen Studierenden.
+wie der Ausführungszeit oder auch der Ressourcen, die der implementierte Code verbraucht. Sinnvoll wäre eventuel ein Vergleich zur Musterlösung oder zu anderen Studierenden.

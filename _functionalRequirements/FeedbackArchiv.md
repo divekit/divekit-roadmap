@@ -3,6 +3,11 @@ type: functionalRequirement
 acronym: FeedbackArchiv
 responsible:
     - mwi
+    - mba
+    - jlü
+    - kru
+    - duz
+    - ako
 title: Feedback-Archiv
 goals:
     - besseresVerständnis
@@ -18,12 +23,14 @@ history:
     v1:
         date: 2021-07-08
         comment: initially created
+    v2:
+        date: 2021-07-12
+        comment: Added all responsible authors and reason regarding todo
 todo:
-    - Was genau ist ein "Feedback-Archiv"?
 ---
 
 Das System sollte in der Lage sein den Studierenden ein Feedback-Archiv zur Verfügung zu stellen.
 
 ## Begründung
 
-Um vorherige Kommentare und Rückmeldungen einsehen zu können.
+Ein Feedback-Archiv enthält bereits gegebenes Feedback zu Aufgaben aus früheren und dem aktuellen Semester. Daran sollen sich Studierende orientieren können, um die Lösungsfindung zu fördern.
