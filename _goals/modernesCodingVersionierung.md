@@ -29,6 +29,10 @@ todo:
 
 Den Studierenden soll die Arbeit mit Versionierungstools näher gebracht werden.
 
+Dabei gibt es zwei konkurrierende Ansichten, wie die Kenntnisse vermittelt werden sollen.
+* Die erste Option ist, sehr technisch anhand der jeweiligen Konsolenbefehle zu vermitteln was genau passiert, damit später keine Wissenslücken entstehen.
+* Die zweite Option ist, oberflächlich mit der großzügigen Unterstützung von einer IDE o.Ä. an das Thema heranzugehen, um lediglich einen ersten Einblick in Git zu vermitteln. 
+
 ## Begründung
 
 Man soll vertraut sein mit den wichtigsten Kommandos und die Funktionsweise soll besser nachvollzogen werden können.
