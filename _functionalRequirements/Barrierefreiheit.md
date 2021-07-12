@@ -9,6 +9,11 @@ goals:
     - barrierefreiheit
 status: open
 prefilterPriorizationPoints: 3
+kano:
+    type: Basic
+    reasoning: >
+        In der heutigen Zeit geht man davon aus, dass Software auch von Farbenblinden problemlos angewendet werden können. Dies merkt man auch an
+        Funktionen andere Software, welche meist mit Symbol und Text angezeigt werden.
 source:
     - Workshop 6-3-5-No.1
     - Beobachtungstagebuch

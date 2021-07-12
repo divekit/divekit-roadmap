@@ -8,6 +8,10 @@ goals:
     - Kommunikation
 status: open
 prefilterPriorizationPoints: 4
+kano:
+    type: excitement
+    reasoning: >
+        Als Software, welche dazu dient Abgaben in Modulen vorzunehmen, erwarte ich keine Kommunikationsmöglichkeit, da hierfür meist andere Kanäle verfügbar sind (besonders in Präsenz).
 source:
     - Interview nnProf1
 history:
