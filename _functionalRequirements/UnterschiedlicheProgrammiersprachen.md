@@ -15,8 +15,7 @@ history:
     v1:
         date: 2021-07-08
         comment: initially created
-todo: 
-    - Bitte präzisieren - welche?
+todo:
 ---
 
 Das DiveKit soll alle in der Lehre gängigen Programmiersprachen unterstützen.
