@@ -3,7 +3,7 @@ type: functionalRequirement
 acronym: AnzeigevonEinfachenInformationen
 responsible: 
     - jlü
-title: Anzeigen von Einfachen Informationen
+title: Anzeigen von einfachen Informationen
 goals: 
     - relevanteInforamtionen
 status: open
@@ -12,7 +12,7 @@ kano:
     type: excitement
     reasoning: >
         Diese Anforderung ist als Begeisterungsmerkmal einzuordnen, da bei einem Fehlen 
-        der Informationen kaum ein*e Nutzer*in das Fehlen bemerken würde oder die Funktion vermissen würde. Auf der Anderen
+        der Informationen kaum ein*e Nutzer*in das Fehlen bemerken würde oder die Funktion vermissen würde. Auf der anderen
         Seite würden sich Nutzende über solche Informationen freuen.
 source:
     - [Beobachtungstagebuch, PB2]
@@ -31,6 +31,7 @@ todo:
 Das DiveKit soll den Nutzenden einfache Qualitätstests, wie Ausführungszeit, Ressourcenauslastung, etc. bereitstellen.
 
 ## Begründung
+
 Einige Studierende wünschen sich eine Übersicht über einige Leistungsfaktoren,
-wie der Ausführungszeit oder auch der Ressourcen, die der implementierte Code verbraucht. Sinnvoll wäre eventuel ein Vergleich zur 
+wie der Ausführungszeit oder auch der Ressourcen, die der implementierte Code verbraucht. Sinnvoll wäre eventuell ein Vergleich zur 
 Musterlösung oder zu anderen Studierenden.

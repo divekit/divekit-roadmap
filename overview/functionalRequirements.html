@@ -22,7 +22,8 @@ layout: default
     <tr>
         <th width="30%">Name</th>
         <th width="30%">Zahlt ein auf Ziel(e)</th>
-        <th width="20%">Status</th>
+        <th width="15%">Implementierungs-Status</th>
+        <th width="15%">Kano-Typ</th>
         <th width="10%">Punkte aus Vorpriorisierung</th>
     </tr>
     </thead>
@@ -32,8 +33,10 @@ layout: default
         <tr>
             <td><a href="{{ site.url }}{{ functionalRequirement.url | relative_url }}">{{ functionalRequirement.title }}</a></td>
             <td>(tbd.)</td>
-            {% include /functions/requirementStatus.html my_requirement=functionalRequirement %}
-            <td>{{ requirement_status }}</td>
+            {% include /functions/implementation-status.html my_requirement=functionalRequirement %}
+            <td>{{ implementationStatus }}</td>
+            {% include /functions/kano-type.html my_requirement=functionalRequirement %}
+            <td>{{ kanoType }}</td>
             <td>{{ functionalRequirement.prefilterPriorizationPoints }}</td>
         </tr>
         {% endfor %}
