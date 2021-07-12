@@ -7,7 +7,7 @@ title: Das Divekit soll meilensteine anbieten, zwischen denen gewechselt werden 
 goals: 
     - Meilensteine
     -
-status: open
+status: implemented
 prefilterPriorizationPoints: 1
 source:
     - [beobachtungstagebuch, FH1]
@@ -15,12 +15,17 @@ history:
     v1:
         date: 2021-07-08
         comment: initially created
+    v2:
+        date: 2021-07-12
+        comment: hinzufügen Anmerkung und anpassung des Wordings
 todo: 
-    - bitte präzisieren, ist in der Form nicht verständlich. Ein Repo bezieht sich immer auf einen Meilenstein. Wie genau soll man da wechseln können?
 ---
 
 
-Das Divekit soll den nutzenden Studierenden die Möglichkeit bieten, einfach zwischen Meilensteinen, welche in den Aufgaben vorhanden sind, wechseln zu lassen.
+Das DiveKit soll den nutzenden Studierenden die Möglichkeit bieten,
+einfach zwischen Meilensteinen, zum Beispiel durch das Wechseln des Repository, zu wechseln.
 
 
-## Begründung
+### Anmerkung
+Diese Anforderung ist bereits in Form der Repos, die gepullt werden können, implementiert und ist nur 
+für die Vollständigkeit hier aufgenommen worden.
