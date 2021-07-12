@@ -6,6 +6,7 @@ responsible:
 title: Individualisierte Aufgaben haben einen Vergleichbaren Schwierigkeitsgrad
 goals: 
     - individualAufg
+    - gleicheSchwierigkeit
 source:
     - [interview, nnProf3]
 prefilterPriorizationPoints: 3
