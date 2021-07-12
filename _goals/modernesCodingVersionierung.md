@@ -12,6 +12,7 @@ source:
     - [interview, sbente, Minute 00:00:16]
     - [interview, nnWMA4, Minute 00:00:28]
     - [interview, mreitano, Minute 00:02:20]
+    - [interview, mreitano, Minute 00:51:43]
 partOfLargerGoal: modernesCoding
 history:
     v1:
@@ -23,6 +24,9 @@ history:
     v3:
         date: 2021-07-02
         comment: added source
+    v4:
+        date: 2021-07-12
+        comment: added options
 todo: 
 ---
 
