@@ -15,9 +15,10 @@ history:
     v1:
         date: 2021-06-17
         comment: initially created
-todo: 
-    - Auswählen von 1 oder mehr scenarioTypes
-    - Szenario typ definieren
+    v2:
+        date: 2021-07-12
+        comment: Hinzufügen von Szenarien
+todo:
 ---
 
 

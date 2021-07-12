@@ -34,7 +34,10 @@ history:
         comment: initially created
     v2:
         date: 2021-07-11
-        comment: merged with duplicate      
+        comment: merged with duplicate   
+    v3:
+        date: 2021-07-12
+        comment: Begründung Kano
 ---
 
 Das DiveKit muss eine API zur Erweiterung des Divekit bereitstellen.
