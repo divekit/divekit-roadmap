@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: profBwlAufgabentypen
+acronym: aufgabentypen
 responsible: 
     - psc
 title: verschiedene Aufgabentypen sollten zur Verfügung stehen
@@ -14,11 +14,15 @@ history:
         date: 2021-07-08
         comment: initially created
 todo: 
+    - Bitte Subgoales verlinken siehe sprachen.md
+    - Außerdem wäre das Subziel individualAufg.md, umlAufgaben.md auch ein Subziele oder? 
+    - Bitte Beschreibung anpassen 
 ---
 
 ## Beschreibung
 
 BWL Professor:innen können passende Aufgaben erstellen.
+
 
 ## Begründung
 

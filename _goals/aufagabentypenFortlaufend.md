@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: profBwlfortlaufendeAufgaben
+acronym: aufgabentypenFortlaufend
 responsible: 
     - psc
 title: Aufgaben ermöglichen, die aufeinandern aufbauen
@@ -8,7 +8,7 @@ source:
     - [interview, mengelen, Minute 00:08:00]
     - [interview, mengelen, Minute 00:25:22]
     - [interview, mengelen, Minute 00:27:00]
-partOfLargerGoal: profBwlAufgabentypen
+partOfLargerGoal: aufgabentypen
 history:
     v1:
         date: 2021-06-17

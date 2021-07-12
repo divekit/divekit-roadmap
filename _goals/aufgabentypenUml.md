@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: umlAufgaben
+acronym: aufgabentypenUml
 responsible: 
     - kru
     - duz
@@ -9,7 +9,7 @@ title: UML Aufgaben prüfen
 source:
     - [interview, ckohls, Minute 00:00:22]
     - [interview, sbente, Minute 00:39:23]
-partOfLargerGoal:
+partOfLargerGoal: aufgabentypen
 history:
     v1:
         date: 2021-07-03

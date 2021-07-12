@@ -1,12 +1,12 @@
 ---
 type: goal
-acronym: profBwlinterpretierbareAufgaben
+acronym: aufgabentypenInterpretierbar
 responsible: 
     - psc
 title: Interpretierbare Aufgaben ermöglichen
 source:
     - [interview, mengelen, Minute 00:14:46]
-partOfLargerGoal: profBwlAufgabentypen
+partOfLargerGoal: aufgabentypen
 history:
     v1:
         date: 2021-06-17
