@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: konsistenzGeschichte
+acronym: konsistenteGeschichte
 responsible: 
     - kru
     - duz
