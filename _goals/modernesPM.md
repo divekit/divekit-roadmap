@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: modernesCodingProjektmanagement
+acronym: modernPM
 responsible: 
     - kru
     - duz

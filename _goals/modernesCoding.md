@@ -22,6 +22,7 @@ history:
         date: 2021-07-03
         comment: added source
 todo: 
+    - Beschreibung / Begründung an die neuen Subgoals anpassen
 ---
 
 ## Beschreibung
@@ -29,9 +30,13 @@ todo:
 Den Studierenden sollen moderne, state-of-the-art Programmiertechniken näher gebracht werden.
 
 Dieses Ziel ist ein Oberziel von:
- * [Modernes Coding IDE](./modernesCodingIDE.md)
- * [Modernes Coding Projektmanagement](./modernesCodingProjektmanagement.md)
- * [Modernes Coding Versionierung](./modernesCodingVersionierung.md)
+ * [Modernes Coding IDE](./mordernIDE.md)
+ * [Modernes Coding Projektmanagement](./modernPM.md)
+ * [Modernes Coding Versionierung](./modernVersionierung.md)
+ * [Modernes Coding Formale Notation](./mordernFormaleNotation.md)
+ * [Modernes Coding Programmiersprachen](./modernProgSprachen.md)
+ * [Modernes Coding nachhaltiger Code](./modernNachhaltig.md)
+
 
 ## Begründung
 

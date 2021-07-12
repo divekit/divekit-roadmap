@@ -9,7 +9,7 @@ title: Nachhaltigen, verständlichen Code schreiben
 source:
     - [interview, sbente, Minute 00:02:24]
     - [interview, sbente, Minute 00:11:32]
-partOfLargerGoal: 
+partOfLargerGoal: modernesCoding
 history:
     v1:
         date: 2021-07-02

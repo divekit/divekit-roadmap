@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: modernesCodingFormaleNotation
+acronym: modernNotation
 responsible: 
     - kru
     - duz
@@ -8,7 +8,7 @@ responsible:
 title: Moderne Programmiertechniken - Formale Notation
 source:
     - [interview, Kohls, Minute 00:00:22]
-partOfLargerGoal: 
+partOfLargerGoal: modernesCoding
 history:
     v1:
         date: 2021-06-17
