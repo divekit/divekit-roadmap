@@ -1,0 +1,20 @@
+{% assign my_requirement = include.my_requirement %}
+{% assign kanoType = "-" %}
+{% assign kanoReasoning = "-" %}
+
+{% if my_requirement.kano %}
+	{% if my_requirement.kano.type %}
+		{% if my_requirement.kano.type == "excitement" %}
+			{% assign kanoType = "Begeisterung" %}
+		{% elsif my_requirement.status == "basic" %}
+			{% assign kanoType = "Basis" %}
+		{% elsif my_requirement.status == "performance" %}
+			{% assign kanoType = "Leistung" %}
+		{% else %}
+			{% assign kanoType = "???" %}
+		{% endif %}
+	{% endif %}
+	{% if my_requirement.kano.reasoning %}
+		{% assign kanoReasoning = my_requirement.kano.reasoning %}
+	{% endif %}
+{% endif %}

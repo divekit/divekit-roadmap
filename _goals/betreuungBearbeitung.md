@@ -6,7 +6,7 @@ responsible:
 title: Hilfe für Studenten bei Aufgaben Bearbeitung
 source:
     - [interview, nnProf, Minute 00:07:30]
-partOfLargerGoal: 
+partOfLargerGoal: betreuung
 history:
     v1:
         date: 2021-06-18

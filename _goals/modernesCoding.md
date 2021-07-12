@@ -36,6 +36,8 @@ Dieses Ziel ist ein Oberziel von:
  * [Modernes Coding Formale Notation](./mordernFormaleNotation.md)
  * [Modernes Coding Programmiersprachen](./modernProgSprachen.md)
  * [Modernes Coding nachhaltiger Code](./modernNachhaltig.md)
+ * [Modernes Coding Agilität](./modernesCodingAgilität.md)
+ * [Modernes Coding Programmierpraktiken](./modernesCodingPraktiken.md)
 
 
 ## Begründung

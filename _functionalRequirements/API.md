@@ -4,7 +4,12 @@ acronym: API
 responsible:    
     - fgr
     - ngi
+    - mwi
+    - mba
     - jlü
+    - kru
+    - duz
+    - ako
 title: API zur Erweiterung
 goals: 
     - Weiterentwicklung
@@ -15,17 +20,24 @@ prefilterPriorizationPoints: 9
 kano:
     type: excitement
     reasoning: >
-        Hier kommt die Begründung für die Einordnung.
+    Die Schnittstelle zu anderen System ist als Begeisterungsmerkmal einzuordnen, da 
+    die Funktionalität nicht wirklich erwartet wird und somit den Nutzern im normalen Gebrauch nicht fehlt. 
+    Ist die Funktionalität allerdings vorhanden, lassen sich Workflows eventuell vereinfachen und die Nutzenden freuen sich 
+    darüber.
+    
 source:
     - [Interview nnWMA]
-    - [Beobachtungstagebuch, KA1]
+    - [beobachtungstagebuch, KA1]
 history:
     v1:
         date: 2021-06-23
         comment: initially created
     v2:
         date: 2021-07-11
-        comment: merged with duplicate      
+        comment: merged with duplicate   
+    v3:
+        date: 2021-07-12
+        comment: Begründung Kano
 ---
 
 Das DiveKit muss eine API zur Erweiterung des Divekit bereitstellen.

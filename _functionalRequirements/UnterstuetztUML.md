@@ -8,6 +8,7 @@ responsible:
 title: Unterstützung von diagrammbasierten Aufgaben
 goals: 
     - umlAufgaben
+    - modernesCodingFormaleNotation
 status: implemented
 prefilterPriorizationPoints: 0
 source:
