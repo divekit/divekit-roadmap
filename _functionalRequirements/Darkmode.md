@@ -19,6 +19,9 @@ history:
     v1:
         date: 2021-06-23
         comment: initially created
+    v2:
+        date: 2021-07-12
+        comment: added kano classification
 todo:
     - Bitte präzisieren - für welche Stakeholder? Studierende? Tooling für Betreuende?
     - Ziel fehlt
