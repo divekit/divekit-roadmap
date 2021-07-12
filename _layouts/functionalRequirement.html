@@ -7,7 +7,8 @@ layout: default
 
 <dl>
     <dt>Autor(en)</dt>
-    <dd>{% include /functions/resolve-names.html mydecision=page %}{{responsible_string}}</dd>
+    {% include /functions/resolve-names.html my_responsible=page.responsible %}
+    <dd>{{ responsibleString }}</dd>
 
     <dt>Zahlt ein auf Ziel(e)</dt>
     <dd>(tbd.)</dd>
