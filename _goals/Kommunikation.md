@@ -20,8 +20,7 @@ history:
         comment: Updated todo
 todo:
     - Quellformat anpassen
-    - Bitte anfängliche Begründung in einem ganzen Satz ausformulieren
-
+    - Bitte anfängliche Begründung ("Sammelpunkt in einem System.") in einem ganzen Satz ausformulieren
 ---
 
 ## Beschreibung

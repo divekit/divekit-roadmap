@@ -11,10 +11,13 @@ history:
         date: 2021-07-06
         comment: initially created
 todo:
-    - Quellformat anpassen
+    - Quelle an das Format [..., ..., ...] anpassen 
 ---
 
 ## Beschreibung
+
 Um die Barrierefreiheit zu steigern, sollten Farben gegen Symbole ausgetaucht werden.
+
 ## Begründung
+
 Damit jeder das System nutzen kann, muss eine Barrierefreiheit gewährleistet werden.

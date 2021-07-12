@@ -26,9 +26,9 @@ Der Entwickler strebt eine verbesserte Nutzung der Sprache an, sowohl grammatika
 
 Dieses Ziel ist ein Oberziel von:
 
-* [Grammatisch richtige Sprache](wmaSpracheGram.md)
-* [Technische Sprache & Relationen](wmaSpracheTech.md) 
-* [Optionen für die Sprache](wmaSpracheOptEinst.md)
+* [Grammatisch richtige Sprache](./spracheGrammatik.md)
+* [Technische Sprache & Relationen](./spracheTechnisch.md)
+* [Optionen für die Sprache](./spracheOptionales.md) 
 
 
 ## Begründung

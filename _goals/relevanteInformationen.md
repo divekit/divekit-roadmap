@@ -12,6 +12,9 @@ history:
         date: 2021-07-08
         comment: initially created
 todo: 
+    - Begründung hinzufügen
+    - Quelle an das Format [..., ..., ...] anpassen (Zeitangabe fehlt)
+    - notwenige Informationen?
 ---
 
 ## Beschreibung

@@ -6,11 +6,13 @@ responsible:
 title: Bereitstellung von User Preferencen
 source:
     - Workshop 6-3-5-No.2
+partOfLargerGoal: 
 history:
     v1:
         date: 2021-07-05
         comment: initially created
 todo:
+    - Quelle an das Format [..., ..., ...] anpassen 
 ---
 
 ## Beschreibung

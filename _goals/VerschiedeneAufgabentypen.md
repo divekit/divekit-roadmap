@@ -6,9 +6,15 @@ responsible:
 title: Verschiedene Aufgabentypen
 source:
     - Interview nnWMA2
+partOfLargerGoal: 
 history:
     v1:
         date: 2021-07-10
+        comment: 
+todo:
+    - Quelle an das Format [..., ..., ...] anpassen 
+    - Format des Files fixen
+    - Gibt es schon Mergen mit aufgabentypen.md
 ---
 
 ## Beschreibung
