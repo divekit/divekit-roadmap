@@ -6,7 +6,7 @@ responsible:
 title: Die Teil Korrektur von Aufgaben
 source:
     - [interview, nnProf, Minute 00:07:43]
-partOfLargerGoal: 
+partOfLargerGoal: betreuung
 history:
     v1:
         date: 2021-06-24
