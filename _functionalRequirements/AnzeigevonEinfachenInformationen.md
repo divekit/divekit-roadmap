@@ -18,11 +18,14 @@ history:
     v1:
         date: 2021-07-08
         comment: initially created
+    v2:
+        date: 2021-01-12
+        comment: hinzufügen einer Begründung
 todo: 
     - Wofür soll das gut sein? Bitte begründen. Wer ist "der Benutzer"? Wessen Ressourcen sind gemeint - die der Pipeline?
 ---
 Das DiveKit soll dem Nutzenden einfache Qualitätstests, wie Ausführungszeit, Ressourcenauslastung, etc. bereitstellen.
 
 ## Begründung
-
-
+Einige Studierende wünschen sich eine Übersicht über einige Leistungstests,
+wie der Ausführungszeit oder auch der Ressourcen, die der Code verbraucht.

@@ -14,10 +14,12 @@ history:
     v1:
         date: 2021-07-08
         comment: initially created
-todo: 
-    - Bitte präzisieren. Was genau heißt "automatisch registrieren"? Was heißt "automatisch" - nach einem Push des Users ? Was soll das System dann tun (also was heißt "registrieren")?  
+    v2:
+        date: 2021-07-12
+        comment: Präzisierung
+todo:
 ---
 
-Das DiveKit muss Änderungen an Dateien automatisch feststellen und entsprechend darauf reagieren.
+Das DiveKit muss Änderungen der Nutzenden an Dateien erkennen und entsprechend darauf reagieren.
 
 

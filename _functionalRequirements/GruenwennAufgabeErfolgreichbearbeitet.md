@@ -1,9 +1,9 @@
 ---
 type: functionalRequirement
-acronym: AnzeigeVonBearbeitetenAufgaben
+acronym: GruenwennAufgabeErfolgreichbearbeitet
 responsible: 
     - jlü
-title: Erst Grün, wenn Aufgabe bearbeitet
+title: Erst Grün, wenn Aufgabe erfolgreich bearbeitet
 goals: 
     - Korrektur
     - studAutoSystem
@@ -20,8 +20,7 @@ history:
         comment: Anmerkung zum Todo
 todo: 
     - Unklares Requirement - das ist doch jetzt schon so ...? 
-    - Anmerkung: Bei einem Studenten sind die Tests durchgelaufen, obwohl die Aufgabe offensichtlich nicht richtig war 
-    - großer Unterschied zwischen Titel und Akronym/Filename, bitte überrpüfen und konsistent benennen
+    - Anmerkung: Bei einem Studenten sind die Tests durchgelaufen, obwohl die Aufgabe offensichtlich nicht richtig war
 ---
 
 Das DiveKit darf den Status eines Tests erst dann auf grün setzen, wenn der Benutzer die Aufgabe erfolgreich bearbeitet hat.

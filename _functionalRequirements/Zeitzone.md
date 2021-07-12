@@ -21,10 +21,9 @@ history:
         date: 2021-07-10
         comment: präzisierung und umformulieren
 todo: 
-    - Bitte präzisieren - gemeint ist wohl, dass die angezeigte Zeitzone die lokale sein sollte (z.Z. ist das UTC, es sollte aber MESZ sein). Dadurch ist die angezeigte Uhrzeit im "aktuelle Zeit minus 2h", was zu der Verwirrung führt, dass die Test/Feedbackseite nicht aktualisiert wird. Ist mir auch schon passiert. 
 ---
 
-Das DiveKit soll die angezeigte Uhrzeit an die lokale Zeitzone des Nutzenden anpassen.
+Das DiveKit soll die angezeigten Uhrzeiten an die lokale Zeitzone des Nutzenden anpassen.
 
 ## Begründung
 
