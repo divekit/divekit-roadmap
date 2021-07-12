@@ -3,9 +3,11 @@ type: goal
 acronym: Localtest
 responsible: 
     - fgr
+    - jlü
 title: Lokale Tests für Aufgaben der Studenten
 source: 
     - Workshop 6-3-5-No.2, Schwerpunkt Aufgaben
+    - Beobachtungstagebuch
 partOfLargerGoal: 
 history:
     v1:

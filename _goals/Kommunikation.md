@@ -15,9 +15,13 @@ history:
     v2:
         date: 2021-07-03
         comment: Added new reason
+    v3:
+        date: 2021-07-06
+        comment: Updated todo
 todo:
     - Quellformat anpassen
     - Bitte anfängliche Begründung in einem ganzen Satz ausformulieren
+
 ---
 
 ## Beschreibung
@@ -31,3 +35,6 @@ Sammelpunkt in einem System.
 Aktuell werden viele verschiende Kommunikationsmittel können genutzt, darunter gehören Slack, Cisco Jabber (Für Lehrende), Zoom, Discord, WhatsApp, FB Messenger, Ilias-Forum, E-Mail oder die eigene Handynummer. 
 
 Eine Erweiterung der Kommunikation könnten Chats-Bot genutzt werden.
+
+Die Kommunikation über externe Systeme verleitet dazu, das System komplett zu verlassen. Beispielweise auch wenn ein UML-Tool weiterhin verwendet wird.
+

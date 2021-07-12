@@ -3,14 +3,14 @@ acronym: nnProf3
 type: interview
 responsible: 
     - jlü
-    -ama
+    - ama
 stakeholder: rwö
 date: 2021-05-10
 duration: 35:30
 location: Zoom-Meeting
 transcriptUrl: 
 todo:
-    - Ergebnisprotokoll (ama)
+    
 history:
     v1:
         date: 2021-05-14

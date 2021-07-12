@@ -65,7 +65,15 @@ collections:
     output: true
   stakeholderRoles:
     output: true
-  systemContexts:
+  systemContextElements:
+    output: true
+  personas:
+    output: true
+  scenarios:
+    output: true
+  functionalRequirements:
+    output: true
+  nonFunctionalRequirements:
     output: true
   interviews:
     output: true
@@ -75,6 +83,9 @@ collections:
     output: true
   workshops:
     output: true
+  useCases:
+    output: true
+
 
 defaults:
   - scope:
@@ -109,14 +120,19 @@ defaults:
       layout: "stakeholderRole"
   - scope:
       path: ""
-      type: "systemContexts"
+      type: "systemContextElements"
     values:
-      layout: "systemContext"
+      layout: "systemContextElement"
   - scope:
       path: ""
       type: "interviews"
     values:
       layout: "interview"
+  - scope:
+      path: ""
+      type: "functionalRequirements"
+    values:
+      layout: "functionalRequirement"
   - scope:
       path: ""
       type: "literatureReferences"
@@ -132,3 +148,13 @@ defaults:
       type: "workshops"
     values:
       layout: "workshop"
+  - scope:
+      path: ""
+      type: "personas"
+    values:
+      layout: "persona"
+  - scope:
+      path: ""
+      type: "useCases"
+    values:
+      layout: "useCase"

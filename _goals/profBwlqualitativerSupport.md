@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: qualitativerSupport
+acronym: profBwlqualitativerSupport
 responsible: 
     - psc
 title: Qualitative Unterstützung bei Auswertung von Projektarbeiten
@@ -21,7 +21,6 @@ todo:
 ## Beschreibung
 
 BWL Professor:innen erhalten qualitative Unterstützung von individuellen Projektarbeiten.
-
 
 ## Begründung
 

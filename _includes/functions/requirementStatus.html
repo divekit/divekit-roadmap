@@ -1,0 +1,14 @@
+{% assign my_requirement = include.my_requirement %}
+{% assign requirement_status = "???" %}
+
+{% if my_requirement.status %}
+	{% if my_requirement.status == "open" %}
+		{% assign requirement_status = "offen" %}
+	{% endif %}
+	{% if my_requirement.status == "inProgress" %}
+		{% assign requirement_status = "wird gerade implementiert" %}
+	{% endif %}
+	{% if my_requirement.status == "implemented" %}
+		{% assign requirement_status = "bereits implementiert" %}
+	{% endif %}
+{% endif %}

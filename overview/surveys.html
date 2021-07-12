@@ -14,8 +14,8 @@ layout: default
 <table>
     <thead>
     <tr>
-        <th width="10%">Akronym</th>
-        <th width="70%">Subject</th>
+
+        <th width="80%">Subject</th>
         <th width="20%">Stakeholder Role</th>
     </tr>
     </thead>
@@ -23,7 +23,7 @@ layout: default
         {% for survey in site.surveys %}
         <tr>
             {% assign file_name = survey.url | relative_url %}
-            <td>{{ survey.acronym }}</td>
+
             <td><a href="{{ site.url }}{{ file_name | relative_url }}">{{ survey.subject }}</a></td>
             <td>{% include /functions/link-to-role.html myRoleAcronym=survey.stakeholder_role %}</td>
         </tr>

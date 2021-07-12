@@ -8,6 +8,7 @@ responsible:
 title: Verbesserung von technischer Sprache & Relationen 
 source:
     - [interview, jintveen, Minute 00:54:13]
+    - [interview, sbente, Minute 00:21:47]
 partOfLargerGoal: sprache
 history:
     v1:
@@ -16,6 +17,9 @@ history:
     v2:
         date: 2021-06-17
         comment: changed name and added larger Goal
+    v3:
+        date: 2021-07-03
+        comment: added source
 todo: 
 ---
 

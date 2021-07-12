@@ -1,0 +1,28 @@
+---
+type: functionalRequirement
+acronym: AuswahlAufgabenZurÜberprüfung
+responsible:
+    - tza
+title: Auswahl der Aufgaben für Überprüfung
+goals:
+    - studVorbereiten
+    - studAutoSystem
+    - studKompakt
+status: open
+prefilterPriorizationPoints: 1
+source:
+    - [635 workshop gr 2, interaktion, 2. point]
+history:
+    v1:
+        date: 2021-06-23
+        comment: initially created
+todo:
+    - Bitte Begründung klarer machen, ich verstehe das noch nicht. Was hat der Student davon, dass eine Aufgabe noch nicht kontrolliert wird, obwohl er/sie als fertig gepusht hat?
+---
+
+Das System soll dem Benutzer (Studierenden) die Möglichkeit bieten, die zu kontrollierenden Aufgaben zu markieren.
+(Nur die markierten Aufgaben werden ausgeführt und geprüft)
+
+## Begründung
+
+Wenn nicht alle Aufgaben ausgeführt werden, entsteht auch eine bessere und kompaktere Übersicht. Dies spart Zeit bei der Bearbeitung.

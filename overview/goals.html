@@ -14,8 +14,8 @@ layout: default
 <table>
     <thead>
     <tr>
-        <th width="15%">Akronym</th>
-        <th width="85%">Beschreibung</th>
+
+        <th width="100%">Beschreibung</th>
 
     </tr>
     </thead>
@@ -23,8 +23,8 @@ layout: default
         {% for goal in site.goals %}
         <tr>
             {% assign file_name = goal.url | relative_url %}
-            <td>{{ goal.acronym }}</td>
-            <td><a href="{{ site.url }}{{ file_name | relative_url }}">{{ goal.description }}</a></td>
+
+            <td><a href="{{ site.url }}{{ file_name | relative_url }}">{{ goal.title }}</a></td>
 
         </tr>
         {% endfor %}

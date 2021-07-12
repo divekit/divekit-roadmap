@@ -6,14 +6,23 @@ responsible:
 title: Einführung eines Darkmode 
 goals: 
     -
-    -
 source:
     - [sources/Ergebnisse_6-3-5-Methode-Workshop_Gruppe1.md]
+status: open
+prefilterPriorizationPoints: 2
+kano:
+    type: excitement
+    reasoning: >
+        Ein Darkmode ist nicht für die Funktionaliät des DiveKits relevant. Zudem würde ein Vorhandensein manche 
+        Nutzer sehr freuen, weshalb dies ein Begeisterungsmerkmal ist.
 history:
     v1:
         date: 2021-06-23
         comment: initially created
-
+todo:
+    - Bitte präzisieren - für welche Stakeholder? Studierende? Tooling für Betreuende?
+    - Ziel fehlt
+---
 
 Das DiveKit soll einen Darkmode anbieten.
 

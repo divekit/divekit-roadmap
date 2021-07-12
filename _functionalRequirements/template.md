@@ -8,7 +8,13 @@ goals:
     -
     -
 source:
-    - [interview, fkrampe, Minute 00:12:01]
+status: open
+prefilterPriorizationPoints: 
+kano:
+    type: basic|performance|excitement
+    reasoning: >
+        Hier kommt die Begründung für die Einordnung. Wenn man das Feature weglässt, dann ist das gesamte
+        Konzept in Frage gestellt. Daher ist es ein Basisfaktor.
 history:
     v1:
         date: 2021-06-04
@@ -20,6 +26,7 @@ history:
         date: 2021-06-18
         comment: update Template
 todo: 
+    - In der QS sollte mal überprüft werden, ob die Schablone eingehalten wurde ... ist kaum der Fall. 
 ---
 
 mit Bedingung:
@@ -33,3 +40,7 @@ Das DiveKit {Verbindlichkeit/Wichtigkeit} {Art der Funktionalität} {Objekt} {Pr
 ## Begründung
 
 Falls es zusätzliche Begründung für eine Anforderung benötigt (neben den oben referenzierten Zielen), hier kurz erläutern
+
+
+## FIXME - muss wieder ins Front Matter hochkopiert werden
+    - [interview, fkrampe, Minute 00:12:01]

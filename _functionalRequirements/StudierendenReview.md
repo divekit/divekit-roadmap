@@ -1,0 +1,21 @@
+---
+type: functionalRequirement
+acronym: StudierendenReview
+responsible:
+    - mwi
+title: Studierenden Review
+goals:
+    - austauschUnterStudierenden
+source:
+    - [beobachtungstagebuch, RD1]
+status: open
+prefilterPriorizationPoints: 0
+history:
+    v1:
+        date: 2021-07-08
+        comment: initially created
+todo:
+    - Bitte präzisieren. Soll das System wie eine Kontaktbörse funktieren? Oder selbst so eine Code-Review-Funktion mit Kommentaren anbieten?
+---
+
+Das System sollte Studierenden die Möglichkeit bieten sich Hilfe oder (Code-) Reviews bei anderen Studierenden suchen zu können.

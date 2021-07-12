@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<h1>Use Cases</h1>
+
+<p>
+    Ein <b>Use Case</b> bündelt alle möglichen Szenarien, die eintreten können, wenn ein Akteur versucht, mit Hilfe des betrachteten Systems ein bestimmtes fachliches Ziel zu erreichen. Er beschreibt, was inhaltlich beim Versuch der Zielerreichung passieren kann und abstrahiert von konkreten technischen Lösungen.
+</p>
+
+
+
+<table>
+    <thead>
+    <tr>
+        <th width="100%">Titel</th>
+
+
+    </tr>
+    </thead>
+    <tbody>
+    {% for useCase in site.useCases %}
+    <tr>
+        {% assign file_name = useCase.url | relative_url %}
+        <td><a href="{{ site.url }}{{ file_name | relative_url }}">{{ useCase.title }}</a></td>
+
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>

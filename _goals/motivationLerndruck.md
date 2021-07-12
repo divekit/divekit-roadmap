@@ -22,4 +22,4 @@ Druck durch Noten wird in einem eingeschränkten Maße gewünscht.
 
 ## Begründung
 
-Der Druck durch bspw. Noten sollen die allgemeine Motivati9on der Studierdenden fördern. Allerdings muss vermieden werden, dass sich dieser Druck negativ auf die Studierenden und ihre Leistungen ausübt. Hierbei versteht sich Druck als extrinsischer Faktor zur Förderung der intrinsischen Motivation.
+Der Druck durch bspw. Noten sollen die allgemeine Motivation der Studierdenden fördern. Allerdings muss vermieden werden, dass sich dieser Druck negativ auf die Studierenden und ihre Leistungen ausübt. Hierbei versteht sich Druck als extrinsischer Faktor zur Förderung der intrinsischen Motivation.

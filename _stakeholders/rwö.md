@@ -3,10 +3,9 @@ type: stakeholder
 acronym: rwö
 responsible: 
     - jlü
-    - ama
 name: Rene Wörzberger
 stakeholderRole: profInf
-relationshipToProject: 
+relationshipToProject: Potentieller Nutzer des DiveKits 
 history:
     v1:
         date: 2021-05-14
@@ -14,8 +13,11 @@ history:
     v2:
         date: 2021-06-17
         comment: filled with content
+    v3: 
+        date: 2021-07-07
+        comment: remove todo
 todo:
-    - ausformulieren
+
 ---
 # Person
 [TH Köln Person](https://www.th-koeln.de/personen/rene.woerzberger/)
