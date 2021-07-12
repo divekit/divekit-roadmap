@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: teilKorrektur
+acronym: autoTeilkorrektur
 responsible:
     - mba
 title: Die teil Korrektur von Aufgaben
@@ -12,6 +12,7 @@ history:
         date: 2021-06-18
         comment: initially created
 todo:
+    - Mergen mit Korrektur
 ---
 
 ## Beschreibung

@@ -1,11 +1,12 @@
 ---
 type: goal
-acronym: aufgabenerstellung
+acronym: entlastungKorrektur
 responsible: 
     - tza
-title: Das Erstellen von Aufgaben erleichtern
-source:
+title: Korrektur von Aufgaben erleichtern
+source: 
     - [interview, fkrampe, Minute 00:12:01]
+    - [interview, fkrampe, Minute 00:09:47]
 partOfLargerGoal: entlastung
 history:
     v1:
@@ -16,8 +17,8 @@ todo:
 
 ## Beschreibung
 
-Der Mitarbeiter möchte, dass das Erstellen von Aufgaben ihm erleichtert wird.
-Er möchte nicht 10 verschiedene Aufgaben definieren, sondern er wird einen Aufgabenkomplex erstellen und daraus 10 einzelne Aufgaben generieren. 
+Der Mitarbeiter möchte, das das Korrigieren von Aufgaben so gut wie es geht erleichtert wird.
+Er möchte, dass möglichst viele Aufgaben vollautomatisch geprüft werden.
 
 ## Begründung
 
