@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: onlineBeratungsleistung
+acronym: betreuungOnline
 responsible: 
     - kru
     - duz
@@ -8,7 +8,7 @@ responsible:
 title: Beratungsleistungen online anbieten
 source:
     - [interview, sbente, Minute 00:49:27]
-partOfLargerGoal:
+partOfLargerGoal: betreuung
 history:
     v1:
         date: 2021-07-03

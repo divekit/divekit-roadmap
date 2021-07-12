@@ -15,14 +15,13 @@ history:
         date: 2021-05-28
         comment: initially created
 todo: 
+    - Mergen mit der anderen betreuungQualitative.md
 ---
 
 ## Beschreibung
 
-Die Pakrikumsteilnehmer sollen Hilfestellung zu jedem Zeitpunkt während des Praktikums in Anspruch nehmen können. Die qualität der Betreuung
-ist dabei sehr wichtig.
+Die Pakrikumsteilnehmer sollen Hilfestellung zu jedem Zeitpunkt während des Praktikums in Anspruch nehmen können. Die qualität der Betreuung ist dabei sehr wichtig.
 
 ## Begründung
 
-Manche Studierende möchten oder/und brauchen Hilfestellung bei der Lösung der Aufgaben, die sie auch schließlich auf die Klausur
-vorbereiten sollen.
+Manche Studierende möchten oder/und brauchen Hilfestellung bei der Lösung der Aufgaben, die sie auch schließlich auf die Klausur vorbereiten sollen.

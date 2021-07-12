@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: hilfeBeiBearbeitung
+acronym: betreuungBearbeitung
 responsible:
     - mba
 title: Hilfe für Studenten bei Aufgaben Bearbeitung
@@ -12,6 +12,7 @@ history:
         date: 2021-06-18
         comment: initially created
 todo:
+    - Hinzufügen vom Hauptziel
 ---
 
 ## Beschreibung
