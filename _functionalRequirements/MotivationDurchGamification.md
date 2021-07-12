@@ -10,11 +10,18 @@ goals:
     - motivationIntrinsisch
 status: open
 prefilterPriorizationPoints: 2
+kano:
+    type: excitement
+    reasoning: >
+        Diese Anforderung ist als Begeisterungsmerkmal einzuordnen. Studierenden würde ein Fehlen nicht auffallen. Ein Vorhandensein könnte positiv aufgefasst werden.
 source:
 history:
     v1:
         date: 2021-07-03
         comment: initially created
+    v2:
+        date: 2021-07-12
+        comment: Knao-Klassifizierung vorgenommen
 todo: 
 ---
 

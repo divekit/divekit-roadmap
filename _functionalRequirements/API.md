@@ -4,7 +4,12 @@ acronym: API
 responsible:    
     - fgr
     - ngi
+    - mwi
+    - mba
     - jlü
+    - kru
+    - duz
+    - ako
 title: API zur Erweiterung
 goals: 
     - Weiterentwicklung
@@ -15,10 +20,11 @@ prefilterPriorizationPoints: 9
 kano:
     type: excitement
     reasoning: >
-        Hier kommt die Begründung für die Einordnung.
+    Die Schnittstelle zu anderen System ist als Begeisterungsmerkmal einzuordnen, da 
+    die Funktionalität nicht 
 source:
     - [Interview nnWMA]
-    - [Beobachtungstagebuch, KA1]
+    - [beobachtungstagebuch, KA1]
 history:
     v1:
         date: 2021-06-23
