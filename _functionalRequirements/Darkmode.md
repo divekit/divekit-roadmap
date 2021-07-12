@@ -13,7 +13,7 @@ prefilterPriorizationPoints: 2
 kano:
     type: excitement
     reasoning: >
-        Ein Darkmode ist nicht für die Funktionaliät des DiveKits relevant. Zudem würde ein Vorhandensein manche 
+        Das Anbieten eines Darkmodes ist nicht für die Funktionaliät des DiveKits relevant. Allerdings würde ein Vorhandensein manche 
         Nutzer sehr freuen, weshalb dies ein Begeisterungsmerkmal ist.
 history:
     v1:
