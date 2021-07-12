@@ -32,6 +32,9 @@ Dieses Ziel ist ein Oberziel von:
  * [Modernes Coding IDE](./modernesCodingIDE.md)
  * [Modernes Coding Projektmanagement](./modernesCodingProjektmanagement.md)
  * [Modernes Coding Versionierung](./modernesCodingVersionierung.md)
+ * [Modernes Coding Agilität](./modernesCodingAgilität.md)
+ * [Modernes Coding Formale Notation](./modernesCodingFormaleNotation.md)
+ * [Modernes Coding Programmierpraktiken](./modernesCodingPraktiken.md)
 
 ## Begründung
 

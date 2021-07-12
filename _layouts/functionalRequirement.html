@@ -12,6 +12,19 @@ layout: default
     <dt>Zahlt ein auf Ziel(e)</dt>
     <dd>(tbd.)</dd>
 
+    <dt>Implementierungs-Status</dt>
+    {% include /functions/implementation-status.html my_requirement=page %}
+    <dd>{{ implementationStatus }}</dd>
+
+    <dt>Kano-Typ</dt>
+    {% include /functions/kano-type.html my_requirement=page %}
+    <dd>{{ kanoType }} </dd>
+    <dt>Begründung für Kano-Typ</dt>
+    <dd>{{ kanoReasoning }}</dd>
+
+    <dt>Punkte aus Vorpriorisierung</dt>
+    <dd>{{ page.prefilterPriorizationPoints }}</dd>
+
     <dt>History</dt>
     {% for entry in page.history %}
         <dd>({{ entry[0]}}) &nbsp; {{ entry[1].date }} - {{ entry[1].comment }}</dd>
@@ -21,5 +34,6 @@ layout: default
     <dd>(tbd.)</dd>
 </dl>
 
+<h2>Anforderung (entsprechend Satzschablone)</h2>
 
 {{ page.content }}

@@ -17,7 +17,7 @@ history:
 
 ## Transkript des Interviews mit Marco Reitano 
 
-Interviewpartner: Marco Reitano\
+Interviewpartner: Marco Reitano
 Datum: 21.01.2021
 
 ## Inhalt

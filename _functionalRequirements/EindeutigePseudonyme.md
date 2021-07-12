@@ -2,8 +2,12 @@
 type: functionalRequirement
 acronym: EindeutigePseudonyme
 responsible: 
-    - jlü
     - mwi
+    - mba
+    - jlü
+    - kru
+    - duz
+    - ako
 title: Die manuelle Korrektur muss eindeutig zu zuordnen sein
 goals: 
     - eindeutigeZuordnungVonKorrigierenden
@@ -21,7 +25,14 @@ history:
     v3: 
         date: 2021-07-08
         comment: edited wording
+    v4:
+        date: 2021-07-12
+        comment: Added all responsible authors and reason
 todo: 
 ---
 
 Das DiveKit muss die Pseudonyme der manuell korrigierenden Personen eindeutig angeben können.
+
+## Begründung
+
+Damit die korrigierenden Personen nach der Korrektur bezüglich Rückfragen kontaktiert werden können, ist eine eindeutige Zuordnung gewünscht.

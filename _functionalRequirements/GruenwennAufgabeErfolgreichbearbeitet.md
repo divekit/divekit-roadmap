@@ -2,7 +2,12 @@
 type: functionalRequirement
 acronym: GruenwennAufgabeErfolgreichbearbeitet
 responsible: 
+    - mwi
+    - mba
     - jlü
+    - kru
+    - duz
+    - ako
 title: Erst Grün, wenn Aufgabe erfolgreich bearbeitet
 goals: 
     - Korrektur
@@ -21,6 +26,9 @@ history:
     v3: 
         date: 2021-07-12
         comment: Anmerkung hinzufügen
+    v4:
+        date: 2021-07-12
+        comment: Added all responsible authors
 todo:
 ---
 

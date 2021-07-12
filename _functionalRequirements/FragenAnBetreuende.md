@@ -2,7 +2,12 @@
 type: functionalRequirement
 acronym: FragenAnBetreuende
 responsible: 
+    - mwi
+    - mba
     - jlü
+    - kru
+    - duz
+    - ako
 title: Rückfragen an Betreuende
 goals: 
     - onlineBeratungsleistung
@@ -19,9 +24,10 @@ history:
     v2:
         date: 2021-07-10
         comment: Entfernung der Begründung
+    v3:
+        date: 2021-07-12
+        comment: Added all responsible authors
 todo: 
 ---
 
-
 Das DiveKit soll Studierenden die Möglichkeit bieten, ohne Medienbruch Fragen an betreuende Personen zu stellen.
-
