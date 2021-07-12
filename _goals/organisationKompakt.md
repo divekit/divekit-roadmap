@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: studKompakt
+acronym: organisationKompakt
 responsible: 
     - fkr
     - sbe
@@ -8,7 +8,7 @@ responsible:
 title: Studenten wollen das Fach kompakter halten
 source: 
     - [workshop, waltDisney]
-partOfLargerGoal:
+partOfLargerGoal: organisation
 history:
     v1:
         date: 2021-06-14
