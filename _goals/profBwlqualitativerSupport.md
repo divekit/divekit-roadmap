@@ -7,7 +7,7 @@ title: Qualitative Unterstützung bei Auswertung von Projektarbeiten
 source:
     - [interview, mengelen, Minute 00:23:21]
     - [interview, mengelen, Minute 00:27:00]
-partOfLargerGoal: 
+partOfLargerGoal: betreuung
 history:
     v1:
         date: 2021-06-17
