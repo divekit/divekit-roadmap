@@ -21,7 +21,10 @@ kano:
     type: excitement
     reasoning: >
     Die Schnittstelle zu anderen System ist als Begeisterungsmerkmal einzuordnen, da 
-    die Funktionalität nicht 
+    die Funktionalität nicht wirklich erwartet wird und somit den Nutzern im normalen Gebrauch nicht fehlt. 
+    Ist die Funktionalität allerdings vorhanden, lassen sich Workflows eventuell vereinfachen und die Nutzenden freuen sich 
+    darüber.
+    
 source:
     - [Interview nnWMA]
     - [beobachtungstagebuch, KA1]

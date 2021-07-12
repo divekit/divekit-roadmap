@@ -6,16 +6,7 @@ persona: pschmitz
 scenarioTypes: 
     - main
     - alternative
-    - exception
-    - positive
     - negative
-    - concrete
-    - abstract
-    - interaction
-    - system
-    - explanatory
-    - descriptive
-    - explorational 
 responsible: 
     - jlü
 source: 
@@ -29,7 +20,7 @@ todo:
     - Szenario typ definieren
 ---
 
-## Beschreibung
+
 
 ### Hauptszenario
 Das Semester neigt sich dem Ende zu und die Klausuren stehen an. Aufgrund von Online Klausuren befürchtet Paul, dass die
@@ -40,4 +31,14 @@ in eine Cloudlösung. Während der Klausur sollen die Studierenden einen Docker 
 
 ### Alternativszenario
 
-Paul möchte 
+Paul möchte, dass die Studierenden in den Übungen möglichst viel lernen. Allerdings hat er in der 
+Vergangenheit oft die Erfahrung gemacht, dass einige Studierende die Lösung abschreiben und so schlecht für die Klausuren 
+vorbereitet sind. Der Fokus der Aufgaben liegt dabei in der Erstellung eines Google Cloud Clusters. 
+
+
+### Negativszenario
+
+Während der Klausur bricht die Internetverbindung eines Studenten ab. Dieser ist nicht mehr in der Lage
+seine Lösungen einzureichen.
+
+
