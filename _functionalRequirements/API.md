@@ -15,7 +15,8 @@ prefilterPriorizationPoints: 9
 kano:
     type: excitement
     reasoning: >
-        Hier kommt die Begründung für die Einordnung.
+    Die Schnittstelle zu anderen System ist als Begeisterungsmerkmal einzuordnen, da 
+    die Funktionalität nicht 
 source:
     - [Interview nnWMA]
     - [Beobachtungstagebuch, KA1]
@@ -25,7 +26,10 @@ history:
         comment: initially created
     v2:
         date: 2021-07-11
-        comment: merged with duplicate      
+        comment: merged with duplicate     
+    v3: 
+        date: 2021-07-12
+        comment: Begründung Kano 
 ---
 
 Das DiveKit muss eine API zur Erweiterung des Divekit bereitstellen.
