@@ -7,7 +7,7 @@ responsible:
     - ako
 title: Betreuung von Studierenden
 source:
-    - [interview, ckohls, Minute 00:29:13]
+    - 
 partOfLargerGoal: 
 history:
     v1:
@@ -25,8 +25,6 @@ Dieses Ziel ist Oberziel von
 * [Hilfe bei Matheaufgaben?](./matheHilfe.md)
 * [Qualitative Betreuung](./profBwlqualitativerSupport.md)
 * [Quantitative Betreuung](./qualitativeBetreuung.md)
-* []()
-
 
 <!-- * [Aufeinander aufbauende Aufgaben](./profBwlfortlaufendeAufgaben.md)
 * [Interpetierbare Aufgaben](./profBwlinterpretierbareAufgaben.md) -->
