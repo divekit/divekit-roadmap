@@ -18,4 +18,4 @@ history:
 
 ## Erläuterung
 
-Zoom ist ähnlich wie Microsoft Teams eine Software, in welcher Meetings mit Video und Audio gehalten werden können.
+Slack ist ein Kommunikationssoftware, welches so ähnlich funktioniert wie Teams oder Discord.

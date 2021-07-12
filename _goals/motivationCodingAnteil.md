@@ -22,7 +22,7 @@ todo:
 
 ## Beschreibung
  
-Die Studierenden sollen durch einen höheren Anteil an Programmieraufgaben zum Programmieren animiert motiviert werden.
+Die Studierenden sollen durch einen höheren Anteil an Programmieraufgaben zum Programmieren motiviert werden.
 
 ## Begründung
 
