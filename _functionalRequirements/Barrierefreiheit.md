@@ -21,7 +21,7 @@ kano:
         Funktionen andere Software, welche meist mit Symbol und Text angezeigt werden.
 source:
     - Workshop 6-3-5-No.1
-    - beobachtungstagebuch
+    - Beobachtungstagebuch
 history:
     v1:
         date: 2021-07-06
@@ -32,6 +32,9 @@ history:
     v3:
         date: 2021-07-12
         comment: Added all responsible authors from beobachtungstagebuch
+    v4:
+        date: 2021-07-12
+        comment: edit Kano
 ---
 
 Das DiveKit muss es ermöglichen, dass auch Farbenblinde Ergebnisse erkennen können.
