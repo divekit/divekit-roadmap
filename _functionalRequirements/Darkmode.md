@@ -3,7 +3,8 @@ type: functionalRequirement
 acronym: Darkmode
 responsible: 
     - fgr
-title: Einführung eines Darkmode 
+    - ngi
+title: Anbieten eines Darkmode 
 goals: 
     -
 source:
@@ -13,7 +14,7 @@ prefilterPriorizationPoints: 2
 kano:
     type: excitement
     reasoning: >
-        Das Anbieten eines Darkmodes ist nicht für die Funktionaliät des DiveKits relevant. Allerdings würde ein Vorhandensein manche 
+        Das Anbieten eines Darkmodes ist nicht für die Funktionaliät des DiveKits relevant. Allerdings würde ein Vorhandensein viele 
         Nutzer sehr freuen, weshalb dies ein Begeisterungsmerkmal ist.
 history:
     v1:
@@ -23,12 +24,11 @@ history:
         date: 2021-07-12
         comment: added kano classification
 todo:
-    - Bitte präzisieren - für welche Stakeholder? Studierende? Tooling für Betreuende?
     - Ziel fehlt
 ---
 
-Das DiveKit soll einen Darkmode anbieten.
+Das DiveKit soll für seine graphische Oberflächen für alle Nutzer die Option eines Darkmodes anbieten.
 
 ## Begründung
 
-Mit dem Darkmode können die Augen der Nutzer geschont werden. Zudem ist ein Darkmode ein Feature, das von vielen großen Anwendungen unterstützt wird.
+Mit Hilfe eines Darkmodes können die Augen der Nutzer geschont werden. Er bietet daher sowohl ein schickes Design als auch einen praktischen Nutzen. Zudem ist ein Darkmode ein weitverbreitetes Feature, welches von vielen Anwendungen bereits unterstützt wird und daher von vielen Nutzern als selbstverständlich angesehen wird.
