@@ -27,14 +27,6 @@ layout: default
         <dd>{{ page.deadline }}</dd>
     {% endif %}
 
-    {% include /functions/find-decision-errors.html mydecision=page %}
-    {% if error_string.size > 0 %}
-        <dt><img src="{{ site.url }}{{ '/assets/error-4-24.png' | relative_url }}"/> &nbsp; Errors</dt>
-        {% assign error_list = error_string | split: ";" %}
-        {% for error in error_list %}
-            <dd>{{ error }}</dd>
-        {% endfor %}
-    {% endif %}
 -->
 
     {% if page.todos and page.todos.size > 0 %}

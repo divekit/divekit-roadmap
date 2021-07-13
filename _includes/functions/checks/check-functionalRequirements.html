@@ -1,0 +1,43 @@
+{% assign artefact = include.myArtefact %}
+{% assign errorList = "" | split: ";" %}
+{% assign warningList = "" | split: ";" %}
+
+<!--
+e
+Acronym fehlt
+kein Autor
+Titel fehlt
+keine goals
+unbekanntes Goal
+unbekannter Status
+keine Source
+unbekannte Source
+
+w
+Mehr als 3 Autoren?
+Status fehlt
+prefilterPriorizationPoints fehlt
+-->
+
+{% if artefact.type %}
+{% else %}
+	{% include /functions/define-message.html ignore=artefact.ignore msgno="fr-01" msg="Type fehlt!" %}
+	{% assign errorList = errorList | push: out_msg %}
+{% endif %}
+
+{% if artefact.acronym %}
+	{% assign thisAcronym = artefact.acronym %}
+	{% assign allAcronyms = site.functionalRequirements | where_exp:"fr", "fr.acronym == thisAcronym" %}
+	{% if allAcronyms.size > 1 %}
+		{% assign myMsg = "Acronym '" | append: thisAcronym |
+			append: "' existiert mehrfach! Acronyms müssen eindeutig sein (innerhalb eines Artefact-Typs)." %}
+		{% include /functions/define-message.html ignore=artefact.ignore msgno="fr-10" msg=myMsg %}
+		{% assign errorList = errorList | push: out_msg %}
+	{% endif %}
+{% else %}
+	{% include /functions/define-message.html ignore=artefact.ignore msgno="fr-11" msg="Acronym fehlt!" %}
+	{% assign errorList = errorList | push: out_msg %}
+{% endif %}
+
+{% assign errorString = errorList | join: ";" %}
+{% assign warningString = warninList | join: ";" %}
