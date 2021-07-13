@@ -5,7 +5,7 @@ responsible:
     - aha
 title: Altes Feedback zu Tests weiterhin bereitstellen
 source:
-    - [workshop, waltDisney]
+    - [workshop, waltDisney, 51]
 partOfLargerGoal: 
 history:
     v1:
@@ -14,6 +14,9 @@ history:
     v2:
         date: 2021-07-08
         comment: fix source
+    v3:
+        date: 2021-07-13
+        comment: improve source
 todo: 
     - Quelle an das Format [..., ..., ...] anpassen 
 ---
