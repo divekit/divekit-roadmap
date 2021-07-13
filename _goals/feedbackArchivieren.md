@@ -18,7 +18,6 @@ history:
         date: 2021-07-13
         comment: improve source
 todo: 
-    - Quelle an das Format [..., ..., ...] anpassen 
 ---
 
 ## Beschreibung
