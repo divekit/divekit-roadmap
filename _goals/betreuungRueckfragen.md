@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: betreungRueckfragen
+acronym: betreuungRueckfragen
 responsible:
     - aha
 title: Rückfragen zu Aufgaben
