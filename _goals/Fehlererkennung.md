@@ -1,18 +1,20 @@
 ---
 type: goal
-acronym: Fehlererkennung
+acronym: fehlerErkennung
 responsible: 
     - jlü
 title: Fehler erkennen
 source: 
     - [beobachtungstagebuch]
-partOfLargerGoal: 
+partOfLargerGoal: fehler
 history:
     v1:
         date: 2021-07-07
         comment: initially created
 
 todo: 
+    - Quelle an das Format [..., ..., ...] anpassen 
+    - Begründung fehlt, bitte hinzufügen   
 ---
 
 ## Beschreibung

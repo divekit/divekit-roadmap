@@ -3,6 +3,11 @@ type: functionalRequirement
 acronym: AllgemeinesFeedback
 responsible:
     - mwi
+    - mba
+    - jlü
+    - kru
+    - duz
+    - ako
 title: Allgemeines Feedback
 goals:
     - besseresVerständnis
@@ -16,15 +21,15 @@ source:
     - [beobachtungstagebuch, PC10]
 history:
     v1:
-      date: 2021-07-08
-      comment: initially created
+        date: 2021-07-08
+        comment: initially created
+    v2:
+        date: 2021-07-12
+        comment: Added all responsible authors, modified FA and reason regarding the todo
 todo:
-    - Bitte präzisieren - was sind "allgemeine Dinge" ?? Und was für Feedback wird für _bestandene_ Tests erwartet? 
-    - Ist das eine Anforderung oder zwei?
 ---
 
-Das System muss in der Lage sein dem Studierenden zu bestandenen Test und/oder zu allgemeinen Dingen Feedback zu geben. 
+Das System muss in der Lage sein dem Studierenden zu nicht bestandenen Tests und auch bestandenen Tests Feedback zu geben.
 
 ## Begründung
-
-Um dem Benutzer eine Rückmeldung zu geben, wie “gut” eine Lösung ist.
+Dem Benutzer soll auch eine Rückmeldung gegeben werden, wie “gut” eine Lösung ist. Es wird sich somit auch Feedback zu bestandene Tests gewünscht. Eine erarbeitete Lösung kann nämlich auch unschön sein und das ist nicht zielführend.

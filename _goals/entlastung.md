@@ -19,7 +19,7 @@ history:
         date: 2021-06-24
         comment: hinzunahme Aussagen interview
 todo:
-- Bitte das sub goal verlinken, siehe wmaSprache.md
+    - Bitte die Subgoals verlinken, siehe sprache.md
 ---
 
 ## Beschreibung

@@ -1,21 +1,21 @@
-{% assign raw_list = include.mydecision.responsible | split: ";" %}
-{% assign responsible_list = "" | split: ";" %}
+{% assign acronymList = include.my_responsible %}
+{% assign responsibleList = "" | split: ";" %}
 
-{% for person_raw in raw_list %}
-	{% assign acronym = person_raw | strip | upcase %}
+{% for person_raw in acronymList %}
+	{% assign acronym = person_raw | strip | downcase %}
 	{% if site.data.people[acronym] %}
 		{% if site.data.people[acronym].nickname %}
-			{% assign responsible_list = responsible_list | push: site.data.people[acronym].nickname %}
+			{% assign responsibleList = responsibleList | push: site.data.people[acronym].nickname %}
 		{% else %}
-			{% assign responsible_list = responsible_list | push: acronym %}
+			{% assign responsibleList = responsibleList | push: acronym %}
 		{% endif %}
 	{% endif %}
 {% endfor %}
 
-{% if responsible_list.size > 0 %}
-	{% assign responsible_string = responsible_list | array_to_sentence_string: "und" }} %}
+{% if responsibleList.size > 0 %}
+	{% assign responsibleString = responsibleList | array_to_sentence_string: "und" }} %}
 {% else %}
-	{% assign responsible_string = "???" %}
+	{% assign responsibleString = "???" %}
 {% endif %}
 
 

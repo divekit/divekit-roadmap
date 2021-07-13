@@ -3,7 +3,12 @@ type: functionalRequirement
 acronym: Barrierefreiheit
 responsible: 
     - jsp
+    - mwi
+    - mba
     - jlü
+    - kru
+    - duz
+    - ako
 title: Barrierefreiheit
 goals: 
     - barrierefreiheit
@@ -26,13 +31,14 @@ history:
         comment: merge duplikat
     v3:
         date: 2021-07-12
+        comment: Added all responsible authors from beobachtungstagebuch
+    v4:
+        date: 2021-07-12
         comment: edit Kano
 ---
 
-
-Das DiveKit muss es ermöglichen dass auch Farbenblinde Ergebnisse erkennen können.
+Das DiveKit muss es ermöglichen, dass auch Farbenblinde Ergebnisse erkennen können.
 
 ## Begründung
 
-DiveKit muss es ermöglichen, dass auch Personen, welche sonst nicht im Studium körperlich eingeschränkt sind,
-auch im DiveKit nicht eingeschränkt werden. Hierfür sollten beispielsweise Symbole statt Farben genutzt werden.
+Das DiveKit muss es ermöglichen, dass auch Personen, welche sonst nicht im Studium körperlich eingeschränkt sind, auch im DiveKit nicht eingeschränkt werden. Hierfür sollten beispielsweise Symbole statt Farben genutzt werden.

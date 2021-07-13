@@ -14,7 +14,7 @@ history:
         date: 2021-07-06
         comment: update Begründung
 todo:
-    - Quellformat anpassen
+    - Quelle an das Format [..., ..., ...] anpassen 
 ---
 
 ## Beschreibung

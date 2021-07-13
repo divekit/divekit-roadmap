@@ -3,6 +3,11 @@ type: functionalRequirement
 acronym: ZeitpunktKorrektur
 responsible:
     - mwi
+    - mba
+    - jlü
+    - kru
+    - duz
+    - ako
 title: Zeitpunkt Korrektur
 goals:
     - besseresZeitmanagement
@@ -14,11 +19,13 @@ history:
     v1:
         date: 2021-07-08
         comment: initially created
+    v2:
+        date: 2021-07-12
+        comment: Added all responsible authors and modified FA regarding todo, added reason
 todo:
-    - Bitte präzisieren. Ist gemeint, dass die Betreuer im System ankündigen können, wann sie die Lösung korrigieren _werden_? Oder ist gemeint, dass es eine Notification geben soll, wenn die Korrektur erfolgt ist? 
-    - wenn letzteres - dann ist das ein Duplikat, siehe benachrichtigungAbgeschlossenePruefung 
 ---
 
-Das System sollte dem User die Möglichkeit bieten einsehen zu können, wann die Aufgaben manuell korrigiert werden.
+Das DiveKit soll dem Betreuer die Möglichkeit bieten einen Zeitpunkt festzulegen, wann die Aufgaben korrigiert werden.
 
 ## Begründung
+Durch den festgelegten, einsehbaren Zeitpunkt der Korrektur ist eine bessere Planbarkeit möglich.
