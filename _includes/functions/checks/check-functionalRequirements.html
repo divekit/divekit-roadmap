@@ -3,9 +3,7 @@
 {% assign warningList = "" | split: ";" %}
 
 <!--
-e
-Acronym fehlt
-kein Autor
+
 Titel fehlt
 keine goals
 unbekanntes Goal
@@ -14,17 +12,19 @@ keine Source
 unbekannte Source
 
 w
-Mehr als 3 Autoren?
+
 Status fehlt
 prefilterPriorizationPoints fehlt
 -->
 
+{% comment %}---------- type -----------{% endcomment %}
 {% if artefact.type %}
 {% else %}
 	{% include /functions/define-message.html ignore=artefact.ignore msgno="fr-01" msg="Type fehlt!" %}
 	{% assign errorList = errorList | push: out_msg %}
 {% endif %}
 
+{% comment %}---------- acronym -----------{% endcomment %}
 {% if artefact.acronym %}
 	{% assign thisAcronym = artefact.acronym %}
 	{% assign allAcronyms = site.functionalRequirements | where_exp:"fr", "fr.acronym == thisAcronym" %}
@@ -39,5 +39,34 @@ prefilterPriorizationPoints fehlt
 	{% assign errorList = errorList | push: out_msg %}
 {% endif %}
 
+{% comment %}---------- responsible -----------{% endcomment %}
+{% if artefact.responsible %}
+	{% if artefact.responsible.size == 0 %}
+		{% include /functions/define-message.html ignore=artefact.ignore msgno="fr-21"
+				msg="Kein(e) Autor(en) (Feld 'responsible') angegeben!" %}
+		{% assign errorList = errorList | push: out_msg %}
+	{% else %}
+		{% if artefact.responsible.size > 3 %}
+			{% include /functions/define-message.html ignore=artefact.ignore msgno="fr-22"
+					msg="Mehr als 3 Autoren (Feld 'responsible') - ist das so gewünscht?" %}
+			{% assign warningList = warningList | push: out_msg %}
+		{% endif %}
+		{% for responsibleAcronym in artefact.responsible %}
+			{% if site.data.people[responsibleAcronym] %}
+			{% else %}
+				{% assign myMsg = "Autor*in '" | append: responsibleAcronym |
+												 append: "' in Feld 'responsible' exististiert nicht!" %}
+				{% include /functions/define-message.html ignore=artefact.ignore msgno="fr-23" msg=myMsg %}
+				{% assign errorList = errorList | push: out_msg %}
+			{% endif %}
+		{% endfor %}
+	{% endif %}
+{% else %}
+	{% include /functions/define-message.html ignore=artefact.ignore msgno="fr-21"
+			msg="Kein(e) Autor(en) (Feld 'responsible') angegeben!" %}
+	{% assign errorList = errorList | push: out_msg %}
+{% endif %}
+
+
 {% assign errorString = errorList | join: ";" %}
-{% assign warningString = warninList | join: ";" %}
+{% assign warningString = warningList | join: ";" %}
