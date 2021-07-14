@@ -8,20 +8,28 @@ responsible:
 title: Verbesserung des Feedbacks 
 goals: 
     - qualitativeBetreuung
-    -
+    - betreuungBearbeitung
+    - studVorbereiten
 status: open
 prefilterPriorizationPoints: 6
+kano:
+    type: excitement
+    reasoning: >
+        Diese Anforderung ist als Begeisterungsmerkmal einzuordnen, da bei einem Fehlen die Nutzer*innen die nötigen Informationen über das Bestehen der Abgabe und die Punktzahl         erhalten. Würde es aber implementiert sein, würde das viele Student * innen freuen, da sie sich zusätzlich zum Bestehen auch noch weiter Verbessern können und keine             knappen Abgaben mehr haben.
+
 source:
     - [sources/Ergebnisse_6-3-5-Methode-Workshop_Gruppe1.md]
     - [workshop, waltDisney]
 history:
     v1:
-        date: 2021-06-23
+        date: 2021-06-14
         comment: initially created
     v2:
         date: 2021-07-11
         comment: merged with FA musterloesung
-todo: Sind alle Goals referenziert? Pre-Merge haben bei der Version des Autors cpo die Goals gefehlt
+    v3:
+        date: 2021-07-14
+        comment: added the kano clissification and more goals
 ---
 
 Das DiveKit soll auch Vorschläge zur Verbesserung oder eine Musterlösung geben, auch wenn die Abgabe bestanden ist.
