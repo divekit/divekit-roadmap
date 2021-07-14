@@ -31,8 +31,8 @@ layout: default
         <dd>({{ entry[0]}}) &nbsp; {{ entry[1].date }} - {{ entry[1].comment }}</dd>
     {% endfor %}
 
-    <dt>Todos</dt>
-    <dd>(tbd.)</dd>
+    {% include /functions/checks/check-functionalRequirements.html myArtefact=page %}
+    {% include /functions/print-detailed-check-messages.html errors=errorString warnings=warningString todos=page.todo %}
 </dl>
 
 <h2>Anforderung (entsprechend Satzschablone)</h2>

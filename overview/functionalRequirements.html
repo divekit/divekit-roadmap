@@ -33,7 +33,7 @@ layout: default
         {% for functionalRequirement in functionalRequirements %}
         <tr>
             {% include /functions/checks/check-functionalRequirements.html myArtefact=functionalRequirement %}
-            {% include /functions/print-check-icon.html errors=errorString warnings=warningString todos=functionalRequirement.todo %}
+            {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=functionalRequirement.todo %}
             <td>{{ iconString }}</td>
             <td><a href="{{ site.url }}{{ functionalRequirement.url | relative_url }}">{{ functionalRequirement.title }}</a></td>
             <td>(tbd.)</td>
