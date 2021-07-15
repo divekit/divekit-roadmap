@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: profBwlqualitativerSupport
+acronym: betreuungQualitativ
 responsible: 
     - psc
 title: Qualitative Unterstützung bei Auswertung von Projektarbeiten

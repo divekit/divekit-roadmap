@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: studAutoSystem
+acronym: entlastungAutoSystem
 responsible: 
     - fkr
     - sbe

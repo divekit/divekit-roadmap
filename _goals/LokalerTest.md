@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: lokaleTest
+acronym: lokalerTest
 responsible: 
     - fgr
     - jlü

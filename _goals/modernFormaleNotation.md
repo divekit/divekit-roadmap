@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: modernNotation
+acronym: modernFormalNotation
 responsible: 
     - kru
     - duz

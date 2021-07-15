@@ -1,8 +1,8 @@
 ---
 type: goal
-acronym: eindeutigeZuordnungVonKorrigierenden
+acronym: zuordnungKorrigierenden
 responsible:
-    -jlü
+    - jlü
 title: Lokale Tests für Aufgaben der Studenten
 source:
     - Beobachtungstagebuch

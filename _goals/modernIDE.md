@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: modernesCodingIDE
+acronym: modernIDE
 responsible: 
     - kru
     - duz

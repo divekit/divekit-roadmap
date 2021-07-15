@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: Barrierefreiheit
+acronym: barrierefreiheit
 responsible:
     - jsp
 title: Barrierefreiheit

@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: modernesCodingVersionierung
+acronym: modernVersionierung
 responsible: 
     - kru
     - duz

@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: qualitativeBetreuung
+acronym: betreuungQualitative
 responsible: 
     - hbu
 title: Studenten sollten die Möglichkeit haben eine qualitativ hochwertigen Betreuung während des Praktikums in Anspruch zu nehmen

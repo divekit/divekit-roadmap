@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: userPreferencen
+acronym: nutzerPraeferenz
 responsible:
     - jsp
 title: Bereitstellung von User Preferencen
