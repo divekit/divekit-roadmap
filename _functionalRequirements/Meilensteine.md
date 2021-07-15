@@ -12,7 +12,7 @@ title: Das Divekit soll meilensteine anbieten, zwischen denen gewechselt werden 
 goals: 
     - Meilensteine
     -
-status: implemented
+implementationStatus: implemented
 prefilterPriorizationPoints: 1
 source:
     - [beobachtungstagebuch, FH1]

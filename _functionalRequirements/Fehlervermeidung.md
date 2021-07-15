@@ -11,7 +11,7 @@ responsible:
 title: Fehlervermeidung
 goals:
     - fehlervermeidung
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 0
 source:
     - [beobachtungstagebuch, PS6]

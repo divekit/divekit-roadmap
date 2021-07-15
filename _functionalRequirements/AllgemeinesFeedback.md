@@ -11,7 +11,7 @@ responsible:
 title: Allgemeines Feedback
 goals:
     - besseresVerständnis
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 4
 kano:
     type: excitement

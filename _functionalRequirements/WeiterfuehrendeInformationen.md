@@ -11,7 +11,7 @@ responsible:
 title: Weiterführende Informationen
 goals:
     - gezieltesLernen
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 7
 kano:
     type: excitement

@@ -11,7 +11,7 @@ responsible:
 title: Anzeigen von einfachen Informationen
 goals: 
     - relevanteInforamtionen
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 4
 kano:
     type: excitement

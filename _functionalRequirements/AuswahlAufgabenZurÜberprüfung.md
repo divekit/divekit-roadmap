@@ -8,7 +8,7 @@ goals:
     - studVorbereiten
     - studAutoSystem
     - studKompakt
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 1
 source:
     - [635 workshop gr 2, interaktion, 2. point]

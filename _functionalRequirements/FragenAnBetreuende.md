@@ -13,7 +13,7 @@ goals:
     - onlineBeratungsleistung
     - betreuung
     - Kommunikation
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 1
 source:
     - [beobachtungstagebuch, FH2]

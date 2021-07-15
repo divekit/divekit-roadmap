@@ -13,7 +13,7 @@ goals:
     - besseresVerständnis
 source:
     - [beobachtungstagebuch, PC11]
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 3
 kano:
     type: excitement

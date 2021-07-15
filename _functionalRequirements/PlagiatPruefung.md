@@ -7,7 +7,7 @@ title: Plagiatsprüfung
 goals: 
 source:
     - [workshop, waltDisney]
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 1
 history:
     v1:

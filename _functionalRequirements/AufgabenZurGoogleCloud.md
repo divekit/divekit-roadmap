@@ -10,7 +10,7 @@ goals:
     - korrekturVonAufg
 source:
     - [interview, nnProf3]
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 1
 history:
     v1:

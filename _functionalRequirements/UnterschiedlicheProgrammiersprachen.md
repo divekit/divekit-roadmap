@@ -7,7 +7,7 @@ title: Unterstützung mehrerer Programmiersprachen
 goals: 
     - individualAufg
     - KorrekturVonAufgaben
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 0
 source:
     - [interview, sbente]

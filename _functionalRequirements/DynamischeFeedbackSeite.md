@@ -8,7 +8,7 @@ goals:
     - studAutoSystem
     - studKompakt
     - entlastung
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 0
 source:
     - [sources/walt_disney_miro.pdf]

@@ -13,7 +13,7 @@ goals:
     - besseresVerständnisFürEigeneLeistung
 source:
     - [beobachtungstagebuch, PC7]
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 0
 history:
     v1:

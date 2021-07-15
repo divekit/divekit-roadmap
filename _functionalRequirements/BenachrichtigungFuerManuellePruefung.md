@@ -13,7 +13,7 @@ goals:
     - zeitnahePrüfungUndFeedback
 source:
     - [beobachtungstagebuch, PC8]
-status: inProgress
+implementationStatus: inProgress
 prefilterPriorizationPoints: 2
 history:
     v1:

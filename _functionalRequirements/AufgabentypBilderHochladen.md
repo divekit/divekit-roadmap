@@ -5,7 +5,7 @@ responsible:
     - ngi
 title: Aufgabentyp mit Bilder hochladen
 goals: VerschiedeneAufgabentypen
-status: implemented
+implementationStatus: implemented
 prefilterPriorizationPoints: 4
 source:
     - Interview nnWMA2

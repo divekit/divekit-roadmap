@@ -8,7 +8,7 @@ goals:
     - entlastung
     - gegenDasToolArbeiten (partial)
 source:
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 3
 history:
     v1:

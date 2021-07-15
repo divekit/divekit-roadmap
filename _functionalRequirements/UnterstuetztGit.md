@@ -8,7 +8,7 @@ responsible:
 title: Unterstützung von diagrammbasierten Aufgaben
 goals: 
     - modernesCodingVersionierung
-status: implemented
+implementationStatus: implemented
 prefilterPriorizationPoints: 0
 source:
 history:

@@ -13,7 +13,7 @@ goals:
     - verbesserteDarstellung
 source:
     - [beobachtungstagebuch, HS1]
-status: implemented
+implementationStatus: implemented
 prefilterPriorizationPoints: 0
 history:
     v1:

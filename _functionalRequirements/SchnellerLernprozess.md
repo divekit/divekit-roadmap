@@ -13,7 +13,7 @@ goals:
     - geringeEinarbeitungszeit
 source:
     - [beobachtungstagebuch , PC4]
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 6
 kano:
     type: basic

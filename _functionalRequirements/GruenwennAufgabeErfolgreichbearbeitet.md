@@ -12,7 +12,7 @@ title: Erst Grün, wenn Aufgabe erfolgreich bearbeitet
 goals: 
     - Korrektur
     - studAutoSystem
-status: implemented
+implementationStatus: implemented
 prefilterPriorizationPoints: 2
 source:
     - [beobachtungstagebuch, AN2]

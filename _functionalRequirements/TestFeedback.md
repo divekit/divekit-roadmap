@@ -11,7 +11,7 @@ responsible:
 title: Feedback zu Tests
 goals: 
     - fehlerAusgabe
-status: implemented
+implementationStatus: implemented
 prefilterPriorizationPoints: 2
 source:
     - [beobachtungstagebuch, PC2]

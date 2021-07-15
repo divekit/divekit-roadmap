@@ -8,7 +8,7 @@ goals:
     - aufgabenerstellung
     - entlastung
 source:
-status: implemented
+implementationStatus: implemented
 prefilterPriorizationPoints: 3
 history:
     v1:

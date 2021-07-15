@@ -6,7 +6,7 @@ responsible:
 title: Kommunikation zwischen den Anwendern
 goals: 
     - Kommunikation
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 4
 kano:
     type: excitement

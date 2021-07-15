@@ -10,7 +10,7 @@ goals:
 source:
     - [persona, cbeckert]
     - [scenario, cbeckert]
-status: implemented
+implementationStatus: implemented
 prefilterPriorizationPoints: 2
 history:
     v1:

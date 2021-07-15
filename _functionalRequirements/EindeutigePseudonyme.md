@@ -11,7 +11,7 @@ responsible:
 title: Die manuelle Korrektur muss eindeutig zu zuordnen sein
 goals: 
     - eindeutigeZuordnungVonKorrigierenden
-status: inProgress
+implementationStatus: inProgress
 prefilterPriorizationPoints: 1
 source:
     - [beobachtungstagebuch, PS2]

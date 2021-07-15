@@ -15,7 +15,7 @@ goals:
     - Weiterentwicklung
     - Medienbruch
     - Kommunikation
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 9
 kano:
     type: excitement

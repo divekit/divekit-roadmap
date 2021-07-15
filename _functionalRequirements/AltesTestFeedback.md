@@ -6,7 +6,7 @@ responsible:
 title: Altes Feedback zu alten Testergebnissen
 goals: 
     - altesFeedback
-status: inProgress
+implementationStatus: inProgress
 prefilterPriorizationPoints: 0
 source:
 - [workshop, waltDisney]

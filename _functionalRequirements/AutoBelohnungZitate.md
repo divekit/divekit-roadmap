@@ -8,7 +8,7 @@ goals:
     - ZitierenBeimAbschreiben
 source:
     - [Interview nnWMA2]
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 1
 history:
     v1:

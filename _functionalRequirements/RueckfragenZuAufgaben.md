@@ -7,7 +7,7 @@ title: Rückfragen zu Aufgaben
 goals: 
     - rueckfragen
     -
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 2
 source:
     - [workshop, waltDisney]

@@ -13,7 +13,7 @@ goals:
     - besseresZeitmanagement
 source:
     - [beobachtungstagebuch, RD3]
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 1
 history:
     v1:

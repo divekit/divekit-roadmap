@@ -11,7 +11,7 @@ responsible:
 title: Die abzugebende Lösung soll bereits lokal getestet werden können
 goals: 
     - lokalerTest
-status: implemented
+implementationStatus: implemented
 prefilterPriorizationPoints: 1
 source:
     - [beobachtungstagebuch, PS1]

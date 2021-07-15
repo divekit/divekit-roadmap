@@ -8,7 +8,7 @@ responsible:
 title: Untertützung von Gamification zur Motivation
 goals: 
     - motivationIntrinsisch
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 2
 kano:
     type: excitement

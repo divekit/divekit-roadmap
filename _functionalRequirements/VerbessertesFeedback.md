@@ -10,7 +10,7 @@ goals:
     - qualitativeBetreuung
     - betreuungBearbeitung
     - studVorbereiten
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 6
 kano:
     type: excitement

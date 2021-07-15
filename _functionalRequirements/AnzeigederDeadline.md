@@ -12,7 +12,7 @@ title: Anzeige der Deadline
 goals: 
     - relevanteInformationen
     -
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 8
 kano:
     type: excitement

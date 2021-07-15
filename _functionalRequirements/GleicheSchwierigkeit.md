@@ -10,7 +10,7 @@ goals:
 source:
     - [interview, nnProf3]
 prefilterPriorizationPoints: 3
-status: open
+implementationStatus: open
 history:
     v1:
         date: 2021-06-25

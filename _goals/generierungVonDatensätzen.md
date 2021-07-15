@@ -4,7 +4,7 @@ acronym: generierungVonDatensätzen
 responsible:
     - mba
 title: Das generieren von Datensätzen
-status: open
+implementationStatus: open
 source:
     - [interview, nnProf, Minute 00:04:22]
     - [interview, nnProf, Minute 00:07:30]

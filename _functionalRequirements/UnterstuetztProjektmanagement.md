@@ -8,7 +8,7 @@ responsible:
 title: Unterstützung von Projektmanagementsystemen
 goals: 
     - modernesCodingProjektmanagement
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 0
 source:
 history:

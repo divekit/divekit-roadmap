@@ -8,7 +8,7 @@ responsible:
 title: Unterstützung von modernen IDEs
 goals: 
     - modernesCodingIDE
-status: implemented
+implementationStatus: implemented
 prefilterPriorizationPoints: 7
 source:
 history:

@@ -10,7 +10,7 @@ goals:
     - entlastung
     - korrekturVonAufg
 source:
-status: implemented
+implementationStatus: implemented
 prefilterPriorizationPoints: 9
 history:
     v1:

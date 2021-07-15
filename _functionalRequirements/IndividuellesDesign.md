@@ -13,7 +13,7 @@ goals:
     - individualität
 source:
     - [beobachtungstagebuch, HS3]
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 0
 history:
     v1:

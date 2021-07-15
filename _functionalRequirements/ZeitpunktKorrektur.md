@@ -11,7 +11,7 @@ responsible:
 title: Zeitpunkt Korrektur
 goals:
     - besseresZeitmanagement
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 1
 source:
     - [beobachtungstagebuch, PS4]

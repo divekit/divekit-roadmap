@@ -13,7 +13,7 @@ goals:
     - austauschUnterStudierenden
 source:
     - [beobachtungstagebuch, RD1]
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 0
 history:
     v1:

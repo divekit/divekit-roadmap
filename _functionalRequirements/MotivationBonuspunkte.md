@@ -8,7 +8,7 @@ responsible:
 title: Untertützung von Bonuspunkten
 goals: 
     - motivationExtrinsisch
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 1
 source:
 history:

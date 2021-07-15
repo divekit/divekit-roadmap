@@ -8,7 +8,7 @@ goals:
     - gamification
     - levelsystem
     - Motivation
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 0
 source:
     - [ckohls]

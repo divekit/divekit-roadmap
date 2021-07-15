@@ -8,7 +8,7 @@ responsible:
 title: Unterstützung von Gruppenarbeit
 goals: 
     - gruppenarbeit
-status: open
+implementationStatus: open
 prefilterPriorizationPoints:
 source:
     - [interview, mreitano, Minute 00:19:50]

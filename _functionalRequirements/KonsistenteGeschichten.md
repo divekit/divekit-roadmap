@@ -11,7 +11,7 @@ goals:
 source:
     - [interview, sbente, Minute 00:31:38]
 prefilterPriorizationPoints:
-status: open
+implementationStatus: open
 history:
     v1:
         date: 2021-07-12

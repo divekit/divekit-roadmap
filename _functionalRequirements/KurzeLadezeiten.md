@@ -13,7 +13,7 @@ goals:
     - kurzeLadezeit
 source:
     - [beobachtungstagebuch , PC5]
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 0
 history:
     v1:

@@ -13,7 +13,7 @@ goals:
     - simplerAufbau
 source:
     - [beobachtungstagebuch , PC3]
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 1
 history:
     v1:

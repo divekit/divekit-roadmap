@@ -8,7 +8,7 @@ goals:
     - devops
     - individualAufg
     - korrekturVonAufg
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 1
 source:
     - [interview, nnProf3]

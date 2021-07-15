@@ -6,7 +6,7 @@ responsible:
 title: Medienbrüche entfernen
 goals: 
     - Medienbruch
-status: implemented
+implementationStatus: implemented
 prefilterPriorizationPoints: 0
 source:
     - Interview nnProf1

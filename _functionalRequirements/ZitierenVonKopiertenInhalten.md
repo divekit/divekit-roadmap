@@ -6,7 +6,7 @@ responsible:
 title: Zitieren von kopierten Inhalten
 goals: 
     - ZitierenBeimAbschreiben
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 0
 source:
     - [Interview nnWMA2]

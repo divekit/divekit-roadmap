@@ -8,7 +8,7 @@ responsible:
 title: Hohe Robustheit des Systems
 goals: 
     - robustheit
-status: open
+implementationStatus: open
 prefilterPriorizationPoints:
 source: 
     - [interview, jintveen, Minute 00:54:13]

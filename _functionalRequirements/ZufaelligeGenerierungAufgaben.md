@@ -7,7 +7,7 @@ title: Zufällige Generierung von Aufgaben
 goals: 
     - profBwlAufgabentypen
     - individualAufg
-status: implemented
+implementationStatus: implemented
 prefilterPriorizationPoints: 0
 source:
     - [persona, cbeckert]

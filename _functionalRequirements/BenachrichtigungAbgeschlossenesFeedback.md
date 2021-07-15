@@ -11,7 +11,7 @@ responsible:
 title: Benachrichtigung nach abgeschlossenem Feedback
 goals:
     - zeitnahesFeedback
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 0
 source:
     - [beobachtungstagebuch, PC9]

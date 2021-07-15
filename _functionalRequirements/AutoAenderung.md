@@ -11,7 +11,7 @@ responsible:
 title: Automatische Erkennung von Änderungen an Dateien
 goals: 
     - autoUpdate
-status: implemented
+implementationStatus: implemented
 prefilterPriorizationPoints: 2
 source:
     - [beobachtungstagebuch, PB1]

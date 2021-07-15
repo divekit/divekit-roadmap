@@ -8,7 +8,7 @@ goals:
     -
     -
 source:
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 
 kano:
     type: basic|performance|excitement

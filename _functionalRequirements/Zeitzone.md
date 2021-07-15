@@ -11,7 +11,7 @@ responsible:
 title: Zeitzone dem Nutzenden anpassen
 goals: 
     - wmaRobustheit
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 0
 source:
     - [beobachtungstagebuch, PS2]

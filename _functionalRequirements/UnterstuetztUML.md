@@ -9,7 +9,7 @@ title: Unterstützung von diagrammbasierten Aufgaben
 goals: 
     - umlAufgaben
     - modernesCodingFormaleNotation
-status: implemented
+implementationStatus: implemented
 prefilterPriorizationPoints: 0
 source:
 history:

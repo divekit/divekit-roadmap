@@ -13,7 +13,7 @@ goals:
     - korrekturVonAufg
     - fehlerAusgabe
     - autoUpdate
-status: implemented
+implementationStatus: implemented
 prefilterPriorizationPoints: 0
 source:
     - [beobachtungstagebuch, AV1]

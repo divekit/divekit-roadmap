@@ -7,7 +7,7 @@ title: Bereitstellung von User Preferencen
 goals: 
     - userPreferencen
     - barrierefreiheit
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 5
 kano:
     type: excitement

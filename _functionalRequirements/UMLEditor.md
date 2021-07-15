@@ -8,7 +8,7 @@ goals:
     - aufgabenerstellung
     - individualAufg
     - korrekturVonAufg
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 0
 source:
 history:

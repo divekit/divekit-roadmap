@@ -7,7 +7,7 @@ title: Richtlinien für die Programmieraufgaben definieren
 goals:
     - automatisieren
     - richtlinienDefinieren
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 0
 source:
     - [ckohls]

@@ -12,7 +12,7 @@ title: Letzte Aktualisierung des Codes
 goals: 
     - KorrekturVonAufg
     - relevanteInformationen
-status: implemented
+implementationStatus: implemented
 prefilterPriorizationPoints: 1
 source:
     - [beobachtungstagebuch, AN2]

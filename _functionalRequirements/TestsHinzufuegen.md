@@ -11,7 +11,7 @@ responsible:
 title: Tests hinzufügen
 goals:
     - simplerAufbau
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 0
 source:
     - [beobachtungstagebuch , PC6]

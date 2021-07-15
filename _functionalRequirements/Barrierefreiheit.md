@@ -12,7 +12,7 @@ responsible:
 title: Barrierefreiheit
 goals: 
     - barrierefreiheit
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 3
 kano:
     type: Basic

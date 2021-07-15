@@ -6,7 +6,7 @@ responsible:
 title: Aussagekräftige Fehlermeldungen
 goals: 
     - falscheKonfig
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 4
 source:
     - Workshop 6-3-5-No.2

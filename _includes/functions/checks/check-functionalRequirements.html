@@ -8,16 +8,17 @@
 
 {% comment %} ***** Error Numbers 200 - 299 reserved here! **** {% endcomment %}
 
-{% comment %}---------- status -----------{% endcomment %}
-{% if artefact.status %}
-	{% if artefact.status != "open" and artefact.status != "implemented" and artefact.status != "inProgress" %}
-		{% assign myMsg = "Undefinierten Status '" | append: artefact.status |
+{% comment %}---------- implementationStatus -----------{% endcomment %}
+{% if artefact.implementationStatus %}
+	{% if artefact.implementationStatus != "open" and artefact.implementationStatus != "implemented"
+			and artefact.implementationStatus != "inProgress" %}
+		{% assign myMsg = "Undefinierten Implementierungs-Status '" | append: artefact.implementationStatus |
 				append: "' gefunden! Erlaubt sind 'open', 'inProgress' und 'implemented'." %}
 		{% include /functions/define-message.html ignore=artefact.ignore msgno="e202" msg=myMsg %}
 		{% assign errorList = errorList | push: out_msg %}
 	{% endif %}
 {% else %}
-	{% include /functions/define-message.html ignore=artefact.ignore msgno="e201" msg="Status fehlt!" %}
+	{% include /functions/define-message.html ignore=artefact.ignore msgno="e201" msg="Implementierungs-Status fehlt!" %}
 	{% assign errorList = errorList | push: out_msg %}
 {% endif %}
 

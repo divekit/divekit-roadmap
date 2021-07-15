@@ -9,7 +9,7 @@ goals:
     -
 source:
     - [sources/Ergebnisse_6-3-5-Methode-Workshop_Gruppe1.md]
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 2
 kano:
     type: excitement

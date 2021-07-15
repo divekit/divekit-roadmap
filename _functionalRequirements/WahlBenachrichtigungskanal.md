@@ -5,7 +5,7 @@ responsible:
     - cpo
 title: Frei Wahl für Benachrichtigungskanal
 goals: 
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 0
 source:
     - [workshop, waltDisney]

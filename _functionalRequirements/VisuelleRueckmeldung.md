@@ -11,7 +11,7 @@ responsible:
 title: Visuelle Rückmeldung
 goals:
     - besseresVerständnis
-status: open
+implementationStatus: open
 prefilterPriorizationPoints: 0
 source:
     - [beobachtungstagebuch, HS2]
