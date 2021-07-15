@@ -18,7 +18,7 @@ prefilterPriorizationPoints: 6
 kano:
     type: basic
     reasoning: >
-        Hier kommt die Begründung für die Einordnung.
+        Eine Erfüllung dieser Anforderung steigert zwar nicht direkt die Zufriedenheit, sorgt jedoch bei Fehlen dafür, dass die Unzufriedenheit stark zunimmt. Ein schneller (Kennen)Lernprozess wird als Basisfaktor eingestuft, da eine einfache, unkomplizierte Vorstellung des Systems ausschlaggebend ist, um effizient und effektiv damit arbeiten zu können. Fehlt diese Anforderung, so wird die Unzufriedenheit stark zu nehmen, da man meist zu anfang nicht weiß, wie mit dem System umgegangen werden muss. Auch der weitere Lernprozess sollte möglichst einfach gestaltet sein, andernfalls könnte die Nutzung demotivierend werden.
 history:
     v1:
         date: 2021-07-07
