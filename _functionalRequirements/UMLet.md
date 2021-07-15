@@ -5,18 +5,20 @@ responsible:
     - tza
 title: UMLet Integration
 goals:
-    - aufgabenerstellung
-    - individualAufg
-    - korrekturVonAufg
-implementationStatus: open
+    - aufgabentypenUml
+    - entlastungKorrektur
+implementationStatus: implemented
 prefilterPriorizationPoints: 1
 source:
 history:
     v1:
         date: 2021-06-23
         comment: initially created
+    v2:
+        date: 2021-07-15
+        comment: implementationStatus geändert. Es existiert bereits eine integration mit UMLet
 todo:
-    - Bitte präzisieren - was genau heißt "mit einer UMLet extension zusammenarbeiten" ? Was wird über die jetzige Integration hinaus gebraucht? Jetzt kann man schon ein *.uxf ablegen, und es wird zu einer Graphik und kann im Markdown eingebunden werden. 
+
 ---
 
 Um UML-basierte Aufgaben zu bearbeiten, soll das System fähig sein mit einer UMLet extension zusammenzuarbeiten.
