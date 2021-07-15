@@ -10,7 +10,7 @@ responsible:
     - ako
 title: Letzte Aktualisierung des Codes
 goals: 
-    - KorrekturVonAufg
+    - entlastungKorrektur
     - relevanteInformationen
 implementationStatus: implemented
 prefilterPriorizationPoints: 1
@@ -23,6 +23,9 @@ history:
     v2:
         date: 2021-07-12
         comment: Added all responsible authors
+    v3:
+        date: 2021-07-15
+        comment: Fixed goales
 todo:
 ---
 

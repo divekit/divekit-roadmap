@@ -5,8 +5,8 @@ responsible:
     - hbu
 title: Die Feedback-Seite muss dynamisch und interaktiv sein
 goals: 
-    - studAutoSystem
-    - studKompakt
+    - entlastungAutoSystem
+    - organisationKompakt
     - entlastung
 implementationStatus: open
 prefilterPriorizationPoints: 0
@@ -16,6 +16,9 @@ history:
     v1:
         date: 2021-07-07
         comment: initially created
+    v2:
+        date: 2021-07-15
+        comment: Fixed goales
 todo: 
     - Bitte Satzschablone verwenden
     - bitte präzisieren - was genau heißt "dynamisch und interaktiv", welche Information sollte in dieser Form gezeigt werden?

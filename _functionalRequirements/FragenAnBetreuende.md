@@ -10,7 +10,7 @@ responsible:
     - ako
 title: Rückfragen an Betreuende
 goals: 
-    - onlineBeratungsleistung
+    - betreuungOnline
     - betreuung
     - Kommunikation
 implementationStatus: open
@@ -27,6 +27,9 @@ history:
     v3:
         date: 2021-07-12
         comment: Added all responsible authors
+    v4:
+        date: 2021-07-15
+        comment: Fixed goales
 todo: 
 ---
 

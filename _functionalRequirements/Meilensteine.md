@@ -10,7 +10,7 @@ responsible:
     - ako
 title: Das Divekit soll meilensteine anbieten, zwischen denen gewechselt werden kann
 goals: 
-    - Meilensteine
+    - organisationMeilensteine
     -
 implementationStatus: implemented
 prefilterPriorizationPoints: 1
@@ -26,6 +26,9 @@ history:
     v3:
         date: 2021-07-12
         comment: Added all responsible authors
+    v4:
+        date: 2021-07-15
+        comment: Fixed goales
 todo: 
 ---
 

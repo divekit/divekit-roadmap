@@ -10,7 +10,7 @@ responsible:
     - ako
 title: Die manuelle Korrektur muss eindeutig zu zuordnen sein
 goals: 
-    - eindeutigeZuordnungVonKorrigierenden
+    - zuordnungKorrigierenden
 implementationStatus: inProgress
 prefilterPriorizationPoints: 1
 source:
@@ -28,6 +28,9 @@ history:
     v4:
         date: 2021-07-12
         comment: Added all responsible authors and reason
+    v5:
+        date: 2021-07-15
+        comment: Fixed goales
 todo: 
 ---
 

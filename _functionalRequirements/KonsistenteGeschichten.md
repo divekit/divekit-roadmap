@@ -7,7 +7,7 @@ responsible:
     - kru
 title: Konsistente Geschichten und Aufgabentexte
 goals: 
-    - konsistenzGeschichte
+    - konsistenteGeschichte
 source:
     - [interview, sbente, Minute 00:31:38]
 prefilterPriorizationPoints:
@@ -16,6 +16,9 @@ history:
     v1:
         date: 2021-07-12
         comment: initially created
+    v2:
+        date: 2021-07-15
+        comment: Fixed goales
 todo: 
 ---
 

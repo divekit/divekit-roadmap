@@ -5,7 +5,7 @@ responsible:
     - hbu
 title: Origin Repo muss kopiert werden
 goals: 
-    - aufgabenerstellung
+    - entlastungAufgabenerstellung
     - entlastung
 source:
 implementationStatus: implemented
@@ -17,6 +17,9 @@ history:
     v2:
         date: 2021-06-18
         comment: added goals
+    v3:
+        date: 2021-07-15
+        comment: Fixed goales
 todo: 
 ---
 

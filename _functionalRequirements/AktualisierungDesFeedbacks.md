@@ -10,7 +10,7 @@ responsible:
     - ako
 title: Feedback automatisch aktualisieren
 goals: 
-    - korrekturVonAufg
+    - entlastungKorrektur
     - fehlerAusgabe
     - autoUpdate
 implementationStatus: implemented
@@ -27,6 +27,9 @@ history:
     v3:
         date: 2021-07-12
         comment: Added all responsible authors, added reason
+    v4:
+        date: 2021-07-15
+        comment: Fixed goales
 todo: 
 ---
 

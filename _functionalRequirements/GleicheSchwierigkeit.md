@@ -5,7 +5,7 @@ responsible:
     - jlü
 title: Individualisierte Aufgaben haben einen Vergleichbaren Schwierigkeitsgrad
 goals: 
-    - individualAufg
+    - aufgabentypenIndividual
     - gleicheSchwierigkeit
 source:
     - [interview, nnProf3]
@@ -18,6 +18,9 @@ history:
     v2:
         date: 2021-07-12
         comment: Ergänzung einer Begründung und 
+    v3:
+        date: 2021-07-15
+        comment: Fixed goales
 todo: 
 ---
 

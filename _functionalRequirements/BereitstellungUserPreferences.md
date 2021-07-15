@@ -5,7 +5,7 @@ responsible:
     - jsp
 title: Bereitstellung von User Preferencen
 goals: 
-    - userPreferencen
+    - nutzerPraeferenz
     - barrierefreiheit
 implementationStatus: open
 prefilterPriorizationPoints: 5
@@ -24,6 +24,9 @@ history:
     v2:
         date: 2021-07-13
         comment: added kano classification and reasoning
+    v3:
+        date: 2021-07-15
+        comment: Fixed goales
 todo: 
 ---
 

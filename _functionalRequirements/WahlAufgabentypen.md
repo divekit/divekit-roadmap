@@ -5,8 +5,8 @@ responsible:
     - psc
 title: Wahl aus verschiedenen Aufgabentypen
 goals: 
-    - profBwlAufgabentypen
-    - individualAufg
+    - aufgabentypen
+    - aufgabentypenIndividual
 source:
     - [persona, cbeckert]
     - [scenario, cbeckert]
@@ -22,6 +22,9 @@ history:
     v3:
         date: 2021-07-08
         comment: fix greater goal
+    v4:
+        date: 2021-07-15
+        comment: Fixed goales
 todo: 
 ---
 

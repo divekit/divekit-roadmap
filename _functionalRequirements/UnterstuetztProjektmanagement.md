@@ -7,7 +7,7 @@ responsible:
     - duz
 title: Unterstützung von Projektmanagementsystemen
 goals: 
-    - modernesCodingProjektmanagement
+    - modernPM
 implementationStatus: open
 prefilterPriorizationPoints: 0
 source:
@@ -15,6 +15,9 @@ history:
     v1:
         date: 2021-07-03
         comment: initially created
+    v2:
+        date: 2021-07-15
+        comment: Fixed goales
 todo: 
     - Relevanz klären
     - ... genau, vielleicht kann man das in der Begründung noch klären. Wofür soll das gut sein, und wie stellt man sich das vor?

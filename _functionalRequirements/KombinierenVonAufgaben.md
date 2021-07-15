@@ -5,8 +5,8 @@ responsible:
     - psc
 title: Kombinieren von Aufgaben
 goals: 
-    - profBwlAufgabentypen
-    - individualAufg
+    - aufgabentypen
+    - aufgabentypenIndividual
 source:
     - [persona, cbeckert]
     - [scenario, cbeckert]
@@ -16,6 +16,9 @@ history:
     v1:
         date: 2021-07-08
         comment: initially created
+    v2:
+        date: 2021-07-15
+        comment: Fixed goales
 todo: 
     - bitte präzieren. Was genau ist mit "Kombinieren" gemeint?
     - Personas sind keine Quellen (die haben Sie ja selbst geschrieben)

@@ -5,9 +5,9 @@ responsible:
     - jlü
 title: Aufgaben im Umgang mit Kubernetes
 goals: 
-    - devops
-    - individualAufg
-    - korrekturVonAufg
+    - aufgabentypenDevOps
+    - aufgabentypenIndividual
+    - entlastungKorrektur
 implementationStatus: open
 prefilterPriorizationPoints: 0
 source:
@@ -19,6 +19,9 @@ history:
     v2: 
         date: 2021-07-10
         comment: Entfernung der Begründung
+    v3:
+        date: 2021-07-15
+        comment: Fixed goales
 todo: 
 ---
 

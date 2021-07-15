@@ -7,7 +7,7 @@ title: Möglichkeit eine Aufgabe zu wiederholen
 goals:
     - gamification
     - levelsystem
-    - Motivation
+    - motivation
 implementationStatus: open
 prefilterPriorizationPoints: 0
 source:
@@ -16,6 +16,9 @@ history:
     v1:
         date: 2021-07-09
         comment: initially created
+    v2:
+        date: 2021-07-15
+        comment: Fixed goals
 todo:
     - Bitte präzisieren - was genau heißt das? Ein Repo kann beliebig oft gepusht werden, es gibt nur ein Zeitlimit. Das wird aber von den Betreuern gesetzt und nicht vom Tool. 
 ---

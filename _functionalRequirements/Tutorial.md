@@ -5,7 +5,7 @@ responsible:
     - jsp
 title: Tutorial für Umgebungseinstellungen
 goals: 
-    - falscheKonfig
+    - fehlerFalscheKonfig
 implementationStatus: open
 prefilterPriorizationPoints: 0
 source:
@@ -14,6 +14,9 @@ history:
     v1:
         date: 2021-07-08
         comment: initially created
+    v2:
+        date: 2021-07-15
+        comment: Fixed goales
 todo: 
     - Was genau heißt "Git rollback/compare nicht beachten)"?
     - IMHO ein eher sinnloses Requirement. Anweisung an die Studierenden bzgl. pom.xml ist GANZ einfach - "Finger weg" 

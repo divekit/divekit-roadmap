@@ -6,8 +6,8 @@ responsible:
 title: Auswahl der Aufgaben für Überprüfung
 goals:
     - studVorbereiten
-    - studAutoSystem
-    - studKompakt
+    - entlastungAutoSystem
+    - organisationKompakt
 implementationStatus: open
 prefilterPriorizationPoints: 1
 source:
@@ -16,6 +16,9 @@ history:
     v1:
         date: 2021-06-23
         comment: initially created
+    v2:
+        date: 2021-07-15
+        comment: Fixed goals
 todo:
     - Bitte Begründung klarer machen, ich verstehe das noch nicht. Was hat der Student davon, dass eine Aufgabe noch nicht kontrolliert wird, obwohl er/sie als fertig gepusht hat?
 ---

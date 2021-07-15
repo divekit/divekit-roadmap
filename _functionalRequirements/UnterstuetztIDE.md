@@ -7,7 +7,7 @@ responsible:
     - duz
 title: Unterstützung von modernen IDEs
 goals: 
-    - modernesCodingIDE
+    - modernIDE
 implementationStatus: implemented
 prefilterPriorizationPoints: 7
 source:
@@ -15,6 +15,9 @@ history:
     v1:
         date: 2021-07-03
         comment: initially created
+    v2:
+        date: 2021-07-15
+        comment: Fixed goales
 todo: 
 ---
 

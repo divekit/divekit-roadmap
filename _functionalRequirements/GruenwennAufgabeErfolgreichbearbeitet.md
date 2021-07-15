@@ -10,8 +10,8 @@ responsible:
     - ako
 title: Erst Grün, wenn Aufgabe erfolgreich bearbeitet
 goals: 
-    - Korrektur
-    - studAutoSystem
+    - entlastungKorrektur
+    - entlastungAutoSystem
 implementationStatus: implemented
 prefilterPriorizationPoints: 2
 source:
@@ -29,6 +29,9 @@ history:
     v4:
         date: 2021-07-12
         comment: Added all responsible authors
+    v5:
+        date: 2021-07-15
+        comment: Fixed goales
 todo:
 ---
 

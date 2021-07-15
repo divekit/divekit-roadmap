@@ -5,9 +5,9 @@ responsible:
     - jlü
 title: Aufgaben zu  der Arbeit mit Build Pipelines
 goals: 
-    - devops
-    - individualAufg
-    - korrekturVonAufg
+    - aufgabentypenDevOps
+    - aufgabentypenIndividual
+    - entlastungKorrektur
 implementationStatus: open
 prefilterPriorizationPoints: 1
 source:
@@ -19,6 +19,9 @@ history:
     v2:
         date: 2021-07-10
         comment: Entfernung der Begründung
+    v3:
+        date: 2021-07-15
+        comment: Fixed goales
 todo: 
 ---
 

@@ -7,7 +7,7 @@ responsible:
     - ngi
 title: Verbesserung des Feedbacks 
 goals: 
-    - qualitativeBetreuung
+    - betreuungQualitative
     - betreuungBearbeitung
     - studVorbereiten
 implementationStatus: open
@@ -30,6 +30,9 @@ history:
     v3:
         date: 2021-07-14
         comment: added the kano clissification and more goals
+    v4:
+        date: 2021-07-15
+        comment: Fixed goales
 ---
 
 Das DiveKit soll auch Vorschläge zur Verbesserung oder eine Musterlösung geben, auch wenn die Abgabe bestanden ist.

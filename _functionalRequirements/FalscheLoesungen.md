@@ -10,7 +10,7 @@ responsible:
     - ako
 title: Fehlermeldungen der Fehlgeschlagenen Tests
 goals: 
-    - Fehlererkennung
+    - fehlerErkennung
 implementationStatus: implemented
 prefilterPriorizationPoints: 1
 source:
@@ -25,6 +25,9 @@ history:
     v3:
         date: 2021-07-12
         comment: Added all responsible authors
+    v4:
+        date: 2021-07-15
+        comment: Fixed goales
 todo: 
 ---
 

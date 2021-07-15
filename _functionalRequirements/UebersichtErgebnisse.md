@@ -6,7 +6,7 @@ responsible:
 title: Übersicht über Meilensteinergebnisse
 goals:
     - entlastung
-    - korrekturVonAufg
+    - entlastungKorrektur
 source:
 implementationStatus: inProgress
 prefilterPriorizationPoints: 5
@@ -17,6 +17,9 @@ history:
     v2:
         date: 2021-06-23
         comment: added description
+    v3:
+        date: 2021-07-15
+        comment: Fixed goales
 todo:
     - Bitte ergänzen - wem? Übersicht mit was?
     - Sources fehlen

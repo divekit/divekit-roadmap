@@ -5,7 +5,7 @@ responsible:
     - jsp
 title: Aussagekräftige Fehlermeldungen
 goals: 
-    - falscheKonfig
+    - fehlerFalscheKonfig
 implementationStatus: open
 prefilterPriorizationPoints: 4
 source:
@@ -14,6 +14,9 @@ history:
     v1:
         date: 2021-07-08
         comment: initially created
+    v2:
+        date: 2021-07-15
+        comment: Fixed goales
 todo: 
 ---
 

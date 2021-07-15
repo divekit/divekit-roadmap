@@ -5,10 +5,10 @@ responsible:
     - hbu
 title: Aufgaben automatisiert überprüfen
 goals: 
-    - studAutoSystem
-    - studKompakt
+    - entlastungAutoSystem
+    - organisationKompakt
     - entlastung
-    - korrekturVonAufg
+    - entlastungKorrektur
 source:
 implementationStatus: implemented
 prefilterPriorizationPoints: 9
@@ -19,6 +19,9 @@ history:
     v2:
         date: 2021-06-18
         comment: added goals
+    v3:
+        date: 2021-07-15
+        comment: Fixed goales
 todo: 
 ---
 

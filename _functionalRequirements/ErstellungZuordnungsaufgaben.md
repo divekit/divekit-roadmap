@@ -5,8 +5,8 @@ responsible:
     - psc
 title: Zuordnungsaufgaben erstellen
 goals: 
-    - profBwlAufgabentypen
-    - individualAufg
+    - aufgabentypen
+    - aufgabentypenIndividual
 source:
 implementationStatus: open
 prefilterPriorizationPoints: 0
@@ -17,6 +17,9 @@ history:
     v2:
         date: 2021-07-12
         comment: added detailed explanation; removed wrong sources
+    v3:
+        date: 2021-07-15
+        comment: Fixed goales
 todo: 
 
 ---

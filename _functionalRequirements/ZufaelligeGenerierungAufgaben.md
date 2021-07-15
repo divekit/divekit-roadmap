@@ -5,8 +5,8 @@ responsible:
     - psc
 title: Zufällige Generierung von Aufgaben
 goals: 
-    - profBwlAufgabentypen
-    - individualAufg
+    - aufgabentypen
+    - aufgabentypenIndividual
 implementationStatus: implemented
 prefilterPriorizationPoints: 0
 source:
@@ -16,6 +16,9 @@ history:
     v1:
         date: 2021-07-08
         comment: initially created
+    v2:
+        date: 2021-07-15
+        comment: Fixed goales
 todo: 
 ---
 

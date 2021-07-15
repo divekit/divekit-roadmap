@@ -10,7 +10,7 @@ responsible:
     - ako
 title: Zeitzone dem Nutzenden anpassen
 goals: 
-    - wmaRobustheit
+    - robustheit
 implementationStatus: open
 prefilterPriorizationPoints: 0
 source:
@@ -28,6 +28,9 @@ history:
     v4:
         date: 2021-07-12
         comment: Added all responsible authors
+    v5:
+        date: 2021-07-15
+        comment: Fixed goales
 todo: 
 ---
 
