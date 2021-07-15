@@ -16,7 +16,7 @@ prefilterPriorizationPoints: 7
 kano:
     type: excitement
     reasoning: >
-        Hier kommt die Begründung für die Einordnung.
+        Das Anzeigen von weiterführenden Informationen ist ein Begeisterungsmerkmal, da dieses für die grundlegende Funktionalität nicht erforderlich ist. Jedoch würde eine Bündlung der Informationen für die Nutzer von Vorteil sein und mit großer Wahrscheinlichkeit erfreuen.
 source:
     - [beobachtungstagebuch, RD2]
 history:
