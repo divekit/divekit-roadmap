@@ -6,10 +6,6 @@ responsible:
     - psc
 title: Entlastung bei der Arbeit
 source: 
-    - [interview, fkrampe, Minute 00:05:05]
-    - [interview, fkrampe, Minute 00:11:42]
-    - [interview, fkrampe, Minute 00:15:22]
-    - [interview, mengelen, Minute 00:14:46]
 partOfLargerGoal:
 history:
     v1:
