@@ -8,7 +8,7 @@ responsible:
     - kru
 mentionnedInSource: 
     - [Interview, nnProf3]
-    - [interview, sbente, Minute 00:00:16]
+    - [interview, sbente, Minute 00-00-16]
 history:
     v1:
         date: 2021-06-03
