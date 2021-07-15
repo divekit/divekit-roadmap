@@ -5,8 +5,7 @@ responsible:
     - aha
 title: Rückfragen zu Aufgaben
 goals: 
-    - rueckfragen
-    -
+    - betreuungRueckfragen
 implementationStatus: open
 prefilterPriorizationPoints: 2
 source:
@@ -15,6 +14,9 @@ history:
     v1:
         date: 2021-07-08
         comment: initially created
+    v2:
+        date: 2021-07-15
+        comment: fix goals
 ---
 
 Das DiveKit soll Studierenden die Möglichkeit bieten, direkt Rückfragen zu Aufgaben zu stellen.
