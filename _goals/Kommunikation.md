@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: Kommunikation
+acronym: kommunikation
 responsible:
     - jsp
     - kru
@@ -8,6 +8,7 @@ title: Kommunikation zwischen den Anwendern
 source:
     - Interview nnProf1
     - [interview, nnWMA4, Minute 00:38:26]
+partOfLargerGoal: 
 history:
     v1:
         date: 2021-06-25
@@ -18,6 +19,7 @@ history:
     v3:
         date: 2021-07-06
         comment: Updated todo
+
 todo:
     - Quellformat anpassen
     - Bitte anfängliche Begründung ("Sammelpunkt in einem System.") in einem ganzen Satz ausformulieren

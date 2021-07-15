@@ -13,6 +13,7 @@ history:
     v1:
         date: 2021-07-08
         comment: initially created
+
 todo: 
     - Bitte Subgoales verlinken siehe sprachen.md
     - Außerdem wäre das Subziel individualAufg.md, umlAufgaben.md auch ein Subziele oder? 

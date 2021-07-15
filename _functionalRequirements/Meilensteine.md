@@ -11,7 +11,6 @@ responsible:
 title: Das Divekit soll meilensteine anbieten, zwischen denen gewechselt werden kann
 goals: 
     - organisationMeilensteine
-    -
 implementationStatus: implemented
 prefilterPriorizationPoints: 1
 source:

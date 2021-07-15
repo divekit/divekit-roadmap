@@ -14,7 +14,7 @@ title: API zur Erweiterung
 goals: 
     - Weiterentwicklung
     - Medienbruch
-    - Kommunikation
+    - kommunikation
 implementationStatus: open
 prefilterPriorizationPoints: 9
 kano:

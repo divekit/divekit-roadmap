@@ -13,6 +13,7 @@ history:
     v1:
         date: 2021-06-18
         comment: initially created
+
 todo:
     - Bitte präzisieren - welche Art von Aufgabe ist gemeint (hier wohl eher Mathematik / Data Analytics Aufgaben)
     - Bitte konsequent als Satzschablone formulieren. Das scheinen mir mehrere Anforderungen auf einmal sein.

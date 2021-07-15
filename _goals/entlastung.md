@@ -18,6 +18,7 @@ history:
     v2:
         date: 2021-06-24
         comment: hinzunahme Aussagen interview
+
 todo:
     - Bitte die Subgoals verlinken, siehe sprache.md
 ---

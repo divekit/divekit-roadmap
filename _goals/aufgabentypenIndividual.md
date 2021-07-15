@@ -19,6 +19,7 @@ history:
     v2:
         date: 2021-05-28
         comment: added source, Beschreibung and Begründung
+
 todo: 
     - source-Format muss noch technisch geklärt werden (aber das lässt sich später leicht ändern)
     - Abhängigkeiten zwischen Zielen - erfassen? in welcher Richtung? (also )

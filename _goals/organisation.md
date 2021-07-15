@@ -16,6 +16,7 @@ history:
     v2:
         date: 2021-07-15
         comment: added subgoales
+
 todo: 
     - Beschreibung / Begründung hinzufügen
 ---
