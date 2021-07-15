@@ -13,7 +13,9 @@ history:
     v1:
         date: 2021-06-18
         comment: initially created
-
+    v1:
+        date: 2021-07-16
+        comment: todos done
 todo:
     - Bitte präzisieren - welche Art von Aufgabe ist gemeint (hier wohl eher Mathematik / Data Analytics Aufgaben)
     - Bitte konsequent als Satzschablone formulieren. Das scheinen mir mehrere Anforderungen auf einmal sein.
@@ -21,10 +23,8 @@ todo:
 ---
 
 ##Beschreibung
-Man soll in der Lage sich vom Tool Datensätze für Datenanalysen generieren zu lassen. Zu jenem generiertem Datensatz
-soll ebenfalls eine Musterlösung mit generiert werden. Der Student soll somit die Möglichkeit haben mit dem Tool
-zusammen an die Lösung herangetragen zu werden.
+Für das Modul Statistik, soll das Tool in der Lage sein Datensätze für Datenanalysen die mit Python durchgeführt werden generieren zu lassen.
 
 
 ##Begründung
-Entlastung des Dozenten und kontinuierliches für die Studenten während sie an der Datenanalyse arbeiten. 
+Entlastung des Dozenten. 
