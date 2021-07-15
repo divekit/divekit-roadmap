@@ -1,73 +1,52 @@
 {% assign artefact = include.myArtefact %}
-{% assign errorList = "" | split: ";" %}
-{% assign warningList = "" | split: ";" %}
+{% assign errorString = include.myErrorString %}
+{% assign warningString = include.myWarningString %}
 
-<!--
-
-Titel fehlt
-keine goals
-unbekanntes Goal
-unbekannter Status
-keine Source
-unbekannte Source
-
-w
-
-Status fehlt
-prefilterPriorizationPoints fehlt
--->
-{% comment %} ***** Error Numbers 000 - 030 reserved here! **** {% endcomment %}
+{% assign errorList = errorString | split: ";" %}
+{% assign warningList = warningString | split: ";" %}
 
 
-{% comment %}---------- type -----------{% endcomment %}
-{% if artefact.type %}
-{% else %}
-	{% include /functions/define-message.html ignore=artefact.ignore msgno="e001" msg="Type fehlt!" %}
-	{% assign errorList = errorList | push: out_msg %}
-{% endif %}
+{% comment %} ***** Error Numbers 200 - 299 reserved here! **** {% endcomment %}
 
-{% comment %}---------- acronym -----------{% endcomment %}
-{% if artefact.acronym %}
-	{% assign thisAcronym = artefact.acronym %}
-	{% assign allAcronyms = site.functionalRequirements | where_exp:"fr", "fr.acronym == thisAcronym" %}
-	{% if allAcronyms.size > 1 %}
-		{% assign myMsg = "Acronym '" | append: thisAcronym |
-			append: "' existiert mehrfach! Acronyms müssen eindeutig sein (innerhalb eines Artefact-Typs)." %}
-		{% include /functions/define-message.html ignore=artefact.ignore msgno="e010" msg=myMsg %}
+{% comment %}---------- status -----------{% endcomment %}
+{% if artefact.status %}
+	{% if artefact.status != "open" and artefact.status != "implemented" and artefact.status != "inProgress" %}
+		{% assign myMsg = "Undefinierten Status '" | append: artefact.status |
+				append: "' gefunden! Erlaubt sind 'open', 'inProgress' und 'implemented'." %}
+		{% include /functions/define-message.html ignore=artefact.ignore msgno="e202" msg=myMsg %}
 		{% assign errorList = errorList | push: out_msg %}
 	{% endif %}
 {% else %}
-	{% include /functions/define-message.html ignore=artefact.ignore msgno="e011" msg="Acronym fehlt!" %}
+	{% include /functions/define-message.html ignore=artefact.ignore msgno="e201" msg="Status fehlt!" %}
 	{% assign errorList = errorList | push: out_msg %}
 {% endif %}
 
-{% comment %}---------- responsible -----------{% endcomment %}
-{% if artefact.responsible %}
-	{% if artefact.responsible.size == 0 %}
-		{% include /functions/define-message.html ignore=artefact.ignore msgno="e021"
-				msg="Kein(e) Autor(en) (Feld 'responsible') angegeben!" %}
-		{% assign errorList = errorList | push: out_msg %}
+{% comment %}---------- kano -----------{% endcomment %}
+{% if artefact.kano %}
+	{% if artefact.kano.type %}
+		{% if artefact.kano.type != "basic" and artefact.kano.type != "performance" and artefact.kano.type != "excitement" %}
+			{% assign myMsg = "Undefinierten Kano-Faktor '" | append: artefact.kano.type |
+							append: "' gefunden! Erlaubt sind 'basic', 'performance' und 'excitement'." %}
+			{% include /functions/define-message.html ignore=artefact.ignore msgno="e210" msg=myMsg %}
+			{% assign errorList = errorList | push: out_msg %}
+		{% endif %}
 	{% else %}
-		{% if artefact.responsible.size > 3 %}
-			{% include /functions/define-message.html ignore=artefact.ignore msgno="w022"
-					msg="Mehr als 3 Autoren (Feld 'responsible') - ist das so gewünscht?" %}
+		{% include /functions/define-message.html ignore=artefact.ignore msgno="e211" msg="Typ des Kano-Faktors fehlt!" %}
+		{% assign errorList = errorList | push: out_msg %}
+	{% endif %}
+	{% if artefact.kano.reasoning %}
+		{% if artefact.kano.reasoning.size < 10 %}
+			{% assign myMsg = "Begründung für Kano-Faktor scheint zu kurz zu sein." %}
+			{% include /functions/define-message.html ignore=artefact.ignore msgno="w212" msg=myMsg %}
 			{% assign warningList = warningList | push: out_msg %}
 		{% endif %}
-		{% for responsibleAcronym in artefact.responsible %}
-			{% if site.data.people[responsibleAcronym] %}
-			{% else %}
-				{% assign myMsg = "Autor*in '" | append: responsibleAcronym |
-												 append: "' in Feld 'responsible' exististiert nicht!" %}
-				{% include /functions/define-message.html ignore=artefact.ignore msgno="e023" msg=myMsg %}
-				{% assign errorList = errorList | push: out_msg %}
-			{% endif %}
-		{% endfor %}
+	{% else %}
+		{% include /functions/define-message.html ignore=artefact.ignore msgno="e211" msg="Begründung des Kano-Faktors fehlt!" %}
+		{% assign errorList = errorList | push: out_msg %}
 	{% endif %}
-{% else %}
-	{% include /functions/define-message.html ignore=artefact.ignore msgno="e021"
-			msg="Kein(e) Autor(en) (Feld 'responsible') angegeben!" %}
-	{% assign errorList = errorList | push: out_msg %}
 {% endif %}
+
+{% comment %}---------- prefilterPriorizationPoints -----------{% endcomment %}
 
 
 {% assign errorString = errorList | join: ";" %}

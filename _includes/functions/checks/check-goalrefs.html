@@ -1,0 +1,25 @@
+{% assign artefact = include.myArtefact %}
+{% assign errorString = include.myErrorString %}
+{% assign warningString = include.myWarningString %}
+
+{% assign errorList = errorString | split: ";" %}
+{% assign warningList = warningString | split: ";" %}
+
+
+{% comment %} ***** Error/Warning Numbers 100 - 120 reserved here! **** {% endcomment %}
+
+{% comment %}---------- goals -----------{% endcomment %}
+{% if artefact.goals %}
+	{% if artefact.goals.size == 0 %}
+		{% include /functions/define-message.html ignore=artefact.ignore msgno="e100"
+				msg="Es muss mindestens eine Ziel-Referenz angegeben werden!" %}
+		{% assign errorList = errorList | push: out_msg %}
+	{% endif %}
+{% else %}
+	{% include /functions/define-message.html ignore=artefact.ignore msgno="e100"
+			msg="Es muss mindestens eine Ziel-Referenz (Feld 'goals') angegeben werden!" %}
+	{% assign errorList = errorList | push: out_msg %}
+{% endif %}
+
+{% assign errorString = errorList | join: ";" %}
+{% assign warningString = warningList | join: ";" %}

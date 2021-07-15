@@ -31,7 +31,9 @@ layout: default
         <dd>({{ entry[0]}}) &nbsp; {{ entry[1].date }} - {{ entry[1].comment }}</dd>
     {% endfor %}
 
-    {% include /functions/checks/check-generic-aspects.html myArtefact=page %}
+    {% include /functions/checks/check-generic-aspects.html myArtefact=page myErrorString="" myWarningString="" %}
+    {% include /functions/checks/check-goalrefs.html myArtefact=page myErrorString=errorString myWarningString=warningString %}
+    {% include /functions/checks/check-functionalRequirements.html myArtefact=page myErrorString=errorString myWarningString=warningString %}
     {% include /functions/print-detailed-check-messages.html errors=errorString warnings=warningString todos=page.todo %}
 </dl>
 

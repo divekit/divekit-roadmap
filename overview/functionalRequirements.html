@@ -32,7 +32,12 @@ layout: default
         {% assign functionalRequirements = site.functionalRequirements | sort: "prefilterPriorizationPoints" | reverse %}
         {% for functionalRequirement in functionalRequirements %}
         <tr>
-            {% include /functions/checks/check-generic-aspects.html myArtefact=functionalRequirement %}
+            {% include /functions/checks/check-generic-aspects.html myArtefact=functionalRequirement
+                        myErrorString="" myWarningString="" %}
+            {% include /functions/checks/check-goalrefs.html myArtefact=functionalRequirement
+                        myErrorString=errorString myWarningString=warningString %}
+            {% include /functions/checks/check-functionalRequirements.html myArtefact=functionalRequirement
+                        myErrorString=errorString myWarningString=warningString %}
             {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=functionalRequirement.todo %}
             <td>{{ iconString }}</td>
             <td><a href="{{ site.url }}{{ functionalRequirement.url | relative_url }}">{{ functionalRequirement.title }}</a></td>

@@ -1,23 +1,12 @@
 {% assign artefact = include.myArtefact %}
-{% assign errorList = "" | split: ";" %}
-{% assign warningList = "" | split: ";" %}
+{% assign errorString = include.myErrorString %}
+{% assign warningString = include.myWarningString %}
 
-<!--
+{% assign errorList = errorString | split: ";" %}
+{% assign warningList = warningString | split: ";" %}
 
-Titel fehlt
-keine goals
-unbekanntes Goal
-unbekannter Status
-keine Source
-unbekannte Source
 
-w
-
-Status fehlt
-prefilterPriorizationPoints fehlt
--->
-{% comment %} ***** Error/Warning Numbers 000 - 030 reserved here! **** {% endcomment %}
-
+{% comment %} ***** Error/Warning Numbers 000 - 099 reserved here! **** {% endcomment %}
 
 {% comment %}---------- type -----------{% endcomment %}
 {% if artefact.type %}
@@ -68,6 +57,9 @@ prefilterPriorizationPoints fehlt
 			msg="Kein(e) Autor(en) (Feld 'responsible') angegeben!" %}
 	{% assign errorList = errorList | push: out_msg %}
 {% endif %}
+
+{% comment %}---------- source -----------{% endcomment %}
+
 
 
 {% assign errorString = errorList | join: ";" %}
