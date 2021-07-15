@@ -34,6 +34,9 @@ history:
     v3:
         date: 2021-07-12
         comment: Added all responsible authors
+    v4:
+        date: 2021-07-15
+        comment: Added kano reasoning
 todo: 
 ---
 
