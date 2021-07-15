@@ -22,9 +22,8 @@ layout: default
     <tbody>
     {% for stakeholderRole in site.stakeholderRoles %}
     <tr>
-        {% assign file_name = stakeholderRole.url | relative_url %}
         <td>{{ stakeholderRole.acronym }}</td>
-        <td><a href="{{ site.url }}{{ file_name | relative_url }}">{{ stakeholderRole.name }}</a></td>
+        <td><a href="{{ site.url }}{{ stakeholderRole.url | relative_url }}">{{ stakeholderRole.name }}</a></td>
         <td>{{ stakeholderRole.description }}</td>
     </tr>
     {% endfor %}

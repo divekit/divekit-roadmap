@@ -21,10 +21,8 @@ layout: default
     <tbody>
     {% for context in site.systemContextElements %}
     <tr>
-        {% assign file_name = context.url | relative_url %}
-        <td><a href="{{ site.url }}{{ file_name | relative_url }}">{{ context.acronym }}</td>
+        <td><a href="{{ site.url }}{{ context.url | relative_url }}">{{ context.acronym }}</td>
         <td>{{ context.type }}</a></td>
-
     </tr>
     {% endfor %}
     </tbody>

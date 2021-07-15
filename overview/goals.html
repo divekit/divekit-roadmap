@@ -22,10 +22,7 @@ layout: default
     <tbody>
         {% for goal in site.goals %}
         <tr>
-            {% assign file_name = goal.url | relative_url %}
-
-            <td><a href="{{ site.url }}{{ file_name | relative_url }}">{{ goal.title }}</a></td>
-
+            <td><a href="{{ site.url }}{{ goal.url | relative_url }}">{{ goal.title }}</a></td>
         </tr>
         {% endfor %}
     </tbody>

@@ -21,9 +21,8 @@ layout: default
     <tbody>
         {% for reference in site.literatureReferences %}
         <tr>
-            {% assign file_name = reference.url | relative_url %}
             <td>{{ reference.acronym }}</td>
-            <td><a href="{{ site.url }}{{ file_name | relative_url }}">{{ reference.title }}</a></td>
+            <td><a href="{{ site.url }}{{ reference.url | relative_url }}">{{ reference.title }}</a></td>
             <td>{{ reference.author }}</td>
         </tr>
         {% endfor %}

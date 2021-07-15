@@ -22,9 +22,7 @@ layout: default
     <tbody>
         {% for survey in site.surveys %}
         <tr>
-            {% assign file_name = survey.url | relative_url %}
-
-            <td><a href="{{ site.url }}{{ file_name | relative_url }}">{{ survey.subject }}</a></td>
+            <td><a href="{{ site.url }}{{ survey.url | relative_url }}">{{ survey.subject }}</a></td>
             <td>{% include /functions/print-link-to-role.html myRoleAcronym=survey.stakeholder_role %}</td>
         </tr>
         {% endfor %}
