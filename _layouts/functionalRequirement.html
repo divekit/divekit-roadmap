@@ -11,10 +11,10 @@ layout: default
     <dd>{{ responsibleString }}</dd>
 
     <dt>Zahlt ein auf Ziel(e)</dt>
-    <dd>(tbd.)</dd>
+    {% include /functions/print-goalrefs-as-links.html myArtefact=page %}
 
     <dt>Implementierungs-Status</dt>
-    {% include /functions/implementation-status.html my_requirement=page %}
+    {% include /functions/get-implementation-status.html my_requirement=page %}
     <dd>{{ implementationStatus }}</dd>
 
     <dt>Kano-Typ</dt>

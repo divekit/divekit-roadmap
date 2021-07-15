@@ -14,6 +14,20 @@
 		{% include /functions/define-message.html ignore=artefact.ignore msgno="e100"
 				msg="Es muss mindestens eine Ziel-Referenz angegeben werden!" %}
 		{% assign errorList = errorList | push: out_msg %}
+	{% else %}
+		{% for goalRef in artefact.goals %}
+			{% assign foundGoals = site.goals | where:"acronym", goalRef %}
+			{% if foundGoals.size == 0 %}
+				{% assign myMsg = "Ziel-Referenz '" | append: goalRef | append: "' exististiert nicht!" %}
+				{% include /functions/define-message.html ignore=artefact.ignore msgno="e101" msg=myMsg %}
+				{% assign errorList = errorList | push: out_msg %}
+			{% endif %}
+			{% if foundGoals.size > 1 %}
+				{% assign myMsg = "Es gibt mehr als ein Ziel '" | append: goalRef | append: "' - bitte Namen anpassen!" %}
+				{% include /functions/define-message.html ignore=artefact.ignore msgno="e102" msg=myMsg %}
+				{% assign errorList = errorList | push: out_msg %}
+			{% endif %}
+		{% endfor %}
 	{% endif %}
 {% else %}
 	{% include /functions/define-message.html ignore=artefact.ignore msgno="e100"

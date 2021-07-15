@@ -1,12 +1,12 @@
 {% assign my_requirement = include.my_requirement %}
 {% assign implementationStatus = "-" %}
 
-{% if my_requirement.status %}
-	{% if my_requirement.status == "open" %}
+{% if my_requirement.implementationStatus %}
+	{% if my_requirement.implementationStatus == "open" %}
 		{% assign implementationStatus = "offen" %}
-	{% elsif my_requirement.status == "inProgress" %}
+	{% elsif my_requirement.implementationStatus == "inProgress" %}
 		{% assign implementationStatus = "wird gerade implementiert" %}
-	{% elsif my_requirement.status == "implemented" %}
+	{% elsif my_requirement.implementationStatus == "implemented" %}
 		{% assign implementationStatus = "bereits implementiert" %}
 	{% else %}
 		{% assign implementationStatus = "???" %}

@@ -42,7 +42,7 @@ layout: default
             <td>{{ iconString }}</td>
             <td><a href="{{ site.url }}{{ functionalRequirement.url | relative_url }}">{{ functionalRequirement.title }}</a></td>
             <td>(tbd.)</td>
-            {% include /functions/implementation-status.html my_requirement=functionalRequirement %}
+            {% include /functions/get-implementation-status.html my_requirement=functionalRequirement %}
             <td>{{ implementationStatus }}</td>
             {% include /functions/kano-type.html my_requirement=functionalRequirement %}
             <td>{{ kanoType }}</td>
