@@ -17,7 +17,11 @@ prefilterPriorizationPoints: 8
 kano:
     type: excitement
     reasoning: >
-        Hier kommt die Begründung für die Einordnung.
+        Die Anzeige der Aufgaben-Deadline auf der Testseite ist als Begeisterungsmerkmal einzuordnen, da diese 
+        Informationen auch anderswo eingesehen werden können und daher den Nutzern während des Gebrauchs nicht fehlt.
+        Wäre die Funktionalität vorhanden, so wären alle relevanten Informationen zu den Aufgaben an einem Ort 
+        zusammengeführt und die Nutzer haben einen kompakteren Workflow zur Aufgabenbearbeitung.
+
 source:
     - [beobachtungstagebuch, BE1]
 history:
