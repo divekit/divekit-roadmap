@@ -23,7 +23,7 @@ layout: default
     <tr>
         {% assign file_name = persona.url | relative_url %}
         <td><a href="{{ site.url }}{{ file_name | relative_url }}">{{ persona.name }}</a></td>
-        <td>{% include /functions/link-to-role.html myRoleAcronym=persona.stakeholderRole %}</td>
+        <td>{% include /functions/print-link-to-role.html myRoleAcronym=persona.stakeholderRole %}</td>
     </tr>
     {% endfor %}
     </tbody>

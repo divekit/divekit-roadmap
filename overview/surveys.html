@@ -25,7 +25,7 @@ layout: default
             {% assign file_name = survey.url | relative_url %}
 
             <td><a href="{{ site.url }}{{ file_name | relative_url }}">{{ survey.subject }}</a></td>
-            <td>{% include /functions/link-to-role.html myRoleAcronym=survey.stakeholder_role %}</td>
+            <td>{% include /functions/print-link-to-role.html myRoleAcronym=survey.stakeholder_role %}</td>
         </tr>
         {% endfor %}
     </tbody>

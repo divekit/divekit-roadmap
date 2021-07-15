@@ -14,20 +14,6 @@ layout: default
 
     <dt>Responsible</dt>
     <dd>{% include /functions/resolve-names.html mydecision=page %}{{ responsible_string }}</dd>
-<!--
-    <dt>Belongs to</dt>
-    <dd>{% include /functions/print-belongs-to-link.html mydecision=page %}</dd>
-
-    <dt>Responsible</dt>
-    <dd>{% include /functions/resolve-names.html mydecision=page %}{{ responsible_string }}</dd>
-
-    {% include /functions/is-decision-open.html mydecision=page %}
-    {% if decision_is_open %}
-        <dt>Deadline</dt>
-        <dd>{{ page.deadline }}</dd>
-    {% endif %}
-
--->
 
     {% if page.todos and page.todos.size > 0 %}
         {% assign todo_counter = 0 %}

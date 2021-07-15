@@ -32,7 +32,7 @@ layout: default
             {% assign file_name = stakeholder.url | relative_url %}
             <td>{{ stakeholder.acronym }}</td>
             <td><a href="{{ site.url }}{{ file_name | relative_url }}">{{ stakeholder.name }}</a></td>
-            <td>{% include /functions/link-to-role.html myRoleAcronym=stakeholder.stakeholderRole %}</td>
+            <td>{% include /functions/print-link-to-role.html myRoleAcronym=stakeholder.stakeholderRole %}</td>
             <td>{{ stakeholder.relationshipToProject }}</td>
         </tr>
         {% endfor %}
