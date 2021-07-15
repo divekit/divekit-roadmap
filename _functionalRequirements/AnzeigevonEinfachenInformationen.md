@@ -10,7 +10,7 @@ responsible:
     - ako
 title: Anzeigen von einfachen Informationen
 goals: 
-    - relevanteInforamtionen
+    - relevanteInformationen
 implementationStatus: open
 prefilterPriorizationPoints: 4
 kano:

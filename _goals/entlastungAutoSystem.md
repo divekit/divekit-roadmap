@@ -8,11 +8,12 @@ responsible:
 title: Studenten erwarten eine automatisierte Interkation mit dem System
 source: 
     - [workshop, waltDisney]
-partOfLargerGoal:
+partOfLargerGoal: entlastung
 history:
     v1:
         date: 2021-06-14
         comment: initially created
+
 todo: 
     - Mergen mit entlastungKorrektur.md / entlastungTeilkorrektur.md
 ---
