@@ -18,7 +18,7 @@ todo:
 
 ## Beschreibung
 
-Die generierung einer sozusagen teil Korrektur ohne wikrlich eine Note als Ergebniss abzuzielen. Es soll nur eine Einschätzung in FOrm eines Notenkorridors über die Bewertung des vorligenden Fallberichts liefern.
+Die generierung einer teil Korrektur ohne wikrlich eine Note als Ergebniss abzuzielen. Es soll nur eine Einschätzung in FOrm eines Notenkorridors über die Bewertung des vorligenden Fallberichts liefern.
 
 ## Begründung
 
