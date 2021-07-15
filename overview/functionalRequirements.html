@@ -21,10 +21,11 @@ layout: default
     <thead>
     <tr>
         <th width="5%"></th>
+        <th width="10%">ID</th>
         <th width="25%">Name</th>
         <th width="25%">Zahlt ein auf Ziel(e)</th>
-        <th width="15%">Implementierungs-Status</th>
-        <th width="15%">Kano-Typ</th>
+        <th width="10%">Implementierungs-Status</th>
+        <th width="10%">Kano-Typ</th>
         <th width="10%" style="text-align:center !important;">Punkte aus Vorpriorisierung</th>
     </tr>
     </thead>
@@ -41,8 +42,13 @@ layout: default
             {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=functionalRequirement.todo %}
             <td>{{ iconString }}</td>
 
+            {% include /functions/get-globalid.html myCollection=site.functionalRequirements
+                    myArtefact=functionalRequirement myPrefix="FR" %}
+            <td><a href="{{ site.url }}{{ functionalRequirement.url | relative_url }}">{{ globalId }}</a></td>
             <td><a href="{{ site.url }}{{ functionalRequirement.url | relative_url }}">{{ functionalRequirement.title }}</a></td>
-            <td>(tbd.)</td>
+
+            <td>{% include /functions/print-goalrefs-as-id-with-links.html myArtefact=functionalRequirement %}</td>
+
             {% include /functions/get-implementation-status.html my_requirement=functionalRequirement %}
             <td>{{ implementationStatus }}</td>
             {% include /functions/get-kano-type.html my_requirement=functionalRequirement %}

@@ -1,0 +1,13 @@
+{% assign artefact = include.myArtefact %}
+{% assign collection = include.myCollection | sort: "title" %}
+{% assign prefix = include.myPrefix %}
+
+{% assign index = 0 %}
+{% for element in collection %}
+    {% if artefact.acronym == element.acronym %}
+        {% assign index = forloop.index %}
+        {% break %}
+    {% endif %}
+{% endfor %}
+
+{% assign globalId = index | prepend: "-" | prepend: prefix %}

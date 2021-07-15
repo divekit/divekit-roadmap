@@ -1,6 +1,7 @@
 {% assign artefact = include.myArtefact %}
 
 {% assign goalList = "" | split: ";" %}
+{% assign linkList = "" | split: ";" %}
 
 {% if artefact.goals %}
 	{% for goalRef in artefact.goals %}
@@ -8,8 +9,12 @@
 		{% if foundGoals.size == 1 %}
 			{% assign goal = foundGoals[0] %}
 			{% include /functions/get-globalid.html myCollection=site.goals myArtefact=goal myPrefix="G" %}
-			<dd><a href="{{ site.url }}{{ goal.url | relative_url }}">{{ goal.title }} ({{ globalId }})</a></dd>
+			{% capture link %}<a href="{{ site.url }}{{ goal.url | relative_url }}">{{ globalId }}</a>{% endcapture %}
+			{% assign linkList = linkList | push: link %}
 		{% endif %}
 	{% endfor %}
 {% endif %}
+
+{% assign linkString = linkList | join: ", " %}
+{{ linkString }}
 
