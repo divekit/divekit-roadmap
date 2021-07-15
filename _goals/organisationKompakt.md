@@ -8,6 +8,7 @@ responsible:
 title: Studenten wollen das Fach kompakter halten
 source: 
     - [workshop, waltDisney]
+    - [survey, beobachtungstagebuch]
 partOfLargerGoal: organisation
 history:
     v1:

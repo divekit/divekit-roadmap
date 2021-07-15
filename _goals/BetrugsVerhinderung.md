@@ -18,7 +18,7 @@ history:
         comment: added source & reason
 todo: 
     - Quelle an das Format [..., ..., ...] anpassen 
-    - Benötigt ein Überziel mit ZitierenBeimAbschreiben.md zusammen
+    - Vielleicht ein Überziel mit ZitierenBeimAbschreiben.md zusammen?
 ---
 
 ## Beschreibung
