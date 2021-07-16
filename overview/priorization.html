@@ -5,26 +5,66 @@ layout: default
 <h1>Priorisierung</h1>
 
 <p>
-    tbd Erklärung
+    (tbd: kurze Erläuterung zum Priorisierungsprozess)
 </p>
+
+<h2>Wichtigste Ziele (Input für CAF/PMI)</h2>
+
+<p>
+    In der nachfolgenden Tabelle sind die Ziele gelistet (jeweils mit Anzahl Nennungen), die in den
+    wichtigsten vorgefilterten funktionalen Anforderungen auftreten. (Das sind diejenigen mit einer
+    Kano-Klassifikation.)
+</p>
+
+{% assign goalRefList = "" | split: ";" %}
+{% assign relevantFrList = "" | split: ";" %}
+{% for fr in site.functionalRequirements %}
+    {% if fr.kano and fr.goals %}
+        {% assign relevantFrList = relevantFrList | push: fr %}
+        {% for goalRef in fr.goals %}
+            {% if goalRef != nil %}
+                {% include /functions/get-top-goal.html myGoalRef=goalRef %}
+                {% if goalRefList contains topGoalRef %}
+                {% else %}
+                    {% assign goalRefList = goalRefList | push: topGoalRef %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
 
 
 <table>
     <thead>
     <tr>
-        <th width="10%">Akronym</th>
-        <th width="70%">Ziele</th>
-        <th width="20%">Datum</th>
-
+        <th>Functional Requirement</th>
+        {% for goalRef in goalRefList %}
+            <th>{{ goalRef }}</th>
+        {% endfor %}
     </tr>
     </thead>
     <tbody>
-        {% for workshop in site.workshops %}
-        <tr>
-            <td>{{ workshop.acronym }}</td>
-            <td><a href="{{ site.url }}{{ workshop.url | relative_url }}">{{ workshop.goals }}</a></td>
-            <td>{{ workshop.date | date: '%B %d, %Y'}}</td>
-        </tr>
+    {% for fr in relevantFrList %}
+    <tr>
+        <td>{{ fr.acronym }}</td>
+        {% for currentTopGoalRef in goalRefList %}
+            {% assign makeX = false %}
+            {% for goalRef in fr.goals %}
+                {% if goalRef != nil %}
+                    {% include /functions/get-top-goal.html myGoalRef=goalRef %}
+                    {% if currentTopGoalRef == topGoalRef %}
+                        {% assign makeX = true %}
+                        {% break %}
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+            {% if makeX %}
+                <td>x</td>
+            {% else %}
+                <td>&nbsp;</td>
+            {% endif %}
         {% endfor %}
+    </tr>
+    {% endfor %}
     </tbody>
 </table>
