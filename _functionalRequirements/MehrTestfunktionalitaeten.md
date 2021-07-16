@@ -21,6 +21,9 @@ history:
     v3:
         date: 2021-07-16
         comment: Modified responsibles as discussed
+    v4:
+        date: 2021-07-16
+        comment: Fixed reference to goal
 
 todo:
     - Bitte Satzschablone verwenden
