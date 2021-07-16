@@ -3,6 +3,7 @@ type: functionalRequirement
 acronym: BereitstellungUserPreferences
 responsible: 
     - jsp
+    - hbu
 title: Bereitstellung von User Preferencen
 goals: 
     - nutzerPraeferenz

@@ -5,7 +5,7 @@ responsible:
     - mba
 title: Die teil Korrektur von Aufgaben
 source:
-    - [interview, nnProf, Minute 00:47:44]
+    - [interview, nnProf, Minute 00-47-44]
 partOfLargerGoal: entlastung
 history:
     v1:
@@ -18,7 +18,7 @@ todo:
 
 ## Beschreibung
 
-Die generierung einer sozusagen teil Korrektur ohne wikrlich eine Note als Ergebniss abzuzielen. Es soll nur eine Einschätzung in FOrm eines Notenkorridors über die Bewertung des vorligenden Fallberichts liefern.
+Die generierung einer teil Korrektur ohne wikrlich eine Note als Ergebniss abzuzielen. Es soll nur eine Einschätzung in FOrm eines Notenkorridors über die Bewertung des vorligenden Fallberichts liefern.
 
 ## Begründung
 

@@ -7,7 +7,7 @@ responsible:
     - ako
 title: Die Aufgaben müssen die gleiche Schwierigkeit aufweisen
 source:
-    - [interview, sbente, Minute 00:34:58]
+    - [interview, sbente, Minute 00-34-58]
 partOfLargerGoal:
 history:
     v1:

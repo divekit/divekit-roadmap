@@ -8,6 +8,7 @@ goals:
     - aufgabentypen
     - aufgabentypenIndividual
 source:
+    - [interview, mengelen, Minute 00-14-46]
 implementationStatus: open
 prefilterPriorizationPoints: 0
 history:
@@ -30,5 +31,3 @@ Bei der Aufgabenerstellung wird das DiveKit den Lehrverantwortlichen die Möglic
 
 Zuordnungsaufgaben sind sehr einfach strukturierte Übungs- und Lernaufgaben, bei denen zusammengehörige Begriffe, Werte, Formeln, Bezeichnungen etc. gefunden werden müssen. Mit Bezug auf das Kombinieren von Aufgaben im Kontext von fachfremden Modulen, kann dieser Aufgabentyp ein relevanter Baustein darstellen, der Aufgabenkomplexe ermöglicht.
 
-## FIXME - muss wieder ins Front Matter hochkopiert werden
-    - [interview, mengelen, Minute 00:14:46]

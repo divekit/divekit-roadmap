@@ -9,7 +9,7 @@ title: Verschiedene Fehler zusammengefasst
 source:
     - [survey, beobachtungstagebuch]
     - [workshop, 6-3-5, Gruppe 2]
-    - [interview, sbente, Minute 00:39:23]
+    - [interview, sbente, Minute 00-39-23]
 partOfLargerGoal: 
 history:
     v1:

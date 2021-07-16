@@ -7,7 +7,7 @@ responsible:
     - ako
 title: Fehlerausgaben eindeutig gestalten
 source:
-    - [interview, sbente, Minute 00:39:23]
+    - [interview, sbente, Minute 00-39-23]
 partOfLargerGoal: fehler
 history:
     v1:

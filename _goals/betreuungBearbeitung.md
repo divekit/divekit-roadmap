@@ -5,7 +5,7 @@ responsible:
     - mba
 title: Hilfe für Studenten bei Aufgaben Bearbeitung
 source:
-    - [interview, nnProf, Minute 00:07:30]
+    - [interview, nnProf, Minute 00-07-30]
 partOfLargerGoal: betreuung
 history:
     v1:

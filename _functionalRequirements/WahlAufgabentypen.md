@@ -8,6 +8,7 @@ goals:
     - aufgabentypen
     - aufgabentypenIndividual
 source:
+    - [interview, mengelen, Minute 00-12-01]
     - [persona, cbeckert]
     - [scenario, cbeckert]
 implementationStatus: implemented
@@ -30,5 +31,3 @@ todo:
 
 Bei Projektarbeiten muss das DiveKit für die Lehrverantwortlichen die Möglichkeit bieten, zwischen verschiedenen Aufgabetypen (wie Rechenaufgaben, Zuordnungsaufgaben, interpretierbare Aufgabe etc.) zu wählen.
 
-## FIXME - muss wieder ins Front Matter hochkopiert werden
-    - [interview, mengelen, Minute 00:12:01]

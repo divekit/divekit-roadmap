@@ -6,15 +6,27 @@ responsible:
 title: Obergrenze für Feedback
 goals:
     - entlastung
-    - gegenDasToolArbeiten (partial)
+    - gegenDasToolArbeiten
 source:
+    - [interview, fkrampe, Minute 00-15-22]
+    - [interview, fkrampe, Minute 00-29-07]
 implementationStatus: open
 prefilterPriorizationPoints: 3
+kano:
+    type: excitement
+    reasoning: >
+        Die Obergrenze für Feedback ist ein Begeisterungsmerkmal, da es derzeit nicht implementiert ist
+        und die Nutzer (Praktikanten) damit umgehen können, aber aus dem Stakeholder-Interview war klar,
+        dass diese Funktion von den Nutzern sehr willkommen wäre.
 history:
     v1:
         date: 2021-06-23
         comment: initially created
-todo: sources fehlen
+    v2:
+        date: 2021-07-16
+        comment: Kano Klassifizierung hinzugefügt
+
+todo:
 
 ---
 
@@ -26,6 +38,3 @@ Da die Studierenden eine unbegrenzte Anzahl von Feedback-Anfragen stellen könne
 dass die Betreuer überlastet werden. Darüber hinaus können die Studierenden die Lösung
 mittels Brute-Force erfragen.
 
-## FIXME - muss wieder ins Front Matter hochkopiert werden
-    - [interview, fkrampe, Minute 00:15:22]
-    - [interview, fkrampe, Minute 00:29:07]

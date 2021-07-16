@@ -7,7 +7,7 @@ responsible:
     - ako
 title: Moderne Programmiertechniken - Projektmanagement
 source:
-    - [interview, ckohls, Minute 00:00:22]
+    - [interview, ckohls, Minute 00-00-22]
 partOfLargerGoal: modernesCoding
 history:
     v1:

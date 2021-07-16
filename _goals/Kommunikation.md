@@ -7,7 +7,7 @@ responsible:
 title: Kommunikation zwischen den Anwendern
 source:
     - Interview nnProf1
-    - [interview, nnWMA4, Minute 00:38:26]
+    - [interview, nnWMA4, Minute 00-38-26]
 partOfLargerGoal: 
 history:
     v1:

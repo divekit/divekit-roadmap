@@ -7,8 +7,8 @@ responsible:
     - ako
 title: Verbesserung von technischer Sprache & Relationen 
 source:
-    - [interview, jintveen, Minute 00:54:13]
-    - [interview, sbente, Minute 00:21:47]
+    - [interview, jintveen, Minute 00-54-13]
+    - [interview, sbente, Minute 00-21-47]
 partOfLargerGoal: sprache
 history:
     v1:

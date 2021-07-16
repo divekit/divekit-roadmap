@@ -5,7 +5,11 @@ responsible:
     - tza
     - psc
 title: Entlastung bei der Arbeit
-source: 
+source:
+    - [interview, fkrampe, Minute 00-05-05]
+    - [interview, fkrampe, Minute 00-11-42]
+    - [interview, fkrampe, Minute 00-15-22]
+    - [interview, mengelen, Minute 00-14-46]
 partOfLargerGoal:
 history:
     v1:
@@ -27,3 +31,4 @@ Der Mitarbeiter möchte entlastet werden.
 
 In Bachelor-Studiengängen müssen viele Studierende betreut werden. In teilen werden Veranstaltungen mit über 100 Studierenden angeboten und gehalten. Die Auswertung selbst bei Kleingruppen kann hohe Aufwende für die Mitarbeiter erzeugen.
 Dies belastet die Mitarbeiter enorm.
+
