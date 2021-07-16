@@ -8,7 +8,7 @@ responsible:
 title: Einarbeitungszeit verringern
 source:
     - [beobachtungstagebuch, PC4]
-partOfLargerGoal: fehler
+partOfLargerGoal:
 history:
     v1:
         date: 2021-07-16
