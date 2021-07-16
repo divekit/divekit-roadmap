@@ -8,7 +8,6 @@ title: Korrektur von Aufgaben erleichtern
 source:
     - [interview, fkrampe, Minute 00-12-01]
     - [interview, fkrampe, Minute 00-09-47]
-    - [interview, nnProf, Minute 00-47-44]
 partOfLargerGoal: entlastung
 history:
     v1:
@@ -20,6 +19,9 @@ history:
     v3:
         date: 2021-07-16
         comment: Quellen temporär runterkopiert
+    v4:
+        date: 2021-07-16
+        comment: back to two seperat goals
 
 todo:
     - source hoch kopieren
