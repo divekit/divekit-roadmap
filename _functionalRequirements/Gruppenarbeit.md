@@ -11,11 +11,12 @@ goals:
 implementationStatus: open
 prefilterPriorizationPoints:
 source:
-    - [interview, mreitano, Minute 00:19:50]
+    - [interview, mreitano, Minute 00-19-50]
 history:
     v1:
         date: 2021-07-12
         comment: initially created
+
 todo:
 ---
 
