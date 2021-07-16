@@ -8,6 +8,8 @@ responsible:
 title: Studenten erwarten eine automatisierte Interkation mit dem System
 source: 
     - [workshop, waltDisney]
+    - [interview, fkrampe, Minute 00-11-42]
+    - [interview, fkrampe, Minute 00-15-22]
 partOfLargerGoal: entlastung
 history:
     v1:
