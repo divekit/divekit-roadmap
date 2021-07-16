@@ -7,8 +7,8 @@ title: Schaden bewerten
 description: Ein Gutachter bewertet den gemeldeten Schaden
 primaryActor: gutachter (stakeholderRole)
 secondaryActors:
-    - actor1 (stakeholderRole)
-    - actor2 (stakeholderRole)    
+    - sachbearbeiterin (stakeholderRole)
+    - kunde (stakeholderRole)    
 trigger: Kunde hat einen Schaden gemeldet
 precondition: Gutachter wurde dem Fall zugewiesen
 postcondition: Der Kunde erhält die Nachricht über die Höhe der Schadensbewertung
