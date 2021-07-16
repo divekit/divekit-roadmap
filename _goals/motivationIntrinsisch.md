@@ -5,7 +5,7 @@ responsible:
     - kru
     - duz
     - ako
-title: Motivation von Studierenden - Extrinsisch
+title: Motivation von Studierenden - Intrinsisch
 source:
     - [interview, ckohls, Minute 00-29-13]
     - [interview, nnWMA4, Minute 00-20-10]
