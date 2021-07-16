@@ -7,8 +7,8 @@ responsible:
     - ako
 title: Verbesserung von grammatikalischen Ausdrücken
 source:
-    - [interview, jintveen, Minute 00:35:39]
-    - [interview, sbente, Minute 00:33:19]
+    - [interview, jintveen, Minute 00-35-39]
+    - [interview, sbente, Minute 00-33-19]
 partOfLargerGoal: sprache
 history:
     v1:

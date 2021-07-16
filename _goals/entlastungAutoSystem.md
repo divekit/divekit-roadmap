@@ -15,12 +15,11 @@ history:
         comment: initially created
 
 todo: 
-    - Mergen mit entlastungKorrektur.md / entlastungTeilkorrektur.md
 ---
 
 ## Beschreibung
 
-Die Bearbeitung und Korrektur der Praktikumsaufgaben sollte vollautomatisch sein.
+Die Korrektur einiger Praktikumsaufgaben sollte vollautomatisch sein.
 
 ## Begründung
 

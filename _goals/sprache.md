@@ -7,8 +7,8 @@ responsible:
     - ako
 title: verbesserte Sprachunterstützung 
 source:
-    - [interview, jintveen, Minute 00:35:39]
-    - [interview, jintveen, Minute 00:54:13]
+    - [interview, jintveen, Minute 00-35-39]
+    - [interview, jintveen, Minute 00-54-13]
 partOfLargerGoal: 
 history:
     v1:

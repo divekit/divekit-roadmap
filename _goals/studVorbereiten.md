@@ -5,6 +5,8 @@ responsible:
     - hbu
 title: Die Studenten durch das Praktikum auf die Klausur vorbereiten
 source:
+    - [interview, fkrampe, Minute 00-59-35]
+    - [interview, fkrampe, Minute 01-01-15]
 partOfLargerGoal:
 history:
     v1:
@@ -12,10 +14,9 @@ history:
         comment: initially created
     v2:
         date: 2021-07-16
-        comment: Die Quellen temporaer runterkopiert
+        comment: Die Quellen temporaer runterkopiert. wieder hoch kopiert
 
 todo:
-    - source hoch kopieren
 ---
 
 ## Beschreibung
@@ -27,7 +28,3 @@ nötig sind, werden im Praktikum vermittelt.
 
 Der Sinn des Praktikums ist die Teilnehmer auf die Klausur vorzubereiten (gilt auch als Zulassungsbeschränkung).
 
-
-## FIXME später hoch kopieren
-    - [interview, fkrampe, Minute 00:59:35]
-    - [interview, fkrampe, Minute 01:01:15]

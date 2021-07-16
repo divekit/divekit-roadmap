@@ -8,6 +8,8 @@ goals:
     - entlastung
     - gegenDasToolArbeiten
 source:
+    - [interview, fkrampe, Minute 00-15-22]
+    - [interview, fkrampe, Minute 00-29-07]
 implementationStatus: open
 prefilterPriorizationPoints: 3
 kano:
@@ -24,7 +26,7 @@ history:
         date: 2021-07-16
         comment: Kano Klassifizierung hinzugefügt
 
-todo: sources fehlen (von unten nach oben hochkopieren)
+todo:
 
 ---
 
@@ -36,6 +38,3 @@ Da die Studierenden eine unbegrenzte Anzahl von Feedback-Anfragen stellen könne
 dass die Betreuer überlastet werden. Darüber hinaus können die Studierenden die Lösung
 mittels Brute-Force erfragen.
 
-## FIXME - muss wieder ins Front Matter hochkopiert werden
-    - [interview, fkrampe, Minute 00:15:22]
-    - [interview, fkrampe, Minute 00:29:07]

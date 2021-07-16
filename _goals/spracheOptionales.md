@@ -7,7 +7,7 @@ responsible:
     - ako
 title: verbesserte Sprachunterstützung durch optionale Einstellungen
 source:
-    - [interview, jintveen, Minute 00:54:13]
+    - [interview, jintveen, Minute 00-54-13]
 partOfLargerGoal: sprache
 history:
     v1:

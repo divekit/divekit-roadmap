@@ -7,7 +7,7 @@ responsible:
     - ako
 title: Einstieg ins Tool erleichtern
 source:
-    - [interview, jintveen, Minute 00:54:13]
+    - [interview, jintveen, Minute 00-54-13]
 partOfLargerGoal: 
 history:
     v1:

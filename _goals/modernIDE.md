@@ -8,11 +8,11 @@ responsible:
     - cpo
 title: Moderne Programmiertechniken - IDEs
 source:
-    - [interview, ckohls, Minute 00:00:22]
-    - [interview, sbente, Minute 00:00:16]
-    - [interview, nnWMA4, Minute 00:02:58]
-    - [interview, mreitano, Minute 00:00:30]
-    - [interview, nnProf4, Minute 00:40:02]
+    - [interview, ckohls, Minute 00-00-22]
+    - [interview, sbente, Minute 00-00-16]
+    - [interview, nnWMA4, Minute 00-02-58]
+    - [interview, mreitano, Minute 00-00-30]
+    - [interview, nnProf4, Minute 00-40-02]
 partOfLargerGoal: modernesCoding
 history:
     v1:

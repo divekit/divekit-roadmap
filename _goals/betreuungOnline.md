@@ -7,8 +7,8 @@ responsible:
     - ako
 title: Beratungsleistungen online anbieten
 source:
-    - [interview, sbente, Minute 00:49:27]
-    - [interview, mreitano, Minute 00:53:23]
+    - [interview, sbente, Minute 00-49-27]
+    - [interview, mreitano, Minute 00-53-23]
 partOfLargerGoal: betreuung
 history:
     v1:

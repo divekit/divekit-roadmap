@@ -18,7 +18,7 @@ prefilterPriorizationPoints: 3
 kano:
     type: excitement
     reasoning: >
-        Hier kommt die Begründung für die Einordnung.
+        Ein Feedback-Archiv stellt ein Begeisterungsmerkmal da. Für den alltäglichen Nutzen des Systems spielt es keine große Rolle und würde deshalb keinen großen negativen Impact haben wenn es fehlt. Andererseits gibt es durchaus Use-Cases, in denen es nützlich sein kann und Nutzer so positiv überraschen kann.
 history:
     v1:
         date: 2021-07-08

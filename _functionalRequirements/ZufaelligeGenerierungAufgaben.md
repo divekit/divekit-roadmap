@@ -10,6 +10,7 @@ goals:
 implementationStatus: implemented
 prefilterPriorizationPoints: 0
 source:
+    - [interview, mengelen, Minute 00-14-46]
     - [persona, cbeckert]
     - [scenario, cbeckert]
 history:
@@ -25,5 +26,3 @@ todo:
 Nach der Auswahl von Aufgaben wird das DiveKit für die Lehrverantwortlichen die Möglichkeit bieten, die Aufgabenstellung zufällig zu generieren.
 
 
-## FIXME - muss wieder ins Front Matter hochkopiert werden
-    - [interview, mengelen, Minute 00:14:46]

@@ -8,6 +8,8 @@ goals:
     - entlastung
     - entlastungKorrektur
 source:
+    - [interview, fkrampe, Minute 00-09-47]
+    - [interview, fkrampe, Minute 00-13-25]
 implementationStatus: inProgress
 prefilterPriorizationPoints: 5
 history:
@@ -36,6 +38,3 @@ als auch an die Studierende gemeldet.
 
 Es entlastet den Verantwortlichen, da diese Tätigkeit derzeit manuell durchgeführt werden muss.
 
-## FIXME - muss wieder ins Front Matter hochkopiert werden
-    - [interview, fkrampe, Minute 00:09:47]
-    - [interview, fkrampe, Minute 00:13:25]

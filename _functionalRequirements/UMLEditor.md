@@ -10,6 +10,7 @@ goals:
 implementationStatus: open
 prefilterPriorizationPoints: 0
 source:
+    - [interview, fkrampe, Minute 00-37-33]
 history:
     v1:
         date: 2021-06-23
@@ -30,6 +31,3 @@ zu erstellen und diese im Rahmen des Praktikums zu verwenden.
 
 Der Editor soll in das System integriert werden, sodass es kein neuer Medienbruch entsteht. 
 
-
-## FIXME - muss wieder ins Front Matter hochkopiert werden
-    - [interview, fkrampe, Minute 00:37:33]

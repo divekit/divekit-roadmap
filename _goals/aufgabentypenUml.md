@@ -7,6 +7,8 @@ responsible:
     - ako
 title: UML Aufgaben prüfen
 source:
+    - [interview, ckohls, Minute 00-00-22]
+    - [interview, sbente, Minute 00-39-23]
 partOfLargerGoal: aufgabentypen
 history:
     v1:
@@ -28,6 +30,3 @@ Es soll möglich sein, dass Modelle, wie UML Diagramme automatisiert bewertet we
 
 Durch die automatisierte Bewertung werden Lehrende entlastet und Studierende zeitnah "betreut".
 
-## FIXME - muss wieder ins Front Matter hoch kopiert werden
-    - [interview, ckohls, Minute 00:00:22]
-    - [interview, sbente, Minute 00:39:23]
