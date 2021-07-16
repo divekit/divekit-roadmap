@@ -14,11 +14,11 @@ scenarioTypes:
 responsible: 
     - duz
 source: 
-    - [interview, fkrampe, Minute 05:05]
-    - [interview, fkrampe, Minute 13:25]
-    - [interview, fkrampe, Minute 37:33]
-    - [interview, nnwma2, Minute 00:00:53]
-    - [interview, nnwma2, Minute 00:50:45]
+    - [interview, fkrampe, Minute 00-05-05]
+    - [interview, fkrampe, Minute 00-13-25]
+    - [interview, fkrampe, Minute 00-37-33]
+    - [interview, nnwma2, Minute 00-00-53]
+    - [interview, nnwma2, Minute 00-50-45]
 history:
     v1:
         date: 2021-06-16
@@ -26,6 +26,9 @@ history:
     v2:
         date: 2021-06-17
         comment: modified description
+    v3:
+        date: 2021-07-16
+        comment: fixed Timestamps
         
 todo: 
 ---

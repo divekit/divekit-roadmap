@@ -11,14 +11,14 @@ relationshipToProject: >
     Anwender des Systems in mehreren Lehrveranstaltungen. Interessiert an sinnvoller Weiterentwicklung.
     möchte eigene Ideen einbringen.
 source:
-    - [interview, fkrampe, Minute 00:01:55]
-    - [interview, fkrampe, Minute 00:05:05]
-    - [interview, fkrampe, Minute 00:13:25]
-    - [interview, fkrampe, Minute 00:22:58]
-    - [interview, fkrampe, Minute 00:59:35]
-    - [interview, jintveen, Minute 00:54:13]
-    - [interview, nnwma2, Minute 00:00:53]
-    - [interview, nnwma2, Minute 00:50:45]
+    - [interview, fkrampe, Minute 00-01-55]
+    - [interview, fkrampe, Minute 00-05-05]
+    - [interview, fkrampe, Minute 00-13-25]
+    - [interview, fkrampe, Minute 00-22-58]
+    - [interview, fkrampe, Minute 00-59-35]
+    - [interview, jintveen, Minute 00-54-13]
+    - [interview, nnwma2, Minute 00-00-53]
+    - [interview, nnwma2, Minute 00-50-45]
 history:
     v1:
         date: 2021-06-04
@@ -29,7 +29,12 @@ history:
     v3:
         date: 2021-06-12
         comment: modified description
-    todo:
+    v4:
+        date: 2021-07-16
+        comment: fixed timestamp
+
+
+todo:
 ---
 
 ## Beschreibung

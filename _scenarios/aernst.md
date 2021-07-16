@@ -9,12 +9,16 @@ scenarioTypes:
 responsible: 
     - ako
 source:
-    - [interview, nnProf3, Minute 02:57]
-    - [interview, nnProf3, Minute 26:16]
+    - [interview, nnProf3, Minute 00-02-57]
+    - [interview, nnProf3, Minute 00-26-16]
 history:
     v1:
         date: 2021-06-17
         comment: initially created
+    v2:
+        date: 2021-07-16
+        comment: fixed timestamp
+
 todo:
 ---
 
