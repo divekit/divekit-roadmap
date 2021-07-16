@@ -3,11 +3,18 @@ type: functionalRequirement
 acronym: FehlermeldungAussagekraeftig
 responsible: 
     - jsp
+    - cpo
 title: Aussagekräftige Fehlermeldungen
 goals: 
     - fehlerFalscheKonfig
 implementationStatus: open
 prefilterPriorizationPoints: 4
+kano:
+    type: basic
+    reasoning: >
+        Für die Studierenden sollte es deutlich ersichtlich sein, wenn Fehler nicht durch fehlerhafte Abgaben erzeugt 
+        werden. Das Fehlen einer passenden Fehlermeldung könnte eine unnötige Fehlersuche für den Studierenden 
+        verursachen und viel Frust erzeugen.
 source:
     - Workshop 6-3-5-No.2
 history:
@@ -17,6 +24,9 @@ history:
     v2:
         date: 2021-07-15
         comment: Fixed goales
+    v3:
+        date: 2021-07-16
+        comment: added kano classification
 todo: 
 ---
 
