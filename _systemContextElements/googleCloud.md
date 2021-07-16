@@ -14,7 +14,8 @@ history:
         comment: erklärung ergänzen
 
 todo:
-    - Erklärung spezifizieren
+    - Erklärung spezifizieren 
+    - Was ist Google Cloud genau?
 ---
 
 ## Erläuterung

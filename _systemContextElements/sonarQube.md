@@ -13,6 +13,9 @@ history:
         comment: initially created
         
 todo:
+    - Erläuterung präzisieren?
+    - Was sind Qualitätsmetriken? Welche sind wichtig?
+    - Warum müssen die eingehalten werden?
 ---
 
 ## Erläuterung

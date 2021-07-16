@@ -15,7 +15,7 @@ history:
         comment: updated format
 
 todo:
-    - Quellformat fixen
+    - Quellformat fixen in Format [..., ..., ...]
 ---
 ### Erläuterung
 Über das E-Assasment-tool werden bislang die Prüfungen online gehalten. 

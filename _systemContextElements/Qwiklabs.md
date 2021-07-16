@@ -9,9 +9,10 @@ history:
     v1:
         date: 2021-06-17
         comment: initially created
-todo:
-  
 
+todo:
+    - Zeitangabe hinzufügen
+    - Erklärung präzisieren -> Was ist genau Qwiklabs?
 ---
 
 ## Erläuterung

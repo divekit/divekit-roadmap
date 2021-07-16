@@ -12,9 +12,7 @@ history:
         comment: initially created
 todo:
 
----
-
-## Praktikumstool der TH Köln     
+---    
 
 ### Erläuterung
 Das Praktikumstool dient zur Unterstützung von Praktikas begleitend zur Vorlesung. In erster Linie dient es zur Erfassung von Anwesenheiten und den Ergebnissen der Abgaben.  

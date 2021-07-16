@@ -12,6 +12,7 @@ history:
         comment: initially created
 
 todo:
+    - Warum ist Meilenstein ein wichtiger Begriff?
 ---
 
 ## Erläuterung

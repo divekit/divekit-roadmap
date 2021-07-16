@@ -16,8 +16,10 @@ history:
     v2:
         date: 2021-07-02
         comment: added source and todo; modified explanation
+
 todo:
-    - Bitte Timestamp ergänzen!
+    - Zeitangabe anpassen 
+    - Erläuterung präzisieren und ausformulieren
 ---
 
 ## Erläuterung

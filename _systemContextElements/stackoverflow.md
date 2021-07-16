@@ -9,7 +9,10 @@ history:
     v1:
         date: 2021-06-24
         comment: initially created
+
 todo:
+    - Was genau ist Stackoverflow?
+    - Ist Stackoverflow eine gute Quelle?
 ---
 
 ## Erläuterung

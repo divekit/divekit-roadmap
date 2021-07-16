@@ -1,5 +1,6 @@
 ---
 acronym: CIPipeline
+name: test
 type: itsystem 
 responsible:
     - kru

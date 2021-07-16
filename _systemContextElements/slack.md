@@ -15,6 +15,8 @@ history:
         comment: Added source
 
 todo:
+    - Zeitangabe anpassen 
+    - Erläuterung präzisieren?
 ---
 
 ## Erläuterung

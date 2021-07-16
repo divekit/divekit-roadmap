@@ -13,8 +13,8 @@ history:
         date: 2021-06-24
         comment: fixed formatting
 
-todo:
-    - 
+todo: 
+    - Erläuterung präzisieren
 ---
 
 ## Erläuterung

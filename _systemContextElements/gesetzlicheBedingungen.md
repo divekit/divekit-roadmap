@@ -10,8 +10,9 @@ history:
         date: 2021-06-03
         comment: initially created
 todo:
-    - Erläuterung spezifizieren
-    - ggf. Gesetzestexte? 
+    - Zeitangabe anpassen 
+    - Erläuterung präzisieren und ausformulieren    
+    - Welche Bedingungen sind das, wo sind die festgelegt ggf. Gesetzestexte? 
     - Studierender ist die einfache Formulierung 
 ---
 

@@ -11,6 +11,8 @@ history:
         comment: initially created
 
 todo:
+    - Zeitangabe anpassen 
+    - Erläuterung präzisieren und ausformulieren
 ---
 
 ## Erläuterung
