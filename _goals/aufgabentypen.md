@@ -13,17 +13,28 @@ history:
     v1:
         date: 2021-07-08
         comment: initially created
+    v2:
+        date: 2021-07-16
+        comment: Beschreibung angepasst + Subgoals verlinkt
 
 todo: 
-    - Bitte Subgoales verlinken siehe sprachen.md
-    - Außerdem wäre das Subziel individualAufg.md, umlAufgaben.md auch ein Subziele oder? 
-    - Bitte Beschreibung anpassen 
 ---
 
 ## Beschreibung
 
-BWL Professor:innen können passende Aufgaben erstellen.
+BWL Professor:innen können verschiedene Aufgabentypen nutzen/erstellen, um Ihre individuellen Modulkontexte abbilden zu können.
 
+Dieses Ziel ist ein Oberziel von:
+
+* [Aufgabentypen im Kontext von DevOps](./aufgabentypenDevOps.md)
+* [Aufgabentyp im Kontext von Fallstudien](./aufgabentypenFallstudien.md)
+* [Aufeinander aufbauende Aufgaben](./aufgabentypenFortlaufend.md)
+* [Individualisierung von Aufgaben](./aufgabentypenIndividual.md)
+* [offene bzw interpretierbare Aufgaben](./aufgabentypenInterpretierbar.md)
+* [Komplexe Aufgaben](./aufgabentypenKomplex.md)
+* [Rechenaufgaben](./aufgabentypenRechnen.md)
+* [Aufgaben mit UML](./aufgabentypenUml.md)
+* [Zuordnungsaufgaben](./aufgabentypenZuordnung.md)
 
 ## Begründung
 
