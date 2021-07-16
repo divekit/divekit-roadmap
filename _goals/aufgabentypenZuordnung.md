@@ -13,11 +13,17 @@ history:
     v1:
         date: 2021-07-08
         comment: initially created
+    v2:
+        date: 2021-07-17
+        comment: added explanation
 
 todo: 
-    - Begründung hinzufügen
 ---
 
 ## Beschreibung
 
 BWL Professor:innen können Zuordnungsaufgaben erstellen.
+
+## Begründung
+
+Zuordnungsaufgaben sind sehr einfach strukturierte Übungs- und Lernaufgaben, bei denen zusammengehörige Begriffe, Werte, Formeln, Bezeichnungen etc. gefunden werden müssen. Mit Bezug auf das Kombinieren von Aufgaben im Kontext von fachfremden Modulen, kann dieser Aufgabentyp ein relevanter Baustein darstellen, der Aufgabenkomplexe ermöglicht.
