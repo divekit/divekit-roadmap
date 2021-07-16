@@ -16,7 +16,6 @@ history:
         comment: initially created
 
 todo: 
-    - Mergen mit der anderen betreuungQualitative.md
 ---
 
 ## Beschreibung

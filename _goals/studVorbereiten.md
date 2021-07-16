@@ -17,7 +17,6 @@ history:
         comment: Die Quellen temporaer runterkopiert. wieder hoch kopiert
 
 todo:
-    - source hoch kopieren
 ---
 
 ## Beschreibung

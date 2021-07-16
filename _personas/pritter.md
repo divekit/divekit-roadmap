@@ -25,7 +25,6 @@ history:
         date: 2021-05-28
         comment: Added Persona
 todo: 
-    - Beschreibung
 ---
 
 ## Beschreibung
