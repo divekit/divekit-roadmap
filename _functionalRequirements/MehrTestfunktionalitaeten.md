@@ -6,7 +6,7 @@ responsible:
     - kru
 title: Mehr Testfunktionalitäten
 goals:
-    - verbesserteLösungsqualität
+    - verbesserteLoesungsqualitaet
 source:
     - [beobachtungstagebuch, PP1]
 implementationStatus: open

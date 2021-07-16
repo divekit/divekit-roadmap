@@ -6,13 +6,17 @@ responsible:
     - duz
 title: Allgemeines Feedback
 goals:
-    - besseresVerständnis
+    - besseresVerstaendnis
 implementationStatus: open
 prefilterPriorizationPoints: 4
 kano:
     type: excitement
     reasoning: >
-        Hier kommt die Begründung für die Einordnung.
+        Die Möglichkeit für bestandene sowie nicht bestandene Tests Rückmeldung, also allgemeines Feedback zu allen
+        eingereichten Lösungen, zu erhalten, ist als Begeisterungsmerkmal einzuordnen, da zu nicht bestandenen Aufgaben
+        bereits Feedback gegeben wird und daher eine Grundlage für Verbesserung besteht. Wäre die Funktionalität allerdings
+        vorhanden, könnte den Studierenden Rückmeldung darüber gegeben werden, wie "gut" ihre Lösung ist. Durch die
+        Auseinandersetzung mit einer solchen Rückmeldung kann ebenfalls ein großer Lerneffekt erzielt werden.
 source:
     - [beobachtungstagebuch, PC10]
 history:
@@ -25,6 +29,9 @@ history:
     v3:
         date: 2021-07-16
         comment: Modified responsibles as discussed
+    v4:
+        date: 2021-07-16
+        comment: Added kano reasoning
 
 todo:
 ---

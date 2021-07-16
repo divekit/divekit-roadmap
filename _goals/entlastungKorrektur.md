@@ -32,8 +32,6 @@ todo:
 Der Mitarbeiter möchte, das das Korrigieren von Aufgaben so gut wie es geht erleichtert wird.
 Er möchte, dass möglichst viele Aufgaben vollautomatisch geprüft werden.
 
-Die generierung einer Teilkorrektur ohne wirklich eine Note als Ergebnis abzuzielen. Es soll nur eine Einschätzung in FOrm eines Notenkorridors über die Bewertung des vorliegenden Fallberichts liefern.
-
 ## Begründung
 
 Wird dieses Ziel erreicht, wird der Mitarbeiter etwas entlastet, was ein übergeordnetes Ziel ist.

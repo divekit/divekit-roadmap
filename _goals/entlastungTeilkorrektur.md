@@ -17,7 +17,8 @@ history:
 
 todo:
     - Mergen mit Korrektur
-        - Das hier ist ein eigener goal, es sollte nicht gemerged werden
+    - Das hier ist ein eigener goal, es sollte nicht gemerged werden
+    - Bitte dann umformulieren in erstellen eines Korrekturrahmens und die Ziel muss ausführlicher begründet werden
 ---
 
 ## Beschreibung
