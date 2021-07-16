@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: motivationExtrinsisch
+acronym: motivationIntrinsisch
 responsible: 
     - kru
     - duz

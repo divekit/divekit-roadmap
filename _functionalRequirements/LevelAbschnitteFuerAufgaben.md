@@ -7,7 +7,7 @@ title: Aufgaben in Level-Abschnitten aufteilen
 goals:
     - gamification
     - levelsystem
-    - Motivation
+    - motivation
 implementationStatus: implemented
 prefilterPriorizationPoints: 0
 source:
