@@ -1,13 +1,9 @@
 ---
 type: functionalRequirement
 acronym: AktualisierungDesFeedbacks
-responsible: 
-    - mwi
-    - mba
+responsible:
     - jlü
-    - kru
     - duz
-    - ako
 title: Feedback automatisch aktualisieren
 goals: 
     - entlastungKorrektur
@@ -30,6 +26,10 @@ history:
     v4:
         date: 2021-07-15
         comment: Fixed goales
+    v5: 
+        date: 2021-07-16
+        comment: Modified responsibles as discussed
+
 todo: 
 ---
 

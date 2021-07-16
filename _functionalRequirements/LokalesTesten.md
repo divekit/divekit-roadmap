@@ -1,12 +1,8 @@
 ---
 type: functionalRequirement
 acronym: LokalesTesten
-responsible: 
-    - mwi
-    - mba
+responsible:
     - jlü
-    - kru
-    - duz
     - ako
 title: Die abzugebende Lösung soll bereits lokal getestet werden können
 goals: 
@@ -25,6 +21,10 @@ history:
     v3:
         date: 2021-07-12
         comment: Added all responsible authors
+    v4:
+        date: 2021-07-16
+        comment: Modified responsibles as discussed
+
 todo: 
 ---
 

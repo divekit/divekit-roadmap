@@ -3,10 +3,6 @@ type: functionalRequirement
 acronym: ErweiterteRueckmeldung
 responsible:
     - mwi
-    - mba
-    - jlü
-    - kru
-    - duz
     - ako
 title: Erweiterte Rückmeldung
 goals:
@@ -22,6 +18,9 @@ history:
     v2:
         date: 2021-07-12
         comment: Added all responsible authors and modified reason regarding todo
+    v3:
+        date: 2021-07-16
+        comment: Modified responsibles as discussed
 todo:
 ---
 

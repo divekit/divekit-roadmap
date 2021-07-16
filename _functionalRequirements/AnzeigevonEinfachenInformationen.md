@@ -1,13 +1,9 @@
 ---
 type: functionalRequirement
 acronym: AnzeigevonEinfachenInformationen
-responsible: 
-    - mwi
-    - mba
+responsible:
     - jlü
-    - kru
     - duz
-    - ako
 title: Anzeigen von einfachen Informationen
 goals: 
     - relevanteInformationen
@@ -34,6 +30,10 @@ history:
     v3:
         date: 2021-07-12
         comment: Added all responsible authors
+    v4:
+        date: 2021-07-16
+        comment: Modified responsibles as discussed
+
 todo: 
 ---
 

@@ -1,13 +1,9 @@
 ---
 type: functionalRequirement
 acronym: FalscheLoesungen
-responsible: 
-    - mwi
-    - mba
+responsible:
     - jlü
     - kru
-    - duz
-    - ako
 title: Fehlermeldungen der Fehlgeschlagenen Tests
 goals: 
     - fehlerErkennung
@@ -28,6 +24,10 @@ history:
     v4:
         date: 2021-07-15
         comment: Fixed goales
+    v5:
+        date: 2021-07-16
+        comment: Modified responsibles as discussed
+
 todo: 
 ---
 

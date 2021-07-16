@@ -3,10 +3,6 @@ type: functionalRequirement
 acronym: Fehlervermeidung
 responsible:
     - mwi
-    - mba
-    - jlü
-    - kru
-    - duz
     - ako
 title: Fehlervermeidung
 goals:
@@ -22,6 +18,10 @@ history:
     v2:
         date: 2021-07-12
         comment: Added all responsible authors
+    v3:
+        date: 2021-07-16
+        comment: Modified responsibles as discussed
+
 todo:
     - Klingt wie eine unsinnige Anforderung. Wie soll das denn gehen? Und was wären denn "nachvollziehbare" oder "verständliche" Fehler?
 ---

@@ -3,11 +3,7 @@ type: functionalRequirement
 acronym: ZeitpunktKorrektur
 responsible:
     - mwi
-    - mba
-    - jlü
-    - kru
-    - duz
-    - ako
+    - dzu
 title: Zeitpunkt Korrektur
 goals:
     - besseresZeitmanagement
@@ -22,6 +18,10 @@ history:
     v2:
         date: 2021-07-12
         comment: Added all responsible authors and modified FA regarding todo, added reason
+    v3:
+        date: 2021-07-16
+        comment: Modified responsibles as discussed
+
 todo:
 ---
 

@@ -3,10 +3,6 @@ type: functionalRequirement
 acronym: ManuelleKorrekturVorDeadline
 responsible:
     - mwi
-    - mba
-    - jlü
-    - kru
-    - duz
     - ako
 title: Manuelle Korrektur vor der Deadline
 goals:
@@ -22,6 +18,10 @@ history:
     v2:
         date: 2021-07-12
         comment: Added all responsible authors and reason regarding todo
+    v3:
+        date: 2021-07-16
+        comment: Modified responsibles as discussed
+
 todo:
 ---
 

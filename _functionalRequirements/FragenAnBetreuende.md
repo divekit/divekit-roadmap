@@ -1,12 +1,8 @@
 ---
 type: functionalRequirement
 acronym: FragenAnBetreuende
-responsible: 
-    - mwi
-    - mba
+responsible:
     - jlü
-    - kru
-    - duz
     - ako
 title: Rückfragen an Betreuende
 goals: 
@@ -30,6 +26,9 @@ history:
     v4:
         date: 2021-07-15
         comment: Fixed goales
+    v5:
+        date: 2021-07-16
+        comment: Modified responsibles as discussed
 todo: 
 ---
 

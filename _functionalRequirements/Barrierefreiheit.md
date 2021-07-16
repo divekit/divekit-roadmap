@@ -3,12 +3,7 @@ type: functionalRequirement
 acronym: Barrierefreiheit
 responsible: 
     - jsp
-    - mwi
-    - mba
     - jlü
-    - kru
-    - duz
-    - ako
 title: Barrierefreiheit
 goals: 
     - barrierefreiheit
@@ -35,6 +30,9 @@ history:
     v4:
         date: 2021-07-12
         comment: edit Kano
+    v5:
+        date: 2021-07-16
+        comment: Modified responsibles as discussed
 ---
 
 Das DiveKit muss es ermöglichen, dass auch Farbenblinde Ergebnisse erkennen können.

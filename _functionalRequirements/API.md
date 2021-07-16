@@ -4,12 +4,7 @@ acronym: API
 responsible:    
     - fgr
     - ngi
-    - mwi
-    - mba
     - jlü
-    - kru
-    - duz
-    - ako
 title: API zur Erweiterung
 goals: 
     - Weiterentwicklung
@@ -38,6 +33,9 @@ history:
     v3:
         date: 2021-07-12
         comment: Begründung Kano
+    v4:
+        date: 2021-07-16
+        comment: Modified responsibles as discussed
 ---
 
 Das DiveKit muss eine API zur Erweiterung des Divekit bereitstellen.
