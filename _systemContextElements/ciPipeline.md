@@ -1,15 +1,15 @@
 ---
-acronym: ci-pipeline
+acronym: CIPipeline
 type: itsystem 
 responsible:
     - kru
     - ako
     - duz
 mentionnedInSource: 
-    - [interview, jintveen, Minute 00:28:03]
-    - [interview, jintveen, Minute 00:40:49]
-    - [interview, jintveen, Minute 01:12:53]
-    - [interview, sbente, Minute 00:00:16]
+    - [interview, jintveen, Minute 00-28-03]
+    - [interview, jintveen, Minute 00-40-49]
+    - [interview, jintveen, Minute 01-12-53]
+    - [interview, sbente, Minute 00-00-16]
 history:
     v1:
         date: 2021-06-17
@@ -20,9 +20,13 @@ history:
     v3:
         date: 2021-07-02
         comment: added source
+    v4:
+        date: 2021-07-16
+        comment: fixed sources
+
 todo:
 ---
 
 ## Erläuterung
 
-In einer Continous Integration Pipeline werden sog. Jobs festgelegt. Diese Jobs führen automatisierte "Command" aus.
+In einer Continous Integration Pipeline werden Aufträge, sog. Jobs, festgelegt und ausgeführt. Diese Jobs rufen automatisiert "Commands" auf, welche normalerweise händisch in der Konsole eingegeben werden.

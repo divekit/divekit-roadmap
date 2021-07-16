@@ -1,5 +1,5 @@
 ---
-acronym: repoe
+acronym: Repository
 type: itsystem 
 responsible:
     - kru

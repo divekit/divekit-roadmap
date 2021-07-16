@@ -1,11 +1,11 @@
 ---
-acronym: sampleContext
+acronym: Slack
 type: itsystem
 responsible:
     - jsp
 mentionnedInSource: 
     - Interview nnProf1
-    - [interview, nnWMA4, Minute 00:38:26]
+    - [interview, nnWMA4, Minute 00-38-26]
 history:
     v1:
         date: 2021-06-16
@@ -14,6 +14,7 @@ history:
         date: 2021-07-03
         comment: Added source
 
+todo:
 ---
 
 ## Erläuterung

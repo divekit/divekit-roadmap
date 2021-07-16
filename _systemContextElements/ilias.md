@@ -7,10 +7,10 @@ responsible:
     - duz
 mentionnedInSource: 
     - Interview nnProf1
-    - [Interview, mengelen, Minute 00:03:47]
-    - [Interview, mengelen, Minute 00:11:29]
-    - [Interview, mengelen, Minute 00:14:46]
-    - [interview, sbente, Minute 00:48:05]
+    - [Interview, mengelen, Minute 00-03-47]
+    - [Interview, mengelen, Minute 00-11-29]
+    - [Interview, mengelen, Minute 00-14-46]
+    - [interview, sbente, Minute 00-48-05]
 history:
     v1:
         date: 2021-06-16
@@ -24,8 +24,8 @@ history:
     v3:
         date: 2021-07-08
         comment: Timestamps mengelen ergänzt
+
 todo:
-    - Bitte Timestamps ergänzen!
 ---
 
 ## Erläuterung

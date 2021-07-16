@@ -4,12 +4,13 @@ type: prozess, event
 responsible:
     - tza
 mentionnedInSource: 
-    - [interview, fkrampe, Minute 00:08:01]   
-    - [interview, fkrampe, Minute 00:25:49]
+    - [interview, fkrampe, Minute 00-08-01]   
+    - [interview, fkrampe, Minute 00-25-49]
 history:
     v1:
         date: 2021-06-04
         comment: initially created
+
 todo:
 ---
 

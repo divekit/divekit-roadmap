@@ -13,6 +13,5 @@ history:
         comment: initially created
 todo:
 ---
-
 ## Erläuterung
 Ein fachliches Glossar wird genutzt, um eine Ubiquitous Language zu definieren. In dieser soll gedacht und mit den Begriffen sehr genau umgegangen werden.

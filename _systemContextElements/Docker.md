@@ -22,5 +22,4 @@ todo:
 
 ## Erläuterung
 
-Individualisierte Aufgaben können auch mehr als die Einfache erstellung von Software
-beinhalten. Ein Beispiel, aus der DevOps Vorlesung sind Docker Container. Für die automatisierte Auswertung ist die Überprüfung des Zustandes notwendig.
+Individualisierte Aufgaben können auch mehr als die Einfache erstellung von Software beinhalten. Ein Beispiel, aus der DevOps Vorlesung sind Docker Container. Für die automatisierte Auswertung ist die Überprüfung des Zustandes notwendig.

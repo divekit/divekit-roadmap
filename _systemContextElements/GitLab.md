@@ -7,9 +7,9 @@ responsible:
     - duz
     - jlü
 mentionnedInSource:
-    - [interview, jintveen, Minute 00:26:21]
-    - [interview, jintveen, Minute 00:28:03]
-    - [interview, sbente, Minute 00:00:16]
+    - [interview, jintveen, Minute 00-26-21]
+    - [interview, jintveen, Minute 00-28-03]
+    - [interview, sbente, Minute 00-00-16]
     - [Interview, nnProf3]
 history:
     v1:
@@ -24,6 +24,7 @@ history:
     v4:
         date: 2021-07-02
         comment: added source and todo
+
 todo:
     - Bitte Timestamp ergänzen!
 ---

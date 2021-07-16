@@ -1,5 +1,5 @@
 ---
-acronym: sampleContext
+acronym: zoom
 type: itsystem
 responsible:
     - jsp
@@ -13,7 +13,11 @@ history:
     v2:
         date: 2021-07-03
         comment: Added source
+    v3:
+        date: 2021-07-03
+        comment: Added missing acronym
 
+todo:
 ---
 
 ## Erläuterung
