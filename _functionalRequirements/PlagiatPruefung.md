@@ -4,7 +4,8 @@ acronym: PlagiatPruefung
 responsible: 
     - cpo
 title: Plagiatsprüfung
-goals: 
+goals:
+    - Betrugsverhinderung 
 source:
     - [workshop, waltDisney]
 implementationStatus: open
@@ -13,8 +14,10 @@ history:
     v1:
         date: 2021-07-08
         comment: initially created
+    v2:
+        date: 2021-07-16
+        comment: added goal
 todo: 
-    - goals ergänzen
 ---
 
 Das DiveKit soll Plagiate erkennen und melden können.
