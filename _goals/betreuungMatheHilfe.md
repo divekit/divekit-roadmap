@@ -5,7 +5,7 @@ responsible:
     - mba
 title: Die Teil Korrektur von Aufgaben
 source:
-    - [interview, nnProf, Minute 00:07:43]
+    - [interview, nnProf, Minute 00-07-43]
 partOfLargerGoal: betreuung
 history:
     v1:

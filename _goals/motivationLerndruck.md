@@ -7,7 +7,7 @@ responsible:
     - ako
 title: Motivation von Studierenden - Extrinsisch
 source:
-    - [interview, nnWMA4, Minute 00:20:10]
+    - [interview, nnWMA4, Minute 00-20-10]
 partOfLargerGoal: motivation
 history:
     v1:

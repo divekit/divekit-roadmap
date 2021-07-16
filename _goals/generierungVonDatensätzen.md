@@ -6,8 +6,8 @@ responsible:
 title: Das generieren von Datensätzen
 implementationStatus: open
 source:
-    - [interview, nnProf, Minute 00:04:22]
-    - [interview, nnProf, Minute 00:07:30]
+    - [interview, nnProf, Minute 00-04-22]
+    - [interview, nnProf, Minute 00-07-30]
 partOfLargerGoal: Entlastung und Hilfestellung für Studenten.
 history:
     v1:

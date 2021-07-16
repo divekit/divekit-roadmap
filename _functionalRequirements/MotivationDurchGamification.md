@@ -15,6 +15,8 @@ kano:
     reasoning: >
         Diese Anforderung ist als Begeisterungsmerkmal einzuordnen. Studierenden würde ein Fehlen nicht auffallen. Ein Vorhandensein könnte positiv aufgefasst werden.
 source:
+    - [interview, ckohls, Minute 00-29-13]
+    - [interview, nnWMA4, Minute 00-20-10]
 history:
     v1:
         date: 2021-07-03
@@ -31,6 +33,3 @@ Das DiveKit soll durch den Einsatz von Gamification eine intrinsische Motivation
 
 Siehe Ziel
 
-## FIXME - muss wieder ins Front Matter hochkopiert werden
-    - [interview, ckohls, Minute 00:29:13]
-    - [interview, nnWMA4, Minute 00:20:10]

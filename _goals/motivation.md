@@ -7,7 +7,7 @@ responsible:
     - ako
 title: Motivation von Studierenden
 source:
-    - [interview, ckohls, Minute 00:29:13]
+    - [interview, ckohls, Minute 00-29-13]
 partOfLargerGoal: 
 history:
     v1:

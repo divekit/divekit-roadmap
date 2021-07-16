@@ -5,7 +5,7 @@ responsible:
     - tza
 title: Das Erstellen von Aufgaben erleichtern
 source:
-    - [interview, fkrampe, Minute 00:12:01]
+    - [interview, fkrampe, Minute 00-12-01]
 partOfLargerGoal: entlastung
 history:
     v1:

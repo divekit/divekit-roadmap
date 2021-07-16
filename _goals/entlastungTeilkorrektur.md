@@ -5,7 +5,7 @@ responsible:
     - mba
 title: Die teil Korrektur von Aufgaben
 source:
-    - [interview, nnProf, Minute 00:47:44]
+    - [interview, nnProf, Minute 00-47-44]
 partOfLargerGoal: entlastung
 history:
     v1:

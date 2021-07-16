@@ -6,8 +6,8 @@ responsible:
 title: Kurze Beschreibung
 goals: 
     -
-    -
 source:
+    - [interview, fkrampe, Minute 00-12-01]
 implementationStatus: open
 prefilterPriorizationPoints: 
 kano:
@@ -41,6 +41,4 @@ Das DiveKit {Verbindlichkeit/Wichtigkeit} {Art der Funktionalität} {Objekt} {Pr
 
 Falls es zusätzliche Begründung für eine Anforderung benötigt (neben den oben referenzierten Zielen), hier kurz erläutern
 
-
-## FIXME - muss wieder ins Front Matter hochkopiert werden
-    - [interview, fkrampe, Minute 00:12:01]
+    

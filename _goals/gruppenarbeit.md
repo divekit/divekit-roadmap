@@ -7,7 +7,7 @@ responsible:
     - ako
 title: Unterstützung von Gruppenarbeit
 source:
-    - [interview, mreitano, Minute 00:19:50]
+    - [interview, mreitano, Minute 00-19-50]
 partOfLargerGoal:
 history:
     v1:

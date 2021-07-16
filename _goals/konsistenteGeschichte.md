@@ -7,7 +7,7 @@ responsible:
     - ako
 title: Beibehalten einer konsistenten Geschichte
 source:
-    - [interview, sbente, Minute 00:31:38]
+    - [interview, sbente, Minute 00-31-38]
 partOfLargerGoal:
 history:
     v1:

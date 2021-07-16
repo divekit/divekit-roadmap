@@ -5,6 +5,7 @@ responsible:
     - mba
 title: Verhinder, dass Studenten gegen das Tool arbeiten.
 source:
+    - [interview, nnProf, Minute 00-50-16]
 partOfLargerGoal: 
 history:
     v1:
@@ -12,10 +13,10 @@ history:
         comment: initially created
     v2:
         date: 2021-07-16
-        comment: source runterkopiert
+        comment: source runterkopiert; source wieder hoch kopiert
 
 todo:
-    - source hoch kopieren
+
 ---
 
 ## Beschreibung
@@ -25,6 +26,4 @@ Studenten sollen nicht in der Lage sein gegen das Tool zu arbeiten. Das heißt s
 ## Begründung
 
 Es soll sichergestellt werden, dass das Tool mit den Lehrinhalten nämlich das Übermitteln von Wissen übereinstimmt.
-
-## FIXME später hoch kopieren
-    - [interview, nnProf, Minute 00:50:16]
+ 

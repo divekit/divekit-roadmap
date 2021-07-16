@@ -8,6 +8,8 @@ goals:
     - entlastungAufgabenerstellung
     - entlastung
 source:
+    - [interview, fkrampe, Minute 00-09-47]
+    - [interview, fkrampe, Minute 00-25-49]
 implementationStatus: implemented
 prefilterPriorizationPoints: 3
 history:
@@ -30,6 +32,3 @@ Das DiveKit muss ein origin git repository mit Aufgaben für jeden Studenten ind
 Diese funktionale Anforderung bietet Studenten die Möglichkeit, die Aufgaben der
 Meilensteine (die in einem Repo sein können) einzelnd zu bearbeiten.
 
-## FIXME - muss wieder ins Front Matter hochkopiert werden
-    - [interview, fkrampe, Minute 00:09:47]
-    - [interview, fkrampe, Minute 00:25:49]

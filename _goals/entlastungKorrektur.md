@@ -6,6 +6,9 @@ responsible:
     - mba
 title: Korrektur von Aufgaben erleichtern
 source:
+    - [interview, fkrampe, Minute 00-12-01]
+    - [interview, fkrampe, Minute 00-09-47]
+    - [interview, nnProf, Minute 00-47-44]
 partOfLargerGoal: entlastung
 history:
     v1:
@@ -33,8 +36,3 @@ Die generierung einer Teilkorrektur ohne wirklich eine Note als Ergebnis abzuzie
 
 Wird dieses Ziel erreicht, wird der Mitarbeiter etwas entlastet, was ein übergeordnetes Ziel ist.
 
-
-## FIXME - muss wieder ins Front Matter hoch kopiert werden
-    - [interview, fkrampe, Minute 00:12:01]
-    - [interview, fkrampe, Minute 00:09:47]
-    - [interview, nnProf, Minute 00:47:44]
