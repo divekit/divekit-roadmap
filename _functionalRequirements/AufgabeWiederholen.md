@@ -5,8 +5,6 @@ responsible:
     - ama
 title: Möglichkeit eine Aufgabe zu wiederholen
 goals:
-    - gamification
-    - levelsystem
     - motivation
 implementationStatus: open
 prefilterPriorizationPoints: 0
@@ -19,8 +17,10 @@ history:
     v2:
         date: 2021-07-15
         comment: Fixed goals
+
 todo:
     - Bitte präzisieren - was genau heißt das? Ein Repo kann beliebig oft gepusht werden, es gibt nur ein Zeitlimit. Das wird aber von den Betreuern gesetzt und nicht vom Tool. 
+    - Goals gamification und levelsystem existieren so nicht. Ich sehe keinen Grund ein Requirement zu erfinden wenn kein Stakeholder jemals etwas von "leveln" gesagt hat.
 ---
 
 Wenn der Studierende ein Level-Abschnitt nicht geschafft hat, sollte das Divekit sicherstellen, dass der Benutzer beim gleichen Level wieder starten kann.
