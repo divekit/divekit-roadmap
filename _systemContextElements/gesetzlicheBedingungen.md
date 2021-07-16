@@ -10,7 +10,9 @@ history:
         date: 2021-06-03
         comment: initially created
 todo:
-
+    - Erläuterung spezifizieren
+    - ggf. Gesetzestexte? 
+    - Studierender ist die einfache Formulierung 
 ---
 
 ## Erläuterung

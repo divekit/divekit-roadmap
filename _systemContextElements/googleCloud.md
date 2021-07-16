@@ -12,9 +12,9 @@ history:
     v2: 
         date: 2021-06-17
         comment: erklärung ergänzen
-todo:
-  
 
+todo:
+    - Erklärung spezifizieren
 ---
 
 ## Erläuterung

@@ -4,11 +4,14 @@ type: itsystem
 responsible:
     - kru
 mentionnedInSource: 
-    - [interview, nnWMA4, Minute 00:38:26]
+    - [interview, nnWMA4, Minute 00-38-26]
 history:
     v1:
         date: 2021-07-03
         comment: initially created
+
+todo:
+    - Verlinkung zu ilias
 ---
 
 ## Erläuterung

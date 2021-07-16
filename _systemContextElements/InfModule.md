@@ -10,6 +10,7 @@ history:
         date: 2021-06-24
         comment: initially created
 todo:
+    - Erklärung etwas ergänzen
 ---
 
 ## Erläuterung
