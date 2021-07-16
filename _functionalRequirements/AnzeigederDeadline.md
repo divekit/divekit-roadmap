@@ -7,7 +7,6 @@ responsible:
 title: Anzeige der Deadline
 goals: 
     - relevanteInformationen
-    -
 implementationStatus: open
 prefilterPriorizationPoints: 8
 kano:
