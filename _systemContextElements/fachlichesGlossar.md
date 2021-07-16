@@ -6,7 +6,7 @@ responsible:
     - ako
     - duz
 mentionnedInSource:
-    - [interview, sbente, Minute 00:18:07]
+    - [interview, sbente, Minute 00-18-07]
 history:
     v1:
         date: 2021-07-03

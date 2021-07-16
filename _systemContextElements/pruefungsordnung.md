@@ -4,8 +4,8 @@ type: regulation
 responsible:
     - tza
 mentionnedInSource: 
-    - [interview, fkrampe, Minute 00:09:47]
-    - [interview, fkrampe, Minute 00:39:16]
+    - [interview, fkrampe, Minute 00-09-47]
+    - [interview, fkrampe, Minute 00-39-16]
     - [interview, nnWMA2, time unclear]
 history:
     v1:
@@ -13,6 +13,7 @@ history:
         comment: initially created
 todo:
     - nnWMA2 -> Aussage -> Für Klausuren lässt sich das Tool laut des Interviewten aus rechtlichen Gründen nicht nutzen
+    - besser als n.n. oder ähnlich markieren
 ---
 
 ## Erläuterung
