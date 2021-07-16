@@ -6,7 +6,7 @@ responsible:
     - duz
 title: Allgemeines Feedback
 goals:
-    - besseresVerständnis
+    - besseresVerstaendnis
 implementationStatus: open
 prefilterPriorizationPoints: 4
 kano:

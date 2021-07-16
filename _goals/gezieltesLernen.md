@@ -7,7 +7,7 @@ responsible:
     - ako
 title: Unterstützung durch Bereitstellen von Materialien
 source:
-    - [beobachtungstagebuch, RD2]
+    - [survey, beobachtungstagebuch, RD2]
 partOfLargerGoal:
 history:
     v1:

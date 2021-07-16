@@ -17,7 +17,7 @@ history:
 
 todo:
     - Mergen mit Korrektur
-        - Das hier ist ein eigener goal, es sollte nicht gemerged werden
+    - Das hier ist ein eigener goal, es sollte nicht gemerged werden
 ---
 
 ## Beschreibung
