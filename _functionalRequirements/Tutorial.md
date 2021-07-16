@@ -17,9 +17,12 @@ history:
     v2:
         date: 2021-07-15
         comment: Fixed goales
+    v3:
+        date: 2021-07-16
+        comment: update todos
 todo: 
-    - Was genau heißt "Git rollback/compare nicht beachten)"?
-    - IMHO ein eher sinnloses Requirement. Anweisung an die Studierenden bzgl. pom.xml ist GANZ einfach - "Finger weg" 
+    - IMHO ein eher sinnloses Requirement. Anweisung an die Studierenden bzgl. pom.xml ist GANZ einfach - "Finger weg"
+    - Aus dieser FA könnte man aber auch eine generelle Bedienhilfe Ableiten, welche nicht sinnlos ist.   
     
 ---
 
@@ -28,4 +31,4 @@ Das DiveKit muss eine Bedienhilfe anbieten, in welchem der Nutzer die Standardei
 ## Begründung
 
 Bei fehlerhaften Umgebungseinstellungen (pom.xml) soll dem Nutzer die Möglichkeit gegeben sein nachzuschauen, wie diese korrekt auszusehen haben.
-(Git rollback/compare nicht beachten)
+Hierbei soll beachtet werden, dass der Nutzer eine Vorlage zum korregieren hat und nicht beispielsweise ein Rollback zu einem bestimmten Commit zu machen oder ein compare mit einer älteren Version der pom.xml.
