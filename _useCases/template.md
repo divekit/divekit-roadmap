@@ -1,11 +1,19 @@
 ---
 type: useCase
 acronym: useCaseA
-stakeholders: (?)
-    - 
 responsible: 
-    - 
-title: Use Case A
+    - xyz
+title: Schaden bewerten
+description: Ein Gutachter bewertet den gemeldeten Schaden
+primaryActor: gutachter (stakeholderRole)
+secondaryActors:
+    - actor1 (stakeholderRole)
+    - actor2 (stakeholderRole)    
+trigger: Kunde hat einen Schaden gemeldet
+precondition: Gutachter wurde dem Fall zugewiesen
+postcondition: Der Kunde erhält die Nachricht über die Höhe der Schadensbewertung
+diagrams:
+    - (list of diagram refs where this use case appears in, can have 1 element)
 source: 
     - 
 history:
@@ -13,50 +21,31 @@ history:
         date: 2021-06-02
         comment: initially created
 todo: 
-    - 
 ---
 
-## Beschreibung
 
+## Hauptszenario
 
+* 1) Gutachter identifiziert sich als zuständige Person
+* 2) Gutachter begutachtet den Schaden
+* 3) Der Gutachter beziffert den Schaden monetär 
+* 4) Das System leitet den monetären Wert wird weiter an die Sachbearbeiterin
+* 5) Die Sachbearbeiterin schließt den Fall ab und gibt die Auszahlung an den Kunden frei
+* 6) Das System schickt eine automatisierte Nachricht an den Kunden 
 
+## Alternativszenario
 
+* 5a) Der monetäre Schaden übertrifft den Versicherungsschutz des Kunden
+* 5b) Der Schaden wird auf den maximal zulässigen Wert gesetzt
 
-## Tabelle
+## Ausnahmeszenario 
 
-|                           |     |
-| ------------------------- | --- |
-| ID                        |     |
-| Name                      |     |
-| Beschreibung              |     |
-| Auslösender Aktor         |     |
-| Weiter Aktoren            |     |
-| Auslöser                  |     |
-| Vorbedingung              |     |
-| Nachbedingung             |     |
-| Hauptszenario             |     |
-| Alternativszenario        |     |
-| Ausnahmeszenario          |     |
+* 3a) Der Gutachten entdeckt Indizien, dass der Schaden von der Versicherung nicht akzeptiert wird (z.B. wegen Verdacht auf Betrug)
+* 3b) Der Gutachter hinterlegt im System eine ausführliche Begründung
+* 5a) Die Sachbearbeiterin leitet den Vorgang weiter an die interne Abteilung für Betrug
+* 6a) Das System schickt eine Nachricht an den Kunden, dass die Bearbeitung noch Zeit benötigt. 
 
-
-
-
-
-## Beispiel
-
-|                           |     |
-| ------------------------- | --- |
-| ID                        | VERS_02 |
-| Name                      | Schaden bewerten |
-| Beschreibung              | Ein Gutachter bewertet den gemeldeten Schaden |
-| Auslösender Aktor         | Gutachter |
-| Weiter Aktoren            | - |
-| Auslöser                  | Kunde hat einen Schaden gemeldet |
-| Vorbedingung              | Gutachter wurde dem Fall zugewiesen  |
-| Nachbedingung             |  Der Schaden hat einen monetaren Wert |
-| Hauptszenario             | <ul><li>1) Gutachter identifiziert sich als zuständige Person</li><li>2) Gutachter begutachtet den Schaden</li><li>3) Der Schaden wird monetär beziffert</li><li>4) Der monetäre Wert wird weitergeleitet</li></ul> |
-| Alternativszenario        | <ul><li>3a) Der monetäre Schaden übertrifft den Versicherungsschutz des Kunden</li><li>3b) Der Schaden wird auf den maximale zulässigen Wert gesetzt</li></ul> |
-| Ausnahmeszenario          | <ul><li>3a) Der Schaden wird nicht akzeptiert</li><li>3b) Es wird kein monetärer Wert zugewisesen (0€)</li></ul> |
+**Andere Nachbedingung**: Schaden wird nicht akzeptiert, es wird kein monetärer Wert zugewisesen (0€).
 
 
 
