@@ -4,9 +4,10 @@ acronym: StudierendenReview
 responsible:
     - mwi
     - duz
+    - ako
 title: Studierenden Review
 goals:
-    - austauschUnterStudierenden
+    - studierendenAustausch
 source:
     - [beobachtungstagebuch, RD1]
 implementationStatus: open
