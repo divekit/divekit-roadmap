@@ -24,7 +24,7 @@ todo:
 
 ## Beschreibung
 
-BWL Professor:innen erhalten qualitative Unterstützung von individuellen Projektarbeiten.
+BWL Professor:innen erhalten qualitative Unterstützung bei der Bewertung von individuellen Projektarbeiten durch das Divekit.
 
 ## Begründung
 
