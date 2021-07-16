@@ -23,4 +23,4 @@ Die Korrektur von so vielen Praktikumsaufgaben wie möglich sollte vollautomatis
 
 ## Begründung
 
-Das Bearbeiten von viele Aufgaben und auch ads Feedback zur Lösung ist shcon automatisiert. Die Aspekte die noch nicht automatisiert sind brechen diesen Workflow und halten sehr lange auf.
+Das Bearbeiten von viele Aufgaben und auch das Feedback zur Lösung ist schon automatisiert. Die Aspekte die noch nicht automatisiert sind brechen diesen Workflow und halten sehr lange auf.
