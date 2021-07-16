@@ -3,6 +3,7 @@ type: functionalRequirement
 acronym: GleicheSchwierigkeit
 responsible: 
     - jlü
+    - mba
 title: Individualisierte Aufgaben haben einen Vergleichbaren Schwierigkeitsgrad
 goals: 
     - aufgabentypenIndividual
