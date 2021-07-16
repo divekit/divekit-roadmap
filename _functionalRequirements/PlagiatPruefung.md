@@ -23,7 +23,7 @@ history:
     v2:
         date: 2021-07-16
         comment: added goal
-    v2:
+    v3:
         date: 2021-07-16
         comment: added kano classification      
 todo: 
