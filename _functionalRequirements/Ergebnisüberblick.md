@@ -6,7 +6,7 @@ responsible:
     - ako
 title: Ergebnisüberblick
 goals:
-    - verbesserteDarstellung
+    - verbesserteDarstellungTestseite
 source:
     - [beobachtungstagebuch, HS1]
 implementationStatus: implemented
