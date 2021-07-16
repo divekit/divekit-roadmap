@@ -38,7 +38,7 @@ todo:
 
 Mark Nehls ist 76 Jahre alt ist und Professor an einer Informatik-Hochschule außerhalb der TH Köln. Seit 7 Jahren hat er die Professur inne und hat davor 20 Jahre als Berater für Unternehmen und Behörden gearbeitet
 
-Seine Schwerpunkte in der Lehre sind die Programmierer Ausbildung und vor allem die Systemintegration. Er lehrt den Umgang mit z.B. PHP, Java, Shell-Skripten usw. Wichtige Schwerpunkte der Systemintegration sind Linx, aufsetzen einer VM, vernetzen, automatisieren, Datensicherung und viele mehr.
+Seine Schwerpunkte in der Lehre sind die Programmierer Ausbildung und vor allem die Systemintegration. Er lehrt den Umgang mit z.B. PHP, Java, Shell-Skripten usw. Wichtige Schwerpunkte der Systemintegration sind Linux, aufsetzen einer VM, vernetzen, automatisieren, Datensicherung und viele mehr.
 
 Für die Lehre während der Corona Zeit verwendet Mark ein besonderes Setup. Mit zwei Webcams, eine für das Gesicht und eine für die Tafel – und einem extra Monitor für Chatnachrichten kann er auch aus der Entfernung authentischen Unterricht geben. Besonders wichtig für ihn ist es, den Unterricht interaktiv zu gestalten und meidet reine PowerPoint Veranstaltungen. Einen sehr hohen Stellenwert hat das Live-Coding, bei dem Mark selber Beispiele vorprogrammiert. Die Studierenden sollen nach einer Einführung in kleinen Gruppen selber programmieren, können aber jederzeit Nachfragen stellen. Die abschließenden Einzelgespräche über das Ergebnis werden als hervorragende Methode empfunden, um den Lernstand zu sichern und eventuelle Lücken sofort zu schließen. Die Idee der individuellen digitalen Einzelgespräche möchte Mark auch nach der Rückkehr zu örtlichen Veranstaltungen beibehalten.
 
