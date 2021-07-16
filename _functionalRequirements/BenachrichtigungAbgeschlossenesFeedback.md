@@ -6,10 +6,11 @@ responsible:
     - duz
 title: Benachrichtigung nach abgeschlossenem Feedback
 goals:
-    - zeitnahesFeedback
+    - zeitnaheUeberpruefung
 implementationStatus: open
 prefilterPriorizationPoints: 0
 source:
+    - [beobachtungstagebuch, PC8]
     - [beobachtungstagebuch, PC9]
 history:
     v1:

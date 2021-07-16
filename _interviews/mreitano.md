@@ -5,7 +5,7 @@ responsible:
     - ako
     - kru
     - duz
-stakeholder: sbe
+stakeholder: mre
 date: 2020-01-21
 duration: 00:55:37
 location: Zoom-Meeting

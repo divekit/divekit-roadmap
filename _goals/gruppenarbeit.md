@@ -14,8 +14,8 @@ history:
         date: 2021-07-12
         comment: initially created
 
-todo: 
-    - "realtistisch lösbar" spezifizieren
+todo:
+    - realistisch lösbar spezifizieren
 ---
 
 ## Beschreibung

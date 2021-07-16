@@ -6,7 +6,8 @@ responsible:
     - ako
 title: Manuelle Korrektur vor der Deadline
 goals:
-    - rückmeldungJederzeit
+    - betreuungRueckfragen
+    - manuellePruefungAnstoßen
 source:
     - [beobachtungstagebuch, PS7]
 implementationStatus: open
