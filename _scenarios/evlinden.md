@@ -27,21 +27,28 @@ history:
     v4:
         date: 2021-07-16
         comment: fixed timestamps
+    v5:
+        date: 2021-07-16
+        comment: updated scenarios
+
 
 todo:
 ---
 
+
+Emilia will am Praktikum von Softwaretechnik 1 im dritten Semester teilnehmen. Als sie an einem Freitag Mittag merkt, dass sie bei der Anwendung des DiveKits Probleme hat.  
+
 ## Hauptszenario 
 
-Emilia will am Praktikum von Softwaretechnik 1 im dritten Semester teilnehmen. Als sie an einem Freitag Mittag merkt, dass sie bei der Anwendung des DiveKits Probleme hat,  versucht sie über Discord eine betreuende Person zu erreichen. Nach kurzer Wartezeit hat eine betreuende Person ihr schriftlich Hilfe zugesichert. Beide treffen sich in einen Discord-Sprachkanal und ihre Fragen werden ausführlich beantwortet. Nun kann sie mit der Bearbeitung der Aufgaben beginnen.
+Nun versucht sie über Discord eine betreuende Person zu erreichen. Nach kurzer Wartezeit hat eine betreuende Person ihr schriftlich Hilfe zugesichert. Beide treffen sich in einen Discord-Sprachkanal und ihre Fragen werden ausführlich beantwortet. Nun kann sie mit der Bearbeitung der Aufgaben beginnen.
 
 ## Alternativszenario (Fehler unbekannt)
 
-Emilia will am Praktikum von Softwaretechnik 1 im dritten Semester teilnehmen. Als sie an einem Freitag Mittag merkt, dass sie bei der Anwendung des DiveKits Probleme hat, versucht sie über Discord die betreuende Person zu erreichen. Nach kurzer Wartezeit hat einer die betreuende Person ihr schriftlich Hilfe zugesichert. Beide treffen sich in einen Discord-Sprachkanal, aber leider konnte der Beutreuer den Fehler auch nicht lösen. Er schließt auf ein fehlerhaft erstelltes Repository. Sie bekommt ein neue Repository zugewiesen. Nun kann sie mit der Bearbeitung der Aufgaben beginnen.
+Nun versucht sie über Discord eine betreuende Person zu erreichen. Nach kurzer Wartezeit hat eine betreuende Person ihr schriftlich Hilfe zugesichert. Beide treffen sich in einen Discord-Sprachkanal, aber leider kennt der Betreuer den Fehler nicht und kann ihn deswegen auch nicht lösen. Er schließt aus den Fehlermeldungen, dass es sich um einen unbekannten Fehler im erstellten Repository handelt. Sie bekommt ein neues Repository zugewiesen. Nun kann sie mit der Bearbeitung der Aufgaben beginnen.
 
 ## Alternativszenario 2 (Kommunikationsweg)
 
-Emilia will am Praktikum von Softwaretechnik 1 im dritten Semester teilnehmen. Als sie an einem Freitag Mittag merkt, dass sie bei der Anwendung des DiveKits Probleme hat, versucht sie über E-Mail eine betreuende Person zu erreichen. Sie muss einige Zeit auf eine Antwort warten und bekommt eine auführliche Beantwortung ihrer Fragen zurück. Nun kann sie mit der Bearbeitung der Aufgabe beginnen.
+Nun versucht sie über E-Mail eine betreuende Person zu erreichen. Sie muss einige Zeit auf eine Antwort warten und bekommt eine auführliche, schriftliche Beantwortung ihrer Fragen zurück. Nun kann sie mit der Bearbeitung der Aufgabe beginnen.
 
 ## Negativ Szenario
 
