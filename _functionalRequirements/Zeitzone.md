@@ -1,13 +1,9 @@
 ---
 type: functionalRequirement
 acronym: Zeitzone
-responsible: 
-    - mwi
-    - mba
+responsible:
     - jlü
     - kru
-    - duz
-    - ako
 title: Zeitzone dem Nutzenden anpassen
 goals: 
     - robustheit
@@ -31,6 +27,10 @@ history:
     v5:
         date: 2021-07-15
         comment: Fixed goales
+    v6:
+        date: 2021-07-16
+        comment: Modified responsibles as discussed
+
 todo: 
 ---
 

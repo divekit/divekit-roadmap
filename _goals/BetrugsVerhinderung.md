@@ -7,7 +7,7 @@ responsible:
 title: Betrugsversuche verhindern
 source: 
     - Interview mmProf3
-    - [interview, jintveen, Minute 00:06:56]
+    - [interview, jintveen, Minute 00-06-56]
 partOfLargerGoal: 
 history:
     v1:

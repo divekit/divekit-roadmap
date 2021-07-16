@@ -1,13 +1,9 @@
 ---
 type: functionalRequirement
 acronym: TestFeedback
-responsible: 
-    - mwi
-    - mba
+responsible:
     - jlü
     - kru
-    - duz
-    - ako
 title: Feedback zu Tests
 goals: 
     - fehlerAusgabe
@@ -25,6 +21,9 @@ history:
     v3:
         date: 2021-07-12
         comment: Added all responsible authors
+    v4:
+        date: 2021-07-16
+        comment: Modified responsibles as discussed
 ---
 
 Das DiveKit muss in der Lage sein Studierenden zu nicht bestandenen Tests Feedback anzuzeigen.

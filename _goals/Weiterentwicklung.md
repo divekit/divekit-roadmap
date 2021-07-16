@@ -6,7 +6,7 @@ responsible:
     - ngi
 title: Weiterentwicklung des Divekit
 source: 
-    - Interview n.n. WMA  50:45
+    - Interview n.n. WMA  50-45
 partOfLargerGoal: 
 history:
     v1:

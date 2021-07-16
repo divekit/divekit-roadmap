@@ -5,7 +5,7 @@ responsible:
     - jsp
 title: Kommunikation zwischen den Anwendern
 goals: 
-    - Kommunikation
+    - kommunikation
 implementationStatus: open
 prefilterPriorizationPoints: 4
 kano:

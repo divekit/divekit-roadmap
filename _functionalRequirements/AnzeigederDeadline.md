@@ -2,16 +2,11 @@
 type: functionalRequirement
 acronym: AnzeigederDeadline
 responsible: 
-    - mwi
-    - mba
     - jlü
-    - kru
-    - duz
     - ako
 title: Anzeige der Deadline
 goals: 
     - relevanteInformationen
-    -
 implementationStatus: open
 prefilterPriorizationPoints: 8
 kano:
@@ -37,6 +32,10 @@ history:
     v4:
         date: 2021-07-15
         comment: Added kano reasoning
+    v5:
+        date: 2021-07-16
+        comment: Modified responsibles as discussed
+
 todo: 
 ---
 

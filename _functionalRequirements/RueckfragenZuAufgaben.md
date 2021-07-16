@@ -8,6 +8,12 @@ goals:
     - betreuungRueckfragen
 implementationStatus: open
 prefilterPriorizationPoints: 2
+kano:
+    type: basic
+    reasoning: >
+        Es löst keine Begeisterung aus, wenn man direkt bei der Aufgabenstellung eine Rückfrage-Funktion zur Verfügung hat.
+        Dafür ist das Feature zu funktional. Es würde aber nerven, wenn man häufiger mal Rückfragen stellen muss und dazu jedes
+        Mal Umwege nehmen und die Aufgabenstellung manuell kopieren muss. Daher ist dieses Feature ein Basis-Feature.
 source:
     - [workshop, waltDisney]
 history:
@@ -17,6 +23,9 @@ history:
     v2:
         date: 2021-07-15
         comment: fix goals
+    v3:
+        date: 2021-07-16
+        comment: add kano
 ---
 
 Das DiveKit soll Studierenden die Möglichkeit bieten, direkt Rückfragen zu Aufgaben zu stellen.

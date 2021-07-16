@@ -1,13 +1,9 @@
 ---
 type: functionalRequirement
 acronym: LetzteAktualisierung
-responsible: 
-    - mwi
-    - mba
+responsible:
     - jlü
     - kru
-    - duz
-    - ako
 title: Letzte Aktualisierung des Codes
 goals: 
     - entlastungKorrektur
@@ -26,6 +22,10 @@ history:
     v3:
         date: 2021-07-15
         comment: Fixed goales
+    v4:
+        date: 2021-07-16
+        comment: Modified responsibles as discussed
+
 todo:
 ---
 

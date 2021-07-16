@@ -7,15 +7,15 @@ responsible:
     - ako
 title: Betreuung von Studierenden
 source:
-    - [interview, sbente, Minute 00:49:27]
-    - [interview, nnProf, Minute 00:07:30]    
-    - [interview, nnProf, Minute 00:07:43]
-    - [interview, mengelen, Minute 00:23:21]
-    - [interview, mengelen, Minute 00:27:00]
-    - [interview, fkrampe, Minute 00:59:35]
-    - [interview, fkrampe, Minute 01:02:57]
-    - [interview, fkrampe, Minute 00:05:05]
-    - [interview, fkrampe, Minute 00:09:47]    
+    - [interview, sbente, Minute 00-49-27]
+    - [interview, nnProf, Minute 00-07-30]    
+    - [interview, nnProf, Minute 00-07-43]
+    - [interview, mengelen, Minute 00-23-21]
+    - [interview, mengelen, Minute 00-27-00]
+    - [interview, fkrampe, Minute 00-59-35]
+    - [interview, fkrampe, Minute 01-02-57]
+    - [interview, fkrampe, Minute 00-05-05]
+    - [interview, fkrampe, Minute 00-09-47]    
 partOfLargerGoal: 
 history:
     v1:

@@ -1,13 +1,9 @@
 ---
 type: functionalRequirement
 acronym: EindeutigePseudonyme
-responsible: 
-    - mwi
-    - mba
+responsible:
     - jlü
-    - kru
     - duz
-    - ako
 title: Die manuelle Korrektur muss eindeutig zu zuordnen sein
 goals: 
     - zuordnungKorrigierenden
@@ -31,6 +27,10 @@ history:
     v5:
         date: 2021-07-15
         comment: Fixed goales
+    v6:
+        date: 2021-07-16
+        comment: Modified responsibles as discussed
+
 todo: 
 ---
 

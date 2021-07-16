@@ -8,6 +8,8 @@ responsible:
 title: Studenten erwarten eine automatisierte Interkation mit dem System
 source: 
     - [workshop, waltDisney]
+    - [interview, fkrampe, Minute 00-11-42]
+    - [interview, fkrampe, Minute 00-15-22]
 partOfLargerGoal: entlastung
 history:
     v1:
@@ -15,13 +17,12 @@ history:
         comment: initially created
 
 todo: 
-    - Mergen mit entlastungKorrektur.md / entlastungTeilkorrektur.md
 ---
 
 ## Beschreibung
 
-Die Bearbeitung und Korrektur der Praktikumsaufgaben sollte vollautomatisch sein.
+Die Korrektur von so vielen Praktikumsaufgaben wie möglich sollte vollautomatisch sein.
 
 ## Begründung
 
-Das Bearbeiten von viele Aufgaben und auch ads Feedback zur Lösung ist shcon automatisiert. Die Aspekte die noch nicht automatisiert sind brechen diesen Workflow und halten sehr lange auf.
+Das Bearbeiten von viele Aufgaben und auch das Feedback zur Lösung ist schon automatisiert. Die Aspekte die noch nicht automatisiert sind brechen diesen Workflow und halten sehr lange auf.

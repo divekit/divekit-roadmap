@@ -3,11 +3,7 @@ type: functionalRequirement
 acronym: AllgemeinesFeedback
 responsible:
     - mwi
-    - mba
-    - jlü
-    - kru
     - duz
-    - ako
 title: Allgemeines Feedback
 goals:
     - besseresVerständnis
@@ -26,6 +22,10 @@ history:
     v2:
         date: 2021-07-12
         comment: Added all responsible authors, modified FA and reason regarding the todo
+    v3:
+        date: 2021-07-16
+        comment: Modified responsibles as discussed
+
 todo:
 ---
 

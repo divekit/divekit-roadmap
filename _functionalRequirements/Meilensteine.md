@@ -1,13 +1,9 @@
 ---
 type: functionalRequirement
 acronym: Meilensteine
-responsible: 
-    - mwi
-    - mba
+responsible:
     - jlü
     - kru
-    - duz
-    - ako
 title: Das Divekit soll meilensteine anbieten, zwischen denen gewechselt werden kann
 goals: 
     - organisationMeilensteine
@@ -28,6 +24,10 @@ history:
     v4:
         date: 2021-07-15
         comment: Fixed goales
+    v5:
+        date: 2021-07-16
+        comment: Modified responsibles as discussed
+
 todo: 
 ---
 

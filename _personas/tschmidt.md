@@ -10,12 +10,12 @@ isPrimary: yes
 relationshipToProject: >
     Anwender des Systems in mehreren Lehrveranstaltungen. Interesse an der Individualisierung und automatischen Korrigieren der Aufgaben.
 source:
-    - [interview, fkrampe, Minute 00:01:55]
-    - [interview, fkrampe, Minute 00:03:04]
-    - [interview, fkrampe, Minute 00:36:29]
-    - [interview, fkrampe, Minute 00:05:05]
-    - [interview, fkrampe, Minute 00:13:25]
-    - [interview, fkrampe, Minute 00:09:47]
+    - [interview, fkrampe, Minute 00-01-55]
+    - [interview, fkrampe, Minute 00-03-04]
+    - [interview, fkrampe, Minute 00-36-29]
+    - [interview, fkrampe, Minute 00-05-05]
+    - [interview, fkrampe, Minute 00-13-25]
+    - [interview, fkrampe, Minute 00-09-47]
 history:
     v1:
         date: 2021-06-04

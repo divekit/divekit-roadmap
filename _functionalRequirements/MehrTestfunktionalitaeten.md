@@ -3,11 +3,7 @@ type: functionalRequirement
 acronym: MehrTestfunktionalitaeten
 responsible:
     - mwi
-    - mba
-    - jlü
     - kru
-    - duz
-    - ako
 title: Mehr Testfunktionalitäten
 goals:
     - verbesserteLösungsqualität
@@ -22,6 +18,10 @@ history:
     v2:
         date: 2021-07-12
         comment: Added all responsible authors
+    v3:
+        date: 2021-07-16
+        comment: Modified responsibles as discussed
+
 todo:
     - Bitte Satzschablone verwenden
     - mir ist nicht klar, was für dieses Requirement implementiert werden muss

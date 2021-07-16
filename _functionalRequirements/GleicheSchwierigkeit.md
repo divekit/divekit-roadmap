@@ -3,6 +3,7 @@ type: functionalRequirement
 acronym: GleicheSchwierigkeit
 responsible: 
     - jlü
+    - mba
 title: Individualisierte Aufgaben haben einen Vergleichbaren Schwierigkeitsgrad
 goals: 
     - aufgabentypenIndividual
@@ -11,6 +12,10 @@ source:
     - [interview, nnProf3]
 prefilterPriorizationPoints: 3
 implementationStatus: open
+kano:
+    type: basic
+    reasoning: >
+       In einem Prüfungsumfeld muss gewährleistet sein, dass der zu prüfende Inhalt allen Studierenden in einem gleichen Schwierigkeitsgrad gestellt wird.
 history:
     v1:
         date: 2021-06-25

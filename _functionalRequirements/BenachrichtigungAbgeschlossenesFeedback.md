@@ -3,11 +3,7 @@ type: functionalRequirement
 acronym: BenachrichtigungAbgeschlossenePruefung
 responsible:
     - mwi
-    - mba
-    - jlü
-    - kru
     - duz
-    - ako
 title: Benachrichtigung nach abgeschlossenem Feedback
 goals:
     - zeitnahesFeedback
@@ -22,6 +18,10 @@ history:
     v2:
         date: 2021-07-12
         comment: Added all responsible authors, modified title and filename (regarding todo) and added reason
+    v3:
+        date: 2021-07-16
+        comment: Modified responsibles as discussed
+
 todo:
 ---
 

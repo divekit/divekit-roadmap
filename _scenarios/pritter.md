@@ -4,12 +4,7 @@ acronym: pritter
 title: ???
 persona: pritter
 scenarioTypes: 
-    - main
     - negative
-    - concrete
-    - interaction
-    - system
-    - descriptive
 responsible: 
     - hbu
 source: 
@@ -23,7 +18,6 @@ history:
         date: 2021-05-28
         comment: initially created
 todo: 
-    - Auswählen von 1 oder mehr scenarioTypes (was passiert hier denn?)
 ---
 
 ## Beschreibung

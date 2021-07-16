@@ -5,7 +5,7 @@ responsible:
     - psc
 title: Interpretierbare Aufgaben ermöglichen
 source:
-    - [interview, mengelen, Minute 00:14:46]
+    - [interview, mengelen, Minute 00-14-46]
 partOfLargerGoal: aufgabentypen
 history:
     v1:

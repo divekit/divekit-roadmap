@@ -4,7 +4,7 @@ type: survey
 subject: Dokumentation jedes Kontakts mit dem DiveKit zur Sammlung von Input für dessen Weiterentwicklung aus Studenten-Sicht.
 responsible: 
     - mwi
-    - mba
+    - ama
     - jlü
     - kru
     - duz
@@ -23,6 +23,9 @@ history:
     v3:
         date: 2021-06-27
         comment: added list of participants, results and corresponding documents
+    v4:
+        date: 2021-07-16
+        comment: changed results into rohdatenformat
         
 todo: 
 
@@ -69,96 +72,219 @@ Kreativbereich/Sonstiges: "In diesem Feld bist du frei Dinge aufzuschreiben oder
 13. Phil Banks (PB)
 
 ## Ergebnisse
-(PC1)	Das System muss in der Lage sein Fehlermeldungen anzuzeigen.
 
-(PC2)	Das System muss in der Lage sein Studierenden zu nicht bestandenen Tests Feedback anzuzeigen.
+### Percival Craig (mwi)
 
-(PC3)	Das System sollte eine simple Gliederung der Testseite haben.
+(PC1) Das System muss in der Lage sein Fehlermeldungen anzuzeigen.
 
-(PC4)	Das System muss so aufgebaut sein, dass der (Kennen)Lernprozess nicht zu aufwendig ist.
+(PC2) Das System muss in der Lage sein Studierenden zu nicht bestandenen Tests Feedback anzuzeigen.
 
-(PC5)	Das System muss eine kurze Refresh-Time haben.
+(PC3) Das System sollte eine simple Gliederung der Testseite haben.
 
-(PC6)	Das System muss in der Lage sein, die durch die Studierenden eingestellten Tests zur Testseite hinzuzufügen, sobald sie im richtigen Projektordner abgelegt wurden.
+(PC4) Das System muss so aufgebaut sein, dass der (Kennen)Lernprozess nicht zu aufwendig ist.
 
-(PC7)	Das System sollte in der Lage sein eine visuelle und/oder textuelle Rückmeldung nach der Prüfung der Tests zu geben, um die Übersichtlichkeit zu verbessern.
+(PC5) Das System muss eine kurze Refresh-Time haben.
 
-(PC8)	Das System muss in der Lage sein dem Prüfer nach Abschluss eines Tests eine Benachrichtigung zuzusenden, damit manuelles Feedback zeitnah durchgeführt werden kann und Wartezeiten verringert werden.
+(PC6) Das System muss in der Lage sein, die durch die Studierenden eingestellten Tests zur Testseite hinzuzufügen, sobald 
+      sie im richtigen Projektordner abgelegt wurden.
 
-(PC9)	Das System muss in der Lage sein dem Studierenden nach durchgeführtem Feedback eine Benachrichtigung zu senden, damit das Feedback direkt eingesehen werden kann und Wartezeiten verringert werden.
+(PC7) Das System sollte in der Lage sein eine visuelle und/oder textuelle Rückmeldung nach der Prüfung der Tests zu geben, 
+      um die Übersichtlichkeit zu verbessern.
 
-(PC10)	Das System muss in der Lage sein dem Studierenden zu bestandenen Test und/oder zu allgemeinen Dingen Feedback zu geben. Es soll zudem eine Aussage darüber geben wie “gut” eine Lösung ist.
+(PC8) Das System muss in der Lage sein dem Prüfer nach Abschluss eines Tests eine Benachrichtigung zuzusenden, damit 
+      manuelles Feedback zeitnah durchgeführt werden kann und Wartezeiten verringert werden.
 
-(PC11)	Das System sollte in der Lage sein den Studierenden ein Feedback Archiv zur Verfügung zu stellen, um vorherige Kommentare einsehen zu können.
+(PC9) Das System muss in der Lage sein dem Studierenden nach durchgeführtem Feedback eine Benachrichtigung zu senden, 
+      damit das Feedback direkt eingesehen werden kann und Wartezeiten verringert werden.
 
----
+(PC10) Das System muss in der Lage sein dem Studierenden zu bestandenen Test und/oder zu allgemeinen Dingen Feedback zu 
+       geben. Es soll zudem eine Aussage darüber geben wie “gut” eine Lösung ist.
 
-(HS1)	Das System muss in der Lage sein die Ergebnisse eines Tests auf der gleichen Seite und nicht auf einer extra Seite anzeigen zu können.
-
-(HS2)	Das System muss in der Lage sein den Studierenden mithilfe von visuellen Mitteln anzuzeigen, bei welchen Komponenten es Probleme gab beziehungsweise welche Aufgaben noch nicht bearbeitet wurden.
-
-(HS3)	Das System sollte Usern die Möglichkeit bieten das Design individuell festlegen zu können.
-
----
-
-(RD1)	Das System sollte Studierenden die Möglichkeit bieten sich Hilfe oder (Code-) Reviews bei anderen Studierenden suchen zu können.
-
-(RD2)	Das System sollte in der Lage sein Studierenden weiterführende Informationen (z.B. Videos/Webseiten/Vorlesungsmaterialien) zu konkreten Fehlern zur Verfügung zu stellen.
-
-(RD3)	Das System sollte in der Lage sein Studierenden anzuzeigen, wie lange die Korrektur der Aufgaben dauert bzw. welchen Stand die Korrektur gerade hat.
+(PC11) Das System sollte in der Lage sein den Studierenden ein Feedback Archiv zur Verfügung zu stellen, um vorherige 
+       Kommentare einsehen zu können.
 
 ---
 
-(PS1)	Das System sollte dem User die Möglichkeit bieten Tests lokal auszuführen.
+### Harvey Specter (mwi)
 
-(PS2)	Das System muss die Pseudonyme der korrigierenden Personen eindeutig angeben können.
+(HS1) Das System muss in der Lage sein die Ergebnisse eines Tests auf der gleichen Seite und nicht auf einer extra Seite 
+      anzeigen zu können.
 
-(PS3)	Das System sollte die Zeitzone an den Nutzenden anpassen können.
+(HS2) Das System muss in der Lage sein den Studierenden mithilfe von visuellen Mitteln anzuzeigen, bei welchen Komponenten 
+      es Probleme gab beziehungsweise welche Aufgaben noch nicht bearbeitet wurden.
 
-(PS4)	Das System sollte dem User die Möglichkeit bieten einsehen zu können, wann die Aufgaben manuell korrigiert werden.
+(HS3) Das System sollte Usern die Möglichkeit bieten das Design individuell festlegen zu können.
 
-(PS5)	Das System muss in der Lage sein Usern mit Farbfehlsichtigkeit, insbesondere Usern mit Rot-Grün-Schwäche, die Interpretation der Ergebnisse zu ermöglichen.
-
-(PS6)	Das System muss unverständliche und nicht nachvollziehbare Fehler in der Aufgabenstellung sowie im Testablauf vermeiden.
-
-(PS7)	Das System sollte die Durchführung von manuelle Korrekturen vor der Abgabe ermöglichen.
-
----
-
-(PP1)	Das System soll mehr Tests bereitstellen, die den Code testen.
-
-(PP2)	Das System sollte das Durchlaufen von Tests bei falschen Lösungen verhindern.
-
----
-
-(FH1)	Das System sollte in der Lage sein den User einfach zwischen Meilensteinen wechseln zu lassen.
-
-(FH2)	Das System sollte Studierenden die Möglichkeit bieten ohne Medienbruch Fragen an betreuende Personen stellen zu können.
-
+      (s. PC7)   Das System muss in der Lage sein dem Prüfer nach Abschluss eines Tests eine Benachrichtigung zuzusenden, 
+                 damit das manuelle Feedback zeitnah durchgeführt werden kann.
+      (s. PC8)   Das System muss in der Lage sein dem Prüfer nach Abschluss eines Tests eine entsprechende Benachrichtigung 
+                 (entweder automatischoder durch eine interne Mailing-Funktion für Studierende) zuzusenden, damit das manuelle 
+                 Feedback direkt durchgeführt werden kann.
+      (s. PC4/7) Das System muss einfach aufgebaut sein, damit der User direkt einsehen kann, welche Aufgaben zu erledigen 
+                 sind und welche bereits erledigt wurden.
+      (s. PC5)   Das System muss kurze Lade-/Refreshzeiten haben.
 
 ---
 
-(AN1)	Das System darf den Status eines Tests erst dann auf grün setzen, wenn der Benutzer die Aufgabe erfolgreich bearbeitet hat.
+### Rick Dalton (mwi)
 
-(AN2)	Das System sollte in der Lage sein den Zeitstempel der letzten Aktualisierung des Codes anzeigen zu können.
+(RD1) Das System sollte Studierenden die Möglichkeit bieten sich Hilfe oder (Code-) Reviews bei anderen Studierenden 
+      suchen zu können.
+
+(RD2) Das System sollte in der Lage sein Studierenden weiterführende Informationen (z.B. Videos/Webseiten/Vorlesungsmaterialien) 
+      zu konkreten Fehlern zur Verfügung zu stellen.
+
+(RD3) Das System sollte in der Lage sein Studierenden anzuzeigen, wie lange die Korrektur der Aufgaben dauert bzw. welchen 
+      Stand die Korrektur gerade hat.
+
+      (s. PC2/7)   Das System muss in der Lage sein Studierenden Rückmeldung zu ihren Aufgaben zu geben.
+      (s. PC3/7)   Das System muss einfach aufgebaut sein, damit der User schnell einsehen kann, welche Aufgaben zu erledigen 
+                   sind und welche bereits erledigt wurden.
+      (s. PC5)     Das System muss kurze Lade-/Refreshzeiten haben.
+      (s. PC7/HS2) Das System muss in der Lage sein den Studierenden mithilfe von visuellen Mitteln anzuzeigen, bei 
+                   welchen Komponenten es Probleme gab.
+      (s. PC8)     Das System muss in der Lage sein dem Studierenden nach Feedback durch den Prüfer eine entsprechende 
+                   Benachrichtigung zu senden, damit das manuelle Feedback direkt eingesehen werden kann.
+      (s. PC7)     Das System sollte den Studierenden nach einer erledigten Aufgabe eine allgemeines kurzes Feedback geben können.
+      (s. HS3)     Das System sollte über einen Darkmode verfügen.
+      (s. PC11)    Das System sollte in der Lage sein den Studierenden Fehlermeldungen /Kommentare älterer Tests/Abgaben 
+                   auch nachträglich zur Verfügung zu stellen.
 
 ---
 
-(AV1)	Das System sollte in der Lage sein die Testseite nach der Prüfung eines Test selbstständig zu aktualisieren.
+### PSSG (jlü)
+
+(PS1) Das System sollte dem User die Möglichkeit bieten Tests lokal auszuführen.
+
+(PS2) Das System muss die Pseudonyme der korrigierenden Personen eindeutig angeben können.
+
+(PS3) Das System sollte die Zeitzone an den Nutzenden anpassen können.
+
+(PS4) Das System sollte dem User die Möglichkeit bieten einsehen zu können, wann die Aufgaben manuell korrigiert werden.
+
+(PS5) Das System muss in der Lage sein Usern mit Farbfehlsichtigkeit, insbesondere Usern mit Rot-Grün-Schwäche, die 
+      Interpretation der Ergebnisse zu ermöglichen.
+
+(PS6) Das System muss unverständliche und nicht nachvollziehbare Fehler in der Aufgabenstellung sowie im Testablauf vermeiden.
+
+(PS7) Das System sollte die Durchführung von manuelle Korrekturen vor der Abgabe ermöglichen.
+
+      (s. PC5) Das System muss Testergebnisse schnell bereitstellen können.
 
 ---
 
-(BE1)	Das System sollte in der Lage sein dem Studierenden die Deadline der zu bearbeitenden Aufgabe auf der Testseite anzeigen zu können.
+### Peter Pan (jlü)
+
+(PP1) Das System soll mehr Tests bereitstellen, die den Code testen.
+
+(PP2) Das System sollte das Durchlaufen von Tests bei falschen Lösungen verhindern.
+
+      (s. PC3) Das System muss die abzugebende Lösung übersichtlich darstellen.
+      (s. PC4) Das System soll dem Nutzenden die Möglichkeit bieten direkt starten zu können.
+      (s. PC5) Das System sollte in der Lage sein schnelles Feedback zu den abgegebenen Lösungen zu ermöglichen.
+      (s. PC4) Das System muss Usern einen leichten Einstieg in neue Aufgabentypen bieten.
+      (s. PC7) Das System sollte über einen Indikator verfügen, der mitteilt ob alle Tests bestanden wurden.
 
 ---
 
-(KA1)	Das System sollte über eine Schnittstelle für Anbindungen anderer Systeme verfügen.
+### Flaschenhals (ako)
+
+(FH1) Das System sollte in der Lage sein den User einfach zwischen Meilensteinen wechseln zu lassen.
+
+(FH2) Das System sollte Studierenden die Möglichkeit bieten ohne Medienbruch Fragen an betreuende Personen stellen zu können.
+
+      (s. PC5) Das System sollte die schnelle Auswertung von Tests fördern.
+      (s. RD2) Das System sollte Usern Informationen oder Tutorials zur Verwendung des Systems bereitstellen können.
+      (s. PB1) Das System sollte dem User nicht ermöglichen für die Teststruktur notwendige Objekte verschieben zu können.
 
 ---
 
-(PB1)	Das System muss in der Lage sein Änderungen an Dateien automatisch zu registrieren.
-(PB2)	Das System sollte in der Lage sein dem Benutzer einfache Qualitätstests, wie Ausführungszeit, Ressourcenauslastung, etc. bereitzustellen.
+### Weißer Wolf (ako)
 
+      (s. PC9) Das System muss den Studierenden nach abgeschlossener automatischer Kontrolle der Tests eine Benachrichtigung 
+               schicken.
+      (s. PC9) Das System muss den Studierenden nach abgeschlossener manueller Kontrolle der Tests durch die Prüfer eine 
+               Benachrichtigung schicken.
+
+---
+
+### Anonym (ama)
+
+(AN1) Das System darf den Status eines Tests erst dann auf grün setzen, wenn der Benutzer die Aufgabe erfolgreich bearbeitet hat.
+
+(AN2) Das System sollte in der Lage sein den Zeitstempel der letzten Aktualisierung des Codes anzeigen zu können.
+
+      (s. PC1)  Das System sollte in der Lage sein dem Benutzer eine genaue Fehlermeldung anzeigen zu können, falls die 
+                Testseite nicht generiert werden kann.
+      (s. PC9)  Das System sollte den Benutzer auch über andere Services als Discord über einen erfolgreichen Test 
+                benachrichtigen können.
+      (s. RD3)  Das System sollte dem Benutzer die Möglichkeit bieten die voraussichtliche Korrekturdauer eines Tests 
+                anzeigen zu können.
+      (s. PC6)  Das System muss in der Lage sein den vom Benutzer geschriebenen Quellcode auf der Testpage einzubinden.
+      (s. PC10) Das System muss in der Lage sein dem Benutzer nach der manuelle Kontrolle des eigenen Codes zugehörige 
+                Informationen anzuzeigen.
+
+---
+
+### Averroes (kru)
+
+(AV1) Das System sollte in der Lage sein die Testseite nach der Prüfung eines Test selbstständig zu aktualisieren.
+
+    (s. HS3) Das System sollte über einen Darkmode verfügen.
+    (s. PC5) Das System sollte in der Lage sein Aktualisierungen ohne Latenz durchzuführen.
+    (s. PC9) Das System muss dem Studierenden nach einer durchgeführten Korrektur eine Benachrichtigung schicken.
+    (s. PS5) Das System sollte zur Rückmeldung eines Tests mehr als zwei Farben verwenden.
+
+---
+
+### Besoffski (kru)
+
+(BE1) Das System sollte in der Lage sein dem Studierenden die Deadline der zu bearbeitenden Aufgabe auf der Testseite 
+      anzeigen zu können.
+
+
+      (s. PC8) Das System sollte in der Lage sein dem Prüfer nach Abschluss eines Tests eine Benachrichtigung zuzusenden.
+      (s. PC7) Das System sollte in der Lage sein den Studierenden zusammenfassende Informationen über die eigenen Tests 
+               zur Verfügung zu stellen.
+
+---
+
+### Snake (kru)
+
+      (s. RD3) Das System sollte dem Benutzer die Möglichkeit bieten die voraussichtliche Korrekturdauer eines Tests anzeigen zu können.
+      (s. PC3) Das System sollte nur eine bestimmte Anzahl der letzten Tests anzeigen, um die Testseite übersichtlich zu halten.
+
+---
+
+### Kaktus (duz)
+
+(KA1) Das System sollte über eine Schnittstelle für Anbindungen anderer Systeme verfügen.
+
+      (s. PC10) Das System sollte dem Benutzer auch bei bestandenen Tests ein Feedback ausgeben können.
+      (s. PC5)  Das System muss über eine schnelle Rückmeldezeit verfügen.
+      (s. PC9)  Das System sollte in der Lage sein dem Prüfer eine Benachrichtigung zu senden, wenn ein Test durchlaufen wurde.
+      (s. PC9)  Das System sollte in der Lage sein dem Prüfer automatisch zu benachrichtigen, wenn ein Test durchlaufen wurde.
+      (s. PC9)  Das System sollte über eine Schnittstelle verfügen, über welche ein Discord-Bot dem Prüfer mitteilen kann, 
+                dass ein Test durchlaufen wurde.
+
+---
+
+### Phil Banks (duz)
+
+(PB1) Das System muss in der Lage sein Änderungen an Dateien automatisch zu registrieren.
+
+(PB2) Das System sollte in der Lage sein dem Benutzer einfache Qualitätstests, wie Ausführungszeit, Ressourcenauslastung, 
+      etc. bereitzustellen.
+
+      (s. PC2)  Das System sollte in der Lage sein zu nicht bestandenen Tests detailliertes Feedback anzuzeigen.
+      (s. RD1)  Das System sollte Studierenden die Möglichkeit bieten den eigenen fehlerhaften Code durch andere Studierende 
+                reviewen zu lassen.
+      (s. PC10) Das System sollte in der Lage sein dem Studierenden darstellen zu können, wie „gut“ die eingereichte Lösung war.
+      (s. RD1)  Das System sollte dem Studierenden die Möglichkeit geben den eigenen Code mit dem Code anderer Studierender 
+                zu vergleichen und Vorschläge zu erhalten, wie die Aufgabe gelöst werden könnte.
+      (s. PC10) Das System sollte dem Studierenden detailliertes und weitreichendes Feedback zu seinen Tests geben.
+      (s. PC8)  Das System sollte dem Studierenden die Möglichkeit bieten Feedback durch einen Prüfer ohne Verzögerung anzufordern.
+      (s. KA1)  Das System sollte über eine Schnittstelle zur Anbindung anderer Systeme verfügen.
 
 ## Dokumente
 **[Beobachtungstagebuch Anforderungen](../sources/tagebuch_reqirements.pdf)**

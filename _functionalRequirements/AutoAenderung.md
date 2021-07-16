@@ -1,13 +1,9 @@
 ---
 type: functionalRequirement
 acronym: AutoAenderung
-responsible: 
-    - mwi
-    - mba
+responsible:
     - jlü
-    - kru
     - duz
-    - ako
 title: Automatische Erkennung von Änderungen an Dateien
 goals: 
     - autoUpdate
@@ -25,6 +21,10 @@ history:
     v3:
         date: 2021-07-12
         comment: Added all responsible authors and added reason
+    v5:
+        date: 2021-07-16
+        comment: Modified responsibles as discussed
+
 todo:
 ---
 

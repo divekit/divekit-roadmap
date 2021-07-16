@@ -5,7 +5,7 @@ responsible:
     - cpo
 title: Komplexe Aufgaben
 source:
-    - [interview, nnProf4, Minute 00:43:41]
+    - [interview, nnProf4, Minute 00-43-41]
 partOfLargerGoal: aufgabentypen
 history:
     v1:

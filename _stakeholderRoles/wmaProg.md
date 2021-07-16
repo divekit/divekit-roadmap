@@ -15,7 +15,6 @@ history:
         date: 2021-05-28
         comment: added Rollenbeschreibung    
 todo: 
-    - Aufgaben vervollständigen
 ---
 
 ## Rollenbeschreibung
@@ -23,10 +22,13 @@ todo:
 Der wmaProg muss in seinem täglichen Arbeitsablauf grundsätzlich verschiedene Dinge im Bezug auf die Lehre absolvieren:
 
 * Praktika Meilensteine konzipieren
-* Praktika Meilensteine erstellen, individualisieren, korrigieren (manuell)
-* Studenten bei der Aufgabenstellung unterstützen
+* Praktika Meilensteine erstellen
+* Aufgaben individualisieren
+* Aufgaben korrigieren (manuell)
+* Studenten bei der Aufgabenstellung unterstützen (Hilfestellung leisted)
 * Klausuren korrigieren
-
+* Noten an das Prüfungsamt übermitteln
+* Listen mit Studenten erstellen, die das Praktikum oder einen Meilenstein bestanden haben
 
 
 

@@ -7,7 +7,7 @@ responsible:
     - ako
 title: Moderne Programmiertechniken - Programmierpraktiken
 source:
-    - [interview, mreitano, Minute 00:03:43]
+    - [interview, mreitano, Minute 00-03-43]
 partOfLargerGoal: modernesCoding
 history:
     v1:

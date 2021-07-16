@@ -7,7 +7,7 @@ responsible:
     - ako
 title: Das Tool robuster machen
 source:
-    - [interview, jintveen, Minute 00:54:13]
+    - [interview, jintveen, Minute 00-54-13]
 partOfLargerGoal: 
 history:
     v1:

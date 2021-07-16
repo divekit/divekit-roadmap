@@ -5,8 +5,8 @@ responsible:
     - cpo
 title: Offenheit der Plattform
 source:
-    - [interview, nnProf4, Minute 00:43:41]
-    - [interview, nnProf4, Minute 00:48:06]
+    - [interview, nnProf4, Minute 00-43-41]
+    - [interview, nnProf4, Minute 00-48-06]
 partOfLargerGoal: 
 history:
     v1:

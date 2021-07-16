@@ -7,8 +7,8 @@ responsible:
     - ako
 title: Nachhaltigen, verständlichen Code schreiben 
 source:
-    - [interview, sbente, Minute 00:02:24]
-    - [interview, sbente, Minute 00:11:32]
+    - [interview, sbente, Minute 00-02-24]
+    - [interview, sbente, Minute 00-11-32]
 partOfLargerGoal: modernesCoding
 history:
     v1:

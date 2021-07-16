@@ -5,20 +5,25 @@ responsible:
     - mba
 title: Verhinder, dass Studenten gegen das Tool arbeiten.
 source:
-    - [interview, nnProf, Minute 00:50:16]
+    - [interview, nnProf, Minute 00-50-16]
 partOfLargerGoal: 
 history:
     v1:
         date: 2021-06-18
         comment: initially created
+    v2:
+        date: 2021-07-16
+        comment: source runterkopiert; source wieder hoch kopiert
 
 todo:
+
 ---
 
 ## Beschreibung
 
-Studenten sollen nicht in der Lage sein gegen das Tool zu arbeiten. Das heißt sie sollen nicht in der Lage sein solange ihre Lösungen einzutragen bis es richtig ist quasi Brute Force Methoden.
+Studenten sollen nicht in der Lage sein gegen das Tool zu arbeiten. Das heißt sie sollen nicht in der Lage sein so lange ihre Lösungen einzutragen bis es richtig ist quasi Brute Force Methoden.
 
 ## Begründung
 
-Es soll sichergestllt werden, dass das Tool mit den Lehrinhalten nämlich das übermitteln von Wissen übereinstimmt.
+Es soll sichergestellt werden, dass das Tool mit den Lehrinhalten nämlich das Übermitteln von Wissen übereinstimmt.
+ 
