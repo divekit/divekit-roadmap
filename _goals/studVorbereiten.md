@@ -4,16 +4,18 @@ acronym: studVorbereiten
 responsible: 
     - hbu
 title: Die Studenten durch das Praktikum auf die Klausur vorbereiten
-source: 
-    - [interview, fkrampe, Minute 00:59:35]
-    - [interview, fkrampe, Minute 01:01:15]
+source:
 partOfLargerGoal:
 history:
     v1:
         date: 2021-05-28
         comment: initially created
+    v2:
+        date: 2021-07-16
+        comment: Die Quellen temporaer runterkopiert
 
-todo: 
+todo:
+    - source hoch kopieren
 ---
 
 ## Beschreibung
@@ -24,3 +26,8 @@ nötig sind, werden im Praktikum vermittelt.
 ## Begründung
 
 Der Sinn des Praktikums ist die Teilnehmer auf die Klausur vorzubereiten (gilt auch als Zulassungsbeschränkung).
+
+
+## FIXME später hoch kopieren
+    - [interview, fkrampe, Minute 00:59:35]
+    - [interview, fkrampe, Minute 01:01:15]
