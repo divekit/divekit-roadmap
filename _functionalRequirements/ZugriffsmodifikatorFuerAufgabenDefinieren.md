@@ -17,6 +17,7 @@ history:
         comment: initially created
 todo:
     - Bitte präzisieren. Vorgeben kann man das jetzt schon (man muss es einfach in die Aufgabenstellung schreiben ...), ist vielleicht gemeint, dass das System die Sichtbarkeit testen können soll?s
+    - goals existieren nicht (jlü)
 ---
 
 Das Divekit muss dem Lehrverantwortlichen die Möglichkeit bieten, bei der 

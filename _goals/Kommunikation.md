@@ -19,10 +19,12 @@ history:
     v3:
         date: 2021-07-06
         comment: Updated todo
+    v4:
+        date: 2021-07-16
+        comment: Updated todo
 
 todo:
     - Quellformat anpassen
-    - Bitte anfängliche Begründung ("Sammelpunkt in einem System.") in einem ganzen Satz ausformulieren
 ---
 
 ## Beschreibung
@@ -30,8 +32,6 @@ todo:
 Zwischen den Anwendern soll es möglich sein zu Kommunizieren ohne auf eine Drittanwendung auszuweichen.
 
 ## Begründung
-
-Sammelpunkt in einem System.
 
 Aktuell werden viele verschiende Kommunikationsmittel können genutzt, darunter gehören Slack, Cisco Jabber (Für Lehrende), Zoom, Discord, WhatsApp, FB Messenger, Ilias-Forum, E-Mail oder die eigene Handynummer. 
 

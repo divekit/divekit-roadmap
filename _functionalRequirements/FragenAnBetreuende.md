@@ -8,7 +8,7 @@ title: Rückfragen an Betreuende
 goals: 
     - betreuungOnline
     - betreuung
-    - Kommunikation
+    - kommunikation
 implementationStatus: open
 prefilterPriorizationPoints: 1
 source:

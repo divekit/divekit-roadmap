@@ -13,13 +13,11 @@ history:
     v1:
         date: 2021-06-18
         comment: initially created
-    v1:
+    v2:
         date: 2021-07-16
-        comment: todos done
+        comment: todos done, aufgeteilt in zwei goals und dieses goal präzisiert als Satzschablone.
 todo:
-    - Bitte präzisieren - welche Art von Aufgabe ist gemeint (hier wohl eher Mathematik / Data Analytics Aufgaben)
-    - Bitte konsequent als Satzschablone formulieren. Das scheinen mir mehrere Anforderungen auf einmal sein.
-    - Die Forderung nach Musterlösungen ist ein Duplikat (siehe auch musterloesung und VerbesseresFeedback.md) 
+    
 ---
 
 ##Beschreibung
