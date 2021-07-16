@@ -7,6 +7,7 @@ responsible:
 title: Anzeige der Deadline
 goals: 
     - relevanteInformationen
+    - organisation
 implementationStatus: open
 prefilterPriorizationPoints: 8
 kano:
@@ -35,7 +36,9 @@ history:
     v5:
         date: 2021-07-16
         comment: Modified responsibles as discussed
-
+    v6:
+        date: 2021-07-16
+        comment: Added goals
 todo: 
 ---
 
