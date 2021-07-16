@@ -5,15 +5,18 @@ responsible:
     - jlü
 title: Lokale Tests für Aufgaben der Studenten
 source:
-    - Beobachtungstagebuch
+    - [Beobachtungstagebuch, PS2]
 partOfLargerGoal: 
 history:
     v1:
         date: 2021-07-07
         comment: initially created
+    v2:
+        date: 2021-07-16
+        comment: update source
 
 todo: 
-    - Quelle an das Format [..., ..., ...] anpassen 
+    
 ---
 
 ## Beschreibung

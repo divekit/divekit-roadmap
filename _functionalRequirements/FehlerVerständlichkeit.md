@@ -1,12 +1,12 @@
 ---
 type: functionalRequirement
-acronym: Fehlervermeidung
+acronym: FehlerVerständlichkeit
 responsible:
     - mwi
     - ako
-title: Fehlervermeidung
+title: FehlerVerständlichkeit
 goals:
-    - fehlervermeidung
+    - fehlerVerständlichkeit
 implementationStatus: open
 prefilterPriorizationPoints: 0
 source:
@@ -21,9 +21,11 @@ history:
     v3:
         date: 2021-07-16
         comment: Modified responsibles as discussed
+    v4:
+        date: 2021-07-16
+        comment: New description to match goal and solve todo
 
 todo:
-    - Klingt wie eine unsinnige Anforderung. Wie soll das denn gehen? Und was wären denn "nachvollziehbare" oder "verständliche" Fehler?
 ---
 
-Das System muss unverständliche und nicht nachvollziehbare Fehler in der Aufgabenstellung sowie im Testablauf vermeiden.
+Das System muss Fehler von Studierenden in einer so verständlichen und anfängerfreundlichen Art und Weise ausgeben, wie möglich.
