@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<h1>Priorisierung</h1>
+
+<p>
+    tbd Erklärung
+</p>
+
+
+<table>
+    <thead>
+    <tr>
+        <th width="10%">Akronym</th>
+        <th width="70%">Ziele</th>
+        <th width="20%">Datum</th>
+
+    </tr>
+    </thead>
+    <tbody>
+        {% for workshop in site.workshops %}
+        <tr>
+            <td>{{ workshop.acronym }}</td>
+            <td><a href="{{ site.url }}{{ workshop.url | relative_url }}">{{ workshop.goals }}</a></td>
+            <td>{{ workshop.date | date: '%B %d, %Y'}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

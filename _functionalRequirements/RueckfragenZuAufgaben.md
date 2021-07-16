@@ -9,11 +9,11 @@ goals:
 implementationStatus: open
 prefilterPriorizationPoints: 2
 kano:
-type: basic
-reasoning: >
-Es löst keine Begeisterung aus, wenn man direkt bei der Aufgabenstellung eine Rückfrage-Funktion zur Verfügung hat.
-Dafür ist das Feature zu funktional. Es würde aber nerven, wenn man häufiger mal Rückfragen stellen muss und dazu jedes
-Mal Umwege nehmen und die Aufgabenstellung manuell kopieren muss. Daher ist dieses Feature ein Basis-Feature.
+    type: basic
+    reasoning: >
+        Es löst keine Begeisterung aus, wenn man direkt bei der Aufgabenstellung eine Rückfrage-Funktion zur Verfügung hat.
+        Dafür ist das Feature zu funktional. Es würde aber nerven, wenn man häufiger mal Rückfragen stellen muss und dazu jedes
+        Mal Umwege nehmen und die Aufgabenstellung manuell kopieren muss. Daher ist dieses Feature ein Basis-Feature.
 source:
     - [workshop, waltDisney]
 history:
