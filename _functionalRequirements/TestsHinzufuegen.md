@@ -6,7 +6,7 @@ responsible:
     - kru
 title: Tests hinzufügen
 goals:
-    - simplerAufbau
+    - einfacherAufbau
 implementationStatus: open
 prefilterPriorizationPoints: 0
 source:

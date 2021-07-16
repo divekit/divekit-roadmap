@@ -6,7 +6,7 @@ responsible:
     - duz
 title: Simpler Seitenaufbau
 goals:
-    - simplerAufbau
+    - einfacherAufbau
 source:
     - [beobachtungstagebuch , PC3]
 implementationStatus: open

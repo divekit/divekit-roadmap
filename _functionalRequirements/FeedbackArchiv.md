@@ -6,7 +6,7 @@ responsible:
     - kru
 title: Feedback-Archiv
 goals:
-    - besseresVerstaendnis
+    - ganzheitlichesFeedback
 source:
     - [beobachtungstagebuch, PC11]
 implementationStatus: open

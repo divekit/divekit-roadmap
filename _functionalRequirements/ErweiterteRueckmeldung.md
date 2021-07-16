@@ -6,7 +6,7 @@ responsible:
     - ako
 title: Erweiterte Rückmeldung
 goals:
-    - besseresVerständnis
+    - besseresVerstaendnis
 source:
     - [beobachtungstagebuch, PC7]
 implementationStatus: open

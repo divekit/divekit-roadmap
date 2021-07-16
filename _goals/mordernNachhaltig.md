@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: nachhaltigerCode
+acronym: modernNachhaltig
 responsible: 
     - kru
     - duz

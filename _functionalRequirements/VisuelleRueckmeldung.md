@@ -6,7 +6,7 @@ responsible:
     - ako
 title: Visuelle Rückmeldung
 goals:
-    - besseresVerstaendnis
+    - ganzheitlichesFeedback
 implementationStatus: open
 prefilterPriorizationPoints: 0
 source:

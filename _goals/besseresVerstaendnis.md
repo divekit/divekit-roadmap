@@ -1,26 +1,27 @@
 ---
 type: goal
 acronym: besseresVerstaendnis
-responsible:
+responsible: 
     - kru
     - duz
     - ako
-title: Umfangreicheres Feedback für die Studierenden 
+title: Besseres Verständnis für eigene Leistungen
 source:
-    - [survey, beobachtungstagebuch, PC10]
+    - [beobachtungstagebuch, PC7]
+partOfLargerGoal: 
 history:
     v1:
         date: 2021-07-16
         comment: initially created
+    v2:
+        date: 2021-07-16
+        comment: added description & reasoning
 
 todo:
-
 ---
-
-## Beschreibung
-
-Die Studierenden wünschen sich Feedback zu den bestanden und nicht bestandenen Tests.
+## Beschreibung 
+Das Feedback zu den studentischen Leistungen soll verständlicher bzw. ausführlicher formuliert werden.
 
 ## Begründung
-
-Die Qualität der Lösung kann sehr stark variieren. Ein umfangreicheres Feedback zu den Tests fördert das Verständnis für den Lerninhalt und die Aufgaben.
+Durch umfassende visuelle oder textuelle Rückmeldungen nach den Tests soll dem Studierenden klar vermittelt werden, wie es aktuell um die eigene Leistung steht.
+Hier ist insbesondere wichtig, dass einzelne Fehler entsprechend markiert und / oder dargestellt werden und verständlich erläutert werden.
