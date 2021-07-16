@@ -5,7 +5,6 @@ responsible:
     - ama
 title: Richtlinien für die Programmieraufgaben definieren
 goals:
-    - automatisieren
     - richtlinienDefinieren
 implementationStatus: open
 prefilterPriorizationPoints: 0
