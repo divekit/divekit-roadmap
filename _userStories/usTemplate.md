@@ -4,6 +4,8 @@ acronym: usTemplate
 responsible:
 	- psc
 title: User Story Template
+stakeholderRole:
+funcionalRequirement:
 source:
 	- 
 history:
