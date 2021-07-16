@@ -19,7 +19,7 @@ todo:
 
 ## Beschreibung
 
-Die Korrektur einiger Praktikumsaufgaben sollte vollautomatisch sein.
+Die Korrektur von so vielen Praktikumsaufgaben wie möglich sollte vollautomatisch sein.
 
 ## Begründung
 
