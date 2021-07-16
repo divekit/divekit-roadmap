@@ -1,13 +1,13 @@
 ---
 type: goal
-acronym: betreuungQualitativ
+acronym: entlastungQualitativ
 responsible: 
     - psc
 title: Qualitative Unterstützung bei Auswertung von Projektarbeiten
 source:
     - [interview, mengelen, Minute 00-23-21]
     - [interview, mengelen, Minute 00-27-00]
-partOfLargerGoal: betreuung
+partOfLargerGoal: entlastung
 history:
     v1:
         date: 2021-06-17
@@ -15,6 +15,9 @@ history:
     v2:
         date: 2021-06-24
         comment: fix quellen
+    v3:
+        date: 2021-07-16
+        comment: move from betreuung zu entlastung
 
 todo: 
 ---
