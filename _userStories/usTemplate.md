@@ -4,10 +4,10 @@ acronym: usTemplate
 responsible:
 	- psc
 title: User Story Template
-stakeholderRole:
 funcionalRequirement:
-source:
-	- 
+stakeholderRole:
+iWantTo:
+forThisReason:
 history:
 	v1:
 		date: 2021-07-16
@@ -26,7 +26,6 @@ todo:
 >
 > **Beispiel**  
 > Als Informatikstudent möchte ich rechtzeitig Feedback zu meinen abgegebenen Aufgaben erhalten, damit ich nicht lange warten muss um mit der nächsten Aufgabe weiterzumachen.
-
 
 
 ### Notizen / Hinweise / Bedingungen
