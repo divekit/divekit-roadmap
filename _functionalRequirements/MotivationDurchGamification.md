@@ -7,6 +7,7 @@ responsible:
     - duz
 title: Untertützung von Gamification zur Motivation
 goals: 
+    - motivation
     - motivationIntrinsisch
 implementationStatus: open
 prefilterPriorizationPoints: 2
