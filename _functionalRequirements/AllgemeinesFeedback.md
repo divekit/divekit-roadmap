@@ -7,6 +7,8 @@ responsible:
 title: Allgemeines Feedback
 goals:
     - ganzheitlichesFeedback
+    - motivation
+    - studVorbereiten
 implementationStatus: open
 prefilterPriorizationPoints: 4
 kano:
@@ -32,6 +34,9 @@ history:
     v4:
         date: 2021-07-16
         comment: Added kano reasoning
+    v5:
+        date: 2021-07-16
+        comment: Added goals
 
 todo:
 ---

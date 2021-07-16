@@ -6,7 +6,7 @@ useCases:
 responsible: 
     - 
 title: Use Case Diagram A
-source: 
+funcionalRequirement: 
     - 
 history:
     v1:
