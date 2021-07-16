@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: teilKorrektur
+acronym: betreuungMatheHilfe
 responsible:
     - mba
 title: Die Teil Korrektur von Aufgaben
@@ -13,6 +13,9 @@ history:
         comment: initially created
 
 todo:
+    - Titel ist missverständloch und passt nicht gut zum Ziel
+    - Rechtscheib- und Grammatikfehler beheben
+    - Bitte geschlechtsneutral formulieren
 ---
 
 ## Beschreibung

@@ -19,7 +19,7 @@ history:
         comment: Quellen temporär runterkopiert
 
 todo:
-    - source hoch kopieren
+    - Begründung nachbessern
 ---
 
 ## Beschreibung

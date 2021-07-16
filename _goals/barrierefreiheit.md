@@ -13,6 +13,7 @@ history:
 
 todo:
     - Quelle an das Format [..., ..., ...] anpassen 
+    - Genauer spezifizieren -> Stichwort Barrierefreiheit
 ---
 
 ## Beschreibung

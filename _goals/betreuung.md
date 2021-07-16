@@ -26,6 +26,7 @@ history:
         comment: sources and small description added 
 
 todo: 
+    - Anpassen der Subziel Verlinkung 
     - Beschreibung und Begründung verbessern
 ---
 
@@ -35,8 +36,7 @@ Dieses Ziel ist Oberziel von
 
 * [Hilfe bei der Bearbeitung](./betreuungBearbeitung.md)
 * [Hilfe bei Matheaufgaben?](./betreuungMatheHilfe.md)
-* [Qualitative Betreuung](./betreuungQualitativ.md)
-* [Quantitative Betreuung](./betreuungQualitative.md) <!-- muss gemerged werden -->
+* [Qualitative Betreuung](./betreuungQualitative.md) 
 * [Online Betreuung](./betreuungOnline.md)
 * [Rückfragen der Studierenden](./betreuungRueckfragen.md)
 

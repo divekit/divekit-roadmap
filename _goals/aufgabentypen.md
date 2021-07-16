@@ -18,6 +18,8 @@ history:
         comment: Beschreibung angepasst + Subgoals verlinkt
 
 todo: 
+    - Anpassen der Subziel Verlinkung 
+    - Gibt es schon Mergen mit VerschiedeneAufgabentypen.md
 ---
 
 ## Beschreibung

@@ -10,12 +10,12 @@ partOfLargerGoal:
 history:
     v1:
         date: 2021-07-10
-        comment: 
+        comment: initially created
 
 todo:
     - Quelle an das Format [..., ..., ...] anpassen 
-    - Format des Files fixen
     - Gibt es schon Mergen mit aufgabentypen.md
+    - Bitte geschlechtsneutral formulieren
 ---
 
 ## Beschreibung

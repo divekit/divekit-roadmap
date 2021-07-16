@@ -15,7 +15,9 @@ history:
         comment: initially created
 
 todo:
-    
+    - implemtationStatus in Metainformationen richtig?
+    - acronym ist doppelt
+    - Warum zwei Ziele für diesen Kontext?
 ---
 
 ##Beschreibung

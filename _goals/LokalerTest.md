@@ -16,6 +16,8 @@ history:
 
 todo: 
     - Quelle an das Format [..., ..., ...] anpassen 
+    - Rechtscheib- und Grammatikfehler beheben
+    - Bitte geschlechtsneutral formulieren
 ---
 
 ## Beschreibung

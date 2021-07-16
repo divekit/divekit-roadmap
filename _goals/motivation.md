@@ -18,6 +18,7 @@ history:
         comment: added description and explanation
 
 todo: 
+    - Verlinkung der Subziele anpassen
 ---
 
 ## Beschreibung

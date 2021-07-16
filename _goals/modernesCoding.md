@@ -5,7 +5,7 @@ responsible:
     - kru
     - duz
     - ako
-title: Schulung von modernen Programmiertechniken
+title: Moderne Programmiertechniken
 source:
     - [interview, ckohls, Minute 00-00-22]
     - [interview, sbente, Minute 00-00-16]
@@ -23,7 +23,8 @@ history:
         comment: added source
 
 todo: 
-    - Beschreibung / Begründung an die neuen Subgoals anpassen
+    - Verlinkung der Subziele anpassen
+    - Begründung an die neuen Subgoals anpassen
 ---
 
 ## Beschreibung

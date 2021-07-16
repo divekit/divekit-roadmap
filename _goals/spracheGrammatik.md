@@ -28,7 +28,6 @@ todo:
 
 Der Entwickler möchte die aktuell vorhandene Unterstützung der deutschen Sprache verbessern.
 
-
 ## Begründung
 
 Eine Verbesserung fördert die Verständlichkeit und Richtigkeit der zu individualisierenden Texte. Zum Beispiel werden in der deutschen Sprachen die Artikel von Nomen und substantivierte Verben je nach Fall geändert.

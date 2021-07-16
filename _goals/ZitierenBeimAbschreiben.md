@@ -14,8 +14,7 @@ history:
 
 todo:
     - Quelle an das Format [..., ..., ...] anpassen 
-    - Vielleicht ein Überziel mit BetrugsVerhinderung .md zusammen?
-
+    - Vielleicht ein Überziel mit BetrugsVerhinderung .md zusammen? Beispiel -> "NutzenVonFremdenCode" 
 ---
 
 ## Beschreibung

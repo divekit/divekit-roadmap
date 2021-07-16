@@ -13,7 +13,9 @@ history:
         comment: initially created
 
 todo: 
-    - Quelle an das Format [..., ..., ...] anpassen (Zeitangabe fehlt)
+    - Quelle an das Format [..., ..., ...] anpassen 
+    - Titel kürzen
+    - Rechtscheib- und Grammatikfehler beheben
 ---
 
 ## Beschreibung

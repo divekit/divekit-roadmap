@@ -3,7 +3,6 @@ type: goal
 acronym: entlastungKorrektur
 responsible: 
     - tza
-    - mba
 title: Korrektur von Aufgaben erleichtern
 source:
     - [interview, fkrampe, Minute 00-12-01]
@@ -22,6 +21,9 @@ history:
     v4:
         date: 2021-07-16
         comment: back to two seperat goals
+    v5:
+        date: 2021-07-16
+        comment: updated responible to match v4
 
 todo:
     - source hoch kopieren

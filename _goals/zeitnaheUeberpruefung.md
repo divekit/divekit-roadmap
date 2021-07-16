@@ -7,7 +7,7 @@ responsible:
     - ako
 title: Benachrichtigung für manuelle Prüfung
 source:
-    - [survey, beobachtungstagebuch, PC8]
+    - [beobachtungstagebuch, PC8]
 partOfLargerGoal:
 history:
     v1:
@@ -15,6 +15,7 @@ history:
         comment: initially created
 
 todo:
+    - Begründung spezifizieren
 ---
 
 ## Beschreibung

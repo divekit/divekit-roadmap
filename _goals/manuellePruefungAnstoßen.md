@@ -12,7 +12,7 @@ history:
         comment: initially created
 
 todo:
-    - Quellformat anpassen
+    - Quellformat auf [..., ..., ...] anpassen
 ---
 
 ## Beschreibung

@@ -19,6 +19,7 @@ history:
         comment: changed name and added sub goal
 
 todo: 
+    - Verlinkungen anpassen
 ---
 
 ## Beschreibung

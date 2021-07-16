@@ -19,6 +19,7 @@ history:
         comment: fix acronym
 
 todo: 
+    - Bitte geschlechtsneutral formulieren
 ---
 
 ## Beschreibung

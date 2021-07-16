@@ -13,7 +13,8 @@ history:
         comment: initially created
 
 todo:
-    - Quelle an das Format [..., ..., ...] anpassen   
+    - Quelle an das Format [..., ..., ...] anpassen
+    - Rechtscheib- und Grammatikfehler beheben  
 ---
 
 ## Beschreibung

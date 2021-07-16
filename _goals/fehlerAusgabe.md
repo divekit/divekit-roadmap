@@ -15,6 +15,7 @@ history:
         comment: initially created
 
 todo: 
+    - Was genau ist mit "eindeutig" gemeint -> spezifizieren
 ---
 
 ## Beschreibung

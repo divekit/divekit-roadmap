@@ -14,14 +14,13 @@ history:
 
 todo: 
     - Begründung hinzufügen
-    - Quelle an das Format [..., ..., ...] anpassen (Zeitangabe fehlt)
+    - Quelle an das Format [..., ..., ...] anpassen 
     - notwenige Informationen?
 ---
 
 ## Beschreibung
 
 Zum Verständnis und der Nachvollziehbarkeit halber wird sich gewünscht, dass alle notwendigen Informationen angezeigt werden.
-
 
 ## Begründung
 

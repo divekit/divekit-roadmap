@@ -20,7 +20,7 @@ history:
         comment: hinzunahme Aussagen interview
 
 todo:
-    - Bitte die Subgoals verlinken, siehe sprache.md
+    - Bitte die Subgoals verlinken
 ---
 
 ## Beschreibung

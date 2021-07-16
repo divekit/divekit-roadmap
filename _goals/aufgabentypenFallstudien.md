@@ -3,7 +3,7 @@ type: goal
 acronym: aufgabentypenFallstudien
 responsible: 
     - psc
-title: zufällig erstelle MiniCases sollten zur Verfügung stehen
+title: zufällig erstellte MiniCases sollten zur Verfügung stehen
 source:
     - [interview, mengelen, Minute 00-08-00]
     - [interview, mengelen, Minute 00-25-22]

@@ -23,6 +23,7 @@ history:
 todo: 
     - source-Format muss noch technisch geklärt werden (aber das lässt sich später leicht ändern)
     - Abhängigkeiten zwischen Zielen - erfassen? in welcher Richtung? (also )
+    - Rechtscheib- und Grammatikfehler beheben
 ---
 
 ## Beschreibung

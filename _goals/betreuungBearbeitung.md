@@ -11,9 +11,13 @@ history:
     v1:
         date: 2021-06-18
         comment: initially created
+    v2:
+        date: 2021-06-12
+        comment: added larger goal
 
 todo:
-    - Hinzufügen vom Hauptziel
+    - Begründung ausführlicher formulieren
+    - Bitte geschlechtsneutral formulieren
 ---
 
 ## Beschreibung

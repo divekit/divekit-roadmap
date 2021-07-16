@@ -5,7 +5,7 @@ responsible:
     - kru
     - duz
     - ako
-title: Verschiedene Fehler zusammengefasst
+title: Zusammenfassung verschiedener auftretender Fehler
 source:
     - [survey, beobachtungstagebuch]
     - [workshop, 6-3-5, Gruppe 2]
@@ -15,8 +15,13 @@ history:
     v1:
         date: 2021-07-12
         comment: initially created
+    v2:
+        date: 2021-07-12
+        comment: changes title
 
 todo:
+    - Anpassen der Subziel Verlinkung 
+    - Begründung verbessern
 ---
 
 ## Beschreibung

@@ -1,4 +1,4 @@
-aufgabentypenKomplex.md---
+---
 type: goal
 acronym: aufgabentypenKomplex
 responsible: 
@@ -13,6 +13,7 @@ history:
         comment: initially created
 
 todo: 
+    - Begründung liest sich eher wie eine zweite Beschreibung
 ---
 
 ## Beschreibung

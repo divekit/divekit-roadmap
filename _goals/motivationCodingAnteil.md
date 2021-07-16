@@ -28,5 +28,3 @@ Die Studierenden sollen durch einen höheren Anteil an Programmieraufgaben zum P
 ## Begründung
 
 Durch einen gesteigerten Programmieranteil im Praktikum sollen die Studierenden vertrauter mit den Werkzeugen, den Programmiersprachen und -paradigmen werden. Dadurch sollen sie motiviert werden, sich in ihrer freien Zeit mit diesen Thematiken auseinander zusetzen und ggf. eigene kleine Projekte zu beginnen.
-
-<!--Zusätzlich soll das Praktikum eine Sicht auf das Gesamtbild fördern.-->

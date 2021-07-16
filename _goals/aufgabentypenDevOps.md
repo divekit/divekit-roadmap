@@ -13,8 +13,8 @@ history:
         comment: initially created
 
 todo: 
-    - Quelle an das Format [..., ..., ...] anpassen (Zeitangabe fehlt)
-    - Titel fehltS
+    - Zeitangabe der Quelle hinzufügen
+    - Titel fehlt
 ---
 
 ## Beschreibung

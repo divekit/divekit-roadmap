@@ -5,7 +5,7 @@ responsible:
     - jlü
 title: Lokale Tests für Aufgaben der Studenten
 source:
-    - [Beobachtungstagebuch, PS2]
+    - [beobachtungstagebuch, PS2]
 partOfLargerGoal: 
 history:
     v1:

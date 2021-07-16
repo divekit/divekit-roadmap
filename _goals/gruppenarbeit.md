@@ -15,6 +15,7 @@ history:
         comment: initially created
 
 todo: 
+    - "realtistisch lösbar" spezifizieren
 ---
 
 ## Beschreibung

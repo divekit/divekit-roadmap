@@ -17,6 +17,7 @@ history:
         comment: initially created
 
 todo:
+    - Begründung und Beschreibung hinzufügen und aufteilen
 ---
 
 Um eine angenehme Nutzererfahrung zu ermöglichen, sind akzeptable Reaktionszeiten der Seite, sowie kurze Korrekturzeiten der Tests notwendig.

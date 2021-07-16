@@ -13,6 +13,7 @@ history:
         comment: initially created
 
 todo: 
+    - zweiter Abschnitt der Beschreibung passt vielleicht besser in die Begründung
 ---
 
 ## Beschreibung

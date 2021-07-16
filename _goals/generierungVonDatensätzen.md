@@ -17,7 +17,9 @@ history:
         date: 2021-07-16
         comment: todos done, aufgeteilt in zwei goals und dieses goal präzisiert als Satzschablone.
 todo:
-    
+    - implemtationStatus in Metainformationen richtig?
+    - partofLagerGoal anpassen -> weglassen?
+    - Titel, Beschreibung, Begründung passen nicht
 ---
 
 ##Beschreibung

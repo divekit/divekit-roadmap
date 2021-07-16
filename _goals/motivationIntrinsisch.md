@@ -21,6 +21,7 @@ history:
         comment: added source
 
 todo: 
+    - Link anpassen
 ---
 
 ## Beschreibung
@@ -32,4 +33,4 @@ Es ist erwünscht, dass mehr intrinsische Motivation von Studierenden erreicht w
 Durch eine intrinsische Motivation (eine Motivation von innen heraus, durch den Studenten selbst) soll erreicht werden, dass sich Studenten mehr mit dem jeweiligen Thema beschäftigen. Dies kann beispielsweise durch eine Verwendung von Gamification-Elementen erreicht werden. Hierbei soll es den Studenten selbst spaß machen sich mit dem Thema zu beschäftigen und so bessere Ergebnisse liefern. 
 
 Ein weiterer Ansatz ist die Nutzung von Methoden der agile Hochschuldidaktik. In diesem Ansatz liegt der Fokus auf der Frage, wie ein gegebenes Ziel mit dem Studierenden erreicht werden kann. (siehe hierfür auch das Unterziel [Lerndruck](./motivationLerndruck.md))
-<!-- Hier noch ein Verweis auf das Ziel der gegenseitigen Qualitätskontrolle? (Peer-Review) -->
+

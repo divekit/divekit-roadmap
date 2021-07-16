@@ -16,7 +16,8 @@ history:
         comment: source runterkopiert; source wieder hoch kopiert
 
 todo:
-
+    - Rechtscheib- und Grammatikfehler beheben
+    - Bitte geschlechtsneutral formulieren
 ---
 
 ## Beschreibung

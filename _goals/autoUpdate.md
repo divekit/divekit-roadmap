@@ -5,7 +5,7 @@ responsible:
     - jlü
 title: automatisches Update
 source: 
-    - [Beobachtungstagebuch, BE1]
+    - [beobachtungstagebuch, BE1]
 partOfLargerGoal: 
 history:
     v1:
@@ -13,7 +13,6 @@ history:
         comment: initially created
 
 todo: 
-    - Quelle an das Format [..., ..., ...] anpassen 
 ---
 
 ## Beschreibung

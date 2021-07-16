@@ -18,6 +18,7 @@ history:
         comment: added subgoales
 
 todo: 
+    - Verlinkung der Subziele anpassen
     - Beschreibung / Begründung hinzufügen
 ---
 

@@ -17,6 +17,8 @@ history:
         comment: initially created
 
 todo: 
+    - Titel bitte etwas kürzen
+    - Aktueller Titel in die Beschreibung packen
 ---
 
 ## Beschreibung

@@ -15,6 +15,7 @@ history:
         comment: initially created
 
 todo:
+    - Beschreibung und Begründung spezifizieren und aufteilen
 ---
 
 Kleine visuelle Änderungen wie ein Dark Mode o.Ä. wären eine einfache Möglichkeit die Nutzererfahrung positiv zu beeinflussen. 

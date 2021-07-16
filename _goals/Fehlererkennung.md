@@ -14,6 +14,7 @@ history:
 
 todo: 
     - Quelle an das Format [..., ..., ...] anpassen 
+    - Quelle spezifizieren
     - Begründung fehlt, bitte hinzufügen   
 ---
 

@@ -16,6 +16,7 @@ history:
 
 todo: 
     - Beschreibung / Begründung überarbeiten
+    - Wie definiert sich robuster / bedienbarer
 ---
 
 ## Beschreibung

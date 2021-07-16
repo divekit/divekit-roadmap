@@ -5,7 +5,7 @@ responsible:
     - kru
     - duz
     - ako
-title: verbesserte Sprachunterstützung durch optionale Einstellungen
+title: Verbesserte Sprachunterstützung durch optionale Einstellungen
 source:
     - [interview, jintveen, Minute 00-54-13]
 partOfLargerGoal: sprache
@@ -13,6 +13,9 @@ history:
     v1:
         date: 2021-06-17
         comment: initially created
+    v2:
+        date: 2021-06-17
+        comment: updated title
 
 todo: 
 ---

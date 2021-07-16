@@ -19,7 +19,7 @@ history:
 
 todo: 
     - Quelle an das Format [..., ..., ...] anpassen 
-    - Vielleicht ein Überziel mit ZitierenBeimAbschreiben.md zusammen?
+    - Vielleicht ein Überziel mit ZitierenBeimAbschreiben.md zusammen? Beispiel -> "NutzenVonFremdenCode" 
 ---
 
 ## Beschreibung

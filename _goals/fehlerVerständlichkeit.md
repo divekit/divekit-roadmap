@@ -15,6 +15,9 @@ history:
         comment: initially created
 
 todo:
+    - Mergen mit fehlerAusgabe oder so
+    - Aufteilung in Beschreibung und Begründung
+    - Title kürzen
 ---
 
 Fehlermeldungen sollen möglichst klar und nachvollziehbar formuliert sein, sodass auch ein Studierender, der sich noch in das Thema einarbeitet, versteht was er falsch gemacht hat.

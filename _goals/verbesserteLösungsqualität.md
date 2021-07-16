@@ -5,7 +5,7 @@ responsible:
     - kru
     - duz
     - ako
-title: Verbessern der Loesungsqualitaet
+title: Verbessern der Lösungsqualität
 source:
     - [beobachtungstagebuch, PP1]
 partOfLargerGoal:
@@ -13,6 +13,9 @@ history:
     v1:
         date: 2021-07-16
         comment: initially created
+    v2:
+        date: 2021-07-16
+        comment: fixed typos
 
 todo: 
 ---
@@ -23,4 +26,4 @@ Die Lösungsqualität soll verbessert werden, indem das System mehr Tests bereit
 
 ## Begründung
 
-Durch die Bereitstellung mehrer Tests wird sich aus der Stundentensicht eine bessere Lösungsqualität erhofft.
+Durch die Bereitstellung mehrer Tests wird sich aus der Stundierendensicht eine bessere Lösungsqualität erhofft.

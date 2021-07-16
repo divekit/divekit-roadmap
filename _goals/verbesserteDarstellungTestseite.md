@@ -15,6 +15,7 @@ history:
         comment: initially created
 
 todo:
+    - Begründung und Beschreibung unterteilen und spezifizieren
 ---
 
 Studierende wünschen sich eine Verbesserung der Testseite bzw. der Anzeige der Ergebnisse. Es wird gewünscht, dass die Tests (schnell) auf der gleichen Seite angezeigt werden. Dies könnte durch ein dynamisches Update der Abgabeseite geschehen.

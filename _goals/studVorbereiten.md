@@ -17,6 +17,8 @@ history:
         comment: Die Quellen temporaer runterkopiert. wieder hoch kopiert
 
 todo:
+    - Titel kürzen
+    - Bitte geschlechtsneutral formulieren
 ---
 
 ## Beschreibung

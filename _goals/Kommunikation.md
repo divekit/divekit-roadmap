@@ -24,7 +24,7 @@ history:
         comment: Updated todo
 
 todo:
-    - Quellformat anpassen
+    - Quellformat auf [..., ..., ...] anpassen
 ---
 
 ## Beschreibung
@@ -35,7 +35,6 @@ Zwischen den Anwendern soll es möglich sein zu Kommunizieren ohne auf eine Drit
 
 Aktuell werden viele verschiende Kommunikationsmittel können genutzt, darunter gehören Slack, Cisco Jabber (Für Lehrende), Zoom, Discord, WhatsApp, FB Messenger, Ilias-Forum, E-Mail oder die eigene Handynummer. 
 
-Eine Erweiterung der Kommunikation könnten Chats-Bot genutzt werden.
-
 Die Kommunikation über externe Systeme verleitet dazu, das System komplett zu verlassen. Beispielweise auch wenn ein UML-Tool weiterhin verwendet wird.
 
+Eine Erweiterung der Kommunikation könnten Chats-Bot genutzt werden.
