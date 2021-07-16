@@ -9,7 +9,7 @@ title: Konsistente Geschichten und Aufgabentexte
 goals: 
     - konsistenteGeschichte
 source:
-    - [interview, sbente, Minute 00:31:38]
+    - [interview, sbente, Minute 00-31-38]
 prefilterPriorizationPoints:
 implementationStatus: open
 history:
@@ -19,6 +19,7 @@ history:
     v2:
         date: 2021-07-15
         comment: Fixed goales
+
 todo: 
 ---
 

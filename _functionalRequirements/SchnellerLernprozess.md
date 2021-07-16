@@ -8,7 +8,7 @@ title: Schneller Lernprozess
 goals:
     - geringeEinarbeitungszeit
 source:
-    - [beobachtungstagebuch , PC4]
+    - [beobachtungstagebuch, PC4]
 implementationStatus: open
 prefilterPriorizationPoints: 6
 kano:

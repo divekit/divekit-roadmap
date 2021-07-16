@@ -6,7 +6,7 @@ responsible:
     - ako
 title: Individuelles Design
 goals:
-    - individualität
+    - nutzerPraferenzDesign
 source:
     - [beobachtungstagebuch, HS3]
 implementationStatus: open
