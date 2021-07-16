@@ -11,8 +11,8 @@ scenarioTypes:
 responsible: 
     - kru
 source: 
-    - [interview, jintveen, Minute 15:44]
-    - [interview, jintveen, Minute 13:54]
+    - [interview, jintveen, Minute 00-15-44]
+    - [interview, jintveen, Minute 00-13-54]
     - [workshop, walt-disney, 22 / 47 / 48]
 history:
     v1:

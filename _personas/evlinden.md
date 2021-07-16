@@ -10,8 +10,8 @@ isPrimary: yes
 relationshipToProject: >
     Nutzerin des Systems möchte eine Einstiegshilfe für das Tool.
 source: 
-    - [interview, jintveen, Minute 15:44]
-    - [interview, jintveen, Minute 13:54]
+    - [interview, jintveen, Minute 00-15-44]
+    - [interview, jintveen, Minute 00-13-54]
 history:
     v1:
         date: 2021-06-16
