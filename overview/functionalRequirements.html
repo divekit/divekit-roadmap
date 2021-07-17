@@ -35,9 +35,9 @@ layout: default
         <tr>
             {% include /functions/checks/check-generic-aspects.html myArtefact=functionalRequirement
                         myErrorString="" myWarningString="" %}
-            {% include /functions/checks/check-goalrefs.html myArtefact=functionalRequirement
+            {% include /functions/checks/check-goal-refs.html myArtefact=functionalRequirement
                         myErrorString=errorString myWarningString=warningString %}
-            {% include /functions/checks/check-functionalRequirements.html myArtefact=functionalRequirement
+            {% include /functions/checks/check-functionalRequirement.html myArtefact=functionalRequirement
                         myErrorString=errorString myWarningString=warningString %}
             {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=functionalRequirement.todo %}
             <td>{{ iconString }}</td>
