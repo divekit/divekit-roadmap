@@ -21,9 +21,10 @@ layout: default
     <thead>
     <tr>
         <th width="5%"></th>
+        <th width="10%">ID</th>
         <th width="15%">Name</th>
-        <th width="30%">Stakeholder-Rolle</th>
-        <th width="45%">Beziehung zum Projekt</th>
+        <th width="25%">Stakeholder-Rolle</th>
+        <th width="40%">Beziehung zum Projekt</th>
     </tr>
     </thead>
     <tbody>
@@ -35,10 +36,13 @@ layout: default
             {% include /functions/checks/check-stakeholderRole-refs.html myStakeholderRoleRef=stakeholderRoleRef
                         myAsList=false myPurpose="Stakeholder-Rolle"
                         myErrorString=errorString myWarningString=warningString %}
-            {% include /functions/checks/check-stakeholder.html myArtefact=functionalRequirement
+            {% include /functions/checks/check-stakeholder.html myArtefact=stakeholder
                         myErrorString=errorString myWarningString=warningString %}
             {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=stakeholder.todo %}
             <td>{{ iconString }}</td>
+            {% include /functions/get-globalid.html myCollection=site.stakeholders
+                    myArtefact=stakeholder myPrefix="SH" %}
+            <td><a href="{{ site.url }}{{ stakeholder.url | relative_url }}">{{ globalId }}</a></td>
             <td><a href="{{ site.url }}{{ stakeholder.url | relative_url }}">{{ stakeholder.name }}</a></td>
             <td>{% include /functions/print-link-to-role.html myRoleAcronym=stakeholder.stakeholderRole %}</td>
             <td>{{ stakeholder.relationshipToProject }}</td>
