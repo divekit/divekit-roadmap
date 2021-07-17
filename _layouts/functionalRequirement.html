@@ -26,10 +26,7 @@ layout: default
     <dt>Punkte aus Vorpriorisierung</dt>
     <dd>{{ page.prefilterPriorizationPoints }}</dd>
 
-    <dt>History</dt>
-    {% for entry in page.history %}
-        <dd>({{ entry[0]}}) &nbsp; {{ entry[1].date }} - {{ entry[1].comment }}</dd>
-    {% endfor %}
+    {% include /functions/print-history.html myArtefact=page %}
 
     {% include /functions/checks/check-generic-aspects.html myArtefact=page myErrorString="" myWarningString="" %}
     {% include /functions/checks/check-goal-refs.html myArtefact=page myErrorString=errorString myWarningString=warningString %}
