@@ -43,7 +43,13 @@ layout: default
             {% include /functions/get-globalid.html myCollection=site.stakeholders
                     myArtefact=stakeholder myPrefix="SH" %}
             <td><a href="{{ site.url }}{{ stakeholder.url | relative_url }}">{{ globalId }}</a></td>
-            <td><a href="{{ site.url }}{{ stakeholder.url | relative_url }}">{{ stakeholder.name }}</a></td>
+
+            {% if stakeholder.subtype == "group" %}
+                {% assign groupString = " (Gruppe)" %}
+            {% else %}
+                {% assign groupString = "" %}
+            {% endif %}
+            <td><a href="{{ site.url }}{{ stakeholder.url | relative_url }}">{{ stakeholder.name }}{{ groupString }}</a></td>
             <td>
                 {% assign linkList = "" | split: ";" %}
                 {% for shr in stakeholder.stakeholderRole %}

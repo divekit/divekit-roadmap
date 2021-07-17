@@ -3,7 +3,18 @@ layout: default
 ---
 
 {% include /functions/get-globalid.html myCollection=site.stakeholders myArtefact=page myPrefix="SH" %}
-<h1>Stakeholder »{{ page.name }}« ({{ globalId }})</h1>
+{% if page.subtype == "group" %}
+    {% assign artefactString = "Stakeholder-Gruppe" %}
+{% else %}
+    {% assign artefactString = "Stakeholder" %}
+{% endif %}
+<h1>{{ artefactString }} »{{ page.name }}« ({{ globalId }})</h1>
+
+{% if page.anonymous %}
+    <p>
+        Auf Wunsch des Stakeholders wird der Klarname hier nicht genannt. 
+    </p>
+{% endif %}
 
 <dl>
     <dt>Autor(en)</dt>
