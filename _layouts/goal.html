@@ -7,7 +7,7 @@ layout: default
 
 <dl>
     <dt>Responsible</dt>
-    <dd>{% include /functions/resolve-names.html mydecision=page %}{{ responsible_string }}</dd>
+    <dd>{% include /functions/resolve-names.html my_responsible=page.responsible %}{{ responsible_string }}</dd>
 
 
     {% if page.todos and page.todos.size > 0 %}
