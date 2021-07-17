@@ -6,7 +6,8 @@ responsible:
     - duz
     - kru
 name: Marco Reitano
-stakeholderRole: wmaProg
+stakeholderRole: 
+    - wmaProg
 relationshipToProject: >
     Möglicher Nutzer des Systems auf WMA-Seite.
 history:

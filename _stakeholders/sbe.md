@@ -6,7 +6,8 @@ responsible:
     - fkr
     - ako
 name: Stefan Bente
-stakeholderRole: profInf
+stakeholderRole: 
+    - profInf
 relationshipToProject: >
     "Sponsor" von Divekit, versucht das Tool im Kollegenkreis zu promoten.
 history:

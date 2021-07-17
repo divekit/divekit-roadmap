@@ -4,7 +4,8 @@ acronym: nnProf1
 responsible: 
     - jsp
 name: n. n. Prof 1
-stakeholderRole: profInf
+stakeholderRole: 
+    - profInf
 relationshipToProject: >
     Möglicher Nutzer des Systems auf Dozentenseite.
 history:

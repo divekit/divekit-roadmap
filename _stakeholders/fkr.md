@@ -4,7 +4,8 @@ acronym: fkr
 responsible: 
     - hbu
 name: Fabian Krampe
-stakeholderRole: wmaProg
+stakeholderRole: 
+    - wmaProg
 relationshipToProject: >
     Anwender des Systems in mehreren Lehrveranstaltungen. Interessiert an sinnvoller Weiterentwicklung, 
     möchte eigene Ideen einbringen. 

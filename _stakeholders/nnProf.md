@@ -4,7 +4,8 @@ acronym: nnProf
 responsible:
     - mba
 name: nnProf
-stakeholderRole: profInf
+stakeholderRole: 
+    - profInf
 relationshipToProject: >
     Jemand der potenziell das Tool in seiner Lehre einsetzten könnte. 
 history:

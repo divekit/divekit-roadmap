@@ -4,7 +4,8 @@ acronym: mma
 responsible: 
     - tza
 name: Max Maier
-stakeholderRole: student
+stakeholderRole: 
+    - student
 relationshipToProject: >
     Verwendet DiveKit in Rahmen eines Praktikums
 history:

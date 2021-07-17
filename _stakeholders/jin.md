@@ -6,7 +6,8 @@ responsible:
     - kru
     - ako
 name: Jann Intveen
-stakeholderRole: wmaProg
+stakeholderRole: 
+    - wmaProg
 relationshipToProject: >
     War beteiligt an der Konzeptionierung und Entwicklung des Systems.
 history:
