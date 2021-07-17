@@ -16,6 +16,9 @@ history:
         comment: created initially
 todo: 
     - ausführlicher     
+    - potentielle Anwenderrolle hinzufügen (SB)
+    - Beschreibung ist sehr generisch, Motivation sollte in 2-3 Sätzen beschrieben sein (wie z.B. bei nnWMA2) (SB)
+    - Rolle "Dozent" fehlt (SB)
 ---
 
 ## Allgemein

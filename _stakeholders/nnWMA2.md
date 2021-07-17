@@ -5,6 +5,7 @@ responsible:
     - ngi
     - fgr
 name: anonym
+anonymous: true
 stakeholderRole: 
     - wmaProg
     - wmaInf
@@ -16,6 +17,7 @@ history:
         date: 2021-06-16
         comment: created initially
 todo:
+    - potentielle Divekit-Anwenderrolle hinzufügen (SB)
 ---
 
 ## Steckbrief

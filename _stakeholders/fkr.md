@@ -17,6 +17,8 @@ history:
         date: 2021-05-28
         comment: addeed Steckbrief, Tätigkeitsgebiete and Relevanz
 todo:
+    - potentielle Anwenderrolle hinzufügen (SB)
+    - Rolle "Dozent" fehlt, Fabian macht auch selbstständig Lehre (SB) 
 ---
 
 ## Steckbrief
