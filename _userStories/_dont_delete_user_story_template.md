@@ -1,6 +1,6 @@
 ---
 type: userStory
-acronym: usTemplate
+acronym: _dont_delete_user_story_template
 responsible:
 	- psc
 title: User Story Template
