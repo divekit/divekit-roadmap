@@ -28,4 +28,4 @@ Das Feedback-Archiv besteht aus:
 
 ## Diagram
 
-![UseCaseFeedbackArchiv](./diagrams/UseCaseFeedbackArchiv.jpg))
+![UseCaseFeedbackArchiv](./diagrams/UseCaseFeedbackArchiv.jpg)
