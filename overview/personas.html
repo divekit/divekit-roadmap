@@ -22,7 +22,8 @@ layout: default
     {% for persona in site.personas %}
     <tr>
         <td><a href="{{ site.url }}{{ persona.url | relative_url }}">{{ persona.name }}</a></td>
-        <td>{% include /functions/print-link-to-role.html myRoleAcronym=persona.stakeholderRole %}</td>
+        {% include /functions/get-link-to-stakeholder-role.html myRoleAcronym=persona.stakeholderRole withId=false %}
+        <td>{{ stakeholderRoleLink }}</td>
     </tr>
     {% endfor %}
     </tbody>

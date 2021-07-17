@@ -23,7 +23,8 @@ layout: default
         {% for survey in site.surveys %}
         <tr>
             <td><a href="{{ site.url }}{{ survey.url | relative_url }}">{{ survey.subject }}</a></td>
-            <td>{% include /functions/print-link-to-role.html myRoleAcronym=survey.stakeholder_role %}</td>
+            {% include /functions/get-link-to-stakeholder-role.html myRoleAcronym=survey.stakeholder_role withId=false %}
+            <td>{{ stakeholderRoleLink }}</td>
         </tr>
         {% endfor %}
     </tbody>

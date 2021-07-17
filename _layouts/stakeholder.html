@@ -11,7 +11,11 @@ layout: default
     <dd>{{ responsibleString }}</dd>
 
     <dt>Stakeholder-Rolle</dt>
-    <td>{% include /functions/print-link-to-role.html myRoleAcronym=page.stakeholderRole %}</td>
+        {% for shr in page.stakeholderRole %}
+            {% include /functions/get-link-to-stakeholder-role.html myRoleAcronym=shr withId=true%}
+            <dd>{{ stakeholderRoleLink }}</dd>
+        {% endfor %}
+    </td>
 
     <dt>Beziehung zum Projekt</dt>
     <dd> {{ page.relationshipToProject }} </dd>
@@ -21,7 +25,7 @@ layout: default
     {% include /functions/checks/check-generic-aspects.html myArtefact=page myErrorString="" myWarningString="" %}
     {% assign stakeholderRoleRef = page.stakeholderRole %}
     {% include /functions/checks/check-stakeholderRole-refs.html myStakeholderRoleRef=stakeholderRoleRef
-            myAsList=false myPurpose="Stakeholder-Rolle" myErrorString=errorString myWarningString=warningString %}
+            myAsList=true myPurpose="Stakeholder-Rolle" myErrorString=errorString myWarningString=warningString %}
     {% include /functions/checks/check-stakeholder.html myArtefact=page  myErrorString=errorString myWarningString=warningString %}
     {% include /functions/print-detailed-check-messages.html errors=errorString warnings=warningString todos=page.todo %}
 </dl>
