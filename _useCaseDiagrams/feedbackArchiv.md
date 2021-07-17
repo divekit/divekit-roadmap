@@ -1,6 +1,6 @@
 ---
 type: useCaseDiagram
-acronym: feedbackArchiv.md
+acronym: feedbackArchiv
 useCases:
     - feedbackArchivDurchsuchen
 responsible: 
@@ -22,10 +22,11 @@ Das Use-Case Diagramm stellt mögliche Nutzungen des Systemteils "Feedback-Archi
 
 Das Feedback-Archiv besteht aus:
 * Suche nach Feedback
-* Anzeige von Feedback
-  * Bearbeitung / Löschen von Feedback
+  * Filtern von Feedback
+  * Anzeige von Feedback
+    * Bearbeitung / Löschen von Feedback
 * Archivierung von Feedback
 
 ## Diagram
 
-![UseCaseFeedbackArchiv](./diagrams/UseCaseFeedbackArchiv.jpg))
+![UseCaseFeedbackArchiv](./diagrams/UseCaseFeedbackArchiv.jpg)

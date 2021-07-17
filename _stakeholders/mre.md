@@ -1,5 +1,6 @@
 ---
 type: stakeholder
+subtype: person
 acronym: mre
 responsible: 
     - ako
@@ -16,6 +17,10 @@ history:
         comment: created initially
 todo: 
     - ausführlicher     
+    - potentielle Anwenderrolle hinzufügen (SB)
+    - neben der Person MR ist auch seine Rolle interessant - Studioleitung "Code" bei Code & Context (SB)
+    - zumindest kurz sollte auf das werkstatt-orientierte Hands-On-Konzept bei Code & Context eingegangen werden, mit einem Link zu coco.study (SB)
+    - Rolle "Dozent" fehlt, macht auch selbst Lehre (SB)
 ---
 
 ## Allgemein

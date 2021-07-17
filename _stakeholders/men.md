@@ -1,5 +1,6 @@
 ---
 type: stakeholder
+subtype: person
 acronym: men
 responsible: 
     - psc
@@ -16,6 +17,9 @@ history:
         date: 2021-06-24
         comment: add correct role
 todo:
+    - potentielle Anwenderrolle hinzufügen (SB)
+    - Name bitte mit komplettem Titel (SB)
+    - Rolle "Dozent" fehlt (SB)
 ---
 
 ## Steckbrief
