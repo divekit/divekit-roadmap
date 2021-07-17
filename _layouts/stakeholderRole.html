@@ -13,7 +13,7 @@ layout: default
     <dd>{{ page.name }}</dd>
 
     <dt>Responsible</dt>
-    <dd>{% include /functions/resolve-names.html mydecision=page %}{{ responsible_string }}</dd>
+    <dd>{% include /functions/resolve-names.html my_responsible=page.responsible %}{{ responsibleString }}</dd>
 
     {% if page.todos and page.todos.size > 0 %}
         {% assign todo_counter = 0 %}
