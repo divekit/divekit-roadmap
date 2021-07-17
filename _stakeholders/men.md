@@ -1,5 +1,6 @@
 ---
 type: stakeholder
+subtype: person
 acronym: men
 responsible: 
     - psc

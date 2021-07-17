@@ -1,5 +1,6 @@
 ---
 type: stakeholder
+subtype: person
 acronym: cko
 responsible: 
     - ako

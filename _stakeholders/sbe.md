@@ -1,5 +1,6 @@
 ---
 type: stakeholder
+subtype: person
 acronym: sbe
 responsible: 
     - sbe
