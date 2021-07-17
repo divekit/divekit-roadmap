@@ -4,7 +4,8 @@ acronym: rwö
 responsible: 
     - jlü
 name: Rene Wörzberger
-stakeholderRole: profInf
+stakeholderRole: 
+    - profInf
 relationshipToProject: Potentieller Nutzer des DiveKits 
 history:
     v1:

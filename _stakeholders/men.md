@@ -4,7 +4,8 @@ acronym: men
 responsible: 
     - psc
 name: Monika Engelen
-stakeholderRole: profBwl
+stakeholderRole: 
+    - profBwl
 relationshipToProject: >
     Anwender des Systems in mehreren Lehrveranstaltungen. Interessiert an sinnvoller Weiterentwicklung, möchte eigene Ideen einbringen. 
 history:

@@ -6,7 +6,8 @@ responsible:
     - duz
     - kru
 name: n. n. WMA 4
-stakeholderRole: wmaProg
+stakeholderRole: 
+    - wmaProg
 relationshipToProject: >
     Möglicher Nutzer des Systems auf WMA-Seite.
 history:

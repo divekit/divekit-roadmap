@@ -6,7 +6,8 @@ responsible:
     - duz
     - kru
 name: Christian Kohls
-stakeholderRole: profInf
+stakeholderRole: 
+    - profInf
 relationshipToProject: >
     Möglicher Nutzer des Systems auf Dozentenseite. (Vorraussichtlich für AP2)
 history:
