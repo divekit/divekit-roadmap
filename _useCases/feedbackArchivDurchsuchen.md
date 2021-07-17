@@ -6,7 +6,10 @@ responsible:
 title: Feedback suchen
 description: Ein Studierender durchsucht das Feedback-Archiv nach ähnlichen Problemen, um gegebenenfalls ähnliche Lösungen oder anders formuliertes Feedback als Inspiration zu nutzen.
 primaryActor: student
-secondaryActors:
+secondaryActors: 
+    - wmaInf
+    - wmaProg
+    - profInf
 trigger: Ein Studierender bearbeitet eine Aufgabe und braucht Inspiration.
 precondition: Ein Feedback-Archiv mit einträgen existiert.
 postcondition: Der Studierende kann sich an vergangenen Hilfestellungen orientieren.
