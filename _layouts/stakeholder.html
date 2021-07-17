@@ -2,37 +2,28 @@
 layout: default
 ---
 
-<!-- {% include /functions/get-status-infos.html mydecision=page %} -->
-<h1>{{ page.title }}</h1>
+{% include /functions/get-globalid.html myCollection=site.stakeholders myArtefact=page myPrefix="SH" %}
+<h1>Stakeholder »{{ page.name }}« ({{ globalId }})</h1>
 
 <dl>
-    <dt>Acronym</dt>
-    <dd>{{ page.acronym }}</dd>
+    <dt>Autor(en)</dt>
+    {% include /functions/resolve-names.html my_responsible=page.responsible %}
+    <dd>{{ responsibleString }}</dd>
 
-    <dt>Name</dt>
-    <dd>{{ page.name }}</dd>
-
-    {% if page.todos and page.todos.size > 0 %}
-        {% assign todo_counter = 0 %}
-        <dt>Todos</dt>
-        {% for entry in page.todos %}
-            {% assign todo_counter = todo_counter | plus: 1 %}
-            <dd>({{ todo_counter }}) {{ entry }}</dd>
-        {% endfor %}
-    {% endif %}
-
-    <dt>Responsible</dt>
-    <dd>{% include /functions/resolve-names.html my_responsible=page.responsible %}{{ responsibleString }}</dd>
+    <dt>Stakeholder-Rolle</dt>
+    <td>{% include /functions/print-link-to-role.html myRoleAcronym=page.stakeholderRole %}</td>
 
     <dt>Beziehung zum Projekt</dt>
     <dd> {{ page.relationshipToProject }} </dd>
 
+    {% include /functions/print-history.html myArtefact=page %}
 
-    <dt>History</dt>
-    {% for entry in page.history %}
-        <dd>({{ entry[0]}}) &nbsp; {{ entry[1].date }} - {{ entry[1].comment }}</dd>
-    {% endfor %}
-
+    {% include /functions/checks/check-generic-aspects.html myArtefact=page myErrorString="" myWarningString="" %}
+    {% assign stakeholderRoleRef = page.stakeholderRole %}
+    {% include /functions/checks/check-stakeholderRole-refs.html myStakeholderRoleRef=stakeholderRoleRef
+            myAsList=false myPurpose="Stakeholder-Rolle" myErrorString=errorString myWarningString=warningString %}
+    {% include /functions/checks/check-stakeholder.html myArtefact=page  myErrorString=errorString myWarningString=warningString %}
+    {% include /functions/print-detailed-check-messages.html errors=errorString warnings=warningString todos=page.todo %}
 </dl>
 
 

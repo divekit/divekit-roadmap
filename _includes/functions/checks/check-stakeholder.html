@@ -6,5 +6,21 @@
 {% assign warningList = warningString | split: ";" %}
 
 
+{% comment %} ***** Error Numbers 530 - 549 reserved for Stakeholder **** {% endcomment %}
+
+
+{% comment %}---------- relationshipToProject -----------{% endcomment %}
+{% if artefact.relationshipToProject %}
+    {% if artefact.relationshipToProject.size < 10 %}
+        {% assign myMsg = "Beschreibung der Beziehung zum Projekt (relationshipToProject) scheint zu kurz zu sein." %}
+        {% include /functions/define-message.html ignore=artefact.ignore msgno="w530" msg=myMsg %}
+        {% assign warningList = warningList | push: out_msg %}
+    {% endif %}
+{% else %}
+    {% include /functions/define-message.html ignore=artefact.ignore msgno="e531"
+        msg="Beziehung des Stakeholders zum Projekt (relationshipToProject) fehlt!" %}
+    {% assign errorList = errorList | push: out_msg %}
+{% endif %}
+
 {% assign errorString = errorList | join: ";" %}
 {% assign warningString = warningList | join: ";" %}
