@@ -12,7 +12,7 @@ layout: default
 
 {% if page.anonymous %}
     <p>
-        Auf Wunsch des Stakeholders wird der Klarname hier nicht genannt. 
+        Auf Wunsch des Stakeholders wird der Klarname hier nicht genannt.
     </p>
 {% endif %}
 
@@ -30,6 +30,14 @@ layout: default
 
     <dt>Beziehung zum Projekt</dt>
     <dd> {{ page.relationshipToProject }} </dd>
+
+    {% assign interviews = site.interviews | where: "stakeholder", page.acronym %}
+    {% if interviews.size > 0 %}
+        <dt>Interview</dt>
+        {% for interview in interviews %}
+            <dd><a href="{{ site.url }}{{ interview.url | relative_url }}">{{ interview.title }}</a></dd>
+        {% endfor %}
+    {% endif %}
 
     {% include /functions/print-history.html myArtefact=page %}
 

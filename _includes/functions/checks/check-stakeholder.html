@@ -22,5 +22,20 @@
     {% assign errorList = errorList | push: out_msg %}
 {% endif %}
 
+{% comment %}---------- subtype -----------{% endcomment %}
+{% if artefact.subtype %}
+    {% if artefact.subtype != "person" and artefact.subtype != "group" %}
+        {% assign myMsg = "Undefinierten Subtype '" | append: artefact.implementationStatus |
+                append: "' gefunden! Erlaubt sind 'person' und 'group'." %}
+        {% include /functions/define-message.html ignore=artefact.ignore msgno="e532" msg=myMsg %}
+        {% assign errorList = errorList | push: out_msg %}
+    {% endif %}
+{% else %}
+    {% include /functions/define-message.html ignore=artefact.ignore msgno="e533"
+            msg="Subtype fehlt! Erlaubt sind 'person' und 'group'." %}
+    {% assign errorList = errorList | push: out_msg %}
+{% endif %}
+
+
 {% assign errorString = errorList | join: ";" %}
 {% assign warningString = warningList | join: ";" %}
