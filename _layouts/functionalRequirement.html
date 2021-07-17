@@ -32,8 +32,8 @@ layout: default
     {% endfor %}
 
     {% include /functions/checks/check-generic-aspects.html myArtefact=page myErrorString="" myWarningString="" %}
-    {% include /functions/checks/check-goalrefs.html myArtefact=page myErrorString=errorString myWarningString=warningString %}
-    {% include /functions/checks/check-functionalRequirements.html myArtefact=page myErrorString=errorString myWarningString=warningString %}
+    {% include /functions/checks/check-goal-refs.html myArtefact=page myErrorString=errorString myWarningString=warningString %}
+    {% include /functions/checks/check-functionalRequirement.html myArtefact=page myErrorString=errorString myWarningString=warningString %}
     {% include /functions/print-detailed-check-messages.html errors=errorString warnings=warningString todos=page.todo %}
 </dl>
 

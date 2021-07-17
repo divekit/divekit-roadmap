@@ -1,0 +1,10 @@
+{% assign artefact = include.myArtefact %}
+{% assign errorString = include.myErrorString %}
+{% assign warningString = include.myWarningString %}
+
+{% assign errorList = errorString | split: ";" %}
+{% assign warningList = warningString | split: ";" %}
+
+
+{% assign errorString = errorList | join: ";" %}
+{% assign warningString = warningList | join: ";" %}

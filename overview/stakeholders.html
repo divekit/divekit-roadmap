@@ -20,16 +20,25 @@ layout: default
 <table>
     <thead>
     <tr>
-        <th width="10%">Akronym</th>
+        <th width="5%"></th>
         <th width="15%">Name</th>
-        <th width="30%">Rolle</th>
+        <th width="30%">Stakeholder-Rolle</th>
         <th width="45%">Beziehung zum Projekt</th>
     </tr>
     </thead>
     <tbody>
         {% for stakeholder in site.stakeholders %}
         <tr>
-            <td>{{ stakeholder.acronym }}</td>
+            {% include /functions/checks/check-generic-aspects.html myArtefact=stakeholder
+                        myErrorString="" myWarningString="" %}
+            {% assign stakeholderRoleRef = stakeholder.stakeholderRole %}
+            {% include /functions/checks/check-stakeholderRole-refs.html myStakeholderRoleRef=stakeholderRoleRef
+                        myAsList=false myPurpose="Stakeholder-Rolle"
+                        myErrorString=errorString myWarningString=warningString %}
+            {% include /functions/checks/check-stakeholder.html myArtefact=functionalRequirement
+                        myErrorString=errorString myWarningString=warningString %}
+            {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=stakeholder.todo %}
+            <td>{{ iconString }}</td>
             <td><a href="{{ site.url }}{{ stakeholder.url | relative_url }}">{{ stakeholder.name }}</a></td>
             <td>{% include /functions/print-link-to-role.html myRoleAcronym=stakeholder.stakeholderRole %}</td>
             <td>{{ stakeholder.relationshipToProject }}</td>
