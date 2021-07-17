@@ -1,5 +1,6 @@
 ---
 type: stakeholder
+subtype: person
 acronym: jin
 responsible:
     - duz
@@ -15,6 +16,7 @@ history:
         date: 2021-06-07
         comment: created initially
 todo:
+    - Anwenderrolle hinzufügen (SB)
 ---
 
 ## Steckbrief

@@ -1,9 +1,11 @@
 ---
 type: stakeholder
+subtype: person
 acronym: nnProf1
 responsible: 
     - jsp
 name: n. n. Prof 1
+anonymous: true
 stakeholderRole: 
     - profInf
 relationshipToProject: >
@@ -14,6 +16,9 @@ history:
         comment: created initially
 todo: 
     - ausführlicher     
+    - Rolle "Dozent" fehlt (SB)
+    - potentielle Anwenderrolle hinzufügen (SB)
+    - Bitte eine einheitliche Namenskonvention für anonymisierte Namen verwenden (SB) 
 ---
 ## Steckbrief
 

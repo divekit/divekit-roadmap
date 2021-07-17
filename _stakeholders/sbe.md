@@ -1,5 +1,6 @@
 ---
 type: stakeholder
+subtype: person
 acronym: sbe
 responsible: 
     - sbe
@@ -9,7 +10,7 @@ name: Stefan Bente
 stakeholderRole: 
     - profInf
 relationshipToProject: >
-    "Sponsor" von Divekit, versucht das Tool im Kollegenkreis zu promoten.
+    Leitet Entwicklung von Divekit als "Sponsor", versucht das Tool im Kollegenkreis zu promoten.
 history:
     v1:
         date: 2021-05-06
@@ -18,7 +19,13 @@ history:
         date: 2021-06-15
         comment: added Allgemein
 todo: 
-    - ausführlicher      
+    - ausführlicher    
+    - Sponsor-Rolle als StakeholderRolle hinzufügen (SB)
+    - Entwicklerrolle hinzufügen (trägt zur Entwicklung bei) (SB)
+    - Anwenderrolle hinzufügen (SB)
+    - auf die Divekit Ressourcen unter archi-lab.io verweisen (SB)
+    - Beschreibung ist sehr generisch, Motivation sollte in 2-3 Sätzen beschrieben sein (wie z.B. bei nnWMA2) (SB)
+    - Name bitte mit komplettem Titel (SB)
 ---
 
 ## Allgemein
