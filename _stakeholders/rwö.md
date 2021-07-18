@@ -1,10 +1,12 @@
 ---
 type: stakeholder
+subtype: person
 acronym: rwö
 responsible: 
     - jlü
 name: Rene Wörzberger
-stakeholderRole: profInf
+stakeholderRole: 
+    - profInf
 relationshipToProject: Potentieller Nutzer des DiveKits 
 history:
     v1:
@@ -17,7 +19,9 @@ history:
         date: 2021-07-07
         comment: remove todo
 todo:
-
+    - potentielle Anwenderrolle hinzufügen (SB)
+    - Beschreibung ist sehr generisch, Motivation sollte in 2-3 Sätzen beschrieben sein (wie z.B. bei nnWMA2) (SB)
+    - Name bitte mit komplettem Titel (SB)
 ---
 # Person
 [TH Köln Person](https://www.th-koeln.de/personen/rene.woerzberger/)

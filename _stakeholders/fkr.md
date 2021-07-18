@@ -1,10 +1,12 @@
 ---
 type: stakeholder
+subtype: person
 acronym: fkr
 responsible: 
     - hbu
 name: Fabian Krampe
-stakeholderRole: wmaProg
+stakeholderRole: 
+    - wmaProg
 relationshipToProject: >
     Anwender des Systems in mehreren Lehrveranstaltungen. Interessiert an sinnvoller Weiterentwicklung, 
     möchte eigene Ideen einbringen. 
@@ -16,6 +18,8 @@ history:
         date: 2021-05-28
         comment: addeed Steckbrief, Tätigkeitsgebiete and Relevanz
 todo:
+    - potentielle Anwenderrolle hinzufügen (SB)
+    - Rolle "Dozent" fehlt, Fabian macht auch selbstständig Lehre (SB) 
 ---
 
 ## Steckbrief

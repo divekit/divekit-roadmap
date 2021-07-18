@@ -1,0 +1,41 @@
+{% assign artefact = include.myArtefact %}
+{% assign errorString = include.myErrorString %}
+{% assign warningString = include.myWarningString %}
+
+{% assign errorList = errorString | split: ";" %}
+{% assign warningList = warningString | split: ";" %}
+
+
+{% comment %} ***** Error Numbers 530 - 549 reserved for Stakeholder **** {% endcomment %}
+
+
+{% comment %}---------- relationshipToProject -----------{% endcomment %}
+{% if artefact.relationshipToProject %}
+    {% if artefact.relationshipToProject.size < 10 %}
+        {% assign myMsg = "Beschreibung der Beziehung zum Projekt (relationshipToProject) scheint zu kurz zu sein." %}
+        {% include /functions/define-message.html ignore=artefact.ignore msgno="w530" msg=myMsg %}
+        {% assign warningList = warningList | push: out_msg %}
+    {% endif %}
+{% else %}
+    {% include /functions/define-message.html ignore=artefact.ignore msgno="e531"
+        msg="Beziehung des Stakeholders zum Projekt (relationshipToProject) fehlt!" %}
+    {% assign errorList = errorList | push: out_msg %}
+{% endif %}
+
+{% comment %}---------- subtype -----------{% endcomment %}
+{% if artefact.subtype %}
+    {% if artefact.subtype != "person" and artefact.subtype != "group" %}
+        {% assign myMsg = "Undefinierten Subtype '" | append: artefact.implementationStatus |
+                append: "' gefunden! Erlaubt sind 'person' und 'group'." %}
+        {% include /functions/define-message.html ignore=artefact.ignore msgno="e532" msg=myMsg %}
+        {% assign errorList = errorList | push: out_msg %}
+    {% endif %}
+{% else %}
+    {% include /functions/define-message.html ignore=artefact.ignore msgno="e533"
+            msg="Subtype fehlt! Erlaubt sind 'person' und 'group'." %}
+    {% assign errorList = errorList | push: out_msg %}
+{% endif %}
+
+
+{% assign errorString = errorList | join: ";" %}
+{% assign warningString = warningList | join: ";" %}

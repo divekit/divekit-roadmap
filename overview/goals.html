@@ -20,7 +20,9 @@ layout: default
     </tr>
     </thead>
     <tbody>
-        {% for goal in site.goals %}
+        {% assign sortField = site.data.metadata["goal"].sortField %}
+        {% assign collection = site.goals | sort: sortField %}
+        {% for goal in collection %}
         <tr>
             <td><a href="{{ site.url }}{{ goal.url | relative_url }}">{{ goal.title }}</a></td>
         </tr>

@@ -5,7 +5,7 @@ responsible:
     - hbu
     - fkr
 name: WMA Informatik, Schwerpunkt Programmierung
-title: >
+description: >
     Wissenschaftliche*r Mitarbeiter*in in der Informatik, mit Haupttätigkeitsfeld in der Lehre (Programmieren)
 history:
     v1:

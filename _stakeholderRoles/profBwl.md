@@ -4,7 +4,7 @@ type: stakeholderRole
 responsible: 
     - psc
 name: Professor für Betriebswirtschaftslehre
-title: >
+description: >
     Professur in einem oder mehreren BWL-Studiengängen
 history:
     v1:

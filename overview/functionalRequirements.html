@@ -35,15 +35,15 @@ layout: default
         <tr>
             {% include /functions/checks/check-generic-aspects.html myArtefact=functionalRequirement
                         myErrorString="" myWarningString="" %}
-            {% include /functions/checks/check-goalrefs.html myArtefact=functionalRequirement
+            {% include /functions/checks/check-goal-refs.html myArtefact=functionalRequirement
                         myErrorString=errorString myWarningString=warningString %}
-            {% include /functions/checks/check-functionalRequirements.html myArtefact=functionalRequirement
+            {% include /functions/checks/check-functionalRequirement.html myArtefact=functionalRequirement
                         myErrorString=errorString myWarningString=warningString %}
             {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=functionalRequirement.todo %}
             <td>{{ iconString }}</td>
 
             {% include /functions/get-globalid.html myCollection=site.functionalRequirements
-                    myArtefact=functionalRequirement myPrefix="FR" %}
+                    myArtefact=functionalRequirement myType="functionalRequirement" %}
             <td><a href="{{ site.url }}{{ functionalRequirement.url | relative_url }}">{{ globalId }}</a></td>
             <td><a href="{{ site.url }}{{ functionalRequirement.url | relative_url }}">{{ functionalRequirement.title }}</a></td>
 

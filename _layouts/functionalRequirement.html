@@ -2,7 +2,8 @@
 layout: default
 ---
 
-{% include /functions/get-globalid.html myCollection=site.functionalRequirements myArtefact=page myPrefix="FR" %}
+{% include /functions/get-globalid.html
+        myCollection=site.functionalRequirements myArtefact=page myType="functionalRequirement" %}
 <h1>Funktionale Anforderung »{{ page.title }}« ({{ globalId }})</h1>
 
 <dl>
@@ -26,14 +27,11 @@ layout: default
     <dt>Punkte aus Vorpriorisierung</dt>
     <dd>{{ page.prefilterPriorizationPoints }}</dd>
 
-    <dt>History</dt>
-    {% for entry in page.history %}
-        <dd>({{ entry[0]}}) &nbsp; {{ entry[1].date }} - {{ entry[1].comment }}</dd>
-    {% endfor %}
+    {% include /functions/print-history.html myArtefact=page %}
 
     {% include /functions/checks/check-generic-aspects.html myArtefact=page myErrorString="" myWarningString="" %}
-    {% include /functions/checks/check-goalrefs.html myArtefact=page myErrorString=errorString myWarningString=warningString %}
-    {% include /functions/checks/check-functionalRequirements.html myArtefact=page myErrorString=errorString myWarningString=warningString %}
+    {% include /functions/checks/check-goal-refs.html myArtefact=page myErrorString=errorString myWarningString=warningString %}
+    {% include /functions/checks/check-functionalRequirement.html myArtefact=page myErrorString=errorString myWarningString=warningString %}
     {% include /functions/print-detailed-check-messages.html errors=errorString warnings=warningString todos=page.todo %}
 </dl>
 

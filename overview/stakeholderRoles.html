@@ -14,15 +14,27 @@ layout: default
 <table>
     <thead>
     <tr>
-        <th width="10%">Akronym</th>
+        <th width="5%"></th>
+        <th width="10%">ID</th>
         <th width="30%">Name</th>
         <th width="60%">Beschreibung</th>
     </tr>
     </thead>
     <tbody>
-    {% for stakeholderRole in site.stakeholderRoles %}
+    {% assign sortField = site.data.metadata["stakeholderRole"].sortField %}
+    {% assign collection = site.stakeholderRoles | sort: sortField %}
+    {% for stakeholderRole in collection %}
     <tr>
-        <td>{{ stakeholderRole.acronym }}</td>
+        {% include /functions/checks/check-generic-aspects.html myArtefact=stakeholderRole
+                    myErrorString="" myWarningString="" %}
+        {% include /functions/checks/check-stakeholderRole.html myArtefact=stakeholderRole
+                    myErrorString=errorString myWarningString=warningString %}
+        {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=stakeholderRole.todo %}
+        <td>{{ iconString }}</td>
+
+        {% include /functions/get-globalid.html myCollection=site.stakeholderRoles
+                myArtefact=stakeholderRole myType="stakeholderRole" %}
+        <td><a href="{{ site.url }}{{ stakeholderRole.url | relative_url }}">{{ globalId }}</a></td>
         <td><a href="{{ site.url }}{{ stakeholderRole.url | relative_url }}">{{ stakeholderRole.name }}</a></td>
         <td>{{ stakeholderRole.description }}</td>
     </tr>

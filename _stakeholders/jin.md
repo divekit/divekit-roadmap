@@ -1,12 +1,14 @@
 ---
 type: stakeholder
+subtype: person
 acronym: jin
 responsible:
     - duz
     - kru
     - ako
 name: Jann Intveen
-stakeholderRole: wmaProg
+stakeholderRole: 
+    - wmaProg
 relationshipToProject: >
     War beteiligt an der Konzeptionierung und Entwicklung des Systems.
 history:
@@ -14,6 +16,7 @@ history:
         date: 2021-06-07
         comment: created initially
 todo:
+    - Anwenderrolle hinzufügen (SB)
 ---
 
 ## Steckbrief

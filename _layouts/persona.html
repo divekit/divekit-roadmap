@@ -6,9 +6,14 @@ layout: default
 <h1>{{ page.title }}</h1>
 
 <dl>
+    <dt>Acronym</dt>
+    <dd>{{ page.acronym }}</dd>
+
+    <dt>Name</dt>
+    <dd>{{ page.name }}</dd>
+
     <dt>Responsible</dt>
     <dd>{% include /functions/resolve-names.html my_responsible=page.responsible %}{{ responsibleString }}</dd>
-
 
     {% if page.todos and page.todos.size > 0 %}
         {% assign todo_counter = 0 %}

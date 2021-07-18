@@ -6,7 +6,7 @@ responsible:
     - ngi
     - jsp
     - tza
-goals: Sammeln von Ideen für Weiterentwicklung des DiveKit aus Studenten-Sicht
+goal: Sammeln von Ideen für Weiterentwicklung des DiveKit aus Studenten-Sicht
 date: 2021-05-19
 time: 13:00
 method: 6-3-5 Methode

@@ -6,7 +6,7 @@ responsible:
     - kru
     - duz
 name: Professor für Informatik
-title: >
+description: >
     Professur in einem oder mehreren Informatik-Studiengängen
 history:
     v1:

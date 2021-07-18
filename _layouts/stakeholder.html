@@ -2,37 +2,53 @@
 layout: default
 ---
 
-<!-- {% include /functions/get-status-infos.html mydecision=page %} -->
-<h1>{{ page.title }}</h1>
+{% include /functions/get-globalid.html
+        myCollection=site.stakeholders myArtefact=page myType="stakeholder" %}
+{% if page.subtype == "group" %}
+    {% assign artefactString = "Stakeholder-Gruppe" %}
+{% else %}
+    {% assign artefactString = "Stakeholder" %}
+{% endif %}
+<h1>{{ artefactString }} »{{ page.name }}« ({{ globalId }})</h1>
+
+{% if page.anonymous %}
+    <p>
+        Auf Wunsch des Stakeholders wird der Klarname hier nicht genannt.
+    </p>
+{% endif %}
 
 <dl>
-    <dt>Acronym</dt>
-    <dd>{{ page.acronym }}</dd>
+    <dt>Autor(en)</dt>
+    {% include /functions/resolve-names.html my_responsible=page.responsible %}
+    <dd>{{ responsibleString }}</dd>
 
-    <dt>Name</dt>
-    <dd>{{ page.name }}</dd>
+    <dt>Stakeholder-Rolle</dt>
+    {% for shr in page.stakeholderRole %}
+        {% include /functions/get-link-to-stakeholder-role.html myRoleAcronym=shr withId=true%}
+        <dd>{{ stakeholderRoleLink }}</dd>
+    {% endfor %}
 
-    {% if page.todos and page.todos.size > 0 %}
-        {% assign todo_counter = 0 %}
-        <dt>Todos</dt>
-        {% for entry in page.todos %}
-            {% assign todo_counter = todo_counter | plus: 1 %}
-            <dd>({{ todo_counter }}) {{ entry }}</dd>
-        {% endfor %}
-    {% endif %}
-
-    <dt>Responsible</dt>
-    <dd>{% include /functions/resolve-names.html mydecision=page %}{{responsible_string}}</dd>
 
     <dt>Beziehung zum Projekt</dt>
     <dd> {{ page.relationshipToProject }} </dd>
 
+    {% assign interviews = site.interviews | where: "stakeholder", page.acronym %}
+    {% if interviews.size > 0 %}
+        <dt>Interview</dt>
+        {% for interview in interviews %}
+            {% include /functions/get-interview-name.html myInterview=page %}
+            <dd><a href="{{ site.url }}{{ interview.url | relative_url }}">{{ interviewName }}</a></dd>
+        {% endfor %}
+    {% endif %}
 
-    <dt>History</dt>
-    {% for entry in page.history %}
-        <dd>({{ entry[0]}}) &nbsp; {{ entry[1].date }} - {{ entry[1].comment }}</dd>
-    {% endfor %}
+    {% include /functions/print-history.html myArtefact=page %}
 
+    {% include /functions/checks/check-generic-aspects.html myArtefact=page myErrorString="" myWarningString="" %}
+    {% assign stakeholderRoleRef = page.stakeholderRole %}
+    {% include /functions/checks/check-stakeholderRole-refs.html myStakeholderRoleRef=stakeholderRoleRef
+            myAsList=true myPurpose="Stakeholder-Rolle" myErrorString=errorString myWarningString=warningString %}
+    {% include /functions/checks/check-stakeholder.html myArtefact=page  myErrorString=errorString myWarningString=warningString %}
+    {% include /functions/print-detailed-check-messages.html errors=errorString warnings=warningString todos=page.todo %}
 </dl>
 
 

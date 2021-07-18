@@ -6,7 +6,7 @@
 {% assign warningList = warningString | split: ";" %}
 
 
-{% comment %} ***** Error/Warning Numbers 000 - 099 reserved here! **** {% endcomment %}
+{% comment %} ***** Error/Warning Numbers 000 - 049 reserved for generic issues **** {% endcomment %}
 
 {% comment %}---------- type -----------{% endcomment %}
 {% if artefact.type %}
@@ -22,23 +22,23 @@
 	{% if allAcronyms.size > 1 %}
 		{% assign myMsg = "Acronym '" | append: thisAcronym |
 			append: "' existiert mehrfach! Acronyms müssen eindeutig sein (innerhalb eines Artefact-Typs)." %}
-		{% include /functions/define-message.html ignore=artefact.ignore msgno="e010" msg=myMsg %}
+		{% include /functions/define-message.html ignore=artefact.ignore msgno="e002" msg=myMsg %}
 		{% assign errorList = errorList | push: out_msg %}
 	{% endif %}
 {% else %}
-	{% include /functions/define-message.html ignore=artefact.ignore msgno="e011" msg="Acronym fehlt!" %}
+	{% include /functions/define-message.html ignore=artefact.ignore msgno="e003" msg="Acronym fehlt!" %}
 	{% assign errorList = errorList | push: out_msg %}
 {% endif %}
 
 {% comment %}---------- responsible -----------{% endcomment %}
 {% if artefact.responsible %}
 	{% if artefact.responsible.size == 0 %}
-		{% include /functions/define-message.html ignore=artefact.ignore msgno="e021"
+		{% include /functions/define-message.html ignore=artefact.ignore msgno="e004"
 				msg="Kein(e) Autor(en) (Feld 'responsible') angegeben!" %}
 		{% assign errorList = errorList | push: out_msg %}
 	{% else %}
 		{% if artefact.responsible.size > 3 %}
-			{% include /functions/define-message.html ignore=artefact.ignore msgno="w022"
+			{% include /functions/define-message.html ignore=artefact.ignore msgno="w005"
 					msg="Mehr als 3 Autoren (Feld 'responsible') - ist das so gewünscht?" %}
 			{% assign warningList = warningList | push: out_msg %}
 		{% endif %}
@@ -47,13 +47,13 @@
 			{% else %}
 				{% assign myMsg = "Autor*in '" | append: responsibleAcronym |
 												 append: "' in Feld 'responsible' exististiert nicht!" %}
-				{% include /functions/define-message.html ignore=artefact.ignore msgno="e023" msg=myMsg %}
+				{% include /functions/define-message.html ignore=artefact.ignore msgno="e006" msg=myMsg %}
 				{% assign errorList = errorList | push: out_msg %}
 			{% endif %}
 		{% endfor %}
 	{% endif %}
 {% else %}
-	{% include /functions/define-message.html ignore=artefact.ignore msgno="e021"
+	{% include /functions/define-message.html ignore=artefact.ignore msgno="e004"
 			msg="Kein(e) Autor(en) (Feld 'responsible') angegeben!" %}
 	{% assign errorList = errorList | push: out_msg %}
 {% endif %}

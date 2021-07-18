@@ -19,7 +19,9 @@ layout: default
     </tr>
     </thead>
     <tbody>
-        {% for reference in site.literatureReferences %}
+        {% assign sortField = site.data.metadata["literatureReference"].sortField %}
+        {% assign collection = site.literatureReferences | sort: sortField %}
+        {% for literatureReference in collection %}
         <tr>
             <td>{{ reference.acronym }}</td>
             <td><a href="{{ site.url }}{{ reference.url | relative_url }}">{{ reference.title }}</a></td>

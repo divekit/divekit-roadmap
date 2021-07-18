@@ -1,12 +1,14 @@
 ---
 type: stakeholder
+subtype: person
 acronym: cko
 responsible: 
     - ako
     - duz
     - kru
 name: Christian Kohls
-stakeholderRole: profInf
+stakeholderRole: 
+    - profInf
 relationshipToProject: >
     Möglicher Nutzer des Systems auf Dozentenseite. (Vorraussichtlich für AP2)
 history:
@@ -15,6 +17,9 @@ history:
         comment: created initially
 todo: 
     - ausführlicher     
+    - potentielle Anwenderrolle hinzufügen (SB)
+    - Beschreibung ist sehr generisch, Motivation sollte in 2-3 Sätzen beschrieben sein (wie z.B. bei nnWMA2) (SB)
+    - Rolle "Dozent" fehlt (SB)
 ---
 
 ## Allgemein

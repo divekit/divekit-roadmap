@@ -23,7 +23,7 @@ layout: default
         {% assign relevantFrList = relevantFrList | push: fr %}
         {% for goalRef in fr.goals %}
             {% if goalRef != nil %}
-                {% include /functions/get-top-goal.html myGoalRef=goalRef %}
+                {% include /functions/find-top-goal.html myGoalRef=goalRef %}
                 {% if goalRefList contains topGoalRef %}
                 {% else %}
                     {% assign goalRefList = goalRefList | push: topGoalRef %}
@@ -42,7 +42,7 @@ layout: default
             {% assign foundGoals = site.goals | where:"acronym", goalRef %}
             {% if foundGoals.size == 1 %}
                 {% assign goal = foundGoals[0] %}
-                {% include /functions/get-globalid.html myCollection=site.goals myArtefact=goal myPrefix="G" %}
+                {% include /functions/get-globalid.html myCollection=site.goals myArtefact=goal myType="goal" %}
                 <th><a href="{{ site.url }}{{ goal.url | relative_url }}">{{ globalId }}</a></th>
             {% endif %}
         {% endfor %}
@@ -56,7 +56,7 @@ layout: default
             {% assign makeX = false %}
             {% for goalRef in fr.goals %}
                 {% if goalRef != nil %}
-                    {% include /functions/get-top-goal.html myGoalRef=goalRef %}
+                    {% include /functions/find-top-goal.html myGoalRef=goalRef %}
                     {% if currentTopGoalRef == topGoalRef %}
                         {% assign makeX = true %}
                         {% break %}

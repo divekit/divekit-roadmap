@@ -1,8 +1,9 @@
 ---
 type: useCase
-acronym: useCaseA
+acronym: _dont_delete_use_case_template
 responsible: 
-    - xyz
+    - hbu
+    - tza
 title: Schaden bewerten
 description: Ein Gutachter bewertet den gemeldeten Schaden
 primaryActor: gutachter (stakeholderRole)
@@ -18,6 +19,7 @@ history:
     v1:
         date: 2021-06-02
         comment: initially created
+
 todo: 
 ---
 

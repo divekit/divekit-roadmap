@@ -1,6 +1,6 @@
 ---
 acronym: CIPipeline
-name: test
+title: Continuous Integration Pipeline
 type: itsystem 
 responsible:
     - kru

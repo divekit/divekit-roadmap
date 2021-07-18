@@ -1,12 +1,15 @@
 ---
 type: stakeholder
+subtype: person
 acronym: nnWMA4
 responsible: 
     - ako
     - duz
     - kru
 name: n. n. WMA 4
-stakeholderRole: wmaProg
+anonymous: true
+stakeholderRole: 
+    - wmaProg
 relationshipToProject: >
     Möglicher Nutzer des Systems auf WMA-Seite.
 history:
@@ -14,5 +17,7 @@ history:
         date: 2021-06-15
         comment: created initially
 todo: 
-    - ausführlicher     
+    - Es fehlt komplett die Beschreibung (SB)     
+    - potentielle Anwenderrolle hinzufügen (SB)
+    - Bitte eine einheitliche Namenskonvention für anonymisierte Namen verwenden (SB)     
 ---
