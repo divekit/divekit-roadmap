@@ -25,7 +25,7 @@ layout: default
         <tr>
             <td>&nbsp;</td>
             {% include /functions/get-globalid.html myCollection=site.interviews
-                    myArtefact=interview myPrefix="I" %}
+                    myArtefact=interview myType="interview" %}
             <td><a href="{{ site.url }}{{ interview.url | relative_url }}">{{ globalId }}</a></td>
             <td>{% include /functions/print-link-to-stakeholder.html myStakeholderAcronym=interview.stakeholder %}</td>
             <td><a href="{{ site.url }}{{ interview.url | relative_url }}">{{ interview.date | date: '%d.%m.%Y'}}</a></td>

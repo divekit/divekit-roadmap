@@ -1,7 +1,8 @@
 {% assign artefact = include.myArtefact %}
 {% assign collection = include.myCollection %}
-{% assign prefix = include.myPrefix %}
+{% assign type = include.myType %}
 
+{% assign prefix = site.data.metadata[type].prefix %}
 {% assign sortField = site.data.metadata[artefact.type].sortField %}
 {% assign collection = collection | sort: sortField %}
 

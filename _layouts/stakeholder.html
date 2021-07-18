@@ -2,7 +2,8 @@
 layout: default
 ---
 
-{% include /functions/get-globalid.html myCollection=site.stakeholders myArtefact=page myPrefix="SH" %}
+{% include /functions/get-globalid.html
+        myCollection=site.stakeholders myArtefact=page myType="stakeholder" %}
 {% if page.subtype == "group" %}
     {% assign artefactString = "Stakeholder-Gruppe" %}
 {% else %}

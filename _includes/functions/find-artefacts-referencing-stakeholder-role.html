@@ -1,0 +1,21 @@
+{% assign stakeholderRole = include.myStakeholderRole %}
+{% assign type = include.myType %}
+{% assign collection = include.myCollection %}
+{% assign withID = include.withID %}
+
+{% assign whereExpString = "item.stakeholderRole contains '"|
+            append: stakeholderRole.acronym | append: "'" %}
+{% assign itemList = collection | where_exp: "item", whereExpString %}
+{% assign linkList = "" | split: ";" %}
+{% assign sortField = site.data.metadata[type].sortField %}
+{% for item in itemList %}
+    {% assign itemName = item[sortField] %}
+    {% if withID %}
+        {% include /functions/get-globalid.html myCollection=collection myArtefact=item myType=type %}
+        {% assign itemName = globalId | append: " " | append: itemName %}
+    {% endif %}
+    {% capture link %}<a href="{{ site.url }}{{ item.url | relative_url }}">{{ itemName }}</a>{% endcapture %}
+    {% assign linkList = linkList | push: link %}
+{% endfor %}
+
+{% assign linksString = linkList | join: ";" %}

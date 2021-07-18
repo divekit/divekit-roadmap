@@ -44,7 +44,7 @@ layout: default
             <td>{{ iconString }}</td>
 
             {% include /functions/get-globalid.html myCollection=site.stakeholders
-                    myArtefact=stakeholder myPrefix="SH" %}
+                    myArtefact=stakeholder myType="stakeholder" %}
             <td><a href="{{ site.url }}{{ stakeholder.url | relative_url }}">{{ globalId }}</a></td>
 
             {% if stakeholder.subtype == "group" %}

@@ -43,7 +43,7 @@ layout: default
             <td>{{ iconString }}</td>
 
             {% include /functions/get-globalid.html myCollection=site.functionalRequirements
-                    myArtefact=functionalRequirement myPrefix="FR" %}
+                    myArtefact=functionalRequirement myType="functionalRequirement" %}
             <td><a href="{{ site.url }}{{ functionalRequirement.url | relative_url }}">{{ globalId }}</a></td>
             <td><a href="{{ site.url }}{{ functionalRequirement.url | relative_url }}">{{ functionalRequirement.title }}</a></td>
 

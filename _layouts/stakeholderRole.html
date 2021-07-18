@@ -2,7 +2,8 @@
 layout: default
 ---
 
-{% include /functions/get-globalid.html myCollection=site.stakeholderRoles myArtefact=page myPrefix="SHR" %}
+{% include /functions/get-globalid.html
+        myCollection=site.stakeholderRoles myArtefact=page myType="stakeholderRole" %}
 <h1>Stakeholder-Rolle »{{ page.name }}« ({{ globalId }})</h1>
 
 <dl>
@@ -13,8 +14,9 @@ layout: default
     <dt>Beschreibung</dt>
     <dd>{{ page.description }}</dd>
 
-    {% include /functions/find-stakeholders-for-stakeholder-role.html myStakeholderRole=page %}
-    {% assign stakeholderList = stakeholderLinksString | split: ";" %}
+    {% include /functions/find-artefacts-referencing-stakeholder-role.html
+            myStakeholderRole=page myType="stakeholder" myCollection=site.stakeholders %}
+    {% assign linkList = linksString | split: ";" %}
     {% if linkList.size > 0 %}
         <dt>Stakeholder mit dieser Rolle</dt>
         {% for link in linkList %}
@@ -22,8 +24,16 @@ layout: default
         {% endfor %}
     {% endif %}
 
-    <dt>Wo wird diese Stakeholder-Rolle verwendet?</dt>
-    <dd>tbd.</dd>
+    <dt>Befragungen dieser Stakeholder-Rolle</dt>
+    <dd>Interviews</dd>
+    <dd>Survey</dd>
+    <dd>Workshop</dd>
+
+    <dt>Wo tritt diese Stakeholder-Rolle als Aktor auf?</dt>
+    <dd>Persona</dd>
+    <dd>Use Case</dd>
+    <dd>User Story</dd>
+
 
     {% include /functions/print-history.html myArtefact=page %}
 

@@ -2,7 +2,8 @@
 layout: default
 ---
 
-{% include /functions/get-globalid.html myCollection=site.functionalRequirements myArtefact=page myPrefix="FR" %}
+{% include /functions/get-globalid.html
+        myCollection=site.functionalRequirements myArtefact=page myType="functionalRequirement" %}
 <h1>Funktionale Anforderung »{{ page.title }}« ({{ globalId }})</h1>
 
 <dl>
