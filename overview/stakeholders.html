@@ -40,6 +40,7 @@ layout: default
                         myErrorString=errorString myWarningString=warningString %}
             {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=stakeholder.todo %}
             <td>{{ iconString }}</td>
+
             {% include /functions/get-globalid.html myCollection=site.stakeholders
                     myArtefact=stakeholder myPrefix="SH" %}
             <td><a href="{{ site.url }}{{ stakeholder.url | relative_url }}">{{ globalId }}</a></td>

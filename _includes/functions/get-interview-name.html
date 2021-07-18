@@ -1,0 +1,9 @@
+{% assign interview = include.myInterview %}
+
+{% assign localStakeholderRef = interview.stakeholder %}
+{% assign localStakeholder = site.stakeholders | where: "acronym", localStakeholderRef | first %}
+{% assign interviewDate = interview.date | date: "%d.%m.%Y" %}
+{% assign interviewName = "Interview mit " | append: localStakeholder.name |
+	append: " (" | append: interviewDate | append: ")" %}
+
+

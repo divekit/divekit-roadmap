@@ -35,7 +35,8 @@ layout: default
     {% if interviews.size > 0 %}
         <dt>Interview</dt>
         {% for interview in interviews %}
-            <dd><a href="{{ site.url }}{{ interview.url | relative_url }}">{{ interview.title }}</a></dd>
+            {% include /functions/get-interview-name.html myArtefact=interview %}
+            <dd><a href="{{ site.url }}{{ interview.url | relative_url }}">{{ interviewName }}</a></dd>
         {% endfor %}
     {% endif %}
 
