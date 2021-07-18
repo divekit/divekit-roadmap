@@ -11,6 +11,7 @@ history:
         date: 2021-06-18
         comment: initially created
 todo:
+    - bitte unbedingt Abgrenzung student - studentInf noch einmal angucken. Welche Studententypen haben wir hier bei uns? Kommen wir da mit den beiden aus? Oder müsste man eine allgemeine Rolle student machen und dann spezialisierte, wie z.B. studentMathe, studentInf, studentSonstig ...? (SB)
 ---
 
 ## Rollenbeschreibung

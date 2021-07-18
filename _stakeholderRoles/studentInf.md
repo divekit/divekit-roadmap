@@ -20,6 +20,7 @@ history:
         comment: Role umbennen um zwischen Inf und nicht Inf Rollen zu unterscheiden
 todo:
     - feinschliff
+    - bitte unbedingt Abgrenzung student - studentInf noch einmal angucken. Welche Studententypen haben wir hier bei uns? Kommen wir da mit den beiden aus? Oder müsste man eine allgemeine Rolle student machen und dann spezialisierte, wie z.B. studentMathe, studentInf, studentSonstig ...? (SB)
 ---
 
 ## Rollenbeschreibung
