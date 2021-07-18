@@ -22,11 +22,11 @@ layout: default
     <dd>{{ responsibleString }}</dd>
 
     <dt>Stakeholder-Rolle</dt>
-        {% for shr in page.stakeholderRole %}
-            {% include /functions/get-link-to-stakeholder-role.html myRoleAcronym=shr withId=true%}
-            <dd>{{ stakeholderRoleLink }}</dd>
-        {% endfor %}
-    </td>
+    {% for shr in page.stakeholderRole %}
+        {% include /functions/get-link-to-stakeholder-role.html myRoleAcronym=shr withId=true%}
+        <dd>{{ stakeholderRoleLink }}</dd>
+    {% endfor %}
+
 
     <dt>Beziehung zum Projekt</dt>
     <dd> {{ page.relationshipToProject }} </dd>
@@ -35,8 +35,7 @@ layout: default
     {% if interviews.size > 0 %}
         <dt>Interview</dt>
         {% for interview in interviews %}
-            {% include /functions/get-interview-name.html myArtefact=interview %}
-            <dd><a href="{{ site.url }}{{ interview.url | relative_url }}">{{ interviewName }}</a></dd>
+            <dd><a href="{{ site.url }}{{ interview.url | relative_url }}">{{ interview.title }}</a></dd>
         {% endfor %}
     {% endif %}
 

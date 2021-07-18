@@ -1,0 +1,40 @@
+{% assign artefact = include.myArtefact %}
+{% assign errorString = include.myErrorString %}
+{% assign warningString = include.myWarningString %}
+
+{% assign errorList = errorString | split: ";" %}
+{% assign warningList = warningString | split: ";" %}
+
+
+{% comment %} ***** Error Numbers 550 - 569 reserved for Stakeholder **** {% endcomment %}
+
+
+{% comment %}---------- description -----------{% endcomment %}
+{% if artefact.description %}
+    {% if artefact.relationshipToProject.size < 10 %}
+        {% assign myMsg = "Beschreibung der Stakeholder-Rolle (description) scheint zu kurz zu sein." %}
+        {% include /functions/define-message.html ignore=artefact.ignore msgno="w550" msg=myMsg %}
+        {% assign warningList = warningList | push: out_msg %}
+    {% endif %}
+{% else %}
+    {% include /functions/define-message.html ignore=artefact.ignore msgno="e551"
+        msg="Beschreibung der Stakeholder-Rolle (description) fehlt!" %}
+    {% assign errorList = errorList | push: out_msg %}
+{% endif %}
+
+
+{% comment %}---------- name -----------{% endcomment %}
+{% if artefact.description %}
+    {% if artefact.relationshipToProject.size < 5 %}
+        {% assign myMsg = "Name der Stakeholder-Rolle scheint zu kurz zu sein." %}
+        {% include /functions/define-message.html ignore=artefact.ignore msgno="w552" msg=myMsg %}
+        {% assign warningList = warningList | push: out_msg %}
+    {% endif %}
+{% else %}
+    {% include /functions/define-message.html ignore=artefact.ignore msgno="e551"
+                    msg="Name der Stakeholder-Rolle fehlt!" %}
+    {% assign errorList = errorList | push: out_msg %}
+{% endif %}
+
+{% assign errorString = errorList | join: ";" %}
+{% assign warningString = warningList | join: ";" %}
