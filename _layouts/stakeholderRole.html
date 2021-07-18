@@ -15,24 +15,51 @@ layout: default
     <dd>{{ page.description }}</dd>
 
     {% include /functions/find-artefacts-referencing-stakeholder-role.html
-            myStakeholderRole=page myType="stakeholder" myCollection=site.stakeholders %}
-    {% assign linkList = linksString | split: ";" %}
-    {% if linkList.size > 0 %}
+            myStakeholderRole=page refsAsList=true myType="stakeholder" myCollection=site.stakeholders %}
+    {% assign stakeholderLinkList = linksString | split: ";" %}
+    {% if stakeholderLinkList.size > 0 %}
         <dt>Stakeholder mit dieser Rolle</dt>
-        {% for link in linkList %}
+        {% for link in stakeholderLinkList %}
             <dd>{{ link }}</dd>
         {% endfor %}
     {% endif %}
 
-    <dt>Befragungen dieser Stakeholder-Rolle</dt>
-    <dd>Interviews</dd>
-    <dd>Survey</dd>
-    <dd>Workshop</dd>
+    {% comment %}--- Suche die Interviews, Surveys, Workshops zu der Stakeholder-Rolle ---{% endcomment %}
+
+    {% assign stakeholderAcronymList = acronymString | split: ";" %}
+    {% assign interviewList = "" | split: ";" %}
+    {% for stakeholderAcronym in stakeholderAcronymList %}
+        {% assign foundInterviews = site.interviews | where: "stakeholder", stakeholderAcronym %}
+        {% assign interviewList = interviewList | concat: foundInterviews %}
+    {% endfor %}
+
+    {% include /functions/find-artefacts-referencing-stakeholder-role.html
+            myStakeholderRole=page refsAsList=false myType="survey" myCollection=site.surveys %}
+    {% assign surveyLinkList = linksString | split: ";" %}
+
+    {% include /functions/find-artefacts-referencing-stakeholder-role.html
+            myStakeholderRole=page refsAsList=false myType="workshop" myCollection=site.workshops %}
+    {% assign workshopLinkList = linksString | split: ";" %}
+
+    {% if interviewList.size > 0 or surveyLinkList.size > 0 or workshopLinkList.size > 0 %}
+        <dt>Befragungen dieser Stakeholder-Rolle</dt>
+        {% for interview in interviewList %}
+            {% include /functions/get-interview-name.html myInterview=page %}
+            <dd><a href="{{ site.url }}{{ interview.url | relative_url }}">{{ interviewName }}</a></dd>
+        {% endfor %}
+        {% for surveyLink in surveyLinkList %}
+           <dd><a href="{{ site.url }}{{ interview.url | relative_url }}">{{ surveyLink }}</a></dd>
+        {% endfor %}
+        {% for workshopLink in workshopLinkList %}
+            <dd><a href="{{ site.url }}{{ interview.url | relative_url }}">{{ workshopLink }}</a></dd>
+        {% endfor %}
+    {% endif %}
+
 
     <dt>Wo tritt diese Stakeholder-Rolle als Aktor auf?</dt>
-    <dd>Persona</dd>
-    <dd>Use Case</dd>
-    <dd>User Story</dd>
+    <dd>tbd. Persona</dd>
+    <dd>tbd. Use Case</dd>
+    <dd>tbd. User Story</dd>
 
 
     {% include /functions/print-history.html myArtefact=page %}
