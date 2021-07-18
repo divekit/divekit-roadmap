@@ -1,0 +1,30 @@
+functionalRequirement:
+    sortField: "title"
+goal:
+    sortField: "title"
+interview:
+    sortField: "date"
+literatureReference:
+    sortField: "title"
+nonFunctionalRequirement:
+    sortField: "title"
+persona:
+    sortField: "name"
+scenario:
+    sortField: "title"
+stakeholder:
+    sortField: "name"
+stakeholderRole:
+    sortField: "name"
+survey:
+    sortField: "subject"
+systemContextElement:
+    sortField: "title"
+useCase:
+    sortField: "title"
+useCaseDiagram:
+    sortField: "title"
+userStory:
+    sortField: "title"
+workshop:
+    sortField: "goal"

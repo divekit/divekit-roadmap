@@ -20,7 +20,9 @@ layout: default
     </tr>
     </thead>
     <tbody>
-        {% for workshop in site.workshops %}
+    {% assign sortField = site.data.metadata["workshop"].sortField %}
+    {% assign collection = site.workshops | sort: sortField %}
+    {% for workshop in collection %}
         <tr>
             <td>{{ workshop.acronym }}</td>
             <td><a href="{{ site.url }}{{ workshop.url | relative_url }}">{{ workshop.goals }}</a></td>

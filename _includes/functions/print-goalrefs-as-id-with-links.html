@@ -8,7 +8,7 @@
 		{% assign foundGoals = site.goals | where:"acronym", goalRef %}
 		{% if foundGoals.size == 1 %}
 			{% assign goal = foundGoals[0] %}
-			{% include /functions/get-globalid.html myCollection=site.goals myArtefact=goal myPrefix="G" %}
+			{% include /functions/get-globalid.html myArtefact=goal myCollection=site.goals myPrefix="G" %}
 			{% capture link %}<a href="{{ site.url }}{{ goal.url | relative_url }}">{{ globalId }}</a>{% endcapture %}
 			{% assign linkList = linkList | push: link %}
 		{% endif %}

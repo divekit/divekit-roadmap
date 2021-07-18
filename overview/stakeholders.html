@@ -28,7 +28,9 @@ layout: default
     </tr>
     </thead>
     <tbody>
-        {% for stakeholder in site.stakeholders %}
+        {% assign sortField = site.data.metadata["stakeholder"].sortField %}
+        {% assign collection = site.stakeholders | sort: sortField %}
+        {% for stakeholder in collection %}
         <tr>
             {% include /functions/checks/check-generic-aspects.html myArtefact=stakeholder
                         myErrorString="" myWarningString="" %}

@@ -19,12 +19,14 @@ layout: default
     </tr>
     </thead>
     <tbody>
-    {% for persona in site.personas %}
-    <tr>
-        <td><a href="{{ site.url }}{{ persona.url | relative_url }}">{{ persona.name }}</a></td>
-        {% include /functions/get-link-to-stakeholder-role.html myRoleAcronym=persona.stakeholderRole withId=false %}
-        <td>{{ stakeholderRoleLink }}</td>
-    </tr>
+    {% assign sortField = site.data.metadata["persona"].sortField %}
+    {% assign collection = site.personas | sort: sortField %}
+    {% for persona in collection %}
+        <tr>
+            <td><a href="{{ site.url }}{{ persona.url | relative_url }}">{{ persona.name }}</a></td>
+            {% include /functions/get-link-to-stakeholder-role.html myRoleAcronym=persona.stakeholderRole withId=false %}
+            <td>{{ stakeholderRoleLink }}</td>
+        </tr>
     {% endfor %}
     </tbody>
 </table>

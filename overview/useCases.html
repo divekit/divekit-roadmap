@@ -21,7 +21,9 @@ layout: default
     </tr>
     </thead>
     <tbody>
-    {% for useCase in site.useCases %}
+    {% assign sortField = site.data.metadata["useCase"].sortField %}
+    {% assign collection = site.useCases | sort: sortField %}
+    {% for useCase in collection %}
     <tr>
         <td><a href="{{ site.url }}{{ useCase.url | relative_url }}">{{ useCase.title }}</a></td>
     </tr>

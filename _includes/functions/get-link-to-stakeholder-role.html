@@ -4,7 +4,7 @@
 {% assign stakeholderRole = site.stakeholderRoles | where: "acronym", roleAcronym | first %}
 {% assign roleString = stakeholderRole.name %}
 {% if withId %}
-    {% include /functions/get-globalid.html myCollection=site.stakeholderRoles myArtefact=stakeholderRole myPrefix="SHR" %}
+    {% include /functions/get-globalid.html myArtefact=stakeholderRole myCollection=site.stakeholderRoles myPrefix="SHR" %}
     {% assign roleString = roleString | append: " (" | append: globalId | append: ")"  %}
 {% endif %}
 {% capture stakeholderRoleLink %}<a href="{{ site.url }}{{ stakeholderRole.url | relative_url }}">{{ roleString }}</a>{% endcapture %}

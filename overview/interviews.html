@@ -19,7 +19,9 @@ layout: default
     </tr>
     </thead>
     <tbody>
-        {% for interview in site.interviews %}
+        {% assign sortField = site.data.metadata["interview"].sortField %}
+        {% assign collection = site.interviews | sort: sortField %}
+        {% for interview in collection %}
         <tr>
             <td>&nbsp;</td>
             {% include /functions/get-globalid.html myCollection=site.interviews

@@ -20,7 +20,9 @@ layout: default
     </tr>
     </thead>
     <tbody>
-        {% for survey in site.surveys %}
+    {% assign sortField = site.data.metadata["survey"].sortField %}
+    {% assign collection = site.surveys | sort: sortField %}
+    {% for survey in collection %}
         <tr>
             <td><a href="{{ site.url }}{{ survey.url | relative_url }}">{{ survey.subject }}</a></td>
             {% include /functions/get-link-to-stakeholder-role.html myRoleAcronym=survey.stakeholder_role withId=false %}
