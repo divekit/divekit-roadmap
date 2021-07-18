@@ -6,7 +6,7 @@ responsible:
     - tza
     - psc
 name: Student (Informatik)
-title: >
+description: >
     Student in einem Informatikstudiengang 
 history:
     v1:

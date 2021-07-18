@@ -14,7 +14,8 @@ layout: default
 <table>
     <thead>
     <tr>
-        <th width="10%">Akronym</th>
+        <th width="5%"></th>
+        <th width="10%">ID</th>
         <th width="30%">Name</th>
         <th width="60%">Beschreibung</th>
     </tr>
@@ -22,7 +23,7 @@ layout: default
     <tbody>
     {% for stakeholderRole in site.stakeholderRoles %}
     <tr>
-        <td>{{ stakeholderRole.acronym }}</td>
+
         <td><a href="{{ site.url }}{{ stakeholderRole.url | relative_url }}">{{ stakeholderRole.name }}</a></td>
         <td>{{ stakeholderRole.description }}</td>
     </tr>

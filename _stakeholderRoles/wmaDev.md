@@ -4,7 +4,7 @@ type: stakeholderRole
 responsible: 
     - ngi
 name: WMA Softwareentwickler
-title: >
+description: >
     Wissenschaftliche Mitarbeiter mit Haupttätigkeitsfeld in der Softwareentwicklung für die Hochschule
 history:
     v1:

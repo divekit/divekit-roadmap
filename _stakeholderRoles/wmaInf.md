@@ -4,7 +4,7 @@ type: stakeholderRole
 responsible: 
     - ngi
 name: Dozent der Informatik
-title: >
+description: >
     Hauptverantwortlicher Dozent für ein oder mehrere Module in der Informatik
 history:
     v1:

@@ -4,7 +4,7 @@ type: stakeholderRole
 responsible: 
     - psc
 name: Student (Allgemein)
-title: >
+description: >
     Student eines informatikfernen Studiengangs
 history:
     v1:
