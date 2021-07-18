@@ -5,11 +5,11 @@
 {% assign withID = include.withID %}
 
 {% if refsAsList %}
-    {% assign whereExpString = "item.stakeholderRole contains '"|
+    {% assign whereExpString = "item.stakeholderRole contains '" |
                 append: stakeholderRole.acronym | append: "'" %}
     {% assign itemList = collection | where_exp: "item", whereExpString %}
 {% else %}
-    {% assign stakeholderRoleAcronym = stakeholderRole.acronym
+    {% assign stakeholderRoleAcronym = stakeholderRole.acronym %}
     {% assign itemList = collection | where: "stakeholderRole", stakeholderRoleAcronym %}
 {% endif %}
 
@@ -21,7 +21,7 @@
     {% assign itemName = item[sortField] %}
     {% if withID %}
         {% include /functions/get-globalid.html myCollection=collection myArtefact=item myType=type %}
-        {% assign itemName = globalId | append: " " | append: itemName %}
+        {% assign itemName = globalId | append: ": " | append: itemName %}
     {% endif %}
     {% capture link %}<a href="{{ site.url }}{{ item.url | relative_url }}">{{ itemName }}</a>{% endcapture %}
     {% assign linkList = linkList | push: link %}

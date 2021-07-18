@@ -34,24 +34,26 @@ layout: default
     {% endfor %}
 
     {% include /functions/find-artefacts-referencing-stakeholder-role.html
-            myStakeholderRole=page refsAsList=false myType="survey" myCollection=site.surveys %}
+            myStakeholderRole=page refsAsList=false myType="survey" myCollection=site.surveys withID=true %}
     {% assign surveyLinkList = linksString | split: ";" %}
 
     {% include /functions/find-artefacts-referencing-stakeholder-role.html
-            myStakeholderRole=page refsAsList=false myType="workshop" myCollection=site.workshops %}
+            myStakeholderRole=page refsAsList=false myType="workshop" myCollection=site.workshops withID=true %}
     {% assign workshopLinkList = linksString | split: ";" %}
 
     {% if interviewList.size > 0 or surveyLinkList.size > 0 or workshopLinkList.size > 0 %}
-        <dt>Befragungen dieser Stakeholder-Rolle</dt>
+        <dt>Datenerhebungen für diese Stakeholder-Rolle</dt>
         {% for interview in interviewList %}
             {% include /functions/get-interview-name.html myInterview=page %}
-            <dd><a href="{{ site.url }}{{ interview.url | relative_url }}">{{ interviewName }}</a></dd>
+            {% include /functions/get-globalid.html myCollection=site.interviews
+                    myArtefact=interview myType="interview" %}
+            <dd><a href="{{ site.url }}{{ interview.url | relative_url }}">{{ globalId }}: {{ interviewName }}</a></dd>
         {% endfor %}
         {% for surveyLink in surveyLinkList %}
-           <dd><a href="{{ site.url }}{{ interview.url | relative_url }}">{{ surveyLink }}</a></dd>
+           <dd>{{ surveyLink }}</dd>
         {% endfor %}
         {% for workshopLink in workshopLinkList %}
-            <dd><a href="{{ site.url }}{{ interview.url | relative_url }}">{{ workshopLink }}</a></dd>
+            <dd>{{ workshopLink }}</dd>
         {% endfor %}
     {% endif %}
 

@@ -23,7 +23,7 @@ todo:
 
 ## Steckbrief
 nnProf ist seit neustem von einer Hochschule berufen worden und doziert seitdem dem in den Gebieten der Statistik, 
-Angewandte Mathematik, Data Mining und leitet Guides Projects.  
+Angewandte Mathematik, Data Mining und leitet Guided Projects.  
 
 ## Wissen
 

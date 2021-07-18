@@ -19,6 +19,7 @@ todo:
     - Rolle "Dozent" fehlt (SB)
     - potentielle Anwenderrolle hinzufügen (SB)
     - Bitte eine einheitliche Namenskonvention für anonymisierte Namen verwenden (SB) 
+    - Was bedeutet der letzte Satz der Beschreibung "Daher bietet es sich an, die Sichtweise für solche Aufgaben zu hinterfragen." ? (SB)
 ---
 ## Steckbrief
 
