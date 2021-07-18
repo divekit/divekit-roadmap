@@ -16,30 +16,45 @@ nonFunctionalRequirement:
 persona:
     sortField: "name"
     prefix: "P"
+    stakeholderRoleRef:
+        asString: "stakeholderRole"
 scenario:
     sortField: "title"
     prefix: "SC"
+    stakeholderRoleRef:
+        asString: "stakeholderRole"
 stakeholder:
     sortField: "name"
     prefix: "SH"
+    stakeholderRoleRef:
+        asList: "stakeholderRole"
 stakeholderRole:
     sortField: "name"
     prefix: "SHR"
 survey:
     sortField: "subject"
     prefix: "SV"
+    stakeholderRoleRef:
+        asString: "stakeholderRole"
 systemContextElement:
     sortField: "title"
     prefix: "SCE"
 useCase:
     sortField: "title"
     prefix: "UC"
+    stakeholderRoleRef:
+        asString: "primaryActor"
+        asList: "secondaryActors"
 useCaseDiagram:
     sortField: "title"
     prefix: "UCD"
 userStory:
     sortField: "title"
     prefix: "US"
+    stakeholderRoleRef:
+        asString: "asA"
 workshop:
     sortField: "goal"
     prefix: "WS"
+    stakeholderRoleRef:
+        asString: "stakeholderRole"
