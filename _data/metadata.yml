@@ -3,34 +3,34 @@ functionalRequirement:
     prefix: "FR"
 goal:
     sortField: "title"
-    prefix: "G"
+    prefix: "GO"
 interview:
     sortField: "date"
-    prefix: "I"
+    prefix: "INT"
 literatureReference:
     sortField: "title"
-    prefix: "LR"
+    prefix: "LIT"
 nonFunctionalRequirement:
     sortField: "title"
     prefix: "NFR"
 persona:
     sortField: "name"
-    prefix: "P"
+    prefix: "PERS"
     stakeholderRoleRef:
         asString: "stakeholderRole"
 scenario:
     sortField: "title"
-    prefix: "SC"
+    prefix: "SCEN"
     stakeholderRoleRef:
         asString: "stakeholderRole"
 stakeholder:
     sortField: "name"
-    prefix: "SH"
+    prefix: "STK"
     stakeholderRoleRef:
         asList: "stakeholderRole"
 stakeholderRole:
     sortField: "name"
-    prefix: "SHR"
+    prefix: "STRO"
 survey:
     sortField: "subject"
     prefix: "SV"
@@ -38,7 +38,7 @@ survey:
         asString: "stakeholderRole"
 systemContextElement:
     sortField: "title"
-    prefix: "SCE"
+    prefix: "SYCO"
 useCase:
     sortField: "title"
     prefix: "UC"
@@ -47,7 +47,7 @@ useCase:
         asList: "secondaryActors"
 useCaseDiagram:
     sortField: "title"
-    prefix: "UCD"
+    prefix: "UCDIA"
 userStory:
     sortField: "title"
     prefix: "US"

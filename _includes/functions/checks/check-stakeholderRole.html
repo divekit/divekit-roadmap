@@ -39,7 +39,7 @@
 
 {% comment %}---------- referenced by a stakeholder? -----------{% endcomment %}
 {% include /functions/find-artefacts-referencing-stakeholder-role.html myStakeholderRole=artefact
-    refsAsList=true myType="stakeholder" myCollection=site.stakeholders withID=false %}
+        myType="stakeholder" myCollection=site.stakeholders withID=false %}
 
 {% if linksString.size > 0 %}
 {% else %}
