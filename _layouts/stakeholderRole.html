@@ -57,12 +57,26 @@ layout: default
         {% endfor %}
     {% endif %}
 
+    {% comment %}--- Suche die Artefakte, bei denen die Rolle vorkommen ---{% endcomment %}
 
-    <dt>Wo tritt diese Stakeholder-Rolle als Aktor auf?</dt>
-    <dd>tbd. Persona</dd>
-    <dd>tbd. Use Case</dd>
-    <dd>tbd. User Story</dd>
+    {% include /functions/find-artefacts-referencing-stakeholder-role.html
+            myStakeholderRole=page refsAsList=false myType="persona" myCollection=site.personas withID=true %}
+    {% assign personaLinkList = linksString | split: ";" %}
 
+    {% include /functions/find-artefacts-referencing-stakeholder-role.html
+            myStakeholderRole=page refsAsList=false myType="userStory" myCollection=site.userStories withID=true %}
+    {% assign userStoryLinkList = linksString | split: ";" %}
+
+    {% if personaLinkList.size > 0 or userStoryLinkList.size > 0 %}
+        <dt>Wo tritt diese Stakeholder-Rolle als Aktor auf?</dt>
+        {% for personaLink in personaLinkList %}
+            <dd>{{ personaLink }}</dd>
+        {% endfor %}
+        <dd>tbd. Use Case</dd>
+        {% for userStoryLink in userStoryLinkList %}
+            <dd>{{ userStoryLink }}</dd>
+        {% endfor %}
+    {% endif %}
 
     {% include /functions/print-history.html myArtefact=page %}
 
