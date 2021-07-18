@@ -13,8 +13,14 @@ layout: default
     <dt>Beschreibung</dt>
     <dd>{{ page.description }}</dd>
 
-    <dt>Stakeholder mit dieser Rolle</dt>
-    <dd>tbd.</dd>
+    {% include /functions/find-stakeholders-for-stakeholder-role.html myStakeholderRole=page %}
+    {% assign stakeholderList = stakeholderLinksString | split: ";" %}
+    {% if linkList.size > 0 %}
+        <dt>Stakeholder mit dieser Rolle</dt>
+        {% for link in linkList %}
+            <dd>{{ link }}</dd>
+        {% endfor %}
+    {% endif %}
 
     <dt>Wo wird diese Stakeholder-Rolle verwendet?</dt>
     <dd>tbd.</dd>

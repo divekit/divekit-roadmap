@@ -31,9 +31,19 @@
         {% assign warningList = warningList | push: out_msg %}
     {% endif %}
 {% else %}
-    {% include /functions/define-message.html ignore=artefact.ignore msgno="e551"
+    {% include /functions/define-message.html ignore=artefact.ignore msgno="e553"
                     msg="Name der Stakeholder-Rolle fehlt!" %}
     {% assign errorList = errorList | push: out_msg %}
+{% endif %}
+
+
+{% comment %}---------- referenced by a stakeholder? -----------{% endcomment %}
+{% include /functions/find-stakeholders-for-stakeholder-role.html myStakeholderRole=artefact %}
+{% if linkList.size > 0 %}
+{% else %}
+    {% include /functions/define-message.html ignore=artefact.ignore msgno="w554"
+            msg="Zu dieser Stakeholder-Rolle gibt es keinen Stakeholder!" %}
+    {% assign warningList = errorList | push: out_msg %}
 {% endif %}
 
 {% assign errorString = errorList | join: ";" %}

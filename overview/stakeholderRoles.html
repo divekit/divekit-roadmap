@@ -29,7 +29,7 @@ layout: default
                     myErrorString="" myWarningString="" %}
         {% include /functions/checks/check-stakeholderRole.html myArtefact=stakeholderRole
                     myErrorString=errorString myWarningString=warningString %}
-        {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=stakeholder.todo %}
+        {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=stakeholderRole.todo %}
         <td>{{ iconString }}</td>
 
         {% include /functions/get-globalid.html myCollection=site.stakeholderRoles
