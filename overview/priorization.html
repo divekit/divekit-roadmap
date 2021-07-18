@@ -23,7 +23,7 @@ layout: default
         {% assign relevantFrList = relevantFrList | push: fr %}
         {% for goalRef in fr.goals %}
             {% if goalRef != nil %}
-                {% include /functions/get-top-goal.html myGoalRef=goalRef %}
+                {% include /functions/find-top-goal.html myGoalRef=goalRef %}
                 {% if goalRefList contains topGoalRef %}
                 {% else %}
                     {% assign goalRefList = goalRefList | push: topGoalRef %}
@@ -56,7 +56,7 @@ layout: default
             {% assign makeX = false %}
             {% for goalRef in fr.goals %}
                 {% if goalRef != nil %}
-                    {% include /functions/get-top-goal.html myGoalRef=goalRef %}
+                    {% include /functions/find-top-goal.html myGoalRef=goalRef %}
                     {% if currentTopGoalRef == topGoalRef %}
                         {% assign makeX = true %}
                         {% break %}
