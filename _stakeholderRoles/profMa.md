@@ -5,7 +5,7 @@ responsible:
     - mba
 name: Professor für Mathematik
 description: >
-    Professur in einem oder mehreren Mathematik-Studiengängen
+    Professur in einem oder mehreren Informatik und Ingenieurs -Studiengängen
 history:
     v1:
         date: 2021-07-19
