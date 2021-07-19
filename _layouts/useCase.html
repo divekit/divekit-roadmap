@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+{% include /functions/get-globalid.html
+        myCollection=site.stakeholders myArtefact=page myType="useCase" %}
+<h1>Use Case »{{ page.title }}« ({{ globalId }})</h1>
+
+<dl>
+    <dt>Autor(en)</dt>
+    {% include /functions/resolve-names.html my_responsible=page.responsible %}
+    <dd>{{ responsibleString }}</dd>
+
+    <dt>Beschreibung</dt>
+    <dd>{{ page.description }}</dd>
+
+    <dt>Primärer Aktor</dt>
+    {% include /functions/get-link-to-stakeholder-role.html myRoleAcronym=page.primaryActor withId=true %}
+    <dd>{{ stakeholderRoleLink }}</dd>
+
+    {% if page.secondaryActors.size > 0 %}
+        <dt>Sekundäre(r) Aktor(en)</dt>
+        {% for secondaryActorRef in page.secondaryActors %}
+            {% include /functions/get-link-to-stakeholder-role.html myRoleAcronym=secondaryActorRef withId=true %}
+            <dd>{{ stakeholderRoleLink }}</dd>
+        {% endfor %}
+    {% endif %}
+
+    <dt>Auslöser</dt>
+    <dd>{{ page.trigger }}</dd>
+
+    <dt>Vorbedingung</dt>
+    <dd>{{ page.precondition }}</dd>
+
+    <dt>Nachbedingung</dt>
+    <dd>{{ page.postcondition }}</dd>
+
+    <dt>Zugrundeliegende funktionale Anforderung(en)</dt>
+    <dd>{{ page.postcondition }}</dd>
+
+    {% if page.funcionalRequirements.size > 0 %}
+        <dt>Zugrundeliegende funktionale Anforderung(en)</dt>
+        {% for functionRequirementRef in page.funcionalRequirements %}
+        <dd>{{ functionRequirementRef }}</dd>
+        {% endfor %}
+    {% endif %}
+
+    {% include /functions/print-history.html myArtefact=page %}
+
+    {% include /functions/checks/check-generic-aspects.html myArtefact=page myErrorString="" myWarningString="" %}
+    {% assign stakeholderRoleRef = page.primaryActor %}
+    {% include /functions/checks/check-stakeholderRole-refs.html myStakeholderRoleRef=stakeholderRoleRef
+            myAsList=false myPurpose="Primärer Aktor" myErrorString=errorString myWarningString=warningString %}
+    {% assign stakeholderRoleRef = page.secondaryActors %}
+    {% include /functions/checks/check-stakeholderRole-refs.html myStakeholderRoleRef=stakeholderRoleRef
+            myAsList=true myPurpose="Sekundäre Aktor(en)" myErrorString=errorString myWarningString=warningString %}
+
+    {% include /functions/print-detailed-check-messages.html errors=errorString warnings=warningString todos=page.todo %}
+</dl>
+
+
+{{ page.content }}
