@@ -1,6 +1,6 @@
 ---
 type: userStory
-acronym: AufgabenDrittsystem
+acronym: AufgabenDrittsystemstellen
 responsible:
 	- jlü
 title: Aufgaben auf einem Drittsystem
