@@ -6,14 +6,14 @@ responsible:
     - tza
 title: Schaden bewerten
 description: Ein Gutachter bewertet den gemeldeten Schaden
-primaryActor: gutachter (stakeholderRole)
+primaryActor: gutachter
 secondaryActors:
-    - sachbearbeiterin (stakeholderRole)
-    - kunde (stakeholderRole)    
+    - sachbearbeiterin
+    - kunde
 trigger: Kunde hat einen Schaden gemeldet
 precondition: Gutachter wurde dem Fall zugewiesen
 postcondition: Der Kunde erhält die Nachricht über die Höhe der Schadensbewertung
-funcionalRequirement: 
+funcionalRequirements: 
     - 
 history:
     v1:

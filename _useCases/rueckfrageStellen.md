@@ -5,19 +5,18 @@ responsible:
     - aha
 title: Rückfrage stellen
 description: Ein Student stellt eine Rückfrage zu einer Aufgabe
-primaryActor: student (stakeholderRole)
+primaryActor: student
 secondaryActors:
-- wmaInf (stakeholderRole)
+    - wmaInf
 trigger: Student hat eine Frage zu einer Aufgabenstellung
 precondition: Der Student hat die Liste seiner Aufgaben erhalten.
 postcondition: Der WMA hat eine Nachricht mit der Rückfrage zur Aufgabe erhalten und wurde darüber benachrichtigt.
-funcionalRequirement: 
+funcionalRequirements: 
     - RueckfragenZuAufgaben
 history:
     v1:
         date: 2021-07-19
         comment: initially created
-
 todo: 
 ---
 
