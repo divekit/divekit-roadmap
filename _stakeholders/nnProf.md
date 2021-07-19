@@ -7,7 +7,7 @@ responsible:
 name: nnProf
 anonymous: true
 stakeholderRole: 
-    - profInf
+    - profMa
 relationshipToProject: >
     Jemand, der potenziell das Tool in seiner Lehre einsetzten könnte. 
 history:
