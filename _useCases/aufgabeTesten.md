@@ -7,7 +7,7 @@ title: Aufgabe testen
 description: Ein Student lässt eine Aufgabe auf Richtigkeit prüfen
 primaryActor: student (stakeholderRole)
 secondaryActors:
-    - wmaDev (stakeholderRole)  
+    - wmaProg (stakeholderRole) 
 trigger: Student hat seine Aufgabe erledigt, und möchte sie testen lassen
 precondition: Student sein Ergebnisse im Divekit eingetragen
 postcondition: Der Student erhält ein Ergbnis oder eine Fehlermeldung
