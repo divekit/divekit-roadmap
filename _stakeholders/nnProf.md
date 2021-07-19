@@ -4,7 +4,7 @@ subtype: person
 acronym: nnProf
 responsible:
     - mba
-name: nnProf
+name: n. n. Prof
 anonymous: true
 stakeholderRole: 
     - profMa
@@ -14,10 +14,11 @@ history:
     v1:
         date: 2021-06-18
         comment: created initially
+    v2:
+        date: 2021-07-19
+        comment: todos done, changed stakeholder role and name
 todo:
-    - Bitte eine einheitliche Namenskonvention für anonymisierte Namen verwenden (SB) 
     - potentielle Anwenderrolle hinzufügen (SB)
-    - Rolle stimmt m.E. nicht - eher Prof für Mathematik, Rolle muss ggfs. hinzugefügt werden (SB)
     - Rolle "Dozent" fehlt (SB)
 ---
 
