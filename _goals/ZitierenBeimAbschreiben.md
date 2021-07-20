@@ -5,7 +5,7 @@ responsible:
     - ngi
 title: Zitieren beim Abschreiben
 source:
-    - Interview nnWMA2
+    - [Interview nnWMA2]
 partOfLargerGoal: 
 history:
     v1:
@@ -13,8 +13,7 @@ history:
         comment: initially created
 
 todo:
-    - Quelle an das Format [..., ..., ...] anpassen 
-    - Vielleicht ein Überziel mit BetrugsVerhinderung .md zusammen? Beispiel -> "NutzenVonFremdenCode" 
+    - Vielleicht ein Überziel mit BetrugsVerhinderung.md zusammen? Beispiel -> "NutzenVonFremdenCode" 
 ---
 
 ## Beschreibung
