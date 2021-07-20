@@ -4,11 +4,11 @@ acronym: AufgabentypBilderHochladen
 responsible: 
     - ngi
 title: Aufgabentyp mit Bilder hochladen
-goals: VerschiedeneAufgabentypen
+goals: aufgabentypen
 implementationStatus: implemented
 prefilterPriorizationPoints: 4
 source:
-    - Interview nnWMA2
+    - [Interview, nnWMA2]
 history:
     v1:
         date: 2021-07-08
