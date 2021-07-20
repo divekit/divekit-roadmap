@@ -5,7 +5,7 @@ responsible:
 	- aha
 title: User Story Rückfrage beantworten
 funcionalRequirement: RueckfragenZuAufgaben
-asA: wmaInf 
+asA: wmaAutonomousLecturerInf 
 iWantTo: Rückfragen meiner Studenten zu ihren Aufgaben beantworten
 forThisReason: die Studenten ihre Aufgaben korrekt und zeitnah lösen können.
 history:

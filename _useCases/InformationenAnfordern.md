@@ -7,7 +7,7 @@ title: Informationen anfordern
 description: Das DiveKit muss in der Lage sein Studierenden weiterführende Informationen (zum Beispiel Videos/Webseiten/Vorlesungsmaterialien) zu konkreten Fehlern zur Verfügung zu stellen.
 primaryActor: student
 secondaryActors:
-    - wmaInf
+    - wmaAutonomousLecturerInf
 trigger: Student:in stößt auf Fehler.
 precondition: Student:in kann den Fehler nicht adhoc lösen.
 postcondition: Student:in besitzt weitere Informationen zum Fehler.

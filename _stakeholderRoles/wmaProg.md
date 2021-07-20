@@ -16,7 +16,7 @@ history:
         comment: added Rollenbeschreibung    
 todo: 
     - Name sollte den Lehrbezug deutlicher machen (es gibt auch Drittmittel-WMAs) (SB)
-    - bitte die Abgrenzung zu wmaInf mal anschauen - wmaInf ist sehr ähnlich, macht aber (auch) SELBSTSTÄNDIGE Lehre. Ist das dieselbe Rolle? Wie ist das in Artefakten wie z.B. Use Cases? (SB)
+    - bitte die Abgrenzung zu wmaAutonomousLecturerInf mal anschauen - wmaAutonomousLecturerInf ist sehr ähnlich, macht aber (auch) SELBSTSTÄNDIGE Lehre. Ist das dieselbe Rolle? Wie ist das in Artefakten wie z.B. Use Cases? (SB)
 ---
 
 ## Rollenbeschreibung

@@ -7,7 +7,7 @@ title: Feedback suchen
 description: Ein Studierender durchsucht das Feedback-Archiv nach ähnlichen Problemen, um gegebenenfalls ähnliche Lösungen oder anders formuliertes Feedback als Inspiration zu nutzen.
 primaryActor: student
 secondaryActors: 
-    - wmaInf
+    - wmaAutonomousLecturerInf
     - wmaProg
     - profInf
 trigger: Ein Studierender bearbeitet eine Aufgabe und braucht Inspiration.

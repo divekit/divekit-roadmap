@@ -7,7 +7,7 @@ title: Rückfrage stellen
 description: Ein Student stellt eine Rückfrage zu einer Aufgabe
 primaryActor: student
 secondaryActors:
-    - wmaInf
+    - wmaAutonomousLecturerInf
 trigger: Student hat eine Frage zu einer Aufgabenstellung
 precondition: Der Student hat die Liste seiner Aufgaben erhalten.
 postcondition: Der WMA hat eine Nachricht mit der Rückfrage zur Aufgabe erhalten und wurde darüber benachrichtigt.
