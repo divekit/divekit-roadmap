@@ -14,9 +14,7 @@ stakeholderRole: studentInf
 history:
     v1:     
         date: 2021-05-27
-        comment: initially created
-todo:
-    - Protokoll aus "sources" hierher?        
+        comment: initially created      
 ---
 
 ## Protokoll Workshop 6-3-5 Methode
