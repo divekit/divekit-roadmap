@@ -4,26 +4,27 @@ subtype: person
 acronym: nnProf
 responsible:
     - mba
-name: nnProf
+name: n. n. Prof
 anonymous: true
 stakeholderRole: 
-    - profInf
+    - profMa
 relationshipToProject: >
     Jemand, der potenziell das Tool in seiner Lehre einsetzten könnte. 
 history:
     v1:
         date: 2021-06-18
         comment: created initially
+    v2:
+        date: 2021-07-19
+        comment: todos done, changed stakeholder role and name
 todo:
-    - Bitte eine einheitliche Namenskonvention für anonymisierte Namen verwenden (SB) 
     - potentielle Anwenderrolle hinzufügen (SB)
-    - Rolle stimmt m.E. nicht - eher Prof für Mathematik, Rolle muss ggfs. hinzugefügt werden (SB)
     - Rolle "Dozent" fehlt (SB)
 ---
 
 ## Steckbrief
 nnProf ist seit neustem von einer Hochschule berufen worden und doziert seitdem dem in den Gebieten der Statistik, 
-Angewandte Mathematik, Data Mining und leitet Guides Projects.  
+Angewandte Mathematik, Data Mining und leitet Guided Projects.  
 
 ## Wissen
 

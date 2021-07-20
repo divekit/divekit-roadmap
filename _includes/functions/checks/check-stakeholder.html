@@ -36,6 +36,13 @@
     {% assign errorList = errorList | push: out_msg %}
 {% endif %}
 
+{% comment %}---------- interviews -----------{% endcomment %}
+{% assign interviews = site.interviews | where: "stakeholder", artefact.acronym %}
+{% if interviews.size == 0 %}
+    {% include /functions/define-message.html ignore=artefact.ignore msgno="w534"
+        msg="Gibt es kein Interview für diesen Stakeholder?" %}
+    {% assign warningList = warningList | push: out_msg %}
+{% endif %}
 
 {% assign errorString = errorList | join: ";" %}
 {% assign warningString = warningList | join: ";" %}

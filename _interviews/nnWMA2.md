@@ -1,10 +1,10 @@
 ---
-acronym: n.n. WMA 2
+acronym: nnWMA2
 type: interview
 responsible: 
     - fgr
     - ngi
-stakeholder: n.n. WMA 2
+stakeholder: nnWMA2
 date: 2021-05-11
 duration: 1h
 location: Zoom-Meeting

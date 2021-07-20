@@ -11,7 +11,7 @@ history:
         date: 2021-06-22
         comment: initially created 
 todo: 
-    
+    - deutlich machen, dass das eine Teil-Rolle ist - WMAs werden das nicht ausschließlich tun (SB)
 ---
 
 ## Rollenbeschreibung

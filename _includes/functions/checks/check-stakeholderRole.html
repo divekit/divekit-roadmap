@@ -38,8 +38,10 @@
 
 
 {% comment %}---------- referenced by a stakeholder? -----------{% endcomment %}
-{% include /functions/find-stakeholders-for-stakeholder-role.html myStakeholderRole=artefact %}
-{% if linkList.size > 0 %}
+{% include /functions/find-artefacts-referencing-stakeholder-role.html myStakeholderRole=artefact
+        myType="stakeholder" myCollection=site.stakeholders withID=false %}
+
+{% if linksString.size > 0 %}
 {% else %}
     {% include /functions/define-message.html ignore=artefact.ignore msgno="w554"
             msg="Zu dieser Stakeholder-Rolle gibt es keinen Stakeholder!" %}

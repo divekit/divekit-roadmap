@@ -1,16 +1,26 @@
 {% assign stakeholderRole = include.myStakeholderRole %}
 {% assign type = include.myType %}
-{% assign refsAsList = include.refsAsList %}
 {% assign collection = include.myCollection %}
 {% assign withID = include.withID %}
 
-{% if refsAsList %}
-    {% assign whereExpString = "item.stakeholderRole contains '"|
+{% assign asStringField = site.data.metadata[type].stakeholderRoleRef.asString %}
+{% assign asListField = site.data.metadata[type].stakeholderRoleRef.asList %}
+
+{% assign itemList = "" | split: ";" %}
+{% if asListField %}
+    {% assign whereExpString = "item." | append: asListField | append: " contains '" |
                 append: stakeholderRole.acronym | append: "'" %}
-    {% assign itemList = collection | where_exp: "item", whereExpString %}
-{% else %}
-    {% assign stakeholderRoleAcronym = stakeholderRole.acronym
-    {% assign itemList = collection | where: "stakeholderRole", stakeholderRoleAcronym %}
+    {% assign filterResults = collection | where_exp: "item", whereExpString %}
+    {% if filterResults.size > 0 %}
+        {% assign itemList = itemList | concat: filterResults %}
+    {% endif %}
+{% endif %}
+{% if asStringField %}
+    {% assign stakeholderRoleAcronym = stakeholderRole.acronym %}
+    {% assign filterResults = collection | where: asStringField, stakeholderRoleAcronym %}
+    {% if filterResults.size > 0 %}
+        {% assign itemList = itemList | concat: filterResults %}
+    {% endif %}
 {% endif %}
 
 {% assign linkList = "" | split: ";" %}
@@ -21,7 +31,7 @@
     {% assign itemName = item[sortField] %}
     {% if withID %}
         {% include /functions/get-globalid.html myCollection=collection myArtefact=item myType=type %}
-        {% assign itemName = globalId | append: " " | append: itemName %}
+        {% assign itemName = globalId | append: ": " | append: itemName %}
     {% endif %}
     {% capture link %}<a href="{{ site.url }}{{ item.url | relative_url }}">{{ itemName }}</a>{% endcapture %}
     {% assign linkList = linkList | push: link %}
