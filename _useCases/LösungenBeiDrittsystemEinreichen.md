@@ -8,10 +8,7 @@ description: Ein * e Student * in
 primaryActor: 
     - student
 secondaryActors:
-    - profMa
     - profInf
-    - profBWL
-    - potAnwender
 trigger: Student * in will Lösung einreichen
 precondition: Student * in hat eine Aufgabe, die in einem Drittsystem zu lösen ist 
 postcondition: eingereichten Lösungen wurden übermittelt und überprüft
