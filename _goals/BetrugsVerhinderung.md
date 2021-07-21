@@ -6,7 +6,7 @@ responsible:
     - duz
 title: Betrugsversuche verhindern
 source: 
-    - Interview mmProf3
+    - [interview, nnProf3, 00-02-45]
     - [interview, jintveen, Minute 00-06-56]
 partOfLargerGoal: 
 history:
@@ -16,9 +16,11 @@ history:
     v2:
         date: 2021-06-17
         comment: added source & reason
+    v3:
+        date: 2021-07-21
+        comment: reformat timestamp
 
-todo: 
-    - Quelle an das Format [..., ..., ...] anpassen 
+todo:
     - Vielleicht ein Überziel mit ZitierenBeimAbschreiben.md zusammen? Beispiel -> "NutzenVonFremdenCode" 
 ---
 
