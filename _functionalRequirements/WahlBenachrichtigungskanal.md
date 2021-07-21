@@ -25,7 +25,7 @@ history:
         date: 2021-07-16
         comment: added kano classification 
 todo: 
-    - goals ergänzen
+    - goals ergänzen (jlü)
 ---
 
 Das DiveKit soll Studierenden die Möglichkeit bieten, den Benachrichtigungskanal für das Informieren über eine abgeschlossene Korrektur frei wählen zu können.

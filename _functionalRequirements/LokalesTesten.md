@@ -6,7 +6,7 @@ responsible:
     - ako
 title: Die abzugebende Lösung soll bereits lokal getestet werden können
 goals: 
-    - lokalerTest
+    - LokalerTest
 implementationStatus: implemented
 prefilterPriorizationPoints: 1
 source:

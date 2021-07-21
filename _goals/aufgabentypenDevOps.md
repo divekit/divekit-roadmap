@@ -14,8 +14,8 @@ history:
     v2:
         date: 2021-07-21
         comment: Titel hinzufügen und Zeitstempel
-todo: 
-    - Zeitangabe der Quelle hinzufügen
+
+todo:
 ---
 
 ## Beschreibung
