@@ -16,8 +16,7 @@ history:
         date: 2021-07-21
         comment: add explanation and specify sources
 
-todo: 
-    
+todo:
 ---
 
 ## Beschreibung
@@ -28,4 +27,4 @@ werden.
 ## Begründung
 
 Um Aufgaben automatisiert Testen zu können ist es notwendig, dass das DiveKit alle Fehler erkennt und diese anzeigt. Ansonsten wäre eine manuelle Nachprüfung 
-erforderlich und somit das Oberziel nicht erreicht
+erforderlich und somit das Oberziel nicht erreicht.
