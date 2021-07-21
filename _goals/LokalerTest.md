@@ -15,7 +15,7 @@ history:
         comment: initially created
     v2: 
         date: 2021-07-21
-        comment: todos: spelling, gender neutral, sources
+        comment: fixed todos for spelling, gender neutral, sources
 
 todo:
 ---
