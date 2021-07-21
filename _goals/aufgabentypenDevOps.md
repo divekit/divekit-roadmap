@@ -3,18 +3,19 @@ type: goal
 acronym: aufgabentypenDevOps
 responsible: 
     - jlü
-title: 
+title: Aufgaben mit DevOps bezug
 source:
-    - [interview, nnprof3]
+    - [interview, nnprof3, 00-00-21]
 partOfLargerGoal: aufgabentypen
 history:
     v1:
         date: 2021-07-08
         comment: initially created
-
+    v2:
+        date: 2021-07-21
+        comment: Titel hinzufügen und Zeitstempel
 todo: 
     - Zeitangabe der Quelle hinzufügen
-    - Titel fehlt
 ---
 
 ## Beschreibung
