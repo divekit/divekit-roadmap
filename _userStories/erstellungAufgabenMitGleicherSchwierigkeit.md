@@ -11,7 +11,7 @@ asA:
 	- profMa
 	- dozent
 iWantTo: generieren von Aufgaben mit gleichem Schwierigkeitsgrad
-forThisReason: ich alle studierenden auf dem selben Schwierigkeitsgrad testen kann
+forThisReason: ich alle studierenden mit Aufgaben auf dem selben Schwierigkeitsgrad testen kann
 history:
 	v1:
 		date: 2021-07-22
