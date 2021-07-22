@@ -22,7 +22,7 @@ source:
     - [interview, nnProf4, 00:35:38]
     - [interview, nnProf4, 00:37:06]
     - [interview, nnProf4, 00:43:41]
-    - [interview, nnProf4, 00:40:01]
+    - [interview, nnProf4, 00:40:12]
     - [interview, nnProf4, 00:48:06]
     - [interview, nnProf4, 00:02:43]
 history:
@@ -44,7 +44,7 @@ Für die Lehre während der Corona Zeit verwendet Mark ein besonderes Setup. Mit
 
 Einen Teil der Lehre hat Mark auch bereits selber automatisiert. Zusammen mit einem Kollegen hat er Fragenpools angelegt und mithilfe selbst entwickelter Script- und Java Programmen kann eine für jeden Studierenden individualisierte Aufgabe erzeugt werden. Allerdings werden diese nicht zu Klausurzwecken eingesetzt. Ein großes Problem ist, dass nicht garantiert ist, dass alle Aufgaben denselben Schwierigkeitsgrad haben. Außerdem ist Benotung für Martin ein Thema, das er unter keinen Umständen automatisieren möchte. Ihm ist es wichtig, in einem persönlichen Fachgespräch den Kenntnisstand festzustellen und möglichst fair zu benoten.
 
-Den Einsatz eines Tools, wie dem Divekit, kann Mark sich eher schlecht vortsellen. Er ist sehr zufrieden mit seinen selbst entwickelten Scripten und deren leichte Anpassbarkeit. Des Weiteren hat er die Sorge, dass sich durch einen zu starken Einsatz eines solchen Tools, zu stark auf gut überprüfbare Aufgaben fokussiert wird. Komplexere und interessantere Aufgaben könnten möglicherweise nicht gut abgebildet werden. Allerdings findet er das Konzept von Code-Wars sehr interessant und könnte sich vorstellen, etwas ähnliches in seinen Unterricht aufzunehmen.
+Den Einsatz eines Tools, wie dem Divekit, kann Mark sich eher schlecht vorstellen. Er ist sehr zufrieden mit seinen selbst entwickelten Scripten und deren leichte Anpassbarkeit. Des Weiteren hat er die Sorge, dass sich durch einen zu starken Einsatz eines solchen Tools, zu stark auf gut überprüfbare Aufgaben fokussiert wird. Komplexere und interessantere Aufgaben könnten möglicherweise nicht gut abgebildet werden. Allerdings findet er das Konzept von Code-Wars sehr interessant und könnte sich vorstellen, etwas ähnliches in seinen Unterricht aufzunehmen.
 
-Damit eine Software für Mark überhaupt in Frage kommt, muss sie einige Kriterien erfüllen. Zum einen muss Open Source entwickelt werden, sollte im eigenen Hochschulnetz hostbar sein und den Datenschutz sicherstellen. Ein Tool, mit denen die Studierenden selbstständig Aufgaben lösen können, sollte auch anonymisiert und ohne Fremdkontrolle nutzbar sein. Des Weiteren sollte es mit einer beliebigen Entwicklungsumgebung zusammenarbeiten können, sodass Studierende mit dem bevorzugtem Programm arbeiten können.
+Damit eine Software für Mark überhaupt in Frage kommt, muss sie einige Kriterien erfüllen. Zum einen muss Open Source entwickelt werden, sollte im eigenen Hochschulnetz hostbar sein und den Datenschutz sicherstellen. Ein Tool, mit denen die Studierenden selbstständig Aufgaben lösen können, sollte auch anonymisiert und ohne Fremdkontrolle nutzbar sein. Des Weiteren sollte es mit einer beliebigen Entwicklungsumgebung zusammenarbeiten können, sodass Studierende mit dem bevorzugten Programm arbeiten können.
 
