@@ -1,6 +1,6 @@
 ---
 type: useCaseDiagram
-acronym: useCaseDiagramA
+acronym: gleicheSchwierigkeit
 useCases:
     - aufgabenMitGleicherSchwierigkeit
 responsible: 
