@@ -18,14 +18,25 @@ history:
     v2:
         date: 2021-06-24
         comment: hinzunahme Aussagen interview
+    v3:
+        date: 2021-07-22
+        comment: Teilziele verlinkt
 
 todo:
-    - Bitte die Subgoals verlinken
 ---
 
 ## Beschreibung
 
 Der Mitarbeiter möchte entlastet werden.
+
+
+Dieses Ziel ist ein Oberziel von:
+
+* [Entlastung bei Aufgabenerstellung](./entlastungAufgabenerstellung.md)
+* [Vollautomatische Korrektur](./entlastungAutoSystem.md)
+* [Automatische Korretkur](./entlastungKorrektur.md)
+* [Qualitative Unterstützung bei Auswertung](./entlastungQualitativ.md)
+* [Teilkorrektur](./entlastungTeilkorrektur.md)
 
 ## Begründung
 
