@@ -1,26 +1,28 @@
 ---
 type: useCaseDiagram
-acronym: useCaseDiagramA
+acronym: anzeigeDerDeadline
 useCases:
--
+    - anzeigeDerDeadline
 responsible:
--
-title: Use Case Diagram A
+    - mwi
+title: Use Case Anzeige der Deadline
 funcionalRequirement:
--
+    - AnzeigederDeadline
 history:
-v1:
-date: 2021-06-02
-comment: initially created
+    v1:
+        date: 2021-07-22
+        comment: initially created
 todo:
--
 ---
 
 ## Beschreibung
 
-TODO
+Der User, explizit eine studierende Person, kann mit dem System interagieren, um die Deadline jeder abzugebenden Aufgabe
+anzeigen zu lassen.
+
+Da es sich hierbei um keine Funktionalität handelt, die vom User änderbar ist, fällt dieses Diagramm klein aus.
 
 ## Diagram
 
-TODO
+![darkmode](./diagrams/useCaseAnzeigeDerDeadline.png)
 
