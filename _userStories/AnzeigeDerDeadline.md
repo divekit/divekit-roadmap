@@ -17,7 +17,7 @@ todo:
 
 ## User Story
 
-Als NutzerIn des Systems möchte ich auf der Testseite die Deadlines der abzugebenden Aufgaben angezeigt bekommen, um meine
+Als NutzerIn des Systems möchte ich auf der Testseite die Deadlines der abzugebenden Aufgaben angezeigt bekommen, um seine
 Abgaben besser strukturieren und im Voraus planen zu können.
 
 ### Erklärung
