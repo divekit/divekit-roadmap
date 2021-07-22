@@ -30,6 +30,6 @@ Voraussetzung für das Aufrufen dieser Einstellungsmöglichkeiten ist ein Login 
 
 ## Diagram
 
-![branding](./diagrams/useCaseDarkmode.jpg)
+![branding](./diagrams/useCaseBranding.jpg)
 
 
