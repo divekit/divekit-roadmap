@@ -1,6 +1,6 @@
 ---
 type: useCaseDiagram
-acronym: anzeigeDerDeadline
+acronym: UCD_anzeigeDerDeadline
 useCases:
     - anzeigeDerDeadline
 responsible:
