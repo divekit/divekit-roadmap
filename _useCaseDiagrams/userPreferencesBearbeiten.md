@@ -30,6 +30,6 @@ hat (daher extends). Er muss daher nicht notwendigerweise ausgeführt werden um 
 
 ## Diagram
 
-![useCaseDiagramUserPreferences](./diagrams/useCaseDiagramUserPreferences.svg)
+![useCaseDiagramUserPreferences](./diagrams/useCaseUserPreferences.svg)
 
 
