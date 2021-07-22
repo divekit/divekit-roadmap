@@ -1,6 +1,6 @@
 ---
 type: userStory
-acronym: _dont_delete_user_story_template
+acronym: ertsellungAufgabenMitGleicherSchwierigkeit
 responsible:
 	- mba
 title: Erstellung von Aufgaben mit gleicher Schwierigkeit
