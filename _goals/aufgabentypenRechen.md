@@ -3,7 +3,7 @@ type: goal
 acronym: aufgabentypenRechen
 responsible: 
     - psc
-title: Rechenaufgaben sollten zur Verfügung stehen
+title: Mathematik Aufgaben sollten zur Verfügung stehen
 source:
     - [interview, mengelen, Minute 00-08-00]
     - [interview, mengelen, Minute 00-25-22]
@@ -13,12 +13,17 @@ history:
     v1:
         date: 2021-07-08
         comment: initially created
+    v2:
+        date: 2021-07-22
+        comment: Begründung hinzugefügt + Rechenaufgaben -> Mathematik Aufgaben umbenannt
 
-todo: 
-    - Begründung hinzufügen
-    - Generalisierung des Augabentypen zu "Mathematik-Aufgaben" oder so
+todo:
 ---
 
 ## Beschreibung
 
-BWL Professor:innen können Rechenaufgaben erstellen.
+BWL Professor:innen können Mathematik Aufgaben erstellen.
+
+## Begründung
+
+Viele Sachverhalte in der BWL (z. B. Kosten, Preise, Break-Even etc.) und im Marketing (z. B. Kenngrößen, Verhältnisse etc.) lassen sich mathematisch berechnen bzw. lösen. Die Fähigkeit beliebige Matheaufgaben erstellen zu können ist für die Erweiterung hinsichtlich weitere Module elementar.
