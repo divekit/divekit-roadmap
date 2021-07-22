@@ -39,6 +39,12 @@ todo:
 * 3b) Der externe Anwender ruft die Einstellungsmöglichkeiten für die barrierearme Ansicht auf
 * 4b) Das System stellt das Stylesheet der barrierearmen Ansicht zur Verfügung
 
+* 3c) Der externe Anwender ruft die Einstellungsmöglichkeiten für individuelle Header auf
+* 4c) Das System stellt eine Übersicht aller möglichen Header zur Verfügung
+
+* 3d) Der externe Anwender ruft die Einstellungsmöglichkeiten für die barrierearme Ansicht auf
+* 4d) Das System stellt eine Übersicht aller möglichen Icons zur Verfügung
+
 ## Ausnahmeszenario 
 
 **Andere Nachbedingung**: 
