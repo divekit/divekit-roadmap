@@ -4,8 +4,10 @@ subtype: person
 acronym: men
 responsible: 
     - psc
-name: Monika Engelen
-stakeholderRole: 
+name: Prof. Dr. Monika Engelen
+stakeholderRole:
+    - potAnwender
+    - dozent
     - profBwl
 relationshipToProject: >
     Anwender des Systems in mehreren Lehrveranstaltungen. Interessiert an sinnvoller Weiterentwicklung, möchte eigene Ideen einbringen. 
@@ -16,10 +18,10 @@ history:
     v2:
         date: 2021-06-24
         comment: add correct role
+    v3:
+        date: 2021-07-22
+        comment: fehlende Rolle Dozent und potenzieller Anwender hinzugefügt + Name mit Titel
 todo:
-    - potentielle Anwenderrolle hinzufügen (SB)
-    - Name bitte mit komplettem Titel (SB)
-    - Rolle "Dozent" fehlt (SB)
 ---
 
 ## Steckbrief
