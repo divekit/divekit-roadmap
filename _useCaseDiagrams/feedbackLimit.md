@@ -10,7 +10,7 @@ useCases:
     - Benachrichtigung durchlesen
 responsible:
     - tza
-title: Use Case Diagram Obergrenze für Feedback
+title: Use Case Diagramm Obergrenze für Feedback
 funcionalRequirement: 
     - FeedbackLimit
 history:
