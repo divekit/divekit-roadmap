@@ -86,7 +86,8 @@ collections:
     output: true
   useCases:
     output: true
-
+  reviews:
+    output: true
 
 defaults:
   - scope:
@@ -159,3 +160,8 @@ defaults:
       type: "useCases"
     values:
       layout: "useCase"
+  - scope:
+      path: ""
+      type: "reviews"
+    values:
+      layout: "review"
