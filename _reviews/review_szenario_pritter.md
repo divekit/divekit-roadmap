@@ -7,13 +7,13 @@ reviewers:
     - abc
     - def
     - ghi
-referencedType: persona
-referencedAcronym: mkramüller
-referencedCommit: 1fe5b1d480ffa27b9381c9b35f178bda4d302fd4
-title: Review zur Persona mkramüller
+referencedType: scenario
+referencedAcronym: pritter
+referencedCommit: 8c8eee526bfe0b2dff5c372c8073945781fd4249
+title: Review zur Szenario pritter
 history:
     v1:
-        date: 2021-07-22
+        date: 2021-07-23
         comment: initially created
 todo:
 ---
@@ -26,7 +26,7 @@ das reviewt wird.
 Das Feld **referencedCommit** enthält den letzten Commit, der das Artefakt vor dem Review geändert hat. Dadurch ist eine
 eindeutige Zuordnung zur Version des Artefakts gewährleistet.  
 Das Feld **title** gibt dem Review-Protokoll einen Titel.  
-Ins Feld **responsible** wird das Kürzel des Verantwortlichen eingetragen, der die Autoren-Rolle im Review übernahm.  
+Ins Feld **reviewAuthor** wird das Kürzel des Verantwortlichen eingetragen, der die Autoren-Rolle im Review übernahm.  
 Ins Feld **reviewer** werden die Verantwortlichen eingetragen, die die Review-Rolle übernahmen. 
 
 Unter der Überschrift **Review-Protokoll** wird das Protokoll als Tabelle geführt.  
