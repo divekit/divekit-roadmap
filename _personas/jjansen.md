@@ -19,6 +19,9 @@ history:
         date: 2021-07-17
         comment: fix source
 
+todo:
+    - Beschreibung mehr durch Absätze strukturieren (Review-Feedback)
+    - Erklären, was mit Robustheit gemeint ist (Review-Feedback)
 ---
 
 ## Beschreibung
