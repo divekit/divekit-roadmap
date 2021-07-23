@@ -27,9 +27,9 @@ todo:
 
 | Referenz | Reviewer-Kommentar | Autor-Kommentar |
 |------------|------------------|-----------------|
-|Hauptszenario| Ist das Richtig?| Ich denke schon, weil es als Option zur Verfügung stand|
+|Hauptszenario| Ist das Richtig?| Ich denke schon, dass es ein gültiges Szenario ist|
 |Satz 5 + 6| Eigener Absatz| Ja wird ein Absatz eingefügt |
-|Satz 5| "Deployment in eine Cloudlösung" ist das korrekt? | einfügen von " und dem (anschließenden) Deployment|
+|Satz 5| "Deployment in eine Cloudlösung" ist das korrekt? | einfügen von " und dem (anschließenden) Deployment"|
 |Alternativszenario| klingt sehr stark danach, dass das Ziel ist das Betrügen zu vermeiden| Ja stimmt wird umgeschrieben, dass der Fokus mehr auf dem DevOps liegt |
 |Alternativszenario & Hauptszenario| sind das die selben Ziele?| ja grundsätzlich sind das schon die selben Ziele  |
 |Gesamt| sollte der Fokus so stark auf Betrügen liegen?| ich denke das ist schon möglich, ich werde ich aber nochmal darüber nachdenken, ob der Fokus auf DevOps so erreicht wurde oder ob da grundsätzlich überarbeitet werden muss |

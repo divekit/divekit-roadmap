@@ -1,8 +1,8 @@
 ---
 type: scenario
-acronym: sampleScenario
-title: Einfache Individualisierung von Aufgaben
-persona: mkramüller
+acronym: mnehlsScenario
+title: Programmiertraining mit dem Divekit
+persona: mnehls
 scenarioTypes: 
     - main
     - negative
@@ -17,10 +17,6 @@ history:
         comment: initially created
 todo: 
 ---
-
-## Beschreibung
-
-Hier das Szenario-Template
 
 ###Positives Hauptszenario:
 Mark möchte ein neues Tool in seinem Unterricht ausprobieren. Da er bereits mit eigenen Werkzeugen seine Aufgaben generiert, möchte er seinen Arbeitsablauf nicht auf das neue Tool umstellen. Allerdings hat er Interesse daran, seinen Studenten Trainingsaufgaben zum Programmieren anzubieten. Dort bekommen sie verschiedene kleinere Programmieraufgaben angeboten, deren Ergebnisse gegen Unit-Tests geprüft werden. Durch das Nutzen des Angebots kann Mark eine deutliche Verbesserung der Programmierfähigkeiten seiner Studenten feststellen und entscheidet sich, das Tool in seinen Veranstaltungen auch weiterhin zu verwenden.
