@@ -21,9 +21,6 @@ history:
         comment: added source, Beschreibung and Begründung
 
 todo: 
-    - source-Format muss noch technisch geklärt werden (aber das lässt sich später leicht ändern)
-    - Abhängigkeiten zwischen Zielen - erfassen? in welcher Richtung? (also )
-    - Rechtscheib- und Grammatikfehler beheben
 ---
 
 ## Beschreibung
@@ -32,4 +29,4 @@ Praktikumsaufgaben sollen sich mit geringem Arbeitsaufwand individualisieren las
 
 ## Begründung
 
-Allen Studenten die gleiche Aufgabe zu geben würde das gegenseitige Abschreiben zu leicht machen. Der notwendige Schritt der Individualisierung sollte daher so wenig Zeit wie mögliche beanspruchen.
+Allen Studenten die gleiche Aufgabe zu geben, würde das gegenseitige Abschreiben zu leicht machen. Der notwendige Schritt der Individualisierung sollte daher so wenig Zeit wie möglich beanspruchen.

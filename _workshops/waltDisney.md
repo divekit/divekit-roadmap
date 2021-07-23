@@ -31,7 +31,7 @@ history:
     v6: 
         date: 2021-06-24
         comment: Added values to categories
-todo:    
+todo:
 ---
 
 ## Ablauf
@@ -67,25 +67,15 @@ todo:
 12. Es wäre wünschenswert, wenn es Bonuspunkte für Commits gäbe. Diese könnten automatisiert überprüft werden. Allerdings bedarf es eine faire Bewertungsmaßstab, der Missbrauch verhindert.
 
 13. Es wird sich gewünscht, Feedback direkt in der IDE anstatt erst im Browser zu sehen. Als Vorschlag wurde eine Helfer-Klasse oder die Kontaktaufnahme mit den Entwicklern der IDE genannt. Es wird gewarnt, dass die IDE evtl. nicht open-source sei oder dass mehrere IDEs supported werden müssten.
-
 14. Es wird sich gewünscht, dass auch Diagramme automatisch korrigiert werden. Als Vorschlag wurde eine Bilderkennung zwischen Muster- und Studentenlösung genannt. Es wird gewarnt, dass es zu aufwändig sei und dass der Argumentationsspielraum für verschiedenen Lösungen verloren geht.
-
 15. Es wird sich gewünscht, die Testseite in einer App zugänglich zu machen. Als Vorschlag wurde die Entwicklung auf Android und iOS oder die Cross-Platform Entwicklung einer App vorgeschlagen. Der Browser könnte auch als Anzeige verwendet werden. Es wird gewarnt, dass die Entwicklung der App viel Zeit und Geld kosten würde und die App evtl. sogar kaum benutzt werden könnte.
-
 16. Es wird sich gewünscht, dass Studenten andere Studenten kontrollieren können um Bonuspunkte zu sammlen. Als Vorschlag wurde die Implementierung eines Belohnungs- und Reviewsystems genannt. Es wird gewarnt, dass Studenten falschen Feedbach geben könnten und nicht immer richtig korrigieren. Studenten könnten sich auch gegenseitig gut bewerten und das müsste dann wieder kontrolliert werden.
-
 17. Es wird sich gewünscht, automatisch Tips bei falscher Lösung zu bekommen. Als Vorschlag wurde die Hinterlegung einer Musterlösung und die Ausgabe von Tips die zum jeweiligen Fehler passen genannt. Es wird gewarnt, dass damit ein trial-and-error Ansatz zur Lösung der hidden Tests führen kann.
-
 18. Es wird sich gewünscht, Bonuspunkte für die schnelle Lösung der Aufgaben zu bekommen. Als Vorschlag werden 24/7 Arbeitsschichten der manuelle Kontrollen und ein geeignetes Belohnungssystem genannt. Es wird gewarnt, dass dieser Ansatz unfair gegenüber arbeitenden Studenten sei. Studenten mit Vorwissen haben evenfalls einen Vorteil. Die Codequalität könnte auch darunter leiden und im schlimmsten Fall könnte es einen Handel für die Lösungen der individualisierten Aufgaben geben (Echtgeld gegen Bonuspunkte).
-
 19. Es wird sich gewünscht, die Ergebnisseite übersichtlicher zu machen. Als Vorschlag wird eine Überarbeitung der Testseite genannt. Es wird gewarnt, dass die Überarbeitung zu mehr Aufwand führt.
-
 20. Es wird sich gewünscht, einsehbar zu machen, in welcher Warteschlagenposition man bei der manuelle Korrektur ist. Als Vorschlag wurde eine Anzeige der Position genannt. Es wird gewarnt, dass Kontrollen unterschiedliche lange dauern und durch verschiedene Arbeitszeiten der Mitarbeiter keine genaue Aussage dazu getroffen werden kann. Oft ist es auch so, dass am Ende eines Meilensteins viele Leute gleichzeitig abgeben und daruch ein Engpass entsteht.
-
 21. Es wird sich gewünscht, die Aufgaben weiter zu idividualisieren und das DiveKit auf anderen Module zu erweitern. Als Vorschlag dazu die Erstellung von neuen Aufgaben passend zu den Module genannt. Es wird gewarnt, dass Dozenten nur schwer von dem System überzeugt werden können und eine Umstellung eine Katastrophe sein könnte (wie die Umstellung auf Online auf Grund von Corona - War eine absolute Katastrophe in 90% der Fächer).
-
 22. Es wird sich gewünscht, ein Chatsystem auf der Testseite zu haben um direkt mit dem Betreuer in Kontakt zu treten. Als Vorschlag wurde dafür die Endingung einer Chatbox mit IRC Protokoll auf der Testseite genannt. Es wird gewarnt, dass es immer jemand für den Chat verfügbar sein muss.
-
 23. Es wird sich gewünscht, eine Musterlösung angezeigt zu bekommen nachdem man die Aufgabe erfolgreich gelöst hat. Als Vorschlag wurde die Anfertigung einer individuellen Musterlösung durch den Beteuer genannt. Es wird gewarnt, dass dies zu hohem Zeitaufwand für den Betreuer führen würde.
 
 24. Es wird sich gewünscht, dass die Studierenden schneller benachrichtigt werden, wenn die Korrektur einer Aufgabe abgeschlossen ist. Als Vorschlag werden Discord-Bots genannt, die Bescheid geben. Es wird gewarnt, sich nicht zu stark von Discord abhängig zu machen.
@@ -124,7 +114,6 @@ todo:
 55. Es wird sich gewünscht, bessere Informationen für häufig auftretende Fehler zu erhalten. Es wird angemerkt, dass man dafür ein FAQ nutzen könne. Weiter wird angemerkt, dass es besser sei, stattdessen diese häufigen Fehler abzufangen und dann zusätzliche Informationen bereit zu stellen. Es wird kritisiert, dass diese Probleme schwer differenzierbar seien und daher nur wenige Fehler mehr Informationen erhalten würden.
 56. Es wird sich gewünscht, die Aufgaben so zu gestalten, dass keine manuelle Prüfung mehr nötig ist. Es wird angemerkt, dass die Aufgabensteller dazu die Aufgaben so stellen müssten, dass die Lösungen automatisch geprüft werden können und dass ein einmaliger Mehraufwand für die Erstellung weiterer automatischer Tests entstehe. Es wird kritisiert, dass einige Dinge nicht automatisch prüfbar seien, wie z.B. der Codestyle.
 
-
 ## Kategorien
 
 ### Usability
@@ -147,8 +136,6 @@ Usability beschreibt Verbesserungsvorschläge für bestehende Funktionen, bzw. k
 * Manuell korrigierte Tests sollen auch in IntelliJ einsehbar sein
 * Anziegen welcher Commit korrigiert wurde
 * Korrekturen selber Kommentieren
-
-
 
 ### Funktionalität
 
@@ -177,7 +164,6 @@ Probleme, die sich auf das Erstellen/Bearbeiten/Korrigieren der studentischen Au
 * Noch stärkere Individualisierung
 * Hinweise anbieten, die je nach Aufgabenfortschritt offenbart werden können
 * Aufgaben anderer Informatikmodule integrieren (wie DB1, WT, VI, etc.)
-
 
 ## Miro-Workshops
 **[Miroboards Export (19.05.21 + 20.05.21)](../sources/walt_disney_miro.pdf)**

@@ -31,6 +31,6 @@ Das DiveKit muss eine Feedback-Seite generieren, die bei der automatisierten Abg
 
 Die statische Seite gibt keine Auskunft darüber, ob gerade etwas passiert und wie lange es ggf. noch dauert.
 Eine bessere Interaktivität würde das Benutzererlebnis verbessern und die Daten könnten besser dargestellt werden.
-Die neue Seite sollte Informationen dynamisch und interaktiv dargestllt werden. Zu den Informationen gehören
-ob und welche Tests bestanden sind und warum, mögliche Fehlerquellen und Hilfe zur Lösung und der Stand der
+Die neue Seite sollte Informationen dynamisch und interaktiv darstellen. Zu den Informationen gehören
+ob und welche Tests bestanden sind und ggf. warum sie rot (fehlgeschlagen) sind, mögliche Fehlerquellen und Hilfe zur Lösung und der Stand der
 automatisierten Bearbeitung nach dem commit/push.
