@@ -18,6 +18,9 @@ persona:
     prefix: "PERS"
     stakeholderRoleRef:
         asString: "stakeholderRole"
+review:
+    sortField: "referencedType"
+    prefix: "RV"
 scenario:
     sortField: "title"
     prefix: "SCEN"

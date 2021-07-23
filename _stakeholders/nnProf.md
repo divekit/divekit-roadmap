@@ -8,6 +8,7 @@ name: n. n. Prof
 anonymous: true
 stakeholderRole: 
     - profMa
+    - anwenderExtern
 relationshipToProject: >
     Jemand, der potenziell das Tool in seiner Lehre einsetzten könnte. 
 history:

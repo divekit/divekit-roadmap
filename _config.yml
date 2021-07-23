@@ -28,7 +28,8 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: jekyll-theme-midnight
+#theme: jekyll-theme-midnight
+theme: minima
 plugins:
   - jekyll-feed
 
@@ -85,7 +86,10 @@ collections:
     output: true
   useCases:
     output: true
-
+  useCaseDiagrams:
+    output: true
+  reviews:
+    output: true
 
 defaults:
   - scope:
@@ -155,6 +159,21 @@ defaults:
       layout: "persona"
   - scope:
       path: ""
+      type: "scenarios"
+    values:
+      layout: "scenario"
+  - scope:
+      path: ""
       type: "useCases"
     values:
       layout: "useCase"
+  - scope:
+      path: ""
+      type: "useCaseDiagrams"
+    values:
+      layout: "useCaseDiagram"
+  - scope:
+      path: ""
+      type: "reviews"
+    values:
+      layout: "review"

@@ -1,0 +1,16 @@
+{% assign contentString = include.myContent %}
+
+{% for counter in (1..100) %}
+    {% if contentString contains "." %}
+        {% assign numberStr = " <span style='font-weight:bolder'>(" | append: counter |
+                    append: ")</span>$$$" %}
+        {% assign contentString = contentString | replace_first: ".", numberStr %}
+    {% else %}
+        {% break %}
+    {% endif %}
+{% endfor %}
+
+{% assign contentString = contentString | replace: "$$$", "." %}
+{% assign contentString = contentString | markdownify %}
+
+

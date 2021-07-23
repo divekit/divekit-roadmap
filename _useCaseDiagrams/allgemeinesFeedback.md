@@ -2,7 +2,7 @@
 type: useCaseDiagram
 acronym: AllgemeinesFeedback
 useCases:
-    - 
+    - Ausführliches_Feedback
 responsible:
     - ama
 title: Use Case Diagram Allgemeines Feedback

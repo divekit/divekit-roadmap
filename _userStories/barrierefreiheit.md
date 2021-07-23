@@ -1,9 +1,9 @@
 ---
 type: userStory
-acronym: barrierefreiheit
+acronym: barrierefreiheit_symbol
 responsible:
 	- jsp
-title: Einstellung der Barrierefreiheit
+title: Einstellung der Barrierefreiheit (Symbol)
 funcionalRequirement: Barrierefreiheit
 asA: 
     - profBwl
@@ -19,6 +19,9 @@ history:
 	v1:
 		date: 2021-07-21
 		comment: initially created
+	v2:
+		date: 2021-07-23
+		comment: update header
 todo:
 	
 ---

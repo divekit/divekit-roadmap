@@ -7,7 +7,7 @@ responsible:
 name: Prof. Dr. Rene Wörzberger
 stakeholderRole: 
     - profInf
-    -potAnwender
+    - potAnwender
 relationshipToProject: Potentieller Nutzer des DiveKits 
 history:
     v1:
@@ -22,7 +22,6 @@ history:
     v4:
         date: 2021-07-21
         comment: abarbeiten der Todos
-
 todo:
 ---
 

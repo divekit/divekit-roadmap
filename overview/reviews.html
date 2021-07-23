@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<h1>Review</h1>
+
+<p>
+    (tbd. kurze Erklärung)
+</p>
+
+
+<table>
+    <thead>
+    <tr>
+        <th width="5%"></th>
+        <th width="10%">ID</th>
+        <th width="30%">Protokoll</th>
+        <th width="20%">Gegenstand des Reviews</th>
+    </tr>
+    </thead>
+    <tbody>
+        {% assign sortField = site.data.metadata["review"].sortField %}
+        {% assign collection = site.reviews | sort: sortField %}
+
+        {% for review in collection %}
+        <tr>
+            {% include /functions/checks/check-generic-aspects.html myArtefact=review
+                        myErrorString="" myWarningString="" %}
+            {% include /functions/get-check-icon.html errors=errorString warnings=warningString
+                    todos=review.todo %}
+            <td>{{ iconString }}</td>
+
+            {% include /functions/get-globalid.html myCollection=site.stakeholders
+                    myArtefact=review myType="review" %}
+            <td><a href="{{ site.url }}{{ review.url | relative_url }}">{{ globalId }}</a></td>
+            <td>{{ review.referencedAcronym }}</td>
+            <td>{{ review.referencedType }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

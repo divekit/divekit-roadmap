@@ -12,6 +12,9 @@ history:
     v1:
         date: 2021-07-21
         comment: initially created
+    v2:
+        date: 2021-07-23
+        comment: update Beschreibung
 todo: 
 ---
 
@@ -19,7 +22,9 @@ todo:
 
 Der User, welcher für alle Personen gilt, welche mit dem System interagieren, kann die Einstellung für die Barrierefreiheit ändern. Ein weiterer Use Case zur Überprüfung der Änderung ist obsolet.
 
-Daher fällt dieses Diagramm klein aus, weil der Use Case weder zu groß, noch zu fein granular ist.
+Abhängig ist der Use Case von der Implementierung in der Software.
+Hierbei kann es beispielsweise Möglichkeiten geben, statt der Farben Symbole anzuzeigen oder Text.
+So etwas könnte konfigurierbar sein. Im weiteren Verlauf des Use Cases wird davon ausgegangen, dass solch eine Funktion existiert.
 
 ## Diagram
 
