@@ -2,7 +2,7 @@
 
 {% for counter in (1..100) %}
     {% if contentString contains "." %}
-        {% assign numberStr = " <span style='color:#ffcc00;font-weight:bold'>(" | append: counter |
+        {% assign numberStr = " <span style='font-weight:bolder'>(" | append: counter |
                     append: ")</span>$$$" %}
         {% assign contentString = contentString | replace_first: ".", numberStr %}
     {% else %}
