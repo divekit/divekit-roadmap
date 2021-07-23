@@ -16,6 +16,9 @@ history:
         comment: initially created
 
 todo:
+    - Überschrift für den Absatz vor den Szenarien finden (Review-Feedback)
+    - Hinter "einfügen will" fehlt ein Komma (Review-Feedback)
+    - Im Hauptszenario ergänzen, wie er das Problem angehen möchte (Review-Feedback)
 ---
 
 Johannes Jansen arbeitet als Entwickler am System mit. Als er eine neue Funktion einfügen will stellt er fest, dass es ein Problem gibt.
