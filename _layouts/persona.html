@@ -31,5 +31,6 @@ layout: default
 
 </dl>
 
-
-{{ page.content }}
+{% assign myContent = page.content | raw_content %}
+{% include /functions/annotate-sentence-numbers-in-content.html myContent=myContent %}
+{{ contentString }}
