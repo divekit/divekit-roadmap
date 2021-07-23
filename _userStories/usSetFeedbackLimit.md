@@ -2,7 +2,7 @@
 type: userStory
 acronym: usSetFeedbackLimit
 responsible:
-	- tza
+    - tza
 title: Feedback-Obergrenze setzen
 funcionalRequirement: FeedbackLimit
 asA: 
@@ -10,12 +10,12 @@ asA:
 iWantTo: Die Einstellung einer Obergrenze für die Anzahl von Feedback-Anfragen vornehmen
 forThisReason: damit die Studierenden durch mehrere Feedback-Anfragen vollständige Lösung nicht erfragen können
 history:
-	v1:
-		date: 2021-07-23
-		comment: initially created
+    v1:
+        date: 2021-07-23
+        comment: initially created
 
 todo:
-	
+    
 ---
 
 ## User Story

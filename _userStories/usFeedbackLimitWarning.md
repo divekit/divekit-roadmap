@@ -2,21 +2,21 @@
 type: userStory
 acronym: usFeedbackLimitWarning
 responsible:
-	- tza
+    - tza
 title: Warnung über Feedback-Obergrenze
 funcionalRequirement: FeedbackLimit
 asA: 
     - student
-	- studentInf
+    - studentInf
 iWantTo: Ich möchte gewarnt werden, dass ich bald die Obergrenze für Feedback-Anfragen erreicht habe
 forThisReason: damit ich schnellstmöglich darauf reagieren kann
 history:
-	v1:
-		date: 2021-07-23
-		comment: initially created
+    v1:
+        date: 2021-07-23
+        comment: initially created
 
 todo:
-	
+    
 ---
 
 ## User Story

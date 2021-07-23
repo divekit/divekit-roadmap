@@ -2,7 +2,7 @@
 type: userStory
 acronym: brandingindividuelleIcons
 responsible:
-	- ngi
+    - ngi
 title: Branding durch individuelle Icons
 funcionalRequirement: IndividuellesDesign
 asA: 
@@ -10,11 +10,11 @@ asA:
 iWantTo: individuelle Icons in das System einfügen
 forThisReason: um das Logo und alle Zeichen meiner Hochschule im System abbilden zu können
 history:
-	v1:
-		date: 2021-07-22
-		comment: initially created
+    v1:
+        date: 2021-07-22
+        comment: initially created
 todo:
-	
+    
 ---
 
 ## User Story
