@@ -2,9 +2,8 @@
 layout: default
 ---
 
-{% include /functions/get-globalid.html
-        myCollection=site.personas myArtefact=page myType="persona" %}
-<h1>Persona »{{ page.name }}« ({{ globalId }})</h1>
+{% include /functions/get-globalid.html myCollection=site.scenarios myArtefact=page myType="scenario" %}
+<h1>Scenario »{{ page.title }}« ({{ globalId }})</h1>
 
 <dl>
     <dt>Autor(en)</dt>
@@ -15,9 +14,9 @@ layout: default
     {% include /functions/print-history.html myArtefact=page %}
 
     {% include /functions/checks/check-generic-aspects.html myArtefact=page myErrorString=""
-            myWarningString="" %}
+    myWarningString="" %}
     {% include /functions/print-detailed-check-messages.html errors=errorString warnings=warningString
-            todos=page.todo %}
+    todos=page.todo %}
 </dl>
 
 {% assign myContent = page.content | raw_content %}
