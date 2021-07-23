@@ -28,7 +28,7 @@ layout: default
     </tr>
     </thead>
     <tbody>
-            {% assign sortField = site.data.metadata["stakeholder"].sortField %}
+        {% assign sortField = site.data.metadata["stakeholder"].sortField %}
         {% assign collection = site.stakeholders | sort: sortField %}
         {% for stakeholder in collection %}
         <tr>

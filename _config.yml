@@ -157,6 +157,11 @@ defaults:
       layout: "persona"
   - scope:
       path: ""
+      type: "scenarios"
+    values:
+      layout: "scenario"
+  - scope:
+      path: ""
       type: "useCases"
     values:
       layout: "useCase"

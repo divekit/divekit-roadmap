@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<h1>Scenarios</h1>
+
+<p>
+    tbd Erklärung
+</p>
+
+
+
+<table>
+    <thead>
+    <tr>
+        <th width="5%"></th>
+        <th width="10%">ID</th>
+        <th width="50%">Titel</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% assign sortField = site.data.metadata["scenario"].sortField %}
+    {% assign collection = site.scenarios | sort: sortField %}
+    {% for scenario in collection %}
+        <tr>
+            {% include /functions/checks/check-generic-aspects.html myArtefact=scenario
+                    myErrorString="" myWarningString="" %}
+            {% include /functions/get-check-icon.html errors=errorString warnings=warningString
+                    todos=scenario.todo %}
+            <td>{{ iconString }}</td>
+
+            {% include /functions/get-globalid.html myCollection=site.scenarios
+                    myArtefact=scenario myType="scenario" %}
+            <td><a href="{{ site.url }}{{ scenario.url | relative_url }}">{{ globalId }}</a></td>
+
+            <td><a href="{{ site.url }}{{ scenario.url | relative_url }}">{{ scenario.title }}</a></td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
