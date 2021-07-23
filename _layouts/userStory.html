@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+{% include /functions/get-globalid.html
+        myCollection=site.userStories myArtefact=page myType="userStory" %}
+<h1>User Story »{{ page.title }}« ({{ globalId }})</h1>
+
+<dl>
+    <dt>Autor(en)</dt>
+    {% include /functions/resolve-names.html my_responsible=page.responsible %}
+    <dd>{{ responsibleString }}</dd>
+
+    <dt>Als</dt>
+    {% include /functions/get-link-to-stakeholder-role.html myRoleAcronym=page.asA withId=true %}
+    <dd>{{ stakeholderRoleLink }}</dd>
+
+    <dt>möchte ich</dt>
+    <dd>{{ page.iWantTo }}</dd>
+
+    <dt>damit</dt>
+    <dd>{{ page.forThisReason }}</dd>
+
+    {% include /functions/print-history.html myArtefact=page %}
+
+    {% include /functions/checks/check-generic-aspects.html myArtefact=page myErrorString="" myWarningString="" %}
+    {% assign stakeholderRoleRef = page.asA %}
+
+    {% include /functions/print-detailed-check-messages.html errors=errorString warnings=warningString todos=page.todo %}
+</dl>
+
+
+{{ page.content }}
