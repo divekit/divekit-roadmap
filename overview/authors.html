@@ -39,7 +39,7 @@ layout: default
             {% include /functions/checks/check-author.html myArtefact=author
                 myErrorString="" myWarningString="" %}
             {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=author.todo %}
-            <td>{{ iconString }}</td>
+            <td><a href="{{ site.url }}{{ author.url | relative_url }}">{{ iconString }}</a></td>
 
             <td><a href="{{ site.url }}{{ author.url | relative_url }}">{{ author.nickname }}</a></td>
 
