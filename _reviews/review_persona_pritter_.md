@@ -4,9 +4,9 @@ acronym: sampleReview
 responsible:
     - hbu
 reviewers:
-    - abc
-    - def
-    - ghi
+    - jlü
+    - jsp
+    - tza
 referencedType: persona
 referencedAcronym: pritter
 referencedCommit: 8c8eee526bfe0b2dff5c372c8073945781fd4249
@@ -15,6 +15,9 @@ history:
     v1:
         date: 2021-07-23
         comment: initially created
+    v2:
+        date: 2021-07-23
+        comment: add reviewers
 todo:
 ---
 
