@@ -21,9 +21,15 @@ layout: default
 <table>
     <thead>
     <tr>
-        <th width="5%"></th>
-        <th width="15%">Nickname</th>
-        <th width="40%">wo man überall drin ist</th>
+        <th width="20%" colspan="2"></th>
+        <th width="15%" colspan="{{ site.data.metadata.size }}">Anzahl Artefakte, für die Autor*in (mit)verantwortlich ist</th>
+    </tr>
+    <tr>
+        <th>&nbsp;</th>
+        <th>Nickname</th>
+        {% for artefactType in site.data.metadata %}
+            <th>{{ artefactType[1].prefix }}</th>
+        {% endfor %}
     </tr>
     </thead>
     <tbody>
@@ -38,7 +44,10 @@ layout: default
             <td><a href="{{ site.url }}{{ author.url | relative_url }}">{{ author.nickname }}</a></td>
 
             {% include /functions/calc-artefacts-per-author.html myAuthor=author %}
-            <td>{{ numOfArtefactsString }}</td>
+            {% assign numOfArtefacts = numOfArtefactsString | split: ";" %}
+            {% for num in numOfArtefacts %}
+                <td>{% if num == "0" %}&nbsp;{% else %}{{ num }}{% endif %}</td>
+            {% endfor %}
         </tr>
     {% endfor %}
     </tbody>
