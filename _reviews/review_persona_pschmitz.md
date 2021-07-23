@@ -15,6 +15,10 @@ history:
     v1:
         date: 2021-07-23
         comment: initially created
+    v2:
+        date: 2021-07-23
+        comment: review protocol
+
 todo:
 ---
 
@@ -23,7 +27,12 @@ todo:
 
 | Referenz | Reviewer-Kommentar | Autor-Kommentar |
 |------------|------------------|-----------------|
-| Hauptszenario, Satz 1| Das ist ein Kommentar. | Das ist die Antwort auf den Kommentar (ist gefixt, nicht nötig weil ..., doppelt zu Anmerkung ..., etc.) |
-| Alternativszenario, Satz 2 | Das ist ein Kommentar. | Das ist die Antwort auf den Kommentar. |
-| Use Case "Anmelden" im Use Case Diagramm | Das ist ein Kommentar. | Das ist die Antwort auf den Kommentar. |
-| Satz 4 in Persona / Szenario | Das ist ein Kommentar. | Das ist die Antwort auf den Kommentar. |
+|Satz 1| 36 ausschreiben| macht man nur bei Zahlen unter 13|
+|Satz 2| Dozierender -> Dozent| ja macht Sinn|
+|Satz 2| "an einigen Stellen" klingt komisch| wird umformuliert|
+|Satz 3| mit -> in  Softwaretechnik| ist so korrekt, wie is da steht|
+|Satz 4| kann mit Docker oder Kubernetes lehren?| Die Arbeit mit den beiden Produkten definitiv|
+|Satz 7| Das Gendern weg| Würde ich gerne so lassen|
+|Satz 9| ist Teil von Satz 8 -> Semikolon oder ähnliches| Ja stimmt|
+|Gesamt| Was sind die Ziele der Person| muss ergänzt werden|
+
