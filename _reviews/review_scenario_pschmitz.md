@@ -18,21 +18,6 @@ history:
 todo:
 ---
 
-### Erklärung:
-**bitte nicht in euer Review-Protokoll übernehmen!**  
-Die Felder **acronym** und **type** beziehen sich auf das Review-Protokoll.  
-Die Felder **referencedType** und **referencedAcronym** beziehen sich auf den Typ und das Akronym des Artefakts, 
-das reviewt wird.  
-Das Feld **referencedCommit** enthält den letzten Commit, der das Artefakt vor dem Review geändert hat. Dadurch ist eine
-eindeutige Zuordnung zur Version des Artefakts gewährleistet.  
-Das Feld **title** gibt dem Review-Protokoll einen Titel.  
-Ins Feld **responsible** wird das Kürzel des Verantwortlichen eingetragen, der die Autoren-Rolle im Review übernahm.  
-Ins Feld **reviewer** werden die Verantwortlichen eingetragen, die die Review-Rolle übernahmen. 
-
-Unter der Überschrift **Review-Protokoll** wird das Protokoll als Tabelle geführt.  
-In die Spalte **Referenz** wird eingetragen, worauf sich der Kommentar in der zweiten Spalte bezieht. Das kann sowohl
-der Abschnitt und die Nummer des Satzes innerhalb eines Text-Artefakts als auch die Bezeichnung für ein grafisches Objekt in
-Nicht-Text-Artefakten (z.B. Use Case Diagramme) sein.
 
 ## Review-Protokoll
 
