@@ -7,6 +7,7 @@ title: Feedback-Obergrenze setzen
 description: Die Anzahl der Feedback-Anfragen wird nach oben begrenzt, damit Studierende diese nicht überschreiten dürfen. Dadurch wird das Risiko vermieden, dass die Studierenden durch Feedback vollständige Lösung erfragen
 primaryActor: dozent
 secondaryActors:
+    - student
 trigger: Der Lehrende will nur eine bestimmte Anzahl von Feedback-Anfragen erhalten
 precondition: Der Lehrende ist mit der entsprechenden Rolle angemeldet und kann die Einstellungen vornehmen
 postcondition: Der Lehrende erhält maximal eine bestimmte Anzahl von Anfragen und die Studierende werden benachrichtigt, wenn sie diese Grenze überschreiten
