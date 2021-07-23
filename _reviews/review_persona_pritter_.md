@@ -1,6 +1,6 @@
 ---
 type: review
-acronym: sampleReview
+acronym: reviewPritterPersona
 responsible:
     - hbu
 reviewers:
