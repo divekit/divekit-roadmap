@@ -26,7 +26,7 @@ das reviewt wird.
 Das Feld **referencedCommit** enthält den letzten Commit, der das Artefakt vor dem Review geändert hat. Dadurch ist eine
 eindeutige Zuordnung zur Version des Artefakts gewährleistet.  
 Das Feld **title** gibt dem Review-Protokoll einen Titel.  
-Ins Feld **reviewAuthor** wird das Kürzel des Verantwortlichen eingetragen, der die Autoren-Rolle im Review übernahm.  
+Ins Feld **responsible** wird das Kürzel des Verantwortlichen eingetragen, der die Autoren-Rolle im Review übernahm.  
 Ins Feld **reviewer** werden die Verantwortlichen eingetragen, die die Review-Rolle übernahmen. 
 
 Unter der Überschrift **Review-Protokoll** wird das Protokoll als Tabelle geführt.  
