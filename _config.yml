@@ -86,6 +86,8 @@ collections:
     output: true
   useCases:
     output: true
+  useCaseDiagrams:
+    output: true
   reviews:
     output: true
 
@@ -165,6 +167,11 @@ defaults:
       type: "useCases"
     values:
       layout: "useCase"
+  - scope:
+      path: ""
+      type: "useCaseDiagrams"
+    values:
+      layout: "useCaseDiagram"
   - scope:
       path: ""
       type: "reviews"

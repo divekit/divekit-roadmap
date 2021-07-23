@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<h1>Use Cases</h1>
+
+<p>
+    tbd. gezielt auf UCD
+
+    Ein <b>Use Case</b> bündelt alle möglichen Szenarien, die eintreten können, wenn ein Akteur versucht,
+    mit Hilfe des betrachteten Systems ein bestimmtes fachliches Ziel zu erreichen. Er beschreibt,
+    was inhaltlich beim Versuch der Zielerreichung passieren kann und abstrahiert von konkreten technischen Lösungen.
+</p>
+
+
+
+<table>
+    <thead>
+    <tr>
+        <th width="100%">Titel</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% assign sortField = site.data.metadata["useCaseDiagram"].sortField %}
+    {% assign collection = site.useCaseDiagrams | sort: sortField %}
+    {% for useCaseDiagram in collection %}
+    <tr>
+        <td><a href="{{ site.url }}{{ useCaseDiagram.url | relative_url }}">{{ useCaseDiagram.title }}</a></td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
