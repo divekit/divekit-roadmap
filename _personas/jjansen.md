@@ -18,17 +18,21 @@ history:
     v2:
         date: 2021-07-17
         comment: fix source
+    v3:
+        date: 2021-07-23
+        comment: fix todos from review
 
 todo:
-    - Beschreibung mehr durch Absätze strukturieren (Review-Feedback)
-    - Erklären, was mit Robustheit gemeint ist (Review-Feedback)
 ---
 
 ## Beschreibung
 
-Johannes Jansen ist 28 Jahre alt und arbeitet als wissenschaftlicher Mitarbeiter an der Entwicklung des DiveKit mit.
-Nachdem er vor drei Jahren seinen Master in Informatik an der TH Köln beendet hat, bekam er das Angebot, als wissenschaftlicher Mitarbeiter an der Hochschule zu bleiben.
-Er ist schon seit langem an der Entwicklung des DiveKit beteiligt und kennt dessen Probleme gut.
-Er bedauert etwas, dass am Anfang der Entwicklung zu wenig Fokus auf der Robustheit des Systems lag, wodurch nun Probleme entstehen, die vermeidbar gewesen wären.
-Daher möchte er das System robuster gestalten, um diese Fehlerquellen zu beseitigen und in der weiteren Entwicklung Probleme durch zu geringe Robustheit zu vermeiden.
+Johannes Jansen ist 28 Jahre alt und arbeitet als wissenschaftlicher Mitarbeiter an der Entwicklung des DiveKit mit.  
+Nachdem er vor drei Jahren seinen Master in Informatik an der TH Köln beendet hat, bekam er das Angebot, als wissenschaftlicher Mitarbeiter an der Hochschule zu bleiben.  
+Er ist schon seit langem an der Entwicklung des DiveKit beteiligt und kennt dessen Probleme gut.  
+
+Er bedauert etwas, dass am Anfang der Entwicklung zu wenig Fokus auf der Robustheit des Systems lag, wodurch nun Probleme entstehen, die vermeidbar gewesen wären.  
+Zum Beispiel liefern manche Funktionen nicht das Ergebnis, das er als Entwickler erwarten würde, oder ein undefiniertes Verhalten.  
+Daher möchte er das System robuster gestalten, um diese Fehlerquellen zu beseitigen und in der weiteren Entwicklung Probleme durch zu geringe Robustheit zu vermeiden.  
+
 Er ist mit dem System aber nicht komplett unzufrieden, sondern kennt nur dessen Schwachpunkte aus erster Hand.
