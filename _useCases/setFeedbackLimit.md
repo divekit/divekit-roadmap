@@ -4,7 +4,7 @@ acronym: setFeedbackLimit
 responsible: 
     - tza
 title: Feedback-Obergrenze setzen
-description: Die Anzahl der Feedback-Anfragen wird nach oben begrenzt, damit Studierende diese nicht überschreiten dürfen. (Dadurch wird das Risiko vermieden, dass die Studierenden durch Feedback vollständige Lösung erfragen)
+description: Die Anzahl der Feedback-Anfragen wird nach oben begrenzt, damit Studierende diese nicht überschreiten dürfen. Dadurch wird das Risiko vermieden, dass die Studierenden durch Feedback vollständige Lösung erfragen
 primaryActor: dozent
 secondaryActors:
 trigger: Der Lehrende will nur eine bestimmte Anzahl von Feedback-Anfragen erhalten
