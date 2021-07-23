@@ -18,27 +18,23 @@ history:
 todo:
 ---
 
-### Erklärung:
-**bitte nicht in euer Review-Protokoll übernehmen!**  
-Die Felder **acronym** und **type** beziehen sich auf das Review-Protokoll.  
-Die Felder **referencedType** und **referencedAcronym** beziehen sich auf den Typ und das Akronym des Artefakts, 
-das reviewt wird.  
-Das Feld **referencedCommit** enthält den letzten Commit, der das Artefakt vor dem Review geändert hat. Dadurch ist eine
-eindeutige Zuordnung zur Version des Artefakts gewährleistet.  
-Das Feld **title** gibt dem Review-Protokoll einen Titel.  
-Ins Feld **reviewAuthor** wird das Kürzel des Verantwortlichen eingetragen, der die Autoren-Rolle im Review übernahm.  
-Ins Feld **reviewer** werden die Verantwortlichen eingetragen, die die Review-Rolle übernahmen. 
-
-Unter der Überschrift **Review-Protokoll** wird das Protokoll als Tabelle geführt.  
-In die Spalte **Referenz** wird eingetragen, worauf sich der Kommentar in der zweiten Spalte bezieht. Das kann sowohl
-der Abschnitt und die Nummer des Satzes innerhalb eines Text-Artefakts als auch die Bezeichnung für ein grafisches Objekt in
-Nicht-Text-Artefakten (z.B. Use Case Diagramme) sein.
-
 ## Review-Protokoll
 
 | Referenz | Reviewer-Kommentar | Autor-Kommentar |
 |------------|------------------|-----------------|
-| Hauptszenario, Satz 1| Das ist ein Kommentar. | Das ist die Antwort auf den Kommentar (ist gefixt, nicht nötig weil ..., doppelt zu Anmerkung ..., etc.) |
-| Alternativszenario, Satz 2 | Das ist ein Kommentar. | Das ist die Antwort auf den Kommentar. |
-| Use Case "Anmelden" im Use Case Diagramm | Das ist ein Kommentar. | Das ist die Antwort auf den Kommentar. |
-| Satz 4 in Persona / Szenario | Das ist ein Kommentar. | Das ist die Antwort auf den Kommentar. |
+| Absatz 1, Satz 1 | arbeitet ist falsch geschrieben. | Stimmt |
+| Absatz 1, Satz 2 | Informatik ist falsch geschrieben. | Stimmt |
+| Absazu 1, Satz 2 | "in der freien" anstatt "aus der freien" | Stimmt... |
+| Absatz 1, Satz 2 | nach Wirtschaft kommt ein Komma | Stimmt -.- |
+| Absatz 2, Satz 1 | Wort "benutzt" ist überflüssig | Stimmt |
+| Absatz 2, Satz 1 | Wort "vertaut" ist falsch geschrieben | Stimmt |
+| Absatz 2, Satz 2 | Kommafehler (vor um) | Stimmt OMG |
+| Absatz 3, Satz 2 | "Stundenten" | lmao |
+| Absatz 3, Satz 2 | "Inforamtiker" | k den  |
+| Absatz 4, Satz 2 | Da fehlt ein "r" bei "diese(r)" | ok |
+| Absatz 4, Satz 3 | Satz ist mit TODO versehen | sowwy :3 UwU |
+| Absatz 4, Satz 6 | Komma fehlt nach "individualisiert" | ok |
+| Persona-Bedürfnisse | Persona muss Bedürfnisse abbilden | Steht in Absatz 3 |
+|  |  |  |
+|  |  |  |
+|  |  |  |

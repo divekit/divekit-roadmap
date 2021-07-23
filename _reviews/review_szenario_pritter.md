@@ -2,7 +2,7 @@
 type: review
 acronym: sampleReview
 responsible:
-    - xyz
+    - hbu
 reviewers:
     - abc
     - def
@@ -18,27 +18,27 @@ history:
 todo:
 ---
 
-### Erklärung:
-**bitte nicht in euer Review-Protokoll übernehmen!**  
-Die Felder **acronym** und **type** beziehen sich auf das Review-Protokoll.  
-Die Felder **referencedType** und **referencedAcronym** beziehen sich auf den Typ und das Akronym des Artefakts, 
-das reviewt wird.  
-Das Feld **referencedCommit** enthält den letzten Commit, der das Artefakt vor dem Review geändert hat. Dadurch ist eine
-eindeutige Zuordnung zur Version des Artefakts gewährleistet.  
-Das Feld **title** gibt dem Review-Protokoll einen Titel.  
-Ins Feld **reviewAuthor** wird das Kürzel des Verantwortlichen eingetragen, der die Autoren-Rolle im Review übernahm.  
-Ins Feld **reviewer** werden die Verantwortlichen eingetragen, die die Review-Rolle übernahmen. 
-
-Unter der Überschrift **Review-Protokoll** wird das Protokoll als Tabelle geführt.  
-In die Spalte **Referenz** wird eingetragen, worauf sich der Kommentar in der zweiten Spalte bezieht. Das kann sowohl
-der Abschnitt und die Nummer des Satzes innerhalb eines Text-Artefakts als auch die Bezeichnung für ein grafisches Objekt in
-Nicht-Text-Artefakten (z.B. Use Case Diagramme) sein.
-
 ## Review-Protokoll
 
 | Referenz | Reviewer-Kommentar | Autor-Kommentar |
 |------------|------------------|-----------------|
-| Hauptszenario, Satz 1| Das ist ein Kommentar. | Das ist die Antwort auf den Kommentar (ist gefixt, nicht nötig weil ..., doppelt zu Anmerkung ..., etc.) |
-| Alternativszenario, Satz 2 | Das ist ein Kommentar. | Das ist die Antwort auf den Kommentar. |
-| Use Case "Anmelden" im Use Case Diagramm | Das ist ein Kommentar. | Das ist die Antwort auf den Kommentar. |
-| Satz 4 in Persona / Szenario | Das ist ein Kommentar. | Das ist die Antwort auf den Kommentar. |
+| Title | Titel nicht vorhanden | stimmt |
+| Absatz 1, Satz 2 | Doppelpunkt hinter "heutigen Aufgaben sind" | stimmt |
+| Absatz 2, Satz 2 | Studenten falsch geschrieben | OK |
+| Absatz 2, Satz 2 | Diagramm falsch geschrieben | OK |
+| Absatz 2, Satz 4 | "Meilenstein noch NICHT fertig" | OK |
+| Absatz 3, Satz 1 | ein "noch" zu viel | OKKEEEEEEEEEEE |
+| Absatz 3, Satz 3 | bei der Arbeit | OK MANNNNN |
+| Absatz 4, Satz 1 | gleicheNNN | OK |
+| Absatz 4, Satz 2 | and -> an | OK |
+| Absatz 4, Satz 3 | Satz sehr umständlich formuliert | Wird umformuliert |
+| Absatz 4 und 5 | Absatz 4 und 5 sollten zusammen | Die sind extra getrennt wegen feelings :3 |
+| Doppelpunkte in den sources | Die Doppelpunkte sollten - sein | OK |
+| Absatz 5, Satz 2 | Stundenten | OK |
+| Absatz 5, Satz 4 | Stundenten | OK |
+| Absatz 5, Satz 3 | "weitere" (löschen) oft die Gleichen und , aber oft die... | OK |
+| Absatz 6, Satz 1 | Stundenten | OK |
+| Absatz 6, Satz 1 | genügen(d) |  |
+| Absatz 6, Satz 1 | individuell(e) |  |
+| Absatz 6, Satz 2 | "abzufertigen"(,) was das |  |
+| Absatz 6, Satz 2 | dazu führt(,) die Studenten |  |
