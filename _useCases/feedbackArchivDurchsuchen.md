@@ -41,7 +41,3 @@ todo:
 * 3a) Das System findet kein Feedback das den genauen oder einen ähnlichen Begriff enthält
 
 **Andere Nachbedingung**: Studierender kann kein altes Feedback für seine Arbeit verwenden
-
-
-
-
