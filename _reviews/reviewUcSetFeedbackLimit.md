@@ -23,6 +23,11 @@ todo:
 
 | Referenz | Reviewer-Kommentar | Autor-Kommentar |
 |------------|------------------|-----------------|
-| Use Case "Obergrenze setzen" | Lorem | Lorem |
-|  |  |  |
-|  |  |  |
+| Beschreibung, Satz 1 | Satz bisschen umschreiben | Wird umgesetzt |
+| Beschreibung, Satz 1 | "überschreiten dürfen" zu "... können | Wirt berücksichtigt |
+| Beschreibung, Satz 1 | "diese" bezieht sich auf Obergrenze (siehe P-Eintrag 1) | Wird umgesetzt |
+| Vorbedingung  | Anstatt "Rolle" -> "er ist autorisiert" | Wird umgeändert  |
+| Nachbedingung | Präzisieren: "Die Studierenden können nun nur eine bestimmte Anzahl an Feedback-Anfragen stellen" | Wird übernommen |
+| Alternativszenario | Alternativszenario bezieht sich auf das gesamte Funktionale Anforderung und nicht auf den Use Case | Alternativszenario wird mit einer Begründung gelöscht |
+| Alternativszenario | Es ist nicht wirklich "Alternativszenario", weil das Ergebnis nicht dasselbe ist | Alternativszenario wird mit einer Begründung gelöscht |
+| Ausnahmeszenario | Ist die Nummerierung richtig | Es wird noch mal nach dem Template-Tabelle überprüft |

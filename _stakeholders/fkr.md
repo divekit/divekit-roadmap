@@ -7,6 +7,7 @@ responsible:
 name: Fabian Krampe
 stakeholderRole: 
     - wmaProg
+    - dozent
 relationshipToProject: >
     Anwender des Systems in mehreren Lehrveranstaltungen. Interessiert an sinnvoller Weiterentwicklung, 
     möchte eigene Ideen einbringen. 
@@ -18,13 +19,12 @@ history:
         date: 2021-05-28
         comment: addeed Steckbrief, Tätigkeitsgebiete and Relevanz
 todo:
-    - potentielle Anwenderrolle hinzufügen (SB)
-    - Rolle "Dozent" fehlt, Fabian macht auch selbstständig Lehre (SB) 
 ---
 
 ## Steckbrief
 
-[Herr Fabian Krampe](https://www.th-koeln.de/personen/fabian.krampe/) ist wissenschaftlicher Mitarbeiter an der TH Köln, Fakultät 10. Seine Aufgaben umfassen das Konzipieren, Erstellen und Korrigieren von Praktika und Klausuren.
+[Herr Fabian Krampe](https://www.th-koeln.de/personen/fabian.krampe/) ist wissenschaftlicher Mitarbeiter an der TH Köln, Fakultät 10.
+Seine Aufgaben umfassen das Konzipieren, Erstellen und Korrigieren von Praktika und Klausuren. Er leitet auch eigene Lehrveranstaltungen.
 
 ### Tätigkeitsgebiete 
 

@@ -1,6 +1,6 @@
 ---
 type: userStory
-acronym: individuelleDatstellung
+acronym: individuelleDarstellung
 responsible:
 	- hbu
 title: Individuelle Darstellung benutzen

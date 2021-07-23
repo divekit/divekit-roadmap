@@ -25,7 +25,7 @@ todo:
 
 | Referenz | Reviewer-Kommentar | Autor-Kommentar |
 |------------|------------------|-----------------|
-| Doppelpunkte in den sources | Die Doppelpunkte sollten - sein | stimmt |
+| Doppelpunkte in den sources | Die Doppelpunkte sollten "-" sein | stimmt |
 | Absatz 1, Satz 1 | arbeitet ist falsch geschrieben. | stimmt |
 | Absatz 1, Satz 2 | Informatik ist falsch geschrieben. | stimmt |
 | Absazu 1, Satz 2 | "in der freien" anstatt "aus der freien" | stimmt |
