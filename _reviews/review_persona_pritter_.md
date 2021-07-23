@@ -33,6 +33,6 @@ todo:
 | Absatz 3, Satz 2 | "Stundenten" | stimmt |
 | Absatz 3, Satz 2 | "Inforamtiker" | stimmt  |
 | Absatz 4, Satz 2 | Da fehlt ein "r" bei "diese(r)" | stimmt |
-| Absatz 4, Satz 3 | Satz ist mit TODO versehen | stimmt |
+| Absatz 4, Satz 3 | Satz ist mit TODO versehen | Das TODO ist veraltet und wird entfernt |
 | Absatz 4, Satz 6 | Komma fehlt nach "individualisiert" | stimmt |
 | Persona-Bedürfnisse | Personas muss Bedürfnisse abbilden | Steht in Absatz 3 |
