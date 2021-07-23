@@ -10,7 +10,7 @@ reviewers:
 referencedType: useCaseDiagram
 referencedAcronym: feedbackLimit
 referencedCommit: a2d75470b13791e44dcac50a2750be7f6cde430c
-title: Review von Use Case Diagramm Obergrenze für Feedback
+title: Review von Use Case Diagram Obergrenze für Feedback
 history:
     v1:
         date: 2021-07-23
