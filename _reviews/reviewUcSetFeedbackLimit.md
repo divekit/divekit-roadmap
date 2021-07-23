@@ -1,16 +1,16 @@
 ---
 type: review
-acronym: reviewUcdFeedbackLimit
+acronym: reviewUcSetFeedbackLimit
 responsible:
     - tza
 reviewers:
     - hbu
     - jsp
     - jlü
-referencedType: useCaseDiagram
-referencedAcronym: feedbackLimit
-referencedCommit: a2d75470b13791e44dcac50a2750be7f6cde430c
-title: Review von Use Case Diagramm Obergrenze für Feedback
+referencedType: useCase
+referencedAcronym: setFeedbackLimit
+referencedCommit: e878d9a8098ff7cf4d583c22ad5cf8982638bfb2
+title: Review von Use Case "Feedback-Obergrenze setzen"
 history:
     v1:
         date: 2021-07-23
