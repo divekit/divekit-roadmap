@@ -2,14 +2,25 @@
 layout: default
 ---
 
-<h1>Artefakte nach beteiligten Personen</h1>
+<h1>Artefakte nach beteiligten Autor*innen</h1>
 
 <p>
-    In dieser Übersicht sind alle erstellten Lastenheft-Artefakte nach den Verantwortlichen aufgeschlüsselt.
+    In dieser Übersicht sind die verantwortlichen Autor*innen für die Inhalte dieser Website aufgeschlüsselt.
     Die Inhalte dieser Website wurde von Studierenden des Informatik Masters als Fallstudie im Rahmen der Lehrveranstaltung
     "Anforderungsmanagement" gestaltet. Da dies eine öffentliche Webpräsenz ist, ist es empfohlen, keine Klarnamen
     zu verwenden, sondern stattdessen Nicknames.
 </p>
+<p>
+    Diese Seite können die Autor*innen im Rahmen der Qualitätssicherung verwenden, um alle erstellten
+    Lastenheft-Artefakte nach den Verantwortlichen gegliedert durchzugehen. Durch Klicken auf den Nickname gelangt
+    man zu einer detaillierten Liste mit Artefakten, an den der/die Autor*in beteiligt war, sowie einer Liste von
+    noch offenen Fehlern, Warnungen und Todos.
+</p>
+
+{% assign collection = site["authors"] %}
+{% assign author = collection | first %}
+{{ author.acronym }} {{ author.nickname }}
+
 
 {% assign nicknames = "" | split: ";" %}
 {% for person in site.data.people %}
