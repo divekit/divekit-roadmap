@@ -29,10 +29,10 @@ todo:
 | Absatz 2, Satz 4 | "Meilenstein noch NICHT fertig" | stimmt |
 | Absatz 3, Satz 1 | ein "noch" zu viel | stimmt |
 | Absatz 3, Satz 3 | bei der Arbeit | stimmt |
-| Absatz 4, Satz 1 | gleicheNNN | stimmt |
+| Absatz 4, Satz 1 | gleicheN | stimmt |
 | Absatz 4, Satz 2 | and -> an | stimmt |
-| Absatz 4, Satz 3 | Satz sehr umständlich formuliert | Wird umformuliert |
-| Absatz 4 und 5 | Absatz 4 und 5 sollten zusammen | Die sind extra getrennt wegen feelings :3 |
+| Absatz 4, Satz 2 | Satz sehr umständlich formuliert | Wird umformuliert |
+| Absatz 4 und 5 | Absatz 4 und 5 sollten zusammen | Die sind extra getrennt weil es ab da in die (negative) Gefühlslage der Persona übergeht |
 | Doppelpunkte in den sources | Die Doppelpunkte sollten - sein | stimmt |
 | Absatz 5, Satz 2 | Stundenten | stimmt |
 | Absatz 5, Satz 4 | Stundenten | stimmt |
@@ -40,5 +40,5 @@ todo:
 | Absatz 6, Satz 1 | Stundenten | stimmt |
 | Absatz 6, Satz 1 | genügen(d) | stimmt |
 | Absatz 6, Satz 1 | individuell(e) |  |
-| Absatz 6, Satz 2 | "abzufertigen"(,) was das | stimmt |
 | Absatz 6, Satz 2 | dazu führt(,) die Studenten | stimmt |
+| Absatz 6, Satz 2 | "abzufertigen"(,) was das | stimmt |
