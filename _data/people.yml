@@ -1,58 +1,59 @@
 sbe:
   nickname: Stefan Bente
-  team:
+  aboutMe: >
+    Ich bin der Professor im Master-Kurs "Anforderungsmanagement" und habe den größten Teil dieses Tools geschrieben.
+    Blame me if something sucks ...
 jin:
   nickname: Jann Intveen
-  team:
 fkr:
-  nickname: Fabian Krampe
-  team:
+  nickname: Tempoklaus
+  aboutMe: >
+    Ich arbeite mit an der Programmierung von diesem Tool. Fragt mich mal, wo der Nickname herkommt ...
 pme:
   nickname: BigBlackFish
-  team: 3
+  aboutMe:
 psc:
   nickname: Pascal Schorde
-  team: 9
+  aboutMe:
 hbu:
   nickname: Henning Buhl
-  team: 7
+  aboutMe:
 tza:
   nickname: Taras Zaika
-  team: 7
+  aboutMe:
 mba:
   nickname: Mert Barutcu
-  team: 2b
+  aboutMe:
 jlü:
   nickname: Jannis Lüchtefeld
-  team: 4
+  aboutMe:
 kru:
   nickname: Kay Ruck
-  team: 1
+  aboutMe:
 duz:
   nickname: Deniz Uzun
-  team: 1
+  aboutMe:
 ako:
   nickname: Alexander Kosmehl
-  team: 1
+  aboutMe:
 ngi:
   nickname: Nathalie Giessler
-  team: 6
+  aboutMe:
 fgr:
   nickname: Fabian Grüterich
-  team: 6
+  aboutMe:
 jsp:
   nickname: John Bryan Spieker
-  team: 2a
+  aboutMe:
 cpo:
   nickname: Christopher Poloczek
-  team: 8
+  aboutMe:
 aha:
   nickname: André Hahn
-  team: 8
+  aboutMe:
 ama:
   nickname: Ali Mazlum
-  team: 4
+  aboutMe:
 mwi:
   nickname: Miriam Wiedmann
-  team: 2a
-
+  aboutMe:

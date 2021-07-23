@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<h1>Artefakte nach beteiligten Personen</h1>
+
+<p>
+    In dieser Übersicht sind alle erstellten Lastenheft-Artefakte nach den Verantwortlichen aufgeschlüsselt.
+    Die Inhalte dieser Website wurde von Studierenden des Informatik Masters als Fallstudie im Rahmen der Lehrveranstaltung
+    "Anforderungsmanagement" gestaltet. Da dies eine öffentliche Webpräsenz ist, ist es empfohlen, keine Klarnamen
+    zu verwenden, sondern stattdessen Nicknames.
+</p>
+
+{% assign nicknames = "" | split: ";" %}
+{% for person in site.data.people %}
+    {% assign nicknames = nicknames | push: person[1].nickname %}
+{% endfor %}
+{% assign nicknames = nicknames | sort %}
+
+<ul>
+    {% for nickname in nicknames %}
+        {% include /functions/find-person-acronym-for-nickname.html myNickname=nickname %}
+        {% assign person = site.data.people[personAcronym] %}
+        <li>{{ person.nickname }}</li>
+    {% endfor %}
+</ul>
+
+{% capture exam_output_string %}<a href="{{site.baseurl}}/examtypes/index.html#{{exam[1].key}}">{{ exam[1][current_language].short }}</a>{% endcapture %}
+
+{% for nickname in nicknames %}
+    {% include /functions/find-person-acronym-for-nickname.html myNickname=nickname %}
+    {% assign person = site.data.people[personAcronym] %}
+
+    <h2 id={{ person[0] }}>{{ nickname }}</h2>
+
+    {% if person[1].aboutMe %}
+        <p>{{ person[1].aboutMe }}</p>
+    {% endif %}
+
+    <p>Hier gibt es eine Liste aller Errors, Warnings und Todos von {{ nickname }}.</p>
+{% endfor %}
