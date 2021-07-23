@@ -254,8 +254,6 @@ section {
 .subnav-content a:hover {
   background-color: #eee;
   color: black;
-
-
 }
 
 /* When you move the mouse over the subnav container, open the subnav content */
@@ -268,7 +266,26 @@ subnav ul {
   display: inline-block;
 }
 
+// the following is only for theme "minima"
 dt {
   font-family: 'OpenSansSemibold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-  font-weight: bolder;
+  color: darken(#828282, 25%) !important;
+  font-weight: bold !important;
+}
+th {
+  color: darken(#828282, 25%) !important;
+}
+dd {
+  margin: 0 0 0 40px;
+}
+.subnav-content {
+  background-color: darken(#fdfdfd, 25%);
+}
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: darken(#fdfdfd, 25%);
+  color: black
+}
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
 }
