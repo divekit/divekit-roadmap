@@ -2,14 +2,32 @@
 layout: default
 ---
 
-<h1>Beteiligte Personen</h1>
+<h1>Artefakte nach beteiligten Personen</h1>
 
 <p>
-    Diese Website wurde von Studierenden des Informatik Masters als Fallstudie im Rahmen der Lehrveranstaltung
-    "Anforderungsmanagement" gestaltet. Hier sind die Beteiligten aufgelistet. Da dies eine öffentliche Webpräsenz
-    ist, werden wir keine echten Namen verwenden. Stattdessen werden die Beteiligten über 3-Buchstaben-Akronyme
-    und einen frei wählbaren Nickname identifiziert.
+    In dieser Übersicht sind alle erstellten Lastenheft-Artefakte nach den Verantwortlichen aufgeschlüsselt.
+    Die Inhalte dieser Website wurde von Studierenden des Informatik Masters als Fallstudie im Rahmen der Lehrveranstaltung
+    "Anforderungsmanagement" gestaltet. Da dies eine öffentliche Webpräsenz ist, ist es empfohlen, keine Klarnamen
+    zu verwenden, sondern stattdessen Nicknames.
 </p>
+
+{% for person in site.data.people %}
+<tr>
+    <td>{{ person[0] }}</td>
+
+    {% if person[1].nickname %}
+    <td>{{ person[1].nickname }}</td>
+    {% else %}
+    <td>???</td>
+    {% endif %}
+
+    {% if person[1].team %}
+    <td>{{ person[1].team }}</td>
+    {% else %}
+    <td>-</td>
+    {% endif %}
+</tr>
+{% endfor %}
 
 <table>
     <thead>

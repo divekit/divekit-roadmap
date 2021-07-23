@@ -1,62 +1,78 @@
 functionalRequirement:
+    fullName: "Funktionale Anforderung"
     sortField: "title"
     prefix: "FR"
 goal:
+    fullName: "Ziel"
     sortField: "title"
     prefix: "GO"
 interview:
+    fullName: "Interview"
     sortField: "date"
     prefix: "INT"
 literatureReference:
+    fullName: "Literaturverweis"
     sortField: "title"
     prefix: "LIT"
 nonFunctionalRequirement:
+    fullName: "Nicht-funktionale Anforderung"
     sortField: "title"
     prefix: "NFR"
 persona:
+    fullName: "Persona"
     sortField: "name"
     prefix: "PERS"
     stakeholderRoleRef:
         asString: "stakeholderRole"
 review:
+    fullName: "Formales Review"
     sortField: "referencedType"
     prefix: "RV"
 scenario:
+    fullName: "Szenario"
     sortField: "title"
     prefix: "SCEN"
     stakeholderRoleRef:
         asString: "stakeholderRole"
 stakeholder:
+    fullName: "Stakeholder"
     sortField: "name"
     prefix: "STK"
     stakeholderRoleRef:
         asList: "stakeholderRole"
 stakeholderRole:
+    fullName: "Stakeholder-Rolle"
     sortField: "name"
     prefix: "STRO"
 survey:
+    fullName: "Umfrage"
     sortField: "subject"
     prefix: "SV"
     stakeholderRoleRef:
         asString: "stakeholderRole"
 systemContextElement:
+    fullName: "Systemkontex-Element"
     sortField: "title"
     prefix: "SYCO"
 useCase:
+    fullName: "Use Case"
     sortField: "title"
     prefix: "UC"
     stakeholderRoleRef:
         asString: "primaryActor"
         asList: "secondaryActors"
 useCaseDiagram:
+    fullName: "Use-Case-Diagramm"
     sortField: "title"
     prefix: "UCDIA"
 userStory:
+    fullName: "User Story"
     sortField: "title"
     prefix: "US"
     stakeholderRoleRef:
         asString: "asA"
 workshop:
+    fullName: "Workshop"
     sortField: "goal"
     prefix: "WS"
     stakeholderRoleRef:
