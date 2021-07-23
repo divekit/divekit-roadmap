@@ -8,8 +8,8 @@ funcionalRequirement: FeedbackLimit
 asA: 
     - student
 	- studentInf
-iWantTo: Die Einstellung einer Obergrenze für die Anzahl von Feedback-Anfragen vornehmen
-forThisReason: damit die Studierenden durch mehrere Feedback-Anfragen vollständige Lösung nicht erfragen können
+iWantTo: Ich möchte gewarnt werden, dass ich bald die Obergrenze für Feedback-Anfragen erreicht habe
+forThisReason: damit ich schnellstmöglich darauf reagieren kann
 history:
 	v1:
 		date: 2021-07-23
@@ -20,10 +20,15 @@ todo:
 ---
 
 ## User Story
-Als Lehrender möchte ich eine Obergrenze für die Anzahl von Feedback-Anfragen zu setzen,
-damit die Studierenden durch mehrere Feedback-Anfragen vollständige Lösung nicht erfragen können.
+Als Nutzer möchte ich gewarnt werden, dass ich bald die Obergrenze für Feedback-Anfragen erreicht habe,
+damit ich schnellstmöglich darauf reagieren kann. Ich werde meine Anfragen genauer formulieren
+und nur die wichtigsten senden.
 
 ## Hinweise
-Nachdem der Lehrende die Obergrenze festgelegt hat, verbietet das System dem Studierenden,
-die *(n + 1)*-te Anfrage zu senden (wobei *n* die festgelegte Obergrenze ist).
-Die Studierenden werden durch eine entsprechende Meldung darauf aufmerksam gemacht.
+Als Nutzer des Systems gilt jeder, der mit dem System Aufgaben bearbeiten kann und Feedback anfordert (Studierende).
+
+## Notiz
+Es muss geklärt werden, wann die Warnung angezeigt werden soll.
+Vor der letzten Feedback-Anfrage ist es wahrscheinlich zu spät,
+5 davor kann von manchen Studierenden als zu früh empfunden werden.
+Eventuell ist eine Einstellmöglichkeit erforderlich.
