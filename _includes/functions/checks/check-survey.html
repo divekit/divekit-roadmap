@@ -1,0 +1,17 @@
+{% assign artefact = include.myArtefact %}
+
+{% comment %}---------- First the generic checks -----------{% endcomment %}
+
+{% include /functions/checks/generic/check-generic-aspects.html myArtefact=artefact
+		myErrorString="" myWarningString="" %}
+
+{% assign errorList = errorString | split: ";" %}
+{% assign warningList = warningString | split: ";" %}
+
+
+{% comment %} ***** Error/Warning Numbers 750 - 769 reserved for Survey **** {% endcomment %}
+
+{% comment %}---------- ??? add here ??? -----------{% endcomment %}
+
+{% assign errorString = errorList | join: ";" %}
+{% assign warningString = warningList | join: ";" %}
