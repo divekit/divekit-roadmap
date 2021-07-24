@@ -1,17 +1,17 @@
 ---
 type: userStory
-acronym: individuelleDatstellung
+acronym: individuelleDarstellung
 responsible:
-	- hbu
+    - hbu
 title: Individuelle Darstellung benutzen
 funcionalRequirement: BereitstellungUserPreferences
 asA: studentInf
 iWantTo: das System in der Form angezeigt bekommenm, die ich vorher eingestellt habe
 forThisReason: ich das System so benutzen kann wie ich es gerne möchte
 history:
-	v1:
-		date: 2021-07-23
-		comment: initially created
+    v1:
+        date: 2021-07-23
+        comment: initially created
 
 todo:
 ---

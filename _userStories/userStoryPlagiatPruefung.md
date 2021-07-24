@@ -2,16 +2,16 @@
 type: userStory
 acronym: userStoryPlagiatsprüfung
 responsible:
-	- cpo
+    - cpo
 title: User Story Plagiatsprüfung
 funcionalRequirement: PlagiatPruefung
 asA: profInf 
 iWantTo: Plagiate automatisch erkennen und melden
 forThisReason: Studenten sollen ihre Aufgaben selbstständig lösen
 history:
-	v1:
-		date: 2021-07-22
-		comment: initially created
+    v1:
+        date: 2021-07-22
+        comment: initially created
 todo:
 
 ---

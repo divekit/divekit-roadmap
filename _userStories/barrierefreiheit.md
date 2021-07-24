@@ -2,7 +2,7 @@
 type: userStory
 acronym: barrierefreiheit_symbol
 responsible:
-	- jsp
+    - jsp
 title: Einstellung der Barrierefreiheit (Symbol)
 funcionalRequirement: Barrierefreiheit
 asA: 
@@ -16,14 +16,14 @@ asA:
 iWantTo: die Einstellung für Farbenblinde vornehmen
 forThisReason: damit ich alle abgebildeten Informationen verstehe.
 history:
-	v1:
-		date: 2021-07-21
-		comment: initially created
-	v2:
-		date: 2021-07-23
-		comment: update header
+    v1:
+        date: 2021-07-21
+        comment: initially created
+    v2:
+        date: 2021-07-23
+        comment: update header
 todo:
-	
+    
 ---
 
 ## User Story

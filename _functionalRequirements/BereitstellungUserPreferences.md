@@ -14,7 +14,7 @@ kano:
     type: excitement
     reasoning: >
         Die Konfigurierbarkeit des Systems ist ein Begeisterungsmerkmal. Es muss nicht unbedingt vorhanden sein,
-        aber manche Benutzer würde sich sicher über die Einstellungen freuen und diese auch verwenden. Viele Nutzer
+        aber manche Benutzer würden sich sicher über die Einstellungen freuen und diese auch verwenden. Viele Nutzer
         würde dieses Feature nicht vermissen oder suchen, falls es nicht vorhanden wäre.
 source:
     - Workshop 6-3-5-No.2

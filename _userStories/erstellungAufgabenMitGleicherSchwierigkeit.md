@@ -2,20 +2,20 @@
 type: userStory
 acronym: ertsellungAufgabenMitGleicherSchwierigkeit
 responsible:
-	- mba
+    - mba
 title: Erstellung von Aufgaben mit gleicher Schwierigkeit
 funcionalRequirement: gleicheSchwierigkeit
 asA: 
-	- profBwl
-	- profInf
-	- profMa
-	- dozent
+    - profBwl
+    - profInf
+    - profMa
+    - dozent
 iWantTo: generieren von Aufgaben mit gleichem Schwierigkeitsgrad
 forThisReason: ich alle studierenden mit Aufgaben auf dem selben Schwierigkeitsgrad testen kann
 history:
-	v1:
-		date: 2021-07-22
-		comment: initially created
+    v1:
+        date: 2021-07-22
+        comment: initially created
 todo:
 ---
 

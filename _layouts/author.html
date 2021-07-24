@@ -1,0 +1,129 @@
+---
+layout: default
+---
+
+<h1>Autor*in »{{ page.nickname }}«</h1>
+
+{% if page.aboutMe %}
+<p>"{{ page.aboutMe }}"</p>
+{% endif %}
+
+<h2>Alle Artefakte</h2>
+
+<p>
+    Nachfolgend sind alle von {{ page.nickname }} (mit-)erstellten Artefakte aufgelistet. Wenn es Co-Autor*innen
+    gibt, sind diese ebenfalls aufgelistet.
+</p>
+
+<table>
+    <thead>
+    <tr>
+        <th width="5%"></th>
+        <th width="10%">ID</th>
+        <th width="45%">Artefact</th>
+        <th width="30%">Ko-Autor(en)</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    {% assign errorList = "" | split: ";" %}
+    {% assign errorItemList = "" | split: ";" %}
+    {% assign errorIdList = "" | split: ";" %}
+    {% assign warningList = "" | split: ";" %}
+    {% assign warningItemList = "" | split: ";" %}
+    {% assign warningIdList = "" | split: ";" %}
+    {% assign todoList = "" | split: ";" %}
+    {% assign todoItemList = "" | split: ";" %}
+    {% assign todoIdList = "" | split: ";" %}
+
+{% assign mycounter = 0 %}
+
+    {% for artefactType in site.data.metadata %}
+        {% assign artefactTypeName = artefactType[0] %}
+        {% assign collectionName = artefactType[1].collection | append: "" %}
+        {% assign collection = site[collectionName] %}
+        {% assign authorRef = page.acronym %}
+        {% assign responsibleItems = collection | where_exp: "item", "item.responsible contains authorRef" %}
+
+        {% for item in responsibleItems %}
+            {% include /functions/get-globalid.html myCollection=collection myArtefact=item myType=artefactTypeName %}
+{% assign mycounter = mycounter | plus: 1 %}
+{{mycounter }} - {{ globalId }} - {{ errorString }} <br/>
+            </tr>
+                {% include /functions/checks/check-functionalRequirement.html myArtefact=item %}
+------------{{ errorString }} <br/>
+                {% assign foundErrors = errorString | split: ";" %}
+                {% for issue in foundErrors %}
+                    {% assign errorList = errorList | push: issue %}
+                    {% assign errorItemList = errorItemList | push: item %}
+                    {% assign errorIdList = errorIdList | push: globalId %}
+                {% endfor %}
+                {% assign foundWarnings = warningString | split: ";" %}
+                {% for issue in foundWarnings %}
+                    {% assign warningList = warningList | push: issue %}
+                    {% assign warningItemList = warningItemList | push: item %}
+                    {% assign warningIdList = warningIdList | push: globalId %}
+                {% endfor %}
+                {% for issue in item.todo %}
+                    {% assign todoList = todoList | push: issue %}
+                    {% assign todoItemList = todoItemList | push: item %}
+                    {% assign todoIdList = todoIdList | push: globalId %}
+                {% endfor %}
+                {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=item.todo %}
+                <td>{{ iconString }}</td>
+
+                <td><a href='{{ site.url }}{{ item.url | relative_url }}'>{{ globalId }}</a></td>
+
+                {% assign sortField = artefactType[1].sortField | append: "" %}
+                <td><a href='{{ site.url }}{{item.url | relative_url }}'>{{ item[sortField] }} </a></td>
+
+                {% include /functions/resolve-names.html myResponsible=item.responsible myExclude=page %}
+                <td>{{ responsibleString }}</td>
+            </tr>
+        {% endfor %}
+    {% endfor %}
+    </tbody>
+</table>
+
+
+<h2>Fehlermeldungen von {{ page.nickname }}</h2>
+
+{% if errorList.size > 0 %}
+    <table>
+        <thead>
+        <tr>
+            <th width="5%"></th>
+            <th width="60%">Fehlermeldung</th>
+            <th width="30%">Artefakt</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% capture iconString %}<img src="{{ site.url }}{{ '/assets/alert-16.png' | relative_url }}" style="min-height: 16px; min-width: 16px;"/>{% endcapture %}
+        {% assign counterEnd = errorList.size | minus: 1 %}
+        {% for counter in (0..counterEnd) %}
+            {% assign item = errorItemList[counter] %}
+            {% assign id = errorIdList[counter] %}
+            {% assign msg = errorList[counter] %}
+            <tr>
+                <td>{{ iconString }}</td>
+                <td><a href="{{ site.url }}{{ item.url | relative_url }}">{{ msg }}</a></td>
+                <td><a href="{{ site.url }}{{ item.url | relative_url }}">{{ id }}</a></td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% else %}
+    <p>
+        Keine Fehlermeldungen.
+    </p>
+{% endif %}
+
+
+<h2>Warnungen von {{ page.nickname }}</h2>
+
+tbd
+
+<h2>Todos von {{ page.nickname }}</h2>
+
+tbd
+

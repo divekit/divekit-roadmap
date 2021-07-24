@@ -6,9 +6,9 @@
 	{% if my_requirement.kano.type %}
 		{% if my_requirement.kano.type == "excitement" %}
 			{% assign kanoType = "Begeisterung" %}
-		{% elsif my_requirement.status == "basic" %}
+		{% elsif my_requirement.kano.type == "basic" %}
 			{% assign kanoType = "Basis" %}
-		{% elsif my_requirement.status == "performance" %}
+		{% elsif my_requirement.kano.type == "performance" %}
 			{% assign kanoType = "Leistung" %}
 		{% else %}
 			{% assign kanoType = "???" %}

@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<h1>Artefakte nach beteiligten Autor*innen</h1>
+
+<p>
+    In dieser Übersicht sind die verantwortlichen Autor*innen für die Inhalte dieser Website aufgeschlüsselt.
+    Die Inhalte dieser Website wurde von Studierenden des Informatik Masters als Fallstudie im Rahmen der Lehrveranstaltung
+    "Anforderungsmanagement" gestaltet. Da dies eine öffentliche Webpräsenz ist, ist es empfohlen, keine Klarnamen
+    zu verwenden, sondern stattdessen Nicknames.
+</p>
+<p>
+    Diese Seite können die Autor*innen im Rahmen der Qualitätssicherung verwenden, um alle erstellten
+    Lastenheft-Artefakte nach den Verantwortlichen gegliedert durchzugehen. Durch Klicken auf den Nickname gelangt
+    man zu einer detaillierten Liste mit Artefakten, an den der/die Autor*in beteiligt war, sowie einer Liste von
+    noch offenen Fehlern, Warnungen und Todos.
+</p>
+
+
+<table>
+    <thead>
+    <tr>
+        <th width="20%" colspan="2"></th>
+        <th width="15%" colspan="{{ site.data.metadata.size }}">Anzahl Artefakte, für die Autor*in (mit)verantwortlich ist</th>
+    </tr>
+    <tr>
+        <th>&nbsp;</th>
+        <th>Nickname</th>
+        {% for artefactType in site.data.metadata %}
+            <th>{{ artefactType[1].prefix }}</th>
+        {% endfor %}
+    </tr>
+    </thead>
+    <tbody>
+    {% assign collection = site.authors | sort: nickname %}
+    {% for author in collection %}
+        <tr>
+            {% include /functions/checks/check-author.html myArtefact=author myErrorString="" myWarningString="" %}
+            {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=author.todo %}
+            <td><a href="{{ site.url }}{{ author.url | relative_url }}">{{ iconString }}</a></td>
+
+            <td><a href="{{ site.url }}{{ author.url | relative_url }}">{{ author.nickname }}</a></td>
+
+            {% include /functions/calc-artefacts-per-author.html myAuthor=author %}
+            {% assign numOfArtefacts = numOfArtefactsString | split: ";" %}
+            {% for num in numOfArtefacts %}
+                <td>{% if num == "0" %}&nbsp;{% else %}{{ num }}{% endif %}</td>
+            {% endfor %}
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>

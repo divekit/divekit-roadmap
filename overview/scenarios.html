@@ -33,10 +33,8 @@ layout: default
     {% assign collection = site.scenarios | sort: sortField %}
     {% for scenario in collection %}
         <tr>
-            {% include /functions/checks/check-generic-aspects.html myArtefact=scenario
-                    myErrorString="" myWarningString="" %}
-            {% include /functions/get-check-icon.html errors=errorString warnings=warningString
-                    todos=scenario.todo %}
+            {% include /functions/checks/check-scenario.html myArtefact=scenario %}
+            {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=scenario.todo %}
             <td>{{ iconString }}</td>
 
             {% include /functions/get-globalid.html myCollection=site.scenarios

@@ -19,7 +19,7 @@ layout: default
 
 <dl>
     <dt>Autor(en)</dt>
-    {% include /functions/resolve-names.html my_responsible=page.responsible %}
+    {% include /functions/resolve-names.html myResponsible=page.responsible %}
     <dd>{{ responsibleString }}</dd>
 
     <dt>Stakeholder-Rolle</dt>
@@ -43,11 +43,7 @@ layout: default
 
     {% include /functions/print-history.html myArtefact=page %}
 
-    {% include /functions/checks/check-generic-aspects.html myArtefact=page myErrorString="" myWarningString="" %}
-    {% assign stakeholderRoleRef = page.stakeholderRole %}
-    {% include /functions/checks/check-stakeholderRole-refs.html myStakeholderRoleRef=stakeholderRoleRef
-            myAsList=true myPurpose="Stakeholder-Rolle" myErrorString=errorString myWarningString=warningString %}
-    {% include /functions/checks/check-stakeholder.html myArtefact=page  myErrorString=errorString myWarningString=warningString %}
+    {% include /functions/checks/check-stakeholder.html myArtefact=page %}
     {% include /functions/print-detailed-check-messages.html errors=errorString warnings=warningString todos=page.todo %}
 </dl>
 

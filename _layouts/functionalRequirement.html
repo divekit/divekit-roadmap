@@ -8,7 +8,7 @@ layout: default
 
 <dl>
     <dt>Autor(en)</dt>
-    {% include /functions/resolve-names.html my_responsible=page.responsible %}
+    {% include /functions/resolve-names.html myResponsible=page.responsible %}
     <dd>{{ responsibleString }}</dd>
 
     <dt>Zahlt ein auf Ziel(e)</dt>
@@ -29,9 +29,7 @@ layout: default
 
     {% include /functions/print-history.html myArtefact=page %}
 
-    {% include /functions/checks/check-generic-aspects.html myArtefact=page myErrorString="" myWarningString="" %}
-    {% include /functions/checks/check-goal-refs.html myArtefact=page myErrorString=errorString myWarningString=warningString %}
-    {% include /functions/checks/check-functionalRequirement.html myArtefact=page myErrorString=errorString myWarningString=warningString %}
+    {% include /functions/checks/check-functionalRequirement.html myArtefact=page %}
     {% include /functions/print-detailed-check-messages.html errors=errorString warnings=warningString todos=page.todo %}
 </dl>
 

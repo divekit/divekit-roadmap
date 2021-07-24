@@ -32,6 +32,6 @@ Das DiveKit muss die Lösungen eines Studenten automatisch beim push event in da
 
 ## Begründung
 
-Die Aufgaben, die automatisch geprüft werden können sollten auf jeden Fall so korrigiert werden.
-Es entlastet den Prüfer und das Feedback für die Stundenten ist schneller.
+Die Aufgaben, die automatisch geprüft werden können, sollten auf jeden Fall auch so korrigiert werden.
+Es entlastet den Prüfer und das Feedback für die Stundenten ist schneller da.
 
