@@ -36,6 +36,8 @@ layout: default
     {% assign todoItemList = "" | split: ";" %}
     {% assign todoIdList = "" | split: ";" %}
 
+{% assign mycounter = 0 %}
+
     {% for artefactType in site.data.metadata %}
         {% assign artefactTypeName = artefactType[0] %}
         {% assign collectionName = artefactType[1].collection | append: "" %}
@@ -45,8 +47,11 @@ layout: default
 
         {% for item in responsibleItems %}
             {% include /functions/get-globalid.html myCollection=collection myArtefact=item myType=artefactTypeName %}
+{% assign mycounter = mycounter | plus: 1 %}
+{{mycounter }} - {{ globalId }} - {{ errorString }} <br/>
             </tr>
                 {% include /functions/checks/check-functionalRequirement.html myArtefact=item %}
+------------{{ errorString }} <br/>
                 {% assign foundErrors = errorString | split: ";" %}
                 {% for issue in foundErrors %}
                     {% assign errorList = errorList | push: issue %}

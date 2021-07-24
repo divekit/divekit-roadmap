@@ -1,5 +1,8 @@
 {% assign artefact = include.myArtefact %}
 
+{% assign errorString = "" %}
+{% assign warningString = "" %}
+
 {% comment %}---------- First the generic checks -----------{% endcomment %}
 
 {% include /functions/checks/generic/check-generic-aspects.html myArtefact=artefact
