@@ -6,7 +6,7 @@ responsible:
     - kru
 title: Kommunikation zwischen den Anwendern
 source:
-    - Interview nnProf1
+    - [Interview, nnProf1, Minute 00-17-05]
     - [interview, nnWMA4, Minute 00-38-26]
 partOfLargerGoal: 
 history:
@@ -22,9 +22,11 @@ history:
     v4:
         date: 2021-07-16
         comment: Updated todo
+    v5:
+        date: 2021-07-24
+        comment: fix todo
 
 todo:
-    - Quellformat auf [..., ..., ...] anpassen
 ---
 
 ## Beschreibung

@@ -5,7 +5,7 @@ responsible:
     - jsp
 title: Medienbrüche entfernen
 source:
-    - Interview nnProf1
+    - [Interview, nnProf1, Minute 00-17-05]
 history:
     v1:
         date: 2021-06-25
@@ -15,7 +15,7 @@ history:
         comment: update Begründung
 
 todo:
-    - Quelle an das Format [..., ..., ...] anpassen 
+
 ---
 
 ## Beschreibung
