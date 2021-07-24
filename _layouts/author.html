@@ -10,12 +10,18 @@ layout: default
 
 <h2>Alle Artefakte von {{ page.nickname }}</h2>
 
+<p>
+    Nachfolgend sind alle von {{ page.nickname }} (mit-)erstellten Artefakte aufgelistet. Wenn es Co-Autor*innen
+    gibt, sind diese ebenfalls aufgelistet.
+</p>
+
 <table>
     <thead>
     <tr>
         <th width="5%"></th>
         <th width="10%">ID</th>
-        <th width="60%">Artefact</th>
+        <th width="45%">Artefact</th>
+        <th width="30%">Ko-Autor(en)</th>
     </tr>
     </thead>
     <tbody>
@@ -35,6 +41,9 @@ layout: default
 
                 {% assign sortField = artefactType[1].sortField | append: "" %}
                 <td><a href='{{ site.url }}{{item.url | relative_url }}'>{{ item[sortField] }} </a></td>
+
+                {% include /functions/resolve-names.html my_responsible=item.responsible myExclude=page %}
+                <td>{{ responsibleString }}</td>
             </tr>
         {% endfor %}
     {% endfor %}

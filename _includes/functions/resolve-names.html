@@ -1,21 +1,19 @@
 {% assign acronymList = include.my_responsible %}
+{% assign exclude =  include.myExclude %}
+
 {% assign responsibleList = "" | split: ";" %}
 
-{% for person_raw in acronymList %}
-	{% assign acronym = person_raw | strip | downcase %}
-	{% if site.data.people[acronym] %}
-		{% if site.data.people[acronym].nickname %}
-			{% assign responsibleList = responsibleList | push: site.data.people[acronym].nickname %}
-		{% else %}
-			{% assign responsibleList = responsibleList | push: acronym %}
-		{% endif %}
+{% for personRaw in acronymList %}
+	{% assign acronym = personRaw | strip | downcase %}
+	{% if acronym == exclude.acronym %}
+	{% else %}
+		{% assign foundList = site.authors | where: "acronym", acronym %}
+		{% assign foundPerson = foundList | first %}
+		{% capture linkString %}<a href="{{ site.url }}{{ foundPerson.url | relative_url }}">{{ foundPerson.nickname }}</a>{% endcapture %}
+		{% assign responsibleList = responsibleList | push: linkString %}
 	{% endif %}
 {% endfor %}
 
-{% if responsibleList.size > 0 %}
-	{% assign responsibleString = responsibleList | array_to_sentence_string: "und" }} %}
-{% else %}
-	{% assign responsibleString = "???" %}
-{% endif %}
+{% assign responsibleString = responsibleList | array_to_sentence_string: "und" %}
 
 
