@@ -25,10 +25,7 @@ layout: default
     {% assign collection = site.stakeholderRoles | sort: sortField %}
     {% for stakeholderRole in collection %}
     <tr>
-        {% include /functions/checks/check-generic-aspects.html myArtefact=stakeholderRole
-                    myErrorString="" myWarningString="" %}
-        {% include /functions/checks/check-stakeholderRole.html myArtefact=stakeholderRole
-                    myErrorString=errorString myWarningString=warningString %}
+        {% include /functions/checks/check-stakeholderRole.html myArtefact=stakeholderRole %}
         {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=stakeholderRole.todo %}
         <td>{{ iconString }}</td>
 

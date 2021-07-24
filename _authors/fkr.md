@@ -1,4 +1,5 @@
 ---
+type: author
 acronym: fkr
 nickname: Tempoklaus
 aboutMe: >

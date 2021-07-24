@@ -23,7 +23,7 @@ layout: default
 
     {% include /functions/print-history.html myArtefact=page %}
 
-    {% include /functions/checks/check-generic-aspects.html myArtefact=page myErrorString="" myWarningString="" %}
+    {% include /functions/checks/check-userStory.html myArtefact=page %}
     {% assign stakeholderRoleRef = page.asA %}
 
     {% include /functions/print-detailed-check-messages.html errors=errorString warnings=warningString todos=page.todo %}

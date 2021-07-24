@@ -1,6 +1,7 @@
 {% assign artefact = include.myArtefact %}
 {% assign errorString = include.myErrorString %}
 {% assign warningString = include.myWarningString %}
+{% assign withoutResponsibleCheck = include.withoutResponsibleCheck %}
 
 {% assign errorList = errorString | split: ";" %}
 {% assign warningList = warningString | split: ";" %}
@@ -31,35 +32,37 @@
 {% endif %}
 
 {% comment %}---------- responsible -----------{% endcomment %}
-{% if artefact.responsible %}
-	{% if artefact.responsible.size == 0 %}
+{% if withoutResponsibleCheck %}
+{% else %}
+	{% if artefact.responsible %}
+		{% if artefact.responsible.size == 0 %}
+			{% include /functions/define-message.html ignore=artefact.ignore msgno="e004"
+					msg="Kein(e) Autor(en) (Feld 'responsible') angegeben!" %}
+			{% assign errorList = errorList | push: out_msg %}
+		{% else %}
+			{% if artefact.responsible.size > 3 %}
+				{% include /functions/define-message.html ignore=artefact.ignore msgno="w005"
+						msg="Mehr als 3 Autoren (Feld 'responsible') - ist das so gewünscht?" %}
+				{% assign warningList = warningList | push: out_msg %}
+			{% endif %}
+			{% for responsibleAcronym in artefact.responsible %}
+				{% if site.data.people[responsibleAcronym] %}
+				{% else %}
+					{% assign myMsg = "Autor*in '" | append: responsibleAcronym |
+													 append: "' in Feld 'responsible' exististiert nicht!" %}
+					{% include /functions/define-message.html ignore=artefact.ignore msgno="e006" msg=myMsg %}
+					{% assign errorList = errorList | push: out_msg %}
+				{% endif %}
+			{% endfor %}
+		{% endif %}
+	{% else %}
 		{% include /functions/define-message.html ignore=artefact.ignore msgno="e004"
 				msg="Kein(e) Autor(en) (Feld 'responsible') angegeben!" %}
 		{% assign errorList = errorList | push: out_msg %}
-	{% else %}
-		{% if artefact.responsible.size > 3 %}
-			{% include /functions/define-message.html ignore=artefact.ignore msgno="w005"
-					msg="Mehr als 3 Autoren (Feld 'responsible') - ist das so gewünscht?" %}
-			{% assign warningList = warningList | push: out_msg %}
-		{% endif %}
-		{% for responsibleAcronym in artefact.responsible %}
-			{% if site.data.people[responsibleAcronym] %}
-			{% else %}
-				{% assign myMsg = "Autor*in '" | append: responsibleAcronym |
-												 append: "' in Feld 'responsible' exististiert nicht!" %}
-				{% include /functions/define-message.html ignore=artefact.ignore msgno="e006" msg=myMsg %}
-				{% assign errorList = errorList | push: out_msg %}
-			{% endif %}
-		{% endfor %}
 	{% endif %}
-{% else %}
-	{% include /functions/define-message.html ignore=artefact.ignore msgno="e004"
-			msg="Kein(e) Autor(en) (Feld 'responsible') angegeben!" %}
-	{% assign errorList = errorList | push: out_msg %}
 {% endif %}
 
 {% comment %}---------- source -----------{% endcomment %}
-
 
 
 {% assign errorString = errorList | join: ";" %}

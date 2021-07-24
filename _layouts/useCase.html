@@ -47,14 +47,7 @@ layout: default
 
     {% include /functions/print-history.html myArtefact=page %}
 
-    {% include /functions/checks/check-generic-aspects.html myArtefact=page myErrorString="" myWarningString="" %}
-    {% assign stakeholderRoleRef = page.primaryActor %}
-    {% include /functions/checks/check-stakeholderRole-refs.html myStakeholderRoleRef=stakeholderRoleRef
-            myAsList=false myPurpose="Primärer Aktor" myErrorString=errorString myWarningString=warningString %}
-    {% assign stakeholderRoleRef = page.secondaryActors %}
-    {% include /functions/checks/check-stakeholderRole-refs.html myStakeholderRoleRef=stakeholderRoleRef
-            myAsList=true myPurpose="Sekundäre Aktor(en)" myErrorString=errorString myWarningString=warningString %}
-
+    {% include /functions/checks/check-useCase.html myArtefact=page %}
     {% include /functions/print-detailed-check-messages.html errors=errorString warnings=warningString todos=page.todo %}
 </dl>
 

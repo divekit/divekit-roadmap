@@ -1,4 +1,5 @@
 ---
+type: author
 acronym: sbe
 nickname: Stefan Bente
 aboutMe: >

@@ -36,8 +36,7 @@ layout: default
     {% assign collection = site.authors | sort: nickname %}
     {% for author in collection %}
         <tr>
-            {% include /functions/checks/check-author.html myArtefact=author
-                myErrorString="" myWarningString="" %}
+            {% include /functions/checks/check-author.html myArtefact=author myErrorString="" myWarningString="" %}
             {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=author.todo %}
             <td><a href="{{ site.url }}{{ author.url | relative_url }}">{{ iconString }}</a></td>
 

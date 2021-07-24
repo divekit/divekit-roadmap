@@ -1,13 +1,14 @@
 {% assign artefact = include.myArtefact %}
-{% assign errorString = include.myErrorString %}
-{% assign warningString = include.myWarningString %}
+
+{% comment %}---------- First the generic checks -----------{% endcomment %}
+
+{% include /functions/checks/generic/check-generic-aspects.html myArtefact=artefact
+        myErrorString="" myWarningString="" %}
 
 {% assign errorList = errorString | split: ";" %}
 {% assign warningList = warningString | split: ";" %}
 
-
 {% comment %} ***** Error Numbers 550 - 569 reserved for Stakeholder **** {% endcomment %}
-
 
 {% comment %}---------- description -----------{% endcomment %}
 {% if artefact.description %}
