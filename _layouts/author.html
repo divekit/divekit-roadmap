@@ -40,6 +40,7 @@ layout: default
 
     {% for artefactType in site.data.metadata %}
         {% assign artefactTypeName = artefactType[0] %}
+{% if artefactTypeName == "goal" %}
         {% assign collectionName = artefactType[1].collection | append: "" %}
         {% assign collection = site[collectionName] %}
         {% assign authorRef = page.acronym %}
@@ -81,6 +82,7 @@ layout: default
                 <td>{{ responsibleString }}</td>
             </tr>
         {% endfor %}
+{% endif %}
     {% endfor %}
     </tbody>
 </table>
