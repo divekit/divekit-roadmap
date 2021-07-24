@@ -8,7 +8,7 @@ layout: default
 <p>"{{ page.aboutMe }}"</p>
 {% endif %}
 
-<h2>Alle Artefakte von {{ page.nickname }}</h2>
+<h2>Alle Artefakte</h2>
 
 <p>
     Nachfolgend sind alle von {{ page.nickname }} (mit-)erstellten Artefakte aufgelistet. Wenn es Co-Autor*innen
@@ -42,7 +42,7 @@ layout: default
                 {% assign sortField = artefactType[1].sortField | append: "" %}
                 <td><a href='{{ site.url }}{{item.url | relative_url }}'>{{ item[sortField] }} </a></td>
 
-                {% include /functions/resolve-names.html my_responsible=item.responsible myExclude=page %}
+                {% include /functions/resolve-names.html myResponsible=item.responsible myExclude=page %}
                 <td>{{ responsibleString }}</td>
             </tr>
         {% endfor %}
