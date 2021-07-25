@@ -23,15 +23,17 @@
         {% endif %}
     {% endif %}
 
-    {% if idFormat == "prefix" or idFormat == "postfix" or idFormat == "postfixWithBrackets" %}
+    {% if idFormat == "prefix" or idFormat == "postfix" or idFormat == "postfixWithBrackets" or idFormat == "onlyId" %}
         {% include /functions/get-globalid.html myArtefact=localArtefact %}
         {% if idFormat == "prefix" %}
             {% assign localArtefactName = globalId | append: ": " | append: localArtefactName %}
         {% elsif idFormat == "postfix" %}
-            {% assign assign localArtefactName = localArtefactName | append: " (" | append: globalId | append: ")" %}
+            {% assign localArtefactName = localArtefactName | append: " (" | append: globalId | append: ")" %}
         {% elsif idFormat == "postfixWithBrackets" %}
-            {% assign assign localArtefactName = "»" | append: localArtefactName | append: "« (" |
+            {% assign localArtefactName = "»" | append: localArtefactName | append: "« (" |
                     append: globalId | append: ")" %}
+        {% elsif idFormat == "onlyId" %}
+            {% assign localArtefactName = globalId %}
         {% endif %}
     {% endif %}
 {% else %}

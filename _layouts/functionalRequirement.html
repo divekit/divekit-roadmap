@@ -11,7 +11,12 @@ layout: default
     <dd>{{ responsibleString }}</dd>
 
     <dt>Zahlt ein auf Ziel(e)</dt>
-    {% include /functions/print-goalrefs-as-links.html myArtefact=page %}
+    {% if page.goals %}
+        {% for goalRef in page.goals %}
+            {% include /functions/get-link-to-artefact.html myRef=goalRef myTypeString="goal" myIdFormat="prefix" %}
+            <dd>{{ artefactLink }}</dd>
+        {% endfor %}
+    {% endif %}
 
     <dt>Implementierungs-Status</dt>
     {% include /functions/get-implementation-status.html my_requirement=page %}
