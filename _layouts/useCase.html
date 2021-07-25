@@ -14,14 +14,16 @@ layout: default
     <dd>{{ page.description }}</dd>
 
     <dt>Primärer Aktor</dt>
-    {% include /functions/get-link-to-stakeholder-role.html myRoleAcronym=page.primaryActor withId=true %}
-    <dd>{{ stakeholderRoleLink }}</dd>
+    {% include /functions/get-link-to-artefact.html myRef=page.primaryActor myTypeString="stakeholderRole"
+            myIdFormat="prefix" %}
+    <dd>{{ artefactLink }}</dd>
 
     {% if page.secondaryActors.size > 0 %}
         <dt>Sekundäre(r) Aktor(en)</dt>
         {% for secondaryActorRef in page.secondaryActors %}
-            {% include /functions/get-link-to-stakeholder-role.html myRoleAcronym=secondaryActorRef withId=true %}
-            <dd>{{ stakeholderRoleLink }}</dd>
+            {% include /functions/get-link-to-artefact.html myRef=secondaryActorRef myTypeString="stakeholderRole"
+                    myIdFormat="prefix" %}
+            <dd>{{ artefactLink }}</dd>
         {% endfor %}
     {% endif %}
 

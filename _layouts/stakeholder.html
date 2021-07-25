@@ -16,10 +16,10 @@ layout: default
     {% include /functions/resolve-names.html myResponsible=page.responsible %}
     <dd>{{ responsibleString }}</dd>
 
-    <dt>Stakeholder-Rolle</dt>
+    <dt>Stakeholder-Rolle, zu der dieser Stakeholder gehört</dt>
     {% for shr in page.stakeholderRole %}
-        {% include /functions/get-link-to-stakeholder-role.html myRoleAcronym=shr withId=true%}
-        <dd>{{ stakeholderRoleLink }}</dd>
+        {% include /functions/get-link-to-artefact.html myRef=shr myTypeString="stakeholderRole" myIdFormat="prefix" %}
+        <dd>{{ artefactLink }}</dd>
     {% endfor %}
 
 

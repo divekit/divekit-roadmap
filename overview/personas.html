@@ -25,8 +25,9 @@ layout: default
         <tr>
             {% include /functions/get-artefact-name.html myArtefact=persona %}
             <td><a href="{{ site.url }}{{ persona.url | relative_url }}">{{ artefactName }}</a></td>
-            {% include /functions/get-link-to-stakeholder-role.html myRoleAcronym=persona.stakeholderRole withId=false %}
-            <td>{{ stakeholderRoleLink }}</td>
+            {% include /functions/get-link-to-artefact.html myRef=persona.stakeholderRole myTypeString="stakeholderRole"
+                        myIdFormat="prefix" %}
+            <td>{{ artefactLink }}</td>
         </tr>
     {% endfor %}
     </tbody>

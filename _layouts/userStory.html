@@ -11,8 +11,9 @@ layout: default
     <dd>{{ responsibleString }}</dd>
 
     <dt>Als</dt>
-    {% include /functions/get-link-to-stakeholder-role.html myRoleAcronym=page.asA withId=true %}
-    <dd>{{ stakeholderRoleLink }}</dd>
+    {% include /functions/get-link-to-artefact.html myRef=page.asA myTypeString="stakeholderRole"
+            myIdFormat="none" %}
+    <dd>{{ artefactLink }}</dd>
 
     <dt>möchte ich</dt>
     <dd>{{ page.iWantTo }}</dd>
