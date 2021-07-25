@@ -25,7 +25,7 @@ todo:
 | Referenz | Reviewer-Kommentar | Autor-Kommentar |
 |------------|------------------|-----------------|
 | Use Case gleicheSchwierigkeit | Trigger Nutzer möchte Aufgaben generieren wäre besser | Macht Sinn, wird umgesetzt |
-| Use Case gleicheSchwierigkeit | Hauptszenarion Aufgaben Generiertung zusammen | Wird verbessert |
+| Use Case gleicheSchwierigkeit | Hauptszenarion Aufgaben Generierung zusammen | Wird verbessert |
 | Use Case gleicheSchwierigkeit | Primary Actor kann durch Dozent ersetzt werden | Stimmt, wird umgestzt |
 | Use Case gleicheSchwierigkeit | Hauptszenrio 2) Komma vergessen | Wird verbessert |
-| Use Case gleicheSchwierigkeit | Ausnahmeszenarion zu Allgemein | Stimmt, wird verbessert |
+| Use Case gleicheSchwierigkeit | Ausnahmeszenario zu Allgemein | Stimmt, wird verbessert |

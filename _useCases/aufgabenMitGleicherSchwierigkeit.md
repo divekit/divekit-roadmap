@@ -5,14 +5,15 @@ responsible:
     - mba
 title: Gleiche Schwierigkeit
 description: Das System garantiert Aufgaben zu generieren, die den gleichen Schwierigkeitsgrad haben
-primaryActor: profInf
+primaryActor: Dozent
 secondaryActors:
+    - profInf
     - profMa
     - profBwl
     - wmaDev
     - wmaInf
     - wmaProg
-trigger: Nutzer startet Aufgaben Generierung
+trigger: Nutzer möchte Aufgaben generieren
 precondition: Aufgabenmuster wurde festgelegt
 postcondition: Nutzer erhält generierte Aufgaben, die alle auf dem selben Schwierigkeitsgrad basieren
 funcionalRequirement: 
@@ -28,8 +29,8 @@ todo:
 
 ## Hauptszenario
 
-* 1) Nutzer öffnet die Aufgaben Generierung 
-* 2) Nutzer stellt sein Muster dem DiveKit bereit welches individualisiert werden soll
+* 1) Nutzer öffnet die Aufgabengenerierung
+* 2) Nutzer stellt sein Muster dem DiveKit bereit, welches individualisiert werden soll
 * 3) Das DiveKit generiert individualisierte Aufgaben
 * 4) Nutzer erhält individualisierte Aufgaben mit gleichem Schwierigkeitsgrad
 
@@ -41,7 +42,9 @@ todo:
 
 ## Ausnahmeszenario 
 
-* 3a) Das DiveKit stürzt ab
+* 3a) Der Nutzer übermittelt dem DiveKit fehlerhafte Informationen zum generieren der Aufgaben, worauf hin das DiveKit keine Aufgaben generieren kann
+* 3b) Der Nutzer korrigiert die Informationen
+* 3c) Das DiveKit generiert die Aufgaben
 
 **Andere Nachbedingung**: Nutzer ist mit Divekit nicht vertraut und kann keine Aufgaben generieren
 

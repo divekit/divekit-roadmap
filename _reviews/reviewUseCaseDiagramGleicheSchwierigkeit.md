@@ -26,4 +26,4 @@ todo:
 |------------|------------------|-----------------|
 | Use Case gleicheSchwierigkeit Diagram | Beschreibung Rechtschreibfehler | Wird korrigiert |
 | Use Case gleicheSchwierigkeit Diagram | Diagram Nutzer prof durch dozent ersetzten | Stimmt, wird umgesetzt |
-| Use Case gleicheSchwierigkeit Diagram | Diagram um Muster bearbeiten und löschen ergänzen | Der Fall ist im Ist-Zustand bereits abdeckend aber der Kommentar wird zur Vollständigkeit umgetzt |
+| Use Case gleicheSchwierigkeit Diagram | Diagram um Muster Bearbeiten und Löschen ergänzen | Das Use Case Diagram deckt bereits den Use Case ab Löschen und Bearbeiten ist nicht Teil davon.|
