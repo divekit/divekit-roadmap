@@ -1,6 +1,7 @@
 ---
 acronym: Coursera
-type: itsystem
+type: systemContextElement
+subtype: itsystem
 responsible:
     - jlü
 mentionnedInSource: 

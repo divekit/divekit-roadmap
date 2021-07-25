@@ -1,6 +1,7 @@
 ---
 acronym: sonarQube
-type: itsystem 
+type: systemContextElement
+subtype: itsystem 
 responsible:
     - kru
     - ako

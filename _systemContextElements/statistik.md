@@ -1,6 +1,7 @@
 ---
 acronym: statistik
-type: Modul
+type: systemContextElement
+subtype: Modul
 responsible:
     - mba
 mentionnedInSource:

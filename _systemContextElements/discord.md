@@ -1,6 +1,7 @@
 ---
 acronym: Discord
-type: itsystem 
+type: systemContextElement
+subtype: itsystem 
 responsible:
     - tza
     - ako

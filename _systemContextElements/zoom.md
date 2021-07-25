@@ -1,6 +1,7 @@
 ---
 acronym: zoom
-type: itsystem
+type: systemContextElement
+subtype: itsystem
 responsible:
     - jsp
 mentionnedInSource: 

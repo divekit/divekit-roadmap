@@ -1,6 +1,7 @@
 ---
 acronym: gitlab
-type: itsystem 
+type: systemContextElement
+subtype: itsystem 
 responsible:
     - kru
     - ako

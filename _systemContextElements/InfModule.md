@@ -1,6 +1,7 @@
 ---
 acronym: InfModule
-type: process
+type: systemContextElement
+subtype: process
 responsible:
     - psc
 mentionnedInSource: 

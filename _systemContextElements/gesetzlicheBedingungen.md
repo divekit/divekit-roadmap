@@ -1,6 +1,7 @@
 ---
 acronym: gesetzlicheBedingungen
-type: regulation
+type: systemContextElement
+subtype: regulation
 responsible:
     - jlü
 mentionnedInSource: 

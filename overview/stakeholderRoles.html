@@ -29,8 +29,7 @@ layout: default
         {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=stakeholderRole.todo %}
         <td>{{ iconString }}</td>
 
-        {% include /functions/get-globalid.html myCollection=site.stakeholderRoles
-                myArtefact=stakeholderRole myType="stakeholderRole" %}
+        {% include /functions/get-globalid.html myArtefact=stakeholderRole %}
         <td><a href="{{ site.url }}{{ stakeholderRole.url | relative_url }}">{{ globalId }}</a></td>
         <td><a href="{{ site.url }}{{ stakeholderRole.url | relative_url }}">{{ stakeholderRole.name }}</a></td>
         <td>{{ stakeholderRole.description }}</td>

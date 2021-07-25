@@ -36,8 +36,7 @@ layout: default
             {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=stakeholder.todo %}
             <td>{{ iconString }}</td>
 
-            {% include /functions/get-globalid.html myCollection=site.stakeholders
-                    myArtefact=stakeholder myType="stakeholder" %}
+            {% include /functions/get-globalid.html myArtefact=stakeholder %}
             <td><a href="{{ site.url }}{{ stakeholder.url | relative_url }}">{{ globalId }}</a></td>
 
             {% if stakeholder.subtype == "group" %}

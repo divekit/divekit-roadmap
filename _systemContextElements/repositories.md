@@ -1,6 +1,7 @@
 ---
 acronym: Repository
-type: itsystem 
+type: systemContextElement
+subtype: itsystem 
 responsible:
     - kru
     - ako

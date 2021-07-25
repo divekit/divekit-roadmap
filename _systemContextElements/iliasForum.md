@@ -1,6 +1,7 @@
 ---
 acronym: iliasForum
-type: itsystem
+type: systemContextElement
+subtype: itsystem
 responsible:
     - kru
 mentionnedInSource: 

@@ -2,8 +2,7 @@
 layout: default
 ---
 
-{% include /functions/get-globalid.html
-        myCollection=site.personas myArtefact=page myType="persona" %}
+{% include /functions/get-globalid.html myArtefact=page %}
 <h1>Persona »{{ page.name }}« ({{ globalId }})</h1>
 
 <dl>

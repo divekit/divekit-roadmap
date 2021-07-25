@@ -1,6 +1,7 @@
 ---
 acronym: ide
-type: itsystem
+type: systemContextElement
+subtype: itsystem
 responsible:
     - ako
     - kru

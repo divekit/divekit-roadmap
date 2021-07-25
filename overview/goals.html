@@ -28,7 +28,7 @@ layout: default
                 {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=goal.todo %}
                 <td>{{ iconString }}</td>
 
-                {% include /functions/get-globalid.html myCollection=site.goals myArtefact=goal myType="goal" %}
+                {% include /functions/get-globalid.html myArtefact=goal %}
                 <td><a href="{{ site.url }}{{ goal.url | relative_url }}">{{ globalId }}</a></td>
 
                 <td><a href="{{ site.url }}{{ goal.url | relative_url }}">{{ goal.title }}</a></td>

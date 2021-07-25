@@ -1,6 +1,7 @@
 ---
 acronym: fachlichesGlossar
-type: regulation 
+type: systemContextElement
+subtype: regulation 
 responsible:
     - kru
     - ako

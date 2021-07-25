@@ -1,6 +1,7 @@
 ---
 acronym: Slack
-type: itsystem
+type: systemContextElement
+subtype: itsystem
 responsible:
     - jsp
 mentionnedInSource: 

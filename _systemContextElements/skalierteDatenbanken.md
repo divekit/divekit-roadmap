@@ -1,6 +1,7 @@
 ---
 acronym: skalierteDatenbanken
-type: itsystem
+type: systemContextElement
+subtype: itsystem
 responsible:
     - jlü
 mentionnedInSource: 

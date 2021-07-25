@@ -44,7 +44,7 @@ layout: default
         {% assign responsibleItems = collection | where_exp: "item", "item.responsible contains authorRef" %}
 
         {% for item in responsibleItems %}
-            {% include /functions/get-globalid.html myCollection=collection myArtefact=item myType=artefactTypeName %}
+            {% include /functions/get-globalid.html myArtefact=item %}
             </tr>
                 {% include /functions/checks/check-general-artefact.html myArtefact=item %}
                 {% assign foundErrors = errorString | split: ";" %}

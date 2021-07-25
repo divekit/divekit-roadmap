@@ -2,8 +2,7 @@
 layout: default
 ---
 
-{% include /functions/get-globalid.html
-        myCollection=site.reviews myArtefact=page myType="review" %}
+{% include /functions/get-globalid.html myArtefact=page %}
 <h1>Formales Review »{{ page.referencedType }}« ({{ globalId }})</h1>
 
 <dl>

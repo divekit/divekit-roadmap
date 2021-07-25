@@ -1,6 +1,7 @@
 ---
 acronym: E-Assasment-Tool     
-type: itsystem
+type: systemContextElement
+subtype: itsystem
 responsible:
     - fgr
     - ngi

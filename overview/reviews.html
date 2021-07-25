@@ -28,8 +28,7 @@ layout: default
             {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=review.todo %}
             <td>{{ iconString }}</td>
 
-            {% include /functions/get-globalid.html myCollection=site.stakeholders
-                    myArtefact=review myType="review" %}
+            {% include /functions/get-globalid.html myArtefact=review %}
             <td><a href="{{ site.url }}{{ review.url | relative_url }}">{{ globalId }}</a></td>
             <td>{{ review.referencedAcronym }}</td>
             <td>{{ review.referencedType }}</td>

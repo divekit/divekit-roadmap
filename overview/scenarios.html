@@ -37,8 +37,7 @@ layout: default
             {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=scenario.todo %}
             <td>{{ iconString }}</td>
 
-            {% include /functions/get-globalid.html myCollection=site.scenarios
-                    myArtefact=scenario myType="scenario" %}
+            {% include /functions/get-globalid.html myArtefact=scenario %}
             <td><a href="{{ site.url }}{{ scenario.url | relative_url }}">{{ globalId }}</a></td>
 
             <td><a href="{{ site.url }}{{ scenario.url | relative_url }}">{{ scenario.title }}</a></td>

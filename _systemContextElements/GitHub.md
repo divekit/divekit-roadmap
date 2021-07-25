@@ -1,6 +1,7 @@
 ---
 acronym: GitHub
-type: itsystem
+type: systemContextElement
+subtype: itsystem
 responsible:
     - jlü
     - duz

@@ -1,6 +1,7 @@
 ---
 acronym: ilias
-type: itsystem
+type: systemContextElement
+subtype: itsystem
 responsible:
     - jsp
     - psc

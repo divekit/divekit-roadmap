@@ -1,6 +1,7 @@
 ---
 acronym: projektmanagement
-type: itsystem
+type: systemContextElement
+subtype: itsystem
 responsible:
     - ako
     - kru
