@@ -2,8 +2,8 @@
 layout: default
 ---
 
-{% include /functions/get-globalid.html myArtefact=page %}
-<h1>Persona »{{ page.name }}« ({{ globalId }})</h1>
+{% include /functions/get-artefact-name.html myArtefact=page myIdFormat="postfixWithBrackets" %}
+<h1>Persona {{ artefactName }}</h1>
 
 <dl>
     <dt>Autor(en)</dt>

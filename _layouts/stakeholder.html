@@ -2,13 +2,8 @@
 layout: default
 ---
 
-{% include /functions/get-globalid.html myArtefact=page %}
-{% if page.subtype == "group" %}
-    {% assign artefactString = "Stakeholder-Gruppe" %}
-{% else %}
-    {% assign artefactString = "Stakeholder" %}
-{% endif %}
-<h1>{{ artefactString }} »{{ page.name }}« ({{ globalId }})</h1>
+{% include /functions/get-artefact-name.html myArtefact=page myIdFormat="postfixWithBrackets" %}
+<h1>Stakeholder {{ artefactName }}</h1>
 
 {% if page.anonymous %}
     <p>
@@ -35,8 +30,8 @@ layout: default
     {% if interviews.size > 0 %}
         <dt>Interview</dt>
         {% for interview in interviews %}
-            {% include /functions/get-interview-name.html myInterview=page %}
-            <dd><a href="{{ site.url }}{{ interview.url | relative_url }}">{{ interviewName }}</a></dd>
+            {% include /functions/get-artefact-name.html myArtefact=interview myIdFormat="prefix" %}
+            <dd><a href="{{ site.url }}{{ interview.url | relative_url }}">{{ artefactName }}</a></dd>
         {% endfor %}
     {% endif %}
 

@@ -25,7 +25,8 @@ layout: default
     {% assign collection = site.useCaseDiagrams | sort: sortField %}
     {% for useCaseDiagram in collection %}
     <tr>
-        <td><a href="{{ site.url }}{{ useCaseDiagram.url | relative_url }}">{{ useCaseDiagram.title }}</a></td>
+        {% include /functions/get-artefact-name.html myArtefact=useCaseDiagram %}
+        <td><a href="{{ site.url }}{{ useCaseDiagram.url | relative_url }}">{{ artefactName }}</a></td>
     </tr>
     {% endfor %}
     </tbody>

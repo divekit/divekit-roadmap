@@ -2,8 +2,8 @@
 layout: default
 ---
 
-{% include /functions/get-globalid.html myArtefact=page %}
-<h1>Formales Review »{{ page.referencedType }}« ({{ globalId }})</h1>
+{% include /functions/get-artefact-name.html myArtefact=page myIdFormat="postfixWithBrackets" %}
+<h1>Formales Review {{ artefactName }}</h1>
 
 <dl>
     {% include /functions/print-history.html myArtefact=page %}

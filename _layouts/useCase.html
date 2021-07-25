@@ -2,8 +2,8 @@
 layout: default
 ---
 
-{% include /functions/get-globalid.html myArtefact=page %}
-<h1>Use Case »{{ page.title }}« ({{ globalId }})</h1>
+{% include /functions/get-artefact-name.html myArtefact=page myIdFormat="postfixWithBrackets" %}
+<h1>Use Case {{ artefactName }}</h1>
 
 <dl>
     <dt>Autor(en)</dt>

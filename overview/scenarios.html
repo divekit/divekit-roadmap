@@ -40,7 +40,8 @@ layout: default
             {% include /functions/get-globalid.html myArtefact=scenario %}
             <td><a href="{{ site.url }}{{ scenario.url | relative_url }}">{{ globalId }}</a></td>
 
-            <td><a href="{{ site.url }}{{ scenario.url | relative_url }}">{{ scenario.title }}</a></td>
+            {% include /functions/get-artefact-name.html myArtefact=scenario %}
+            <td><a href="{{ site.url }}{{ scenario.url | relative_url }}">{{ artefactName }}</a></td>
         </tr>
     {% endfor %}
     </tbody>

@@ -1,24 +1,40 @@
-{% assign artefact = include.myArtefact %}
-{% assign withId = include.withId %}
+{% assign localArtefact = include.myArtefact %}
+{% assign idFormat = include.myIdFormat %}
 
-{% if artefact.type %}
-    {% assign type = artefact.type %}
-    {% assign artefactType = site.data.metadata[type] %}
-    {% assign prefix = artefactType.prefix %}
-    {% assign sortField = artefactType.sortField %}
-    {% comment %} -- append: "" makes it a real string, for whatever reason, doesn't work otherwise -- {% endcomment %}
-    {% assign collectionName = artefactType.collection | append: "" %}
-    {% assign collection = site[collectionName] | sort: sortField %}
+{% assign localArtefactName = "???" %}
+{% if localArtefact.type %}
+    {% assign type = localArtefact.type %}
+    {% assign localArtefactType = site.data.metadata[type] %}
+    {% assign sortField = localArtefactType.sortField %}
+    {% assign localArtefactName = localArtefact[sortField] %}
 
-    {% assign index = 0 %}
-    {% for element in collection %}
-        {% if artefact.acronym == element.acronym %}
-            {% assign index = forloop.index %}
-            {% break %}
+    {% if type == "stakeholder" %}
+        {% if localArtefact.subtype == "group" %}
+            {% assign localArtefactName = localArtefactName | append: " (Gruppe)" %}
         {% endif %}
-    {% endfor %}
+    {% elsif type == "interview" and localArtefact.stakeholder %}
+        {% assign localStakeholderRef = localArtefact.stakeholder %}
+        {% assign localStakeholderList = site.stakeholders | where: "acronym", localStakeholderRef %}
+        {% if localStakeholderList.size > 0 %}
+            {% assign localStakeholder = localStakeholderList | first %}
+            {% assign interviewDate = localArtefact.date | date: "%d.%m.%Y" %}
+            {% assign localArtefactName = "Interview mit »" | append: localStakeholder.name |
+                            append: "« (" | append: interviewDate | append: ")" %}
+        {% endif %}
+    {% endif %}
 
-    {% assign globalId = index | prepend: "-" | prepend: prefix %}
+    {% if idFormat == "prefix" or idFormat == "postfix" or idFormat == "postfixWithBrackets" %}
+        {% include /functions/get-globalid.html myArtefact=localArtefact %}
+        {% if idFormat == "prefix" %}
+            {% assign localArtefactName = globalId | append: ": " | append: localArtefactName %}
+        {% elsif idFormat == "postfix" %}
+            {% assign assign localArtefactName = localArtefactName | append: " (" | append: globalId | append: ")" %}
+        {% elsif idFormat == "postfixWithBrackets" %}
+            {% assign assign localArtefactName = "»" | append: localArtefactName | append: "« (" |
+                    append: globalId | append: ")" %}
+        {% endif %}
+    {% endif %}
 {% else %}
-    {% assign globalId = "XX-??" %}
+    {% assign localArtefactName = localArtefact.title %}
 {% endif %}
+{% assign artefactName = localArtefactName %}

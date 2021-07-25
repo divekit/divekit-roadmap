@@ -25,7 +25,8 @@ layout: default
     {% assign collection = site.userStories | sort: sortField %}
     {% for userStory in collection %}
     <tr>
-        <td><a href="{{ site.url }}{{ userStory.url | relative_url }}">{{ userStory.title }}</a></td>
+        {% include /functions/get-artefact-name.html myArtefact=userStory %}
+        <td><a href="{{ site.url }}{{ userStory.url | relative_url }}">{{ artefactName }}</a></td>
     </tr>
     {% endfor %}
     </tbody>

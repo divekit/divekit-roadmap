@@ -31,7 +31,8 @@ layout: default
                 {% include /functions/get-globalid.html myArtefact=goal %}
                 <td><a href="{{ site.url }}{{ goal.url | relative_url }}">{{ globalId }}</a></td>
 
-                <td><a href="{{ site.url }}{{ goal.url | relative_url }}">{{ goal.title }}</a></td>
+                {% include /functions/get-artefact-name.html myArtefact=goal %}
+                <td><a href="{{ site.url }}{{ goal.url | relative_url }}">{{ artefactName }}</a></td>
             </tr>
         {% endfor %}
     </tbody>

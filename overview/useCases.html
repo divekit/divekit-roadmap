@@ -25,7 +25,8 @@ layout: default
     {% assign collection = site.useCases | sort: sortField %}
     {% for useCase in collection %}
     <tr>
-        <td><a href="{{ site.url }}{{ useCase.url | relative_url }}">{{ useCase.title }}</a></td>
+        {% include /functions/get-artefact-name.html myArtefact=useCase %}
+        <td><a href="{{ site.url }}{{ useCase.url | relative_url }}">{{ artefactName }}</a></td>
     </tr>
     {% endfor %}
     </tbody>

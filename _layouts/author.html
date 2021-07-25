@@ -69,8 +69,8 @@ layout: default
 
                 <td><a href='{{ site.url }}{{ item.url | relative_url }}'>{{ globalId }}</a></td>
 
-                {% assign sortField = artefactType[1].sortField | append: "" %}
-                <td><a href='{{ site.url }}{{item.url | relative_url }}'>{{ item[sortField] }} </a></td>
+                {% include /functions/get-artefact-name.html myArtefact=item %}
+                <td><a href='{{ site.url }}{{item.url | relative_url }}'>{{ artefactName }} </a></td>
 
                 {% include /functions/resolve-names.html myResponsible=item.responsible myExclude=page %}
                 <td>{{ responsibleString }}</td>

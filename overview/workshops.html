@@ -25,7 +25,8 @@ layout: default
     {% for workshop in collection %}
         <tr>
             <td>{{ workshop.acronym }}</td>
-            <td><a href="{{ site.url }}{{ workshop.url | relative_url }}">{{ workshop.goals }}</a></td>
+            {% include /functions/get-artefact-name.html myArtefact=workshop %}
+            <td><a href="{{ site.url }}{{ workshop.url | relative_url }}">{{ artefactName }}</a></td>
             <td>{{ workshop.date | date: '%B %d, %Y'}}</td>
         </tr>
         {% endfor %}
