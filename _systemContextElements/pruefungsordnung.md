@@ -1,6 +1,7 @@
 ---
 acronym: pruefungsordnung
-type: regulation 
+type: systemContextElement
+subtype: regulation 
 responsible:
     - tza
 mentionnedInSource: 

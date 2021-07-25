@@ -38,8 +38,7 @@ layout: default
                     todos=functionalRequirement.todo %}
             <td>{{ iconString }}</td>
 
-            {% include /functions/get-globalid.html myCollection=site.functionalRequirements
-                    myArtefact=functionalRequirement myType="functionalRequirement" %}
+            {% include /functions/get-globalid.html myArtefact=functionalRequirement  %}
             <td><a href="{{ site.url }}{{ functionalRequirement.url | relative_url }}">{{ globalId }}</a></td>
             <td><a href="{{ site.url }}{{ functionalRequirement.url | relative_url }}">{{ functionalRequirement.title }}</a></td>
 

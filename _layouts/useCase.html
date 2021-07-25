@@ -2,8 +2,7 @@
 layout: default
 ---
 
-{% include /functions/get-globalid.html
-        myCollection=site.useCases myArtefact=page myType="useCase" %}
+{% include /functions/get-globalid.html myArtefact=page %}
 <h1>Use Case »{{ page.title }}« ({{ globalId }})</h1>
 
 <dl>

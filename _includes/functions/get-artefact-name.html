@@ -1,0 +1,24 @@
+{% assign artefact = include.myArtefact %}
+{% assign withId = include.withId %}
+
+{% if artefact.type %}
+    {% assign type = artefact.type %}
+    {% assign artefactType = site.data.metadata[type] %}
+    {% assign prefix = artefactType.prefix %}
+    {% assign sortField = artefactType.sortField %}
+    {% comment %} -- append: "" makes it a real string, for whatever reason, doesn't work otherwise -- {% endcomment %}
+    {% assign collectionName = artefactType.collection | append: "" %}
+    {% assign collection = site[collectionName] | sort: sortField %}
+
+    {% assign index = 0 %}
+    {% for element in collection %}
+        {% if artefact.acronym == element.acronym %}
+            {% assign index = forloop.index %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+
+    {% assign globalId = index | prepend: "-" | prepend: prefix %}
+{% else %}
+    {% assign globalId = "XX-??" %}
+{% endif %}

@@ -7,7 +7,7 @@
 		{% assign foundGoals = site.goals | where:"acronym", goalRef %}
 		{% if foundGoals.size == 1 %}
 			{% assign goal = foundGoals[0] %}
-			{% include /functions/get-globalid.html myCollection=site.goals myArtefact=goal myType="goal" %}
+			{% include /functions/get-globalid.html myArtefact=goal %}
 			<dd><a href="{{ site.url }}{{ goal.url | relative_url }}">{{ goal.title }} ({{ globalId }})</a></dd>
 		{% endif %}
 	{% endfor %}

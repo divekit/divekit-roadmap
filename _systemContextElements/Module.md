@@ -1,6 +1,7 @@
 ---
 acronym: Module
-type: process
+type: systemContextElement
+subtype: process
 responsible:
     - psc
 mentionnedInSource: 

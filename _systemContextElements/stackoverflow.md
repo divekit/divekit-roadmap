@@ -1,6 +1,7 @@
 ---
 acronym: stackoverflow
-type: itsystem
+type: systemContextElement
+subtype: itsystem
 responsible:
     - psc
 mentionnedInSource: 

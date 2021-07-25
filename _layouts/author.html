@@ -26,17 +26,15 @@ layout: default
     </thead>
     <tbody>
 
-    {% assign errorList = "" | split: ";" %}
-    {% assign errorItemList = "" | split: ";" %}
-    {% assign errorIdList = "" | split: ";" %}
-    {% assign warningList = "" | split: ";" %}
-    {% assign warningItemList = "" | split: ";" %}
-    {% assign warningIdList = "" | split: ";" %}
-    {% assign todoList = "" | split: ";" %}
-    {% assign todoItemList = "" | split: ";" %}
-    {% assign todoIdList = "" | split: ";" %}
-
-{% assign mycounter = 0 %}
+    {% assign authorErrorList = "" | split: ";" %}
+    {% assign authorErrorItemList = "" | split: ";" %}
+    {% assign authorErrorIdList = "" | split: ";" %}
+    {% assign authorWarningList = "" | split: ";" %}
+    {% assign authorWarningItemList = "" | split: ";" %}
+    {% assign authorWarningIdList = "" | split: ";" %}
+    {% assign authorTodoList = "" | split: ";" %}
+    {% assign authorTodoItemList = "" | split: ";" %}
+    {% assign authorTodoIdList = "" | split: ";" %}
 
     {% for artefactType in site.data.metadata %}
         {% assign artefactTypeName = artefactType[0] %}
@@ -46,28 +44,25 @@ layout: default
         {% assign responsibleItems = collection | where_exp: "item", "item.responsible contains authorRef" %}
 
         {% for item in responsibleItems %}
-            {% include /functions/get-globalid.html myCollection=collection myArtefact=item myType=artefactTypeName %}
-{% assign mycounter = mycounter | plus: 1 %}
-{{mycounter }} - {{ globalId }} - {{ errorString }} <br/>
+            {% include /functions/get-globalid.html myArtefact=item %}
             </tr>
-                {% include /functions/checks/check-functionalRequirement.html myArtefact=item %}
-------------{{ errorString }} <br/>
+                {% include /functions/checks/check-general-artefact.html myArtefact=item %}
                 {% assign foundErrors = errorString | split: ";" %}
                 {% for issue in foundErrors %}
-                    {% assign errorList = errorList | push: issue %}
-                    {% assign errorItemList = errorItemList | push: item %}
-                    {% assign errorIdList = errorIdList | push: globalId %}
+                    {% assign authorErrorList = authorErrorList | push: issue %}
+                    {% assign authorErrorItemList = authorErrorItemList | push: item %}
+                    {% assign authorErrorIdList = authorErrorIdList | push: globalId %}
                 {% endfor %}
                 {% assign foundWarnings = warningString | split: ";" %}
                 {% for issue in foundWarnings %}
-                    {% assign warningList = warningList | push: issue %}
-                    {% assign warningItemList = warningItemList | push: item %}
-                    {% assign warningIdList = warningIdList | push: globalId %}
+                    {% assign authorWarningList = authorWarningList | push: issue %}
+                    {% assign authorWarningItemList = authorWarningItemList | push: item %}
+                    {% assign authorWarningIdList = authorWarningIdList | push: globalId %}
                 {% endfor %}
                 {% for issue in item.todo %}
-                    {% assign todoList = todoList | push: issue %}
-                    {% assign todoItemList = todoItemList | push: item %}
-                    {% assign todoIdList = todoIdList | push: globalId %}
+                    {% assign authorTodoList = authorTodoList | push: issue %}
+                    {% assign authorTodoItemList = authorTodoItemList | push: item %}
+                    {% assign authorTodoIdList = authorTodoIdList | push: globalId %}
                 {% endfor %}
                 {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=item.todo %}
                 <td>{{ iconString }}</td>
@@ -86,44 +81,12 @@ layout: default
 </table>
 
 
-<h2>Fehlermeldungen von {{ page.nickname }}</h2>
+{% include /functions/print-author-messages.html myType="error" myMsgList=authorErrorList
+        myIdList=authorErrorIdList  myItemList=authorErrorItemList myNickname=page.nickname %}
 
-{% if errorList.size > 0 %}
-    <table>
-        <thead>
-        <tr>
-            <th width="5%"></th>
-            <th width="60%">Fehlermeldung</th>
-            <th width="30%">Artefakt</th>
-        </tr>
-        </thead>
-        <tbody>
-        {% capture iconString %}<img src="{{ site.url }}{{ '/assets/alert-16.png' | relative_url }}" style="min-height: 16px; min-width: 16px;"/>{% endcapture %}
-        {% assign counterEnd = errorList.size | minus: 1 %}
-        {% for counter in (0..counterEnd) %}
-            {% assign item = errorItemList[counter] %}
-            {% assign id = errorIdList[counter] %}
-            {% assign msg = errorList[counter] %}
-            <tr>
-                <td>{{ iconString }}</td>
-                <td><a href="{{ site.url }}{{ item.url | relative_url }}">{{ msg }}</a></td>
-                <td><a href="{{ site.url }}{{ item.url | relative_url }}">{{ id }}</a></td>
-            </tr>
-        {% endfor %}
-        </tbody>
-    </table>
-{% else %}
-    <p>
-        Keine Fehlermeldungen.
-    </p>
-{% endif %}
+{% include /functions/print-author-messages.html myType="warning" myMsgList=authorWarningList
+        myIdList=authorWarningIdList  myItemList=authorWarningItemList myNickname=page.nickname %}
 
-
-<h2>Warnungen von {{ page.nickname }}</h2>
-
-tbd
-
-<h2>Todos von {{ page.nickname }}</h2>
-
-tbd
+{% include /functions/print-author-messages.html myType="todo" myMsgList=authorTodoList
+        myIdList=authorTodoIdList  myItemList=authorTodoItemList myNickname=page.nickname %}
 

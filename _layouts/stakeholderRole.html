@@ -2,8 +2,7 @@
 layout: default
 ---
 
-{% include /functions/get-globalid.html
-        myCollection=site.stakeholderRoles myArtefact=page myType="stakeholderRole" %}
+{% include /functions/get-globalid.html myArtefact=page %}
 <h1>Stakeholder-Rolle »{{ page.name }}« ({{ globalId }})</h1>
 
 <dl>
@@ -45,8 +44,7 @@ layout: default
         <dt>Datenerhebungen für diese Stakeholder-Rolle</dt>
         {% for interview in interviewList %}
             {% include /functions/get-interview-name.html myInterview=page %}
-            {% include /functions/get-globalid.html myCollection=site.interviews
-                    myArtefact=interview myType="interview" %}
+            {% include /functions/get-globalid.html myArtefact=interview %}
             <dd><a href="{{ site.url }}{{ interview.url | relative_url }}">{{ globalId }}: {{ interviewName }}</a></dd>
         {% endfor %}
         {% for surveyLink in surveyLinkList %}

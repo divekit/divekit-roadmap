@@ -1,7 +1,8 @@
 ---
 acronym: CIPipeline
 title: Continuous Integration Pipeline
-type: itsystem 
+type: systemContextElement
+subtype: itsystem 
 responsible:
     - kru
     - ako

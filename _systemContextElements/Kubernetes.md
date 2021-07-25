@@ -1,6 +1,7 @@
 ---
 acronym: Kubernetes
-type: itsystem
+type: systemContextElement
+subtype: itsystem
 responsible:
     - jlü
 mentionnedInSource: 

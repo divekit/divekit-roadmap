@@ -1,6 +1,7 @@
 ---
 acronym: Git
-type: itsystem
+type: systemContextElement
+subtype: itsystem
 responsible:
     - jlü
 mentionnedInSource: 

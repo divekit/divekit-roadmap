@@ -1,6 +1,7 @@
 ---
 acronym: GoogleCloud
-type: itsystem
+type: systemContextElement
+subtype: itsystem
 responsible:
     - jlü
 mentionnedInSource: 

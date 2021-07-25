@@ -1,6 +1,7 @@
 ---
 acronym: Praktikumstool     
-type: itsystem
+type: systemContextElement
+subtype: itsystem
 responsible:
     - ngi
     - fgr

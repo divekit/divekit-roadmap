@@ -1,17 +1,32 @@
 {% assign artefact = include.myArtefact %}
-{% assign collection = include.myCollection %}
-{% assign type = include.myType %}
 
-{% assign prefix = site.data.metadata[type].prefix %}
-{% assign sortField = site.data.metadata[artefact.type].sortField %}
-{% assign collection = collection | sort: sortField %}
+{% assign type = artefact.type  %}
+{% assign typeMetadata = site.data.metadata[type] %}
 
-{% assign index = 0 %}
-{% for element in collection %}
-    {% if artefact.acronym == element.acronym %}
-        {% assign index = forloop.index %}
-        {% break %}
+{% if typeMetadata %}
+    {% assign prefix = typeMetadata.prefix %}
+    {% assign sortField = typeMetadata.sortField %}
+    {%- comment -%} -- append: "" makes it a real string, for whatever reason, doesn't work otherwise -- {%- endcomment -%}
+    {% assign collectionName = typeMetadata.collection | append: "" %}
+    {% assign collection = site[collectionName] %}
+
+    {% if collection %}
+        {% assign collection = site[collectionName] | sort: sortField %}
+    {% else %}
+        {% assign collection = "" | split: ";" %}
     {% endif %}
-{% endfor %}
 
-{% assign globalId = index | prepend: "-" | prepend: prefix %}
+    {% assign index = 0 %}
+    {% for element in collection %}
+        {% if artefact.acronym == element.acronym %}
+            {% assign index = forloop.index %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+
+
+
+    {% assign globalId = index | prepend: "-" | prepend: prefix %}
+{% else %}
+    {% assign globalId = "XX-??" %}
+{% endif %}

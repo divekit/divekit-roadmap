@@ -23,8 +23,8 @@ layout: default
     {% assign collection = site.systemContextElements | sort: sortField %}
     {% for systemContextElement in collection %}
     <tr>
-        <td><a href="{{ site.url }}{{ context.url | relative_url }}">{{ context.acronym }}</td>
-        <td>{{ context.type }}</a></td>
+        <td><a href="{{ site.url }}{{ systemContextElement.url | relative_url }}">{{ systemContextElement.acronym }}</a></td>
+        <td><a href="{{ site.url }}{{ systemContextElement.url | relative_url }}">{{ systemContextElement.type }}</a></td>
     </tr>
     {% endfor %}
     </tbody>
