@@ -2,8 +2,6 @@
 type: goal
 acronym: aufgabentypenIndividual
 responsible: 
-    - fkr
-    - sbe
     - hbu
 title: Einfache Individualisierung von Aufgaben
 source: 

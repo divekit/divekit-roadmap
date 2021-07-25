@@ -10,6 +10,18 @@ layout: default
     {% include /functions/resolve-names.html myResponsible=page.responsible %}
     <dd>{{ responsibleString }}</dd>
 
+    {% if page.partOfLargerGoal %}
+        <dt>Teil des übergreifenden Ziels ...</dt>
+        {% include /functions/get-link-to-artefact.html myRef=page.partOfLargerGoal myTypeString="goal"
+                myIdFormat="prefix" %}
+        <dd>{{ artefactLink }}</dd>
+    {% endif %}
+
+    <dt>Quellen</dt>
+    {% for source in page.source %}
+        <dd>{{ source }}</dd>
+    {% endfor %}
+
     {% include /functions/print-history.html myArtefact=page %}
 
     {% include /functions/checks/check-goal.html myArtefact=page %}
