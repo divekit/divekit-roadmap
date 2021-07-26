@@ -1,10 +1,11 @@
 ---
 acronym: zoom
-type: itsystem
+type: systemContextElement
+subtype: itsystem
 responsible:
     - jsp
-mentionnedInSource: 
-    - Interview nnProf1
+source:
+    - [Interview, nnProf1, Minute 00-03-17]
     - [interview, nnWMA4, Minute 00-38-26]
 history:
     v1:
@@ -16,6 +17,9 @@ history:
     v3:
         date: 2021-07-03
         comment: Added missing acronym
+    v4:
+        date: 2021-07-24
+        comment: update mentionnedInSource
 
 todo:
 ---

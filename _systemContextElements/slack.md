@@ -1,9 +1,10 @@
 ---
 acronym: Slack
-type: itsystem
+type: systemContextElement
+subtype: itsystem
 responsible:
     - jsp
-mentionnedInSource: 
+source:
     - Interview nnProf1
     - [interview, nnWMA4, Minute 00-38-26]
 history:

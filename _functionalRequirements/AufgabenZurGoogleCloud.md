@@ -9,7 +9,7 @@ goals:
     - aufgabentypenIndividual
     - entlastungKorrektur
 source:
-    - [interview, nnProf3]
+    - [Interview, nnProf3, 00-00-21]
 implementationStatus: open
 prefilterPriorizationPoints: 1
 history:

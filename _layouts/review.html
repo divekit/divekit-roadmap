@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+{% include /functions/get-artefact-name.html myArtefact=page myIdFormat="postfixWithBrackets" %}
+<h1>Formales Review {{ artefactName }}</h1>
+
+<dl>
+    {% include /functions/print-history.html myArtefact=page %}
+
+    {% include /functions/checks/check-review.html myArtefact=page %}
+    {% include /functions/print-detailed-check-messages.html errors=errorString warnings=warningString todos=page.todo %}
+</dl>
+
+
+{{ page.content }}

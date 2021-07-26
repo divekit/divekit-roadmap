@@ -1,0 +1,26 @@
+{% assign artefact = include.myArtefact %}
+{% assign errorString = include.myErrorString %}
+{% assign warningString = include.myWarningString %}
+
+{% assign errorList = errorString | split: ";" %}
+{% assign warningList = warningString | split: ";" %}
+
+
+{% comment %} ***** Error/Warning Numbers 090 - 109 reserved for source ref issues **** {% endcomment %}
+
+{% if artefact.source %}
+	{% if artefact.source.size == 0 %}
+		{% include /functions/define-message.html ignore=artefact.ignore msgno="e090"
+				msg="Es muss mindestens eine Quelle (source) angegeben werden!" %}
+		{% assign errorList = errorList | push: out_msg %}
+	{% else %}
+		{% comment %} ***** todo auf valid Goals checken **** {% endcomment %}
+	{% endif %}
+{% else %}
+	{% include /functions/define-message.html ignore=artefact.ignore msgno="e090"
+			msg="Es muss mindestens eine Quelle (source) angegeben werden!" %}
+	{% assign errorList = errorList | push: out_msg %}
+{% endif %}
+
+{% assign errorString = errorList | join: ";" %}
+{% assign warningString = warningList | join: ";" %}

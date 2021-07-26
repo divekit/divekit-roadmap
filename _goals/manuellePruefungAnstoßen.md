@@ -5,14 +5,17 @@ responsible:
     - jsp
 title: Manuelle Prüfung anstoßen
 source:
-    - Workshop 6-3-5-No.1
+    - [Workshop, Workshop 6-3-5-No.1, Schwerpunkt Interface No.6]
 history:
     v1:
         date: 2021-07-06
         comment: initially created
+    v2:
+        date: 2021-07-24
+        comment: fix todo
 
 todo:
-    - Quellformat auf [..., ..., ...] anpassen
+
 ---
 
 ## Beschreibung

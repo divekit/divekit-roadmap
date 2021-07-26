@@ -1,60 +1,95 @@
 functionalRequirement:
+    fullName: "Funktionale Anforderung"
     sortField: "title"
     prefix: "FR"
+    collection: "functionalRequirements"
 goal:
+    fullName: "Ziel"
     sortField: "title"
     prefix: "GO"
+    collection: "goals"
 interview:
+    fullName: "Interview"
     sortField: "date"
     prefix: "INT"
+    collection: "interviews"
 literatureReference:
+    fullName: "Literaturverweis"
     sortField: "title"
     prefix: "LIT"
+    collection: "literatureReferences"
 nonFunctionalRequirement:
+    fullName: "Nicht-funktionale Anforderung"
     sortField: "title"
     prefix: "NFR"
+    collection: "nonFunctionalRequirements"
 persona:
+    fullName: "Persona"
     sortField: "name"
-    prefix: "PERS"
+    prefix: "PRS"
+    collection: "personas"
     stakeholderRoleRef:
         asString: "stakeholderRole"
+review:
+    fullName: "Formales Review"
+    sortField: "referencedType"
+    prefix: "RV"
+    collection: "reviews"
 scenario:
+    fullName: "Szenario"
     sortField: "title"
-    prefix: "SCEN"
+    prefix: "SCN"
+    collection: "scenarios"
     stakeholderRoleRef:
         asString: "stakeholderRole"
 stakeholder:
+    fullName: "Stakeholder"
     sortField: "name"
-    prefix: "STK"
+    prefix: "ST"
+    collection: "stakeholders"
     stakeholderRoleRef:
         asList: "stakeholderRole"
 stakeholderRole:
+    fullName: "Stakeholder-Rolle"
     sortField: "name"
-    prefix: "STRO"
+    prefix: "STR"
+    collection: "stakeholderRoles"
 survey:
+    fullName: "Umfrage"
     sortField: "subject"
     prefix: "SV"
+    collection: "surveys"
     stakeholderRoleRef:
         asString: "stakeholderRole"
 systemContextElement:
+    fullName: "Systemkontex-Element"
     sortField: "title"
-    prefix: "SYCO"
+    prefix: "SYC"
+    collection: "systemContextElements"
 useCase:
+    fullName: "Use Case"
     sortField: "title"
     prefix: "UC"
+    collection: "useCases"
     stakeholderRoleRef:
         asString: "primaryActor"
         asList: "secondaryActors"
 useCaseDiagram:
+    fullName: "Use-Case-Diagramm"
     sortField: "title"
-    prefix: "UCDIA"
+    prefix: "UCD"
+    collection: "useCaseDiagrams"
 userStory:
+    fullName: "User Story"
     sortField: "title"
     prefix: "US"
+    collection: "userStories"
     stakeholderRoleRef:
         asString: "asA"
 workshop:
+    fullName: "Workshop"
     sortField: "goal"
     prefix: "WS"
+    collection: "workshops"
     stakeholderRoleRef:
         asString: "stakeholderRole"

@@ -1,7 +1,7 @@
 ---
 type: persona
 acronym: cwolke
-stakeholderRole: wmaInf
+stakeholderRole: wmaAutonomousLecturerInf
 responsible:
     - ngi
 name: Christian Wolke

@@ -1,10 +1,11 @@
 ---
 acronym: E-Assasment-Tool     
-type: itsystem
+type: systemContextElement
+subtype: itsystem
 responsible:
     - fgr
     - ngi
-mentionnedInSource: 
+source:
     - nnWMA2_transkript.md
 history:
     v1:

@@ -9,7 +9,7 @@ name: anonym
 anonymous: true
 stakeholderRole: 
     - wmaProg
-    - wmaInf
+    - wmaAutonomousLecturerInf
     - wmaDev
 relationshipToProject: >
     Potentieller Nutzer in der Lehre und Entwickler von Erweiterungen

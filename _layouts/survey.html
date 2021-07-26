@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<!-- {% include /functions/get-status-infos.html mydecision=page %} -->
-<h1>{{ page.subject }}</h1>
+{% include /functions/get-artefact-name.html myArtefact=page myIdFormat="postfixWithBrackets" %}
+<h1>Umfrage {{ artefactName }}</h1>
 
 <dl>
     <dt>Acronym</dt>
@@ -34,7 +34,7 @@ layout: default
     {% endif %}
 
     <dt>Responsible</dt>
-    <dd>{% include /functions/resolve-names.html my_responsible=page.responsible %}{{ responsibleString }}</dd>
+    <dd>{% include /functions/resolve-names.html myResponsible=page.responsible %}{{ responsibleString }}</dd>
 
 
     <dt>History</dt>

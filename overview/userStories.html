@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<h1>User Stories</h1>
+
+<p>
+    Agile Anforderungen werden (anders als bei der dokumentenzentrierten Anfoderungsermittlung, die auf einem Wasserfall-Entwicklungsprozess abgestimmt ist) zunächst nur grob festgehalten. Eine detaillierte Spezifikation erfolgt erst unmittelbar vor der Implementierung, dann in der Regel als user Stories.
+</p>
+
+<p>
+    Im Folgenden werden die erarbeiteten User Stories auf Basis der priorisierten funktionalen Anforderungen aufgeführt.
+</p>
+
+<table>
+    <thead>
+    <tr>
+        <th width="100%">Titel</th>
+
+
+    </tr>
+    </thead>
+    <tbody>
+    {% assign sortField = site.data.metadata["userStories"].sortField %}
+    {% assign collection = site.userStories | sort: sortField %}
+    {% for userStory in collection %}
+    <tr>
+        {% include /functions/get-artefact-name.html myArtefact=userStory %}
+        <td><a href="{{ site.url }}{{ userStory.url | relative_url }}">{{ artefactName }}</a></td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>

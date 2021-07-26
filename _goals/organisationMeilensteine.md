@@ -3,19 +3,19 @@ type: goal
 acronym: organisationMeilensteine
 responsible:
     - jlü
-title: Das Divekit soll meilensteine anbieten, zwischen denen gewechselt werden kann
+title: Wechseln zwischen Meilensteinen
 source:
-    - Beobachtungstagebuch
+    - [Beobachtungstagebuch, FH1]
 partOfLargerGoal: organisation
 history:
     v1:
         date: 2021-06-16
         comment: initially created
+    v2: 
+        date: 2021-07-21
+        comment: rename Title, spelling, update source 
 
-todo: 
-    - Quelle an das Format [..., ..., ...] anpassen 
-    - Titel kürzen
-    - Rechtscheib- und Grammatikfehler beheben
+todo:
 ---
 
 ## Beschreibung
@@ -24,4 +24,4 @@ Die Aufgaben sollen in Meilensteine unterteilt sein. Auch ein Wechseln zwischen 
 
 ## Begründung
 
-Die Studierenden wünschen sich Meilensteine in den Aufgaben, zwischen denen gewechselt werden kann. 
+Die Studierenden wünschen sich Meilensteine, zwischen denen gewechselt werden kann. 

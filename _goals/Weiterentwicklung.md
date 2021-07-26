@@ -6,15 +6,12 @@ responsible:
     - ngi
 title: Weiterentwicklung des Divekit
 source: 
-    - Interview n.n. WMA  50-45
+    - [Interview nnWMA]
 partOfLargerGoal: 
 history:
     v1:
         date: 2021-06-16
         comment: initially created
-
-todo: 
-    - Quelle an das Format [..., ..., ...] anpassen 
 ---
 
 ## Beschreibung

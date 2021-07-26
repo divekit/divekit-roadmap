@@ -1,12 +1,13 @@
 ---
 acronym: ilias
-type: itsystem
+type: systemContextElement
+subtype: itsystem
 responsible:
     - jsp
     - psc
     - duz
-mentionnedInSource: 
-    - Interview nnProf1
+source:
+    - [Interview, nnProf1, Minute 00-01-40]
     - [Interview, mengelen, Minute 00-03-47]
     - [Interview, mengelen, Minute 00-11-29]
     - [Interview, mengelen, Minute 00-14-46]
@@ -24,6 +25,9 @@ history:
     v4:
         date: 2021-07-08
         comment: Timestamps mengelen ergänzt
+    v5:
+        date: 2021-07-24
+        comment: update mentionnedInSource
 
 todo:
 ---

@@ -1,15 +1,16 @@
 ---
 type: useCaseDiagram
 acronym: useCaseDiagramFehlermeldungAussagekraeftig
-useCases:
-    - Aufgabe_testen
-    - Prüfungsstatus_abrufen
-    - Divekit-Team_benachrichtigen 
 responsible: 
     - cpo
 title: Use Case Diagram Aussagekräftige Fehlermeldung
-funcionalRequirement: 
-    - FehlermeldungAussagekraeftig
+functionalRequirement: FehlermeldungAussagekraeftig
+useCases:
+    - Prüfungsstatus abrufen
+    - Divekit-Team benachrichtigen 
+useCasesDetailedWithScenario:
+    - UCaufgabeTesten 
+diagram: ./diagrams/useCaseAussagekräftigeFehlermeldung.jpg
 history:
     v1:
         date: 2021-07-18
@@ -21,7 +22,6 @@ history:
         date: 2021-07-19
         comment: added wmaProg as actor 
 todo: 
-    - 
 ---
 
 ## Beschreibung
@@ -37,9 +37,5 @@ Prüfung vom System nicht durchführbar ist, wird hier der Systemfehler kommuniz
 
 Wenn so ein Fehler auftritt, kann der Nutzer sofort einen Bug-Report rausschicken, der an die Entwickler vom Divekit
 gesendet wird. 
-
-## Diagram
-
-![useCaseDiagramFehlermeldungAussagekraeftig](./diagrams/useCaseAussagekräftigeFehlermeldung.jpg)
 
 

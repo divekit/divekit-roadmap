@@ -1,9 +1,10 @@
 ---
 acronym: iliasForum
-type: itsystem
+type: systemContextElement
+subtype: itsystem
 responsible:
     - kru
-mentionnedInSource: 
+source:
     - [interview, nnWMA4, Minute 00-38-26]
 history:
     v1:

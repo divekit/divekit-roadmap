@@ -2,24 +2,28 @@
 layout: default
 ---
 
-{% include /functions/get-globalid.html
-        myCollection=site.functionalRequirements myArtefact=page myType="functionalRequirement" %}
-<h1>Funktionale Anforderung »{{ page.title }}« ({{ globalId }})</h1>
+{% include /functions/get-artefact-name.html myArtefact=page myIdFormat="postfixWithBrackets" %}
+<h1>Funktionale Anforderung {{ artefactName }}</h1>
 
 <dl>
     <dt>Autor(en)</dt>
-    {% include /functions/resolve-names.html my_responsible=page.responsible %}
+    {% include /functions/resolve-names.html myResponsible=page.responsible %}
     <dd>{{ responsibleString }}</dd>
 
     <dt>Zahlt ein auf Ziel(e)</dt>
-    {% include /functions/print-goalrefs-as-links.html myArtefact=page %}
+    {% if page.goals %}
+        {% for goalRef in page.goals %}
+            {% include /functions/get-link-to-artefact.html myRef=goalRef myTypeString="goal" myIdFormat="prefix" %}
+            <dd>{{ artefactLink }}</dd>
+        {% endfor %}
+    {% endif %}
 
     <dt>Implementierungs-Status</dt>
     {% include /functions/get-implementation-status.html my_requirement=page %}
     <dd>{{ implementationStatus }}</dd>
 
     <dt>Kano-Typ</dt>
-    {% include /functions/get-kano-type.html my_requirement=page %}
+    {% include /functions/get-kano-type.html myRequirement=page %}
     <dd>{{ kanoType }} </dd>
     <dt>Begründung für Kano-Typ</dt>
     <dd>{{ kanoReasoning }}</dd>
@@ -29,9 +33,7 @@ layout: default
 
     {% include /functions/print-history.html myArtefact=page %}
 
-    {% include /functions/checks/check-generic-aspects.html myArtefact=page myErrorString="" myWarningString="" %}
-    {% include /functions/checks/check-goal-refs.html myArtefact=page myErrorString=errorString myWarningString=warningString %}
-    {% include /functions/checks/check-functionalRequirement.html myArtefact=page myErrorString=errorString myWarningString=warningString %}
+    {% include /functions/checks/check-functionalRequirement.html myArtefact=page %}
     {% include /functions/print-detailed-check-messages.html errors=errorString warnings=warningString todos=page.todo %}
 </dl>
 

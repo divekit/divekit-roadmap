@@ -10,8 +10,9 @@ history:
     v1:
         date: 2021-06-22
         comment: initially created 
-todo: 
-    - deutlich machen, dass das eine Teil-Rolle ist - WMAs werden das nicht ausschließlich tun (SB)
+    v2: 
+        date: 2021-07-20
+        comment: specified role as possible sub role
 ---
 
 ## Rollenbeschreibung
@@ -23,5 +24,7 @@ Seine typischen Aufgaben umfassen:
 * Implementierung von Schnittstellen
 * Integration von Feedback
 * Neuentwicklung benötigter Tools
+
+Diese Rolle ist eine Teilrolle, da wissenschaftlichen Mitarbeitern (WMAs) meist ein breiteres Aufgabenfeld als die Weiterentwicklung von Software für die Hochschule zugeordnet ist. 
 
 

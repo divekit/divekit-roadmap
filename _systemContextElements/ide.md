@@ -1,16 +1,22 @@
 ---
 acronym: ide
-type: itsystem
+type: systemContextElement
+subtype: itsystem
 responsible:
     - ako
     - kru
     - duz
-mentionnedInSource: 
-    - [interview, ckohls, Minute 00-00-22]   
+    - jlü
+source:
+    - [interview, ckohls, Minute 00-00-22] 
+    - [Interview, nnProf3, 00-06-49]
 history:
     v1:
         date: 2021-07-03
         comment: initially created
+    v2:
+        date: 2021-07-26
+        comment: add source
 todo:
 ---
 

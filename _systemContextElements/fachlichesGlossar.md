@@ -1,11 +1,12 @@
 ---
 acronym: fachlichesGlossar
-type: regulation 
+type: systemContextElement
+subtype: regulation 
 responsible:
     - kru
     - ako
     - duz
-mentionnedInSource:
+source:
     - [interview, sbente, Minute 00-18-07]
 history:
     v1:

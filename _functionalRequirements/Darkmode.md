@@ -6,7 +6,7 @@ responsible:
     - ngi
 title: Anbieten eines Darkmode 
 goals: 
-    -
+    - nutzerPraeferenzDesign
 source:
     - [sources/Ergebnisse_6-3-5-Methode-Workshop_Gruppe1.md]
 implementationStatus: open
@@ -23,8 +23,9 @@ history:
     v2:
         date: 2021-07-12
         comment: added kano classification
-todo:
-    - Ziel fehlt
+    v3: 
+        date: 2021-07-20
+        comment: added goal
 ---
 
 Das DiveKit soll für seine graphische Oberflächen für alle Nutzer die Option eines Darkmodes anbieten.

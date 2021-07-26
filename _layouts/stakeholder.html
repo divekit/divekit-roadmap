@@ -2,14 +2,8 @@
 layout: default
 ---
 
-{% include /functions/get-globalid.html
-        myCollection=site.stakeholders myArtefact=page myType="stakeholder" %}
-{% if page.subtype == "group" %}
-    {% assign artefactString = "Stakeholder-Gruppe" %}
-{% else %}
-    {% assign artefactString = "Stakeholder" %}
-{% endif %}
-<h1>{{ artefactString }} »{{ page.name }}« ({{ globalId }})</h1>
+{% include /functions/get-artefact-name.html myArtefact=page myIdFormat="postfixWithBrackets" %}
+<h1>Stakeholder {{ artefactName }}</h1>
 
 {% if page.anonymous %}
     <p>
@@ -19,13 +13,13 @@ layout: default
 
 <dl>
     <dt>Autor(en)</dt>
-    {% include /functions/resolve-names.html my_responsible=page.responsible %}
+    {% include /functions/resolve-names.html myResponsible=page.responsible %}
     <dd>{{ responsibleString }}</dd>
 
-    <dt>Stakeholder-Rolle</dt>
+    <dt>Stakeholder-Rolle, zu der dieser Stakeholder gehört</dt>
     {% for shr in page.stakeholderRole %}
-        {% include /functions/get-link-to-stakeholder-role.html myRoleAcronym=shr withId=true%}
-        <dd>{{ stakeholderRoleLink }}</dd>
+        {% include /functions/get-link-to-artefact.html myRef=shr myTypeString="stakeholderRole" myIdFormat="prefix" %}
+        <dd>{{ artefactLink }}</dd>
     {% endfor %}
 
 
@@ -36,18 +30,14 @@ layout: default
     {% if interviews.size > 0 %}
         <dt>Interview</dt>
         {% for interview in interviews %}
-            {% include /functions/get-interview-name.html myInterview=page %}
-            <dd><a href="{{ site.url }}{{ interview.url | relative_url }}">{{ interviewName }}</a></dd>
+            {% include /functions/get-artefact-name.html myArtefact=interview myIdFormat="prefix" %}
+            <dd><a href="{{ site.url }}{{ interview.url | relative_url }}">{{ artefactName }}</a></dd>
         {% endfor %}
     {% endif %}
 
     {% include /functions/print-history.html myArtefact=page %}
 
-    {% include /functions/checks/check-generic-aspects.html myArtefact=page myErrorString="" myWarningString="" %}
-    {% assign stakeholderRoleRef = page.stakeholderRole %}
-    {% include /functions/checks/check-stakeholderRole-refs.html myStakeholderRoleRef=stakeholderRoleRef
-            myAsList=true myPurpose="Stakeholder-Rolle" myErrorString=errorString myWarningString=warningString %}
-    {% include /functions/checks/check-stakeholder.html myArtefact=page  myErrorString=errorString myWarningString=warningString %}
+    {% include /functions/checks/check-stakeholder.html myArtefact=page %}
     {% include /functions/print-detailed-check-messages.html errors=errorString warnings=warningString todos=page.todo %}
 </dl>
 

@@ -8,13 +8,12 @@ description: Das System schlägt dem Nutzer ein Tutorial in Form eines Videos vo
 primaryActor: profInf
 secondaryActors:
     - profBwl
-    - wmaInf
+    - wmaAutonomousLecturerInf
     - wmaProg
 trigger: Nutzer ruft einen Teil des Systems zum ersten Mal auf
 precondition: Nutzer ist eingeloggt und "hat Funktion bereits benutzt" flag steht auf "nein"
 postcondition: Nutzer ist mit Nutzung vertraut
-funcionalRequirements: 
-    - SchnellerLernprozess
+functionalRequirement: SchnellerLernprozess
 history:
     v1:
         date: 2021-07-17

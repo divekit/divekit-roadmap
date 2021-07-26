@@ -30,7 +30,7 @@
     {% assign acronymList = acronymList | push: item.acronym %}
     {% assign itemName = item[sortField] %}
     {% if withID %}
-        {% include /functions/get-globalid.html myCollection=collection myArtefact=item myType=type %}
+        {% include /functions/get-globalid.html myArtefact=item %}
         {% assign itemName = globalId | append: ": " | append: itemName %}
     {% endif %}
     {% capture link %}<a href="{{ site.url }}{{ item.url | relative_url }}">{{ itemName }}</a>{% endcapture %}

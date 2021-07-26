@@ -11,8 +11,8 @@ scenarioTypes:
 responsible:
     - mwi
 source:
-    - [interview, nnProf1, Minute 00:04:56]
-    - [interview, nnProf1, Minute 00:23:32]
+    - [interview, nnProf1, Minute 00-04-56]
+    - [interview, nnProf1, Minute 00-23-32]
 history:
     v1:
         date: 2021-06-27
