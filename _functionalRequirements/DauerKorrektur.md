@@ -24,6 +24,7 @@ history:
 
 todo:
     - Was genau ist "die Korrektur der Aufgaben"? Bitte präzisieren.
+    - bitte den Systemnamen verwenden -> Das DiveKit; siehe Template(jlü)
 ---
 
 Das System sollte in der Lage sein Studierenden anzuzeigen, wie lange die Korrektur der Aufgaben dauert bzw. welchen Stand die Korrektur gerade hat.

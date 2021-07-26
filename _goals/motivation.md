@@ -16,19 +16,22 @@ history:
     v2:
         date: 2021-07-03
         comment: added description and explanation
+    v3:
+        date: 2021-07-26
+        comment: updated subgoal links
+
 
 todo: 
-    - Verlinkung der Subziele anpassen
 ---
 
 ## Beschreibung
 
 Die Studiernden sollen bei ihrer Arbeit motiviert werden. Motivation ist hierbei als Kollektivum (Sammelbegriff) zu betrachten, da es viele voneinander unabhängige Formen der Motivation gibt:
 
-* [Allgemeiner Lerndruck](./motivationLerndruck.md)
-* [Extrinsische Motivation durch Bonuspunkte o. Ä.](./motivationExtrinsisch.md)
-* [Intrinsische Motivation durch Gamification o. Ä.](./motivationIntrinsisch.md)
-* [Motivation durch Übung](./motivationCodingAnteil.md)
+* [Allgemeiner Lerndruck](https://divekit.github.io/divekit-roadmap/goals/motivationLerndruck.html)
+* [Extrinsische Motivation durch Bonuspunkte o. Ä.](https://divekit.github.io/divekit-roadmap/goals/motivationExtrinsisch.html)
+* [Intrinsische Motivation durch Gamification o. Ä.](https://divekit.github.io/divekit-roadmap/goals/motivationIntrinsisch.html)
+* [Motivation durch Übung](https://divekit.github.io/divekit-roadmap/goals/motivationCodingAnteil.html)
 
 ## Begründung
 

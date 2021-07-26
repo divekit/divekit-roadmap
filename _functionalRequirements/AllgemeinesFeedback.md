@@ -38,6 +38,7 @@ history:
         date: 2021-07-16
         comment: Added goals
 todo:
+    - bitte den Systemnamen verwenden -> Das DiveKit; siehe Template(jlü)
 ---
 
 Das System muss in der Lage sein dem Studierenden zu nicht bestandenen Tests und auch bestandenen Tests Feedback zu geben.

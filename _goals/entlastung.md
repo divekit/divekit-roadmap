@@ -21,6 +21,9 @@ history:
     v3:
         date: 2021-07-22
         comment: Teilziele verlinkt
+    v4:
+        date: 2021-07-22
+        comment: updated subgoal links
 
 todo:
 ---
@@ -32,11 +35,11 @@ Der Mitarbeiter möchte entlastet werden.
 
 Dieses Ziel ist ein Oberziel von:
 
-* [Entlastung bei Aufgabenerstellung](./entlastungAufgabenerstellung.md)
-* [Vollautomatische Korrektur](./entlastungAutoSystem.md)
-* [Automatische Korretkur](./entlastungKorrektur.md)
-* [Qualitative Unterstützung bei Auswertung](./entlastungQualitativ.md)
-* [Teilkorrektur](./entlastungTeilkorrektur.md)
+* [Entlastung bei Aufgabenerstellung](https://divekit.github.io/divekit-roadmap/goals/entlastungAufgabenerstellung.html)
+* [Vollautomatische Korrektur](https://divekit.github.io/divekit-roadmap/goals/entlastungAutoSystem.html)
+* [Automatische Korretkur](https://divekit.github.io/divekit-roadmap/goals/entlastungKorrektur.html)
+* [Qualitative Unterstützung bei Auswertung](https://divekit.github.io/divekit-roadmap/goals/entlastungQualitativ.html)
+* [Teilkorrektur](https://divekit.github.io/divekit-roadmap/goals/entlastungTeilkorrektur.html)
 
 ## Begründung
 

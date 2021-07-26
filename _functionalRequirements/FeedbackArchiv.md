@@ -25,10 +25,14 @@ history:
     v3:
         date: 2021-07-16
         comment: Modified responsibles as discussed
+    v4:
+        date: 2021-07-26
+        comment: changed system name
+
 todo:
 ---
 
-Das System sollte in der Lage sein den Studierenden ein Feedback-Archiv zur Verfügung zu stellen.
+Das DiveKit sollte in der Lage sein den Studierenden ein Feedback-Archiv zur Verfügung zu stellen.
 
 ## Begründung
 
