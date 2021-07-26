@@ -17,7 +17,6 @@ history:
         date: 2021-06-15
         comment: added transkript, fixed page number
 todo: 
-    - Format anpassen
 ---
 ## Interviewleitfaden
 [siehe MA Jann Intveen](https://divekit.github.io/divekit-roadmap/sources/Masterarbeit%20Jann%20Intveen%20final.pdf) s.93
