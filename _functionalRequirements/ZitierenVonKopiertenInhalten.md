@@ -16,6 +16,7 @@ history:
         comment: initially created
 todo: 
     - ... aber das wäre doch ein Plagiat ...? Ist dann ein Meilenstein bestanden, wenn so eine Kopie drin ist? Anforderung ist mir etwas unklar. Nein, das ist nur ein Plagiat, wenn es nicht kenntlich gemacht wird. Sonst ist es Teil des Zitiersystems unter Studierenden, welches im Goal definiert ist.
+    - bitte den Systemnamen verwenden -> Das DiveKit; siehe Template(jlü)
 ---
 
 ## Beschreibung

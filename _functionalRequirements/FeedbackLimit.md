@@ -27,7 +27,7 @@ history:
         comment: Kano Klassifizierung hinzugefügt
 
 todo:
-
+    - bitte den Systemnamen verwenden -> Das DiveKit; siehe Template(jlü)
 ---
 
 Das System soll die Möglichkeit bieten eine Obergrenze für die Anzahl von Feedback-Anfragen zu setzen.

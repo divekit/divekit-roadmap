@@ -23,6 +23,7 @@ history:
         comment: Modified responsibles as discussed
 
 todo:
+    - bitte den Systemnamen verwenden -> Das DiveKit; siehe Template(jlü)
 ---
 
 Das System sollte Usern die Möglichkeit bieten das Design des Systems individuell festlegen zu können.

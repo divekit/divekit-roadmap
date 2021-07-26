@@ -25,7 +25,7 @@ history:
 todo:
     - Bitte ergänzen - wem? Übersicht mit was?
     - Sources fehlen
-
+    - bitte den Systemnamen verwenden -> Das DiveKit; siehe Template(jlü)
 ---
 
 Am Ende eines Praktikummeilensteins muss das System eine Übersicht über die Ergebnisse bereitstellen.

@@ -23,6 +23,7 @@ history:
         comment: Modified responsibles as discussed
 
 todo:
+    - bitte den Systemnamen verwenden -> Das DiveKit; siehe Template(jlü)
 ---
 
 Das System muss in der Lage sein die Ergebnisse eines Tests auf der gleichen Seite und nicht auf einer extra Seite anzeigen zu können.

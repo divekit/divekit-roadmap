@@ -26,6 +26,7 @@ history:
         comment: New description to match goal and solve todo
 
 todo:
+    - bitte den Systemnamen verwenden -> Das DiveKit; siehe Template(jlü)
 ---
 
 Das System muss Fehler von Studierenden in einer so verständlichen und anfängerfreundlichen Art und Weise ausgeben, wie möglich.

@@ -18,8 +18,9 @@ history:
     v2:
         date: 2021-07-15
         comment: implementationStatus geändert. Es existiert bereits eine integration mit UMLet
-todo:
 
+todo:
+    - bitte den Systemnamen verwenden -> Das DiveKit; siehe Template(jlü)
 ---
 
 Um UML-basierte Aufgaben zu bearbeiten, soll das System fähig sein mit einer UMLet extension zusammenzuarbeiten.

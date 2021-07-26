@@ -21,6 +21,7 @@ history:
         comment: Fixed goales
 
 todo: 
+    - bitte den Systemnamen verwenden -> Das DiveKit; siehe Template(jlü) 
 ---
 
 Das System muss konsistente Aufgabentexte und Geschichten produzieren.

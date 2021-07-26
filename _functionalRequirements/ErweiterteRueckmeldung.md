@@ -21,7 +21,9 @@ history:
     v3:
         date: 2021-07-16
         comment: Modified responsibles as discussed
+
 todo:
+    - bitte den Systemnamen verwenden -> Das DiveKit; siehe Template(jlü)
 ---
 
 Das System sollte in der Lage sein eine visuelle und/oder textuelle Rückmeldung nach der Prüfung der Tests zu geben.
