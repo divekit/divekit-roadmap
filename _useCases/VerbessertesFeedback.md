@@ -6,7 +6,7 @@ responsible:
 title: Verbessertes Feedback
 description: Ein*e Student*in kann sich zusätzliches Feedback anzeigen lassen.
 primaryActor: 
-    - student
+    - mma
 secondaryActors:
     - wmaProg
     - profInf
