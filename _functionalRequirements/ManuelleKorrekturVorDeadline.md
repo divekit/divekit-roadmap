@@ -24,6 +24,7 @@ history:
         comment: Modified responsibles as discussed
 
 todo:
+    - bitte den Systemnamen verwenden -> Das DiveKit; siehe Template(jlü)
 ---
 
 Das System sollte die Durchführung von manuellen Korrekturen bis kurz vor der Abgabe ermöglichen.

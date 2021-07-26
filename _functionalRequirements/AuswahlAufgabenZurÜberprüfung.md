@@ -21,6 +21,7 @@ history:
         comment: Fixed goals
 todo:
     - Bitte Begründung klarer machen, ich verstehe das noch nicht. Was hat der Student davon, dass eine Aufgabe noch nicht kontrolliert wird, obwohl er/sie als fertig gepusht hat?
+    - bitte den Systemnamen verwenden -> Das DiveKit; siehe Template(jlü)
 ---
 
 Das System soll dem Benutzer (Studierenden) die Möglichkeit bieten, die zu kontrollierenden Aufgaben zu markieren.

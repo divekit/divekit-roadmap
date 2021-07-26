@@ -18,6 +18,7 @@ history:
         comment: initially created
 
 todo:
+    - bitte den Systemnamen verwenden -> Das DiveKit; siehe Template(jlü)
 ---
 
 Das System soll den Nutzern die Möglichkeit bieten Aufgaben in Gruppen zu bearbeiten.

@@ -25,7 +25,9 @@ history:
     v3:
         date: 2021-07-16
         comment: Modified responsibles as discussed
+
 todo:
+    - bitte den Systemnamen verwenden -> Das DiveKit; siehe Template(jlü)
 ---
 
 Das System sollte in der Lage sein den Studierenden ein Feedback-Archiv zur Verfügung zu stellen.
