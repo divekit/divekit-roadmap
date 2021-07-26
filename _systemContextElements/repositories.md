@@ -7,7 +7,7 @@ responsible:
     - ako
     - duz
 source:
-    - 
+    - [Interview, nnProf3, 00-21-07]
 history:
     v1:
         date: 2021-06-17
@@ -15,8 +15,11 @@ history:
     v2:
         date: 2021-06-17
         comment: added responsible
-todo:
-    - Add sources
+    v3: 
+        date: 2021-07-26
+        comment: add source
+
+todo: 
 ---
 
 ## Erläuterung
