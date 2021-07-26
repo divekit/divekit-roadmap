@@ -5,8 +5,7 @@ responsible:
     - hbu
 title: User Preferences Bearbeiten
 description: Ein Benutzer bearbeitet seine User Preferences
-primaryActor: benutzer
-secondaryActors:
+primaryActor: student
 trigger: Benutzer möchte User Preferences bearbeiten
 precondition: Der Benutzer ist angemeldet
 postcondition: Der Benutzer hat seine User Preferences auf die von ihm gewünschten Einstellungen gesetzt (Einstellungen sind persistiert)
