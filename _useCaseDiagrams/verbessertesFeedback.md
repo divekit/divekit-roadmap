@@ -7,6 +7,7 @@ responsible:
     - fgr
 title: Use Case Diagram Verbessertess Feedback
 functionalRequirement: VerbessertesFeedback
+detailedUseCases:
 history:
     v1:
         date: 2021-07-22

@@ -8,6 +8,8 @@ responsible:
     - hbu
 title: Use Case Diagram User Preferences
 functionalRequirement: BereitstellungUserPreferences
+detailedUseCases:
+    - userPreferencesBearbeiten
 history:
     v1:
         date: 2021-07-22

@@ -7,6 +7,7 @@ responsible:
     - kru
 title: Use Case Diagram weiterführende Informationen abbilden
 functionalRequirement: WeiterfuehrendeInformationen
+detailedUseCases:
 history:
     v1:
         date: 2021-07-16

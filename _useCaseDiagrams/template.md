@@ -7,6 +7,7 @@ responsible:
     - 
 title: Use Case Diagram A
 functionalRequirement:  
+detailedUseCases:
 history:
     v1:
         date: 2021-06-02
