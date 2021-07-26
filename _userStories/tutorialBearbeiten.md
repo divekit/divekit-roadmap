@@ -4,7 +4,7 @@ acronym: tutorialBearbeiten
 responsible:
     - duz
 title: Bearbeiten eines Tutorials
-funcionalRequirement: SchnellerLernprozess
+functionalRequirement: SchnellerLernprozess
 asA: wmaDev
 iWantTo: Bestehende Tutorials im System bearbeiten
 forThisReason: damit die Nutzer:innen (Lehrende) auf aktuelle und fehlerfreie Anleitungen zurückgreifen können

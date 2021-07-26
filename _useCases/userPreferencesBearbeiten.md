@@ -10,8 +10,7 @@ secondaryActors:
 trigger: Benutzer möchte User Preferences bearbeiten
 precondition: Der Benutzer ist angemeldet
 postcondition: Der Benutzer hat seine User Preferences auf die von ihm gewünschten Einstellungen gesetzt (Einstellungen sind persistiert)
-funcionalRequirements: 
-    - BereitstellungUserPreferences
+functionalRequirement: BereitstellungUserPreferences
 history:
     v1:
         date: 2021-07-22

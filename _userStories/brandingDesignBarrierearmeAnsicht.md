@@ -4,7 +4,7 @@ acronym: brandingDesignBarrierearmeAnsicht
 responsible:
     - ngi
 title: Branding des Designs der barrierearmen Ansicht
-funcionalRequirement: IndividuellesDesign
+functionalRequirement: IndividuellesDesign
 asA: 
     - anwenderExtern
 iWantTo: das Design der barrierearmen Ansicht ändern

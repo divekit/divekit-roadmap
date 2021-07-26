@@ -4,7 +4,7 @@ acronym: tutorialEinpflegen
 responsible:
     - duz
 title: Einpflegen eines Tutorials
-funcionalRequirement: SchnellerLernprozess
+functionalRequirement: SchnellerLernprozess
 asA: wmaDev
 iWantTo: Tutorials in das System einpflegen
 forThisReason: damit die Nutzer:innen (Lehrende) das System effektiv nutzen können

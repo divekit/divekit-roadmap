@@ -15,9 +15,10 @@ layout: default
 <table>
     <thead>
     <tr>
-        <th width="100%">Titel</th>
-
-
+        <th width="5%"></th>
+        <th width="10%">ID</th>
+        <th width="40%">Titel</th>
+        <th width="30%">gehört zu funktionalem Requirement</th>
     </tr>
     </thead>
     <tbody>
@@ -25,8 +26,19 @@ layout: default
     {% assign collection = site.useCases | sort: sortField %}
     {% for useCase in collection %}
     <tr>
+        {% include /functions/checks/check-useCase.html myArtefact=useCase %}
+        {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=useCase.todo %}
+        <td>{{ iconString }}</td>
+
+        {% include /functions/get-globalid.html myArtefact=useCase %}
+        <td><a href="{{ site.url }}{{ stakeholder.url | relative_url }}">{{ globalId }}</a></td>
+
         {% include /functions/get-artefact-name.html myArtefact=useCase %}
         <td><a href="{{ site.url }}{{ useCase.url | relative_url }}">{{ artefactName }}</a></td>
+
+        {% include /functions/get-link-to-artefact.html myRef=useCase.functionalRequirement
+                myTypeString="functionalRequirement" myIdFormat="prefix" %}
+        <td><a href="{{ site.url }}{{ useCase.url | relative_url }}">{{ artefactLink }}</a></td>
     </tr>
     {% endfor %}
     </tbody>

@@ -4,7 +4,7 @@ acronym: feedbackArchivDurchsuchen
 responsible:
     - ako
 title: Feedback-Archiv durchsuchen
-funcionalRequirement: FeedbackArchiv
+functionalRequirement: FeedbackArchiv
 asA: studentInf 
 iWantTo: ein Archiv von altem Feedback aus den letzten Jahren nach Fällen durchsuchen, die meiner Frage oder meinem Problem ähneln
 forThisReason: damit ich auf diesem Feedback aufbauen kann und dieses als Inspiration für meine eigene Lösung verwenden kann

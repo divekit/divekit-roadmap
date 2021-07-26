@@ -4,7 +4,7 @@ acronym: AufgabenDrittsystemLösungabrufen
 responsible:
     - jlü
 title: Aufgaben auf einem Drittsystem
-funcionalRequirement: API
+functionalRequirement: API
 asA: profInf
 iWantTo: ich die Lösungen von Aufgaben, die auf einem Drittsystem durchgeführt wurden, abrufen
 forThisReason: ich einen zentralen Ort zur Verwaltung aller studentischen Lösungen habe und so eine Übersicht aller eingereichten Lösungen zur Verfügung habe

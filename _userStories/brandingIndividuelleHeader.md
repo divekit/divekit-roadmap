@@ -4,7 +4,7 @@ acronym: brandingindividuelleHeader
 responsible:
     - ngi
 title: Branding durch individuelle Header
-funcionalRequirement: IndividuellesDesign
+functionalRequirement: IndividuellesDesign
 asA: 
     - anwenderExtern
 iWantTo: individuelle Header in das System einfügen

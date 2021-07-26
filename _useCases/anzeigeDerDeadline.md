@@ -10,8 +10,7 @@ primaryActor:
 trigger: Die studierende Person sieht sich die Informationen über die Deadline an.
 precondition: Die studierende Person hat sich die Informationen über die Deadline angesehen.
 postcondition: Die studierende Person erhält die Informationen über die Aufgaben Deadlines.
-funcionalRequirements:
-    - AnzeigederDeadline
+functionalRequirement: AnzeigederDeadline
 history:
     v1:
         date: 2021-07-22

@@ -4,7 +4,7 @@ acronym: RueckfrageStellen
 responsible:
     - aha
 title: User Story Rückfrage stellen
-funcionalRequirement: RueckfragenZuAufgaben
+functionalRequirement: RueckfragenZuAufgaben
 asA: studentInf 
 iWantTo: Rückfragen zu Aufgaben stellen, die ich nicht vollständig verstehe
 forThisReason: ich die Aufgaben verstehen und bearbeiten kann.

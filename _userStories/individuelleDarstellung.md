@@ -4,7 +4,7 @@ acronym: individuelleDarstellung
 responsible:
     - hbu
 title: Individuelle Darstellung benutzen
-funcionalRequirement: BereitstellungUserPreferences
+functionalRequirement: BereitstellungUserPreferences
 asA: studentInf
 iWantTo: das System in der Form angezeigt bekommenm, die ich vorher eingestellt habe
 forThisReason: ich das System so benutzen kann wie ich es gerne möchte

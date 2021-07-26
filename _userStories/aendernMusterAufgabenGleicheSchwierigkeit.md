@@ -4,7 +4,7 @@ acronym: aendernMusterAufgabenGleicheSchwierigkeit
 responsible:
     - mba
 title: Ändern des Musters um Aufgaben mit gleicher Schwierigkeit zu generieren
-funcionalRequirement: gleicheSchwierigkeit
+functionalRequirement: gleicheSchwierigkeit
 asA:
     - profBwl
     - profInf

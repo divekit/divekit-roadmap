@@ -13,8 +13,7 @@ secondaryActors:
 trigger: Ein Studierender bearbeitet eine Aufgabe und braucht Inspiration.
 precondition: Ein Feedback-Archiv mit einträgen existiert.
 postcondition: Der Studierende kann sich an vergangenen Hilfestellungen orientieren.
-funcionalRequirements: 
-    - FeedbackArchiv
+functionalRequirement: FeedbackArchiv
 history:
     v1:
         date: 2021-07-17

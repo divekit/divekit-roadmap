@@ -7,8 +7,7 @@ useCases:
 responsible: 
     - hbu
 title: Use Case Diagram User Preferences
-funcionalRequirement: 
-    - BereitstellungUserPreferences
+functionalRequirement: BereitstellungUserPreferences
 history:
     v1:
         date: 2021-07-22

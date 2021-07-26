@@ -6,8 +6,7 @@ useCases:
 responsible: 
     - ngi
 title: Use Case Diagram Darkmode
-funcionalRequirement: 
-    - Darkmode
+functionalRequirement: Darkmode
 history:
     v1:
         date: 2021-07-20

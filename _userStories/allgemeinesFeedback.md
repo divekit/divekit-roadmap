@@ -4,7 +4,7 @@ acronym: allgemeinesFeedback
 responsible:
     - ama
 title: Allgemeines Feedback
-funcionalRequirement: allgemeinesFeedback
+functionalRequirement: allgemeinesFeedback
 asA: 
     - studierender
 iWantTo: Feedback zu bestandenen und nicht bestandenen Aufgaben erhalten

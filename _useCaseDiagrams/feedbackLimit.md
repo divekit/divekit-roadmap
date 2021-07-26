@@ -11,8 +11,7 @@ useCases:
 responsible:
     - tza
 title: Use Case Diagram Obergrenze für Feedback
-funcionalRequirement: 
-    - FeedbackLimit
+functionalRequirement: FeedbackLimit
 history:
     v1:
         date: 2021-07-23

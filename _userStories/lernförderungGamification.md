@@ -4,7 +4,7 @@ acronym: Gamification
 responsible:
     - psc
 title: Lernförderung durch Gamification
-funcionalRequirement: MotivationDurchGamification
+functionalRequirement: MotivationDurchGamification
 asA: dozent
 iWantTo: meinen Studierenden bei der Bearbeitung/Vermittlung des Lernstoffes eine Förderung zur Wissensvermittlung durch spielerische Elemente anbieten
 forThisReason: meine Studierenden die Vermittlung von Wissen mit Spaß und lohnenden Herausforderungen verbinden.

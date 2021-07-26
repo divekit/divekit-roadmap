@@ -11,8 +11,7 @@ secondaryActors:
 trigger: Der Lehrende will nur eine bestimmte Anzahl von Feedback-Anfragen erhalten
 precondition: Der Lehrende ist autorisiert und kann die Einstellungen vornehmen
 postcondition: Der Lehrende erhält nur eine bestimmte Anzahl von Anfragen und die Studierenden können nun nur eine bestimmte Anzahl an Feedback-Anfragen stellen.
-funcionalRequirements: 
-    - FeedbackLimit
+functionalRequirement: FeedbackLimit
 history:
     v1:
         date: 2021-07-23

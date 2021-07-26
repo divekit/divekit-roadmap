@@ -4,7 +4,7 @@ acronym: barrierefreiheit_symbol
 responsible:
     - jsp
 title: Einstellung der Barrierefreiheit (Symbol)
-funcionalRequirement: Barrierefreiheit
+functionalRequirement: Barrierefreiheit
 asA: 
     - profBwl
     - profInf

@@ -4,7 +4,7 @@ acronym: unterstuetzungModernerIDEs
 responsible:
     - ako
 title: Unterstützung moderner IDEs
-funcionalRequirement: UnterstuetztIDE
+functionalRequirement: UnterstuetztIDE
 asA: profInf
 iWantTo: dass das Divekit die Verwendung moderner IDEs wie IntelliJ und VSCode ermöglicht
 forThisReason: damit Studierende, die das System verwenden, so die Verwendung dieser IDEs einüben können

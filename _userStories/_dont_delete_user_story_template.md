@@ -4,7 +4,7 @@ acronym: _dont_delete_user_story_template
 responsible:
 	- psc
 title: User Story Template
-funcionalRequirement: SchnelligkeitKorrektur
+functionalRequirement: SchnelligkeitKorrektur
 asA: studentInf 
 iWantTo: rechtzeitig Feedback zu meinen abgegebenen Aufgaben erhalten
 forThisReason: ich nicht lange warten muss und mit der nächsten Aufgabe weitermachen kann

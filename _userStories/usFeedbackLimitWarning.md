@@ -4,7 +4,7 @@ acronym: usFeedbackLimitWarning
 responsible:
     - tza
 title: Warnung über Feedback-Obergrenze
-funcionalRequirement: FeedbackLimit
+functionalRequirement: FeedbackLimit
 asA: 
     - student
     - studentInf

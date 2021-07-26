@@ -4,7 +4,7 @@ acronym: RueckfrageBeantworten
 responsible:
     - aha
 title: User Story Rückfrage beantworten
-funcionalRequirement: RueckfragenZuAufgaben
+functionalRequirement: RueckfragenZuAufgaben
 asA: wmaAutonomousLecturerInf 
 iWantTo: Rückfragen meiner Studenten zu ihren Aufgaben beantworten
 forThisReason: die Studenten ihre Aufgaben korrekt und zeitnah lösen können.

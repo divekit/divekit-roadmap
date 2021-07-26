@@ -11,8 +11,7 @@ secondaryActors:
 trigger: Student:in stößt auf Fehler.
 precondition: Student:in kann den Fehler nicht adhoc lösen.
 postcondition: Student:in besitzt weitere Informationen zum Fehler.
-funcionalRequirement: 
-    - 
+functionalRequirement:  
 history:
     v1:
         date: 2021-06-02
@@ -26,18 +25,18 @@ todo:
 
 
 ## Hauptszenario
-1.) Student:in fordert Informationen zum Fehler an.
-2.) System durchsucht XYZ nach Informationen zum Fehler.
-3.) System findet Informationen zum Fehler.
-4.) System zeigt dem Studierenden die Informationen zur Verfügung.
+* 1) Student:in fordert Informationen zum Fehler an.
+* 2) System durchsucht XYZ nach Informationen zum Fehler.
+* 3) System findet Informationen zum Fehler.
+* 4) System zeigt dem Studierenden die Informationen zur Verfügung.
 
 ## Alternativszenario
-3a1.) System findet keine Informationen zum Fehler.
-3a2.) System informiert WMA und Student:in über fehlende Informationen.
-3a3.) WMA kontaktiert Student:in und biedet Hilfe an.
+* 3a1) System findet keine Informationen zum Fehler.
+* 3a2) System informiert WMA und Student:in über fehlende Informationen.
+* 3a3) WMA kontaktiert Student:in und biedet Hilfe an.
 
 ## Ausnahmeszenario 
-3a1.) WMA hat keine Ressourcen nicht freu und lehnt Kontakt ab. 
-3a2.) System teilt dem Studierenden mit, dass keine Informationen gefunden werden konnten.
+* 3a1) WMA hat keine Ressourcen nicht freu und lehnt Kontakt ab. 
+* 3a2) System teilt dem Studierenden mit, dass keine Informationen gefunden werden konnten.
 
 **Andere Nachbedingung**: Student:in besitzt keine weitere Informationen zum Fehler.

@@ -4,7 +4,7 @@ acronym: AufgabenDrittsystemstellen
 responsible:
     - jlü
 title: Aufgaben auf einem Drittsystem
-funcionalRequirement: API
+functionalRequirement: API
 asA: profInf
 iWantTo: Aufgaben auf einem Drittsystem stellen können
 forThisReason: ich auch komplexe Aufgaben stellen kann, die nicht nativ im DiveKit implementiert sind

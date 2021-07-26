@@ -6,8 +6,7 @@ useCases:
 responsible: 
     - jsp
 title: Use Case Diagram Barrierefreiheit
-funcionalRequirement: 
-    - barrierefreiheit
+functionalRequirement: barrierefreiheit
 history:
     v1:
         date: 2021-07-21

@@ -4,7 +4,7 @@ acronym: aktivierungDarkmode
 responsible:
     - ngi
 title: Aktivierung des Darkmodes
-funcionalRequirement: Darkmode
+functionalRequirement: Darkmode
 asA: 
     - profBwl 
     - profInf
