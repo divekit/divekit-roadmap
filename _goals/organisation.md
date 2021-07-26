@@ -16,16 +16,18 @@ history:
     v2:
         date: 2021-07-15
         comment: added subgoales
+    v3:
+        date: 2021-07-15
+        comment: updated subgoale links
 
 todo: 
-    - Verlinkung der Subziele anpassen
     - Beschreibung / Begründung hinzufügen
 ---
 
 ## Beschreibung
 
-* [Kompakte Organisation](./organisationKompakt.md)
-* [Meilensteine](./organisationMeilensteine.md)
+* [Kompakte Organisation](https://divekit.github.io/divekit-roadmap/goals/organisationKompakt.html)
+* [Meilensteine](https://divekit.github.io/divekit-roadmap/goals/organisationMeilensteine.html)
 
 ## Begründung
 

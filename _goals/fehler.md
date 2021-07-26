@@ -18,9 +18,13 @@ history:
     v2:
         date: 2021-07-12
         comment: changes title
+    v3:
+        date: 2021-07-12
+        comment: updated subgoal links
+
+
 
 todo:
-    - Anpassen der Subziel Verlinkung 
     - Begründung verbessern
 ---
 
@@ -28,9 +32,9 @@ todo:
 
 Sowohl bei der Vor-/Nachbereitung und der Durchführungen müssen Fehler verwaltet werden. Folgende Unterziele gehören dazu: 
 
-* [Ausgabe der Fehler](./fehlerAusgabe.md)
-* [Fehlererkennung](./fehlererkennung.md)
-* [Falsche Konfiguration](./falscheKonfig.md)
+* [Ausgabe der Fehler](https://divekit.github.io/divekit-roadmap/goals/fehlerVerst%C3%A4ndlichkeit.html)
+* [Fehlererkennung](https://divekit.github.io/divekit-roadmap/goals/Fehlererkennung.html)
+* [Falsche Konfiguration](https://divekit.github.io/divekit-roadmap/goals/fehlerFalscheKonfig.html)
 
 
 ## Begründung
