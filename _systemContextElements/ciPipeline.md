@@ -7,11 +7,13 @@ responsible:
     - kru
     - ako
     - duz
+    - jlü
 source:
     - [interview, jintveen, Minute 00-28-03]
     - [interview, jintveen, Minute 00-40-49]
     - [interview, jintveen, Minute 01-12-53]
     - [interview, sbente, Minute 00-00-16]
+    - [Interview, nnProf3, 00-00-21]
 history:
     v1:
         date: 2021-06-17
@@ -25,6 +27,10 @@ history:
     v4:
         date: 2021-07-16
         comment: fixed sources
+    v5:
+        date: 2021-07-16
+        comment: add sources
+
 
 todo:
 ---

@@ -22,7 +22,6 @@ history:
         comment: added timestamp
 
 todo:
-    - Zeitangabe anpassen 
     - Erläuterung präzisieren und ausformulieren
 ---
 
