@@ -1,13 +1,13 @@
 ---
 type: useCaseDiagram
 acronym: verbessertesFeedback
-useCases:
-    - VerbessertesFeedback
 responsible: 
     - fgr
 title: Use Case Diagram Verbessertess Feedback
 functionalRequirement: VerbessertesFeedback
-detailedUseCases:
+useCases:
+useCasesDetailedWithScenario:
+    - VerbessertesFeedback
 history:
     v1:
         date: 2021-07-22

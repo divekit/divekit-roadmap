@@ -1,13 +1,13 @@
 ---
 type: useCaseDiagram
 acronym: AllgemeinesFeedback
-useCases:
-    - Ausführliches_Feedback
 responsible:
     - ama
 title: Use Case Diagram Allgemeines Feedback
 functionalRequirement: AllgemeinesFeedback
-detailedUseCases:
+useCases:
+useCasesDetailedWithScenario:
+    - UCausführlichesFeedback
 history:
     v1:
         date: 2021-07-21

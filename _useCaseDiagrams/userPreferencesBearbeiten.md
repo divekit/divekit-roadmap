@@ -1,14 +1,13 @@
 ---
 type: useCaseDiagram
 acronym: useCaseDiagramUserPreferences
-useCases:
-    - Anmelden
-    - User Preferences Bearbeiten
 responsible: 
     - hbu
 title: Use Case Diagram User Preferences
 functionalRequirement: BereitstellungUserPreferences
-detailedUseCases:
+useCases:
+    - Anmelden
+useCasesDetailedWithScenario:
     - userPreferencesBearbeiten
 history:
     v1:

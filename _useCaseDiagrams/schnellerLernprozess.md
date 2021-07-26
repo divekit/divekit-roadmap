@@ -1,13 +1,12 @@
 ---
 type: useCaseDiagram
 acronym: useCaseDiagramSchnellerLernprozess
-useCases:
-    - tutorialVorschlagen
 responsible: 
     - duz
 title: Use Case Diagram Schneller Lernprozess
 functionalRequirement: SchnellerLernprozess
-detailedUseCases:
+useCases:
+useCasesDetailedWithScenario:
     - tutorialVorschlagen
 history:
     v1:

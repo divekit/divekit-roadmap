@@ -1,13 +1,13 @@
 ---
 type: useCaseDiagram
 acronym: branding
-useCases:
-    - Branding
 responsible: 
     - ngi
 title: Use Case Diagram Branding
 functionalRequirement: IndividuellesDesign
-detailedUseCases:
+useCases:
+useCasesDetailedWithScenario:
+    - Branding
 history:
     v1:
         date: 2021-07-22

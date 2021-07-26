@@ -1,13 +1,13 @@
 ---
 type: useCaseDiagram
 acronym: gleicheSchwierigkeit
-useCases:
-    - aufgabenMitGleicherSchwierigkeit
 responsible: 
     - mba
 title: Use Case Diagram Aufgaben mit gleicher Schwierigkeit 
 functionalRequirement: gleicheSchwierigkeit
-detailedUseCases:
+useCases:
+useCasesDetailedWithScenario:
+    - aufgabenMitGleicherSchwierigkeit
 history:
     v1:
         date: 2021-07-19

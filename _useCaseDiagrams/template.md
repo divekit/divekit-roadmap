@@ -1,13 +1,14 @@
 ---
 type: useCaseDiagram
 acronym: useCaseDiagramA
-useCases:
-    - 
 responsible: 
     - 
 title: Use Case Diagram A
 functionalRequirement:  
-detailedUseCases:
+useCases:
+    - 
+useCasesDetailedWithScenario:
+    - 
 history:
     v1:
         date: 2021-06-02

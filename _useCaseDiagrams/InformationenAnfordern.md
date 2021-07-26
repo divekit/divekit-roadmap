@@ -1,13 +1,13 @@
 ---
 type: useCaseDiagram
 acronym: useCaseDiagramInformationenAbbilden
-useCases:
-    - informationenAnfordern
 responsible: 
     - kru
 title: Use Case Diagram weiterführende Informationen abbilden
 functionalRequirement: WeiterfuehrendeInformationen
-detailedUseCases:
+useCases:
+useCasesDetailedWithScenario:
+    - informationenAnfordern
 history:
     v1:
         date: 2021-07-16
