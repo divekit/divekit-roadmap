@@ -18,7 +18,7 @@ history:
         comment: initially created
     v1:
         date: 2021-07-26
-        comment: modified scenarios and Actors regarding review
+        comment: modified Scenarios and Actors regarding review
 
 todo: 
 ---
