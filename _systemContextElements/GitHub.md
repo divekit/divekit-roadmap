@@ -27,5 +27,5 @@ todo:
 
 ## Erläuterung
 
-* Studierende sollen lernen mit Github um zugehen - Kenntnisse sollen über die reinen Git-Befehle hinaus gehen.
+* Studierende sollen lernen mit Github um zugehen - die Kenntnisse sollen über die reinen Git-Befehle hinaus gehen.
 * Github soll als Code Versionierungstool verwendet werden
