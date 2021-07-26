@@ -4,7 +4,7 @@ acronym: LösungenBeiDrittsystemEinreichen
 responsible: 
     - jlü
 title: Lösungen einreichen
-description: Ein * e Student * in 
+description: Ein * e Student * in
 primaryActor: student
 secondaryActors:
     - profInf
