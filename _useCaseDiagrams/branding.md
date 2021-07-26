@@ -6,8 +6,7 @@ useCases:
 responsible: 
     - ngi
 title: Use Case Diagram Branding
-funcionalRequirement: 
-    - IndividuellesDesign
+functionalRequirement: IndividuellesDesign
 history:
     v1:
         date: 2021-07-22

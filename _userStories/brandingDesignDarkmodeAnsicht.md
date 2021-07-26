@@ -4,7 +4,7 @@ acronym: brandingDesignDarkmodeAnsicht
 responsible:
     - ngi
 title: Branding des Designs der Darkmode-Ansicht
-funcionalRequirement: IndividuellesDesign
+functionalRequirement: IndividuellesDesign
 asA: 
     - anwenderExtern
 iWantTo: das Design der Darkmode-Ansicht ändern

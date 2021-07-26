@@ -4,7 +4,7 @@ acronym: brandingDesignStandardansicht
 responsible:
     - ngi
 title: Branding des Designs der Standardansicht
-funcionalRequirement: IndividuellesDesign
+functionalRequirement: IndividuellesDesign
 asA: 
     - anwenderExtern
 iWantTo: das Design der Standardansicht ändern

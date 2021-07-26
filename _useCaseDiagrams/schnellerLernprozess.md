@@ -6,8 +6,7 @@ useCases:
 responsible: 
     - duz
 title: Use Case Diagram Schneller Lernprozess
-funcionalRequirement: 
-    - SchnellerLernprozess
+functionalRequirement: SchnellerLernprozess
 history:
     v1:
         date: 2021-07-17

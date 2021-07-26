@@ -4,7 +4,7 @@ acronym: barrierefreiheit_text
 responsible:
     - jsp
 title: Einstellung der Barrierefreiheit (Text)
-funcionalRequirement: Barrierefreiheit
+functionalRequirement: Barrierefreiheit
 asA: 
     - profBwl
     - profInf

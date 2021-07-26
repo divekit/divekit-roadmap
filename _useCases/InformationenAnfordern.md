@@ -11,8 +11,7 @@ secondaryActors:
 trigger: Student:in stößt auf Fehler.
 precondition: Student:in kann den Fehler nicht adhoc lösen.
 postcondition: Student:in besitzt weitere Informationen zum Fehler.
-funcionalRequirement: 
-    - 
+functionalRequirement:  
 history:
     v1:
         date: 2021-06-02

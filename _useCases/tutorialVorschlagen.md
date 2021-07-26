@@ -13,8 +13,7 @@ secondaryActors:
 trigger: Nutzer ruft einen Teil des Systems zum ersten Mal auf
 precondition: Nutzer ist eingeloggt und "hat Funktion bereits benutzt" flag steht auf "nein"
 postcondition: Nutzer ist mit Nutzung vertraut
-funcionalRequirements: 
-    - SchnellerLernprozess
+functionalRequirement: SchnellerLernprozess
 history:
     v1:
         date: 2021-07-17

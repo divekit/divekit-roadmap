@@ -4,7 +4,7 @@ acronym: ertsellungAufgabenMitGleicherSchwierigkeit
 responsible:
     - mba
 title: Erstellung von Aufgaben mit gleicher Schwierigkeit
-funcionalRequirement: gleicheSchwierigkeit
+functionalRequirement: gleicheSchwierigkeit
 asA: 
     - profBwl
     - profInf

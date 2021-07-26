@@ -6,8 +6,7 @@ useCases:
 responsible: 
     - mba
 title: Use Case Diagram Aufgaben mit gleicher Schwierigkeit 
-funcionalRequirement: 
-    - gleicheSchwierigkeit
+functionalRequirement: gleicheSchwierigkeit
 history:
     v1:
         date: 2021-07-19

@@ -4,7 +4,7 @@ acronym: userStoryFehlermeldungAussasgekraeftig
 responsible:
     - cpo
 title: User Story aussagekräftige Fehlermeldungen
-funcionalRequirement: FehlermeldungAussagekraeftig
+functionalRequirement: FehlermeldungAussagekraeftig
 asA: studentInf 
 iWantTo:  aussagekräftige Fehlermeldungen bei Systemfehlern erhalten
 forThisReason: ich weiß, dass das Problem nicht durch Fehler in meiner Lösung enstanden ist

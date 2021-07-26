@@ -11,8 +11,7 @@ secondaryActors:
 trigger: Student hat eine Frage zu einer Aufgabenstellung
 precondition: Der Student hat die Liste seiner Aufgaben erhalten.
 postcondition: Der WMA hat eine Nachricht mit der Rückfrage zur Aufgabe erhalten und wurde darüber benachrichtigt.
-funcionalRequirements: 
-    - RueckfragenZuAufgaben
+functionalRequirement: RueckfragenZuAufgaben
 history:
     v1:
         date: 2021-07-19

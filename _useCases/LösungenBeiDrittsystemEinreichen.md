@@ -12,8 +12,7 @@ secondaryActors:
 trigger: Student * in will Lösung einreichen
 precondition: Student * in hat eine Aufgabe, die in einem Drittsystem zu lösen ist 
 postcondition: eingereichten Lösungen wurden übermittelt und überprüft
-funcionalRequirements: 
-    - API
+functionalRequirement: API
 history:
     v1:
         date: 2021-07-21

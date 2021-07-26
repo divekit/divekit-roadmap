@@ -4,7 +4,7 @@ acronym: verbessertesFeedback
 responsible:
     - fgr
 title: Verbesserung des Feedbacks
-funcionalRequirement: VerbessertesFeedback
+functionalRequirement: VerbessertesFeedback
 asA: 
     - studierender
 iWantTo: Verbesserungsvorschläge oder Musterlösungen bei knapp bestandenen Abgaben erhalten

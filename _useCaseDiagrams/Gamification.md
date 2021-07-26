@@ -6,8 +6,7 @@ useCases:
 responsible: 
     - psc
 title: Use Case Diagram für Gamification
-funcionalRequirement: 
-    - MotivationDurchGamification
+functionalRequirement: MotivationDurchGamification
 history:
     v1:
         date: 2021-07-23

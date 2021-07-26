@@ -4,7 +4,7 @@ acronym: brandingindividuelleIcons
 responsible:
     - ngi
 title: Branding durch individuelle Icons
-funcionalRequirement: IndividuellesDesign
+functionalRequirement: IndividuellesDesign
 asA: 
     - anwenderExtern
 iWantTo: individuelle Icons in das System einfügen

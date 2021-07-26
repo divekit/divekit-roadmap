@@ -6,8 +6,7 @@ useCases:
 responsible: 
     - jlü
 title: Use Case Diagram Erweiterung durch API 
-funcionalRequirement: 
-    - API
+functionalRequirement: API
 history:
     v1:
         date: 2021-07-21

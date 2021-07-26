@@ -4,7 +4,7 @@ acronym: userStoryPlagiatsprüfung
 responsible:
     - cpo
 title: User Story Plagiatsprüfung
-funcionalRequirement: PlagiatPruefung
+functionalRequirement: PlagiatPruefung
 asA: profInf 
 iWantTo: Plagiate automatisch erkennen und melden
 forThisReason: Studenten sollen ihre Aufgaben selbstständig lösen

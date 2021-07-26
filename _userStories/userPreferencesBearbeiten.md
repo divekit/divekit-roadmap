@@ -4,7 +4,7 @@ acronym: userPreferencesBearbeiten
 responsible:
     - hbu
 title: User Preferences Bearbeiten
-funcionalRequirement: BereitstellungUserPreferences
+functionalRequirement: BereitstellungUserPreferences
 asA: studentInf
 iWantTo: die Darstellung des Systems auf meine individuellen Bedürfnisse einstellen können
 forThisReason: ich keinen Nachteil Anderen gegenüber habe und das System an meine Wünsche/Bedürfnisse anpassen kann

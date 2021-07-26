@@ -8,8 +8,7 @@ useCases:
 responsible: 
     - cpo
 title: Use Case Diagram Aussagekräftige Fehlermeldung
-funcionalRequirement: 
-    - FehlermeldungAussagekraeftig
+functionalRequirement: FehlermeldungAussagekraeftig
 history:
     v1:
         date: 2021-07-18

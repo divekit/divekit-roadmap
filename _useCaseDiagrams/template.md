@@ -6,8 +6,7 @@ useCases:
 responsible: 
     - 
 title: Use Case Diagram A
-funcionalRequirement: 
-    - 
+functionalRequirement:  
 history:
     v1:
         date: 2021-06-02

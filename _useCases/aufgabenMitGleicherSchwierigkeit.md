@@ -16,8 +16,7 @@ secondaryActors:
 trigger: Nutzer möchte Aufgaben generieren
 precondition: Aufgabenmuster wurde festgelegt
 postcondition: Nutzer erhält generierte Aufgaben, die alle auf dem selben Schwierigkeitsgrad basieren
-funcionalRequirement: 
-    - GleicheSchwierigkeit
+functionalRequirement: GleicheSchwierigkeit
 history:
     v1:
         date: 2021-07-19

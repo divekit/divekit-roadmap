@@ -4,7 +4,7 @@ acronym: usSetFeedbackLimit
 responsible:
     - tza
 title: Feedback-Obergrenze setzen
-funcionalRequirement: FeedbackLimit
+functionalRequirement: FeedbackLimit
 asA: 
     - dozent
 iWantTo: Die Einstellung einer Obergrenze für die Anzahl von Feedback-Anfragen vornehmen
