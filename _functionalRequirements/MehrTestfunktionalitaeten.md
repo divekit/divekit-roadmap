@@ -24,10 +24,17 @@ history:
     v4:
         date: 2021-07-16
         comment: Fixed reference to goal
+    v5:
+        date: 2021-07-16
+        comment: added reasoning & fixed sentence according to template
+
 
 todo:
-    - Bitte Satzschablone verwenden
     - mir ist nicht klar, was für dieses Requirement implementiert werden muss
 ---
 
-Das DiveKit soll mehr Tests bereitstellen, die den Code testen.
+Das DiveKit soll den Nutzern die Möglichkeit bieten, den Code durch die Bereitstellung von umfänglicheren Tests zu prüfen.
+
+## Begründung
+
+Durch umfänglicheres Testen können die Studierenden ihre Fehler 
