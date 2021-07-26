@@ -15,8 +15,7 @@ history:
     v2:
         date: 2021-06-15
         comment: added new content based on profBWL
-todo: 
-    - ausformulieren                
+todo:               
 ---
 
 <!-- Rolle ist aktuell extrem weit gefasst und deckt nahezu alle Professorenbereiche ab. Wäre eine Unterteilung in "profProg", "profArch", etc nicht sinnvoll? -->

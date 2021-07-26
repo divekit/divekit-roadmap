@@ -26,7 +26,6 @@ history:
 ignore:
     -w005
 todo:
-    - Begründung nachbessern
 ---
 
 ## Beschreibung

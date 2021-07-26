@@ -6,10 +6,11 @@ responsible:
     - ako
     - duz
     - kru
-name: n. n. WMA 4
+name: anonym
 anonymous: true
 stakeholderRole: 
     - wmaProg
+    - potAnwender
 relationshipToProject: >
     Möglicher Nutzer des Systems auf WMA-Seite.
 history:
@@ -17,7 +18,5 @@ history:
         date: 2021-06-15
         comment: created initially
 todo: 
-    - Es fehlt komplett die Beschreibung (SB)     
-    - potentielle Anwenderrolle hinzufügen (SB)
-    - Bitte eine einheitliche Namenskonvention für anonymisierte Namen verwenden (SB)     
+    - Es fehlt komplett die Beschreibung (SB)       
 ---
