@@ -15,7 +15,6 @@ history:
         date: 2021-05-15
         comment: initially created
 todo: 
-    - Format anpassen
 ---
 ## Interviewleitfaden
 [siehe MA Jann Intveen](https://divekit.github.io/divekit-roadmap/sources/Masterarbeit%20Jann%20Intveen%20final.pdf) s.93
