@@ -39,4 +39,4 @@ Sowohl bei der Vor-/Nachbereitung und der Durchführungen müssen Fehler verwalt
 
 ## Begründung
 
-Für einen reibungslosen Praktikumsablauf ist das Auffangen und Verwalten von Fehler sehr wichtig.
+Für einen reibungslosen Praktikumsablauf ist das Auffangen und Verwalten von unterschiedlicher Fehler sehr wichtig.

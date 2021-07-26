@@ -19,9 +19,13 @@ history:
     v2:
         date: 2021-07-15
         comment: Fixed goales
+    v3:
+        date: 2021-07-26
+        comment: changed system name
+
 
 todo: 
-    - bitte den Systemnamen verwenden -> Das DiveKit; siehe Template(jlü) 
 ---
 
-Das System muss konsistente Aufgabentexte und Geschichten produzieren.
+Das DiveKit muss konsistente Aufgabentexte und Geschichten produzieren.
+

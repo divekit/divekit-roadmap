@@ -59,3 +59,5 @@ Darüber hinaus werden noch fortgeschrittene Programmieraspekte erwähnt, die eb
 * Bau von visuellen Oberflächen
 * Einbinden von Libraries
 * Verwendung des Debuggers
+
+Neben den Hardskills sollen auch Softskills gefördert werden.
