@@ -12,7 +12,6 @@ history:
         comment: initially created
 
 todo:
-    - Zeitangaben anpassen
     - Erklärung präzisieren -> Was sind skalierbare Datenbanken? 
 ---
 
