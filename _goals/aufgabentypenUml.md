@@ -19,7 +19,6 @@ history:
         comment: Quellen temporär runterkopiert
 
 todo:
-    - Begründung nachbessern
 ---
 
 ## Beschreibung

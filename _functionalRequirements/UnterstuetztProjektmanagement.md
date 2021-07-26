@@ -19,9 +19,10 @@ history:
     v2:
         date: 2021-07-15
         comment: Fixed goales
+    v3:
+        date: 2021-07-26
+        comment: Added Begründung
 todo: 
-    - Relevanz klären
-    - ... genau, vielleicht kann man das in der Begründung noch klären. Wofür soll das gut sein, und wie stellt man sich das vor?
 ---
 
 Das DiveKit soll Studierenden die Möglichkeit bieten ihren Fortschritt mit modernen Projektmanagementsystemen wie z.B. Jira zu dokumentieren.
@@ -33,4 +34,8 @@ Das DiveKit soll Studierenden die Möglichkeit bieten ihren Fortschritt mit mode
 
 ## Begründung
 
-Siehe Ziel
+Die Kompetenz mit einem solchen Projektmanagementsystem umgehen zu können wird als essenziell aufgefasst. Dies könnte also beispielsweise so umgesetzt werden, dass Studierende ihre im DiveKit gestellten Aufgaben mit Jira oder ähnlichen Plattformen verfolgen können und ein automatisch offenes Issue erhalten, wenn noch handlungsbedarf ihrerseits besteht. 
+
+<!--
+    Diese Funktion ist ausschließlich ein nice-to-have und gehört wahrscheinlich nicht zu den kurz- bis mittelfristig umzusetzenden Anforderungen
+-->

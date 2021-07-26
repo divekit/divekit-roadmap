@@ -5,7 +5,7 @@ responsible:
     - ako
     - kru
     - duz
-title: Unterstützung von diagrammbasierten Aufgaben
+title: Unterstützung von Versionierungssystemen
 goals: 
     - modernVersionierung
 implementationStatus: implemented
@@ -19,7 +19,8 @@ history:
     v2:
         date: 2021-07-15
         comment: Fixed goales
-todo: vermutlich Copy+Pastefehler von unterstuetztUML im Titel - diagrammbasierte Aufgaben ergibt hier kein Sinn
+
+todo:
 ---
 
 Das DiveKit soll den Studierenden die Möglichkeit bieten, ihren Codefortschritt mit Versionierungssystemen wie Git zu sichern um den Umgang mit diesen zu üben.

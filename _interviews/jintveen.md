@@ -18,8 +18,6 @@ history:
         date: 2021-06-07
         comment: updated data
 todo:
-    - Anpassen an die Vorlage
-    - Ergebnisprotokoll
 ---
 
 ## Interviewleitfaden
@@ -36,11 +34,9 @@ todo:
 * Ort: Zoom-Meeting
 
 ### Ziel 
-
 Erster, technischer Überblick über das DiveKit.
 
 ### Begrüßung/Eröffnung
-
 * Vorstellung der Interviewer & des Moduls / Kurses / Zwecks 
 * Einverständnis für die Aufnahme bzw. das Anfertigen eines Transkriptes 
 * Vorstellung des zu Interviewenden. 

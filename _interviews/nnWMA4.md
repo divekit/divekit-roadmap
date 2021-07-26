@@ -18,10 +18,10 @@ todo:
     - Format anpassen
 ---
 ## Interviewleitfaden
-[siehe MA Jann Intveen]("./../sources/Masterarbeit Jann Intveen final.pdf") s.93
+[siehe MA Jann Intveen](https://divekit.github.io/divekit-roadmap/sources/Masterarbeit%20Jann%20Intveen%20final.pdf) s.93
 
 ## Transkript
-[siehe Interviewtranskript mit n. n. WMA 4](./../sources/jintveen_MA_nnWMA4_transkript.md)
+[siehe Interviewtranskript mit n. n. WMA 4](https://divekit.github.io/divekit-roadmap/sources/jintveen_MA_nnWMA4_transkript.html)
 
 ## Ergebnisprotokoll
 siehe MA Jann Intveen <!-- Nicht vorhanden? Zumindest nicht in der MA selbst -->
