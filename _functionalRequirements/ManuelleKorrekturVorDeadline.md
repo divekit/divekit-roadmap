@@ -22,12 +22,14 @@ history:
     v3:
         date: 2021-07-16
         comment: Modified responsibles as discussed
+    v4:
+        date: 2021-07-26
+        comment: Changed sytem to divekit
 
 todo:
-    - bitte den Systemnamen verwenden -> Das DiveKit; siehe Template(jlü)
 ---
 
-Das System sollte die Durchführung von manuellen Korrekturen bis kurz vor der Abgabe ermöglichen.
+Das DiveKit sollte die Durchführung von manuellen Korrekturen bis kurz vor der Abgabe ermöglichen.
 
 ## Begründung
 Die Studierenden wollen manuelle Korrekturen bis kurz vor der Abgabe, um ein genaueres Feedback zu erhalten. Das DiveKit könnte eine Art Terminkalender bereitstellen, um das Vorhaben zu koordinieren und somit bestenfalls beide Seiten zu entlasten.

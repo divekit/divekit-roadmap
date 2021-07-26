@@ -16,9 +16,11 @@ history:
     v1:
         date: 2021-07-12
         comment: initially created
+    v2:
+        date: 2021-07-26
+        comment: Changed sytem to divekit
 
 todo:
-    - bitte den Systemnamen verwenden -> Das DiveKit; siehe Template(jlü)
 ---
 
-Das System soll sich durch eine hohe Robustheit und Fehlertoleranz auszeichnen.
+Das DiveKit soll sich durch eine hohe Robustheit und Fehlertoleranz auszeichnen.
