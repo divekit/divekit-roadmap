@@ -1,6 +1,10 @@
 ---
 type: useCaseDiagram
 acronym: feedbackLimit
+responsible:
+    - tza
+title: Use Case Diagram Obergrenze für Feedback
+functionalRequirement: FeedbackLimit
 useCases:
     - Obergrenze setzen
     - Feedback anfordern
@@ -8,11 +12,7 @@ useCases:
     - Aufgabe bearbeiten
     - Feedback einarbeiten
     - Benachrichtigung durchlesen
-responsible:
-    - tza
-title: Use Case Diagram Obergrenze für Feedback
-functionalRequirement: FeedbackLimit
-detailedUseCases:
+useCasesDetailedWithScenario:
 history:
     v1:
         date: 2021-07-23

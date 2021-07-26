@@ -1,13 +1,13 @@
 ---
 type: useCaseDiagram
 acronym: UCD_anzeigeDerDeadline
-useCases:
-    - anzeigeDerDeadline
 responsible:
     - mwi
 title: Use Case Anzeige der Deadline
 functionalRequirement: AnzeigederDeadline
-detailedUseCases:
+useCases:
+useCasesDetailedWithScenario:
+    - anzeigeDerDeadline
 history:
     v1:
         date: 2021-07-22

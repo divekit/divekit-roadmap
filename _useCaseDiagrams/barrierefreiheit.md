@@ -1,13 +1,13 @@
 ---
 type: useCaseDiagram
 acronym: barrierefreiheit
-useCases:
-    - barrierefreiheit
 responsible: 
     - jsp
 title: Use Case Diagram Barrierefreiheit
 functionalRequirement: barrierefreiheit
-detailedUseCases:
+useCases:
+useCasesDetailedWithScenario:
+    - barrierefreiheit
 history:
     v1:
         date: 2021-07-21

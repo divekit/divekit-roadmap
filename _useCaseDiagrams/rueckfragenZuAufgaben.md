@@ -1,13 +1,13 @@
 ---
 type: useCaseDiagram
 acronym: useCaseDiagramRueckfragenZuAufgaben
-useCases:
-    - Rueckfrage_stellen
 responsible: 
     - aha
 title: Use Case Diagram Rückfragen zu Aufgaben
 functionalRequirement: RueckfragenZuAufgaben
-detailedUseCases:
+useCases:
+useCasesDetailedWithScenario:
+    - Rueckfrage_stellen
 history:
     v1:
         date: 2021-07-19

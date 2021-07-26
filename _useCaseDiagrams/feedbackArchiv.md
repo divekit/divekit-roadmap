@@ -1,13 +1,13 @@
 ---
 type: useCaseDiagram
 acronym: feedbackArchiv
-useCases:
-    - feedbackArchivDurchsuchen
 responsible: 
     - ako
 title: Use-Case-Diagram - Feedback-Archiv
 functionalRequirement: feedbackArchiv
-detailedUseCases:
+useCases:
+useCasesDetailedWithScenario:
+    - feedbackArchivDurchsuchen
 history:
     v1:
         date: 2021-07-17

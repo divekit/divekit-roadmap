@@ -1,13 +1,13 @@
 ---
 type: useCaseDiagram
 acronym: darkmode
-useCases:
-    - darkmode
 responsible: 
     - ngi
 title: Use Case Diagram Darkmode
 functionalRequirement: Darkmode
-detailedUseCases:
+useCases:
+useCasesDetailedWithScenario:
+    - darkmode
 history:
     v1:
         date: 2021-07-20

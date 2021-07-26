@@ -1,13 +1,13 @@
 ---
 type: useCaseDiagram
 acronym: Gamification
-useCases:
-    - Gamification
 responsible: 
     - psc
 title: Use Case Diagram für Gamification
 functionalRequirement: MotivationDurchGamification
-detailedUseCases:
+useCases:
+useCasesDetailedWithScenario:
+    - Gamification
 history:
     v1:
         date: 2021-07-23
