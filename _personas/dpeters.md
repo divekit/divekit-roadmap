@@ -8,8 +8,7 @@ name: Dennis Peters
 age: 30
 isPrimary: yes
 relationshipToProject: >
-    Anwender des Systems in mehreren Lehrveranstaltungen. Interessiert an sinnvoller Weiterentwicklung.
-    möchte eigene Ideen einbringen.
+    Anwender des Systems in mehreren Lehrveranstaltungen. Interessiert an sinnvoller Weiterentwicklung. Möchte eigene Ideen einbringen.
 source:
     - [interview, fkrampe, Minute 00-01-55]
     - [interview, fkrampe, Minute 00-05-05]

@@ -21,13 +21,16 @@ history:
     v3:
         date: 2021-07-16
         comment: Modified responsibles as discussed
+    v4:
+        date: 2021-07-26
+        comment: modified regarding todo and added reason
 
 todo:
-    - Was genau ist "die Korrektur der Aufgaben"? Bitte präzisieren.
-    - bitte den Systemnamen verwenden -> Das DiveKit; siehe Template(jlü)
 ---
 
-Das System sollte in der Lage sein Studierenden anzuzeigen, wie lange die Korrektur der Aufgaben dauert bzw. welchen Stand die Korrektur gerade hat.
+Das DiveKit sollte in der Lage sein Studierenden anzuzeigen, wie lange die Korrektur der Aufgaben dauert bzw. welchen Stand die Korrektur gerade hat.
 
 ## Begründung
-Sollte die Korrektur länger dauern kann die Wartezeit genutzt werden, um gegebenenfalls andere Aufgaben anzufangen. 
+Sollte die Korrektur länger dauern kann die Wartezeit genutzt werden, um gegebenenfalls andere Aufgaben anzufangen.
+
+Vermutende Lösung des Business Analysten: Vermutlich wird die Prüfung der Aufgabe durch das System gemeint. Sofern dies bereits existiert (wovon auszugehen ist) wird wahrscheinlich die "Korrektur" beziehungsweise Prüfung durch einen Prüfer gemeint.

@@ -16,7 +16,7 @@ history:
     v1:
         date: 2021-07-17
         comment: initially created
-    v1:
+    v2:
         date: 2021-07-26
         comment: modified Scenarios and Actors regarding review
 
