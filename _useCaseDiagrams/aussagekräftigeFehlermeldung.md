@@ -22,7 +22,6 @@ history:
         date: 2021-07-19
         comment: added wmaProg as actor 
 todo: 
-    - 
 ---
 
 ## Beschreibung

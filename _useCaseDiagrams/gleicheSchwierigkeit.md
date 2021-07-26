@@ -14,7 +14,6 @@ history:
         date: 2021-07-19
         comment: initially created
 todo: 
-    - 
 ---
 
 ## Beschreibung

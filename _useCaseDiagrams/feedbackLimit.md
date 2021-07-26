@@ -21,9 +21,7 @@ history:
     v2:
         date: 2021-07-23
         comment: Review-Anmerkungen eingearbeitet
-
 todo: 
-    - 
 ---
 
 ## Beschreibung
