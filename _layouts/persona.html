@@ -5,10 +5,18 @@ layout: default
 {% include /functions/get-artefact-name.html myArtefact=page myIdFormat="postfixWithBrackets" %}
 <h1>Persona {{ artefactName }}</h1>
 
+`<p>tbd. primäre Persona?</p>
+
 <dl>
     <dt>Autor(en)</dt>
     {% include /functions/resolve-names.html myResponsible=page.responsible %}
     <dd>{{ responsibleString }}</dd>
+
+    <dt>Alter</dt>
+    <dt>{{ page.age }}</dt>
+
+    <dt>Szenarien für diese Persona</dt>
+    <dt>tbd.</dt>
 
 
     {% include /functions/print-history.html myArtefact=page %}
