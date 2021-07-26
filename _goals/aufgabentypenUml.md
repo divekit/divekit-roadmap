@@ -23,6 +23,8 @@ history:
         date: 2021-07-26
         comment: add source
 
+ignore:
+    -w005
 todo:
     - Begründung nachbessern
 ---
