@@ -7,6 +7,7 @@ responsible:
     - aha
 title: Use Case Diagram Rückfragen zu Aufgaben
 functionalRequirement: RueckfragenZuAufgaben
+detailedUseCases:
 history:
     v1:
         date: 2021-07-19

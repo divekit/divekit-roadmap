@@ -7,6 +7,7 @@ responsible:
     - ama
 title: Use Case Diagram Allgemeines Feedback
 functionalRequirement: AllgemeinesFeedback
+detailedUseCases:
 history:
     v1:
         date: 2021-07-21

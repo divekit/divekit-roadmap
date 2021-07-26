@@ -7,6 +7,7 @@ responsible:
     - mwi
 title: Use Case Anzeige der Deadline
 functionalRequirement: AnzeigederDeadline
+detailedUseCases:
 history:
     v1:
         date: 2021-07-22

@@ -9,6 +9,7 @@ responsible:
     - cpo
 title: Use Case Diagram Aussagekräftige Fehlermeldung
 functionalRequirement: FehlermeldungAussagekraeftig
+detailedUseCases:
 history:
     v1:
         date: 2021-07-18

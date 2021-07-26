@@ -7,6 +7,7 @@ responsible:
     - ako
 title: Use-Case-Diagram - Feedback-Archiv
 functionalRequirement: feedbackArchiv
+detailedUseCases:
 history:
     v1:
         date: 2021-07-17
