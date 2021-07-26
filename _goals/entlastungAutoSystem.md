@@ -2,10 +2,8 @@
 type: goal
 acronym: entlastungAutoSystem
 responsible: 
-    - fkr
-    - sbe
     - hbu
-title: automatisierte Interkation mit dem System
+title: Automatisierte Interaktion mit dem System
 source: 
     - [workshop, waltDisney]
     - [interview, fkrampe, Minute 00-11-42]
