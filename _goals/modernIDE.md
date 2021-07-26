@@ -28,6 +28,8 @@ history:
         date: 2021-07-16
         comment: amend another source, expand the explanation
 
+ignore:
+    - w005
 todo: 
 ---
 

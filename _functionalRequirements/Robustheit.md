@@ -18,7 +18,7 @@ history:
         comment: initially created
     v2:
         date: 2021-07-26
-        comment: Changed sytem to divekit
+        comment: changed system name to divekit
 
 todo:
 ---
