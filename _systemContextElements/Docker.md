@@ -8,7 +8,7 @@ responsible:
     - ako
     - kru
 source:
-    - [Interview, nnProf3]
+    - [Interview, nnProf3, 00-00-21]
     - [interview, sbente, Minute 00-00-16]
 history:
     v1:
@@ -17,8 +17,11 @@ history:
     v2:
         date: 2021-07-02
         comment: added source
+    v3:
+        date: 2021-07-26
+        comment: added Timestamp 
+
 todo:
-    - Bitte Timestamp ergänzen!
 ---
 
 ## Erläuterung

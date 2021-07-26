@@ -5,7 +5,7 @@ subtype: itsystem
 responsible:
     - jlü
 source:
-    - [Interview, nnProf3]
+    - [Interview, nnProf3, 00-00-21]
 history:
     v1:
         date: 2021-06-03
@@ -15,7 +15,6 @@ history:
         comment: erklärung ergänzen
 
 todo:
-    - Erklärung spezifizieren 
     - Was ist Google Cloud genau?
 ---
 
