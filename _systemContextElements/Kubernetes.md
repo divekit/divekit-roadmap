@@ -13,12 +13,18 @@ history:
     v2:
         date: 2021-07-26
         comment: added timestamp
-
+    v3:
+        date: 2021-07-26
+        comment: refactor explanation 
+    
 todo:
-    - Was ist Kubernetes und was ist ein Kubernetes Cluster?
 ---
 ## Erläuterung
 Ähnlich wie Docker sind auch individualisierte Aufgaben zur Erstellung eines 
-Kubernetes Clusters denkbar.
+Kubernetes Clusters denkbar. Dabei soll der Umgang mit Kubernetes erlernt werden. 
 
+Ein Kubernetes Cluster besteht aus einer Reihe von Knoten zum Ausführen von containerisierten Anwendungen.
+Die Cluster bieten den Vorteil, dass Ausführen von Anwendungen auf unterschiedlichen Maschinen geplant werden kann. 
+
+Weiter Informationen sind der [offiziellen Dokumentation](https://kubernetes.io/de/docs/concepts/overview/what-is-kubernetes/) zu entnehmen. 
 
