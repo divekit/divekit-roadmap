@@ -10,6 +10,7 @@ useCases:
     - Divekit-Team benachrichtigen 
 useCasesDetailedWithScenario:
     - UCaufgabeTesten 
+diagram: ./diagrams/useCaseAussagekräftigeFehlermeldung.jpg
 history:
     v1:
         date: 2021-07-18
@@ -37,9 +38,5 @@ Prüfung vom System nicht durchführbar ist, wird hier der Systemfehler kommuniz
 
 Wenn so ein Fehler auftritt, kann der Nutzer sofort einen Bug-Report rausschicken, der an die Entwickler vom Divekit
 gesendet wird. 
-
-## Diagram
-
-![useCaseDiagramFehlermeldungAussagekraeftig](./diagrams/useCaseAussagekräftigeFehlermeldung.jpg)
 
 

@@ -8,6 +8,7 @@ functionalRequirement: Darkmode
 useCases:
 useCasesDetailedWithScenario:
     - darkmode
+diagram: ./diagrams/useCaseDarkmode.jpg
 history:
     v1:
         date: 2021-07-20
@@ -24,8 +25,5 @@ Die beiden Aktionen "User ändert visuelle Settings zum Darkmode" und "User ents
 
 Hierbei werden sowohl das Haupszenario als auch das Alternativszenario abgebildet, denn der Nutzer aktiviert das Darkmode-Setting oder lässt es bleiben.
 
-## Diagram
-
-![darkmode](./diagrams/useCaseDarkmode.jpg)
 
 

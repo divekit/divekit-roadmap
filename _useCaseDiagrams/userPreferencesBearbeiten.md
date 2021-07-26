@@ -9,6 +9,7 @@ useCases:
     - Anmelden
 useCasesDetailedWithScenario:
     - userPreferencesBearbeiten
+diagram: ./diagrams/useCaseUserPreferences.svg
 history:
     v1:
         date: 2021-07-22
@@ -28,8 +29,5 @@ Der Use Case User Preferences Bearbeiten ist der Kern des FR. Er kann ausgeführ
 hat (daher extends). Er muss nicht notwendigerweise ausgeführt werden um andere Funktionen zu nutzen, er könnte sich aber
 (je nach User Preferences) auf die Darstellung anderer Prozess auswirken (bswp. die Darstellungen für farbenblinde Nutzer).
 
-## Diagram
-
-![useCaseDiagramUserPreferences](./diagrams/useCaseUserPreferences.svg)
 
 

@@ -8,6 +8,7 @@ functionalRequirement: MotivationDurchGamification
 useCases:
 useCasesDetailedWithScenario:
     - Gamification
+diagram: ./diagrams/useCaseGamification.jpg
 history:
     v1:
         date: 2021-07-23
@@ -30,8 +31,5 @@ Der Studierende finalisiert die Aufgabe und gibt diese zur Überprüfung ab. Daf
 
 Der Studierende ist dadurch motiviert und beginnt mit der nächsten Aufgabe.
 
-## Diagram
-
-![Gamification](./diagrams/useCaseGamification.jpg)
 
 

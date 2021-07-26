@@ -8,6 +8,7 @@ functionalRequirement: feedbackArchiv
 useCases:
 useCasesDetailedWithScenario:
     - feedbackArchivDurchsuchen
+diagram: ./diagrams/UseCaseFeedbackArchiv.jpg
 history:
     v1:
         date: 2021-07-17
@@ -27,6 +28,3 @@ Das Feedback-Archiv besteht aus:
     * Bearbeitung / Löschen von Feedback
 * Archivierung von Feedback
 
-## Diagram
-
-![UseCaseFeedbackArchiv](./diagrams/UseCaseFeedbackArchiv.jpg)

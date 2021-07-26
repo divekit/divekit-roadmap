@@ -8,6 +8,7 @@ functionalRequirement: AllgemeinesFeedback
 useCases:
 useCasesDetailedWithScenario:
     - UCausführlichesFeedback
+diagram: ./diagrams/useCaseAllgemeinesFeedback.png
 history:
     v1:
         date: 2021-07-21
@@ -22,7 +23,3 @@ Das Use Case Diagramm stellt einige Nutzungsmöglichkeiten für die funktionale 
 
 Enthalten sind die folgenden Use Cases:
 * Feedback zu bestandenen und nicht bestandenen Aufgaben einsehen
-
-## Diagram
-
-![Use Case Diagramm API](./diagrams/useCaseAllgemeinesFeedback.png)
