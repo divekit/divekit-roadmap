@@ -4,6 +4,7 @@ acronym: aufgabentypen
 responsible: 
     - psc
     - ngi
+    - jlü
 title: verschiedene Aufgabentypen sollten zur Verfügung stehen
 source:
     - [interview, mengelen, Minute 00-08-00]
