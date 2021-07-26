@@ -8,6 +8,7 @@ functionalRequirement: IndividuellesDesign
 useCases:
 useCasesDetailedWithScenario:
     - Branding
+diagram: ./diagrams/useCaseBranding.jpg
 history:
     v1:
         date: 2021-07-22
@@ -28,8 +29,5 @@ Nach dem Anpassen der entsprechenden Einstellungsmöglichkeit wird die Änderung
 
 Voraussetzung für das Aufrufen dieser Einstellungsmöglichkeiten ist ein Login in das System mit der entsprechenden Berechtigung, beispielsweise als Verwalter.
 
-## Diagram
-
-![branding](./diagrams/useCaseBranding.jpg)
 
 

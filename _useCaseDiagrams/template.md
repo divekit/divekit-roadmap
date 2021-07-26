@@ -21,10 +21,6 @@ todo:
 
 TODO
 
-## Diagram
 
-TODO
-
-![alt text](url)
 
 

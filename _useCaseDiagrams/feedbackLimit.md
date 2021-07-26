@@ -13,6 +13,7 @@ useCases:
     - Feedback einarbeiten
     - Benachrichtigung durchlesen
 useCasesDetailedWithScenario:
+diagram: ./diagrams/useCaseFeedbackLimit.jpg
 history:
     v1:
         date: 2021-07-23
@@ -38,8 +39,5 @@ Außerdem arbeitet der Student das Feedback ein, was ein Spezialfall von "Aufgab
 Sowohl der Student als auch der Lehrende werden über neue Feedback-Anfrage/-Antwort benachrichtigt.
 Das System übernimmt diese Benachrichtigungsfunktion.
 
-## Diagram
-
-![useCaseDiagramUserPreferences](./diagrams/useCaseFeedbackLimit.jpg)
 
 

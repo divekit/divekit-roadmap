@@ -13,6 +13,7 @@ useCases:
     - Lösungen abrufen
     - Lösungen einreichen
 useCasesDetailedWithScenario:
+diagram: ./diagrams/usecaseAPI.png
 history:
     v1:
         date: 2021-07-21
@@ -25,10 +26,5 @@ todo:
 
 Das Use Case Diagramm stellt einige Nutzungsmöglichkeiten für die funktionale Anforderung "API" dar.
 
-## Diagram
-
-
-
-![Use Case Diagramm API](./diagrams/usecaseAPI.png)
 
 

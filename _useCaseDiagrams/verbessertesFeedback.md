@@ -8,10 +8,11 @@ functionalRequirement: VerbessertesFeedback
 useCases:
 useCasesDetailedWithScenario:
     - VerbessertesFeedback
+diagram: ./diagrams/useCaseVerbessertesFeedback.png
 history:
     v1:
         date: 2021-07-22
-        comment: initially created
+        comment: initially created        
 todo: 
 ---
 
@@ -25,8 +26,5 @@ Diese wird von einem Professor oder wissenschaftlichen Mitarbeiter kontrolliert 
 Wenn er mit unter 55% der Punkte bestanden hat bekommt er automatisch Verbesserungsvorschläge und die Musterlösung angezeigt.
 Bei über 55% muss er dafür die Option "Zusätzliches Feedback anzeigen" auswählen.
 
-## Diagram
-
-![verbessertesFeedback](useCaseVerbessertesFeedback.png)
 
 

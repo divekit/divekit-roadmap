@@ -8,6 +8,7 @@ functionalRequirement: WeiterfuehrendeInformationen
 useCases:
 useCasesDetailedWithScenario:
     - informationenAnfordern
+diagram: ./diagrams/UseCaseInformationenAbbilden.png
 history:
     v1:
         date: 2021-07-16
@@ -24,8 +25,5 @@ todo:
 
 TODO
 
-## Diagram
-
-![UseCase Diagramm zu Informationen abbilden](./diagrams/UseCaseInformationenAbbilden.png)
 
 

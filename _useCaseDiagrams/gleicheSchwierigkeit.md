@@ -8,6 +8,7 @@ functionalRequirement: gleicheSchwierigkeit
 useCases:
 useCasesDetailedWithScenario:
     - aufgabenMitGleicherSchwierigkeit
+diagram: ./diagrams/useCaseGleicheSchwierigkeit.png
 history:
     v1:
         date: 2021-07-19
@@ -27,8 +28,5 @@ Um Aufgaben mit gleicher Schwierigkeit generieren zu können sind im Diagramm fo
 * Aufgaben Generieren
 * Generierte Aufgaben den Studenten stellen
 
-## Diagram
-
-![useCaseDiagrammGleicheSchwierigkeit](./diagrams/useCaseGleicheSchwierigkeit.png)
 
 
