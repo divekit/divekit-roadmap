@@ -1,10 +1,10 @@
 ---
 acronym: statistik
 type: systemContextElement
-subtype: Modul
+subtype: domainElse
 responsible:
     - mba
-mentionnedInSource:
+source:
     - [Interview, nnProf]
 history:
     v1:

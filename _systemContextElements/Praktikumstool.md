@@ -5,7 +5,7 @@ subtype: itsystem
 responsible:
     - ngi
     - fgr
-mentionnedInSource: 
+source:
     - nnWMA2_transkript.md
 history:
     v1:

@@ -9,6 +9,8 @@
 		myErrorString="" myWarningString="" %}
 {% include /functions/checks/generic/check-goal-refs.html myArtefact=artefact
 		myErrorString=errorString myWarningString=warningString %}
+{% include /functions/checks/generic/check-sources.html myArtefact=artefact
+		myErrorString=errorString myWarningString=warningString %}
 
 {% assign errorList = errorString | split: ";" %}
 {% assign warningList = warningString | split: ";" %}

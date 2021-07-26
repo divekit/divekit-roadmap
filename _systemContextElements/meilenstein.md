@@ -4,7 +4,7 @@ type: systemContextElement
 subtype: prozess, event 
 responsible:
     - tza
-mentionnedInSource: 
+source:
     - [interview, fkrampe, Minute 00-08-01]   
     - [interview, fkrampe, Minute 00-25-49]
 history:

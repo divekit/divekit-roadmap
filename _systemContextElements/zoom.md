@@ -4,7 +4,7 @@ type: systemContextElement
 subtype: itsystem
 responsible:
     - jsp
-mentionnedInSource: 
+source:
     - [Interview, nnProf1, Minute 00-03-17]
     - [interview, nnWMA4, Minute 00-38-26]
 history:

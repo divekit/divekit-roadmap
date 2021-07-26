@@ -6,7 +6,7 @@ responsible:
     - jsp
     - psc
     - duz
-mentionnedInSource: 
+source:
     - [Interview, nnProf1, Minute 00-01-40]
     - [Interview, mengelen, Minute 00-03-47]
     - [Interview, mengelen, Minute 00-11-29]

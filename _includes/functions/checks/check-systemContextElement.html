@@ -1,0 +1,48 @@
+{% assign artefact = include.myArtefact %}
+
+{% assign errorString = "" %}
+{% assign warningString = "" %}
+
+{% comment %}---------- First the generic checks -----------{% endcomment %}
+
+{% include /functions/checks/generic/check-generic-aspects.html myArtefact=artefact
+		myErrorString="" myWarningString="" %}
+{% include /functions/checks/generic/check-sources.html myArtefact=artefact
+		myErrorString=errorString myWarningString=warningString %}
+
+{% assign errorList = errorString | split: ";" %}
+{% assign warningList = warningString | split: ";" %}
+
+
+{% comment %} ***** Error/Warning Numbers 810 - 829 reserved for SystemContextElement **** {% endcomment %}
+
+{% comment %}---------- title -----------{% endcomment %}
+{% if artefact.title %}
+	{% if artefact.title.size < 3 %}
+		{% assign myMsg = "Titel scheint zu kurz zu sein." %}
+		{% include /functions/define-message.html ignore=artefact.ignore msgno="w810" msg=myMsg %}
+		{% assign warningList = warningList | push: out_msg %}
+	{% endif %}
+{% else %}
+	{% include /functions/define-message.html ignore=artefact.ignore msgno="e811" msg="Titel fehlt!" %}
+	{% assign errorList = errorList | push: out_msg %}
+{% endif %}
+
+
+{% comment %}---------- subtype -----------{% endcomment %}
+{% include /functions/get-system-context-subtype.html mySystemContextElement=artefact %}
+subtypeString: {{ subTypeString }}<br>
+{% if subTypeString == "-" %}
+	{% include /functions/define-message.html ignore=artefact.ignore msgno="e812" msg="Subtype fehlt!" %}
+	{% assign errorList = errorList | push: out_msg %}
+{% elsif subTypeString == "???" %}
+	{% assign myMsg = "Subtype '" | append: artefact.subtype |
+			append: "' existiert nicht. Erlaubt sind itsystem, process, event, document, regulation und domainElse." %}
+	{% include /functions/define-message.html ignore=artefact.ignore msgno="e813" msg=myMsg %}
+	{% assign errorList = errorList | push: out_msg %}
+{% endif %}
+errorString: {{ errorString }}<br>
+
+
+{% assign errorString = errorList | join: ";" %}
+{% assign warningString = warningList | join: ";" %}

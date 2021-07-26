@@ -57,7 +57,7 @@ layout: default
 
             {% include /functions/get-implementation-status.html my_requirement=functionalRequirement %}
             <td>{{ implementationStatus }}</td>
-            {% include /functions/get-kano-type.html my_requirement=functionalRequirement %}
+            {% include /functions/get-kano-type.html myRequirement=functionalRequirement %}
             <td>{{ kanoType }}</td>
             <td>{{ functionalRequirement.prefilterPriorizationPoints }}</td>
         </tr>

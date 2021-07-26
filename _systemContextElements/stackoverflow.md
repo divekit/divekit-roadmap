@@ -4,7 +4,7 @@ type: systemContextElement
 subtype: itsystem
 responsible:
     - psc
-mentionnedInSource: 
+source:
     - [workshop, waltDisney, Punkt 2.]   
 history:
     v1:

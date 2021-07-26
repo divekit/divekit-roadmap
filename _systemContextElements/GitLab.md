@@ -7,7 +7,7 @@ responsible:
     - ako
     - duz
     - jlü
-mentionnedInSource:
+source:
     - [interview, jintveen, Minute 00-26-21]
     - [interview, jintveen, Minute 00-28-03]
     - [interview, sbente, Minute 00-00-16]

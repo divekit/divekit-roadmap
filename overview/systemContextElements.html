@@ -13,9 +13,10 @@ layout: default
 <table>
     <thead>
     <tr>
-        <th width="15%">Akronym</th>
-        <th width="85%">Beschreibung</th>
-
+        <th width="5%"></th>
+        <th width="10%">ID</th>
+        <th width="60%">Name</th>
+        <th width="60%">Typ</th>
     </tr>
     </thead>
     <tbody>
@@ -23,9 +24,19 @@ layout: default
     {% assign collection = site.systemContextElements | sort: sortField %}
     {% for systemContextElement in collection %}
     <tr>
-        <td><a href="{{ site.url }}{{ systemContextElement.url | relative_url }}">{{ systemContextElement.acronym }}</a></td>
+        {% include /functions/checks/check-systemContextElement.html myArtefact=systemContextElement %}
+        {% include /functions/get-check-icon.html errors=errorString warnings=warningString
+                todos=systemContextElement.todo %}
+        <td>{{ iconString }}</td>
+
+        {% include /functions/get-globalid.html myArtefact=systemContextElement %}
+        <td><a href="{{ site.url }}{{ systemContextElement.url | relative_url }}">{{ globalId }}</a></td>
+
         {% include /functions/get-artefact-name.html myArtefact=systemContextElement %}
         <td><a href="{{ site.url }}{{ systemContextElement.url | relative_url }}">{{ artefactName }}</a></td>
+
+        {% include /functions/get-system-context-subtype.html mySystemContextElement=systemContextElement %}
+        <td><a href="{{ site.url }}{{ systemContextElement.url | relative_url }}">{{ subTypeString }}</a></td>
     </tr>
     {% endfor %}
     </tbody>

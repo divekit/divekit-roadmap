@@ -7,6 +7,8 @@
 
 {% include /functions/checks/generic/check-generic-aspects.html myArtefact=artefact
 		myErrorString="" myWarningString="" %}
+{% include /functions/checks/generic/check-sources.html myArtefact=artefact
+		myErrorString=errorString myWarningString=warningString %}
 
 {% assign errorList = errorString | split: ";" %}
 {% assign warningList = warningString | split: ";" %}

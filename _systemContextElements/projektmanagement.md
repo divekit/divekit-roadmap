@@ -6,7 +6,7 @@ responsible:
     - ako
     - kru
     - duz
-mentionnedInSource: 
+source:
     - [interview, ckohls, Minute 00-00-22]   
 history:
     v1:

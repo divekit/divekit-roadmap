@@ -7,7 +7,7 @@ responsible:
     - kru
     - ako
     - duz
-mentionnedInSource: 
+source:
     - [interview, jintveen, Minute 00-28-03]
     - [interview, jintveen, Minute 00-40-49]
     - [interview, jintveen, Minute 01-12-53]

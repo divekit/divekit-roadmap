@@ -4,7 +4,7 @@ type: systemContextElement
 subtype: itsystem
 responsible:
     - jlü
-mentionnedInSource: 
+source:
     - [Interview, nnProf3]
 history:
     v1:

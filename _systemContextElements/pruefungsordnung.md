@@ -4,7 +4,7 @@ type: systemContextElement
 subtype: regulation 
 responsible:
     - tza
-mentionnedInSource: 
+source:
     - [interview, fkrampe, Minute 00-09-47]
     - [interview, fkrampe, Minute 00-39-16]
     - [interview, nnWMA2, time unclear]

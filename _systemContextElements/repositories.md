@@ -6,7 +6,7 @@ responsible:
     - kru
     - ako
     - duz
-mentionnedInSource: 
+source:
     - 
 history:
     v1:

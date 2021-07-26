@@ -7,7 +7,7 @@ responsible:
     - duz
     - ako
     - kru
-mentionnedInSource: 
+source:
     - [Interview, nnProf3]
     - [interview, sbente, Minute 00-00-16]
 history:

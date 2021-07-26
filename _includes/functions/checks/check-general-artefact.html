@@ -20,6 +20,8 @@
 	{% include /functions/checks/check-stakeholderRole.html myArtefact=artefact %}
 {% elsif artefact.type == "survey" %}
 	{% include /functions/checks/check-survey.html myArtefact=artefact %}
+{% elsif artefact.type == "systemContextElement" %}
+	{% include /functions/checks/check-systemContextElement.html myArtefact=artefact %}
 {% elsif artefact.type == "useCase" %}
 	{% include /functions/checks/check-useCase.html myArtefact=artefact %}
 {% elsif artefact.type == "useCaseDiagram" %}
