@@ -5,8 +5,7 @@ responsible:
     - jlü
 title: Lösungen einreichen
 description: Ein * e Student * in 
-primaryActor: 
-    - student
+primaryActor: student
 secondaryActors:
     - profInf
 trigger: Student * in will Lösung einreichen
