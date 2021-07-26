@@ -10,6 +10,7 @@ source:
     - [interview, mengelen, Minute 00-25-22]
     - [interview, mengelen, Minute 00-27-00]
     - [Interview, nnWMA2]
+    - [Interview, nnProf3, 00-00-21]
 partOfLargerGoal: 
 history:
     v1:
@@ -21,6 +22,9 @@ history:
     v3:
         date: 2021-07-20
         comment: merged with duplicate goal
+    v3: 
+        date: 2021-07-26
+        comment: add sources
 ---
 
 ## Beschreibung
@@ -38,6 +42,8 @@ Dieses Ziel ist ein Oberziel von:
 * [Rechenaufgaben](./aufgabentypenRechnen.md)
 * [Aufgaben mit UML](./aufgabentypenUml.md)
 * [Zuordnungsaufgaben](./aufgabentypenZuordnung.md)
+
+
 
 ## Begründung
 
