@@ -16,9 +16,7 @@ history:
     v2:
         date: 2021-07-20
         comment: added diagram
-
 todo: 
-    - 
 ---
 
 ## Beschreibung

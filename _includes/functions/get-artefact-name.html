@@ -21,6 +21,15 @@
             {% assign localArtefactName = "Interview mit »" | append: localStakeholder.name |
                             append: "« (" | append: interviewDate | append: ")" %}
         {% endif %}
+    {% elsif type == "useCaseDiagram" and localArtefact.functionalRequirement %}
+        {% assign localFunctionalRequirementRef = localArtefact.functionalRequirement %}
+        {% assign localFunctionalRequirementList = site.functionalRequirements |
+                where: "acronym", localFunctionalRequirementRef %}
+        {% if localFunctionalRequirementList.size > 0 %}
+            {% assign localFunctionalRequirement = localFunctionalRequirementList | first %}
+            {% assign localArtefactName = "Use-Case-Diagramm zu funktionaler Anforderung »" |
+                append: localFunctionalRequirement.title | append: "«" %}
+        {% endif %}
     {% endif %}
 
     {% if idFormat == "prefix" or idFormat == "postfix" or idFormat == "postfixWithBrackets" or idFormat == "onlyId" %}
