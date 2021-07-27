@@ -30,8 +30,6 @@ todo:
 | Satz 15 | Vorschlag Umformulierung. Beispiel siehe unten | |
 | Satz 16 | Vorschlag Umformulierung. Beispiel siehe unten | |
 
-- Ist die Lernschwäche ein typisches Merkmal von der Stakeholderrolle _Student_?
-
 Satz 6:
 	- Emilia hat eine Lernschwäche, weshalb sie überdurchschittlich auf die Hilfe von Betreuern angewiesen ist. Die Schwäche zeichnet sich im wesentlich durch einen erhöhten Lernwaufwand für Emilia aus, um Sachverhalte zu durchdringen.
 
