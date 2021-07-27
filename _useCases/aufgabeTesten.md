@@ -5,7 +5,7 @@ responsible:
     - cpo
 title: Aufgabe testen
 description: Ein Student lässt eine Aufgabe auf Richtigkeit prüfen
-primaryActor: student
+primaryActor: studierende
 secondaryActors:
     - wmaProg 
 trigger: Student hat seine Aufgabe erledigt, und möchte sie testen lassen

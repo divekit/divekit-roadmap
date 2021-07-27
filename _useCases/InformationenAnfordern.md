@@ -5,7 +5,7 @@ responsible:
     - kru
 title: Informationen anfordern
 description: Das DiveKit muss in der Lage sein Studierenden weiterführende Informationen (zum Beispiel Videos/Webseiten/Vorlesungsmaterialien) zu konkreten Fehlern zur Verfügung zu stellen.
-primaryActor: student
+primaryActor: studierende
 secondaryActors:
     - wmaAutonomousLecturerInf
 trigger: Student:in stößt auf Fehler.

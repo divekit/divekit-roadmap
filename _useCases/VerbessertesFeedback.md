@@ -5,8 +5,7 @@ responsible:
     - fgr
 title: Verbessertes Feedback
 description: Ein*e Student*in kann sich zusätzliches Feedback anzeigen lassen.
-primaryActor: 
-    - mma
+primaryActor: mma
 secondaryActors:
     - wmaProg
     - profInf
@@ -22,6 +21,7 @@ history:
         date: 2021-07-22
         comment: initially created
 todo: 
+    - mma ist Stakeholder - hier ist aber eine StakeholderRole gefragt (sbe)
 ---
 
 Als User*in gelten alle Studenten, welche Aufgaben im Divekit abgeben.
