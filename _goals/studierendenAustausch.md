@@ -9,7 +9,8 @@ title: Austausch und Reviews von Studierenden untereinander
 source:
     - [beobachtungstagebuch, RD1]
     - [interview, mreitano, 00-13-47]
-partOfLargerGoal:
+belongsTo:
+isTopLevel: true
 history:
     v1:
         date: 2021-07-16

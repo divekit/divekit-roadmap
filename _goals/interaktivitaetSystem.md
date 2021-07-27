@@ -10,7 +10,8 @@ source:
     - [beobachtungstagebuch, PC5]
     - [beobachtungstagebuch, PS7]
     - [beobachtungstagebuch, RD3]
-partOfLargerGoal:
+belongsTo:
+isTopLevel: true
 history:
     v1:
         date: 2021-07-16

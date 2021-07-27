@@ -8,7 +8,7 @@ responsible:
 title: Nutzerpräferenzen - Design
 source:
     - [beobachtungstagebuch, HS3]
-partOfLargerGoal:  nutzerPraeferenz
+belongsTo:  nutzerPraeferenz
 history:
     v1:
         date: 2021-07-16

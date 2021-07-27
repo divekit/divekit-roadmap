@@ -7,7 +7,7 @@ title: Fehler erkennen
 source: 
     - [beobachtungstagebuch, PC1]
     - [beobachtungstagebuch, PC2]
-partOfLargerGoal: fehler
+belongsTo: fehler
 history:
     v1:
         date: 2021-07-07

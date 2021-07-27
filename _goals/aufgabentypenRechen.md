@@ -9,7 +9,7 @@ source:
     - [interview, mengelen, Minute 00-25-22]
     - [interview, mengelen, Minute 00-27-00]
     - [Interview, nnProf3, 00-17-34]
-partOfLargerGoal: aufgabentypen
+belongsTo: aufgabentypen
 history:
     v1:
         date: 2021-07-08

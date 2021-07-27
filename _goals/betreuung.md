@@ -16,7 +16,8 @@ source:
     - [interview, fkrampe, Minute 01-02-57]
     - [interview, fkrampe, Minute 00-05-05]
     - [interview, fkrampe, Minute 00-09-47]    
-partOfLargerGoal: 
+belongsTo: 
+isTopLevel: true
 history:
     v1:
         date: 2021-07-03

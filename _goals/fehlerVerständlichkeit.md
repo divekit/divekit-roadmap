@@ -9,7 +9,8 @@ title: Versändliche Fehlermeldungen
 source:
     - [interview, sbente, Minute 00-39-23]
     - [beobachtungstagebuch, PS6]
-partOfLargerGoal: 
+belongsTo: 
+isTopLevel: true
 history:
     v1:
         date: 2021-07-16

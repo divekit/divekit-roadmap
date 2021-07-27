@@ -9,7 +9,8 @@ title: verbesserte Sprachunterstützung
 source:
     - [interview, jintveen, Minute 00-35-39]
     - [interview, jintveen, Minute 00-54-13]
-partOfLargerGoal: 
+belongsTo: 
+isTopLevel: true
 history:
     v1:
         date: 2021-06-17

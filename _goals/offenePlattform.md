@@ -7,7 +7,8 @@ title: Offenheit der Plattform
 source:
     - [interview, nnProf4, Minute 00-43-41]
     - [interview, nnProf4, Minute 00-48-06]
-partOfLargerGoal: 
+belongsTo: 
+isTopLevel: true
 history:
     v1:
         date: 2021-07-02

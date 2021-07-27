@@ -7,7 +7,8 @@ title: Studenten auf Klausur vorbereiten
 source:
     - [interview, fkrampe, Minute 00-59-35]
     - [interview, fkrampe, Minute 01-01-15]
-partOfLargerGoal:
+belongsTo:
+isTopLevel: true
 history:
     v1:
         date: 2021-05-28

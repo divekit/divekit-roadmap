@@ -6,7 +6,7 @@ responsible:
 title: Rückfragen zu Aufgaben
 source:
     - [workshop, waltDisney]
-partOfLargerGoal: betreuung
+belongsTo: betreuung
 history:
     v1:
         date: 2021-07-08

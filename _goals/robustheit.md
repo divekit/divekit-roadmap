@@ -10,6 +10,8 @@ source:
     - [interview, jintveen, Minute 00-54-13]
     - [Workshop 6-3-5-No.2]
 partOfLargerGoal: 
+belongsTo: 
+isTopLevel: true
 history:
     v1:
         date: 2021-06-17

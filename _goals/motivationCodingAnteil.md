@@ -9,7 +9,7 @@ title: Hoeherer Codinganteil im Praktikum
 source:
     - [interview, jintveen, Minute 00-00-33]
     - [interview, jintveen, Minute 00-06-56]
-partOfLargerGoal: motivation
+belongsTo: motivation
 history:
     v1:
         date: 2021-06-17

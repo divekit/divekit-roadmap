@@ -8,7 +8,8 @@ title: Kommunikation zwischen den Anwendern
 source:
     - [Interview, nnProf1, Minute 00-17-05]
     - [interview, nnWMA4, Minute 00-38-26]
-partOfLargerGoal: 
+belongsTo: 
+isTopLevel: true
 history:
     v1:
         date: 2021-06-25

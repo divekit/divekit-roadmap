@@ -6,7 +6,8 @@ responsible:
 title: Bereitstellung von User Preferencen
 source:
     - [Workshop, Workshop 6-3-5-No.2, Schwerpunkt Technik No.3]
-partOfLargerGoal: 
+belongsTo: 
+isTopLevel: true
 history:
     v1:
         date: 2021-07-05

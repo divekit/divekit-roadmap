@@ -8,7 +8,7 @@ responsible:
 title: Erlernen neuer Sprachen nach Problemstellung
 source:
     - [interview, sbente, Minute 00-06-22]
-partOfLargerGoal: modernesCoding
+belongsTo: modernesCoding
 history:
     v1:
         date: 2021-07-02

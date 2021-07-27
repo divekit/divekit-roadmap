@@ -8,7 +8,8 @@ responsible:
 title: Unterstützung von Gruppenarbeit
 source:
     - [interview, mreitano, Minute 00-19-50]
-partOfLargerGoal:
+belongsTo:
+isTopLevel: true
 history:
     v1:
         date: 2021-07-12

@@ -6,7 +6,8 @@ responsible:
 title: Altes Feedback zu Tests weiterhin bereitstellen
 source:
     - [workshop, waltDisney, 51]
-partOfLargerGoal: 
+belongsTo: 
+isTopLevel: true
 history:
     v1:
         date: 2021-07-08

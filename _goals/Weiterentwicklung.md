@@ -7,7 +7,8 @@ responsible:
 title: Weiterentwicklung des Divekit
 source: 
     - [Interview nnWMA]
-partOfLargerGoal: 
+belongsTo: 
+isTopLevel: true
 history:
     v1:
         date: 2021-06-16

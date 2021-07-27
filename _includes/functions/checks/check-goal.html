@@ -28,5 +28,21 @@
 	{% assign errorList = errorList | push: out_msg %}
 {% endif %}
 
+{% comment %}---------- belongsTo/isTopLevel -----------{% endcomment %}
+{% if artefact.belongsTo %}
+    {% if artefact.isTopLevel == true %}
+        {% include /functions/define-message.html ignore=artefact.ignore msgno="e792"
+                msg="Entweder belongsTo: ist gesetzt oder isTopLevel:, beides geht nicht!" %}
+        {% assign errorList = errorList | push: out_msg %}
+    {% endif %}
+{% else %}
+    {% if artefact.isTopLevel == true %}
+    {% else %}
+        {% include /functions/define-message.html ignore=artefact.ignore msgno="e793"
+            msg="Mindestens eins der beiden Felder 'belongsTo:' oder 'isTopLevel:' müssen gesetzt sein!" %}
+        {% assign errorList = errorList | push: out_msg %}
+    {% endif %}
+{% endif %}
+
 {% assign errorString = errorList | join: ";" %}
 {% assign warningString = warningList | join: ";" %}

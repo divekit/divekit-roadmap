@@ -8,7 +8,8 @@ responsible:
 title: Motivation von Studierenden
 source:
     - [interview, ckohls, Minute 00-29-13]
-partOfLargerGoal: 
+belongsTo: 
+isTopLevel: true
 history:
     v1:
         date: 2021-07-02

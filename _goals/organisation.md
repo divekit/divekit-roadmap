@@ -11,6 +11,8 @@ source:
     - [survey, beobachtungstagebuch]
     - [Beobachtungstagebuch, FH1]
 partOfLargerGoal:
+belongsTo:
+isTopLevel: true
 history:
     v1:
         date: 2021-07-12
