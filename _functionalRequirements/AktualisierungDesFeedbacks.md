@@ -7,7 +7,7 @@ responsible:
 title: Feedback automatisch aktualisieren
 goals: 
     - entlastungKorrektur
-    - fehlerAusgabe
+    - fehlerVerständlichkeit
     - autoUpdate
 implementationStatus: implemented
 prefilterPriorizationPoints: 0
