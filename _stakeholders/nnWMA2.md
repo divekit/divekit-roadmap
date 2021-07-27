@@ -19,6 +19,7 @@ history:
         comment: created initially
 todo:
     - potentielle Divekit-Anwenderrolle hinzufügen (SB)
+    - Wie ist das gemeint? Es gibt doch 3 verlinkte Stakeholder-Roles
 ---
 
 ## Steckbrief
