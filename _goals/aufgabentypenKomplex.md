@@ -14,6 +14,7 @@ history:
 
 todo: 
     - Begründung liest sich eher wie eine zweite Beschreibung
+    - (sbe) bitte Titel so anpassen, dass er ein Ziel beschreibt
 ---
 
 ## Beschreibung

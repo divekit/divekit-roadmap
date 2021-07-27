@@ -20,8 +20,8 @@ history:
     v3:
         date: 2021-07-26
         comment: add sources
-
 todo:
+    - (sbe) Warum gilt dieses Ziel nur für BWL-Profs? Und wenn ja, dann sollte das im Titel reflektiert sein.
 ---
 
 ## Beschreibung

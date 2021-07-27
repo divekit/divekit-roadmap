@@ -3,7 +3,7 @@ type: goal
 acronym: aufgabentypenFallstudien
 responsible: 
     - psc
-title: zufällig erstellte MiniCases sollten zur Verfügung stehen
+title: Zufällig erstellte Mini-Cases (Fallstudien) sollten zur Verfügung stehen
 source:
     - [interview, mengelen, Minute 00-08-00]
     - [interview, mengelen, Minute 00-25-22]
@@ -16,7 +16,6 @@ history:
     v2:
         date: 2021-07-16
         comment: Begründung hinzugefügt
-
 todo: 
 ---
 
@@ -26,4 +25,4 @@ BWL Professor:innen können (reale) Mini Cases erstellen, die möglichst zufäll
 
 ## Begründung
 
-Eine möglicher Aufgabentyp (z. B. im Modul BWL) können sogenannte Mini Cases bzw. Fallstudien an realen oder fiktiven Sacherverhalten, Unternehmen etc. sein. Diese Aufgabentypen können eine gewisse Komplexität und Offenheit hinsichtlich Ihrer Aufgabenstellung aufweisen. Hier könnte das Divekit in der Generierung von zufälligen Cases unterstützend helfen.
+Eine möglicher Aufgabentyp (z. B. im Modul BWL) können sogenannte Mini-Cases bzw. Fallstudien an realen oder fiktiven Sachverhalten, Unternehmen etc. sein. Diese Aufgabentypen können eine gewisse Komplexität und Offenheit hinsichtlich ihrer Aufgabenstellung aufweisen. Hier könnte das Divekit in der Generierung von zufälligen Cases unterstützend helfen.
