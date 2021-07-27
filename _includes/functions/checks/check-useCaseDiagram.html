@@ -7,6 +7,13 @@
 
 {% include /functions/checks/generic/check-generic-aspects.html myArtefact=artefact
 		myErrorString="" myWarningString="" %}
+{% include /functions/checks/generic/check-generic-refs.html myArtefact=artefact myCheckedRef=artefact.functionalRequirement
+		myCheckedRefType="functionalRequirement" asList=false emptyMeansError=true
+		myPurpose="zugehörige funktionale Anforderung" myErrorString=errorString myWarningString=warningString %}
+{% include /functions/checks/generic/check-generic-refs.html myArtefact=artefact myCheckedRef=artefact.useCasesDetailedWithScenario
+		myCheckedRefType="useCase" asList=true emptyMeansError=true
+		myPurpose="detaillierte Use Cases" myErrorString=errorString myWarningString=warningString %}
+
 
 {% assign errorList = errorString | split: ";" %}
 {% assign warningList = warningString | split: ";" %}
@@ -14,13 +21,26 @@
 
 {% comment %} ***** Error/Warning Numbers 650 - 669 reserved for UC Diagram **** {% endcomment %}
 
-{% comment %}---------- functionalRequirement -----------{% endcomment %}
+{% comment %}---------- diagram -----------{% endcomment %}
+{% if artefact.diagram %}
+	{% if artefact.diagram.size < 10 %}
+		{% assign myMsg = "Diagramm-Referenz scheint zu kurz zu sein." %}
+		{% include /functions/define-message.html ignore=artefact.ignore msgno="w650" msg=myMsg %}
+		{% assign warningList = warningList | push: out_msg %}
+	{% endif %}
+{% else %}
+	{% include /functions/define-message.html ignore=artefact.ignore msgno="e651" msg="Diagramm-Referenz fehlt!" %}
+	{% assign errorList = errorList | push: out_msg %}
+{% endif %}
 
 {% comment %}---------- useCases -----------{% endcomment %}
+{% if artefact.useCases and artefact.useCases.size > 0 %}
+{% else %}
+	{% include /functions/define-message.html ignore=artefact.ignore msgno="w652"
+			msg="Es sind eine sonstigen Use Cases (nicht detailliert ausgeführt) für das Diagramm angegeben." %}
+	{% assign errorList = errorList | push: out_msg %}
+{% endif %}
 
-{% comment %}---------- useCasesDetailedWithScenario -----------{% endcomment %}
-
-{% comment %}---------- diagram -----------{% endcomment %}
 
 {% assign errorString = errorList | join: ";" %}
 {% assign warningString = warningList | join: ";" %}

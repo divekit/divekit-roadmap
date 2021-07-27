@@ -18,6 +18,24 @@ layout: default
         {% endfor %}
     {% endif %}
 
+    {% assign relatedUseCases = site.useCases | where_exp: "uc", "uc.functionalRequirement == page.acronym" %}
+    {% if relatedUseCases.size > 0 %}
+        <dt>Zugehörige Use Cases</dt>
+        {% for relatedUseCase in relatedUseCases %}
+            {% include /functions/get-artefact-name.html myArtefact=relatedUseCase myIdFormat="prefix" %}
+            <dd><a href="{{ site.url }}{{ relatedUseCase.url | relative_url }}">{{ artefactName }}</a></dd>
+        {% endfor %}
+    {% endif %}
+
+    {% assign relatedUserStories = site.userStories | where_exp: "us", "us.functionalRequirement == page.acronym" %}
+    {% if relatedUserStories.size > 0 %}
+    <dt>Zugehörige User Stories</dt>
+        {% for relatedUserStory in relatedUserStories %}
+            {% include /functions/get-artefact-name.html myArtefact=relatedUserStory myIdFormat="prefix" %}
+            <dd><a href="{{ site.url }}{{ relatedUserStory.url | relative_url }}">{{ artefactName }}</a></dd>
+        {% endfor %}
+    {% endif %}
+
     <dt>Implementierungs-Status</dt>
     {% include /functions/get-implementation-status.html my_requirement=page %}
     <dd>{{ implementationStatus }}</dd>

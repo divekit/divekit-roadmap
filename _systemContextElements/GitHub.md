@@ -23,18 +23,17 @@ history:
     v4:
         date: 2021-07-27
         comment: add about github
-
 ignore:
     -w005
 todo:
 ---
-# Was ist Github?
+
+## Was ist Github?
 
 Github ist ein online Dienst, welcher die Versionsverwaltung mit Git
 (siehe Systemkontext [Git](https://divekit.github.io/divekit-roadmap/systemContextElements/Git.html)) ermöglicht. 
 
-
-
 ## Erläuterung des Systemkontextes
+
 * Studierende sollen lernen mit Github um zugehen - die Kenntnisse sollen über die reinen Git-Befehle hinaus gehen.
-* Github soll als Code Versionierungstool verwendet werden
+* Github könnte als Code-Versionierungstool verwendet werden

@@ -5,8 +5,7 @@ responsible:
     - ngi
 title: Branding des Designs der Darkmode-Ansicht
 functionalRequirement: IndividuellesDesign
-asA: 
-    - anwenderExtern
+asA: anwenderExtern
 iWantTo: das Design der Darkmode-Ansicht ändern
 forThisReason: damit die graphische Oberfläche des Divekits an die Farben meiner Hochschule angepasst sind
 history:

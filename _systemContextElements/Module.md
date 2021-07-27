@@ -13,8 +13,9 @@ history:
     v2:
         date: 2021-07-22
         comment: Erläuterung präzisiert
-
 todo:
+    - (sbe) Sorry, ich verstehe nicht, was gemeint ist. Das Wort "Studienmodul" kenne ich in der Form nicht. Es gibt "Module", aus denen ein Studiengang aufgebaut ist (z.B. Master ICS - AM, FAE, QS etc.). In Ihrer Begründung klingt das aber eher nach _Studiengängen_. 
+    - (sbe) und nochmal sorry, wenn ich hier ein bisschen kleinkariert bin - "Für eine granularere Differenzierung ... sollte zwischen ... unterschieden werden." Muss nicht für jede Differenzierung unterschieden werden? Oder für eine Unterscheidung differenziert ...? Also, ich kriege den Punkt noch nicht, den Sie machen wollen.
 ---
 
 ## Erläuterung

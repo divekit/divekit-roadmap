@@ -10,16 +10,36 @@ layout: default
     {% include /functions/resolve-names.html myResponsible=page.responsible %}
     <dd>{{ responsibleString }}</dd>
 
+    {% assign myAcronym = page.acronym %}
+    {% assign relatedUseCaseDiagrams = site.useCaseDiagrams |
+                where_exp: "ucd", "ucd.useCasesDetailedWithScenario contains myAcronym" %}
+    {% if relatedUseCaseDiagrams.size > 0 %}
+        <dt>Enthalten in Use-Case-Diagramm</dt>
+        {% for relatedUseCaseDiagram in relatedUseCaseDiagrams %}
+            {% include /functions/get-artefact-name.html myArtefact=relatedUseCaseDiagram myIdFormat="postfix" %}
+            <dd><a href="{{ site.url }}{{ relatedUseCaseDiagram.url | relative_url }}">{{ artefactName }}</a></dd>
+        {% endfor %}
+    {% endif %}
+
+    <dt>Zugrundeliegende funktionale Anforderung</dt>
+    {% include /functions/get-link-to-artefact.html myRef=page.functionalRequirement
+                myTypeString="functionalRequirement" myIdFormat="prefix" %}
+    <dd>{{ artefactLink }}</dd>
+
+    {% include /functions/print-history.html myArtefact=page %}
+
+    {% include /functions/checks/check-useCase.html myArtefact=page %}
+    {% include /functions/print-detailed-check-messages.html errors=errorString warnings=warningString todos=page.todo %}
+</dl>
+
+<h2>Use-Case-Header</h2>
+
+<dl>
+    <dt>Titel</dt>
+    <dd>{{ page.title }}</dd>
+
     <dt>Beschreibung</dt>
     <dd>{{ page.description }}</dd>
-
-    <dt>gehört zu funktionalem Requirement</dt>
-    {% include /functions/get-link-to-artefact.html myRef=page.functionalRequirement
-            myTypeString="functionalRequirement" myIdFormat="prefix" %}
-    <dd><a href="{{ site.url }}{{ useCase.url | relative_url }}">{{ artefactLink }}</a></dd>
-
-    <dt>Zugehöriges Use-Case-Diagramm</dt>
-    <dd>tbd.</dd>
 
     <dt>Primärer Aktor</dt>
     {% include /functions/get-link-to-artefact.html myRef=page.primaryActor myTypeString="stakeholderRole"
@@ -30,7 +50,7 @@ layout: default
         <dt>Sekundäre(r) Aktor(en)</dt>
         {% for secondaryActorRef in page.secondaryActors %}
             {% include /functions/get-link-to-artefact.html myRef=secondaryActorRef myTypeString="stakeholderRole"
-                    myIdFormat="prefix" %}
+            myIdFormat="prefix" %}
             <dd>{{ artefactLink }}</dd>
         {% endfor %}
     {% endif %}
@@ -43,22 +63,6 @@ layout: default
 
     <dt>Nachbedingung</dt>
     <dd>{{ page.postcondition }}</dd>
-
-    <dt>Zugrundeliegende funktionale Anforderung(en)</dt>
-    <dd>{{ page.postcondition }}</dd>
-
-    {% if page.funcionalRequirements.size > 0 %}
-        <dt>Zugrundeliegende funktionale Anforderung(en)</dt>
-        {% for functionRequirementRef in page.funcionalRequirements %}
-        <dd>{{ functionRequirementRef }}</dd>
-        {% endfor %}
-    {% endif %}
-
-    {% include /functions/print-history.html myArtefact=page %}
-
-    {% include /functions/checks/check-useCase.html myArtefact=page %}
-    {% include /functions/print-detailed-check-messages.html errors=errorString warnings=warningString todos=page.todo %}
 </dl>
-
 
 {{ page.content }}

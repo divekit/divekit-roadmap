@@ -4,8 +4,9 @@ acronym: feedbackArchiv
 responsible: 
     - ako
 title: Use-Case-Diagram - Feedback-Archiv
-functionalRequirement: feedbackArchiv
+functionalRequirement: FeedbackArchiv
 useCases:
+    - feedbackArchivDurchsuchen
 useCasesDetailedWithScenario:
     - feedbackArchivDurchsuchen
 diagram: ./diagrams/UseCaseFeedbackArchiv.jpg

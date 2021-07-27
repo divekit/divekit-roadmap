@@ -17,6 +17,12 @@ history:
     v1:
         date: 2021-06-15
         comment: created initially
-todo: 
-    - Es fehlt komplett die Beschreibung (SB)       
+    v2:
+        date: 2021-07-27
+        comment: added comment in place of Beschreibung
+todo:      
 ---
+
+<!--
+    Allgemeine Steckbriefinformationen sind nicht aus dem Interview der Person hervorgegangen und zusätzliche Informationen von externen Quellen einzuarbeiten wäre gegensätzlich zum Zweck der Anonymisierung.
+-->
