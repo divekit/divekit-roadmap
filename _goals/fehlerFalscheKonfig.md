@@ -6,7 +6,7 @@ responsible:
 title: Fehlerhafte Konfiguration von Umgebungseinstellungen
 source:
     - [Workshop, Workshop 6-3-5-No.2, Schwerpunkt Technik No.1]
-partOfLargerGoal: fehler
+belongsTo: fehler
 history:
     v1:
         date: 2021-07-05

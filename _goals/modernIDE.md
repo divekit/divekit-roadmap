@@ -13,7 +13,7 @@ source:
     - [interview, nnWMA4, Minute 00-02-58]
     - [interview, mreitano, Minute 00-00-30]
     - [interview, nnProf4, Minute 00-40-02]
-partOfLargerGoal: modernesCoding
+belongsTo: modernesCoding
 history:
     v1:
         date: 2021-07-02

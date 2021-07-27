@@ -9,7 +9,7 @@ title: Verbesserung von grammatikalischen Ausdrücken
 source:
     - [interview, jintveen, Minute 00-35-39]
     - [interview, sbente, Minute 00-33-19]
-partOfLargerGoal: sprache
+belongsTo: sprache
 history:
     v1:
         date: 2021-06-17

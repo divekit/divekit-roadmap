@@ -8,7 +8,7 @@ responsible:
 title: Moderne Programmiertechniken - Formale Notation
 source:
     - [interview, ckohls, Minute 00-00-22]
-partOfLargerGoal: modernesCoding
+belongsTo: modernesCoding
 history:
     v1:
         date: 2021-06-17

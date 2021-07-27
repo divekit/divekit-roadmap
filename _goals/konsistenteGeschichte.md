@@ -8,7 +8,7 @@ responsible:
 title: Beibehalten einer konsistenten Geschichte
 source:
     - [interview, sbente, Minute 00-31-38]
-partOfLargerGoal:
+belongsTo:
 history:
     v1:
         date: 2021-07-03

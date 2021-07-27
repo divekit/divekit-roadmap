@@ -9,7 +9,7 @@ title: Studenten wollen das Fach kompakter halten
 source: 
     - [workshop, waltDisney]
     - [survey, beobachtungstagebuch]
-partOfLargerGoal: organisation
+belongsTo: organisation
 history:
     v1:
         date: 2021-06-14

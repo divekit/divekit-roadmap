@@ -8,7 +8,7 @@ responsible:
 title: Motivation von Studierenden durch Lerndruck
 source:
     - [interview, nnWMA4, Minute 00-20-10]
-partOfLargerGoal: motivation
+belongsTo: motivation
 history:
     v1:
         date: 2021-07-03

@@ -8,7 +8,7 @@ responsible:
 title: Verschiedene Aspekte des organisatorischen Aufbaus
 source: 
     - [workshop, waltDisney]
-partOfLargerGoal:
+belongsTo:
 history:
     v1:
         date: 2021-07-12

@@ -8,7 +8,7 @@ responsible:
 title: Die Aufgaben müssen die gleiche Schwierigkeit aufweisen
 source:
     - [interview, sbente, Minute 00-34-58]
-partOfLargerGoal:
+belongsTo:
 history:
     v1:
         date: 2021-07-03

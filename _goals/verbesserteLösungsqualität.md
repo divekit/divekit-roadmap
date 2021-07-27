@@ -8,7 +8,7 @@ responsible:
 title: Verbessern der Lösungsqualität
 source:
     - [beobachtungstagebuch, PP1]
-partOfLargerGoal:
+belongsTo:
 history:
     v1:
         date: 2021-07-16

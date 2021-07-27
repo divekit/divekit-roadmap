@@ -8,7 +8,8 @@ responsible:
 title: Besseres Verständnis für eigene Leistungen
 source:
     - [beobachtungstagebuch, PC7]
-partOfLargerGoal: 
+belongsTo: 
+isTopLevel: true
 history:
     v1:
         date: 2021-07-16

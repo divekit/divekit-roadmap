@@ -8,7 +8,8 @@ title: Betrugsversuche verhindern
 source: 
     - [interview, nnProf3, 00-02-45]
     - [interview, jintveen, Minute 00-06-56]
-partOfLargerGoal: 
+belongsTo: 
+isTopLevel: true
 history:
     v1:
         date: 2021-06-10

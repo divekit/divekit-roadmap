@@ -8,7 +8,8 @@ responsible:
 title: Fehler müssen gut Verständlich formuliert sein
 source:
     - [beobachtungstagebuch, PS6]
-partOfLargerGoal: 
+belongsTo: 
+isTopLevel: true
 history:
     v1:
         date: 2021-07-16

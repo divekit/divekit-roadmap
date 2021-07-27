@@ -11,7 +11,7 @@ source:
     - [interview, nnWMA4, Minute 00-20-10]
     - [interview, sbente, Minute 00-24-59]
     - [interview, mreitano, Minute 00-26-45]
-partOfLargerGoal: motivation
+belongsTo: motivation
 history:
     v1:
         date: 2021-07-02

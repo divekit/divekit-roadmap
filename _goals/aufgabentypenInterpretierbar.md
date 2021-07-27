@@ -6,7 +6,7 @@ responsible:
 title: Interpretierbare Aufgaben ermöglichen
 source:
     - [interview, mengelen, Minute 00-14-46]
-partOfLargerGoal: aufgabentypen
+belongsTo: aufgabentypen
 history:
     v1:
         date: 2021-06-17

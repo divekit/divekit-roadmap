@@ -8,7 +8,7 @@ responsible:
 title: Fehlerausgaben eindeutig gestalten
 source:
     - [interview, sbente, Minute 00-39-23]
-partOfLargerGoal: fehler
+belongsTo: fehler
 history:
     v1:
         date: 2021-07-03

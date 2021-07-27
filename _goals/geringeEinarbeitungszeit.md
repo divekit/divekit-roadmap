@@ -9,7 +9,7 @@ title: Einarbeitungszeit verringern
 source:
     - [beobachtungstagebuch, PC4]
     - [interview, jintveen, Minute 00-54-13]
-partOfLargerGoal:
+belongsTo:
 history:
     v1:
         date: 2021-07-16

@@ -12,7 +12,8 @@ source:
     - [interview, mengelen, Minute 00-27-00]
     - [Interview, nnWMA2]
     - [Interview, nnProf3, 00-00-21]
-partOfLargerGoal: 
+belongsTo: 
+isTopLevel: true
 history:
     v1:
         date: 2021-07-08

@@ -6,7 +6,8 @@ responsible:
 title: Lokale Tests für Aufgaben der Studenten
 source:
     - [beobachtungstagebuch, PS2]
-partOfLargerGoal: 
+belongsTo: 
+isTopLevel: true
 history:
     v1:
         date: 2021-07-07

@@ -10,7 +10,8 @@ source:
     - [survey, beobachtungstagebuch]
     - [workshop, 6-3-5, Gruppe 2]
     - [interview, sbente, Minute 00-39-23]
-partOfLargerGoal: 
+belongsTo: 
+isTopLevel: true
 history:
     v1:
         date: 2021-07-12

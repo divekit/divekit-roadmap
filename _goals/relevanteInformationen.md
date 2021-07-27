@@ -6,7 +6,8 @@ responsible:
 title: Relevante Informationen Anzeigen
 source:
     - [Beobachtungstagebuch, PB2]
-partOfLargerGoal: 
+belongsTo: 
+isTopLevel: true
 history:
     v1:
         date: 2021-07-08

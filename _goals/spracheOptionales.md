@@ -8,7 +8,7 @@ responsible:
 title: Verbesserte Sprachunterstützung durch optionale Einstellungen
 source:
     - [interview, jintveen, Minute 00-54-13]
-partOfLargerGoal: sprache
+belongsTo: sprache
 history:
     v1:
         date: 2021-06-17

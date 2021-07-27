@@ -6,7 +6,8 @@ responsible:
 title: Verhinder, dass Studenten gegen das Tool arbeiten.
 source:
     - [interview, nnProf, Minute 00-50-16]
-partOfLargerGoal: 
+belongsTo: 
+isTopLevel: true
 history:
     v1:
         date: 2021-06-18
