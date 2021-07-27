@@ -5,7 +5,7 @@ responsible:
     - psc
 title: Lernförderung durch Gamification
 functionalRequirement: MotivationDurchGamification
-asA: dozent
+asA: lehrende
 iWantTo: meinen Studierenden bei der Bearbeitung/Vermittlung des Lernstoffes eine Förderung zur Wissensvermittlung durch spielerische Elemente anbieten
 forThisReason: meine Studierenden die Vermittlung von Wissen mit Spaß und lohnenden Herausforderungen verbinden.
 history:

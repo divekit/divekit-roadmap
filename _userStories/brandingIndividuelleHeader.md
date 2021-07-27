@@ -5,8 +5,7 @@ responsible:
     - ngi
 title: Branding durch individuelle Header
 functionalRequirement: IndividuellesDesign
-asA: 
-    - anwenderExtern
+asA: anwenderExtern
 iWantTo: individuelle Header in das System einfügen
 forThisReason: um Überschriften an meine Hochschule anpassen und auf meine Inhalte abstimmen zu können
 history:

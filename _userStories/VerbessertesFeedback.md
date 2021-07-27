@@ -5,8 +5,7 @@ responsible:
     - fgr
 title: Verbesserung des Feedbacks
 functionalRequirement: VerbessertesFeedback
-asA: 
-    - studierender
+asA: studierende
 iWantTo: Verbesserungsvorschläge oder Musterlösungen bei knapp bestandenen Abgaben erhalten
 forThisReason: um mich für die nächste Abgabe Verbessern zu können
 history:

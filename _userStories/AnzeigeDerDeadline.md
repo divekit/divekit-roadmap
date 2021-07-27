@@ -5,7 +5,7 @@ responsible:
     - mwi
 title: Anzeige der Deadline
 functionalRequirement: Anzeige der Deadline
-asA: student
+asA: studierende
 iWantTo: die Deadline von abzugebenden Aufgaben angezeigt bekommen
 forThisReason: ich meine Abgaben besser planen kann.
 history:
