@@ -23,7 +23,66 @@
 
 {% comment %} ***** Error/Warning Numbers 670 - 689 reserved for Use Case **** {% endcomment %}
 
-{% comment %}---------- ??? add here ??? -----------{% endcomment %}
+{% comment %}---------- title -----------{% endcomment %}
+{% if artefact.title %}
+	{% if artefact.title.size < 10 %}
+		{% assign myMsg = "Titel scheint zu kurz zu sein." %}
+		{% include /functions/define-message.html ignore=artefact.ignore msgno="w670" msg=myMsg %}
+		{% assign warningList = warningList | push: out_msg %}
+	{% endif %}
+{% else %}
+	{% include /functions/define-message.html ignore=artefact.ignore msgno="e671" msg="Titel fehlt!" %}
+	{% assign errorList = errorList | push: out_msg %}
+{% endif %}
+
+{% comment %}---------- description -----------{% endcomment %}
+{% if artefact.description %}
+	{% if artefact.description.size < 20 %}
+		{% assign myMsg = "Description scheint zu kurz zu sein." %}
+		{% include /functions/define-message.html ignore=artefact.ignore msgno="w672" msg=myMsg %}
+		{% assign warningList = warningList | push: out_msg %}
+	{% endif %}
+{% else %}
+	{% include /functions/define-message.html ignore=artefact.ignore msgno="e673" msg="Description fehlt!" %}
+	{% assign errorList = errorList | push: out_msg %}
+{% endif %}
+
+{% comment %}---------- precondition -----------{% endcomment %}
+{% if artefact.precondition %}
+	{% if artefact.precondition.size < 15 %}
+		{% assign myMsg = "Precondition scheint zu kurz zu sein." %}
+		{% include /functions/define-message.html ignore=artefact.ignore msgno="w674" msg=myMsg %}
+		{% assign warningList = warningList | push: out_msg %}
+	{% endif %}
+{% else %}
+	{% include /functions/define-message.html ignore=artefact.ignore msgno="e675" msg="Precondition fehlt!" %}
+	{% assign errorList = errorList | push: out_msg %}
+{% endif %}
+
+{% comment %}---------- postcondition -----------{% endcomment %}
+{% if artefact.postcondition %}
+	{% if artefact.postcondition.size < 15 %}
+		{% assign myMsg = "Postcondition scheint zu kurz zu sein." %}
+		{% include /functions/define-message.html ignore=artefact.ignore msgno="w676" msg=myMsg %}
+		{% assign warningList = warningList | push: out_msg %}
+	{% endif %}
+{% else %}
+	{% include /functions/define-message.html ignore=artefact.ignore msgno="e677" msg="Postcondition fehlt!" %}
+	{% assign errorList = errorList | push: out_msg %}
+{% endif %}
+
+{% comment %}---------- trigger -----------{% endcomment %}
+{% if artefact.trigger %}
+	{% if artefact.trigger.size < 15 %}
+		{% assign myMsg = "Trigger scheint zu kurz zu sein." %}
+		{% include /functions/define-message.html ignore=artefact.ignore msgno="w678" msg=myMsg %}
+		{% assign warningList = warningList | push: out_msg %}
+	{% endif %}
+{% else %}
+	{% include /functions/define-message.html ignore=artefact.ignore msgno="e679" msg="Trigger fehlt!" %}
+	{% assign errorList = errorList | push: out_msg %}
+{% endif %}
+
 
 {% assign errorString = errorList | join: ";" %}
 {% assign warningString = warningList | join: ";" %}

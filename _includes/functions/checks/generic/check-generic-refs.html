@@ -18,7 +18,7 @@
 {% assign warningList = warningString | split: ";" %}
 
 {% if localCheckedRef == blank or localCheckedRef == nil %}
-	{% assign myMsg = "Es muss mindestens eine Referenz für " | append: purpose | append: " angegeben werden!" %}
+	{% assign myMsg = "Es gibt keine Referenz für " | append: purpose | append: "." %}
 	{% include /functions/define-message.html ignore=localArtefact.ignore msgno=missingRefMsgNo msg=myMsg %}
 	{% if asError %}
 		{% assign errorList = errorList | push: out_msg %}
@@ -34,7 +34,7 @@
 	{% endif %}
 
 	{% if localCheckedRefList.size == 0 %}
-		{% assign myMsg = "Es muss mindestens eine Referenz für " | append: purpose | append: " angegeben werden!" %}
+		{% assign myMsg = "Es gibt keine Referenz für " | append: purpose | append: "." %}
 		{% include /functions/define-message.html ignore=localArtefact.ignore msgno=missingRefMsgNo msg=myMsg %}
 		{% if asError %}
 			{% assign errorList = errorList | push: out_msg %}

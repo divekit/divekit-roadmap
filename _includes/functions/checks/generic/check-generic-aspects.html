@@ -18,9 +18,14 @@
 
 {% comment %}---------- acronym -----------{% endcomment %}
 {% if artefact.acronym %}
+	{% assign thisType = artefact.type %}
 	{% assign thisAcronym = artefact.acronym %}
-	{% assign allAcronyms = site.functionalRequirements | where_exp:"fr", "fr.acronym == thisAcronym" %}
-	{% if allAcronyms.size > 1 %}
+	{% assign thisMetadata = site.data.metadata[thisType] %}
+	{%- comment -%} -- append: "" makes it a real string, for whatever reason, doesn't work otherwise -- {%- endcomment -%}
+	{% assign collectionName = thisMetadata.collection | append: "" %}
+	{% assign collection = site[collectionName] %}
+	{% assign foundArtefacts = collection | where:"acronym", thisAcronym %}
+	{% if foundArtefacts.size > 1 %}
 		{% assign myMsg = "Acronym '" | append: thisAcronym |
 			append: "' existiert mehrfach! Acronyms müssen eindeutig sein (innerhalb eines Artefact-Typs)." %}
 		{% include /functions/define-message.html ignore=artefact.ignore msgno="e002" msg=myMsg %}

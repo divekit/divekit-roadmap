@@ -13,11 +13,6 @@ layout: default
     <dt>Beschreibung</dt>
     <dd>{{ page.description }}</dd>
 
-    <dt>gehört zu funktionalem Requirement</dt>
-    {% include /functions/get-link-to-artefact.html myRef=page.functionalRequirement
-            myTypeString="functionalRequirement" myIdFormat="prefix" %}
-    <dd><a href="{{ site.url }}{{ useCase.url | relative_url }}">{{ artefactLink }}</a></dd>
-
     <dt>Zugehöriges Use-Case-Diagramm</dt>
     <dd>tbd.</dd>
 
