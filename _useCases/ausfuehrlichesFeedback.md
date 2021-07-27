@@ -5,7 +5,7 @@ responsible:
     - mwi
 title: Ausführliches Feedback
 description: Eine studierende Person holt ausführliches Feedback zu einer Aufgabe ein.
-primaryActor: student
+primaryActor: studierende
 secondaryActors:
     - profBwl
     - profInf

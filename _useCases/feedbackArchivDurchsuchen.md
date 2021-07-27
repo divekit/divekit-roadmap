@@ -5,7 +5,7 @@ responsible:
     - ako
 title: Feedback suchen
 description: Ein Studierender durchsucht das Feedback-Archiv nach ähnlichen Problemen, um gegebenenfalls ähnliche Lösungen oder anders formuliertes Feedback als Inspiration zu nutzen.
-primaryActor: student
+primaryActor: studierende
 secondaryActors: 
     - wmaAutonomousLecturerInf
     - wmaProg

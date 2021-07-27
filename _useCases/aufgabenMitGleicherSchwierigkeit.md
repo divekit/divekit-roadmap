@@ -5,7 +5,7 @@ responsible:
     - mba
 title: Gleiche Schwierigkeit
 description: Das System garantiert Aufgaben zu generieren, die den gleichen Schwierigkeitsgrad haben
-primaryActor: Dozent
+primaryActor: Lehrende
 secondaryActors:
     - profInf
     - profMa

@@ -5,7 +5,7 @@ responsible:
     - duz
 title: Tutorial vorschlagen
 description: Das System schlägt dem Nutzer ein Tutorial in Form eines Videos vor
-primaryActor: dozent
+primaryActor: lehrende
 secondaryActors:
     - potAnwender
 trigger: Nutzer ruft einen Teil des Systems zum ersten Mal auf

@@ -7,12 +7,12 @@
 
 {% include /functions/checks/generic/check-generic-aspects.html myArtefact=artefact
 		myErrorString="" myWarningString="" %}
-{% assign stakeholderRoleRef = artefact.primaryActor %}
-{% include /functions/checks/generic/check-stakeholderRole-refs.html myStakeholderRoleRef=stakeholderRoleRef
-		myAsList=false myPurpose="Primärer Aktor" myErrorString=errorString myWarningString=warningString %}
-{% assign stakeholderRoleRef = artefact.secondaryActors %}
-{% include /functions/checks/generic/check-stakeholderRole-refs.html myStakeholderRoleRef=stakeholderRoleRef
-		myAsList=true myPurpose="Sekundäre Aktor(en)" myErrorString=errorString myWarningString=warningString %}
+{% include /functions/checks/generic/check-generic-refs.html myArtefact=artefact myCheckedRef=artefact.primaryActor
+		myCheckedRefType="stakeholderRole" asList=false emptyMeansError=true
+		myPurpose="'primaryActor'" myErrorString=errorString myWarningString=warningString %}
+{% include /functions/checks/generic/check-generic-refs.html myArtefact=artefact myCheckedRef=artefact.secondaryActors
+		myCheckedRefType="stakeholderRole" asList=true emptyMeansError=false
+		myPurpose="'secondaryActors'" myErrorString=errorString myWarningString=warningString %}
 
 {% assign errorList = errorString | split: ";" %}
 {% assign warningList = warningString | split: ";" %}
