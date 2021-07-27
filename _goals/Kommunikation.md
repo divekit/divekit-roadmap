@@ -26,18 +26,17 @@ history:
     v5:
         date: 2021-07-24
         comment: fix todo
-
 todo:
 ---
 
 ## Beschreibung
 
-Zwischen den Anwendern soll es möglich sein zu Kommunizieren ohne auf eine Drittanwendung auszuweichen.
+Zwischen den Anwendern soll es möglich sein zu kommunizieren, ohne auf eine Drittanwendung auszuweichen.
 
 ## Begründung
 
 Aktuell werden viele verschiende Kommunikationsmittel können genutzt, darunter gehören Slack, Cisco Jabber (Für Lehrende), Zoom, Discord, WhatsApp, FB Messenger, Ilias-Forum, E-Mail oder die eigene Handynummer. 
 
-Die Kommunikation über externe Systeme verleitet dazu, das System komplett zu verlassen. Beispielweise auch wenn ein UML-Tool weiterhin verwendet wird.
+Die Kommunikation über externe Systeme verleitet dazu, das System komplett zu verlassen, beispielweise auch wenn ein UML-Tool weiterhin verwendet wird.
 
-Eine Erweiterung der Kommunikation könnten Chats-Bot genutzt werden.
+Für eine Erweiterung der Kommunikation könnten Chats-Bot genutzt werden.

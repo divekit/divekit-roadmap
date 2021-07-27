@@ -19,15 +19,14 @@ history:
     v2:
         date: 2021-07-27
         comment: updated Beschreibung & Begründung
-
 todo:
 ---
 
 ## Beschreibung
 
-Das DiveKit soll durch schnelle Reaktionszeiten angenehme Interaktivität gewährleisten
+Das DiveKit soll durch schnelle Reaktionszeiten angenehme Interaktivität gewährleisten.
 
 ## Begründung
 
-Um eine angenehme Nutzererfahrung zu ermöglichen, sind akzeptable Reaktionszeiten der Seite, sowie kurze Korrekturzeiten der Tests notwendig.
+Um eine angenehme Nutzererfahrung zu ermöglichen, sind akzeptable Reaktionszeiten der Seite sowie kurze Korrekturzeiten der Tests notwendig.
 
