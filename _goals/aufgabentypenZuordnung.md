@@ -16,8 +16,8 @@ history:
     v2:
         date: 2021-07-17
         comment: added explanation
-
-todo: 
+todo:
+    - (sbe) Warum gilt dieses Ziel nur für BWL-Profs? Und wenn ja, dann sollte das im Titel reflektiert sein.
 ---
 
 ## Beschreibung

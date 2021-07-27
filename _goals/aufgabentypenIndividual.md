@@ -17,7 +17,6 @@ history:
     v2:
         date: 2021-05-28
         comment: added source, Beschreibung and Begründung
-
 todo: 
 ---
 

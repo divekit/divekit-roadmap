@@ -24,13 +24,13 @@ history:
         comment: add source
 
 ignore:
-    -w005
+    - w005
 todo:
 ---
 
 ## Beschreibung
 
-Es soll möglich sein, dass Modelle, wie UML Diagramme automatisiert bewertet werden können.
+Es soll möglich sein, dass Modelle wie z.B. UML-Diagramme automatisiert bewertet werden können.
 
 ## Begründung
 

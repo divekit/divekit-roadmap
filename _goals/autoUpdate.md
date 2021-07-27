@@ -3,7 +3,7 @@ type: goal
 acronym: autoUpdate
 responsible: 
     - jlü
-title: automatisches Update
+title: Automatisches Update
 source: 
     - [beobachtungstagebuch, BE1]
 belongsTo: 
@@ -12,8 +12,8 @@ history:
     v1:
         date: 2021-07-08
         comment: initially created
-
-todo: 
+todo:
+    - (sbe) bitte präziser - welche Informationen, was für eine Art von Veränderung? 
 ---
 
 ## Beschreibung
