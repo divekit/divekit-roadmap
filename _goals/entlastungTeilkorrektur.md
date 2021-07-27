@@ -14,13 +14,13 @@ history:
     v2:
         date: 2021-07-16
         comment: leave todo comment 
-
 todo:
     - Mergen mit Korrektur
     - Das hier ist ein eigener goal, es sollte nicht gemerged werden
     - Bitte dann umformulieren in erstellen eines Korrekturrahmens und die Ziel muss ausführlicher begründet werden
     - Wenn der Titel / das Ziel umformuliert wurde, bitte auch das acronym anpassen
     - Rechtscheib- und Grammatikfehler beheben
+    - (sbe) Die Begründung ist nicht gut verständlich. Bitte gehen Sie da nochmal drüber. 
 ---
 
 ## Beschreibung
