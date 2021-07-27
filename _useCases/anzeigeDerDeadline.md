@@ -1,6 +1,6 @@
 ---
 type: useCase
-acronym: anzeigeDerDeadline
+acronym: AnzeigederDeadline
 responsible:
     - ama
 title: Ausführliches Feedback
