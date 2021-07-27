@@ -14,8 +14,10 @@ history:
     v2:
         date: 2021-06-13
         comment: updated format
-
 todo:
+    - (sbe) bitte Typo korrigieren (E-Assessment)
+    - (sbe) E-Assessment-Tool ist doch eher eine "Gattung" von Tools. Welches meinen Sie konkret? ILIAS? Dann bitte so benennen. 
+    - (sbe) Inhaltlich stimmt das nicht so wirklich, was in Ihrer Erläuterung steht. Man kommt gut auch ohne eine Schnittstelle aus (gibts im Moment auch nicht.) Vielleicht sollten Sie es einfach vorsichtiger formulieren - "Schnittstelle ist denkbar" o.ä.
 ---
 ### Erläuterung
 Über das E-Assasment-tool werden bislang die Prüfungen online gehalten. 

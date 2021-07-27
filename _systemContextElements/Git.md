@@ -21,10 +21,12 @@ todo:
 ---
 
 ## Was ist Git?
+
 [Git](https://git-scm.com/) ist ein Tool zur verteilten Versionierung von Dateien. Für die Softwareentwicklung spielt Git eine 
 wichtige Rolle um Projekte zu versionieren. 
 
 ### Erläuterung des Systemkontextes
+
 * Studierende sollen den Umgang mit Git lernen
 * Verständnis für Git vermitteln  
 * Basis Befehle zur Arbeit mit Git sollen von Studieren erlernt werden

@@ -31,7 +31,6 @@
 
 {% comment %}---------- subtype -----------{% endcomment %}
 {% include /functions/get-system-context-subtype.html mySystemContextElement=artefact %}
-subtypeString: {{ subTypeString }}<br>
 {% if subTypeString == "-" %}
 	{% include /functions/define-message.html ignore=artefact.ignore msgno="e812" msg="Subtype fehlt!" %}
 	{% assign errorList = errorList | push: out_msg %}
@@ -41,8 +40,6 @@ subtypeString: {{ subTypeString }}<br>
 	{% include /functions/define-message.html ignore=artefact.ignore msgno="e813" msg=myMsg %}
 	{% assign errorList = errorList | push: out_msg %}
 {% endif %}
-errorString: {{ errorString }}<br>
-
 
 {% assign errorString = errorList | join: ";" %}
 {% assign warningString = warningList | join: ";" %}
