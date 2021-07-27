@@ -13,15 +13,17 @@ history:
     v1:
         date: 2021-07-12
         comment: initially created
+    v2:
+        date: 2021-07-27
+        comment: updated Beschreibung & Begründung
 
 todo:
-    - realistisch lösbar spezifizieren
 ---
 
 ## Beschreibung
 
-Den Studierenden sollen Aufgaben bevorzugt in Gruppen bearbeiten können.
+Den Studierenden sollen Aufgaben in Gruppen bearbeiten können.
 
 ## Begründung
 
-Da es heutzutage kaum noch Probleme gibt, die alleine realistisch lösbar sind, ist es am nähesten an der Praxis, wenn möglichst viel in Gruppen gearbeitet wird. Auf Gruppenarbeit sollte deshalb trotz eines größeren Korrekturaufwandes nicht verzichtet werden.
+Da heutzutage im späteren Berufsleben nahezu immer in Teams gearbeitet wird, ist es am nähesten an der Praxis, wenn möglichst viel in Gruppen gearbeitet wird. Gruppenarbeit sollte deshalb trotz eines größeren Korrekturaufwandes bevorzugt oder zumindest ermöglicht werden.

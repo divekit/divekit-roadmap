@@ -24,15 +24,16 @@ history:
     v4: 
         date: 2021-07-26
         comment: added subgoal links
-
+    v5:
+        date: 2021-07-27
+        comment: updated Beschreibung & Begründung
 
 todo: 
-    - Begründung an die neuen Subgoals anpassen
 ---
 
 ## Beschreibung
 
-Den Studierenden sollen moderne, state-of-the-art Programmiertechniken näher gebracht werden.
+Den Studierenden sollen aktuelle, state-of-the-art Programmiertechniken und allgemeine Praktiken eines modernen Entwicklers näher gebracht werden.
 
 Dieses Ziel ist ein Oberziel von:
  * [Modernes Coding IDE](https://divekit.github.io/divekit-roadmap/goals/modernIDE.html)
@@ -47,7 +48,7 @@ Dieses Ziel ist ein Oberziel von:
 
 ## Begründung
 
-Für höhere Qualität der Lehre ist eine realistischere Arbeitsweise der Studierenden sinnvoll. Hierfür werden verschiedene Techniken aufgezählt, die vermittelt werden sollen:
+Für höhere Qualität der Lehre ist eine realistischere Arbeitsweise der Studierenden sinnvoll. Hierfür werden von den interviewten Experten verschiedene Techniken aufgezählt, die vermittelt werden sollen:
 
 * Arbeiten mit IDEs
 * Versionierung mit GIT
@@ -59,5 +60,6 @@ Darüber hinaus werden noch fortgeschrittene Programmieraspekte erwähnt, die eb
 * Bau von visuellen Oberflächen
 * Einbinden von Libraries
 * Verwendung des Debuggers
+* Moderne Praktiken wie Test-Driven-Development
 
 Neben den Hardskills sollen auch Softskills gefördert werden.
