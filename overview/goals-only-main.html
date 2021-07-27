@@ -45,7 +45,7 @@ layout: default
         <h2>Nur Hauptziele</h2>
 
         <p>
-            Für einige Ziele sind auch Unterziele definiert. Diese sind jetzt der Übersichtlichkeit wegen ausgeblendet.
+            Für einige Ziele sind auch Unterziele definiert. Diese sind jetzt der Übersichtlichkeit halber ausgeblendet.
         </p>
         <p>
             <a href="{{ site.url }}{{ '/overview/goals.html' | relative_url }}">
@@ -65,7 +65,7 @@ layout: default
                     <td><a href="{{ site.url }}{{ goal.url | relative_url }}">{{ globalId }}</a></td>
 
                     {% include /functions/get-artefact-name.html myArtefact=goal %}
-                    <td><a href="{{ site.url }}{{ goal.url | relative_url }}">{{ artefactName }}</a></td>
+                <td><a href="{{ site.url }}{{ goal.url | relative_url }}"><b>{{ artefactName }}</b></a></td>
                 {% endif %}
 
             </tr>
