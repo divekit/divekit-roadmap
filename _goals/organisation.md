@@ -26,8 +26,8 @@ history:
     v4:
         date: 2021-07-27
         comment: updated Beschreibung & Begründung
-
 todo: 
+    - (sbe) "Verschiedene Aspekte des organisatorischen Aufbaus" ist ein ungeeigneter Titel. Was _genau_ ist das Ziel? So etwas wie "Berechenbarkeit" vielleicht? 
 ---
 
 ## Beschreibung

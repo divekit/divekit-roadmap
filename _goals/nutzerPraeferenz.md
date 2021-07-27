@@ -15,8 +15,8 @@ history:
     v2:
         date: 2021-07-24
         comment: fix todo
-
 todo:
+    - (sbe) inhaltliches Duplikat von nutzerPraeferenzDesign - bitte zusammenlegen
 
 ---
 

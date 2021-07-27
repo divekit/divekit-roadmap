@@ -16,8 +16,10 @@ history:
     v2:
         date: 2021-07-27
         comment: updated Beschreibung & Begründung
-
 todo:
+    - (sbe) Der Titel gibt das Ziel nicht wieder. 
+    - (sbe) "Darkmode" ist m.E. schon sehr lösungsorientiert, gehört also eher zu den FR. Können Sie das allgemeiner fassen? 
+    - (sbe) inhaltliches Duplikat von nutzerPraeferenz - bitte zusammenlegen
 ---
 
 ## Beschreibung
