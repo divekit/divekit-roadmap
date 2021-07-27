@@ -4,6 +4,7 @@ acronym: barrierefreiheit
 responsible:
     - jsp
 title: Barrierefreiheit
+isTopLevel: true
 source:
     - [Workshop, Workshop 6-3-5-No.1, Schwerpunkt Interface No.3]
 history:
@@ -13,7 +14,6 @@ history:
     v2:
         date: 2021-07-24
         comment: fix todo
-
 todo:
 
 ---

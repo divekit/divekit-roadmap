@@ -9,6 +9,7 @@ title: Anzeigen der Dauer und Stand der Korrektur
 source:
     - [beobachtungstagebuch, RD3]
 belongsTo:
+isTopLevel: true
 history:
     v1:
         date: 2021-07-16
