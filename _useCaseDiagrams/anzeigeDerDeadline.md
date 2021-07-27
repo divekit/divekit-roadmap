@@ -4,7 +4,7 @@ acronym: UCD_anzeigeDerDeadline
 responsible:
     - mwi
 title: Use Case Anzeige der Deadline
-functionalRequirement: AnzeigederDeadline
+functionalRequirement: Anzeige der Deadline
 useCases:
 useCasesDetailedWithScenario:
     - anzeigeDerDeadline
