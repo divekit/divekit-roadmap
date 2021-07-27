@@ -21,32 +21,6 @@ layout: default
     <dt>Zugehöriges Use-Case-Diagramm</dt>
     <dd>tbd.</dd>
 
-    <dt>Primärer Aktor</dt>
-    {% include /functions/get-link-to-artefact.html myRef=page.primaryActor myTypeString="stakeholderRole"
-            myIdFormat="prefix" %}
-    <dd>{{ artefactLink }}</dd>
-
-    {% if page.secondaryActors.size > 0 %}
-        <dt>Sekundäre(r) Aktor(en)</dt>
-        {% for secondaryActorRef in page.secondaryActors %}
-            {% include /functions/get-link-to-artefact.html myRef=secondaryActorRef myTypeString="stakeholderRole"
-                    myIdFormat="prefix" %}
-            <dd>{{ artefactLink }}</dd>
-        {% endfor %}
-    {% endif %}
-
-    <dt>Auslöser</dt>
-    <dd>{{ page.trigger }}</dd>
-
-    <dt>Vorbedingung</dt>
-    <dd>{{ page.precondition }}</dd>
-
-    <dt>Nachbedingung</dt>
-    <dd>{{ page.postcondition }}</dd>
-
-    <dt>Zugrundeliegende funktionale Anforderung(en)</dt>
-    <dd>{{ page.postcondition }}</dd>
-
     {% if page.funcionalRequirements.size > 0 %}
         <dt>Zugrundeliegende funktionale Anforderung(en)</dt>
         {% for functionRequirementRef in page.funcionalRequirements %}
@@ -60,5 +34,37 @@ layout: default
     {% include /functions/print-detailed-check-messages.html errors=errorString warnings=warningString todos=page.todo %}
 </dl>
 
+<h2>Use-Case-Header</h2>
+
+<dl>
+    <dt>Titel</dt>
+    <dd>{{ page.title }}</dd>
+
+    <dt>Beschreibung</dt>
+    <dd>{{ page.description }}</dd>
+
+    <dt>Primärer Aktor</dt>
+    {% include /functions/get-link-to-artefact.html myRef=page.primaryActor myTypeString="stakeholderRole"
+            myIdFormat="prefix" %}
+    <dd>{{ artefactLink }}</dd>
+
+    {% if page.secondaryActors.size > 0 %}
+        <dt>Sekundäre(r) Aktor(en)</dt>
+        {% for secondaryActorRef in page.secondaryActors %}
+            {% include /functions/get-link-to-artefact.html myRef=secondaryActorRef myTypeString="stakeholderRole"
+            myIdFormat="prefix" %}
+            <dd>{{ artefactLink }}</dd>
+        {% endfor %}
+    {% endif %}
+
+    <dt>Auslöser</dt>
+    <dd>{{ page.trigger }}</dd>
+
+    <dt>Vorbedingung</dt>
+    <dd>{{ page.precondition }}</dd>
+
+    <dt>Nachbedingung</dt>
+    <dd>{{ page.postcondition }}</dd>
+</dl>
 
 {{ page.content }}

@@ -7,12 +7,12 @@
 {% assign errorString = include.myErrorString %}
 {% assign warningString = include.myWarningString %}
 
-{% comment %} ***** Error/Warning Numbers 110 - 129 reserved for ref issues **** {% endcomment %}
+{% comment %} ***** Error/Warning Numbers 050 - 069 reserved for textfield/length issues **** {% endcomment %}
 
 {% if asError %}
-	{% assign missingRefMsgNo = "e110" %}
+	{% assign missingRefMsgNo = "e050" %}
 {% else %}
-	{% assign missingRefMsgNo = "w111" %}
+	{% assign missingRefMsgNo = "w051" %}
 {% endif %}
 {% assign errorList = errorString | split: ";" %}
 {% assign warningList = warningString | split: ";" %}
@@ -47,12 +47,12 @@
 			{% if artefactRefErrorString == "none" %}
 				{% assign myMsg = "Referenz '" | append: curRef | append: "' für " | append: purpose |
 						append: " exististiert nicht!" %}
-				{% include /functions/define-message.html ignore=localArtefact.ignore msgno="e112" msg=myMsg %}
+				{% include /functions/define-message.html ignore=localArtefact.ignore msgno="e052" msg=myMsg %}
 				{% assign errorList = errorList | push: out_msg %}
 			{% elsif artefactRefErrorString == ">1" %}
 				{% assign myMsg = "Referenz '" | append: curRef | append: "' für " | append: purpose |
 						append: " exististiert mehr als einmal!" %}
-				{% include /functions/define-message.html ignore=localArtefact.ignore msgno="e113" msg=myMsg %}
+				{% include /functions/define-message.html ignore=localArtefact.ignore msgno="e053" msg=myMsg %}
 				{% assign errorList = errorList | push: out_msg %}
 			{% endif %}
 		{% endfor %}

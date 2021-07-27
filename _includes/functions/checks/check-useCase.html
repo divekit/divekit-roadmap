@@ -13,6 +13,9 @@
 {% include /functions/checks/generic/check-generic-refs.html myArtefact=artefact myCheckedRef=artefact.secondaryActors
 		myCheckedRefType="stakeholderRole" asList=true emptyMeansError=false
 		myPurpose="'secondaryActors'" myErrorString=errorString myWarningString=warningString %}
+{% include /functions/checks/generic/check-generic-refs.html myArtefact=artefact myCheckedRef=artefact.functionalRequirement
+		myCheckedRefType="functionalRequirement" asList=false emptyMeansError=true
+		myPurpose="zugehörige funktionale Anforderung" myErrorString=errorString myWarningString=warningString %}
 
 {% assign errorList = errorString | split: ";" %}
 {% assign warningList = warningString | split: ";" %}
