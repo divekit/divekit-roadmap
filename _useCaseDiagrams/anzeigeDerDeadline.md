@@ -6,7 +6,7 @@ responsible:
 title: Use Case Anzeige der Deadline
 functionalRequirement: Anzeige der Deadline
 useCases: AnzeigederDeadline
-useCasesDetailedWithScenario: Anzeige der Deadline
+useCasesDetailedWithScenario: AnzeigederDeadline
 diagram: ./diagrams/useCaseAnzeigeDerDeadline.png
 history:
     v1:
