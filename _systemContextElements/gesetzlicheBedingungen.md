@@ -20,6 +20,9 @@ history:
     v4: 
         date: 2021-07-27
         comment: set title
+    v5:
+        date: 2021-07-27
+        comment: update explanation
 todo:
     - (sbe) Die Fragen sind berechtigt - aber hier müsste Ihre Recherche tiefer gehen. Welche Gesetze kommen hier zur Anwendung? Es gibt nicht "das Prüfungsrecht". Ideen: Prüfungsordnung der Studiengänge, Rahmenprüfungsordnung der TH Köln, Hochschulrahmengesetz NRW (es gibt bestimmt noch mehr)
 ---
@@ -37,6 +40,20 @@ Nachfolgend werden einige Beispielfragen an das aktuell geltende Prüfungsrecht 
 
 Im Prüfungsrecht können zum größten Teil Antworten auf diese Fragen gefunden werden.
 Hier können auch eventuelle Bedingungen, die an ein solches System gestellt werden müssen, ermittelt werden.
+
+### Erläuterung zum Prüfungsrecht 
+
+Das Prüfungsrecht ist kein als Gesetzestext verfasstes Recht und. Vielmehr setzt sich das Recht bei Prüfungen aus unterschiedlichen Regulierungen und Rechten zusammen und leitet sich dementsprechend davon ab.
+Dabei spielen folgende Dokumente und Gesetzte eine Rolle:
+
+* Die Prüfungsordnung der Studiengänge
+* Rahmenprüfungsordnung der Hochschulen
+* das Hochschulrahmengesetz beispielsweise von NRW 
+* das Grundgesetz
+* das Prüfungsanfechtungsrecht
+* ...
+
+
 
 
 
