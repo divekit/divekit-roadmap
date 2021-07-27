@@ -1,5 +1,6 @@
 ---
 acronym: gesetzlicheBedingungen
+title: Gesetzliche Rahmenbedingungen
 type: systemContextElement
 subtype: regulation
 responsible:
@@ -16,9 +17,11 @@ history:
     v3:
         date: 2021-07-26
         comment: todos
+    v4: 
+        date: 2021-07-27
+        comment: set title
 todo:
     - (sbe) Die Fragen sind berechtigt - aber hier müsste Ihre Recherche tiefer gehen. Welche Gesetze kommen hier zur Anwendung? Es gibt nicht "das Prüfungsrecht". Ideen: Prüfungsordnung der Studiengänge, Rahmenprüfungsordnung der TH Köln, Hochschulrahmengesetz NRW (es gibt bestimmt noch mehr)
-    - (sbe) bitte einen expliziten title: setzen  
 ---
 
 ## Erläuterung
