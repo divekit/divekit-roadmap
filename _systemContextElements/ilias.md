@@ -37,6 +37,6 @@ todo:
 
 Dient als Sammelpunkt für die Bereitstellung von Material in Bezug auf die Lehre. Wird außerdem eingesetzt um Übungen, Selbsttests und Klausuren durchzuführen.
 
-Das besitzt zudem ein Forum. Dies kann zur Kommunikation mit den Dozenten, Betreuern oder Mitstudierenden genutzt werden. Jedoch wird die Nutzung meist als umständlich betrachtet.
+Die Ilias-Plattform besitzt zudem ein Forum. Dies kann zur Kommunikation mit den Dozenten, Betreuern oder Mitstudierenden genutzt werden. Jedoch wird die Nutzung meist als umständlich betrachtet.
 
 Verlinkung zum [ilias](https://ilias.th-koeln.de/) der TH Köln.
