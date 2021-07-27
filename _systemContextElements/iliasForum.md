@@ -12,7 +12,6 @@ history:
         comment: initially created
 todo:
     - Verlinkung zu ilias
-    - (sbe) falscher Subtyp, ist itsystem
     - (sbe) Die Erläuterung bildet nicht wirklich ab, was in der Quelle gesagt wurde (ILIAS Forum zwar an der Hochschule präsent, aber wenig brauchbar)
 ---
 
