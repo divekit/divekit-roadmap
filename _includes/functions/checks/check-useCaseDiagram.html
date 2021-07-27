@@ -37,8 +37,8 @@
 {% if artefact.useCases and artefact.useCases.size > 0 %}
 {% else %}
 	{% include /functions/define-message.html ignore=artefact.ignore msgno="w652"
-			msg="Es sind eine sonstigen Use Cases (nicht detailliert ausgeführt) für das Diagramm angegeben." %}
-	{% assign errorList = errorList | push: out_msg %}
+			msg="Es sind keine sonstigen Use Cases (nicht detailliert ausgeführt) für das Diagramm angegeben." %}
+	{% assign warningList = warningList | push: out_msg %}
 {% endif %}
 
 

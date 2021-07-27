@@ -7,7 +7,7 @@ title: Use Case Diagram Branding
 functionalRequirement: IndividuellesDesign
 useCases:
 useCasesDetailedWithScenario:
-    - Branding
+    - branding
 diagram: ./diagrams/useCaseBranding.jpg
 history:
     v1:
