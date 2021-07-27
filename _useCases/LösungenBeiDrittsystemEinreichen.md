@@ -5,7 +5,7 @@ responsible:
     - jlü
 title: Lösungen einreichen
 description: Ein * e Student * in
-primaryActor: student
+primaryActor: studierende
 secondaryActors:
     - profInf
 trigger: Student * in will Lösung einreichen
@@ -16,6 +16,9 @@ history:
     v1:
         date: 2021-07-21
         comment: initially created
+    v2:
+        date: 2021-07-27
+        comment: update primary actor
 
 todo: 
 ---
