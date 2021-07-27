@@ -1,8 +1,7 @@
 ---
 acronym: studentSonst
 type: stakeholderRole
-belongsTo: studierende
-isTopLevel: true
+belongsTo: studierendex
 responsible: 
     - psc
 name: Studierende*r eines informatikfernen Studiengangs

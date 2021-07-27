@@ -2,6 +2,7 @@
 {% assign localTypeString = include.myTypeString %}
 {% assign idFormat = include.myIdFormat %}
 
+{% assign artefactRefErrorString = "" %}
 {% assign typeMetadata = site.data.metadata[localTypeString] %}
 {%- comment -%} -- append: "" makes it a real string, for whatever reason, doesn't work otherwise -- {%- endcomment -%}
 {% assign collectionName = typeMetadata.collection | append: "" %}
@@ -11,6 +12,7 @@
     {% if foundArtefacts.size > 1 %}
         {% assign artefactName = "*** found >1 " | append: localTypeString | append: " with acronym " |
                 append: localRef | append: " ***" %}
+        {% assign artefactRefErrorString = ">1" %}
     {% else %}
         {% assign foundArtefact = foundArtefacts | first %}
         {% include /functions/get-artefact-name.html myArtefact=foundArtefact myIdFormat=idFormat %}
@@ -18,5 +20,6 @@
 {% else %}
     {% assign artefactName = "*** found no " | append: localTypeString | append: " with acronym " |
                 append: localRef | append: " ***" %}
+    {% assign artefactRefErrorString = "none" %}
 {% endif %}
 {% capture artefactLink %}<a href="{{ site.url }}{{ foundArtefact.url | relative_url }}">{{ artefactName }}</a>{% endcapture %}

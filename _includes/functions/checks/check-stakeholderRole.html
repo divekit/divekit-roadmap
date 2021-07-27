@@ -7,6 +7,11 @@
 
 {% include /functions/checks/generic/check-generic-aspects.html myArtefact=artefact
         myErrorString="" myWarningString="" %}
+{% if artefact.belongsTo %}
+    {% include /functions/checks/generic/check-generic-refs.html myArtefact=artefact
+            myCheckedRef=artefact.belongsTo myCheckedRefType="stakeholderRole" asList=false
+            myPurpose="'belongsTo'" myErrorString=errorString myWarningString=warningString %}
+{% endif %}
 
 {% assign errorList = errorString | split: ";" %}
 {% assign warningList = warningString | split: ";" %}
@@ -50,11 +55,11 @@
     {% else %}
         {% include /functions/define-message.html ignore=artefact.ignore msgno="w554"
                 msg="Zu dieser Stakeholder-Rolle gibt es keinen Stakeholder!" %}
-        {% assign warningList = errorList | push: out_msg %}
+        {% assign warningList = warningList | push: out_msg %}
     {% endif %}
 {% endif %}
 
-{% comment %}---------- belongsTo -----------{% endcomment %}
+{% comment %}---------- belongsTo/isTopLevel -----------{% endcomment %}
 {% if artefact.belongsTo %}
     {% if artefact.isTopLevel == true %}
         {% include /functions/define-message.html ignore=artefact.ignore msgno="e555"
