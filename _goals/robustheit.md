@@ -8,6 +8,8 @@ responsible:
 title: Das Tool robuster machen
 source:
     - [interview, jintveen, Minute 00-54-13]
+    - [Workshop 6-3-5-No.2]
+partOfLargerGoal: 
 belongsTo: 
 isTopLevel: true
 history:
@@ -16,14 +18,12 @@ history:
         comment: initially created
 
 todo: 
-    - Beschreibung / Begründung überarbeiten
-    - Wie definiert sich robuster / bedienbarer
 ---
 
 ## Beschreibung
 
-Das Tool soll robuster und somit bedienbarer werden.
+Das Tool soll weniger Anfällig für fehlerhafte Nutzung werden. Dies gilt sowohl für Studierende, die ihre Aufgaben erledigen, als auch für die Lehrenden, die Aufgaben entwerfen und generieren.
 
 ## Begründung
 
-Durch eine bessere Robustheit und Bedienbarkeit soll zum Beispiel die Fehler-Analyse erleichtert werden. Man soll auch eigenständig Fehler des Tools beheben können.
+Es ist allgemein von Mitarbeitern und Studierenden gewünscht, dass das Tool fehlerhafte Bedienung vorbeugt.

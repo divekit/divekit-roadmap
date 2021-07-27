@@ -9,6 +9,8 @@ title: Einfachere Stuktur der Testseiten
 isTopLevel: true
 source:
     - [beobachtungstagebuch, PC6]
+belongsTo:
+isTopLevel: true
 history:
     v1:
         date: 2021-07-16

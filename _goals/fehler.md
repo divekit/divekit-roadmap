@@ -22,16 +22,18 @@ history:
     v3:
         date: 2021-07-12
         comment: updated subgoal links
-
-
+    v4:
+        date: 2021-07-27
+        comment: updated Beschreibung & Begründung
 
 todo:
-    - Begründung verbessern
 ---
 
 ## Beschreibung
 
-Sowohl bei der Vor-/Nachbereitung und der Durchführungen müssen Fehler verwaltet werden. Folgende Unterziele gehören dazu: 
+Sowohl bei der Vor- und Nachbereitung als auch bei der Durchführungen müssen Fehler verwaltet werden. 
+
+Folgende Unterziele gehören zu dem Oberziel "Fehler": 
 
 * [Ausgabe der Fehler](https://divekit.github.io/divekit-roadmap/goals/fehlerVerst%C3%A4ndlichkeit.html)
 * [Fehlererkennung](https://divekit.github.io/divekit-roadmap/goals/Fehlererkennung.html)
@@ -40,4 +42,4 @@ Sowohl bei der Vor-/Nachbereitung und der Durchführungen müssen Fehler verwalt
 
 ## Begründung
 
-Für einen reibungslosen Praktikumsablauf ist das Auffangen und Verwalten von unterschiedlicher Fehler sehr wichtig.
+Da studentische Fehler sowie deren anschließende Erläuterung und Verbesserung ein fester Bestandteil des Systems beziehungsweise des Arbeitsprozesses mit diesem sind, ist es essenziell, dass diese vernünftig verwaltet und dargestellt werden.
