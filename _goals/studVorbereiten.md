@@ -8,6 +8,7 @@ source:
     - [interview, fkrampe, Minute 00-59-35]
     - [interview, fkrampe, Minute 01-01-15]
 belongsTo:
+isTopLevel: true
 history:
     v1:
         date: 2021-05-28

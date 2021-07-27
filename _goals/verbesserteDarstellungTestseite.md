@@ -9,6 +9,7 @@ title: Verbesserte Darstellung der Testseite
 source:
     - [beobachtungstagebuch, HS1]
 belongsTo:
+isTopLevel: true
 history:
     v1:
         date: 2021-07-16

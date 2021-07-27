@@ -11,6 +11,7 @@ source:
     - [interview, fkrampe, Minute 00-15-22]
     - [interview, mengelen, Minute 00-14-46]
 belongsTo:
+isTopLevel: true
 history:
     v1:
         date: 2021-06-04

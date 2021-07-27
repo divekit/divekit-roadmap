@@ -10,6 +10,7 @@ source:
     - [beobachtungstagebuch, PC8]
     - [beobachtungstagebuch, PC9]
 belongsTo:
+isTopLevel: true
 history:
     v1:
         date: 2021-06-16
