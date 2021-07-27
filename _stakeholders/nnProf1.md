@@ -9,7 +9,7 @@ anonymous: true
 stakeholderRole: 
     - profInf
     - potAnwender
-    - dozent
+    - lehrende
 relationshipToProject: >
     Möglicher Nutzer des Systems auf Dozentenseite.
 history:

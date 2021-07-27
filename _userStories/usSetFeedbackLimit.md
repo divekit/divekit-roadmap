@@ -5,8 +5,7 @@ responsible:
     - tza
 title: Feedback-Obergrenze setzen
 functionalRequirement: FeedbackLimit
-asA: 
-    - dozent
+asA: lehrende
 iWantTo: Die Einstellung einer Obergrenze für die Anzahl von Feedback-Anfragen vornehmen
 forThisReason: damit die Studierenden durch mehrere Feedback-Anfragen vollständige Lösung nicht erfragen können
 history:

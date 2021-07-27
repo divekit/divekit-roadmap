@@ -1,7 +1,7 @@
 ---
 type: persona
 acronym: aernst
-stakeholderRole: dozent
+stakeholderRole: lehrende
 responsible: 
     - ako
 name: Albert Ernst

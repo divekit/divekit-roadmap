@@ -9,7 +9,7 @@
         myErrorString="" myWarningString="" %}
 {% if artefact.belongsTo %}
     {% include /functions/checks/generic/check-generic-refs.html myArtefact=artefact
-            myCheckedRef=artefact.belongsTo myCheckedRefType="stakeholderRole" asList=false
+            myCheckedRef=artefact.belongsTo myCheckedRefType="stakeholderRole" asList=false emptyMeansError=true
             myPurpose="'belongsTo'" myErrorString=errorString myWarningString=warningString %}
 {% endif %}
 
