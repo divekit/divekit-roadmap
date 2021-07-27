@@ -29,3 +29,7 @@ todo:
 ## Allgemein
 
 [Personenseite der TH](https://www.th-koeln.de/personen/marco.reitano/)
+
+<!--
+    Herr Reitano wurde zu mehr Informationen angefragt. Weitere Details werden gegebenenfalls eingefügt.
+-->

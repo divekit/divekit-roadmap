@@ -23,6 +23,5 @@ history:
 todo:      
 ---
 
-<!--
-    Allgemeine Steckbriefinformationen sind nicht aus dem Interview der Person hervorgegangen und zusätzliche Informationen von externen Quellen einzuarbeiten wäre gegensätzlich zum Zweck der Anonymisierung.
--->
+Anmerkung des Business-Analysten:
+Allgemeine Steckbriefinformationen sind nicht aus dem Interview der Person hervorgegangen und zusätzliche Informationen von externen Quellen einzuarbeiten wäre gegensätzlich zum Zweck der Anonymisierung.
