@@ -6,7 +6,7 @@ responsible:
     - tza
 name: Max Maier
 stakeholderRole: 
-    - student
+    - studierende
 relationshipToProject: >
     Verwendet DiveKit in Rahmen eines Praktikums
 history:
