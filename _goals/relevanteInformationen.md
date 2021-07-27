@@ -15,8 +15,11 @@ history:
     v2:
         date: 2021-07-21
         comment: add explanation, refactor source
-
 todo:
+    - (sbe) bitte Groß/Kleinschreibung prüfen
+    - (sbe) Doppelung mit betreuungQualitative und studVorbereiten? bitte prüfen und ggfs. abgrenzen
+    - (sbe) Doppelung mit besseresVerstaendnis? bitte prüfen und ggfs. abgrenzen
+    
 ---
 
 ## Beschreibung

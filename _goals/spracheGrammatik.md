@@ -20,8 +20,8 @@ history:
     v3:
         date: 2021-07-03
         comment: added source
-
-todo: 
+todo:
+    - (sbe) Ich weiß, was gemeint ist, aber es ist ziemlich kryptisch formuliert. Sie meinen doch - mehr Unterstützung bei der Aufgabenerstellung, damit man nicht alle grammatischen Varianten (einer, eine, eines, ...) von Hand coden muss, oder? 
 ---
 
 ## Beschreibung

@@ -17,6 +17,7 @@ history:
 todo:
     - (sbe) "Studenten sollten die Möglichkeit haben eine  während des Praktikums in Anspruch zu nehmen." Eine was?
     - (sbe) Ziel ist sehr unspezifisch. Klar sollen alle Studies Hilfe bekommen. Können Sie das Ziel konkreter auf DiveKit hin ausrichten?
+    - (sbe) Doppelung mit studVorbereiten? bitte prüfen
 ---
 
 ## Beschreibung

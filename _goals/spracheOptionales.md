@@ -16,8 +16,8 @@ history:
     v2:
         date: 2021-06-17
         comment: updated title
-
 todo: 
+    - (sbe) Das Ziel verstehe ich nicht. Wer hat was genau davon? Und was sind "bestimmte Varianten"?
 ---
 
 ## Beschreibung

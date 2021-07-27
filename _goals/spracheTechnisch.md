@@ -20,13 +20,12 @@ history:
     v3:
         date: 2021-07-03
         comment: added source
-
 todo: 
 ---
 
 ## Beschreibung
 
-Das Tool soll dabei unterstützen, dass Beziehungen zwischen Entitäten individualisiert werden können. (Beziehungstypen)
+Das Tool soll dabei unterstützen, dass Beziehungen zwischen Entitäten individualisiert werden können (Beziehungstypen).
 
 ## Begründung
 

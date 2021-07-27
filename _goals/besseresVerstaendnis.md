@@ -19,6 +19,7 @@ history:
         comment: added description & reasoning
 todo:
     - (sbe) M.E. passt der Titel nicht so ganz - es geht doch um Verständlichkeit des Feedbacks, nicht Verständnis für eigene Leistungen ...? (sonst prima)
+    - (sbe) Doppelung mit relevanteInformationen? bitte prüfen und ggfs. abgrenzen
 ---
 ## Beschreibung 
 Das Feedback zu den studentischen Leistungen soll verständlicher bzw. ausführlicher formuliert werden.

@@ -5,7 +5,7 @@ responsible:
     - kru
     - duz
     - ako
-title: verbesserte Sprachunterstützung 
+title: Verbesserte Sprachunterstützung 
 source:
     - [interview, jintveen, Minute 00-35-39]
     - [interview, jintveen, Minute 00-54-13]
@@ -21,19 +21,14 @@ history:
     v3:
         date: 2021-07-26
         comment: updated subgoal links
-
-todo: 
+todo:
+    - (sbe) was genau ist eine "verbesserte Nutzung der Sprache" ?
+    - (sbe) aus meiner Sicht ist der Entwickler da leidenschaftslos - interessant ist das für die Lehrende, die Aufgabentexte erstellt.
 ---
 
 ## Beschreibung
 
 Der Entwickler strebt eine verbesserte Nutzung der Sprache an, sowohl grammatikalisch als auch technisch.
-
-Dieses Ziel ist ein Oberziel von:
-
-* [Grammatisch richtige Sprache](https://divekit.github.io/divekit-roadmap/goals/spracheGrammatik.html)
-* [Technische Sprache & Relationen](https://divekit.github.io/divekit-roadmap/goals/spracheTechnisch.html)
-* [Optionen für die Sprache](https://divekit.github.io/divekit-roadmap/goals/spracheOptionales.html) 
 
 
 ## Begründung
