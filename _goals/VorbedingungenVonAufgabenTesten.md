@@ -3,7 +3,8 @@ type: goal
 acronym: VorbedingungenVonAufgabenTesten
 responsible:
     - ama
-title: Vorbedingung von Aufgaben Testen
+title: Vorbedingung von Aufgaben testen
+isTopLevel: true
 source:
     - [interview, ckohls, Minute 00-29-13]
 history:

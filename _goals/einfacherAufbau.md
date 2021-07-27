@@ -6,6 +6,7 @@ responsible:
     - duz
     - ako
 title: Einfachere Stuktur der Testseiten
+isTopLevel: true
 source:
     - [beobachtungstagebuch, PC6]
 belongsTo:

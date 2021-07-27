@@ -42,33 +42,30 @@ layout: default
         {% endfor %}
         {% assign treeSortedCollection = treeSortedCollection | concat: leftOvers %}
 
-        <h2>Alle Haupt- und Unterziele</h2>
+        <h2>Nur Hauptziele</h2>
 
         <p>
-            Für einige Ziele sind auch Unterziele definiert. Hauptziele sind fett, Unterziele eingerückt darunter
-            dargestellt.
+            Für einige Ziele sind auch Unterziele definiert. Diese sind jetzt der Übersichtlichkeit wegen ausgeblendet.
         </p>
         <p>
-            <a href="{{ site.url }}{{ '/overview/goals-only-main.html' | relative_url }}">
-                <img src="{{ site.url }}{{ '/assets/zoom-in-3-24-blue.png' | relative_url }}" style="min-height: 24px; min-width: 24px;"/>
-                &nbsp;&nbsp;Nur Hauptziele anzeigen
+            <a href="{{ site.url }}{{ '/overview/goals.html' | relative_url }}">
+                <img src="{{ site.url }}{{ '/assets/zoom-out-3-24-blue.png' | relative_url }}" style="min-height: 24px; min-width: 24px;"/>
+                &nbsp;&nbsp;&nbsp;Unterziele einblenden
             </a>
         </p>
 
         {% for goal in treeSortedCollection %}
             <tr>
-                {% include /functions/checks/check-goal.html myArtefact=goal %}
-                {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=goal.todo %}
-                <td>{{ iconString }}</td>
-
-                {% include /functions/get-globalid.html myArtefact=goal %}
-                <td><a href="{{ site.url }}{{ goal.url | relative_url }}">{{ globalId }}</a></td>
-
-                {% include /functions/get-artefact-name.html myArtefact=goal %}
                 {% if goal.isTopLevel %}
-                    <td><a href="{{ site.url }}{{ goal.url | relative_url }}"><b>{{ artefactName }}</b></a></td>
-                {% else %}
-                    <td style="padding-left:50px !important"><a href="{{ site.url }}{{ goal.url | relative_url }}">{{ artefactName }}</a></td>
+                    {% include /functions/checks/check-goal.html myArtefact=goal %}
+                    {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=goal.todo %}
+                    <td>{{ iconString }}</td>
+
+                    {% include /functions/get-globalid.html myArtefact=goal %}
+                    <td><a href="{{ site.url }}{{ goal.url | relative_url }}">{{ globalId }}</a></td>
+
+                    {% include /functions/get-artefact-name.html myArtefact=goal %}
+                    <td><a href="{{ site.url }}{{ goal.url | relative_url }}">{{ artefactName }}</a></td>
                 {% endif %}
 
             </tr>

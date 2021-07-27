@@ -4,6 +4,7 @@ acronym: manuellePruefungAnstoßen
 responsible:
     - jsp
 title: Manuelle Prüfung anstoßen
+isTopLevel: true
 source:
     - [Workshop, Workshop 6-3-5-No.1, Schwerpunkt Interface No.6]
 history:
