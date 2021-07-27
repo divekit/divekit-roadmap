@@ -6,7 +6,7 @@ responsible:
 title: Komplexe Aufgaben
 source:
     - [interview, nnProf4, Minute 00-43-41]
-partOfLargerGoal: aufgabentypen
+belongsTo: aufgabentypen
 history:
     v1:
         date: 2021-16-07

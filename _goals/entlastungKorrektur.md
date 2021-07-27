@@ -7,7 +7,7 @@ title: Korrektur von Aufgaben erleichtern
 source:
     - [interview, fkrampe, Minute 00-12-01]
     - [interview, fkrampe, Minute 00-09-47]
-partOfLargerGoal: entlastung
+belongsTo: entlastung
 history:
     v1:
         date: 2021-06-04

@@ -8,7 +8,8 @@ responsible:
 title: Das Tool robuster machen
 source:
     - [interview, jintveen, Minute 00-54-13]
-partOfLargerGoal: 
+belongsTo: 
+isTopLevel: true
 history:
     v1:
         date: 2021-06-17

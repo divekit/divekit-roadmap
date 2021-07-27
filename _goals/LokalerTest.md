@@ -8,7 +8,8 @@ title: Lokale Tests für Aufgaben der Studenten
 source: 
     - [Workshop 6-3-5-No.2, Schwerpunkt Aufgaben]
     - [Beobachtungstagebuch, PS1]
-partOfLargerGoal: 
+belongsTo: 
+isTopLevel: true
 history:
     v1:
         date: 2021-06-16

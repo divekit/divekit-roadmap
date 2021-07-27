@@ -6,7 +6,7 @@ responsible:
 title: Wechseln zwischen Meilensteinen
 source:
     - [Beobachtungstagebuch, FH1]
-partOfLargerGoal: organisation
+belongsTo: organisation
 history:
     v1:
         date: 2021-06-16

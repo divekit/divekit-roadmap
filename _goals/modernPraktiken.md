@@ -8,7 +8,7 @@ responsible:
 title: Moderne Programmiertechniken - Programmierpraktiken
 source:
     - [interview, mreitano, Minute 00-03-43]
-partOfLargerGoal: modernesCoding
+belongsTo: modernesCoding
 history:
     v1:
         date: 2021-07-12

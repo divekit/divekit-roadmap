@@ -9,7 +9,7 @@ title: Beratungsleistungen online anbieten
 source:
     - [interview, sbente, Minute 00-49-27]
     - [interview, mreitano, Minute 00-53-23]
-partOfLargerGoal: betreuung
+belongsTo: betreuung
 history:
     v1:
         date: 2021-07-03

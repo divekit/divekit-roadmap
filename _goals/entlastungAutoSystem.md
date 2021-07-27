@@ -8,7 +8,7 @@ source:
     - [workshop, waltDisney]
     - [interview, fkrampe, Minute 00-11-42]
     - [interview, fkrampe, Minute 00-15-22]
-partOfLargerGoal: entlastung
+belongsTo: entlastung
 history:
     v1:
         date: 2021-06-14

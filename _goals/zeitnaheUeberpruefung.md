@@ -9,7 +9,7 @@ title: Benachrichtigung für manuelle Prüfung
 source:
     - [beobachtungstagebuch, PC8]
     - [beobachtungstagebuch, PC9]
-partOfLargerGoal:
+belongsTo:
 history:
     v1:
         date: 2021-06-16

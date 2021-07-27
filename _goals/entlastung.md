@@ -10,7 +10,7 @@ source:
     - [interview, fkrampe, Minute 00-11-42]
     - [interview, fkrampe, Minute 00-15-22]
     - [interview, mengelen, Minute 00-14-46]
-partOfLargerGoal:
+belongsTo:
 history:
     v1:
         date: 2021-06-04

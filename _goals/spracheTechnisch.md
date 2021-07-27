@@ -9,7 +9,7 @@ title: Verbesserung von technischer Sprache & Relationen
 source:
     - [interview, jintveen, Minute 00-54-13]
     - [interview, sbente, Minute 00-21-47]
-partOfLargerGoal: sprache
+belongsTo: sprache
 history:
     v1:
         date: 2021-06-17

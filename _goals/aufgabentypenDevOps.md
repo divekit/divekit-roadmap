@@ -6,7 +6,7 @@ responsible:
 title: Aufgaben mit DevOps bezug
 source:
     - [interview, nnprof3, 00-00-21]
-partOfLargerGoal: aufgabentypen
+belongsTo: aufgabentypen
 history:
     v1:
         date: 2021-07-08
