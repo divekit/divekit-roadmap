@@ -30,13 +30,17 @@ history:
     v5:
         date: 2021-07-16
         comment: updated scenarios
+    v6:
+        date: 2021-07-27
+        comment: fixed small things
 
 
 todo:
 ---
 
+## Ausgangssituation
 
-Emilia will am Praktikum von Softwaretechnik 1 im dritten Semester teilnehmen. Als sie an einem Freitag Mittag merkt, dass sie bei der Anwendung des DiveKits Probleme hat.  
+Emilia nimmt am Praktikum von Softwaretechnik im dritten Semester teil. Sie merkt schnell, dass sie bei der Anwendung des DiveKits Probleme hat.  
 
 ## Hauptszenario 
 
@@ -52,4 +56,4 @@ Nun versucht sie über E-Mail eine betreuende Person zu erreichen. Sie muss eini
 
 ## Negativ Szenario
 
-Emilia will am Praktikum von Softwaretechnik 1 im dritten Semester teilnehmen. Als sie an einem Freitag Mittag merkt, dass sie bei der Anwendung des DiveKits Probleme hat, versucht sie über E-Mail eine betreuende Person zu erreichen. Da sie am Montag noch keine Reaktion auf ihre Frage bekommen hat, stellt sie ihre Fragen noch einmal in Discord. Leider wurden beide Anfragen über sehen und sie stellt die Frage nun ihren Mitstudierende. Diese wissen allerdings auch nicht die Antwort, da bei ihnen alles funktioniert. Sie kann nun die Aufgaben nicht bearbeiten.
+Nun versucht sie über E-Mail eine betreuende Person zu erreichen. Da sie nach zwei Tagen noch keine Reaktion auf ihre Frage bekommen hat, stellt sie ihre Fragen noch einmal in Discord. Leider wurden beide Anfragen über sehen und sie stellt die Frage nun ihren Mitstudierende. Diese wissen allerdings auch nicht die Antwort, da bei ihnen alles funktioniert. Sie kann nun die Aufgaben nicht bearbeiten.
