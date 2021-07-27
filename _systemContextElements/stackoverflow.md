@@ -1,5 +1,6 @@
 ---
 acronym: stackoverflow
+title: stackoverflow.com
 type: systemContextElement
 subtype: itsystem
 responsible:
@@ -13,8 +14,8 @@ history:
     v2:
         date: 2021-07-22
         comment: Erklärung zu Stack Overflow ergänzt und beurteilt
-
 todo:
+    - (sbe) bitte Link noch einfügen
 ---
 
 ## Erläuterung

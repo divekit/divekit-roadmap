@@ -10,11 +10,16 @@ layout: default
     {% include /functions/resolve-names.html myResponsible=page.responsible %}
     <dd>{{ responsibleString }}</dd>
 
-    <dt>Beschreibung</dt>
-    <dd>{{ page.description }}</dd>
-
-    <dt>Zugehöriges Use-Case-Diagramm</dt>
-    <dd>tbd.</dd>
+    {% assign myAcronym = page.acronym %}
+    {% assign relatedUseCaseDiagrams = site.useCaseDiagrams |
+                where_exp: "ucd", "ucd.useCasesDetailedWithScenario contains myAcronym" %}
+    {% if relatedUseCaseDiagrams.size > 0 %}
+        <dt>Enthalten in Use-Case-Diagramm</dt>
+        {% for relatedUseCaseDiagram in relatedUseCaseDiagrams %}
+            {% include /functions/get-artefact-name.html myArtefact=relatedUseCaseDiagram myIdFormat="postfix" %}
+            <dd><a href="{{ site.url }}{{ relatedUseCaseDiagram.url | relative_url }}">{{ artefactName }}</a></dd>
+        {% endfor %}
+    {% endif %}
 
     <dt>Zugrundeliegende funktionale Anforderung</dt>
     {% include /functions/get-link-to-artefact.html myRef=page.functionalRequirement

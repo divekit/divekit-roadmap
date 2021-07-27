@@ -15,6 +15,9 @@ history:
 todo:
     - nnWMA2 -> Aussage -> Für Klausuren lässt sich das Tool laut des Interviewten aus rechtlichen Gründen nicht nutzen
     - besser als n.n. oder ähnlich markieren
+    - (sbe) bitte noch präzisieren, es gibt mehrere Prüfungsordnungen (eine pro Studiengang). Welche ist gemeint?
+    - (sbe) "In der Prüfungsordnung gibt es Richtlinien, wie eine Prüfung durchzuführen und zu bewerten ist." Lesen Sie mal, ob dazu was drin steht ...
+    - (sbe) "Es muss berücksichtigt werden, ob das Tool für die Prüfungen verwendet werden soll." - wie entscheiden Sie das?
 ---
 
 ## Erläuterung

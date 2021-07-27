@@ -19,4 +19,5 @@ todo:
 ---
 
 ## Erläuterung
-Das Tool soll im Gebiet der Statistik im Rahmen von Datenanalysen eingesetzt werden.
+
+DiveKit könnte im Gebiet der Statistik im Rahmen von Datenanalysen eingesetzt werden.

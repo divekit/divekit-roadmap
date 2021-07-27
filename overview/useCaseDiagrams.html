@@ -16,6 +16,7 @@ layout: default
         <th width="5%"></th>
         <th width="10%">ID</th>
         <th width="40%">Titel</th>
+        <th width="30%">gehört zu funktionalem Requirement</th>
     </tr>
     </thead>
     <tbody>
@@ -28,10 +29,14 @@ layout: default
         <td>{{ iconString }}</td>
 
         {% include /functions/get-globalid.html myArtefact=useCaseDiagram %}
-        <td><a href="{{ site.url }}{{ stakeholder.url | relative_url }}">{{ globalId }}</a></td>
+        <td><a href="{{ site.url }}{{ useCaseDiagram.url | relative_url }}">{{ globalId }}</a></td>
 
         {% include /functions/get-artefact-name.html myArtefact=useCaseDiagram %}
         <td><a href="{{ site.url }}{{ useCaseDiagram.url | relative_url }}">{{ artefactName }}</a></td>
+
+        {% include /functions/get-link-to-artefact.html myRef=useCaseDiagram.functionalRequirement
+                myTypeString="functionalRequirement" myIdFormat="prefix" %}
+        <td>{{ artefactLink }}</td>
     </tr>
     {% endfor %}
     </tbody>

@@ -21,10 +21,11 @@ history:
         date: 2021-07-26
         comment: added Timestamp 
 ignore: 
-    -w005
+    - w005
 todo:
+    - (sbe) "Für die automatisierte Auswertung ist die Überprüfung des Zustandes notwendig." - wessen Zustand muss geprüft werden und worauf wird geprüft?
 ---
 
 ## Erläuterung
 
-Individualisierte Aufgaben können auch mehr als die Einfache erstellung von Software beinhalten. Ein Beispiel, aus der DevOps Vorlesung sind Docker Container. Für die automatisierte Auswertung ist die Überprüfung des Zustandes notwendig.
+Individualisierte Aufgaben können auch mehr als die einfache Erstellung von Software beinhalten. Ein Beispiel aus der DevOps Vorlesung sind Docker Container. Für die automatisierte Auswertung ist die Überprüfung des Zustandes notwendig.

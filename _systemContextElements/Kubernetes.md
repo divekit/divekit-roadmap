@@ -16,10 +16,10 @@ history:
     v3:
         date: 2021-07-26
         comment: refactor explanation 
-    
 todo:
 ---
 ## Erläuterung
+
 Ähnlich wie Docker sind auch individualisierte Aufgaben zur Erstellung eines 
 Kubernetes Clusters denkbar. Dabei soll der Umgang mit Kubernetes erlernt werden. 
 
