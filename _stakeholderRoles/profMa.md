@@ -1,6 +1,7 @@
 ---
 acronym: profMa
 type: stakeholderRole
+belongsTo: lehrende
 responsible: 
     - mba
 name: Professor für Mathematik

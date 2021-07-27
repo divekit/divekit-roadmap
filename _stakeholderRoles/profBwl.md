@@ -2,7 +2,6 @@
 acronym: profBwl
 type: stakeholderRole
 belongsTo: lehrende
-belongsTo: lehrende
 responsible: 
     - psc
 name: Professor für Betriebswirtschaftslehre

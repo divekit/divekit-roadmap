@@ -1,5 +1,5 @@
 ---
-acronym: dozent
+acronym: lehrende
 type: stakeholderRole
 isTopLevel: true
 responsible: 
@@ -13,7 +13,7 @@ history:
         comment: initially created
     v2: 
         date: 2021-07-27
-        comment: Top-Level-Rolle daraus gemacht und in "Lehrende" umbenannt, um Namen konsistent zu halten (sbe)
+        comment: changed into top Level role and renamed to "lehrende", to keep name konsistent (sbe)
 todo:
 ---
 
