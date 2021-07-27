@@ -23,16 +23,16 @@ todo:
 
 | Referenz | Reviewer-Kommentar | Autor-Kommentar |
 |------------|------------------|-----------------|
-| Satz 1 | Will Emilia teilnehmen oder tut sie das bereits. Beispiel siehe unten | |
-| Satz 2 | Zeitraum hier nicht wichtig. Beispiel siehe unten | |
-| Hauptszenario Sätze 3-7 | Etwas präzisieren. Beispiele siehe unten | |
-| Satz 15 | Vorschlag Umformulierung. Beispiel siehe unten | |
-| Negativszenario Satz 16 | Rahmenhandlung nicht wiederholen, Satz streichen | |
-| Negativszenario Satz 17 | Rahmenhandlung nicht wiederholen, Satz kürzen | |
-| Negativszenario Satz 18 | _am Montag_ bedeutet, dass ein Wochenende dazwischen liegt | |
-| Negativszenario Satz 18 | _noch einmal_ suggeriert, dass Emilia im Discord bereits gefragt hat | |
-| Negativszenario Satz 19 | Typo _über sehen_ => _übersehen_ | |
-| Negativszenario Sätze 19-21 | Grund: übersehen würde ich streichen | |
+| Satz 1 | Will Emilia teilnehmen oder tut sie das bereits. Beispiel siehe unten | Wurde angepasst |
+| Satz 2 | Zeitraum hier nicht wichtig. Beispiel siehe unten | Wurde angepasst|
+| Hauptszenario Sätze 3-7 | Etwas präzisieren. Beispiele siehe unten | Teilweise übernommen |
+| Satz 15 | Vorschlag Umformulierung. Beispiel siehe unten | War nicht vorhanden |
+| Negativszenario Satz 16 | Rahmenhandlung nicht wiederholen, Satz streichen | Wurde gestrichen |
+| Negativszenario Satz 17 | Rahmenhandlung nicht wiederholen, Satz kürzen |Wurde gestrichen  |
+| Negativszenario Satz 18 | _am Montag_ bedeutet, dass ein Wochenende dazwischen liegt | Wurde angepasst |
+| Negativszenario Satz 18 | _noch einmal_ suggeriert, dass Emilia im Discord bereits gefragt hat | Wurde angepasst |
+| Negativszenario Satz 19 | Typo _über sehen_ => _übersehen_ | Wurde durch die Änderung ersetzt |
+| Negativszenario Sätze 19-21 | Grund: übersehen würde ich streichen | Wurde gestrichen |
 
 Rahmenhandlung
 
