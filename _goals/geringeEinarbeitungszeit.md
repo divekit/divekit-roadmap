@@ -18,8 +18,8 @@ history:
     v2:
         date: 2021-07-16
         comment: merged with goal einstieg
-
-todo: 
+todo:
+    - (sbe) für welche Nutzer*innengruppe gilt das Ziel? Nur Studies oder auch Lehrende? 
 ---
 
 ## Beschreibung
