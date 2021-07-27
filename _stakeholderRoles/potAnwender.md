@@ -1,6 +1,7 @@
 ---
 acronym: potAnwender
 type: stakeholderRole
+belongsTo: lehrende
 responsible: 
     - jlü
 name: Potenzieller Anwender als lehrende Person des Systems
@@ -13,7 +14,9 @@ history:
     v2:
         date: 2021-07-26
         comment: rework todo
-
+    v3: 
+        date: 2021-07-27
+        comment: assigned to top-level role "lehrende" (sbe)     
 todo:
 ---
 

@@ -1,6 +1,7 @@
 ---
 acronym: wmaDev
 type: stakeholderRole
+belongsTo: entwickler
 responsible: 
     - ngi
 name: WMA Softwareentwickler
@@ -13,6 +14,9 @@ history:
     v2: 
         date: 2021-07-20
         comment: specified role as possible sub role
+    v3: 
+        date: 2021-07-27
+        comment: assigned to top-level role "entwickler" (sbe)            
 ---
 
 ## Rollenbeschreibung

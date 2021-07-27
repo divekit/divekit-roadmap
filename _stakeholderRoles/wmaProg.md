@@ -1,6 +1,7 @@
 ---
 acronym: wmaProg
 type: stakeholderRole
+belongsTo: lehrende
 responsible: 
     - hbu
     - fkr
@@ -14,6 +15,9 @@ history:
     v2:
         date: 2021-05-28
         comment: added Rollenbeschreibung    
+    v3: 
+        date: 2021-07-27
+        comment: assigned to top-level role "lehrende" (sbe)             
 todo: 
 ---
 

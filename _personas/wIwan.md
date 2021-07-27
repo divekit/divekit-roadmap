@@ -1,7 +1,7 @@
 ---
 type: persona
 acronym: wIwan
-stakeholderRole: 9.semester-student
+stakeholderRole: studentInf
 responsible:
     - ama
 name: Walter Iwan
@@ -14,6 +14,9 @@ history:
     v1:
         date: 2021-06-20
         comment: initially created
+    v2:
+        date: 2021-07-27
+        comment: changed stakeholderRole to studentInf (sbe)        
 todo:
 ---
 

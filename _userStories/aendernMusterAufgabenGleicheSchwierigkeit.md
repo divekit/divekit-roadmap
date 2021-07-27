@@ -1,4 +1,4 @@
----
+    ---
 type: userStory
 acronym: aendernMusterAufgabenGleicheSchwierigkeit
 responsible:

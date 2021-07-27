@@ -1,7 +1,7 @@
 ---
 type: persona
 acronym: kaffalterbach
-stakeholderRole: student
+stakeholderRole: studentInf
 responsible: 
     - jsp
 name: Kevin Affalterbach
@@ -18,6 +18,9 @@ history:
     v2:
         date: 2021-07-25
         comment: fix todos and add review points
+    v3:
+        date: 2021-07-27
+        comment: changed stakeholderRole to studentInf (sbe)        
 todo:
 ---
 
