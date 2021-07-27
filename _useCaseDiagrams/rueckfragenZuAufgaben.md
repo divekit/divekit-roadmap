@@ -6,6 +6,9 @@ responsible:
 title: Use Case Diagram Rückfragen zu Aufgaben
 functionalRequirement: RueckfragenZuAufgaben
 useCases:
+    - Aufgaben abrufen
+    - Rückfragen abrufen
+    - Rückfrage beantworten
 useCasesDetailedWithScenario:
     - rueckfrageStellen
 diagram: ./diagrams/useCaseRueckfragenZuAufgaben.png
@@ -19,6 +22,9 @@ history:
     v3:
         date: 2021-07-27
         comment: fix include of diagram
+    v4:
+        date: 2021-07-27
+        comment: fix w652
         
 todo:
 ---
