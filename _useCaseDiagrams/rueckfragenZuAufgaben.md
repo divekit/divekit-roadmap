@@ -8,7 +8,7 @@ functionalRequirement: RueckfragenZuAufgaben
 useCases:
 useCasesDetailedWithScenario:
     - rueckfrageStellen
-diagram: ./diagrams/useCaseRueckfragenZuAufgaben.svg
+diagram: ./diagrams/useCaseRueckfragenZuAufgaben.png
 history:
     v1:
         date: 2021-07-19
@@ -16,6 +16,9 @@ history:
     v2:
         date: 2021-07-27
         comment: fix use case ref
+    v3:
+        date: 2021-07-27
+        comment: fix include of diagram
         
 todo:
 ---
