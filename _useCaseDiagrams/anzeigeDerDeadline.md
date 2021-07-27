@@ -5,9 +5,8 @@ responsible:
     - mwi
 title: Use Case Anzeige der Deadline
 functionalRequirement: Anzeige der Deadline
-useCases:
-useCasesDetailedWithScenario:
-    - anzeigeDerDeadline
+useCases: Anzeige der Deadline
+useCasesDetailedWithScenario: Anzeige der Deadline
 diagram: ./diagrams/useCaseAnzeigeDerDeadline.png
 history:
     v1:
