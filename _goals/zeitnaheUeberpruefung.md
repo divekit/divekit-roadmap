@@ -15,8 +15,8 @@ history:
     v1:
         date: 2021-06-16
         comment: initially created
-
 todo:
+    - (sbe) Duplikat mit LokalerTest, bitte zusammenlegen
 ---
 
 ## Beschreibung

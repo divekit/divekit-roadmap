@@ -13,11 +13,14 @@ history:
     v1:
         date: 2021-06-16
         comment: initially created
+todo: 
+    - (sbe) Wer genau ist "der Mitarbeiter"? 
+    - (sbe) geht es um neue Features im DiveKit, also im Framework - oder darum, selbst Aufgaben damit konzipieren zu können? Den Unterschied sollten Sie noch einmal klarmachen.          
 ---
 
 ## Beschreibung
 
-Der Mitarbeiter möchte das Divekit selber weiterentwickeln können. 
+Der Mitarbeiter möchte das DiveKit selber weiterentwickeln können. 
 
 ## Begründung
 

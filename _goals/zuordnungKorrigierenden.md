@@ -15,9 +15,9 @@ history:
     v2:
         date: 2021-07-16
         comment: update source
-
 todo: 
-    
+    - (sbe) Titel passt überhaupt nicht - copy/paste?
+    - (sbe) IMHO kann man das zu einem Oberziel zusammenfassen z.B. mit fehlerVerständlichkeit, fehlerFalscheKonfig. Es gibt da ein Oberziel "fehler"    
 ---
 
 ## Beschreibung

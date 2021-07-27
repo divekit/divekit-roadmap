@@ -11,8 +11,8 @@ history:
     v1:
         date: 2021-07-21
         comment: initially created
-
 todo:
+    - (sbe) Die Begründung dieses Zieles verstehe ich nicht. Bitte präzisieren Sie, was mit "Vorbedingungen" gemeint ist und wie das dann zu Clean Code führt. 
 ---
 
 ## Beschreibung
@@ -21,4 +21,4 @@ Das System soll testen können ob Vorbedingungen, welche bei der Aufgabenerstell
 
 
 ## Begründung
-Dadurch soll Studierende dazu bewegt werden Clean Code zu schreiben da sie darauf achten müssen die Vorgaben der Aufgaben zu erfüllen
+Dadurch soll Studierende dazu bewegt werden Clean Code zu schreiben da sie darauf achten müssen die Vorgaben der Aufgaben zu erfüllen.

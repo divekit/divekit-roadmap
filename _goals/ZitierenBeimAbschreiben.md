@@ -12,7 +12,6 @@ history:
     v1:
         date: 2021-07-08
         comment: initially created
-
 todo:
     - Vielleicht ein Überziel mit BetrugsVerhinderung.md zusammen? Beispiel -> "NutzenVonFremdenCode" 
 ---
