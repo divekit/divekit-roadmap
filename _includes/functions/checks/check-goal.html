@@ -9,6 +9,11 @@
 		myErrorString="" myWarningString="" %}
 {% include /functions/checks/generic/check-sources.html myArtefact=artefact
 		myErrorString=errorString myWarningString=warningString %}
+{% if artefact.belongsTo %}
+    {% include /functions/checks/generic/check-generic-refs.html myArtefact=artefact
+            myCheckedRef=artefact.belongsTo myCheckedRefType="goal" asList=false emptyMeansError=true
+            myPurpose="'belongsTo'" myErrorString=errorString myWarningString=warningString %}
+{% endif %}
 
 {% assign errorList = errorString | split: ";" %}
 {% assign warningList = warningString | split: ";" %}
