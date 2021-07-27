@@ -12,6 +12,7 @@ source:
     - [Interview, mengelen, Minute 00-11-29]
     - [Interview, mengelen, Minute 00-14-46]
     - [interview, sbente, Minute 00-48-05]
+    - [interview, nnWMA4, Minute 00-38-26]
 history:
     v1:
         date: 2021-06-16
@@ -28,12 +29,14 @@ history:
     v5:
         date: 2021-07-24
         comment: update mentionnedInSource
+        
 todo:
-    - (sbe) wenn dann doch bitte Link zu unserem ILIAS ...
 ---
 
 ## Erläuterung
 
 Dient als Sammelpunkt für die Bereitstellung von Material in Bezug auf die Lehre. Wird außerdem eingesetzt um Übungen, Selbsttests und Klausuren durchzuführen.
 
-[Wikipedia](https://de.wikipedia.org/wiki/ILIAS_(Software))
+Das besitzt zudem ein Forum. Dies kann zur Kommunikation mit den Dozenten, Betreuern oder Mitstudierenden genutzt werden. Jedoch wird die Nutzung meist als umständlich betrachtet.
+
+Verlinkung zum [ilias](https://ilias.th-koeln.de/) der TH Köln.
