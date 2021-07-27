@@ -4,7 +4,7 @@ acronym: US_anzeigederdeadline
 responsible:
     - mwi
 title: Anzeige der Deadline
-functionalRequirement: anzeigeDerDeadline
+functionalRequirement: Anzeige der Deadline
 asA: studierende
 iWantTo: die Deadline von abzugebenden Aufgaben angezeigt bekommen
 forThisReason: ich meine Abgaben besser planen kann.
