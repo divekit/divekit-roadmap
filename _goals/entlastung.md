@@ -34,14 +34,6 @@ todo:
 Der Mitarbeiter möchte entlastet werden.
 
 
-Dieses Ziel ist ein Oberziel von:
-
-* [Entlastung bei Aufgabenerstellung](https://divekit.github.io/divekit-roadmap/goals/entlastungAufgabenerstellung.html)
-* [Vollautomatische Korrektur](https://divekit.github.io/divekit-roadmap/goals/entlastungAutoSystem.html)
-* [Automatische Korretkur](https://divekit.github.io/divekit-roadmap/goals/entlastungKorrektur.html)
-* [Qualitative Unterstützung bei Auswertung](https://divekit.github.io/divekit-roadmap/goals/entlastungQualitativ.html)
-* [Teilkorrektur](https://divekit.github.io/divekit-roadmap/goals/entlastungTeilkorrektur.html)
-
 ## Begründung
 
 In Bachelor-Studiengängen müssen viele Studierende betreut werden. In teilen werden Veranstaltungen mit über 100 Studierenden angeboten und gehalten. Die Auswertung selbst bei Kleingruppen kann hohe Aufwende für die Mitarbeiter erzeugen.

@@ -13,15 +13,14 @@ history:
     v1:
         date: 2021-06-14
         comment: initially created
-
 todo:
 ---
 
 ## Beschreibung
 
 Die Korrektur von so vielen Praktikumsaufgaben wie möglich sollte vollautomatisch sein.
-Studenten erwarten eine automatisierte Interkation mit dem System.
+Studenten erwarten eine automatisierte Interaktion mit dem System.
 
 ## Begründung
 
-Das Bearbeiten von viele Aufgaben und auch das Feedback zur Lösung ist schon automatisiert. Die Aspekte die noch nicht automatisiert sind brechen diesen Workflow und halten sehr lange auf.
+Das Bearbeiten von viele Aufgaben und auch das Feedback zur Lösung ist schon automatisiert. Die Aspekte, die noch nicht automatisiert sind, brechen diesen Workflow und halten sehr lange auf.

@@ -18,8 +18,9 @@ history:
     v2:
         date: 2021-07-26
         comment: modified reason
-
 todo:
+    - (sbe) Können Sie Ihre Vermutung noch im Titel reflektieren?
+    - (sbe) Ich weiß, was gemeint ist, aber bitte schreiben Sie einen Satz dazu, dass die Quellen keine Nachfrage erlauben. 
 ---
 
 ## Beschreibung

@@ -15,12 +15,13 @@ history:
         date: 2021-07-24
         comment: fix todo
 todo:
-
+    - (sbe) bitte etwas präziser - wo genau sollen Farben gegen Symbole getauscht werden? 
+    - (sbe) aus meiner Sicht skizziert die Begründung schon eine (spezifische) Lösung. Vielleicht könnte man in der Begründung eher die verschiedenen Aspekte von Barrierefreiheit kurz aufzählen. 
 ---
 
 ## Beschreibung
 
-Um die Barrierefreiheit zu steigern, sollten Farben gegen Symbole ausgetaucht werden.
+Um die Barrierefreiheit zu steigern, sollten Farben gegen Symbole ausgetauscht werden.
 
 ## Begründung
 

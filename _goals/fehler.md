@@ -25,19 +25,12 @@ history:
     v4:
         date: 2021-07-27
         comment: updated Beschreibung & Begründung
-
 todo:
 ---
 
 ## Beschreibung
 
 Sowohl bei der Vor- und Nachbereitung als auch bei der Durchführungen müssen Fehler verwaltet werden. 
-
-Folgende Unterziele gehören zu dem Oberziel "Fehler": 
-
-* [Ausgabe der Fehler](https://divekit.github.io/divekit-roadmap/goals/fehlerVerst%C3%A4ndlichkeit.html)
-* [Fehlererkennung](https://divekit.github.io/divekit-roadmap/goals/Fehlererkennung.html)
-* [Falsche Konfiguration](https://divekit.github.io/divekit-roadmap/goals/fehlerFalscheKonfig.html)
 
 
 ## Begründung

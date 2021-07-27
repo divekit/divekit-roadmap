@@ -17,14 +17,17 @@ history:
         comment: initially created
 
 todo:
-    - Begründung spezifizieren
 ---
 
 ## Beschreibung
 
-Die Studierenden wollen eine Möglichkleit den manuellen Feedbackprozess anzustoßen.
+Die Studierenden wollen eine Möglichkeit den manuellen Feedbackprozess anzustoßen.
 
 ## Begründung
 
-Der manuelle Anstoß dient dazu die Wartezeiten der Stundierenden zu verkürtzen.
+Studierende geben in Befragungen an, dass ihnen die automatischen Updates für eine angenehme Arbeit mit dem DiveKit zu lange dauern.
+
+Anmerkung des Business-Analysten:
+Da lokale Tests gefordert werden, obwohl sie bereits möglich sind, sollte die Option hierzu besser erläutert werden.
+
 

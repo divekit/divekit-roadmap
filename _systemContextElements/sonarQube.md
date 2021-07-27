@@ -12,13 +12,13 @@ history:
     v1:
         date: 2021-07-03
         comment: initially created
+    v2:
+        date: 2021-07-27
+        comment: updated Erläuterung
         
 todo:
-    - Erläuterung präzisieren?
-    - Was sind Qualitätsmetriken? Welche sind wichtig?
-    - Warum müssen die eingehalten werden?
 ---
 
 ## Erläuterung
 
-SonarQube wird zur Einhaltung festgelegter Qualitätsmetriken genutzt.
+SonarQube ist eine Plattform zur Analyse und Bewertung der technischen Qualität von Programmcode. Ziel ist es die allgemeine Codequalität und Testabdeckung zu verbessern, um durch die Einhaltung von Richtlinien lesbaren und nachhaltigen Code zu produzieren.

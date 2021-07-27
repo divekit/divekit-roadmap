@@ -3,17 +3,32 @@ layout: default
 ---
 
 {% include /functions/get-artefact-name.html myArtefact=page myIdFormat="postfixWithBrackets" %}
-<h1>Ziel {{ artefactName }}</h1>
+{% if page.isTopLevel %}
+    <h1>Hauptziel {{ artefactName }}</h1>
+{% else %}
+    <h1>Unterziel {{ artefactName }}</h1>
+{% endif %}
+
 
 <dl>
     <dt>Autor(en)</dt>
     {% include /functions/resolve-names.html myResponsible=page.responsible %}
     <dd>{{ responsibleString }}</dd>
 
-    {% if page.partOfLargerGoal %}
+    {% if page.isTopLevel == true %}
+        {% assign thisAcronym = page.acronym %}
+        {% assign foundSubGoals = site.goals | where_exp: "goal", "goal.belongsTo == thisAcronym" %}
+        {% if foundSubGoals.size > 0 %}
+            <dt>Unterziele</dt>
+            {% for foundSubGoal in foundSubGoals %}
+                {% include /functions/get-artefact-name.html myArtefact=foundSubGoal myIdFormat="postfix" %}
+                <dd><a href="{{ site.url }}{{ foundSubGoal.url | relative_url }}">{{ artefactName }}</a></dd>
+            {% endfor %}
+        {% endif %}
+    {% else %}
         <dt>Teil des übergreifenden Ziels ...</dt>
-        {% include /functions/get-link-to-artefact.html myRef=page.partOfLargerGoal myTypeString="goal"
-                myIdFormat="prefix" %}
+        {% include /functions/get-link-to-artefact.html myRef=page.belongsTo myTypeString="goal"
+                myIdFormat="postfix" %}
         <dd>{{ artefactLink }}</dd>
     {% endif %}
 

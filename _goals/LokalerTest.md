@@ -17,13 +17,13 @@ history:
     v2: 
         date: 2021-07-21
         comment: fixed todos for spelling, gender neutral, sources
-
 todo:
 ---
 
 ## Beschreibung
 
-Von den Student*innen wird sich gewünscht, dass die Aufgaben aus dem DiveKit auch lokal auf ihrem rechner getestet werden können, anstatt diese erst einmal in das DiveKit committen zu müssen und mit dem Ergebnis lokal weiterzuarbeiten.
+Von den Student*innen wird sich gewünscht, dass die Aufgaben aus dem DiveKit auch lokal auf ihrem Rechner getestet werden können, anstatt diese erst einmal in das DiveKit committen zu müssen, und mit dem Ergebnis lokal weiterzuarbeiten.
 
 ## Begründung
-Das lokale Testen der Aufgaben würde den Student * innen viel Zeit ersparen, da sie nicht warten müssen, bis das Ergebnis hochgeladen und ausgewertet wurde, sondern ein direktes Feedback und direkte Korrekturmöglichkeiten in ihrer lokalen Umgebung möglich wären. Zudem gäbe es nur noch einen Commit pro Aufgabe, was es übersichtlicher für die Betreuer*innen des Modules macht.
+
+Das lokale Testen der Aufgaben würde den Student*innen viel Zeit ersparen, da sie nicht warten müssen, bis das Ergebnis hochgeladen und ausgewertet wurde, sondern ein direktes Feedback und direkte Korrekturmöglichkeiten in ihrer lokalen Umgebung möglich wären. Zudem gäbe es nur noch einen Commit pro Aufgabe, was es übersichtlicher für die Betreuer*innen des Modules macht.

@@ -3,7 +3,7 @@ type: goal
 acronym: gegenDasToolArbeiten
 responsible:
     - mba
-title: Verhinder, dass Studenten gegen das Tool arbeiten.
+title: Verhindern, dass Studenten gegen das Tool arbeiten.
 source:
     - [interview, nnProf, Minute 00-50-16]
 belongsTo: 

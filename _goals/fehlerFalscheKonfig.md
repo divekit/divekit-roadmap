@@ -14,16 +14,13 @@ history:
     v2:
         date: 2021-07-24
         comment: fix todo
-
 todo:
-
 ---
 
 ## Beschreibung
 
-Bei einer Änderung der Umgebungseinstellungen (om.xml) soll eine aussagekräftige Fehlermeldung seitens des Servers erscheinen. Ebenfalls soll es ein Tutorial zum Zurücksetzen geben.
+Bei einer Änderung der Umgebungseinstellungen (pom.xml) soll eine aussagekräftige Fehlermeldung seitens des Servers erscheinen. Ebenfalls soll es ein Tutorial zum Zurücksetzen geben.
 
 ## Begründung
 
-Durch eine versehentliche Änderung der Umgebungseinstellungen (om.xml) wird die Serverseitige GUI nicht mehr dargestellt. Es wird aber auch keine brauchbare Fehlermeldung angezeigt.
-Somit weiß der Nutzer nicht, was der Fehler sein kann.
+Durch eine versehentliche Änderung der Umgebungseinstellungen (pom.xml) wird die Testseite nicht mehr dargestellt. Es wird aber auch keine brauchbare Fehlermeldung angezeigt. Somit weiß der Nutzer nicht, was der Fehler sein kann.
