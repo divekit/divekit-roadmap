@@ -25,4 +25,4 @@ Die Studierenden wollen Informationen über die Dauer und den Stand der Korrektu
 
 ## Begründung
 
-Durch eine genaue Zeitangabe kann die Wartezeit besser eingesätzt werden. So können bei längeren Wartezeiten andere Aufgaben erledigt werden.
+Durch eine genaue Zeitangabe kann die Wartezeit besser eingeschätzt werden. So können bei längeren Wartezeiten andere Aufgaben erledigt werden.

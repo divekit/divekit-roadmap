@@ -38,13 +38,6 @@ todo:
 
 Eine (persönliche) Betreuung wird oftmals gewünscht. Für eine genauer Zielbeschreibung wird dieses Artefakt in weitere Unterziele aufgeteilt.
 
-Dieses Ziel ist Oberziel von:
-
-* [Hilfe bei der Bearbeitung](https://divekit.github.io/divekit-roadmap/goals/betreuungBearbeitung.html)
-* [Hilfe bei Matheaufgaben?](https://divekit.github.io/divekit-roadmap/goals/betreuungMatheHilfe.html)
-* [Qualitative Betreuung](https://divekit.github.io/divekit-roadmap/goals/betreuungQualitative.html) 
-* [Online Betreuung](https://divekit.github.io/divekit-roadmap/goals/betreuungOnline.html)
-* [Rückfragen der Studierenden](https://divekit.github.io/divekit-roadmap/goals/betreuungRueckfragen.html)
 
 ## Begründung
 
