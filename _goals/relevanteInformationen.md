@@ -15,19 +15,22 @@ history:
     v2:
         date: 2021-07-21
         comment: add explanation, refactor source
+    v3:
+        date: 2021-07-28
+        comment: update description
 todo:
-    - (sbe) bitte Groß/Kleinschreibung prüfen
-    - (sbe) Doppelung mit betreuungQualitative und studVorbereiten? bitte prüfen und ggfs. abgrenzen
-    - (sbe) Doppelung mit besseresVerstaendnis? bitte prüfen und ggfs. abgrenzen
     
 ---
 
 ## Beschreibung
 
-Zum Verständnis und der Nachvollziehbarkeit halber wird sich gewünscht, dass möglichst alle zur Verfügung stehenden Informationen angezeigt werden.
+Zum Verständnis und der Nachvollziehbarkeit halber wird sich gewünscht, dass möglichst alle zur Verfügung stehenden und 
+sinnvollen Informationen angezeigt werden. Die Informationen beinhalten vor allem einfache Systeminformationen, die bei den 
+automatisiert ausgeführten Tests gesammelt werden können. 
 
 ## Begründung
-Um noch mehr über die eingereichte Lösung zu Erfahren und besser zu Verstehen, wo eventuell Problem aufgetreten sind, wünschen sich einige
-Studierende, dass möglichst viele Informationen zur Verfügung gestellt werden. Dies kann von Leistungstest bis hin zu Lint Warnungen alles sein.
+Um noch mehr über die eingereichte Lösung zu Erfahren und besser zu Verstehen, wo eventuell Problem aufgetreten sind, 
+wünschen sich einige Studierende, dass möglichst viele Informationen zur Verfügung gestellt werden. Dies kann von 
+Leistungstest bis hin zu Lint Warnungen alles sein.
 
 
