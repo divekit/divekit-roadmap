@@ -40,7 +40,7 @@ layout: default
 
         {% include /functions/get-link-to-artefact.html myRef=userStory.functionalRequirement
         myTypeString="functionalRequirement" myIdFormat="prefix" %}
-        <td><a href="{{ site.url }}{{ userStory.url | relative_url }}">{{ artefactLink }}</a></td>
+        <td>{{ artefactLink }}</td>
     </tr>
     {% endfor %}
     </tbody>

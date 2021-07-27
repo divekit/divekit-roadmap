@@ -10,11 +10,14 @@ layout: default
     {% include /functions/resolve-names.html myResponsible=page.responsible %}
     <dd>{{ responsibleString }}</dd>
 
+    <dt>Zugrundeliegende funktionale Anforderung</dt>
+    {% include /functions/get-link-to-artefact.html myRef=page.functionalRequirement
+            myTypeString="functionalRequirement" myIdFormat="prefix" %}
+    <dd>{{ artefactLink }}</dd>
+
     {% include /functions/print-history.html myArtefact=page %}
 
     {% include /functions/checks/check-userStory.html myArtefact=page %}
-    {% assign stakeholderRoleRef = page.asA %}
-
     {% include /functions/print-detailed-check-messages.html errors=errorString warnings=warningString todos=page.todo %}
 </dl>
 

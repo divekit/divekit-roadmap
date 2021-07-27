@@ -21,12 +21,10 @@ layout: default
     <dt>Zugehöriges Use-Case-Diagramm</dt>
     <dd>tbd.</dd>
 
-    {% if page.funcionalRequirements.size > 0 %}
-        <dt>Zugrundeliegende funktionale Anforderung(en)</dt>
-        {% for functionRequirementRef in page.funcionalRequirements %}
-        <dd>{{ functionRequirementRef }}</dd>
-        {% endfor %}
-    {% endif %}
+    <dt>Zugrundeliegende funktionale Anforderung</dt>
+    {% include /functions/get-link-to-artefact.html myRef=page.functionalRequirement
+                myTypeString="functionalRequirement" myIdFormat="prefix" %}
+    <dd>{{ artefactLink }}</dd>
 
     {% include /functions/print-history.html myArtefact=page %}
 
