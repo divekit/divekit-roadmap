@@ -25,14 +25,17 @@ history:
     v3:
         date: 2021-07-26
         comment: modified reason regarding todo
-        
+    v4:
+        date: 2021-07-27
+        comment: modified reason and fixed typo
+
 todo:
 ---
 
-Die automatischen Testes des DiveKit müssen schneller als 5-10 Minuten ablaufen.
+Die automatischen Tests des DiveKit müssen in weniger als 5-10 Minuten ablaufen.
 
 ## Begründung
 
 Die Studenten können ihre Ergebnisse erst korrigieren, wenn sie ausgewertet wurden und wollen darauf nicht zu lange warten.
 
-Vermutende Lösung des Business Analyst: Eine präzisere Zeitangabe kann leider nicht gemacht werden. Vermutlich wird das Bauen der Testseite gemeint.
+Vermutende Lösung des Business Analyst: Eine präzisere Zeitangabe kann leider nicht gemacht werden. Vermutlich wird mit einem schnelleren Ablauf das Bauen der Testseite gemeint sein.

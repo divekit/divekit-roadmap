@@ -9,6 +9,7 @@ useCases:
     - Tutorial einpflegen
     - Tutorial bearbeiten
     - Tutorial löschen
+    - Tutorial durchführen
     - Kontextbezogene-Hilfen darstellen
     - Kontextbezogene-Hilfen einpflegen
     - Kontextbezogene-Hilfen bearbeiten
@@ -20,7 +21,11 @@ history:
     v1:
         date: 2021-07-17
         comment: initially created
-todo:  
+    v2:
+        date: 2021-07-27
+        comment: modified diagram and use cases regarding review
+
+todo:
 ---
 
 ## Beschreibung
