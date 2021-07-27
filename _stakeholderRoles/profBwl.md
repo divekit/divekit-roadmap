@@ -1,6 +1,7 @@
 ---
 acronym: profBwl
 type: stakeholderRole
+belongsTo: lehrende
 responsible: 
     - psc
 name: Professor für Betriebswirtschaftslehre
@@ -13,8 +14,10 @@ history:
     v2:
         date: 2021-06-16
         comment: weitere Aufgaben hinzugefügt
-todo:     
-    - müsste vielleicht noch um profMathe ergänzt werden? (SB)         
+    v3: 
+        date: 2021-07-27
+        comment: assigned to top-level role "lehrende" (sbe)        
+todo:        
 ---
 
 ## Rollenbeschreibung

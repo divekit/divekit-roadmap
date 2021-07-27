@@ -1,13 +1,14 @@
 ---
 type: useCaseDiagram
 acronym: useCaseDiagramInformationenAbbilden
-useCases:
-    - informationenAnfordern
 responsible: 
     - kru
 title: Use Case Diagram weiterführende Informationen abbilden
-funcionalRequirement: 
-    - WeiterfuehrendeInformationen
+functionalRequirement: WeiterfuehrendeInformationen
+useCases:
+useCasesDetailedWithScenario:
+    - informationenAnfordern
+diagram: ./diagrams/UseCaseInformationenAbbilden.png
 history:
     v1:
         date: 2021-07-16
@@ -15,9 +16,7 @@ history:
     v2:
         date: 2021-07-20
         comment: added diagram
-
 todo: 
-    - 
 ---
 
 ## Beschreibung
@@ -31,8 +30,5 @@ Die funktionale Anforderung „Weiterführende Informationen“ hängt von den a
 |2.1|Informationen bearbeiten|WMA|Der Mitarbeiter erstellt und bearbeitet die Informationen zu den Fehlern.|
 |2.2|Informationen löschen|WMA|Der Mitarbeiter löscht die Informationen zu den Fehlern.|
 
-## Diagram
-
-![UseCase Diagramm zu Informationen abbilden](./diagrams/UseCaseInformationenAbbilden.png)
 
 

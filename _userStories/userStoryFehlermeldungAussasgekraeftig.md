@@ -2,16 +2,16 @@
 type: userStory
 acronym: userStoryFehlermeldungAussasgekraeftig
 responsible:
-	- cpo
+    - cpo
 title: User Story aussagekräftige Fehlermeldungen
-funcionalRequirement: FehlermeldungAussagekraeftig
+functionalRequirement: FehlermeldungAussagekraeftig
 asA: studentInf 
 iWantTo:  aussagekräftige Fehlermeldungen bei Systemfehlern erhalten
 forThisReason: ich weiß, dass das Problem nicht durch Fehler in meiner Lösung enstanden ist
 history:
-	v1:
-		date: 2021-07-22
-		comment: initially created
+    v1:
+        date: 2021-07-22
+        comment: initially created
 todo:
 
 ---

@@ -1,6 +1,7 @@
 ---
 acronym: profInf
 type: stakeholderRole
+belongsTo: lehrende
 responsible: 
     - ako
     - kru
@@ -15,8 +16,10 @@ history:
     v2:
         date: 2021-06-15
         comment: added new content based on profBWL
-todo: 
-    - ausformulieren                
+    v3: 
+        date: 2021-07-27
+        comment: assigned to top-level role "lehrende" (sbe)     
+todo:               
 ---
 
 <!-- Rolle ist aktuell extrem weit gefasst und deckt nahezu alle Professorenbereiche ab. Wäre eine Unterteilung in "profProg", "profArch", etc nicht sinnvoll? -->

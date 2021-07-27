@@ -2,19 +2,19 @@
 type: userStory
 acronym: brandingDesignDarkmodeAnsicht
 responsible:
-	- ngi
+    - ngi
 title: Branding des Designs der Darkmode-Ansicht
-funcionalRequirement: IndividuellesDesign
+functionalRequirement: IndividuellesDesign
 asA: 
     - anwenderExtern
 iWantTo: das Design der Darkmode-Ansicht ändern
 forThisReason: damit die graphische Oberfläche des Divekits an die Farben meiner Hochschule angepasst sind
 history:
-	v1:
-		date: 2021-07-22
-		comment: initially created
+    v1:
+        date: 2021-07-22
+        comment: initially created
 todo:
-	
+    
 ---
 
 ## User Story

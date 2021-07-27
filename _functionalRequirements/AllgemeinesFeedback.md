@@ -37,10 +37,14 @@ history:
     v5:
         date: 2021-07-16
         comment: Added goals
+    v6:
+        date: 2021-07-26
+        comment: modified regarding todo
+
 todo:
 ---
 
-Das System muss in der Lage sein dem Studierenden zu nicht bestandenen Tests und auch bestandenen Tests Feedback zu geben.
+Das DiveKit muss in der Lage sein dem Studierenden zu nicht bestandenen Tests und auch bestandenen Tests Feedback zu geben.
 
 ## Begründung
 Dem Benutzer soll auch eine Rückmeldung gegeben werden, wie “gut” eine Lösung ist. Es wird sich somit auch Feedback zu bestandenen Tests gewünscht. Eine erarbeitete Lösung kann nämlich auch unschön sein und das ist nicht zielführend.

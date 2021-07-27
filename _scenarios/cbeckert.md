@@ -9,13 +9,16 @@ scenarioTypes:
 responsible: 
     - psc
 source: 
-    - [interview, mengelen, Minute 00:23:21]
-    - [interview, mengelen, Minute 00:27:00]
+    - [interview, mengelen, Minute 00-23-21]
+    - [interview, mengelen, Minute 00-27-00]
     - [goals, aufeinanderAufbauend]
 history:
     v1:
         date: 2021-06-24
         comment: initially created
+    v2:
+        date: 2021-07-23
+        comment: Zeitmarken in source gefixed
 todo:
 ---
 

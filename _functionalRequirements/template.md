@@ -26,7 +26,11 @@ history:
         date: 2021-06-18
         comment: update Template
 todo: 
-    - In der QS sollte mal überprüft werden, ob die Schablone eingehalten wurde ... ist kaum der Fall. 
+
+ignore:
+    - e052
+    - e502
+    - e113
 ---
 
 mit Bedingung:

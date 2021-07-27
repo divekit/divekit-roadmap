@@ -2,13 +2,12 @@
 layout: default
 ---
 
-{% include /functions/get-globalid.html
-        myCollection=site.stakeholderRoles myArtefact=page myType="stakeholderRole" %}
-<h1>Stakeholder-Rolle »{{ page.name }}« ({{ globalId }})</h1>
+{% include /functions/get-artefact-name.html myArtefact=page myIdFormat="postfixWithBrackets" %}
+<h1>Stakeholder-Rolle {{ artefactName }}</h1>
 
 <dl>
     <dt>Autor(en)</dt>
-    {% include /functions/resolve-names.html my_responsible=page.responsible %}
+    {% include /functions/resolve-names.html myResponsible=page.responsible %}
     <dd>{{ responsibleString }}</dd>
 
     <dt>Beschreibung</dt>
@@ -44,10 +43,8 @@ layout: default
     {% if interviewList.size > 0 or surveyLinkList.size > 0 or workshopLinkList.size > 0 %}
         <dt>Datenerhebungen für diese Stakeholder-Rolle</dt>
         {% for interview in interviewList %}
-            {% include /functions/get-interview-name.html myInterview=page %}
-            {% include /functions/get-globalid.html myCollection=site.interviews
-                    myArtefact=interview myType="interview" %}
-            <dd><a href="{{ site.url }}{{ interview.url | relative_url }}">{{ globalId }}: {{ interviewName }}</a></dd>
+            {% include /functions/get-artefact-name.html myArtefact=interview myIdFormat="prefix" %}
+            <dd><a href="{{ site.url }}{{ interview.url | relative_url }}">{{ artefactName }}</a></dd>
         {% endfor %}
         {% for surveyLink in surveyLinkList %}
            <dd>{{ surveyLink }}</dd>
@@ -86,10 +83,7 @@ layout: default
 
     {% include /functions/print-history.html myArtefact=page %}
 
-    {% include /functions/checks/check-generic-aspects.html myArtefact=page
-            myErrorString="" myWarningString="" %}
-    {% include /functions/checks/check-stakeholderRole.html myArtefact=page
-            myErrorString=errorString myWarningString=warningString %}
+    {% include /functions/checks/check-stakeholderRole.html myArtefact=page %}
     {% include /functions/print-detailed-check-messages.html errors=errorString warnings=warningString todos=page.todo %}
 </dl>
 

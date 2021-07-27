@@ -17,8 +17,7 @@ secondaryActors:
 trigger: Der User ruft das Darkmode-Setting auf
 precondition: Das Setting muss implementiert sein
 postcondition: Das Darkmode-Setting ist aktiviert
-funcionalRequirements: 
-    - Darkmode
+functionalRequirement: Darkmode
 history:
     v1:
         date: 2021-07-20

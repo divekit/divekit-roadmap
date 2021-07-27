@@ -8,6 +8,7 @@ source:
     - [interview, mengelen, Minute 00-08-00]
     - [interview, mengelen, Minute 00-25-22]
     - [interview, mengelen, Minute 00-27-00]
+    - [Interview, nnProf3, 00-17-34]
 partOfLargerGoal: aufgabentypen
 history:
     v1:
@@ -16,6 +17,9 @@ history:
     v2:
         date: 2021-07-22
         comment: Begründung hinzugefügt + Rechenaufgaben -> Mathematik Aufgaben umbenannt
+    v3:
+        date: 2021-07-26
+        comment: add sources
 
 todo:
 ---

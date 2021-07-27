@@ -1,11 +1,12 @@
 ---
 acronym: sonarQube
-type: itsystem 
+type: systemContextElement
+subtype: itsystem 
 responsible:
     - kru
     - ako
     - duz
-mentionnedInSource:
+source:
     - [interview, sbente, Minute 00-13-59]
 history:
     v1:

@@ -2,16 +2,16 @@
 type: userStory
 acronym: tutorialEinpflegen
 responsible:
-	- duz
+    - duz
 title: Einpflegen eines Tutorials
-funcionalRequirement: SchnellerLernprozess
+functionalRequirement: SchnellerLernprozess
 asA: wmaDev
 iWantTo: Tutorials in das System einpflegen
 forThisReason: damit die Nutzer:innen (Lehrende) das System effektiv nutzen können
 history:
-	v1:
-		date: 2021-07-21
-		comment: initially created
+    v1:
+        date: 2021-07-21
+        comment: initially created
 todo:
 ---
 

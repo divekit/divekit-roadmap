@@ -3,7 +3,7 @@ type: goal
 acronym: betreuungQualitative
 responsible: 
     - hbu
-title: Studenten sollten die Möglichkeit haben eine qualitativ hochwertigen Betreuung während des Praktikums in Anspruch zu nehmen
+title: Qualitativ hochwertigen Betreuung für Studenten
 source: 
     - [interview, fkrampe, Minute 00-59-35]
     - [interview, fkrampe, Minute 01-02-57]
@@ -16,14 +16,12 @@ history:
         comment: initially created
 
 todo: 
-    - Titel bitte etwas kürzen
-    - Aktueller Titel in die Beschreibung packen
-    - Bitte geschlechtsneutral formulieren
 ---
 
 ## Beschreibung
 
-Die Pakrikumsteilnehmer sollen Hilfestellung zu jedem Zeitpunkt während des Praktikums in Anspruch nehmen können. Die qualität der Betreuung ist dabei sehr wichtig.
+Studenten sollten die Möglichkeit haben eine  während des Praktikums in Anspruch zu nehmen. Sie sollen Hilfestellung
+zu jedem Zeitpunkt während des Praktikums in Anspruch nehmen können. Die qualität der Betreuung ist dabei sehr wichtig.
 
 ## Begründung
 

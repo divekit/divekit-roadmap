@@ -2,27 +2,36 @@
 layout: default
 ---
 
-{% include /functions/get-globalid.html
-        myCollection=site.useCases myArtefact=page myType="useCase" %}
-<h1>Use Case »{{ page.title }}« ({{ globalId }})</h1>
+{% include /functions/get-artefact-name.html myArtefact=page myIdFormat="postfixWithBrackets" %}
+<h1>Use Case {{ artefactName }}</h1>
 
 <dl>
     <dt>Autor(en)</dt>
-    {% include /functions/resolve-names.html my_responsible=page.responsible %}
+    {% include /functions/resolve-names.html myResponsible=page.responsible %}
     <dd>{{ responsibleString }}</dd>
 
     <dt>Beschreibung</dt>
     <dd>{{ page.description }}</dd>
 
+    <dt>gehört zu funktionalem Requirement</dt>
+    {% include /functions/get-link-to-artefact.html myRef=page.functionalRequirement
+            myTypeString="functionalRequirement" myIdFormat="prefix" %}
+    <dd><a href="{{ site.url }}{{ useCase.url | relative_url }}">{{ artefactLink }}</a></dd>
+
+    <dt>Zugehöriges Use-Case-Diagramm</dt>
+    <dd>tbd.</dd>
+
     <dt>Primärer Aktor</dt>
-    {% include /functions/get-link-to-stakeholder-role.html myRoleAcronym=page.primaryActor withId=true %}
-    <dd>{{ stakeholderRoleLink }}</dd>
+    {% include /functions/get-link-to-artefact.html myRef=page.primaryActor myTypeString="stakeholderRole"
+            myIdFormat="prefix" %}
+    <dd>{{ artefactLink }}</dd>
 
     {% if page.secondaryActors.size > 0 %}
         <dt>Sekundäre(r) Aktor(en)</dt>
         {% for secondaryActorRef in page.secondaryActors %}
-            {% include /functions/get-link-to-stakeholder-role.html myRoleAcronym=secondaryActorRef withId=true %}
-            <dd>{{ stakeholderRoleLink }}</dd>
+            {% include /functions/get-link-to-artefact.html myRef=secondaryActorRef myTypeString="stakeholderRole"
+                    myIdFormat="prefix" %}
+            <dd>{{ artefactLink }}</dd>
         {% endfor %}
     {% endif %}
 
@@ -47,14 +56,7 @@ layout: default
 
     {% include /functions/print-history.html myArtefact=page %}
 
-    {% include /functions/checks/check-generic-aspects.html myArtefact=page myErrorString="" myWarningString="" %}
-    {% assign stakeholderRoleRef = page.primaryActor %}
-    {% include /functions/checks/check-stakeholderRole-refs.html myStakeholderRoleRef=stakeholderRoleRef
-            myAsList=false myPurpose="Primärer Aktor" myErrorString=errorString myWarningString=warningString %}
-    {% assign stakeholderRoleRef = page.secondaryActors %}
-    {% include /functions/checks/check-stakeholderRole-refs.html myStakeholderRoleRef=stakeholderRoleRef
-            myAsList=true myPurpose="Sekundäre Aktor(en)" myErrorString=errorString myWarningString=warningString %}
-
+    {% include /functions/checks/check-useCase.html myArtefact=page %}
     {% include /functions/print-detailed-check-messages.html errors=errorString warnings=warningString todos=page.todo %}
 </dl>
 

@@ -24,9 +24,11 @@ layout: default
     {% assign collection = site.surveys | sort: sortField %}
     {% for survey in collection %}
         <tr>
-            <td><a href="{{ site.url }}{{ survey.url | relative_url }}">{{ survey.subject }}</a></td>
-            {% include /functions/get-link-to-stakeholder-role.html myRoleAcronym=survey.stakeholder_role withId=false %}
-            <td>{{ stakeholderRoleLink }}</td>
+            {% include /functions/get-artefact-name.html myArtefact=survey %}
+            <td><a href="{{ site.url }}{{ survey.url | relative_url }}">{{ artefactName }}</a></td>
+            {% include /functions/get-link-to-artefact.html myRef=survey.stakeholderRole myTypeString="stakeholderRole"
+                    myIdFormat="prefix" %}
+            <td>{{ artefactLink }}</td>
         </tr>
         {% endfor %}
     </tbody>

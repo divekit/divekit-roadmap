@@ -21,11 +21,14 @@ history:
     v3:
         date: 2021-07-16
         comment: Modified responsibles as discussed
+    v4:
+        date: 2021-07-26
+        comment: Changed sytem to divekit
 
 todo:
 ---
 
-Das System sollte Usern die Möglichkeit bieten das Design des Systems individuell festlegen zu können.
+Das DiveKit sollte Usern die Möglichkeit bieten das Design des Systems individuell festlegen zu können.
 
 ## Begründung
 Eine Anpassung des Systems an die eigenen Vorstellungen motiviert und erleichtert die Nutzung dessen.

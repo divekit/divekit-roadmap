@@ -24,22 +24,27 @@ history:
     v2:
         date: 2021-07-12
         comment: sources and small description added 
-
-todo: 
-    - Anpassen der Subziel Verlinkung 
-    - Beschreibung und Begründung verbessern
+    v3:
+        date: 2021-07-26
+        comment: updated subgoal links
+    v4:
+        date: 2021-07-26
+        comment: added description
+todo:
 ---
 
 ## Beschreibung
 
-Dieses Ziel ist Oberziel von
+Eine (persönliche) Betreuung wird oftmals gewünscht. Für eine genauer Zielbeschreibung wird dieses Artefakt in weitere Unterziele aufgeteilt.
 
-* [Hilfe bei der Bearbeitung](./betreuungBearbeitung.md)
-* [Hilfe bei Matheaufgaben?](./betreuungMatheHilfe.md)
-* [Qualitative Betreuung](./betreuungQualitative.md) 
-* [Online Betreuung](./betreuungOnline.md)
-* [Rückfragen der Studierenden](./betreuungRueckfragen.md)
+Dieses Ziel ist Oberziel von:
+
+* [Hilfe bei der Bearbeitung](https://divekit.github.io/divekit-roadmap/goals/betreuungBearbeitung.html)
+* [Hilfe bei Matheaufgaben?](https://divekit.github.io/divekit-roadmap/goals/betreuungMatheHilfe.html)
+* [Qualitative Betreuung](https://divekit.github.io/divekit-roadmap/goals/betreuungQualitative.html) 
+* [Online Betreuung](https://divekit.github.io/divekit-roadmap/goals/betreuungOnline.html)
+* [Rückfragen der Studierenden](https://divekit.github.io/divekit-roadmap/goals/betreuungRueckfragen.html)
 
 ## Begründung
 
-Für eine optimale Förderung der Studierenden ist ein breites, aber auch qualitatives Angebot der Betreuung sehr wichtig. 
+Für eine optimale Förderung der Studierenden ist ein breites, aber auch qualitatives Angebot der Betreuung sehr wichtig.

@@ -21,7 +21,6 @@ history:
         comment: reformat timestamp
 
 todo:
-    - Vielleicht ein Überziel mit ZitierenBeimAbschreiben.md zusammen? Beispiel -> "NutzenVonFremdenCode" 
 ---
 
 ## Beschreibung

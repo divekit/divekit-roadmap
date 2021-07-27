@@ -3,7 +3,7 @@ type: goal
 acronym: studVorbereiten
 responsible: 
     - hbu
-title: Die Studenten durch das Praktikum auf die Klausur vorbereiten
+title: Studenten auf Klausur vorbereiten
 source:
     - [interview, fkrampe, Minute 00-59-35]
     - [interview, fkrampe, Minute 01-01-15]
@@ -17,8 +17,6 @@ history:
         comment: Die Quellen temporaer runterkopiert. wieder hoch kopiert
 
 todo:
-    - Titel kürzen
-    - Bitte geschlechtsneutral formulieren
 ---
 
 ## Beschreibung

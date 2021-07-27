@@ -5,14 +5,12 @@ responsible:
     - ngi
 title: Branding
 description: Ein Anwender einer externen Hochschule kann das Design des Systems individuell anpassen
-primaryActor: 
-    - anwenderExtern
+primaryActor: anwenderExtern
 secondaryActors:
 trigger: Der externe Anwender ruft die Seite für das Anpassen des Designs an
 precondition: Einstellungsmöglichkeiten für das Branding müssen implementiert sein und der externe Anwender muss als Verwalter im System eingeloggt sein
 postcondition: Das Design des Systems ist an die externe Hochschule angepasst
-funcionalRequirements: 
-    - IndividuellesDesign
+functionalRequirement: IndividuellesDesign
 history:
     v1:
         date: 2021-07-22

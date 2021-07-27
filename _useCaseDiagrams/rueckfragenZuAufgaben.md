@@ -1,18 +1,18 @@
 ---
 type: useCaseDiagram
 acronym: useCaseDiagramRueckfragenZuAufgaben
-useCases:
-    - Rueckfrage_stellen
 responsible: 
     - aha
 title: Use Case Diagram Rückfragen zu Aufgaben
-funcionalRequirement: 
-    - RueckfragenZuAufgaben
+functionalRequirement: RueckfragenZuAufgaben
+useCases:
+useCasesDetailedWithScenario:
+    - Rueckfrage_stellen
+diagram: ./diagrams/useCaseRueckfragenZuAufgaben.svg
 history:
     v1:
         date: 2021-07-19
         comment: initially created
-
 todo:
 ---
 
@@ -29,8 +29,5 @@ Die Anforderung besteht aus folgenden Interaktionen:
 |Rückfragen abrufen|WMA|Der WMA ruft die Mailbox ab, in der die Nachrichten mit den Rückfragen landen.|
 |Rückfrage beantworten|WMA|Der WMA schaut sich die Rückfrage-Nachricht an und verfasst eine Antwort darauf.|
 
-## Diagram
-
-![useCaseDiagramRueckfragenZuAufgaben](./diagrams/useCaseRueckfragenZuAufgaben.svg)
 
 

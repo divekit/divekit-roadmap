@@ -1,11 +1,12 @@
 ---
 acronym: E-Assasment-Tool     
-type: itsystem
+type: systemContextElement
+subtype: itsystem
 responsible:
     - fgr
     - ngi
-mentionnedInSource: 
-    - nnWMA2_transkript.md
+source:
+    - [interview, nnWMA2, Minute 00-35-45]
 history:
     v1:
         date: 2021-06-13
@@ -15,7 +16,6 @@ history:
         comment: updated format
 
 todo:
-    - Quellformat fixen in Format [..., ..., ...]
 ---
 ### Erläuterung
 Über das E-Assasment-tool werden bislang die Prüfungen online gehalten. 

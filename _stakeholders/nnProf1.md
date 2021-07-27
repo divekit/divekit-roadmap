@@ -9,6 +9,7 @@ anonymous: true
 stakeholderRole: 
     - profInf
     - potAnwender
+    - lehrende
 relationshipToProject: >
     Möglicher Nutzer des Systems auf Dozentenseite.
 history:
@@ -18,12 +19,11 @@ history:
     v2:
         date: 2021-07-22
         comment: added more detail to profile and relevance, added stakeholderole potAnwender
+    v3:
+        date: 2021-07-24
+        comment: remove and fix todos
 todo: 
-    - ausführlicher     
-    - Rolle "Dozent" fehlt (SB)
-    - potentielle Anwenderrolle hinzufügen (SB)
     - Bitte eine einheitliche Namenskonvention für anonymisierte Namen verwenden (SB) 
-    - Was bedeutet der letzte Satz der Beschreibung "Daher bietet es sich an, die Sichtweise für solche Aufgaben zu hinterfragen." ? (SB)
 ---
 ## Steckbrief
 

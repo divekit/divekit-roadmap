@@ -5,24 +5,23 @@ responsible:
     - fgr
 title: Verbessertes Feedback
 description: Ein*e Student*in kann sich zusätzliches Feedback anzeigen lassen.
-primaryActor: 
-    - student
+primaryActor: mma
 secondaryActors:
     - wmaProg
     - profInf
     - profMa
     - profBwl
-trigger: Der/Die User*in gibt seine Aufgaben ab
-precondition: Eine Muserlösung wurde zusammen mit den Aufgaben erstellt und es existiert für korrigierte Abgaben eine Option"Zusätzliches Feedback anzeigen".
+trigger: Der/die User*in gibt seine Aufgaben ab
+precondition: > 
+    Eine Musterlösung wurde zusammen mit den Aufgaben erstellt und es existiert für korrigierte Abgaben eine Option "Zusätzliches Feedback anzeigen".
 postcondition: Der/Die User*in bekommt zusätzliches Feedback.
-funcionalRequirements: 
-    - verbessertesFeedback
+functionalRequirement: verbessertesFeedback
 history:
     v1:
         date: 2021-07-22
         comment: initially created
-
 todo: 
+    - mma ist Stakeholder - hier ist aber eine StakeholderRole gefragt (sbe)
 ---
 
 Als User*in gelten alle Studenten, welche Aufgaben im Divekit abgeben.

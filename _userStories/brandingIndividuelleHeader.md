@@ -2,19 +2,19 @@
 type: userStory
 acronym: brandingindividuelleHeader
 responsible:
-	- ngi
+    - ngi
 title: Branding durch individuelle Header
-funcionalRequirement: IndividuellesDesign
+functionalRequirement: IndividuellesDesign
 asA: 
     - anwenderExtern
 iWantTo: individuelle Header in das System einfügen
 forThisReason: um Überschriften an meine Hochschule anpassen und auf meine Inhalte abstimmen zu können
 history:
-	v1:
-		date: 2021-07-22
-		comment: initially created
+    v1:
+        date: 2021-07-22
+        comment: initially created
 todo:
-	
+    
 ---
 
 ## User Story

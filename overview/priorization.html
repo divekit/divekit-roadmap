@@ -42,7 +42,7 @@ layout: default
             {% assign foundGoals = site.goals | where:"acronym", goalRef %}
             {% if foundGoals.size == 1 %}
                 {% assign goal = foundGoals[0] %}
-                {% include /functions/get-globalid.html myCollection=site.goals myArtefact=goal myType="goal" %}
+                {% include /functions/get-globalid.html myArtefact=goal %}
                 <th><a href="{{ site.url }}{{ goal.url | relative_url }}">{{ globalId }}</a></th>
             {% endif %}
         {% endfor %}

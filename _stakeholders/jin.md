@@ -9,14 +9,18 @@ responsible:
 name: Jann Intveen
 stakeholderRole: 
     - wmaProg
+    - potAnwender
+    - entwickler
 relationshipToProject: >
     War beteiligt an der Konzeptionierung und Entwicklung des Systems.
 history:
     v1:
         date: 2021-06-07
         comment: created initially
+    v2:
+        date: 2021-07-26
+        comment: added rollen
 todo:
-    - Anwenderrolle hinzufügen (SB)
 ---
 
 ## Steckbrief

@@ -21,9 +21,15 @@ history:
     v3:
         date: 2021-07-16
         comment: Modified responsibles as discussed
+    v3:
+        date: 2021-07-26
+        comment: Added Begründung
 
 todo:
-    - Bitte präzisieren - was genau sind "visuelle Mittel"? Und es ist ein großer Unterschied, bei welche Komponenten es Probleme gab, und welche Aufgaben noch nicht bearbeitet wurden. Letzteres gibt es schon. 
 ---
 
-Das DiveKit muss in der Lage sein den Studierenden mithilfe von visuellen Mitteln anzuzeigen, bei welchen Komponenten es Probleme gab.
+Das DiveKit muss in der Lage sein den Studierenden mithilfe von visuellen Mitteln anzuzeigen, bei welchen Komponenten es Probleme gab. 
+
+## Begründung
+
+Vermutete Lösung des Business Analyst: Eventuell wäre eine Art "Übersichtsseite" schön, auf der grafisch (also nicht nur als Konsolenausgabe des Fehlers/Stacktraces) dargestellt wird, in welcher Klasse Probleme existieren.

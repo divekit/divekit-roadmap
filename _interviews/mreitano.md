@@ -15,13 +15,12 @@ history:
         date: 2021-05-15
         comment: initially created
 todo: 
-    - Format anpassen
 ---
 ## Interviewleitfaden
-[siehe MA Jann Intveen]("./../sources/Masterarbeit Jann Intveen final.pdf") s.93
+[siehe MA Jann Intveen](https://divekit.github.io/divekit-roadmap/sources/Masterarbeit%20Jann%20Intveen%20final.pdf) s.93
 
 ## Transkript
-[siehe Interviewtranskript mit Marco Reitano](./../sources/jintveen_MA_mreitano_transkript.md)
+[siehe Interviewtranskript mit Marco Reitano](https://divekit.github.io/divekit-roadmap/sources/jintveen_MA_mreitano_transkript.html)
 
 ## Ergebnisprotokoll
 siehe MA Jann Intveen <!-- Nicht vorhanden? Zumindest nicht in der MA selbst -->

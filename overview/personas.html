@@ -13,9 +13,11 @@ layout: default
 <table>
     <thead>
     <tr>
-        <th width="40%">Name</th>
-        <th width="60%">Rolle</th>
-
+        <th width="5%"></th>
+        <th width="10%">ID</th>
+        <th width="25%">Name</th>
+        <th width="25%">Stakeholder-Rolle</th>
+        <th width="15%">zugehörige Szenarien</th>
     </tr>
     </thead>
     <tbody>
@@ -23,9 +25,20 @@ layout: default
     {% assign collection = site.personas | sort: sortField %}
     {% for persona in collection %}
         <tr>
-            <td><a href="{{ site.url }}{{ persona.url | relative_url }}">{{ persona.name }}</a></td>
-            {% include /functions/get-link-to-stakeholder-role.html myRoleAcronym=persona.stakeholderRole withId=false %}
-            <td>{{ stakeholderRoleLink }}</td>
+            {% include /functions/checks/check-scenario.html myArtefact=persona %}
+            {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=persona.todo %}
+            <td>{{ iconString }}</td>
+
+            {% include /functions/get-globalid.html myArtefact=persona %}
+            <td><a href="{{ site.url }}{{ scenario.url | relative_url }}">{{ globalId }}</a></td>
+
+            {% include /functions/get-artefact-name.html myArtefact=persona %}
+            <td><a href="{{ site.url }}{{ persona.url | relative_url }}">{{ artefactName }}</a></td>
+            {% include /functions/get-link-to-artefact.html myRef=persona.stakeholderRole myTypeString="stakeholderRole"
+                        myIdFormat="prefix" %}
+            <td>{{ artefactLink }}</td>
+
+            <td>tbd.</td>
         </tr>
     {% endfor %}
     </tbody>

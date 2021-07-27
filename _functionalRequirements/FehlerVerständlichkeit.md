@@ -24,8 +24,11 @@ history:
     v4:
         date: 2021-07-16
         comment: New description to match goal and solve todo
+    v5:
+        date: 2021-07-26
+        comment: Changed sytem to divekit
 
 todo:
 ---
 
-Das System muss Fehler von Studierenden in einer so verständlichen und anfängerfreundlichen Art und Weise ausgeben, wie möglich.
+Das DiveKit muss Fehler von Studierenden in einer so verständlichen und anfängerfreundlichen Art und Weise ausgeben, wie möglich.

@@ -1,9 +1,10 @@
 ---
 acronym: python
-type: programmiersprache
+type: systemContextElement
+subtype: programmiersprache
 responsible:
     - mba
-mentionnedInSource:
+source:
     - [Interview, nnProf]
 history:
     v1:

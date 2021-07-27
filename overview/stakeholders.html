@@ -32,32 +32,21 @@ layout: default
         {% assign collection = site.stakeholders | sort: sortField %}
         {% for stakeholder in collection %}
         <tr>
-            {% include /functions/checks/check-generic-aspects.html myArtefact=stakeholder
-                        myErrorString="" myWarningString="" %}
-            {% assign stakeholderRoleRef = stakeholder.stakeholderRole %}
-            {% include /functions/checks/check-stakeholderRole-refs.html myStakeholderRoleRef=stakeholderRoleRef
-                        myAsList=true myPurpose="Stakeholder-Rolle"
-                        myErrorString=errorString myWarningString=warningString %}
-            {% include /functions/checks/check-stakeholder.html myArtefact=stakeholder
-                        myErrorString=errorString myWarningString=warningString %}
+            {% include /functions/checks/check-stakeholder.html myArtefact=stakeholder %}
             {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=stakeholder.todo %}
             <td>{{ iconString }}</td>
 
-            {% include /functions/get-globalid.html myCollection=site.stakeholders
-                    myArtefact=stakeholder myType="stakeholder" %}
+            {% include /functions/get-globalid.html myArtefact=stakeholder %}
             <td><a href="{{ site.url }}{{ stakeholder.url | relative_url }}">{{ globalId }}</a></td>
 
-            {% if stakeholder.subtype == "group" %}
-                {% assign groupString = " (Gruppe)" %}
-            {% else %}
-                {% assign groupString = "" %}
-            {% endif %}
-            <td><a href="{{ site.url }}{{ stakeholder.url | relative_url }}">{{ stakeholder.name }}{{ groupString }}</a></td>
+            {% include /functions/get-artefact-name.html myArtefact=stakeholder %}
+            <td><a href="{{ site.url }}{{ stakeholder.url | relative_url }}">{{ artefactName }}</a></td>
             <td>
                 {% assign linkList = "" | split: ";" %}
                 {% for shr in stakeholder.stakeholderRole %}
-                    {% include /functions/get-link-to-stakeholder-role.html myRoleAcronym=shr withId=false %}
-                    {% assign linkList = linkList | push: stakeholderRoleLink %}
+                    {% include /functions/get-link-to-artefact.html myRef=shr myTypeString="stakeholderRole"
+                            myIdFormat="none" %}
+                    {% assign linkList = linkList | push: artefactLink %}
                 {% endfor %}
                 {% assign linkString = linkList | join: ",<br/>" %}
                 {{ linkString }}

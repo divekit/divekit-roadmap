@@ -1,21 +1,21 @@
----
+    ---
 type: userStory
 acronym: aendernMusterAufgabenGleicheSchwierigkeit
 responsible:
-	- mba
+    - mba
 title: Ändern des Musters um Aufgaben mit gleicher Schwierigkeit zu generieren
-funcionalRequirement: gleicheSchwierigkeit
+functionalRequirement: gleicheSchwierigkeit
 asA:
-	- profBwl
-	- profInf
-	- profMa
-	- dozent
+    - profBwl
+    - profInf
+    - profMa
+    - lehrende
 iWantTo: ändern der Mustervorlage aus dem Aufgaben generiert werden sollen.
 forThisReason: die Mustervorlage ist veraltet
 history:
-	v1:
-		date: 2021-07-22
-		comment: initially created
+    v1:
+        date: 2021-07-22
+        comment: initially created
 todo:
 
 ---

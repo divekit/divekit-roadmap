@@ -5,15 +5,17 @@ responsible:
     - jsp
 title: Barrierefreiheit
 source:
-    - Workshop 6-3-5-No.1
+    - [Workshop, Workshop 6-3-5-No.1, Schwerpunkt Interface No.3]
 history:
     v1:
         date: 2021-07-06
         comment: initially created
+    v2:
+        date: 2021-07-24
+        comment: fix todo
 
 todo:
-    - Quelle an das Format [..., ..., ...] anpassen 
-    - Genauer spezifizieren -> Stichwort Barrierefreiheit
+
 ---
 
 ## Beschreibung
@@ -22,4 +24,4 @@ Um die Barrierefreiheit zu steigern, sollten Farben gegen Symbole ausgetaucht we
 
 ## Begründung
 
-Damit jeder das System nutzen kann, muss eine Barrierefreiheit gewährleistet werden.
+Damit jeder das System nutzen kann, insbesondere Personen, welche eine Farberkrankung haben, muss eine Barrierefreiheit gewährleistet werden.

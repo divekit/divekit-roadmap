@@ -17,9 +17,11 @@ history:
     v2:
         date: 2021-06-17
         comment: changed name and added sub goal
+    v3:
+        date: 2021-07-26
+        comment: updated subgoal links
 
 todo: 
-    - Verlinkungen anpassen
 ---
 
 ## Beschreibung
@@ -28,9 +30,9 @@ Der Entwickler strebt eine verbesserte Nutzung der Sprache an, sowohl grammatika
 
 Dieses Ziel ist ein Oberziel von:
 
-* [Grammatisch richtige Sprache](./spracheGrammatik.md)
-* [Technische Sprache & Relationen](./spracheTechnisch.md)
-* [Optionen für die Sprache](./spracheOptionales.md) 
+* [Grammatisch richtige Sprache](https://divekit.github.io/divekit-roadmap/goals/spracheGrammatik.html)
+* [Technische Sprache & Relationen](https://divekit.github.io/divekit-roadmap/goals/spracheTechnisch.html)
+* [Optionen für die Sprache](https://divekit.github.io/divekit-roadmap/goals/spracheOptionales.html) 
 
 
 ## Begründung

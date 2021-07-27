@@ -20,8 +20,10 @@ todo:
 
 ## Beschreibung
 
-Die Bearbeitung der Aufgaben sollte kompakter und schneller an einem Stück "abarbeitbar" sein.
+Die Bearbeitung der Aufgaben sollten kompakter und schneller an einem Stück "abarbeitbar" sein.
 
 ## Begründung
 
-Das Praktikum ist nur *ein Teil* eines *Moduls*. Das DiveKit bietet nicht viele Notifikationen und interaktive Elemente um schnell zu wissen wie es um die Aufgabenbearbeitung und -kontrolle steht. Das führt zu einer Ungewissheit und Stress über wann und ob die Aufgaben noch manuell korrigiert werden.
+Das Praktikum ist nur *ein Teil* eines *Moduls*. Das DiveKit bietet nicht viele Notifikationen und interaktive Elemente
+um schnell zu wissen wie es um die Aufgabenbearbeitung und -kontrolle steht. Und das wiederrum führt zu Ungewissheit
+und Stress über wann und ob die Aufgaben noch manuell korrigiert werden.

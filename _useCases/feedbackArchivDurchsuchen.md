@@ -5,7 +5,7 @@ responsible:
     - ako
 title: Feedback suchen
 description: Ein Studierender durchsucht das Feedback-Archiv nach ähnlichen Problemen, um gegebenenfalls ähnliche Lösungen oder anders formuliertes Feedback als Inspiration zu nutzen.
-primaryActor: student
+primaryActor: studierende
 secondaryActors: 
     - wmaAutonomousLecturerInf
     - wmaProg
@@ -13,8 +13,7 @@ secondaryActors:
 trigger: Ein Studierender bearbeitet eine Aufgabe und braucht Inspiration.
 precondition: Ein Feedback-Archiv mit einträgen existiert.
 postcondition: Der Studierende kann sich an vergangenen Hilfestellungen orientieren.
-funcionalRequirements: 
-    - FeedbackArchiv
+functionalRequirement: FeedbackArchiv
 history:
     v1:
         date: 2021-07-17
@@ -41,7 +40,3 @@ todo:
 * 3a) Das System findet kein Feedback das den genauen oder einen ähnlichen Begriff enthält
 
 **Andere Nachbedingung**: Studierender kann kein altes Feedback für seine Arbeit verwenden
-
-
-
-

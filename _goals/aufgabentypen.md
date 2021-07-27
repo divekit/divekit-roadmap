@@ -4,12 +4,14 @@ acronym: aufgabentypen
 responsible: 
     - psc
     - ngi
+    - jlü
 title: verschiedene Aufgabentypen sollten zur Verfügung stehen
 source:
     - [interview, mengelen, Minute 00-08-00]
     - [interview, mengelen, Minute 00-25-22]
     - [interview, mengelen, Minute 00-27-00]
     - [Interview, nnWMA2]
+    - [Interview, nnProf3, 00-00-21]
 partOfLargerGoal: 
 history:
     v1:
@@ -21,6 +23,13 @@ history:
     v3:
         date: 2021-07-20
         comment: merged with duplicate goal
+    v4: 
+        date: 2021-07-26
+        comment: add sources
+    v5: 
+        date: 2021-07-26
+        comment: updated subgoal links
+
 ---
 
 ## Beschreibung
@@ -29,15 +38,17 @@ Das Divekit soll die Möglichkeit bieten verschiedene Aufgabentypen erstellen un
 
 Dieses Ziel ist ein Oberziel von:
 
-* [Aufgabentypen im Kontext von DevOps](./aufgabentypenDevOps.md)
-* [Aufgabentyp im Kontext von Fallstudien](./aufgabentypenFallstudien.md)
-* [Aufeinander aufbauende Aufgaben](./aufgabentypenFortlaufend.md)
-* [Individualisierung von Aufgaben](./aufgabentypenIndividual.md)
-* [offene bzw interpretierbare Aufgaben](./aufgabentypenInterpretierbar.md)
-* [Komplexe Aufgaben](./aufgabentypenKomplex.md)
-* [Rechenaufgaben](./aufgabentypenRechnen.md)
-* [Aufgaben mit UML](./aufgabentypenUml.md)
-* [Zuordnungsaufgaben](./aufgabentypenZuordnung.md)
+* [Aufgabentypen im Kontext von DevOps](https://divekit.github.io/divekit-roadmap/goals/aufgabentypenDevOps.html)
+* [Aufgabentyp im Kontext von Fallstudien](https://divekit.github.io/divekit-roadmap/goals/aufgabentypenFallstudien.html)
+* [Aufeinander aufbauende Aufgaben](https://divekit.github.io/divekit-roadmap/goals/aufgabentypenFortlaufend.html)
+* [Individualisierung von Aufgaben](https://divekit.github.io/divekit-roadmap/goals/aufgabentypenIndividual.html)
+* [offene bzw interpretierbare Aufgaben](https://divekit.github.io/divekit-roadmap/goals/aufgabentypenInterpretierbar.html)
+* [Komplexe Aufgaben](https://divekit.github.io/divekit-roadmap/goals/aufgabentypenKomplex.html)
+* [Rechenaufgaben](https://divekit.github.io/divekit-roadmap/goals/aufgabentypenRechen.html)
+* [Aufgaben mit UML](https://divekit.github.io/divekit-roadmap/goals/aufgabentypenUml.html)
+* [Zuordnungsaufgaben](https://divekit.github.io/divekit-roadmap/goals/aufgabentypenZuordnung.html)
+
+
 
 ## Begründung
 

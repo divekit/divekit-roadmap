@@ -1,13 +1,14 @@
 ---
 type: useCaseDiagram
 acronym: barrierefreiheit
-useCases:
-    - barrierefreiheit
 responsible: 
     - jsp
 title: Use Case Diagram Barrierefreiheit
-funcionalRequirement: 
+functionalRequirement: barrierefreiheit
+useCases:
+useCasesDetailedWithScenario:
     - barrierefreiheit
+diagram: ./diagrams/useCaseBarrierefreiheit.png
 history:
     v1:
         date: 2021-07-21
@@ -26,8 +27,5 @@ Abhängig ist der Use Case von der Implementierung in der Software.
 Hierbei kann es beispielsweise Möglichkeiten geben, statt der Farben Symbole anzuzeigen oder Text.
 So etwas könnte konfigurierbar sein. Im weiteren Verlauf des Use Cases wird davon ausgegangen, dass solch eine Funktion existiert.
 
-## Diagram
-
-![darkmode](./diagrams/useCaseBarrierefreiheit.png)
 
 

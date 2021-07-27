@@ -1,13 +1,22 @@
 {% assign artefact = include.myArtefact %}
-{% assign errorString = include.myErrorString %}
-{% assign warningString = include.myWarningString %}
+
+{% assign errorString = "" %}
+{% assign warningString = "" %}
+
+{% comment %}---------- First the generic checks -----------{% endcomment %}
+
+{% include /functions/checks/generic/check-generic-aspects.html myArtefact=artefact
+        myErrorString="" myWarningString="" %}
+{% if artefact.belongsTo %}
+    {% include /functions/checks/generic/check-generic-refs.html myArtefact=artefact
+            myCheckedRef=artefact.belongsTo myCheckedRefType="stakeholderRole" asList=false emptyMeansError=true
+            myPurpose="'belongsTo'" myErrorString=errorString myWarningString=warningString %}
+{% endif %}
 
 {% assign errorList = errorString | split: ";" %}
 {% assign warningList = warningString | split: ";" %}
 
-
 {% comment %} ***** Error Numbers 550 - 569 reserved for Stakeholder **** {% endcomment %}
-
 
 {% comment %}---------- description -----------{% endcomment %}
 {% if artefact.description %}
@@ -37,16 +46,35 @@
 {% endif %}
 
 
-{% comment %}---------- referenced by a stakeholder? -----------{% endcomment %}
-{% include /functions/find-artefacts-referencing-stakeholder-role.html myStakeholderRole=artefact
-        myType="stakeholder" myCollection=site.stakeholders withID=false %}
-
-{% if linksString.size > 0 %}
+{% comment %}---------- referenced by a stakeholder? (only for non-top-level) -----------{% endcomment %}
+{% if artefact.isTopLevel == true %}
 {% else %}
-    {% include /functions/define-message.html ignore=artefact.ignore msgno="w554"
-            msg="Zu dieser Stakeholder-Rolle gibt es keinen Stakeholder!" %}
-    {% assign warningList = errorList | push: out_msg %}
+    {% include /functions/find-artefacts-referencing-stakeholder-role.html myStakeholderRole=artefact
+            myType="stakeholder" myCollection=site.stakeholders withID=false %}
+    {% if linksString.size > 0 %}
+    {% else %}
+        {% include /functions/define-message.html ignore=artefact.ignore msgno="w554"
+                msg="Zu dieser Stakeholder-Rolle gibt es keinen Stakeholder!" %}
+        {% assign warningList = warningList | push: out_msg %}
+    {% endif %}
 {% endif %}
+
+{% comment %}---------- belongsTo/isTopLevel -----------{% endcomment %}
+{% if artefact.belongsTo %}
+    {% if artefact.isTopLevel == true %}
+        {% include /functions/define-message.html ignore=artefact.ignore msgno="e555"
+                msg="Entweder belongsTo: ist gesetzt oder isTopLevel:, beides geht nicht!" %}
+        {% assign errorList = errorList | push: out_msg %}
+    {% endif %}
+{% else %}
+    {% if artefact.isTopLevel == true %}
+    {% else %}
+        {% include /functions/define-message.html ignore=artefact.ignore msgno="e556"
+            msg="Mindestens eins der beiden Felder 'belongsTo:' oder 'isTopLevel:' müssen gesetzt sein!" %}
+        {% assign errorList = errorList | push: out_msg %}
+    {% endif %}
+{% endif %}
+
 
 {% assign errorString = errorList | join: ";" %}
 {% assign warningString = warningList | join: ";" %}

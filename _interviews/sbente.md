@@ -17,13 +17,12 @@ history:
         date: 2021-06-15
         comment: added transkript, fixed page number
 todo: 
-    - Format anpassen
 ---
 ## Interviewleitfaden
-[siehe MA Jann Intveen](./../literatureReferences/intveen.html) s.93 <!-- Link funktioniert nicht -->
+[siehe MA Jann Intveen](https://divekit.github.io/divekit-roadmap/sources/Masterarbeit%20Jann%20Intveen%20final.pdf) s.93
 
 ## Transkript
-[siehe Interviewtranskript mit Prof. Dr. Bente](./../sources/jintveen_MA_sbente_transkript.md)
+[siehe Interviewtranskript mit Prof. Dr. Bente](https://divekit.github.io/divekit-roadmap/sources/jintveen_MA_sbente_transkript.html)
 
 ## Ergebnisprotokoll
 siehe MA Jann Intveen s.128

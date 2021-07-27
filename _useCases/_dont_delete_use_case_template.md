@@ -13,14 +13,13 @@ secondaryActors:
 trigger: Kunde hat einen Schaden gemeldet
 precondition: Gutachter wurde dem Fall zugewiesen
 postcondition: Der Kunde erhält die Nachricht über die Höhe der Schadensbewertung
-funcionalRequirements: 
-    - 
+functionalRequirement:  
 history:
     v1:
         date: 2021-06-02
         comment: initially created
 
-todo: Auf korrektes Gendern achten
+todo:
 ---
 
 

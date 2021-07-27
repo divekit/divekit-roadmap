@@ -1,7 +1,7 @@
 ---
 type: persona
 acronym: aernst
-stakeholderRole: profInf
+stakeholderRole: lehrende
 responsible: 
     - ako
 name: Albert Ernst
@@ -19,9 +19,11 @@ history:
     v2:
         date: 2021-07-16
         comment: fixed timestamp
+    v3:
+        date: 2021-07-26
+        comment: changed stakeholderRole
 
 todo: 
-    - stakeholderRole passend?
 ---
 
 ## Beschreibung

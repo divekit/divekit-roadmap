@@ -1,6 +1,7 @@
 ---
 acronym: wmaProg
 type: stakeholderRole
+belongsTo: lehrende
 responsible: 
     - hbu
     - fkr
@@ -14,9 +15,10 @@ history:
     v2:
         date: 2021-05-28
         comment: added Rollenbeschreibung    
+    v3: 
+        date: 2021-07-27
+        comment: assigned to top-level role "lehrende" (sbe)             
 todo: 
-    - Name sollte den Lehrbezug deutlicher machen (es gibt auch Drittmittel-WMAs) (SB)
-    - bitte die Abgrenzung zu wmaAutonomousLecturerInf mal anschauen - wmaAutonomousLecturerInf ist sehr ähnlich, macht aber (auch) SELBSTSTÄNDIGE Lehre. Ist das dieselbe Rolle? Wie ist das in Artefakten wie z.B. Use Cases? (SB)
 ---
 
 ## Rollenbeschreibung
@@ -31,6 +33,7 @@ Der wmaProg muss in seinem täglichen Arbeitsablauf grundsätzlich verschiedene 
 * Klausuren korrigieren
 * Noten an das Prüfungsamt übermitteln
 * Listen mit Studenten erstellen, die das Praktikum oder einen Meilenstein bestanden haben
+* selbstständige Lehre leiten (z.B. Vorlesung)
 
 
 

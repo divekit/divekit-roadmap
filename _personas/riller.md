@@ -11,10 +11,10 @@ relationshipToProject: >
     Professor mit Interesse das System in seinen Lehrveranstaltungen zu verwenden. Interessiert an erweiterten Kontaktmöglichkeiten zwischen Studierenden sowie Studierenden/Lehrenden und einer Möglichkeit nicht-textuelle Aufgabentypen (z.B. UML-/Sequenzdiagramme) stellen zu können. 
     
 source:
-    - [interview, nnProf1, Minute 00:04:56]
-    - [interview, nnProf1, Minute 00:06:02]
-    - [interview, nnProf1, Minute 00:07:19]
-    - [interview, nnProf1, Minute 00:23:32]
+    - [interview, nnProf1, Minute 00-04-56]
+    - [interview, nnProf1, Minute 00-06-02]
+    - [interview, nnProf1, Minute 00-07-19]
+    - [interview, nnProf1, Minute 00-23-32]
 
 history:
     v1:

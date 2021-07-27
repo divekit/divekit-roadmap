@@ -2,10 +2,20 @@
 layout: default
 ---
 
-<h1>Scenarios</h1>
+<h1>Szenarien</h1>
 
 <p>
-    tbd Erklärung
+    <b>Szenarien</b> beschreiben Situationen, in denen Menschen mit einem System interagieren (Handlungsstrang).
+    Diese Situationen haben einen klar definierten Kontext. Szenarien dienen einerseits zur informellen
+    Erfassung von Anforderungen an ein System, und andererseits zur Evaluation eines Systems bzgl.
+    formalisierter Ziele und Anforderungen.
+</p>
+<p>
+    Szenarien orientieren sich an den zuvor erstellten (Personas)[./personas.html]. Sie können sich auf
+    die aktuelle Situation beziehen (IST-Szenario) oder auf die zukünftige (verbesserte) Situation
+    (SOLL-Szenario). Szenarien fokussieren sich dabei auf die Aktivitäten der Menschen, und weniger auf
+    konkrete Interaktionen. Zudem beinhalten diese die Nutzungsumgebung der Anwendung oder des Systems,
+    die Nutzungsdauer, die Unterbrechungswahrscheinlichkeit und die Nutzung anderer Anwendungen.
 </p>
 
 
@@ -23,17 +33,15 @@ layout: default
     {% assign collection = site.scenarios | sort: sortField %}
     {% for scenario in collection %}
         <tr>
-            {% include /functions/checks/check-generic-aspects.html myArtefact=scenario
-                    myErrorString="" myWarningString="" %}
-            {% include /functions/get-check-icon.html errors=errorString warnings=warningString
-                    todos=scenario.todo %}
+            {% include /functions/checks/check-scenario.html myArtefact=scenario %}
+            {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=scenario.todo %}
             <td>{{ iconString }}</td>
 
-            {% include /functions/get-globalid.html myCollection=site.scenarios
-                    myArtefact=scenario myType="scenario" %}
+            {% include /functions/get-globalid.html myArtefact=scenario %}
             <td><a href="{{ site.url }}{{ scenario.url | relative_url }}">{{ globalId }}</a></td>
 
-            <td><a href="{{ site.url }}{{ scenario.url | relative_url }}">{{ scenario.title }}</a></td>
+            {% include /functions/get-artefact-name.html myArtefact=scenario %}
+            <td><a href="{{ site.url }}{{ scenario.url | relative_url }}">{{ artefactName }}</a></td>
         </tr>
     {% endfor %}
     </tbody>

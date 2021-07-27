@@ -1,9 +1,10 @@
 ---
 acronym: InfModule
-type: process
+type: systemContextElement
+subtype: process
 responsible:
     - psc
-mentionnedInSource: 
+source:
     - [workshop, waltDisney, Punkt 11.]   
 history:
     v1:

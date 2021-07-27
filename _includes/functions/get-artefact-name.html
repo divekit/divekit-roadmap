@@ -1,0 +1,51 @@
+{% assign localArtefact = include.myArtefact %}
+{% assign idFormat = include.myIdFormat %}
+
+{% assign localArtefactName = "???" %}
+{% if localArtefact.type %}
+    {% assign type = localArtefact.type %}
+    {% assign localArtefactType = site.data.metadata[type] %}
+    {% assign sortField = localArtefactType.sortField %}
+    {% assign localArtefactName = localArtefact[sortField] %}
+
+    {% if type == "stakeholder" %}
+        {% if localArtefact.subtype == "group" %}
+            {% assign localArtefactName = localArtefactName | append: " (Gruppe)" %}
+        {% endif %}
+    {% elsif type == "interview" and localArtefact.stakeholder %}
+        {% assign localStakeholderRef = localArtefact.stakeholder %}
+        {% assign localStakeholderList = site.stakeholders | where: "acronym", localStakeholderRef %}
+        {% if localStakeholderList.size > 0 %}
+            {% assign localStakeholder = localStakeholderList | first %}
+            {% assign interviewDate = localArtefact.date | date: "%d.%m.%Y" %}
+            {% assign localArtefactName = "Interview mit »" | append: localStakeholder.name |
+                            append: "« (" | append: interviewDate | append: ")" %}
+        {% endif %}
+    {% elsif type == "useCaseDiagram" and localArtefact.functionalRequirement %}
+        {% assign localFunctionalRequirementRef = localArtefact.functionalRequirement %}
+        {% assign localFunctionalRequirementList = site.functionalRequirements |
+                where: "acronym", localFunctionalRequirementRef %}
+        {% if localFunctionalRequirementList.size > 0 %}
+            {% assign localFunctionalRequirement = localFunctionalRequirementList | first %}
+            {% assign localArtefactName = "Use-Case-Diagramm zu funktionaler Anforderung »" |
+                append: localFunctionalRequirement.title | append: "«" %}
+        {% endif %}
+    {% endif %}
+
+    {% if idFormat == "prefix" or idFormat == "postfix" or idFormat == "postfixWithBrackets" or idFormat == "onlyId" %}
+        {% include /functions/get-globalid.html myArtefact=localArtefact %}
+        {% if idFormat == "prefix" %}
+            {% assign localArtefactName = globalId | append: ": " | append: localArtefactName %}
+        {% elsif idFormat == "postfix" %}
+            {% assign localArtefactName = localArtefactName | append: " (" | append: globalId | append: ")" %}
+        {% elsif idFormat == "postfixWithBrackets" %}
+            {% assign localArtefactName = "»" | append: localArtefactName | append: "« (" |
+                    append: globalId | append: ")" %}
+        {% elsif idFormat == "onlyId" %}
+            {% assign localArtefactName = globalId %}
+        {% endif %}
+    {% endif %}
+{% else %}
+    {% assign localArtefactName = localArtefact.title %}
+{% endif %}
+{% assign artefactName = localArtefactName %}

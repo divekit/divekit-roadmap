@@ -21,6 +21,9 @@ history:
     v4:
        data: 2021-06-17
        comment: Ergebnisprotokoll aus Transkript ergänzt
+    v5:
+       data: 2021-07-23
+       comment: Fix interner Anker
 todo:
 ---
 ## Interviewleitfaden
@@ -169,7 +172,7 @@ Die ist schwierig zu sagen, da der Vergleich fehlt.
 
 #### (4) Was möchten Sie im Kontext der Aufgabenstellungen automatisieren?
 
-siehe [**Dimensionen** Frage (5)](#dimension-aufgaben-und-aufgabenformen)
+siehe [**Dimensionen** Frage (5)](#dimension---aufgaben-und-aufgabenformen)
 
 ### Dimension - Individualisierung von Aufgaben
 

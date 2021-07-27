@@ -1,6 +1,17 @@
 {% assign artefact = include.myArtefact %}
-{% assign errorString = include.myErrorString %}
-{% assign warningString = include.myWarningString %}
+
+{% assign errorString = "" %}
+{% assign warningString = "" %}
+
+{% comment %}---------- First the generic checks -----------{% endcomment %}
+
+{% include /functions/checks/generic/check-generic-aspects.html myArtefact=artefact
+		myErrorString="" myWarningString="" %}
+{% include /functions/checks/generic/check-generic-refs.html myArtefact=artefact myCheckedRef=artefact.goals
+		myCheckedRefType="goal" asList=true emptyMeansError=true
+		myPurpose="Ziel-Referenz" myErrorString=errorString myWarningString=warningString %}
+{% include /functions/checks/generic/check-sources.html myArtefact=artefact
+		myErrorString=errorString myWarningString=warningString %}
 
 {% assign errorList = errorString | split: ";" %}
 {% assign warningList = warningString | split: ";" %}

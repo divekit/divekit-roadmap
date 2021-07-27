@@ -2,16 +2,16 @@
 type: userStory
 acronym: RueckfrageBeantworten
 responsible:
-	- aha
+    - aha
 title: User Story Rückfrage beantworten
-funcionalRequirement: RueckfragenZuAufgaben
+functionalRequirement: RueckfragenZuAufgaben
 asA: wmaAutonomousLecturerInf 
 iWantTo: Rückfragen meiner Studenten zu ihren Aufgaben beantworten
 forThisReason: die Studenten ihre Aufgaben korrekt und zeitnah lösen können.
 history:
-	v1:
-		date: 2021-07-19
-		comment: initially created
+    v1:
+        date: 2021-07-19
+        comment: initially created
 
 todo:
 ---

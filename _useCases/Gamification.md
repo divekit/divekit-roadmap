@@ -5,15 +5,14 @@ responsible:
     - psc
 title: 
 description: Ein Student wurd durch Gamification motiviert
-primaryActor: student
+primaryActor: studierende
 secondaryActors:
     - wmaProg
     - wmaDev
 trigger: Studierender arbeitet im DiveKit
 precondition: Studierender hat Zugriff auf seine Aufgaben
 postcondition: Studierender ist motiviert die Aufgabe fertig zu stellen bzw. die nächste Aufgabe anzufangen
-funcionalRequirements: 
-    - MotivationDurchGamification
+functionalRequirement: MotivationDurchGamification
 history:
     v1:
         date: 2021-07-23

@@ -2,11 +2,11 @@
 type: userStory
 acronym: aktivierungDarkmode
 responsible:
-	- ngi
+    - ngi
 title: Aktivierung des Darkmodes
-funcionalRequirement: Darkmode
+functionalRequirement: Darkmode
 asA: 
-    - profBwl
+    - profBwl 
     - profInf
     - profMa
     - student
@@ -16,11 +16,11 @@ asA:
 iWantTo: die visuellen Einstellungen ändern und den Darkmode aktivieren
 forThisReason: damit ich eine augenschonendere Ansicht habe
 history:
-	v1:
-		date: 2021-07-20
-		comment: initially created
+    v1:
+        date: 2021-07-20
+        comment: initially created
 todo:
-	
+    
 ---
 
 ## User Story

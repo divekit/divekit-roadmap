@@ -5,19 +5,17 @@ layout: default
 <h1>Use Cases</h1>
 
 <p>
-    tbd. gezielt auf UCD
-
-    Ein <b>Use Case</b> bündelt alle möglichen Szenarien, die eintreten können, wenn ein Akteur versucht,
-    mit Hilfe des betrachteten Systems ein bestimmtes fachliches Ziel zu erreichen. Er beschreibt,
-    was inhaltlich beim Versuch der Zielerreichung passieren kann und abstrahiert von konkreten technischen Lösungen.
+    Ein <b>Use-Case-Diagramm</b> nutzt UML-Notation, um alle Use Cases zu einem bestimmten Aspekt, beispielsweise
+    einer funktionalen Anforderungen, intuitiv verständlich in einer graphischen Übersicht darzustellen.
 </p>
-
 
 
 <table>
     <thead>
     <tr>
-        <th width="100%">Titel</th>
+        <th width="5%"></th>
+        <th width="10%">ID</th>
+        <th width="40%">Titel</th>
     </tr>
     </thead>
     <tbody>
@@ -25,7 +23,15 @@ layout: default
     {% assign collection = site.useCaseDiagrams | sort: sortField %}
     {% for useCaseDiagram in collection %}
     <tr>
-        <td><a href="{{ site.url }}{{ useCaseDiagram.url | relative_url }}">{{ useCaseDiagram.title }}</a></td>
+        {% include /functions/checks/check-useCaseDiagram.html myArtefact=useCaseDiagram %}
+        {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=useCaseDiagram.todo %}
+        <td>{{ iconString }}</td>
+
+        {% include /functions/get-globalid.html myArtefact=useCaseDiagram %}
+        <td><a href="{{ site.url }}{{ stakeholder.url | relative_url }}">{{ globalId }}</a></td>
+
+        {% include /functions/get-artefact-name.html myArtefact=useCaseDiagram %}
+        <td><a href="{{ site.url }}{{ useCaseDiagram.url | relative_url }}">{{ artefactName }}</a></td>
     </tr>
     {% endfor %}
     </tbody>

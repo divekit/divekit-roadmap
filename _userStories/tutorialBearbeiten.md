@@ -2,16 +2,16 @@
 type: userStory
 acronym: tutorialBearbeiten
 responsible:
-	- duz
+    - duz
 title: Bearbeiten eines Tutorials
-funcionalRequirement: SchnellerLernprozess
+functionalRequirement: SchnellerLernprozess
 asA: wmaDev
 iWantTo: Bestehende Tutorials im System bearbeiten
 forThisReason: damit die Nutzer:innen (Lehrende) auf aktuelle und fehlerfreie Anleitungen zurückgreifen können
 history:
-	v1:
-		date: 2021-07-21
-		comment: initially created
+    v1:
+        date: 2021-07-21
+        comment: initially created
 todo:
 ---
 

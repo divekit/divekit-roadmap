@@ -16,8 +16,11 @@ history:
     v1:
         date: 2021-07-12
         comment: initially created
+    v2:
+        date: 2021-07-26
+        comment: changed system name
 
 todo:
 ---
 
-Das System soll den Nutzern die Möglichkeit bieten Aufgaben in Gruppen zu bearbeiten.
+Das DiveKit soll den Nutzern die Möglichkeit bieten Aufgaben in Gruppen zu bearbeiten.

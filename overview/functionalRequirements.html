@@ -21,37 +21,43 @@ layout: default
     <thead>
     <tr>
         <th width="5%"></th>
-        <th width="10%">ID</th>
+        <th width="15%">ID</th>
         <th width="25%">Name</th>
-        <th width="25%">Zahlt ein auf Ziel(e)</th>
-        <th width="10%">Implementierungs-Status</th>
-        <th width="10%">Kano-Typ</th>
-        <th width="10%" style="text-align:center !important;">Punkte aus Vorpriorisierung</th>
+        <th width="15%">Zahlt ein auf Ziel(e)</th>
+        <th width="8%">Implementierungs-Status</th>
+        <th width="8%">Kano-Typ</th>
+        <th width="8%" style="text-align:center !important;">Punkte aus Vorpriorisierung</th>
     </tr>
     </thead>
     <tbody>
         {% assign functionalRequirements = site.functionalRequirements | sort: "prefilterPriorizationPoints" | reverse %}
         {% for functionalRequirement in functionalRequirements %}
         <tr>
-            {% include /functions/checks/check-generic-aspects.html myArtefact=functionalRequirement
-                        myErrorString="" myWarningString="" %}
-            {% include /functions/checks/check-goal-refs.html myArtefact=functionalRequirement
-                        myErrorString=errorString myWarningString=warningString %}
-            {% include /functions/checks/check-functionalRequirement.html myArtefact=functionalRequirement
-                        myErrorString=errorString myWarningString=warningString %}
-            {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=functionalRequirement.todo %}
+            {% include /functions/checks/check-functionalRequirement.html myArtefact=functionalRequirement %}
+            {% include /functions/get-check-icon.html errors=errorString warnings=warningString
+                    todos=functionalRequirement.todo %}
             <td>{{ iconString }}</td>
 
-            {% include /functions/get-globalid.html myCollection=site.functionalRequirements
-                    myArtefact=functionalRequirement myType="functionalRequirement" %}
+            {% include /functions/get-globalid.html myArtefact=functionalRequirement  %}
             <td><a href="{{ site.url }}{{ functionalRequirement.url | relative_url }}">{{ globalId }}</a></td>
-            <td><a href="{{ site.url }}{{ functionalRequirement.url | relative_url }}">{{ functionalRequirement.title }}</a></td>
 
-            <td>{% include /functions/print-goalrefs-as-id-with-links.html myArtefact=functionalRequirement %}</td>
+            {% include /functions/get-artefact-name.html myArtefact=functionalRequirement %}
+            <td><a href="{{ site.url }}{{ functionalRequirement.url | relative_url }}">{{ artefactName }}</a></td>
+
+            {% assign goalIdList = "" | split: ";" %}
+            {% if functionalRequirement.goals %}
+                {% for goalRef in functionalRequirement.goals %}
+                    {% include /functions/get-link-to-artefact.html myRef=goalRef myTypeString="goal"
+                            myIdFormat="onlyId" %}
+                    {% assign goalIdList = goalIdList | push: artefactLink %}
+                {% endfor %}
+            {% endif %}
+            {% assign goalIdString = goalIdList | join: ", " %}
+            <td>{{ goalIdString }}</td>
 
             {% include /functions/get-implementation-status.html my_requirement=functionalRequirement %}
             <td>{{ implementationStatus }}</td>
-            {% include /functions/get-kano-type.html my_requirement=functionalRequirement %}
+            {% include /functions/get-kano-type.html myRequirement=functionalRequirement %}
             <td>{{ kanoType }}</td>
             <td>{{ functionalRequirement.prefilterPriorizationPoints }}</td>
         </tr>

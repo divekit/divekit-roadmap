@@ -21,9 +21,12 @@ history:
     v3:
         date: 2021-07-03
         comment: added source
+    v4: 
+        date: 2021-07-26
+        comment: added subgoal links
+
 
 todo: 
-    - Verlinkung der Subziele anpassen
     - Begründung an die neuen Subgoals anpassen
 ---
 
@@ -32,14 +35,14 @@ todo:
 Den Studierenden sollen moderne, state-of-the-art Programmiertechniken näher gebracht werden.
 
 Dieses Ziel ist ein Oberziel von:
- * [Modernes Coding IDE](./mordernIDE.md)
- * [Modernes Coding Projektmanagement](./modernPM.md)
- * [Modernes Coding Versionierung](./modernVersionierung.md)
- * [Modernes Coding Formale Notation](./mordernFormaleNotation.md)
- * [Modernes Coding Programmiersprachen](./modernProgSprachen.md)
- * [Modernes Coding nachhaltiger Code](./modernNachhaltig.md)
- * [Modernes Coding Agilität](./modernesCodingAgilität.md)
- * [Modernes Coding Programmierpraktiken](./modernesCodingPraktiken.md)
+ * [Modernes Coding IDE](https://divekit.github.io/divekit-roadmap/goals/modernIDE.html)
+ * [Modernes Coding Projektmanagement](https://divekit.github.io/divekit-roadmap/goals/modernPM.html)
+ * [Modernes Coding Versionierung](https://divekit.github.io/divekit-roadmap/goals/modernVersionierung.html)
+ * [Modernes Coding Formale Notation](https://divekit.github.io/divekit-roadmap/goals/modernFormaleNotation.html)
+ * [Modernes Coding Programmiersprachen](https://divekit.github.io/divekit-roadmap/goals/modernProgSprachen.html)
+ * [Modernes Coding nachhaltiger Code](https://divekit.github.io/divekit-roadmap/goals/modernNachhaltig.html)
+ * [Modernes Coding Agilität](https://divekit.github.io/divekit-roadmap/goals/modernAgilit%C3%A4t.html)
+ * [Modernes Coding Programmierpraktiken](https://divekit.github.io/divekit-roadmap/goals/modernPraktiken.html)
 
 
 ## Begründung
@@ -56,3 +59,5 @@ Darüber hinaus werden noch fortgeschrittene Programmieraspekte erwähnt, die eb
 * Bau von visuellen Oberflächen
 * Einbinden von Libraries
 * Verwendung des Debuggers
+
+Neben den Hardskills sollen auch Softskills gefördert werden.

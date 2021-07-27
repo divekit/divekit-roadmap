@@ -1,7 +1,7 @@
 ---
 type: persona
 acronym: evdlinden
-stakeholderRole: student
+stakeholderRole: studentInf
 responsible: 
     - kru
 name: Emilia van Linden
@@ -28,7 +28,9 @@ history:
     v5:
         date: 2021-07-16
         comment: fixed bad grammar and many typos
-
+    v6:
+        date: 2021-07-27
+        comment: changed stakeholderRole to studentInf (sbe)
 
 todo:
 ---

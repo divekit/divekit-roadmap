@@ -2,19 +2,19 @@
 type: userStory
 acronym: brandingDesignStandardansicht
 responsible:
-	- ngi
+    - ngi
 title: Branding des Designs der Standardansicht
-funcionalRequirement: IndividuellesDesign
+functionalRequirement: IndividuellesDesign
 asA: 
     - anwenderExtern
 iWantTo: das Design der Standardansicht ändern
 forThisReason: damit die graphische Oberfläche des Divekits an die Farben meiner Hochschule angepasst sind
 history:
-	v1:
-		date: 2021-07-22
-		comment: initially created
+    v1:
+        date: 2021-07-22
+        comment: initially created
 todo:
-	
+    
 ---
 
 ## User Story

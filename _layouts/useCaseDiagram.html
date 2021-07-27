@@ -2,20 +2,40 @@
 layout: default
 ---
 
-{% include /functions/get-globalid.html
-        myCollection=site.useCaseDiagrams myArtefact=page myType="useCaseDiagram" %}
-<h1>Use-Case-Diagramm »{{ page.title }}« ({{ globalId }})</h1>
+{% include /functions/get-artefact-name.html myArtefact=page myIdFormat="postfix" %}
+<h1>{{ artefactName }}</h1>
 
 <dl>
     <dt>Autor(en)</dt>
-    {% include /functions/resolve-names.html my_responsible=page.responsible %}
+    {% include /functions/resolve-names.html myResponsible=page.responsible %}
     <dd>{{ responsibleString }}</dd>
+
+    <dt>gehört zu funktionalem Requirement</dt>
+    {% include /functions/get-link-to-artefact.html myRef=page.functionalRequirement
+            myTypeString="functionalRequirement" myIdFormat="prefix" %}
+    <dd><a href="{{ site.url }}{{ useCase.url | relative_url }}">{{ artefactLink }}</a></dd>
 
     {% include /functions/print-history.html myArtefact=page %}
 
-    {% include /functions/checks/check-generic-aspects.html myArtefact=page myErrorString="" myWarningString="" %}
+    {% include /functions/checks/check-useCaseDiagram.html myArtefact=page %}
     {% include /functions/print-detailed-check-messages.html errors=errorString warnings=warningString todos=page.todo %}
 </dl>
 
+<h2>Diagramm</h2>
+
+<p>
+    Folgende Use Cases sind im nachfolgenden Diagramm dargestellt. Wenn es zu einem Use Case eine ausführliche
+    Version mit Szenarien gibt, so ist diese verlinkt.
+</p>
+<ul>
+    {% for ucRef in page.useCasesDetailedWithScenario %}
+        {% include /functions/get-link-to-artefact.html myRef=ucRed myTypeString="useCase" myIdFormat="postfix" %}
+        <li>{{ artefactLink }}</li>
+    {% endfor %}
+    {% for ucRef in page.useCases %}
+        <li>{{ ucRef }}</li>
+    {% endfor %}
+</ul>
+<img src="{{ page.diagram }}" />
 
 {{ page.content }}

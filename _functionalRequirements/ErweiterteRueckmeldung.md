@@ -21,10 +21,14 @@ history:
     v3:
         date: 2021-07-16
         comment: Modified responsibles as discussed
+    v4:
+        date: 2021-07-26
+        comment: Changed sytem to divekit
+
 todo:
 ---
 
-Das System sollte in der Lage sein eine visuelle und/oder textuelle Rückmeldung nach der Prüfung der Tests zu geben.
+Das DiveKit sollte in der Lage sein eine visuelle und/oder textuelle Rückmeldung nach der Prüfung der Tests zu geben.
 
 ## Begründung
 

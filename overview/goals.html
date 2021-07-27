@@ -14,18 +14,26 @@ layout: default
 <table>
     <thead>
     <tr>
-
-        <th width="100%">Beschreibung</th>
-
+        <th width="5%"></th>
+        <th width="10%">ID</th>
+        <th width="60%">Titel</th>
     </tr>
     </thead>
     <tbody>
         {% assign sortField = site.data.metadata["goal"].sortField %}
         {% assign collection = site.goals | sort: sortField %}
         {% for goal in collection %}
-        <tr>
-            <td><a href="{{ site.url }}{{ goal.url | relative_url }}">{{ goal.title }}</a></td>
-        </tr>
+            <tr>
+                {% include /functions/checks/check-goal.html myArtefact=goal %}
+                {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=goal.todo %}
+                <td>{{ iconString }}</td>
+
+                {% include /functions/get-globalid.html myArtefact=goal %}
+                <td><a href="{{ site.url }}{{ goal.url | relative_url }}">{{ globalId }}</a></td>
+
+                {% include /functions/get-artefact-name.html myArtefact=goal %}
+                <td><a href="{{ site.url }}{{ goal.url | relative_url }}">{{ artefactName }}</a></td>
+            </tr>
         {% endfor %}
     </tbody>
 </table>

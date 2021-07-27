@@ -30,5 +30,6 @@ Das DiveKit muss ein origin git repository mit Aufgaben für jeden Studenten ind
 ## Begründung
 
 Diese funktionale Anforderung bietet Studenten die Möglichkeit, die Aufgaben der
-Meilensteine (die in einem Repo sein können) einzelnd zu bearbeiten.
+Meilensteine (die in einem Repo sein können) einzelnd zu bearbeiten. Dieser Schritt muss automatisiert sein,
+damit nicht manuell eine Vielzahl von Repos geklont werden muss.
 

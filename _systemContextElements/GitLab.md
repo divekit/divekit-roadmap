@@ -1,16 +1,17 @@
 ---
 acronym: gitlab
-type: itsystem 
+type: systemContextElement
+subtype: itsystem 
 responsible:
     - kru
     - ako
     - duz
     - jlü
-mentionnedInSource:
+source:
     - [interview, jintveen, Minute 00-26-21]
     - [interview, jintveen, Minute 00-28-03]
     - [interview, sbente, Minute 00-00-16]
-    - [Interview, nnProf3]
+    - [Interview, nnProf3, 00-06-49]
 history:
     v1:
         date: 2021-06-17
@@ -24,9 +25,13 @@ history:
     v4:
         date: 2021-07-02
         comment: added source and todo
+    v5:
+        date: 2021-07-26
+        comment: added timestamp
 
+ignore:
+    -w005
 todo:
-    - Bitte Timestamp ergänzen!
 ---
 
 ## Erläuterung

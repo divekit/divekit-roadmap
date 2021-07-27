@@ -5,14 +5,13 @@ responsible:
     - cpo
 title: Aufgabe testen
 description: Ein Student lässt eine Aufgabe auf Richtigkeit prüfen
-primaryActor: student (stakeholderRole)
+primaryActor: studierende
 secondaryActors:
-    - wmaProg (stakeholderRole) 
+    - wmaProg 
 trigger: Student hat seine Aufgabe erledigt, und möchte sie testen lassen
 precondition: Student sein Ergebnisse im Divekit eingetragen
 postcondition: Der Student erhält ein Ergbnis oder eine Fehlermeldung
-funcionalRequirement: 
-    - FehlermeldungAussagekraeftig
+functionalRequirement: FehlermeldungAussagekraeftig
 history:
     v1:
         date: 2021-19-07

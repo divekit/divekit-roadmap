@@ -2,14 +2,13 @@
 layout: default
 ---
 
-{% include /functions/get-globalid.html
-        myCollection=site.reviews myArtefact=page myType="review" %}
-<h1>QS-Review »{{ page.referencedType }}« ({{ globalId }})</h1>
+{% include /functions/get-artefact-name.html myArtefact=page myIdFormat="postfixWithBrackets" %}
+<h1>Formales Review {{ artefactName }}</h1>
 
 <dl>
     {% include /functions/print-history.html myArtefact=page %}
 
-    {% include /functions/checks/check-generic-aspects.html myArtefact=page myErrorString="" myWarningString="" %}
+    {% include /functions/checks/check-review.html myArtefact=page %}
     {% include /functions/print-detailed-check-messages.html errors=errorString warnings=warningString todos=page.todo %}
 </dl>
 

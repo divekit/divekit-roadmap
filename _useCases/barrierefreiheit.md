@@ -17,8 +17,7 @@ secondaryActors:
 trigger: Der User ruft die Einstellung für Barrierefreiheit auf
 precondition: Das System muss die Funktion anbieten und die visuelle Änderung vornehmen können
 postcondition: Farben sind aus dem System verschwunden und werden durch Symbole/Text ersetzt
-funcionalRequirements: 
-    - Barrierefreiheit
+functionalRequirement: Barrierefreiheit
 history:
     v1:
         date: 2021-07-21

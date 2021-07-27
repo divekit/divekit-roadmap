@@ -4,7 +4,7 @@ acronym: kaffalterbach
 title: Abgabe von Aufgaben im Modul
 persona: kaffalterbach
 scenarioTypes: 
-    - main
+    - negative
 responsible: 
     - jsp
 source: 
@@ -12,17 +12,23 @@ history:
     v1:
         date: 2021-06-16
         comment: initially created
+    v2:
+        date: 2021-07-25
+        comment: fix todos and add review points
 todo: 
-    - genauer beschreiben?
-    - genauere ScenarioTypes
 ---
 
 ## Beschreibung
 
 Kevin hat an diesem Tag (Sonntag) ein wichtiges Polo-Turnier und muss jedoch vorher erst seine Aufgaben für ein Modul abschließen.
-Durch seine Komilitonen weiß er, das er sofort Feedback bekommt, wenn er die Abgaben macht. 
+Durch seine Kommilitonen weiß er, dass er sofort Feedback bekommt, wenn er die Abgaben macht. 
 Nachdem Kevin seine Abgabe getätigt hat, schaut er sich auf der entsprechenden Seite die Ergebnisse an.
 
-Kevin sieht einige erfolgreiche und fehlgeschagenen Tests. Ein genaueres Feerback was falsch am Test ist gibt es nicht. 
-Bei einigen Tests ist ein vermerk, dass diese manuell getestet werdne müssen, jedoch nicht wann dies ungefähr wird.
-Auf dem bereitgestellten Discord-Server findet sich auch kein Betreuer, da Wochenende ist.
+Kevin sieht einige erfolgreiche und fehlgeschlagenen Tests. Ein genaueres Feedback was falsch am Test ist, gibt es nicht. 
+Bei einigen Tests ist ein Vermerk, dass diese manuell getestet werden müssen, jedoch nicht in welchem Zeitfenster dies geschieht.
+Auf dem bereitgestellten Discord-Server findet sich auch kein Betreuer, da Wochenende ist. Seine Kommilitonen haben ihm gesagt,
+dass die Tests alle an einem Tag gemacht werden können und einfach waren. Er hat das Gefühl, dass er schwere Aufgaben bekommen hat,
+weil der Dozent mal für seinen Vater gearbeitet hat, aber gekündigt wurde, und weil er eine Zwischenprüfung mit ach und krach bestanden hatte.
+
+Kevin versucht seine Kommilitonen zu erreichen, stellt aber schnell fest, dass keiner die identischen Aufgaben wie er hat, da es
+sich um individuelle Aufgaben handelt.

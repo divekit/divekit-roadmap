@@ -5,7 +5,7 @@ responsible:
     - mwi
 title: Ausführliches Feedback
 description: Eine studierende Person holt ausführliches Feedback zu einer Aufgabe ein.
-primaryActor: student
+primaryActor: studierende
 secondaryActors:
     - profBwl
     - profInf
@@ -15,8 +15,7 @@ secondaryActors:
 trigger: Die studierende Person hat eine Lösung zu einer Aufgabe eingetragen.
 precondition: Die studierende Person hat die Aufgabe bearbeitet.
 postcondition: Die studierende Person erhält ausführliches Feedback zur abgegebenen Lösung unabhängig davon, ob sie korrekt gelöst wurde oder fehlerhaft ist.
-funcionalRequirements:
-    - AllgemeinesFeedback
+functionalRequirement: AllgemeinesFeedback
 history:
     v1:
         date: 2021-07-22

@@ -1,0 +1,21 @@
+{% assign localSystemContextElement = include.mySystemContextElement %}
+
+{% assign subTypeString = "-" %}
+
+{% if localSystemContextElement.subtype %}
+	{% if localSystemContextElement.subtype == "itsystem" %}
+		{% assign subTypeString = "IT-System" %}
+	{% elsif localSystemContextElement.subtype == "process" %}
+		{% assign subTypeString = "Prozess" %}
+	{% elsif localSystemContextElement.subtype == "regulation" %}
+		{% assign subTypeString = "Gesetz / Standard / Norm" %}
+	{% elsif localSystemContextElement.subtype == "event" %}
+		{% assign subTypeString = "Ereignis" %}
+	{% elsif localSystemContextElement.subtype == "document" %}
+		{% assign subTypeString = "Dokument" %}
+	{% elsif localSystemContextElement.subtype == "domainElse" %}
+		{% assign subTypeString = "Fachdomänen-Begriff" %}
+	{% else %}
+		{% assign subTypeString = "???" %}
+	{% endif %}
+{% endif %}

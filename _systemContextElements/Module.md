@@ -1,9 +1,10 @@
 ---
 acronym: Module
-type: process
+type: systemContextElement
+subtype: process
 responsible:
     - psc
-mentionnedInSource: 
+source:
     - [Interview, mengelen, Minute 00-01-01] 
 history:
     v1:

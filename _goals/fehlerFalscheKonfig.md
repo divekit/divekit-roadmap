@@ -5,22 +5,25 @@ responsible:
     - jsp
 title: Fehlerhafte Konfiguration von Umgebungseinstellungen
 source:
-    - Workshop 6-3-5-No.2
+    - [Workshop, Workshop 6-3-5-No.2, Schwerpunkt Technik No.1]
 partOfLargerGoal: fehler
 history:
     v1:
         date: 2021-07-05
         comment: initially created
+    v2:
+        date: 2021-07-24
+        comment: fix todo
 
 todo:
-    - Quelle an das Format [..., ..., ...] anpassen
-    - Rechtscheib- und Grammatikfehler beheben  
+
 ---
 
 ## Beschreibung
 
-Bei Änderung der Umgebungseinstellungen (om.xml) soll eine aussagekräftige Fehlermeldung seitens Server erscheinen. Ebenfalls Soll es ein Tutorial zum Zurücksetzen geben.
+Bei einer Änderung der Umgebungseinstellungen (om.xml) soll eine aussagekräftige Fehlermeldung seitens des Servers erscheinen. Ebenfalls soll es ein Tutorial zum Zurücksetzen geben.
 
 ## Begründung
 
-Durch eine versehentliche Änderung der Umgebungseinstellungen (om.xml) wird die Serverseitige GUI nicht mehr dargestellt, ohne brauchbare Fehlermeldung.
+Durch eine versehentliche Änderung der Umgebungseinstellungen (om.xml) wird die Serverseitige GUI nicht mehr dargestellt. Es wird aber auch keine brauchbare Fehlermeldung angezeigt.
+Somit weiß der Nutzer nicht, was der Fehler sein kann.

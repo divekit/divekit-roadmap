@@ -4,8 +4,8 @@ layout: default
 
 {% assign stakeholder = site.stakeholders | where: "acronym", page.stakeholder | first %}
 
-{% include /functions/get-interview-name.html myInterview=page %}
-<h1>{{ interviewName }}</h1>
+{% include /functions/get-artefact-name.html myArtefact=page myIdFormat="postfix" %}
+<h1>{{ artefactName }}</h1>
 
 <dl>
     <dt>Acronym</dt>
@@ -15,7 +15,7 @@ layout: default
     <dd>{{ stakeholder.name }}</dd>
 
     <dt>Responsible</dt>
-    <dd>{% include /functions/resolve-names.html my_responsible=page.responsible %}{{ responsibleString }}</dd>
+    <dd>{% include /functions/resolve-names.html myResponsible=page.responsible %}{{ responsibleString }}</dd>
 
 
 

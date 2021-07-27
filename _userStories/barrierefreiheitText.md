@@ -2,9 +2,9 @@
 type: userStory
 acronym: barrierefreiheit_text
 responsible:
-	- jsp
+    - jsp
 title: Einstellung der Barrierefreiheit (Text)
-funcionalRequirement: Barrierefreiheit
+functionalRequirement: Barrierefreiheit
 asA: 
     - profBwl
     - profInf
@@ -16,11 +16,11 @@ asA:
 iWantTo: die Einstellung für Farbenblinde vornehmen
 forThisReason: damit ich alle abgebildeten Informationen verstehe.
 history:
-	v1:
-		date: 2021-07-23
-		comment: initially created
+    v1:
+        date: 2021-07-23
+        comment: initially created
 todo:
-	
+    
 ---
 
 ## User Story

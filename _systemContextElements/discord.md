@@ -1,11 +1,12 @@
 ---
 acronym: Discord
-type: itsystem 
+type: systemContextElement
+subtype: itsystem 
 responsible:
     - tza
     - ako
     - kru
-mentionnedInSource: 
+source:
     - [interview, fkrampe, Minute 00-27-17]   
     - [interview, fkrampe, Minute 00-36-29]
     - [interview, fkrampe, Minute 00-55-42]

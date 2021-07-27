@@ -33,105 +33,49 @@ theme: minima
 plugins:
   - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
 
 collections:
-  decisions:
-    output: true
-  teams:
-    output: true
-  sigs:
-    output: true
-  goals:
-    output: true
-  stakeholders:
-    output: true
-  stakeholderRoles:
-    output: true
-  systemContextElements:
-    output: true
-  personas:
-    output: true
-  scenarios:
+  authors:
     output: true
   functionalRequirements:
     output: true
-  nonFunctionalRequirements:
+  goals:
     output: true
   interviews:
     output: true
   literatureReferences:
     output: true
+  nonFunctionalRequirements:
+    output: true
+  personas:
+    output: true
+  reviews:
+    output: true
+  scenarios:
+    output: true
+  stakeholderRoles:
+    output: true
+  stakeholders:
+    output: true
   surveys:
     output: true
-  workshops:
-    output: true
-  useCases:
+  systemContextElements:
     output: true
   useCaseDiagrams:
     output: true
-  reviews:
+  useCases:
+    output: true
+  userStories:
+    output: true
+  workshops:
     output: true
 
 defaults:
   - scope:
       path: ""
-      type: "decisions"
+      type: "authors"
     values:
-      layout: "decision"
-  - scope:
-      path: ""
-      type: "teams"
-    values:
-      layout: "team"
-  - scope:
-      path: ""
-      type: "sigs"
-    values:
-      layout: "sig"
-  - scope:
-      path: ""
-      type: "goals"
-    values:
-      layout: "goal"
-  - scope:
-      path: ""
-      type: "stakeholders"
-    values:
-      layout: "stakeholder"
-  - scope:
-      path: ""
-      type: "stakeholderRoles"
-    values:
-      layout: "stakeholderRole"
-  - scope:
-      path: ""
-      type: "systemContextElements"
-    values:
-      layout: "systemContextElement"
-  - scope:
-      path: ""
-      type: "interviews"
-    values:
-      layout: "interview"
+      layout: "author"
   - scope:
       path: ""
       type: "functionalRequirements"
@@ -139,19 +83,19 @@ defaults:
       layout: "functionalRequirement"
   - scope:
       path: ""
+      type: "goals"
+    values:
+      layout: "goal"
+  - scope:
+      path: ""
+      type: "interviews"
+    values:
+      layout: "interview"
+  - scope:
+      path: ""
       type: "literatureReferences"
     values:
       layout: "literatureReference"
-  - scope:
-      path: ""
-      type: "surveys"
-    values:
-      layout: "survey"
-  - scope:
-      path: ""
-      type: "workshops"
-    values:
-      layout: "workshop"
   - scope:
       path: ""
       type: "personas"
@@ -159,14 +103,34 @@ defaults:
       layout: "persona"
   - scope:
       path: ""
+      type: "reviews"
+    values:
+      layout: "review"
+  - scope:
+      path: ""
       type: "scenarios"
     values:
       layout: "scenario"
   - scope:
       path: ""
-      type: "useCases"
+      type: "stakeholderRoles"
     values:
-      layout: "useCase"
+      layout: "stakeholderRole"
+  - scope:
+      path: ""
+      type: "stakeholders"
+    values:
+      layout: "stakeholder"
+  - scope:
+      path: ""
+      type: "surveys"
+    values:
+      layout: "survey"
+  - scope:
+      path: ""
+      type: "systemContextElements"
+    values:
+      layout: "systemContextElement"
   - scope:
       path: ""
       type: "useCaseDiagrams"
@@ -174,6 +138,16 @@ defaults:
       layout: "useCaseDiagram"
   - scope:
       path: ""
-      type: "reviews"
+      type: "useCases"
     values:
-      layout: "review"
+      layout: "useCase"
+  - scope:
+      path: ""
+      type: "userStories"
+    values:
+      layout: "userStory"
+  - scope:
+      path: ""
+      type: "workshops"
+    values:
+      layout: "workshop"
