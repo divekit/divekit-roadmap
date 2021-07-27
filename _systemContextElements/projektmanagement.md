@@ -1,5 +1,6 @@
 ---
 acronym: projektmanagement
+title:
 type: systemContextElement
 subtype: itsystem
 responsible:
@@ -13,6 +14,8 @@ history:
         date: 2021-07-03
         comment: initially created
 todo:
+    - (sbe) Bitte einen treffenden "title" angeben. Es geht in der Begründung weniger um Projektmanagement, sondern um ein Tool für agiles Projektmanagement. 
+    - (sbe) bitte präzise - Jira und Trello sind IT-System, Kanban ist eine Methode.
 ---
 
 ## Erläuterung
