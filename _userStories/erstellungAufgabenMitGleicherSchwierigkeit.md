@@ -9,7 +9,7 @@ asA:
     - profBwl
     - profInf
     - profMa
-    - dozent
+    - lehrende
 iWantTo: generieren von Aufgaben mit gleichem Schwierigkeitsgrad
 forThisReason: ich alle studierenden mit Aufgaben auf dem selben Schwierigkeitsgrad testen kann
 history:

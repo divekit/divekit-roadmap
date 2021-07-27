@@ -7,7 +7,7 @@ responsible:
 name: Fabian Krampe
 stakeholderRole: 
     - wmaProg
-    - dozent
+    - lehrende
 relationshipToProject: >
     Anwender des Systems in mehreren Lehrveranstaltungen. Interessiert an sinnvoller Weiterentwicklung, 
     möchte eigene Ideen einbringen. 

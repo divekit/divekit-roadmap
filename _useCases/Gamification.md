@@ -5,7 +5,7 @@ responsible:
     - psc
 title: 
 description: Ein Student wurd durch Gamification motiviert
-primaryActor: student
+primaryActor: studierende
 secondaryActors:
     - wmaProg
     - wmaDev

@@ -1,4 +1,4 @@
----
+    ---
 type: userStory
 acronym: aendernMusterAufgabenGleicheSchwierigkeit
 responsible:
@@ -9,7 +9,7 @@ asA:
     - profBwl
     - profInf
     - profMa
-    - dozent
+    - lehrende
 iWantTo: ändern der Mustervorlage aus dem Aufgaben generiert werden sollen.
 forThisReason: die Mustervorlage ist veraltet
 history:

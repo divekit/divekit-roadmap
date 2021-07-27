@@ -9,7 +9,7 @@ responsible:
 name: Marco Reitano
 stakeholderRole: 
     - wmaProg
-    - dozent
+    - lehrende
     - potAnwender
 relationshipToProject: >
     Möglicher Nutzer des Systems auf WMA-Seite.

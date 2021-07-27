@@ -10,8 +10,6 @@ layout: default
     was inhaltlich beim Versuch der Zielerreichung passieren kann und abstrahiert von konkreten technischen Lösungen.
 </p>
 
-
-
 <table>
     <thead>
     <tr>
@@ -31,14 +29,14 @@ layout: default
         <td>{{ iconString }}</td>
 
         {% include /functions/get-globalid.html myArtefact=useCase %}
-        <td><a href="{{ site.url }}{{ stakeholder.url | relative_url }}">{{ globalId }}</a></td>
+        <td><a href="{{ site.url }}{{ useCase.url | relative_url }}">{{ globalId }}</a></td>
 
         {% include /functions/get-artefact-name.html myArtefact=useCase %}
         <td><a href="{{ site.url }}{{ useCase.url | relative_url }}">{{ artefactName }}</a></td>
 
         {% include /functions/get-link-to-artefact.html myRef=useCase.functionalRequirement
                 myTypeString="functionalRequirement" myIdFormat="prefix" %}
-        <td><a href="{{ site.url }}{{ useCase.url | relative_url }}">{{ artefactLink }}</a></td>
+        <td>{{ artefactLink }}</td>
     </tr>
     {% endfor %}
     </tbody>

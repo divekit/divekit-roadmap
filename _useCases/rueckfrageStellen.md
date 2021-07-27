@@ -5,7 +5,7 @@ responsible:
     - aha
 title: Rückfrage stellen
 description: Ein Student stellt eine Rückfrage zu einer Aufgabe
-primaryActor: student
+primaryActor: studierende
 secondaryActors:
     - wmaAutonomousLecturerInf
 trigger: Student hat eine Frage zu einer Aufgabenstellung

@@ -5,7 +5,7 @@ responsible:
     - tza
 title: Feedback-Obergrenze setzen
 description: Es wird eine Obergrenze für die Anzahl von Feedback-Anfragen gesetzt, sodass die Studierende diese nicht überschreiten können. Dadurch wird das Risiko vermieden, dass die Studierenden durch Feedback vollständige Lösung erfragen
-primaryActor: dozent
+primaryActor: lehrende
 secondaryActors:
     - student
 trigger: Der Lehrende will nur eine bestimmte Anzahl von Feedback-Anfragen erhalten

@@ -1,6 +1,7 @@
 ---
 acronym: potAnwender
 type: stakeholderRole
+belongsTo: lehrende
 responsible: 
     - jlü
 name: Potenzieller Anwender als lehrende Person des Systems
@@ -10,16 +11,17 @@ history:
     v1:
         date: 2021-07-07
         comment: initially created
-
-todo: 
-    - copy-paste Fehler?
+    v2:
+        date: 2021-07-26
+        comment: rework todo
+    v3: 
+        date: 2021-07-27
+        comment: assigned to top-level role "lehrende" (sbe)     
+todo:
 ---
 
 
 ## Rollenbeschreibung
-
-Die Rolle _profInf_ stellt einen möglichen neuen Stakeholder des Systems dar, welcher dabei zusätzliche bzw. neue Anforderungen an das System stellt.
-Hauptsächlich werden dabei die Kernfunktionalitäten des Systems benutzt, also die Generierung von individualisierten Programmieraufgaben und korrespondierenden Tests.
 
 Die Rolle _potAnwender_ stellt ein Rolle dar, welche von Dozierenden eingenommen werden kann. Die in der Rolle abgedeckten Dozierenden arbeiten aktuell noch nicht 
 mit dem DiveKit. Allerdings bietet sich das ausgeübte Lehrgebiet an, das DiveKit zu nutzen.

@@ -1,6 +1,7 @@
 ---
 acronym: profInf
 type: stakeholderRole
+belongsTo: lehrende
 responsible: 
     - ako
     - kru
@@ -15,6 +16,9 @@ history:
     v2:
         date: 2021-06-15
         comment: added new content based on profBWL
+    v3: 
+        date: 2021-07-27
+        comment: assigned to top-level role "lehrende" (sbe)     
 todo:               
 ---
 

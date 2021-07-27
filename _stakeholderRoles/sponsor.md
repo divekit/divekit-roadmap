@@ -1,6 +1,7 @@
 ---
 acronym: sponsor
 type: stakeholderRole
+belongsTo: entwickler
 responsible: 
     - ako
 name: Sponsor des Divekit
@@ -10,6 +11,9 @@ history:
     v1:
         date: 2021-07-26
         comment: initially created
+    v2: 
+        date: 2021-07-27
+        comment: assigned to top-level role "entwickler" (sbe)             
 todo: 
            
 ---

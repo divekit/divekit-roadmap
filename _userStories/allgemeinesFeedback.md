@@ -5,8 +5,7 @@ responsible:
     - ama
 title: Allgemeines Feedback
 functionalRequirement: allgemeinesFeedback
-asA: 
-    - studierender
+asA: studierende
 iWantTo: Feedback zu bestandenen und nicht bestandenen Aufgaben erhalten
 forThisReason: um besser zu verstehen, warum die Aufgabe beispielsweise nicht bestanden wurde
 history:

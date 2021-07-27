@@ -9,7 +9,7 @@ responsible:
 name: Christian Kohls
 stakeholderRole: 
     - profInf
-    - dozent
+    - lehrende
     - potAnwender
 relationshipToProject: >
     Möglicher Nutzer des Systems auf Dozentenseite. (Vorraussichtlich für AP2)

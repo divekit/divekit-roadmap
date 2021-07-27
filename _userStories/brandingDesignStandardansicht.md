@@ -5,8 +5,7 @@ responsible:
     - ngi
 title: Branding des Designs der Standardansicht
 functionalRequirement: IndividuellesDesign
-asA: 
-    - anwenderExtern
+asA: anwenderExtern
 iWantTo: das Design der Standardansicht ändern
 forThisReason: damit die graphische Oberfläche des Divekits an die Farben meiner Hochschule angepasst sind
 history:

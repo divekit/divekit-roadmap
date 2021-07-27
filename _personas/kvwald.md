@@ -1,7 +1,7 @@
 ---
 type: persona
 acronym: kvwald
-stakeholderRole: student
+stakeholderRole: studentInf
 responsible: 
     - fgr
 name: Klaus vom Wald
@@ -15,6 +15,9 @@ history:
     v1:
         date: 2021-06-13
         comment: initially created
+    v2:
+        date: 2021-07-27
+        comment: changed stakeholderRole to studentInf (sbe)        
 ---
 
 Klaus ist ein 24-jähriger Informatikstudent aus dem dritten Semester an der TH Köln. Er hat das Studium begonnen, um sich möglichst gut auf das spätere Arbeitsleben vorbereiten zu können. 

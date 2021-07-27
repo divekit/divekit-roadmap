@@ -1,11 +1,12 @@
 ---
 acronym: studentInf
 type: stakeholderRole
+belongsTo: studierende
 responsible: 
     - fkr
     - tza
     - psc
-name: Student (Informatik)
+name: Informatik-Studierende*r
 description: >
     Student in einem Informatikstudiengang 
 history:
@@ -18,6 +19,9 @@ history:
     v3:
         date: 2021-06-18
         comment: Role umrennen um zwischen Inf und nicht Inf Rollen zu unterscheiden
+    v4:
+        date: 2021-07-27
+        comment: renamed for consistency (sbe)        
 todo:
     - feinschliff
     - bitte unbedingt Abgrenzung student - studentInf noch einmal angucken. Welche Studententypen haben wir hier bei uns? Kommen wir da mit den beiden aus? Oder müsste man eine allgemeine Rolle student machen und dann spezialisierte, wie z.B. studentMathe, studentInf, studentSonstig ...? (SB)

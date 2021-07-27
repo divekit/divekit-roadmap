@@ -1,6 +1,7 @@
 ---
 acronym: wmaAutonomousLecturerInf
 type: stakeholderRole
+belongsTo: lehrende
 responsible: 
     - ngi
 name: Selbständiger Dozent der Informatik
@@ -13,6 +14,9 @@ history:
     v2: 
         date: 2021-07-20
         comment: renamed stakeholder to better reflect his role
+    v2: 
+        date: 2021-07-27
+        comment: assigned to top-level role "lehrende" (sbe)            
 todo: 
     - Name sollte die selbstständige Dozentenrolle deutlicher machen. Es gibt hier verschiedene Type - 1. der festangestellte WMA, der in einem Fach selbstständige Lehre macht, 2. der freiberufliche Lehrbeauftragte, der für 1..n Semester an Bord ist, 3. die Lehrkraft für besondere Aufgaben - das ist sozusagen besser als WMA, aber schlechter als Prof (SB)
     - Wenn man erlaubt, dass Stakeholder mehrere Rollen haben (was ok ist), dann könnte die selbstständige Dozententätigkeit eine eigene Rolle sein, die dann aber ggfs. auch die Profs haben (SB) 

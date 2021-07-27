@@ -1,6 +1,7 @@
 ---
 acronym: profMa
 type: stakeholderRole
+belongsTo: lehrende
 responsible: 
     - mba
 name: Professor für Mathematik
@@ -10,6 +11,9 @@ history:
     v1:
         date: 2021-07-19
         comment: initially created
+    v2: 
+        date: 2021-07-27
+        comment: assigned to top-level role "lehrende" (sbe)         
 todo: 
            
 ---

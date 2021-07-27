@@ -1,12 +1,11 @@
 ---
 type: useCase
-acronym: anzeigeDerDeadline
+acronym: AnzeigederDeadline
 responsible:
     - ama
-title: Ausführliches Feedback
+title: Anzeige der Deadline
 description: Eine studierende Person möchte Informationen über die Deadline einer Aufgabe erhalten
-primaryActor: 
-    - student
+primaryActor: studierende
 trigger: Die studierende Person sieht sich die Informationen über die Deadline an.
 precondition: Die studierende Person hat sich die Informationen über die Deadline angesehen.
 postcondition: Die studierende Person erhält die Informationen über die Aufgaben Deadlines.

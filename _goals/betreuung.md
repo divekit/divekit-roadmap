@@ -26,15 +26,18 @@ history:
         comment: sources and small description added 
     v3:
         date: 2021-07-26
-        comment: updated subgoal links 
-
-todo: 
-    - Beschreibung und Begründung verbessern
+        comment: updated subgoal links
+    v4:
+        date: 2021-07-26
+        comment: added description
+todo:
 ---
 
 ## Beschreibung
 
-Dieses Ziel ist Oberziel von
+Eine (persönliche) Betreuung wird oftmals gewünscht. Für eine genauer Zielbeschreibung wird dieses Artefakt in weitere Unterziele aufgeteilt.
+
+Dieses Ziel ist Oberziel von:
 
 * [Hilfe bei der Bearbeitung](https://divekit.github.io/divekit-roadmap/goals/betreuungBearbeitung.html)
 * [Hilfe bei Matheaufgaben?](https://divekit.github.io/divekit-roadmap/goals/betreuungMatheHilfe.html)
@@ -44,4 +47,4 @@ Dieses Ziel ist Oberziel von
 
 ## Begründung
 
-Für eine optimale Förderung der Studierenden ist ein breites, aber auch qualitatives Angebot der Betreuung sehr wichtig. 
+Für eine optimale Förderung der Studierenden ist ein breites, aber auch qualitatives Angebot der Betreuung sehr wichtig.

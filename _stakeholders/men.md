@@ -7,7 +7,7 @@ responsible:
 name: Prof. Dr. Monika Engelen
 stakeholderRole:
     - potAnwender
-    - dozent
+    - lehrende
     - profBwl
 relationshipToProject: >
     Anwender des Systems in mehreren Lehrveranstaltungen. Interessiert an sinnvoller Weiterentwicklung, möchte eigene Ideen einbringen. 

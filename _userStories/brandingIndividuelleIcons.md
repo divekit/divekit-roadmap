@@ -5,8 +5,7 @@ responsible:
     - ngi
 title: Branding durch individuelle Icons
 functionalRequirement: IndividuellesDesign
-asA: 
-    - anwenderExtern
+asA: anwenderExtern
 iWantTo: individuelle Icons in das System einfügen
 forThisReason: um das Logo und alle Zeichen meiner Hochschule im System abbilden zu können
 history:
