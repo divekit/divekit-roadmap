@@ -29,7 +29,7 @@ layout: default
 </p>
 <ul>
     {% for ucRef in page.useCasesDetailedWithScenario %}
-        {% include /functions/get-link-to-artefact.html myRef=ucRed myTypeString="useCase" myIdFormat="postfix" %}
+        {% include /functions/get-link-to-artefact.html myRef=ucRef myTypeString="useCase" myIdFormat="postfix" %}
         <li>{{ artefactLink }}</li>
     {% endfor %}
     {% for ucRef in page.useCases %}

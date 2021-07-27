@@ -83,6 +83,15 @@
 	{% assign errorList = errorList | push: out_msg %}
 {% endif %}
 
+{% comment %}---------- contained in UC diagram? -----------{% endcomment %}
+{% assign localAcronym = artefact.acronym %}
+{% assign relatedUseCaseDiagrams = site.useCaseDiagrams |
+		where_exp: "ucd", "ucd.useCasesDetailedWithScenario contains localAcronym" %}
+{% if relatedUseCaseDiagrams.size == 0 %}
+	{% assign myMsg = "Dieser Use Case taucht auf keinem Use-Case-Diagramm auf." %}
+	{% include /functions/define-message.html ignore=artefact.ignore msgno="w680" msg=myMsg %}
+	{% assign warningList = warningList | push: out_msg %}
+{% endif %}
 
 {% assign errorString = errorList | join: ";" %}
 {% assign warningString = warningList | join: ";" %}

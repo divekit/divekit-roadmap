@@ -7,7 +7,8 @@
 {%- comment -%} -- append: "" makes it a real string, for whatever reason, doesn't work otherwise -- {%- endcomment -%}
 {% assign collectionName = typeMetadata.collection | append: "" %}
 {% assign collection = site[collectionName] %}
-{% assign foundArtefacts = collection | where:"acronym", localRef %}
+{% assign foundArtefacts = collection | where_exp: "uc", "uc.acronym == localRef" %}
+
 {% if foundArtefacts.size >= 1 %}
     {% if foundArtefacts.size > 1 %}
         {% assign artefactName = "*** found >1 " | append: localTypeString | append: " with acronym " |
