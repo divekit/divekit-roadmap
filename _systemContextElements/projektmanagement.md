@@ -1,6 +1,6 @@
 ---
 acronym: projektmanagement
-title:
+title: Tools für agiles Projektmanagement
 type: systemContextElement
 subtype: itsystem
 responsible:
@@ -13,12 +13,13 @@ history:
     v1:
         date: 2021-07-03
         comment: initially created
+    v2:
+        date: 2021-07-27
+        comment: updated Title & Erläuterung
 todo:
-    - (sbe) Bitte einen treffenden "title" angeben. Es geht in der Begründung weniger um Projektmanagement, sondern um ein Tool für agiles Projektmanagement. 
-    - (sbe) bitte präzise - Jira und Trello sind IT-System, Kanban ist eine Methode.
 ---
 
 ## Erläuterung
 
 Studierende sollen in ihrem Studium mit einer Plattform des agilen Projektmanagements interagieren um diese kennenzulernen.
-Als Beispiele werden hier Jira, Trello und Kanban erwähnt, eine spezielle Präferenz gibt es nicht. Die Erfahrung an sich sei wichtig.
+Als Beispiele werden hier Tools wie Jira und Trello oder allgemein die Methode Kanban erwähnt. Eine spezielle Präferenz gibt es nicht, da die Erfahrung an sich wichtig sei.
