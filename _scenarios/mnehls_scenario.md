@@ -16,7 +16,7 @@ history:
         date: 2021-07-22
         comment: initially created
     v2:
-        date 2021-07-28
+        date: 2021-07-28
         comment: fixed source formatting
 todo: 
 ---
