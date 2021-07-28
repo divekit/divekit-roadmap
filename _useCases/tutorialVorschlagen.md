@@ -19,8 +19,12 @@ history:
     v2:
         date: 2021-07-26
         comment: modified Scenarios and Actors regarding review
-
 todo: 
+    - (sbe) Das Szenario fängt irgendwie mittendrín an
+    - (sbe) bitte formulieren Sie eindeutig - was genau heisst "Das System registriert einen Nutzer, ..."
+    - (sbe) zwischen 2 und 3 fehlt ein Schritt (Auswahl des Videos, ...) 
+    - (sbe) Wäre dann der 4. Schritt nicht, dass Nutzer beim nächsten Einloggen das Tutorial überspringt?
+    - (sbe) Ausnahme "3a) Das Tutorial für die Funktion ist veraltet" müsste mit 3b nummeriert sein, 
 ---
 
 
