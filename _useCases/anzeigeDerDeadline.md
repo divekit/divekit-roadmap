@@ -15,6 +15,10 @@ history:
         date: 2021-07-22
         comment: initially created
 todo:
+    - (sbe) Precondition ist "Die studierende Person hat sich die Informationen über die Deadline angesehen." Schritt 1 ist "Der Studierende möchte Informationen über die Deadlines der zu erledigenden Aufgaben erhalten", also ein Wunsch, keine Aktion ... das ergibt zusammen keinen Sinn. 
+    - (sbe) Die Aktion ist komplett trivial - der Studierende öffnet einfach eine (statische?) Webseite und schaut nach. Dafür brauche ich eigentlich keinen Use Case. Schauen Sie doch nochmal in die zugrundeliegenden Artefakte - FR, Goals, Szenarien - ob das so gemeint sein kann. 
+    - (sbe) Inwiefern ist das Alternativszenario ein alternativer Ablauf? 
+    - (sbe) das Ausnahmeszenario macht keinen Sinn
 ---
 
 ## Hauptszenario

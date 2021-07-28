@@ -21,8 +21,13 @@ history:
     v1:
         date: 2021-07-19
         comment: initially created
-
 todo: 
+    - (sbe) die secondaryActors kommen sämtlich nicht im Use Case vor!
+    - (sbe) Description "Das System garantiert Aufgaben zu generieren, die den gleichen Schwierigkeitsgrad haben" - wie soll das gehen? Wie kann das System das "garantieren", wo die Aufgaben durch Menschen gestellt werden?
+    - (sbe) Viele Begriffe sind nicht erklärt und sind mir unklar - was ist die "Aufgabengenerierung", was ist ein "Muster"?  
+    - (sbe) Versetzen Sie sich mal in die Situation eines Entwicklungsteams - wären Sie in der Lage, auf der Basis dieser Beschreibung Software zu bauen? 
+    - (sbe) Alternativszenario 3b - "Der Nutzer stellt die fehlenden Informationen ein". Was könnten das für Informationen sein?
+    - (sbe) Ausnahmeszenario - in 3c werden doch Aufgaben generiert. Dann stimmt die andere NB nicht. 
 ---
 
 

@@ -21,6 +21,12 @@ history:
         date: 2021-07-22
         comment: initially created
 todo: 
+    - (sbe) die secondaryActors kommen sämtlich nicht im Use Case vor!
+    - (sbe) "1) Die studierende Person legt eine Lösung zur Prüfung vor." Wie genau macht sie das?
+    - (sbe) "4) Das System teilt der studierenden Person mit, welche Aspekte (trotz Korrektheit) nicht optimal gelöst wurden." Hier 
+    - (sbe) Wenn man mal mit den Augen eines Entwicklungsteams guckt - können die auf der Basis dieser Beschreibung Software bauen? Natürlich sollte ein UC keine Implementierung (z.B. backend-seitig) spezifizieren. Aber mir ist total unklar, wie ungefähr so ein Vorschlag aussehen kann. Vielleicht kann man zumindest _skizzieren_, wie das System zu dem Vorschlag kommt - z.B. sowas wie KI ...?   
+    - (sbe) Das Alternativszenario beschreibt m.E. einen komplett anderen Use Case (also manuelle statt automatische Prüfung)
+    - (sbe) dito Ausnahmeszenario. Man könnte da jeweils eigene UC draus machen.
 ---
 
 ## Hauptszenario
