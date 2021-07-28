@@ -21,7 +21,9 @@ history:
         comment: Review-Anmerkungen eingearbeitet
 
 todo:
-
+    - (sbe) das Alternativszenario ergibt aus meiner Sicht Sinn. Man könnte das so machen, dass der Lehrende eine Strichliste führt und dann ab z.B. 5 Anfragen nicht mehr reagiert. Also machen Sie da ruhig ein Alternativszenario draus.
+    - (sbe)
+    - (sbe)
 ---
 
 ## Hauptszenario
@@ -29,7 +31,7 @@ todo:
 * 1) Lehrender meldet sich an
 * 2) Er navigiert zu den Einstellungen
 * 3) Er wählt die Einstellung für Feedback-Obergrenze aus
-* 4) Er gibt einen Wert ein (z. B.: 5)    
+* 4) Er gibt einen Wert ein (z.B.: 5)    
 * 5) Er speichert die geänderte Einstellung
 
 

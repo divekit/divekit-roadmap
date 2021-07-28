@@ -17,6 +17,8 @@ history:
         date: 2021-07-19
         comment: initially created
 todo: 
+    - (sbe) Alternativszenario gibts schon - da wird die Anfrage z.B. per Email geschickt
+    - (sbe) Ausnahmeszenario passt nicht so richtig. Andere Idee - WMA hat falsche Email eingestellt und bekommt nie die Nachricht.
 ---
 
 

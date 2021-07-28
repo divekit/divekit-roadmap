@@ -12,13 +12,17 @@ history:
     v1:
         date: 2021-07-08
         comment: initially created
+    v2:
+        date: 2021-07-28
+        comment: description
 todo:
-    - (sbe) bitte präziser - welche Informationen, was für eine Art von Veränderung? 
 ---
 
 ## Beschreibung
 
-Angezeigte Informationen sollen automatisch bei Veränderung aktualisiert werden.
+Alle Informationen, die der*die Anwender*in angezeigt bekommt, sollen automatisch bei Veränderung der Information aktualisiert werden.
+Beispielsweise, wenn in der Zwischenzeit die eingereichte Lösung sich geändert hat, sollen die Informationen, die bezüglich der 
+Lösung angezeigt werden, den neu eingereichten Lösungen angepasst werden. 
 
 ## Begründung
 

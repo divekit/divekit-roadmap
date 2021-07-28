@@ -14,14 +14,17 @@ history:
     v2: 
         date: 2021-07-21
         comment: rename Title, spelling, update source 
+    v3: 
+        date: 2021-07-28
+        comment: enhance description and explanation
 todo:
-    - (sbe) Was _genau_ ist das Ziel hier - dass das Praktikum in Abschnitte strukturiert ist (Meilensteine), oder dass man zwischen den Praktikumsphasen wechseln können soll? Und wenn letzteres - warum? Was haben die Studierenden davon? Bitte Begründung etwas schärfen. 
 ---
 
 ## Beschreibung
 
-Die Aufgaben sollen in Meilensteine unterteilt sein. Auch ein Wechseln zwischen diesen soll möglich sein.
+Die Aufgaben im Praktikum sollen in verschiedene Meilensteine unterteilt sein. Auch ein Wechseln zwischen diesen soll möglich sein.
 
 ## Begründung
 
-Die Studierenden wünschen sich Meilensteine, zwischen denen gewechselt werden kann. 
+Die Studierenden wünschen sich Meilensteine, zwischen denen gewechselt werden kann. Gerade wenn ein Praktikum aus vielen einzelnen 
+Meilensteinen, die erreicht werden können, besteht, wäre es schön zwischen diesen "Meilensteinen" wechseln zu können und an anderer Stelle weiter zu arbeiten.
