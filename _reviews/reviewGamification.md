@@ -17,6 +17,9 @@ history:
     v2:
         date: 2021-07-28
         comment: Autorenkommentare hinzugefügt
+    v3:
+        date: 2021-07-28
+        comment: added review input
 
 todo:
 ---
@@ -29,3 +32,4 @@ todo:
 | Postcondition | Postcondition ist an sich in Ordnung, aber ich persönlich würde die Postcondition vereinfachen | Wurde angepasst. |
 | Szenario | Die Prozessschritte des Systems sollten berücksichtigt werden. | True. Wird im Zuge der Verbesserung angepasst. |
 | Szenario | Die Alternativ- und Ausnahmeszenarien ergeben sich aus dem angepassten Hauptszenario | Wurden ergänzt. Allerdings ergibt sich nur ein Alternativszenario |
+| Szenario | Errungenschaften sollten nicht konkret benannt werden | | 

@@ -17,6 +17,9 @@ history:
     v2:
         date: 2021-07-27
         comment: added author comment
+	v3:
+		date: 2021-07-28
+		comment: added review input
 
 todo:
 ---
@@ -26,10 +29,14 @@ todo:
 
 | Referenz | Reviewer-Kommentar | Autor-Kommentar |
 |------------|------------------|-----------------|
+| Allgemein | Erster sich doppelnder Satz als Ausgangslage titulieren | |
+| Allgemein | _Nun_ als Satzanfang reißt den Leser aus der Ausgangslage heraus. Anfänge eventuell mit _Emilia versucht sich_ etc. ersetzen | |
 | Satz 1 | Will Emilia teilnehmen oder tut sie das bereits. Beispiel siehe unten | Wurde angepasst |
 | Satz 2 | Zeitraum hier nicht wichtig. Beispiel siehe unten | Wurde angepasst|
 | Hauptszenario Sätze 3-7 | Etwas präzisieren. Beispiele siehe unten | Teilweise übernommen |
+| Hauptszenario Satz 6 | Typo _Die Betreuende Person_ => _Die betreuende Person_ | |
 | Satz 15 | Vorschlag Umformulierung. Beispiel siehe unten | War nicht vorhanden |
+| Alternativszenario 2 Satz 16 | Typo _auführliche_ => _ausführliche_ | |
 | Negativszenario Satz 16 | Rahmenhandlung nicht wiederholen, Satz streichen | Wurde gestrichen |
 | Negativszenario Satz 17 | Rahmenhandlung nicht wiederholen, Satz kürzen |Wurde gestrichen  |
 | Negativszenario Satz 18 | _am Montag_ bedeutet, dass ein Wochenende dazwischen liegt | Wurde angepasst |
