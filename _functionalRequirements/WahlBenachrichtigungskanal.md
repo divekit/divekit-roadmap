@@ -3,7 +3,7 @@ type: functionalRequirement
 acronym: WahlBenachrichtigungskanal
 responsible: 
     - cpo
-title: Frei Wahl für Benachrichtigungskanal
+title: Freie Wahl des Benachrichtigungskanals
 goals: 
 implementationStatus: open
 prefilterPriorizationPoints: 0
