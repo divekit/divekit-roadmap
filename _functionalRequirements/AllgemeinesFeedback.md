@@ -42,6 +42,7 @@ history:
         comment: modified regarding todo
 todo:
     - (sbe) Requirement ist etwas unklar. Welche Art Feedback genau ist bei _bestandenen_ Tests gewünscht?
+    - (sbe) Bitte dann auch Titel präzisieren
 ---
 
 Das DiveKit muss in der Lage sein, dem Studierenden zu nicht bestandenen Tests und auch bestandenen Tests Feedback zu geben.

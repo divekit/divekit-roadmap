@@ -32,6 +32,7 @@ history:
 todo:
     - (sbe) Was wäre denn die Alternative ...? Ist dieses Requirement wirklich sinnvoll, oder formuliert es nur eine Selbstverständlichkeit, die gar nicht anders sinnvoll geht?
     - (sbe) warum nur "soll"? 
+    - (sbe) scheint mir ein Duplikat mit DynamischeFeedbackSeite zu sein - bitte zusammenführen oder besser abgrenzen    
 ---
 
 Das DiveKit soll die Ergebnisse auf der Testübersichtsseite nach der Prüfung eines Testes selbstständig aktualisieren.

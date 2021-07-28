@@ -23,6 +23,7 @@ history:
         date: 2021-07-16
         comment: Did TODOs
 todo:
+    - (sbe) scheint mir ein Duplikat mit AktualisierungDesFeedbacks zu sein - bitte zusammenführen oder besser abgrenzen
 ---
 
 Das DiveKit muss eine Feedback-Seite generieren, die bei der automatisierten Abgabe erstellt wird.

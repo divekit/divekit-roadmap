@@ -24,8 +24,8 @@ history:
     v4:
         date: 2021-07-26
         comment: Changed sytem to divekit
-
 todo:
+    - (sbe) Das ist mir absolut unklar, wie das gemeint ist. Man gibt doch ab, indem man ein Repo pusht ...? Also nicht "auf einer Seite". Was also ist mit "auf der gleichen Seite" gemeint?
 ---
 
 Das DiveKit muss in der Lage sein die Ergebnisse eines Tests auf der gleichen Seite und nicht auf einer extra Seite anzeigen zu können.

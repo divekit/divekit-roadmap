@@ -16,7 +16,7 @@ history:
         comment: initially created
 todo:
     - bitte den Systemnamen verwenden -> Das DiveKit; siehe Template(jlü)
-    - (sbe) Was genau bedeutet "zitiert" - wie stellt sich das im System dar? Ohne diese Definition ist die Anforderung nicht verständlich. 
+    - (sbe) Was genau bedeutet "zitiert" - wie stellt sich das im System dar? Ohne diese Definition ist die Anforderung nicht verständlich. Kopieren Sie doch einfach die Def. aus ErfassungAnzahlZitate hierher, solange es noch kein Glossar gibt. 
     - (sbe) hier wäre es hilfreich, eine Minutenangabe bei der Quelle zu haben
 ---
 
