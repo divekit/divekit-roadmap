@@ -9,12 +9,15 @@ scenarioTypes:
 responsible: 
     - cpo
 source: 
-    - [interview, nnProf4, 00:37:06]
-    - [interview, nnProf4, 00:40:12]
+    - [interview, nnProf4, Minute 00-37-06]
+    - [interview, nnProf4, Minute 00-40-12]
 history:
     v1:
         date: 2021-07-22
         comment: initially created
+    v2:
+        date 2021-07-28
+        comment: fixed source formatting
 todo: 
 ---
 
