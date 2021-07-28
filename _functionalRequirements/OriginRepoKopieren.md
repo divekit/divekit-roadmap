@@ -25,7 +25,7 @@ history:
 todo: 
 ---
 
-Das DiveKit muss ein origin git repository mit Aufgaben für jeden Studenten individuell kopieren und bereitstellen.
+Das DiveKit muss ein Origin-Git-Repository mit Aufgaben für jeden Studenten individuell kopieren und bereitstellen.
 
 ## Begründung
 

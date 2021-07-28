@@ -19,8 +19,8 @@ history:
     v2:
         date: 2021-07-26
         comment: changed system name to divekit
-
 todo:
+    - (sbe) bitte genauer ausführen - das ist nahezu wortgleich die Wiederholung des Ziels. Welche Features braucht DiveKit, um das Ziel umzusetzen? Sonst bitte eher löschen, hat dann keinen Mehrwert. 
 ---
 
 Das DiveKit soll sich durch eine hohe Robustheit und Fehlertoleranz auszeichnen.

@@ -26,6 +26,8 @@ history:
     v3:
         date: 2021-07-16
         comment: add kano
+todo:
+    - (sbe) bitte genauer ausführen - das ist nahezu wortgleich die Wiederholung des Ziels. Welche Features braucht DiveKit, um das Ziel umzusetzen? Sonst bitte eher löschen, hat dann keinen Mehrwert.         
 ---
 
 Das DiveKit soll Studierenden die Möglichkeit bieten, direkt Rückfragen zu Aufgaben zu stellen.

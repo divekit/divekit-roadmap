@@ -25,8 +25,8 @@ history:
     v4:
         date: 2021-07-26
         comment: Changed sytem to divekit
-
 todo:
+    - (sbe) bitte Satzschablone verwenden. Dann wird auch das gewünscht Feature klarer. Wenn das Requirement einen Terminkalender fordert, dann sollte das auch so in der Formulierung, im Titel und in der Begründung stehen.
 ---
 
 Das DiveKit sollte die Durchführung von manuellen Korrekturen bis kurz vor der Abgabe ermöglichen.
