@@ -25,10 +25,16 @@ history:
     v4:
         date: 2021-07-16
         comment: Modified responsibles as discussed
+    v5: 
+        date: 2021-07-27
+        comment: Add Erläuterung and modify FR 
 todo:
-    - (sbe) bitte ergänzen (weil das die Kritik ist ...) - "deutlich sichtbar und in der Zeitzone des Studierenden"
-    - (sbe) bitte Satzschablonen-Format einhalten
     - (sbe) zumindest teilweise Duplikat von Zeitzone. Bitte abgrenzen oder zusammenführen.
 ---
 
-Das DiveKit soll den Zeitstempel der letzten Aktualisierung des eingereichten Codes anzeigen können.
+Das DiveKit muss den Zeitstempel der letzten Aktualisierung des eingereichten Codes deutlich sichtbar und entsprechend der Zeitzone des Nutzers anzeigen.
+
+## Erläuterung
+
+Eine falsch angezeigte oder nicht vorhandene Zeit, wann der Code zuletzt eingereicht und somit überprüft wurde, hat in der Vergangenheit
+oft für Verwirrungen geführt. 
