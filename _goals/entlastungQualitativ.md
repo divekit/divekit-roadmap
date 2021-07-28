@@ -18,15 +18,28 @@ history:
     v3:
         date: 2021-07-16
         comment: move from betreuung zu entlastung
+    v4:
+        date: 2021-07-28
+        comment: Ziel für allgemeine Professor:innen generalisiert
+    v5:
+        date: 2021-07-28
+        comment: qualitative Unterstützung konkretisiert (hoffe das macht es verständlicher)
+
 todo:
-    - (sbe) Warum gilt dieses Ziel nur für BWL-Profs? Und wenn ja, dann sollte das im Titel reflektiert sein. 
-    - (sbe) Was genau ist mit "qualitative Unterstützung" gemeint?`Vielleicht genügt schon ein Beispiel, mir ist es wirklich nicht klar. 
 ---
 
 ## Beschreibung
 
-BWL Professor:innen erhalten qualitative Unterstützung bei der Bewertung von individuellen Projektarbeiten durch das Divekit.
+Professor:innen erhalten qualitative Unterstützung bei der Auswertung von individuellen Projektarbeiten durch das Divekit.
 
 ## Begründung
 
-Die Auswertung von Projektarbeiten stellt eine sehr aufwendige Tätigkeit dar. Je nach Lehrveranstaltung nehmen um die 100 Studierenden teil, die in Kleingruppen eigene individuelle Analysen vornehmen sollen. Die dadurch entstandenen Bereicht müssen einzeln beurteilt werden. Hier wäre eine qualitative Unterstützung vom System wünschenswert.
+Die Auswertung von Projektarbeiten stellt eine sehr aufwendige Tätigkeit dar. Je nach Lehrveranstaltung nehmen um die 100 Studierenden teil, die in Kleingruppen eigene individuelle Aufgaben wie Analysen vornehmen sollen. Eine Abgabe erfolgen bspw. als Bericht und müssen einzeln ausgewertet und beurteilt werden. Hier wäre eine qualitative Unterstützung vom System wünschenswert.
+
+Eine _qualitative Unterstützung_ meint, dass das System Feedback über die Qualität des Inhalts geben kann. Zum Beispiel könnte das System Stellen in der Ausarbeitung aufzeigen, die Auffälligkeiten aufweisen:
+
+* Lücken in der Stringenz
+* Überprüfung der Quellen
+* Checks für Plagiierung (Ziel bereits vorhanden)
+
+Dieses Ziel ist das Ergebnis der Interviewfrage, was ein optimales System leisten können soll (_Moonshot_).
