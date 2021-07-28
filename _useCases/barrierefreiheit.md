@@ -22,8 +22,9 @@ history:
     v1:
         date: 2021-07-21
         comment: initially created
-
 todo: 
+    - (sbe) deutlicher Überlapp mit UC "branding" - bitte abgrenzen oder zusammenführen
+    - (sbe) precondition "Das System muss die Funktion anbieten" - das macht man eher nicht, man geht davon aus, dass ein beschriebenes Feature auch implementiert ist. Oder haben Sie das anders gemeint? Dann bitte präzisieren. 
 ---
 
 Als User zählt bei diesem Usecase jeder Stakeholder, der mit diesem System interagiert und seine visuellen Settings anpassen möchte.

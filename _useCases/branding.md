@@ -19,6 +19,9 @@ history:
         date: 2021-07-28
         comment: improvements after review
 todo: 
+    - (sbe) "Einstellungsmöglichkeiten für das Branding müssen implementiert sein" - das macht man eher nicht, man geht davon aus, dass ein beschriebenes Feature auch implementiert ist. Oder haben Sie das anders gemeint? Dann bitte präzisieren. 
+    - (sbe) zu Schritt 6 - ggfs. nach einem Server-Restart
+    - (sbe) deutlicher Überlapp mit UC "barrierefreiheit" - bitte abgrenzen oder zusammenführen
 ---
 
 ## Hauptszenario
