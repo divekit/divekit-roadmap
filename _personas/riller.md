@@ -20,15 +20,18 @@ history:
     v1:
         date: 2021-06-27
         comment: initially created
+    v2:
+        date: 2021-07-28
+        comment: added review input
 todo:
 
 ---
 
 ## Beschreibung
-Robert Iller ist 58 Jahre alt und arbeitet seit fast 20 Jahren als Informatikprofessor an einer deutschen Hochschule. Er unterrichtet hauptsächlich Softwaretechnik und Modellierung, begleitet in manchen Semestern aber auch Fächer wie Projekt- oder Anforderungsmanagement. Er ist eine angesehene Lehrkraft an der Hochschule und auch bei den Studierenden dafür bekannt jedem eine faire Chance zu geben. Robert hat nicht nur zum Ziel seine Studierenden den Unterrichtsstoff seiner Fächer näherzubringen, sondern auch ihre zwischenmenschlichen Fähigkeiten zu stärken.
+Robert Iller ist 58 Jahre alt und arbeitet seit fast 20 Jahren als Informatikprofessor an einer deutschen Hochschule. Er unterrichtet hauptsächlich Softwaretechnik und Modellierung, begleitet in manchen Semestern aber auch Fächer wie Projekt- oder Anforderungsmanagement. Er ist eine angesehene Lehrkraft an der Hochschule und auch bei den Studierenden dafür bekannt, jedem eine faire Chance zu geben. Robert hat nicht nur zum Ziel, seine Studierenden den Unterrichtsstoff seiner Fächer näherzubringen, sondern auch ihre zwischenmenschlichen Fähigkeiten zu stärken.
 
 In seinen Fächern bringt Robert Lehrtechniken wie Flipped Classroom oder die Erarbeitung von Lehrfilmen ein, damit sich die Studierenden tiefgehend mit einem speziellen Thema der Vorlesung beschäftigen und an ihre KommilitonInnen weitergeben sowie gleichzeitig von den anderen Studierenden die restlichen Themen nähergebracht bekommen. Seine Prüfungen gestaltet er sowohl mit offenen als auch geschlossenen Aufgaben, wobei ihm aufgefallen ist, dass die Studierenden bei Online-Prüfungen durch die jeweils verwendete Software in ihren Ausdrucksmöglichkeiten eingeschränkt sind. Auch bekam er mit, dass durch die fehlende Möglichkeit zur Kommunikation sowohl in den Vorlesungen als auch in den Prüfungen schlechtere Lösungen von den Studierenden erarbeitet wurden.
 
-Aus diesen Gründen sucht Robert seit einiger Zeit nach Lösungen, die seine Probleme adressieren könnten. So sieht er in einem System, welches neben der Bearbeitung von Aufgaben auch einen Kommunikationskanal zum Austausch unter den Studierenden sowie der Studierenden mit den Lehrkräften ein großes Potenzial. Ebenso ein System, welches es den Studierenden ermöglicht nicht-textuelle Artefakte in einem Baukasten-Prinzip zu erstellen, die dadurch durch die Lehrenden semiautomatisiert ausgewertet werden können, könnte er sich als Ergänzung seiner Lehrveranstaltungen sehr gut vorstellen.
+Aus diesen Gründen sucht Robert seit einiger Zeit nach Lösungen, die seine Probleme adressieren könnten. So sieht er in einem System, welches neben der Bearbeitung von Aufgaben auch einen Kommunikationskanal zum Austausch unter den Studierenden sowie der Studierenden mit den Lehrkräften ein großes Potenzial. Ebenso ein System, welches es den Studierenden ermöglicht, nicht-textuelle Artefakte in einem Baukasten-Prinzip zu erstellen, die dadurch durch die Lehrenden semiautomatisiert ausgewertet werden können, könnte er sich als Ergänzung seiner Lehrveranstaltungen sehr gut vorstellen.
 
-Auch liebäugelt Robert damit eine Möglichkeit zu haben mit der er die Aufgaben der Studierenden sowohl in Übungen als auch in Prüfungen Individualisieren zu können, um die Möglichkeit des Abschreibens zu vermeiden.
+Auch liebäugelt Robert damit, eine Möglichkeit zu haben, mit der er die Aufgaben der Studierenden sowohl in Übungen als auch in Prüfungen individualisieren zu können, um die Möglichkeit des Abschreibens zu vermeiden.
