@@ -22,10 +22,14 @@ history:
     v3:
         date: 2021-07-15
         comment: Fixed goales
-todo: 
-    - (sbe) siehe Anmerkungen zu AufgabenZurGoogleCloud
+    v4: 
+        date: 2021-07-27
+        comment: specify FR
+todo:
 ---
 
-Wenn der Dozierende Aufgaben im Umgang und der Erstellung von Kubernetes Clustern stellt, soll das DiveKit die gestellten Aufgaben 
-individualisieren und automatisch die eingereichten Lösungen auswerten können. 
+Wenn der Dozierende Aufgaben im Umgang und der Erstellung von Kubernetes Clustern stellt, wird das DiveKit den Aufgabenstellenden 
+in der Erstellung der Aufgabe unterstützen, 
+die gestellten Aufgaben individualisieren und automatisch die eingereichten Lösungen, so weit es die Aufgabenstellung zulässt, 
+auf einem angebundenen Kubernetes Cluster auswerten und verifizieren. 
 
