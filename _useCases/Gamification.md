@@ -20,8 +20,10 @@ history:
     v2:
         date: 2021-07-28
         comment: Verbesserungen aus Review umgesetzt
-
 todo:
+    - (sbe) was wäre ein Beispiel in Schritt 4 Hauptszenario? Z.B. "Glückwunsch, du bist der 2. mit der richtigen Lösung" ?
+    - (sbe) vielleicht noch einen Score hochzählen? Das wäre doch cool ;-)
+    - (sbe) Alternativszenario - vielleicht eher, dass WMA von Hand einen Scorerpunkt vergeben?
 ---
 
 ## Hauptszenario

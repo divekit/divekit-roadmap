@@ -18,8 +18,10 @@ history:
     v1:
         date: 2021-07-17
         comment: initially created
-
 todo: 
+    - (sbe) die secondaryActors kommen im Use Case nicht vor!
+    - (sbe) Das Szenario fängt irgendwie mittendrin an. Was (welche Nutzeraktion) kommt vorher?
+    - (sbe) Versetzen Sie sich mal in die Situation eines Entwicklungsteams - wären Sie in der Lage, auf der Basis dieser Beschreibung Software zu bauen? Mir wäre insbesondere unklar, was genau ein "Feedback" in diesem Kontext ist. (Der Rest ist klar)   
 ---
 
 

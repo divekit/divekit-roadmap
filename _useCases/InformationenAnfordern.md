@@ -22,8 +22,13 @@ history:
     v3:
         date: 2021-07-26
         comment: added missing FR
-
 todo: 
+    - (sbe) Das Szenario fängt irgendwie mittendrin an. Was (welche Nutzeraktion) kommt vorher?
+    - (sbe) was ist XYZ? bitte lieber etwas Konkretes nehmen. Ist mir tatsächlich unklar, wenn ich nur das Szenario lese. 
+    - (sbe) Versetzen Sie sich mal in die Situation eines Entwicklungsteams - wären Sie in der Lage, auf der Basis dieser Beschreibung Software zu bauen? Natürlich sollte ein UC keine Implementierung (z.B. backend-seitig) spezifizieren. Aber mir ist auch der Bedienablauf ziemlich unklar, also z.B. _wo_ die Studentin einen Link zur Lösung sieht.
+    - (sbe) Vielleicht kann man zumindest _skizzieren_, wie das System zu dem Vorschlag kommt - z.B. sowas wie Pattern Matching auf eine Exception  
+    - (sbe) Das Alternativszenario sprengt den organisatorischen Rahmen ziemlich gründlich - wenn bei _jedem_ Fehler der WMA Hilfe anbietet. M.E. reicht es, wenn einfach in der Hinweis-Datenbank kein Link hinterlegt ist und da dann steht "keine Ahnung, guck halt selbst in stackoverflow und Buch X, Y und Z" (sinngemäss, grins)
+    - (sbe) Das Ausnahmeszenario bezieht sich auf das Alternativszenario, oder? Unüblich. Eher auf das Hauptszenario. Vielleicht gibts hier kein Ausnahmeszenario. 
 ---
 
 

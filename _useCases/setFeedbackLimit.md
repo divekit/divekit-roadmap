@@ -22,8 +22,6 @@ history:
 
 todo:
     - (sbe) das Alternativszenario ergibt aus meiner Sicht Sinn. Man könnte das so machen, dass der Lehrende eine Strichliste führt und dann ab z.B. 5 Anfragen nicht mehr reagiert. Also machen Sie da ruhig ein Alternativszenario draus.
-    - (sbe)
-    - (sbe)
 ---
 
 ## Hauptszenario
