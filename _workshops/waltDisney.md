@@ -32,6 +32,8 @@ history:
         date: 2021-06-24
         comment: Added values to categories
 todo:
+ignore:
+    - w005
 ---
 
 ## Ablauf
