@@ -14,7 +14,6 @@ history:
     v1:
         date: 2021-07-27
         comment: initially created
-
 todo:
 ---
 
@@ -22,7 +21,7 @@ todo:
 
 | Referenz | Reviewer-Kommentar | Autor-Kommentar |
 |------------|------------------|-----------------|
-| Allgemein  | Wiederholung des gleichen Satzanfangs | |
-| Abs. 1 Satz 1  | Im ersten Satz wird kein geneues Fach genannt, sondern nur die generalisierte Formulierung "für eines seiner Fächer". | |
-| Abs. 1 Satz 3 | Typo | |
-| Abs. 3 Satz 3 | Der Satz ist sehr lang und verschachtelt. | |
+| Allgemein  | Wiederholung des gleichen Satzanfangs | true, gleicher Satzanfang als Ausgangsszenario extrahiert|
+| Abs. 1 Satz 1  | Im ersten Satz wird kein geneues Fach genannt, sondern nur die generalisierte Formulierung "für eines seiner Fächer". | Ein konkretes Fach wurde spezifiziert |
+| Abs. 1 Satz 3 | Typo | kein Typo gefunden. Bitte spezifizieren wenn nötig |
+| Abs. 3 Satz 3 | Der Satz ist sehr lang und verschachtelt. | true, wurde vereinfacht und auf mehrere Sätze aufgeteilt|
