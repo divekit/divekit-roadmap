@@ -24,8 +24,9 @@ history:
     v4:
         date: 2021-07-26
         comment: Changed sytem to divekit
-
 todo:
+    - (sbe) bitte Abgleich mit / Abgrenzung zu BereitstellungUserPreferences
+    - (sbe) welche Designelement sollen individualisierbar sein?
 ---
 
 Das DiveKit sollte Usern die Möglichkeit bieten das Design des Systems individuell festlegen zu können.

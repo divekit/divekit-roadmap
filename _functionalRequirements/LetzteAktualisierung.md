@@ -25,8 +25,9 @@ history:
     v4:
         date: 2021-07-16
         comment: Modified responsibles as discussed
-
 todo:
+    - (sbe) bitte ergänzen (weil das die Kritik ist ...) - "deutlich sichtbar und in der Zeitzone des Studierenden"
+    - (sbe) bitte Satzschablonen-Format einhalten
 ---
 
 Das DiveKit soll den Zeitstempel der letzten Aktualisierung des eingereichten Codes anzeigen können.

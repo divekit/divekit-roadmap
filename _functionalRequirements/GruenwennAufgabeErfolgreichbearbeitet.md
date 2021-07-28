@@ -31,8 +31,9 @@ history:
     v5:
         date: 2021-07-16
         comment: Modified responsibles as discussed
-
 todo:
+    - (sbe) bitte in der Format der Satzschablone bringen
+    - (sbe) was genau wäre denn die Anforderung hier? Anscheinend war ja die Aufgabenstellung unzureichend durch Tests abgesichert, so dass eine falsche Lösung trotzdem grün wurde. Was genau müsste DiveKit für ein Feature haben, damit das nicht passiert?     
 ---
 
 Das DiveKit darf den Status eines Tests erst dann auf grün setzen, wenn der Benutzer die Aufgabe erfolgreich bearbeitet hat.

@@ -28,6 +28,7 @@ history:
 
 todo:
     - bitte den Systemnamen verwenden -> Das DiveKit; siehe Template(jlü)
+    - (sbe) `_wem_ soll die Möglichkeit gegeben werden?
 ---
 
 Das System soll die Möglichkeit bieten eine Obergrenze für die Anzahl von Feedback-Anfragen zu setzen.
