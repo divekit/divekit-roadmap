@@ -17,15 +17,19 @@ history:
         comment: add explanation and specify sources
     v3: 
         date: 2021-07-27
-        comment: update Titel
+        comment: update Title
+    v4:
+        date: 2021-07-28
+        comment: update description
 todo:
-    - (sbe) bitte präzisieren - was genau heißt "Aufgaben automatisiert testen zu können"? Wer testet, der prüfende WMA oder der Studie, der eine Programmieraufgabe löst?
 ---
 
 ## Beschreibung
 
 Nicht immer sind die eingereichten Lösungen für die Aufgaben korrekt gelöst. 
-Fehler müssen bestmöglich automatisiert festgestellt werden und als solche kenntlich gemacht werden.
+Fehler in den eingereichten Lösungen müssen bestmöglich automatisiert vom DiveKit festgestellt werden und als solche kenntlich gemacht werden. 
+
+Ziel ist es möglichst alle Fehler in den bearbeiteten Aufgaben ohne manuelle Korrektur durch WMA oder Dozent*in festzustellen.
 
 ## Begründung
 

@@ -37,13 +37,12 @@ history:
         date: 2021-07-16
         comment: Modified responsible as discussed
     v5:
-        date: 2021-07-16
+        date: 2021-07-28
         comment: specify FR
 todo: 
-    - (sbe) Die Formulierung nach Satzschablone sollte noch insofern präzisiert werden, dass um eine Erweiterung für neue Aufgabentypen geht.         
 ---
 
-Das DiveKit muss eine API zur Erweiterung der möglichen Aufgabentypen des DiveKits bereitstellen.
+Das DiveKit muss eine API zur Erweiterung der möglichen Aufgabentypen und Umfang der Aufgaben des DiveKits bereitstellen.
 
 ## Begründung
 
