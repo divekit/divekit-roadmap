@@ -23,8 +23,7 @@ history:
         comment: added goals, source, FR changes (neu geschrieben)
 
 todo:
-    - Bitte präzisieren - was genau heißt das? Ein Repo kann beliebig oft gepusht werden, es gibt nur ein Zeitlimit. Das wird aber von den Betreuern gesetzt und nicht vom Tool. 
-    - Goals gamification und levelsystem existieren so nicht. Ich sehe keinen Grund ein Requirement zu erfinden wenn kein Stakeholder jemals etwas von "leveln" gesagt hat.
+
 ---
 
 Wenn der Studierende eine Unteraufgabe von einer Aufgabe nicht geschafft hat, dann sollte das Divekit die Möglichkeit bieten den Fortschritt eines Studierenden zu speichern, um die nicht bestandene Unteraufgabe, an einem neuen Termin zu wiederholen.

@@ -1,28 +1,30 @@
 ---
 type: persona
 acronym: wIwan
-stakeholderRole: studentInf
+stakeholderRole: studierenderImHoeherenSemester
 responsible:
     - ama
 name: Walter Iwan
 age: 29
 isPrimary: no
 relationshipToProject: >
-    Kein Anwender des Systems, weil er die Praktikas schon absolviert hat, aber er ist etwas enttäuscht, dass es so ein System nicht damals schon gegeben hat.
-source:
+        passiver Anwender des Divekits, weil der Anwender hat die Praktika schon erfolgreich absolviert und muss noch die Klausuren schreiben.
+source: 
+    - [interview, fkrampe, Minute 48:53]
 history:
     v1:
         date: 2021-06-20
         comment: initially created
     v2:
         date: 2021-07-27
-        comment: changed stakeholderRole to studentInf (sbe)        
+        comment: changed stakeholderRole to studentInf (sbe)
+    v2:
+        date: 2021-07-27
+        comment: changed stakeholderRole to studierenderImHoeherenSemester      
 todo:
 ---
 
 ## Beschreibung
-Walter ist 29 Jahre alt und ist im 9. Semester Medieninformatik Bachelor und er hat schon viele der Praktikas absolviert. 
-Er ist erleichtert, dass er nur noch die Klausuren schreiben muss, aber trotzdem ist er etwas neidisch darauf, dass er das System nicht zu seiner Zeit benutzen konnte, als er noch die Praktikas machen musste. 
-Aber er ist glücklich darüber, dass er jetzt die Möglichkeit hat das Divekit zu benutzen, um sich für die Klausur vorzubereiten. 
-Während seines Studiums hat Walter als Werkstudent gearbeitet und hat so auch praktische Erfahrung gesammelt und konnte seine Programmierkenntnisse erweitern. 
-Er hatte auch im 3 und 4. Semester ein Auslandsstudium in Kanada gemacht und hat dort einige Fächer belegt. Er muss jetzt nur noch Softwaretechnik und AP2 schreiben.   
+Walter ist 29 Jahre alt und ist im 9. Semester Medieninformatik Bachelor und hat die Praktikas von Softwaretechnik und Algorithmen und Programmieren 2 erfolgreich absolviert und muss nur noch die Klausuren schreiben.
+Er ist erleichtert, dass er nur noch die Klausuren schreiben muss, aber er findet es schade, dass er das Divekit nicht zu seiner Zeit benutzen konnte, als er noch die Praktikas machen musste. 
+Aber er ist glücklich darüber, dass er jetzt die Möglichkeit hat das Divekit zu benutzen, um sich für die Klausur besser vorzubereiten.

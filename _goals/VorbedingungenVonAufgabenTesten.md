@@ -5,7 +5,7 @@ responsible:
     - ama
 title: Vorbedingung von Aufgaben Testen
 source:
-    - [interview, ckohls, Minute 00-29-13]
+    - [interview, ckohls, Minute Minute 00-14-41]
 history:
     v1:
         date: 2021-07-21
@@ -16,8 +16,9 @@ todo:
 
 ## Beschreibung
 
-Das System soll testen können ob Vorbedingungen, welche bei der Aufgabenerstellung vorgegeben wurden, richtig definiert wurden. Hierbei sollte automatisch durch Tests geprüft werden ob Klassen, Variablen und Zugriffsmodifikatoren richtig gesetzt wurden.
+Es sollten Tests durchgeführt werden, ob der Studierende für die Lösung der Aufgaben die Vorbedingung wie zum Beispiel: Zugriffsmodifikator für Variablen, Funktionen oder Klassen richtig gesetzt hat, um beispielsweise die Sicherheit des Source Codes zu gewährleisten.
 
 
 ## Begründung
-Dadurch soll Studierende dazu bewegt werden Clean Code zu schreiben da sie darauf achten müssen die Vorgaben der Aufgaben zu erfüllen
+Hierbei soll gefördert werden, dass der Studierende beim Programmieren auch darauf achtet, dass der Sourcecode sicher ist und dass der Zugriff auf wichtige Variablen oder Funktionen beschränkt ist.
+
