@@ -20,8 +20,11 @@ history:
     v2: 
         date: 2021-07-28
         comment: resolved issues from review
-
 todo: 
+    - (sbe) Schritt 2 - was genau heißt "speichert das Ergebnis"? DiveKit erfordert Commit+Push. Ist das gemeint? Dann sollten Sie es auch schreiben ;-)
+    - (sbe) Schritt 3 fehlt
+    - (sbe) wie genau soll "5) Das System teilt dem Nutzer mit, ob die Aufgabe korrekt erledigt wurde" erfolgen? Bekommt der Nutzer eine Mail o.ä.? Oder schaut er/sie auf der Testseite nach?
+    - (sbe) Ausnahmeszenario modelliert einen Bug (Systemfehler). Das macht man nicht, dann lieber weglassen. Man geht bei der Modellierung von korrekt implementierter Software aus.
 ---
 
 
@@ -29,7 +32,7 @@ todo:
 
 * 1) Student schließt eine Aufgabe ab
 * 2) Student speichert das Ergebnis
-* 4) Das Systemm führt eine automatische Überprüfung der Aufgabe durch
+* 4) Das System führt eine automatische Überprüfung der Aufgabe durch
 * 5) Das System teilt dem Nutzer mit, ob die Aufgabe korrekt erledigt wurde
 
 ## Alternativszenario
