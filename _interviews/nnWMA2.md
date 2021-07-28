@@ -15,6 +15,7 @@ history:
         comment: initially created
 todo: 
     - Stakeholder-Referenz
+    - Wie ist das gemeint? Der Stakeholder ist doch referenziert?
 ---
 ## Interviewleitfaden
 

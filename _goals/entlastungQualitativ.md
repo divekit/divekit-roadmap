@@ -18,8 +18,9 @@ history:
     v3:
         date: 2021-07-16
         comment: move from betreuung zu entlastung
-
-todo: 
+todo:
+    - (sbe) Warum gilt dieses Ziel nur für BWL-Profs? Und wenn ja, dann sollte das im Titel reflektiert sein. 
+    - (sbe) Was genau ist mit "qualitative Unterstützung" gemeint?`Vielleicht genügt schon ein Beispiel, mir ist es wirklich nicht klar. 
 ---
 
 ## Beschreibung

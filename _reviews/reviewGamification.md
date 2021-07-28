@@ -14,6 +14,9 @@ history:
     v1:
         date: 2021-07-27
         comment: initially created
+    v2:
+        date: 2021-07-28
+        comment: Autorenkommentare hinzugefügt
 
 todo:
 ---
@@ -22,7 +25,7 @@ todo:
 
 | Referenz | Reviewer-Kommentar | Autor-Kommentar |
 |------------|------------------|-----------------|
-| Allgemein | Die Use Case Schablone ist nur für Beschreibung eines Use Cases. Aktuell werden alle UseCases nacheinander beschrieben. Bitte einen der Use Case auswählen und die Use Case Schablone anwenden. | |
-| Postcondition | Postcondition ist an sich in Ordnung, aber ich persönlich würde die Postcondition vereinfachen | |
-| Szenario | Die Prozessschritte des Systems sollten berücksichtigt werden.| |
-| Szenario | Die Alternativ- und Ausnahmeszenarien ergeben sich aus dem angepassten Hauptszenario | |
+| Allgemein | Die Use Case Schablone ist nur für Beschreibung eines Use Cases. Aktuell werden alle UseCases nacheinander beschrieben. Bitte einen der Use Case auswählen und die Use Case Schablone anwenden. | Aufgabenstellung wurde falsch verstanden. Wurde für einen bestimmten Fall umgesetzt. |
+| Postcondition | Postcondition ist an sich in Ordnung, aber ich persönlich würde die Postcondition vereinfachen | Wurde angepasst. |
+| Szenario | Die Prozessschritte des Systems sollten berücksichtigt werden. | True. Wird im Zuge der Verbesserung angepasst. |
+| Szenario | Die Alternativ- und Ausnahmeszenarien ergeben sich aus dem angepassten Hauptszenario | Wurden ergänzt. Allerdings ergibt sich nur ein Alternativszenario |

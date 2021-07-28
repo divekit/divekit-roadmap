@@ -33,7 +33,9 @@ history:
     v6:
         date: 2021-07-27
         comment: fixed small things
-
+    v7:
+        date: 2021-07-27
+        comment: added review changes
 
 todo:
 ---
@@ -44,7 +46,7 @@ Emilia nimmt am Praktikum von Softwaretechnik im dritten Semester teil. Sie merk
 
 ## Hauptszenario 
 
-Nun versucht sie über Discord eine betreuende Person zu erreichen. Nach kurzer Wartezeit hat eine betreuende Person ihr schriftlich Hilfe zugesichert. Beide treffen sich in einen Discord-Sprachkanal und ihre Fragen werden ausführlich beantwortet. Nun kann sie mit der Bearbeitung der Aufgaben beginnen.
+Nun versucht sie über Discord eine betreuende Person zu erreichen. Nach kurzer Wartezeit hat eine betreuende Person ihr schriftlich Hilfe zugesichert. Beide treffen sich in einen Discord-Sprachkanal. Die Betreuende Person kann ihr Problem beheben und ihre Fragen  beantworten. Nun kann sie mit der Bearbeitung der Aufgaben beginnen.
 
 ## Alternativszenario (Fehler unbekannt)
 
@@ -52,8 +54,8 @@ Nun versucht sie über Discord eine betreuende Person zu erreichen. Nach kurzer 
 
 ## Alternativszenario 2 (Kommunikationsweg)
 
-Nun versucht sie über E-Mail eine betreuende Person zu erreichen. Sie muss einige Zeit auf eine Antwort warten und bekommt eine auführliche, schriftliche Beantwortung ihrer Fragen zurück. Nun kann sie mit der Bearbeitung der Aufgabe beginnen.
+Nun versucht sie per E-Mail eine betreuende Person zu erreichen. Sie muss einige Zeit auf eine Antwort warten und bekommt eine auführliche, schriftliche Beantwortung ihrer Fragen zurück. Nun kann sie mit der Bearbeitung der Aufgabe beginnen.
 
 ## Negativ Szenario
 
-Nun versucht sie über E-Mail eine betreuende Person zu erreichen. Da sie nach zwei Tagen noch keine Reaktion auf ihre Frage bekommen hat, stellt sie ihre Fragen noch einmal in Discord. Leider wurden beide Anfragen über sehen und sie stellt die Frage nun ihren Mitstudierende. Diese wissen allerdings auch nicht die Antwort, da bei ihnen alles funktioniert. Sie kann nun die Aufgaben nicht bearbeiten.
+Nun versucht sie per E-Mail eine betreuende Person zu erreichen. Da sie nach zwei Tagen noch keine Rückmeldung auf ihre E-Mail bekommen hat, stellt sie ihre Fragen in Discord. Nachdem Emilia weitere zwei Tage auf eine Rückmeldung gewartet hat, versucht sie es nun bei ihren Mitstudierenden. Diese können ihren allerdings auch keine Hilfe gaben. Sie kann die Aufgabe nicht bearbeiten.

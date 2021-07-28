@@ -4,7 +4,7 @@ acronym: FalscheLoesungen
 responsible:
     - jlü
     - kru
-title: Fehlermeldungen der Fehlgeschlagenen Tests
+title: Fehlermeldungen der fehlgeschlagenen Tests
 goals: 
     - fehlerErkennung
 implementationStatus: implemented
@@ -27,8 +27,8 @@ history:
     v5:
         date: 2021-07-16
         comment: Modified responsibles as discussed
-
-todo: 
+todo:
+    - (sbe) bitte präzisieren - wie ist der Halbsatz "und diese als inkorrekt markieren" gemeint, wenn es sich zum Beispiel um Code handelt, bei dem der Test fehlschlägt? 
 ---
 
 Wenn die von den Studierenden eingereichte Lösung Fehler erzeugt, soll das DiveKit die Fehler feststellen und diese als inkorrekt markieren.

@@ -11,7 +11,6 @@ history:
     v1:
         date: 2021-06-04
         comment: initially created
-
 todo: 
     - zweiter Abschnitt der Beschreibung passt vielleicht besser in die Begründung
 ---

@@ -20,19 +20,12 @@ history:
     v3:
         date: 2021-07-26
         comment: updated subgoal links
-
-
 todo: 
 ---
 
 ## Beschreibung
 
-Die Studiernden sollen bei ihrer Arbeit motiviert werden. Motivation ist hierbei als Kollektivum (Sammelbegriff) zu betrachten, da es viele voneinander unabhängige Formen der Motivation gibt:
-
-* [Allgemeiner Lerndruck](https://divekit.github.io/divekit-roadmap/goals/motivationLerndruck.html)
-* [Extrinsische Motivation durch Bonuspunkte o. Ä.](https://divekit.github.io/divekit-roadmap/goals/motivationExtrinsisch.html)
-* [Intrinsische Motivation durch Gamification o. Ä.](https://divekit.github.io/divekit-roadmap/goals/motivationIntrinsisch.html)
-* [Motivation durch Übung](https://divekit.github.io/divekit-roadmap/goals/motivationCodingAnteil.html)
+Die Studiernden sollen bei ihrer Arbeit motiviert werden. Motivation ist hierbei als Kollektivum (Sammelbegriff) zu betrachten, da es viele voneinander unabhängige Formen der Motivation gibt.
 
 ## Begründung
 

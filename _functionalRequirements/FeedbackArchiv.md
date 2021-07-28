@@ -28,8 +28,9 @@ history:
     v4:
         date: 2021-07-26
         comment: changed system name
-
 todo:
+    - (sbe) bitte an Satzschablone anpassen, "sollte" gibts nicht
+    - (sbe) mir ist noch nicht klar, was genau das Archiv enthalten soll. Nur individuelles Feedback, also an die eigene Person? Welchen Nutzen hat der Studierende davon? 
 ---
 
 Das DiveKit sollte in der Lage sein den Studierenden ein Feedback-Archiv zur Verfügung zu stellen.

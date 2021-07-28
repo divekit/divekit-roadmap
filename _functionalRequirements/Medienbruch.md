@@ -18,6 +18,7 @@ history:
         date: 2021-07-08
         comment: update
 todo: 
+    - (sbe) bitte Satzschablone verwenden. Wem wird etwas ermöglicht?
 ---
 
 Das DiveKit soll es ermöglichen, dass Dokumente/Aufgabenstellungen bereitgestellt werden können.

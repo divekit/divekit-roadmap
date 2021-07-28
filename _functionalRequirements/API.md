@@ -35,12 +35,17 @@ history:
         comment: Begründung Kano
     v4:
         date: 2021-07-16
-        comment: Modified responsibles as discussed
+        comment: Modified responsible as discussed
+    v5:
+        date: 2021-07-16
+        comment: specify FR
+todo: 
+    - (sbe) Die Formulierung nach Satzschablone sollte noch insofern präzisiert werden, dass um eine Erweiterung für neue Aufgabentypen geht.         
 ---
 
-Das DiveKit muss eine API zur Erweiterung des Divekit bereitstellen.
+Das DiveKit muss eine API zur Erweiterung der möglichen Aufgabentypen des DiveKits bereitstellen.
 
 ## Begründung
 
-Das Divekit soll auch von Professoren und wissenschaftlichen Mitarbeitern an individuelle Aufgabenstellungen angepasst werden können, damit diese eigene 
+Das DiveKit soll auch von Professoren und wissenschaftlichen Mitarbeitern an individuelle Aufgabenstellungen angepasst werden können, damit diese eigene 
 Aufgabentypen anbieten können und nach Abschluss der Betreuung des Tools die Anwendung weiter am laufen halten. Zudem müssen andere Systeme angebunden werden können.

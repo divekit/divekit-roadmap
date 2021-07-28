@@ -6,8 +6,11 @@ responsible:
     - duz
     - ako
 title: Einfachere Stuktur der Testseiten
+isTopLevel: true
 source:
     - [beobachtungstagebuch, PC6]
+belongsTo:
+isTopLevel: true
 history:
     v1:
         date: 2021-07-16
@@ -15,8 +18,9 @@ history:
     v2:
         date: 2021-07-26
         comment: modified reason
-
 todo:
+    - (sbe) Können Sie Ihre Vermutung noch im Titel reflektieren?
+    - (sbe) Ich weiß, was gemeint ist, aber bitte schreiben Sie einen Satz dazu, dass die Quellen keine Nachfrage erlauben. 
 ---
 
 ## Beschreibung

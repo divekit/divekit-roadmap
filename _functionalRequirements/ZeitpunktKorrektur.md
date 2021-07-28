@@ -24,8 +24,9 @@ history:
     v4:
         date: 2021-07-16
         comment: fixed wrong responsible
-
 todo:
+    - (sbe) bitte noch ergänzen - "und dem Studierenden mitteilen", das wird erst aus der Begründung ersichtlich
+    - (sbe) bitte Titel präzisieren
 ---
 
 Das DiveKit soll dem Betreuer die Möglichkeit bieten einen Zeitpunkt festzulegen, wann die Aufgaben korrigiert werden.

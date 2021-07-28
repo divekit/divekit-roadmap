@@ -13,6 +13,8 @@ history:
     v1:
         date: 2021-07-08
         comment: initially created
+todo:
+    - (sbe) muss, nicht soll?        
 ---
 ## Beschreibung
 Im System soll es möglich sein Bilder als Abgabe für bestimmte Aufgaben hochzuladen.

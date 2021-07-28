@@ -29,6 +29,7 @@ history:
         date: 2021-07-15
         comment: Fixed goales
 todo: 
+    - (sbe) bitte Abgleich mit / Abgrenzung zu IndividuellesDesign
 ---
 
 Das DiveKit soll eine Konfiguration von User Preferences ermöglichen.

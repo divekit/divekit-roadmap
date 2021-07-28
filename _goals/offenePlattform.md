@@ -13,9 +13,8 @@ history:
     v1:
         date: 2021-07-02
         comment: initially created
-
-
 todo: 
+    - (sbe) Wenn es konkret um Open Source geht, sollte das auch so im Titel stehen. "Offenheit" kann auch Erweiterbarkeit mittels API heißen. 
 ---
 
 ## Beschreibung

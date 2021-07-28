@@ -10,6 +10,7 @@ source:
     - [beobachtungstagebuch, PC4]
     - [interview, jintveen, Minute 00-54-13]
 belongsTo:
+isTopLevel: true
 history:
     v1:
         date: 2021-07-16
@@ -17,8 +18,8 @@ history:
     v2:
         date: 2021-07-16
         comment: merged with goal einstieg
-
-todo: 
+todo:
+    - (sbe) für welche Nutzer*innengruppe gilt das Ziel? Nur Studies oder auch Lehrende? 
 ---
 
 ## Beschreibung

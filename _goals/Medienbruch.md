@@ -4,6 +4,7 @@ acronym: Medienbruch
 responsible:
     - jsp
 title: Medienbrüche entfernen
+isTopLevel: true
 source:
     - [Interview, nnProf1, Minute 00-17-05]
 history:

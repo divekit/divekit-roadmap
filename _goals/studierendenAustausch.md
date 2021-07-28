@@ -10,6 +10,7 @@ source:
     - [beobachtungstagebuch, RD1]
     - [interview, mreitano, 00-13-47]
 belongsTo:
+isTopLevel: true
 history:
     v1:
         date: 2021-07-16
@@ -17,7 +18,6 @@ history:
     v2:
         date: 2021-07-16
         comment: added formatting
-
 todo:
 ---
 

@@ -24,8 +24,8 @@ history:
     v4:
         date: 2021-07-26
         comment: modified regarding todo and added reason
-
 todo:
+    - (sbe) siehe entsprechende Bemerkung bei einem der Ziele - bitte schreiben Sie noch kurz, wieso Sie etwas vermuten müssen.
 ---
 
 Das DiveKit sollte in der Lage sein Studierenden anzuzeigen, wie lange die Korrektur der Aufgaben dauert bzw. welchen Stand die Korrektur gerade hat.

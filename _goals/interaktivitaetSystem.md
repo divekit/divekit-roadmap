@@ -11,14 +11,22 @@ source:
     - [beobachtungstagebuch, PS7]
     - [beobachtungstagebuch, RD3]
 belongsTo:
+isTopLevel: true
 history:
     v1:
         date: 2021-07-16
         comment: initially created
-
+    v2:
+        date: 2021-07-27
+        comment: updated Beschreibung & Begründung
 todo:
-    - Begründung und Beschreibung hinzufügen und aufteilen
 ---
 
-Um eine angenehme Nutzererfahrung zu ermöglichen, sind akzeptable Reaktionszeiten der Seite, sowie kurze Korrekturzeiten der Tests notwendig.
+## Beschreibung
+
+Das DiveKit soll durch schnelle Reaktionszeiten angenehme Interaktivität gewährleisten.
+
+## Begründung
+
+Um eine angenehme Nutzererfahrung zu ermöglichen, sind akzeptable Reaktionszeiten der Seite sowie kurze Korrekturzeiten der Tests notwendig.
 

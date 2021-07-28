@@ -27,8 +27,8 @@ history:
     v4:
         date: 2021-07-12
         comment: added options
-
-todo: 
+todo:
+    - (sbe) Welchen Zweck erfüllen die beiden Versionen in der Beschreibung - sind das nicht schon Lösungsalternativen? Oder ist das Ziel, die zweite Variante ("oberflächlich mit der großzügigen Unterstützung von einer IDE o.Ä. an das Thema heranzugehen") zu verhindern? Es wäre gut, wenn Sie das noch präzisieren könnten. 
 ---
 
 ## Beschreibung

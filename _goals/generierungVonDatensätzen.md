@@ -20,6 +20,7 @@ todo:
     - implemtationStatus in Metainformationen richtig?
     - partofLagerGoal anpassen -> weglassen?
     - Titel, Beschreibung, Begründung passen nicht
+    - Ziel ist doppelt!
 ---
 
 ##Beschreibung

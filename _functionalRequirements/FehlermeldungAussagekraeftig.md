@@ -28,6 +28,7 @@ history:
         date: 2021-07-16
         comment: added kano classification
 todo: 
+    - (sbe) Duplikat zu AutoAenderung? - bitte zusammenführen oder abgrenzen 
 ---
 
 Bei fehlerhaften Umgebungseinstellungen (pom.xml), muss das DiveKit eine entsprechende Fehlermeldung erzeugen.

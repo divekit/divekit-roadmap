@@ -22,6 +22,7 @@ history:
         date: 2021-07-15
         comment: Fixed goalesS
 todo: 
+    - (sbe) ... vielleicht lieber "Anwendung von mathematischen Standardformeln" statt "Rechenaufgabe" ...? Klingt sonst eher nach Grundschule ...
 ---
 
 Bei der Aufgabenerstellung wird das DiveKit den Lehrverantwortlichen die Möglichkeit bieten, Rechenaufgaben zu erstellen.

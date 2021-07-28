@@ -28,8 +28,8 @@ history:
     v4:
         date: 2021-07-27
         comment: modified reason and fixed typo
-
 todo:
+    - (sbe) bitte Satzschablone verwenden
 ---
 
 Die automatischen Tests des DiveKit müssen in weniger als 5-10 Minuten ablaufen.

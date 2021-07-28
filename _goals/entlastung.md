@@ -11,6 +11,7 @@ source:
     - [interview, fkrampe, Minute 00-15-22]
     - [interview, mengelen, Minute 00-14-46]
 belongsTo:
+isTopLevel: true
 history:
     v1:
         date: 2021-06-04
@@ -32,14 +33,6 @@ todo:
 
 Der Mitarbeiter möchte entlastet werden.
 
-
-Dieses Ziel ist ein Oberziel von:
-
-* [Entlastung bei Aufgabenerstellung](https://divekit.github.io/divekit-roadmap/goals/entlastungAufgabenerstellung.html)
-* [Vollautomatische Korrektur](https://divekit.github.io/divekit-roadmap/goals/entlastungAutoSystem.html)
-* [Automatische Korretkur](https://divekit.github.io/divekit-roadmap/goals/entlastungKorrektur.html)
-* [Qualitative Unterstützung bei Auswertung](https://divekit.github.io/divekit-roadmap/goals/entlastungQualitativ.html)
-* [Teilkorrektur](https://divekit.github.io/divekit-roadmap/goals/entlastungTeilkorrektur.html)
 
 ## Begründung
 

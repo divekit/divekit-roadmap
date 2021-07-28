@@ -22,10 +22,11 @@ history:
     v3:
         date: 2021-07-15
         comment: Fixed goales
-todo: 
+todo:
+    - (sbe) Duplikat mit ZufaelligeGenerierungAufgaben. Bitte zusammenführen oder abgrenzen. 
 ---
 
-Das DiveKit muss ein origin git repository mit Aufgaben für jeden Studenten individuell kopieren und bereitstellen.
+Das DiveKit muss ein Origin-Git-Repository mit Aufgaben für jeden Studenten individuell kopieren und bereitstellen.
 
 ## Begründung
 

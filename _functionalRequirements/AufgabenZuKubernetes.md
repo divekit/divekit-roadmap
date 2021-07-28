@@ -23,6 +23,7 @@ history:
         date: 2021-07-15
         comment: Fixed goales
 todo: 
+    - (sbe) siehe Anmerkungen zu AufgabenZurGoogleCloud
 ---
 
 Wenn der Dozierende Aufgaben im Umgang und der Erstellung von Kubernetes Clustern stellt, soll das DiveKit die gestellten Aufgaben 

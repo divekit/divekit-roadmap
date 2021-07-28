@@ -10,7 +10,7 @@ isPrimary: yes
 relationshipToProject: >
     Anwender des Systems. Möchte mit diesem Tool Aufgaben für Praktika erledigen.
 source: 
-    - [interview, fkrampe, Minute 48:53]
+    - [interview, fkrampe, Minute 00-48-53]
 history:
     v1:
         date: 2021-06-13
@@ -22,9 +22,9 @@ history:
 
 Klaus ist ein 24-jähriger Informatikstudent aus dem dritten Semester an der TH Köln. Er hat das Studium begonnen, um sich möglichst gut auf das spätere Arbeitsleben vorbereiten zu können. 
 
-Daher ist er während seines Studiums sehr fleißig und möchte gerne seinen Wissenstands auch außerhalb der Praktika und Klausuren auf die Probe stellen. 
+Daher ist er während seines Studiums sehr fleißig und möchte gerne seinen Wissenstand auch außerhalb der Praktika und Klausuren auf die Probe stellen. 
 
-Dazu nutzt er ein Features des DiveKits, welches zu einem Vorlesungsthema aus der Vorlesung automatisch	freiwillige Aufgaben erstellt. 
+Dazu löst er neben den vorgegebenen Praktikumsaufgaben auch noch Zusatzaufgaben, welche für das Modul eingestellt wurden.
 
 Er bekommt zwar damit keinen Notenvorteil bei der Klausur, aber kann so zu jedem Zeitpunkt des Semesters einschätzen, wie gut er mit dem aktuellen Stand klarkommt und wo er sich noch genauer mit dem Stoff auseinandersetzen muss.
 

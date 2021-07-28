@@ -14,6 +14,9 @@ history:
     v1:
         date: 2021-07-27
         comment: initially created
+    v2:
+        date: 2021-07-27
+        comment: added author comment
 
 todo:
 ---
@@ -23,12 +26,12 @@ todo:
 
 | Referenz | Reviewer-Kommentar | Autor-Kommentar |
 |------------|------------------|-----------------|
-| Allgemein | Ist die Lernschwäche ein typisches Merkmal von der Stakeholderrolle _Student_? | |
-| Satz 6 | Zu viele Gedanken. In zwei Sätze splitten. Beispiel siehe unten | |
-| Satz 14 | Ist der Begriff _Konzept_ hier angemessen? | |
-| Satz 14 | Zu viele Gedanken. In zwei Sätze splitten. Beispiel siehe unten | |
-| Satz 15 | Vorschlag Umformulierung. Beispiel siehe unten | |
-| Satz 16 | Vorschlag Umformulierung. Beispiel siehe unten | |
+| Allgemein | Ist die Lernschwäche ein typisches Merkmal von der Stakeholderrolle _Student_? | Nein, der allgemeine _Student_ besitzt wahrscheinlich keine oder eine Lernschwäche mit sehr schwache Ausprägung. Allerdings exsistieren Personen im echten Leben mit Lernschwächen, weswegen ich es in Ordnung finde eine Persona mit einer Beinträchtigung zu haben. (Trotzdem gute Anmerkung) |
+| Satz 6 | Zu viele Gedanken. In zwei Sätze splitten. Beispiel siehe unten | Wurde übernommen|
+| Satz 14 | Ist der Begriff _Konzept_ hier angemessen? | Wurde gestrichen |
+| Satz 14 | Zu viele Gedanken. In zwei Sätze splitten. Beispiel siehe unten | Wurde übernommen |
+| Satz 15 | Vorschlag Umformulierung. Beispiel siehe unten | Wurde teilweise übernommen |
+| Satz 16 | Vorschlag Umformulierung. Beispiel siehe unten | Wurde übernommen |
 
 Satz 6:
 	- Emilia hat eine Lernschwäche, weshalb sie überdurchschittlich auf die Hilfe von Betreuern angewiesen ist. Die Schwäche zeichnet sich im wesentlich durch einen erhöhten Lernwaufwand für Emilia aus, um Sachverhalte zu durchdringen.

@@ -1,10 +1,10 @@
 ---
 type: functionalRequirement
-acronym: GruenwennAufgabeErfolgreichbearbeitet
+acronym: ausreichendeTestabdeckung
 responsible:
     - jlü
     - kru
-title: Erst Grün, wenn Aufgabe erfolgreich bearbeitet
+title: Ausreichende Testabdeckung
 goals: 
     - entlastungKorrektur
     - entlastungAutoSystem
@@ -28,15 +28,21 @@ history:
     v5:
         date: 2021-07-15
         comment: Fixed goales
-    v5:
+    v6:
         date: 2021-07-16
         comment: Modified responsibles as discussed
-
-todo:
+    v7:
+        date: 2021-07-27
+        comment: rework requirement
+todo: 
 ---
 
-Das DiveKit darf den Status eines Tests erst dann auf grün setzen, wenn der Benutzer die Aufgabe erfolgreich bearbeitet hat.
+
+
+Das DiveKit muss für die gestellten Aufgaben eine ausreichende Testabdeckung sicherstellen.
 
 
 ###  Anmerkung
-Bei einem Studenten sind die Tests durchgelaufen, obwohl die Aufgabe offensichtlich nicht richtig war
+Bei einem Studenten sind die Tests durchgelaufen, obwohl die Aufgabe offensichtlich nicht richtig war.
+Um sicherzustellen, das Aufgaben korrekt bewertet werden, soll das DiveKit auf Testabdeckung überprüfen und die Aufgabenstellenden 
+bei unzureichender Testabdeckung darauf hinweisen. 

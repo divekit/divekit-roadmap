@@ -22,7 +22,7 @@ history:
         date: 2021-07-15
         comment: Fixed goales
 todo: 
-
+    - (sbe) können Sie nur ein kurzes Beispiel in die Begründung aufnehmen, damit es deutlicher wird? Bin mir nicht sicher, dass ich verstehe, was gemeint ist. 
 ---
 
 Bei der Aufgabenerstellung wird das DiveKit den Lehrverantwortlichen die Möglichkeit bieten, Zuordnungsaufgaben zu erstellen.

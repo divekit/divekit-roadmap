@@ -17,6 +17,7 @@ v1:
 
 todo:
     - Goals gamification und levelsystem existieren so nicht. Ich sehe keinen Grund ein Requirement zu erfinden wenn kein Stakeholder jemals etwas von "leveln" gesagt hat.
+    - (sbe) bitte Satzschablone verwenden
 ---
 
 Das DiveKit sollte die Möglichkeit bieten eine beliebige Anzahl an Programmieraufgaben zu erstellen und 

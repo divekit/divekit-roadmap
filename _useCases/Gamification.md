@@ -4,43 +4,38 @@ acronym: Gamification
 responsible: 
     - psc
 title: 
-description: Ein Student wurd durch Gamification motiviert
+description: Ein Student wurde durch Gamification motiviert
 primaryActor: studierende
 secondaryActors:
     - wmaProg
     - wmaDev
 trigger: Studierender arbeitet im DiveKit
 precondition: Studierender hat Zugriff auf seine Aufgaben
-postcondition: Studierender ist motiviert die Aufgabe fertig zu stellen bzw. die nächste Aufgabe anzufangen
+postcondition: Studierender ist motiviert
 functionalRequirement: MotivationDurchGamification
 history:
     v1:
         date: 2021-07-23
         comment: initially created
+    v2:
+        date: 2021-07-28
+        comment: Verbesserungen aus Review umgesetzt
 
 todo:
 ---
 
-
 ## Hauptszenario
 
-* 1) Der Studierende ruft seine Aufgabenübersicht auf
-* 2) Der Studierende wählt die erste Aufgabe aus
-* 3) Der Studierende erhält ein Errungenschaft für die Auswahl der ersten Aufgabe
-* 4) Der Studierende erarbeitet die Aufgabe und committed seinen Stand
-* 5) Der Studierende erhält eine Errungenschaft für das erste Committen
-* 6) Der Studierende finalisiert die erste Aufgabe
-* 7) Der Studierende erhält eine Errungenschaft für die Abgabe der ersten Aufgabe
-* 8) Der Studierende ist motiviert und beginnt mit der zweiten Aufgabe
+* 1) Der Studierende arbeitet an einer Aufgabe
+* 2) Der Studierende committed seinen Bearbeitungsstand
+* 3) Der Studierende pushed diesen in das System
+* 4) Das System überprüft, ob Bedingungen für eine Errungenschaft erfüllt sind
+* 5) Es sind Bedingungen für eine Errungenschaft erfüllt
+* 6) Das System informiert den Studiereden über den Erhalt einer Errungenschaft
 
 ## Alternativszenario
 
-* 7a) Die abgegebene Aufgabe enthält Fehler
-* 7b) Der Studierende erhält die Errungenschaft _Nobody is perfect_
-
-## Ausnahmeszenario 
-
-entfällt, da die Ausnahme nur bei Nichtnutzung des Divekits relevant wäre
+* 5a) Es sind keine Bedingungen für eine Errungenschaft erfüllt
 
 ### Hinweis
 

@@ -26,6 +26,7 @@ history:
         date: 2021-07-12
         comment: Kano-Klassifizierung vorgenommen
 todo: 
+    - (sbe) bitte Satzschablone verwenden, dadurch würde dann auch das gewünschte Feature klarer. So ist es eher ein Ziel - ich wüsste als Entwicklungsteam nicht, was ich da implementieren muss.
 ---
 
 Das DiveKit soll durch den Einsatz von Gamification eine intrinsische Motivation der Studierenden ermöglichen.

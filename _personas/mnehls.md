@@ -32,6 +32,7 @@ history:
 todo: 
     - Stakeholder ergänzen und anpassen
     - isPrimary anpasseen
+    - (sbe) Alter im Front Matter = 42 und im Text = 76??
 ---
 
 ## Beschreibung

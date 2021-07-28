@@ -30,8 +30,9 @@ history:
     v6:
         date: 2021-07-16
         comment: Modified responsibles as discussed
-
-todo: 
+todo:
+    - (sbe) zumindest teilweise Duplikat von LetzteAktualisierung. Bitte abgrenzen oder zusammenführen.
+ 
 ---
 
 Das DiveKit soll die angezeigten Uhrzeiten an die lokale Zeitzone des Nutzenden anpassen.

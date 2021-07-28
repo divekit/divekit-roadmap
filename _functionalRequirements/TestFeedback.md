@@ -6,7 +6,7 @@ responsible:
     - kru
 title: Feedback zu Tests
 goals: 
-    - fehlerAusgabe
+    - fehlerVerständlichkeit
 implementationStatus: implemented
 prefilterPriorizationPoints: 2
 source:

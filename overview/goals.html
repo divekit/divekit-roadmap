@@ -22,7 +22,40 @@ layout: default
     <tbody>
         {% assign sortField = site.data.metadata["goal"].sortField %}
         {% assign collection = site.goals | sort: sortField %}
-        {% for goal in collection %}
+
+        {% comment %} --- sort the artefacts in a tree-like fashion, with the top-level stakeholders above their specialization --- {% endcomment %}
+        {% assign topLevelItems = collection | where_exp: "item", "item.isTopLevel == true" %}
+        {% assign treeSortedCollection = "" | split: ";" %}
+        {% for topLevelItem in topLevelItems %}
+            {% assign treeSortedCollection = treeSortedCollection | push: topLevelItem %}
+            {% assign treeNodeRef = topLevelItem.acronym %}
+            {% assign treeLeaves = collection | where_exp: "item", "item.belongsTo == treeNodeRef"  %}
+            {% assign treeSortedCollection = treeSortedCollection | concat: treeLeaves %}
+        {% endfor %}
+        {% assign leftOvers = "" | split: ";" %}
+        {% for item in collection %}
+            {% assign curAcronym = item.acronym %}
+            {% assign searchHits = treeSortedCollection | where_exp: "treeElem", "treeElem.acronym == curAcronym" %}
+            {% if searchHits.size == 0 %}
+                {% assign leftOvers = leftOvers | push: item %}
+            {% endif %}
+        {% endfor %}
+        {% assign treeSortedCollection = treeSortedCollection | concat: leftOvers %}
+
+        <h2>Alle Haupt- und Unterziele</h2>
+
+        <p>
+            Für einige Ziele sind auch Unterziele definiert. Hauptziele sind fett, Unterziele eingerückt darunter
+            dargestellt.
+        </p>
+        <p>
+            <a href="{{ site.url }}{{ '/overview/goals-only-main.html' | relative_url }}">
+                <img src="{{ site.url }}{{ '/assets/zoom-in-3-24-blue.png' | relative_url }}" style="min-height: 24px; min-width: 24px;"/>
+                &nbsp;&nbsp;Nur Hauptziele anzeigen
+            </a>
+        </p>
+
+        {% for goal in treeSortedCollection %}
             <tr>
                 {% include /functions/checks/check-goal.html myArtefact=goal %}
                 {% include /functions/get-check-icon.html errors=errorString warnings=warningString todos=goal.todo %}
@@ -32,7 +65,12 @@ layout: default
                 <td><a href="{{ site.url }}{{ goal.url | relative_url }}">{{ globalId }}</a></td>
 
                 {% include /functions/get-artefact-name.html myArtefact=goal %}
-                <td><a href="{{ site.url }}{{ goal.url | relative_url }}">{{ artefactName }}</a></td>
+                {% if goal.isTopLevel %}
+                    <td><a href="{{ site.url }}{{ goal.url | relative_url }}"><b>{{ artefactName }}</b></a></td>
+                {% else %}
+                    <td style="padding-left:50px !important"><a href="{{ site.url }}{{ goal.url | relative_url }}">{{ artefactName }}</a></td>
+                {% endif %}
+
             </tr>
         {% endfor %}
     </tbody>

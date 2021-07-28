@@ -12,7 +12,7 @@ useCases:
     - Lösungen bereitstellen
     - Lösungen abrufen
     - Lösungen einreichen
-useCasesDetailedWithScenario:
+useCasesDetailedWithScenario: LösungenBeiDrittsystemEinreichen
 diagram: ./diagrams/usecaseAPI.png
 history:
     v1:
