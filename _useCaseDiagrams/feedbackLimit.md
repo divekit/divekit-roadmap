@@ -22,6 +22,7 @@ history:
         date: 2021-07-23
         comment: Review-Anmerkungen eingearbeitet
 todo: 
+    - (sbe) nur "Benachrichtigung durchlesen" ist mir unklar, sonst gut
 ---
 
 ## Beschreibung

@@ -15,6 +15,7 @@ history:
         date: 2021-07-17
         comment: initially created
 todo:  
+    - (sbe) Feedback filtern ist m.E. Teil von Suche nach Feedback, sonst gut
 ---
 
 ## Beschreibung

@@ -24,6 +24,9 @@ history:
         date: 2021-07-20
         comment: added use cases
 todo: 
+    - (sbe) im Diagramm heißt es Mitarbeiter und im UC "WMA"
+    - (sbe) im UC kommt der WMA auch vor (bei Alternativszenario). Es gibt aber keine Linie vom WMA zu Information anfordern im Diagramm. 
+    - (sbe) die Include-Beziehungen sind eher Inheritence
 ---
 
 ## Beschreibung

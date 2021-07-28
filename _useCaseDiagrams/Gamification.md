@@ -17,6 +17,11 @@ history:
         date: 2021-07-28
         comment: Verbesserungen aus Review umgesetzt
 todo: 
+    - (sbe) Ist die Trennung in "Auswahl, Bearbeitung und als Erweiterung das Finalisieren einer Aufgabe" nicht zu kleinteilig? Siehe User Happiness Rule. 
+    - (sbe) zumindest - was ist Unterschied zwischen "commit + push" und "finalisieren"? Wie bekommt das System und der WMA es mit, dass ab jetzt nichts mehr kommt?  
+    - (sbe) wenn man die Trennung belässt - wann genau gibts doch Errungenschaft? Potentiell bei jedem der Schritte? 
+    - (sbe) Der WMA als (secondary) Aktor fehlt
+    - (sbe) Es fehlen die Aspekte, Errungenschaften im System zu konfigurieren 
 ---
 
 ## Beschreibung

@@ -25,8 +25,8 @@ history:
     v4:
         date: 2021-07-27
         comment: fix w652
-        
 todo:
+    - (sbe) ./diagrams/useCaseRueckfragenZuAufgaben.png gibts nicht. Habe ich da bei der Syntaxumstellung etwas verbockt, oder ist ein Copy/Paste-Fehler?
 ---
 
 ## Beschreibung
