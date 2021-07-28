@@ -28,6 +28,7 @@ history:
 todo:
     - (sbe) bitte ergänzen (weil das die Kritik ist ...) - "deutlich sichtbar und in der Zeitzone des Studierenden"
     - (sbe) bitte Satzschablonen-Format einhalten
+    - (sbe) zumindest teilweise Duplikat von Zeitzone. Bitte abgrenzen oder zusammenführen.
 ---
 
 Das DiveKit soll den Zeitstempel der letzten Aktualisierung des eingereichten Codes anzeigen können.
