@@ -25,14 +25,19 @@ history:
         comment: added goal
     v3:
         date: 2021-07-16
-        comment: added kano classification      
+        comment: added kano classification 
+    v4:
+        date: 2021-07-28
+        comment: Anforderung mit Satzschablone präzisiert
 todo: 
-    - (sbe) bitte als Satzschablone formulieren, um die Anforderung zu konkretesieren. Welches Feature soll wem zur Verfügung gestellt werden? (Man kann ja an sowas wie "Fraud Flags" denken, die individuell sind und bei Auftauchen woanders zu einem Alarm führen.) 
-    - (sbe) Das muss aber auch in der Begründung näher ausgeführt werden.
+
 ---
 
-Das DiveKit soll Plagiate erkennen und melden können.
+Wenn ein Nutzer eine Lösung einreicht, die in großen Teilen mit einer Lösung von einer anderen Persson übereinstimmt,
+sollte das System ein Fraud-Flag setzen, welchen den wmaProg dazu auffordert, die betroffenen Abgaben genauer zu 
+überprüfen.
 
 ## Begründung
 
-Abschreiben sollte unterbunden werden.
+Plagiate sollten so weit wie möglich unterbunden werden. Wenn das System einen Plagiatsverdacht feststellt, soll menschlich
+überprüft werden, ob dieser Verdacht wahr ist. So sollten falsche Positive nicht zu einer falschen Beschuldigung führen.
