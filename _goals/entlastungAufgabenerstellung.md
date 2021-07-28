@@ -11,15 +11,18 @@ history:
     v1:
         date: 2021-06-04
         comment: initially created
-todo: 
-    - zweiter Abschnitt der Beschreibung passt vielleicht besser in die Begründung
+    v2:
+        date: 2021-07-28
+        comment: Satz aus Beschreibung nach Begründung verschoben
+todo:
+
 ---
 
 ## Beschreibung
 
 Der Mitarbeiter möchte, dass das Erstellen von Aufgaben ihm erleichtert wird.
-Er möchte nicht 10 verschiedene Aufgaben definieren, sondern er wird einen Aufgabenkomplex erstellen und daraus 10 einzelne Aufgaben generieren. 
 
 ## Begründung
 
+Der Mitarbeiter möchte beispielweise nicht 10 verschiedene Aufgaben definieren, sondern er wird einen Aufgabenkomplex erstellen und daraus 10 einzelne Aufgaben generieren.
 Wird dieses Ziel erreicht, wird der Mitarbeiter etwas entlastet, was ein übergeordnetes Ziel ist.
