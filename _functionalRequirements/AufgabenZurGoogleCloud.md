@@ -22,13 +22,17 @@ history:
     v3:
         date: 2021-07-15
         comment: Fixed goales
+    v4: 
+        date: 2021-07-28
+        comment: specify FR 
 todo:
-    - (sbe) finde ich in dieser Formulierung weniger sinnvoll. Das ist doch eine allgemeine Eigenschaft, die man nicht spezifisch für die Google Cloud wiederholen muss. Wäre es nicht sinnvoller, stattdessen eine Art "Plugin" oder Erweiterungs-API für Deployment in die Google Cloud zu fordern? 
-    - (sbe) ... und dann sollte man eine solche Unterstützung auch für den Erstellungsprozess von Aufgaben fordern, z.B. in Form von Test-Libraries.
 ---
 
-Wenn der Dozierende Aufgaben im Umgang mit der Google Cloud stellen möchte, soll das DiveKit die gestellten Aufgaben
-individualisieren und automatisch die eingereichten Lösungen auswerten können.
+Wenn der Dozierende Aufgaben im Umgang mit der Google Cloud stellen möchte, wird das DiveKit in dem Erstellungsprozess der Aufgaben
+unterstützen, ein Deployment in die CLoud anbieten, sowie die gestellten Aufgaben
+individualisieren und automatisch die eingereichten Lösungen so weit wie möglich auswerten.
 
-## Begründung und Erklärung
+## Begründung
 
+Cloud-Anbieter spielen auch in der Lehre eine immer wichtigere Rolle, dem entsprechen sollen Studierende sich in dem Umgang 
+mit diesen vertraut machen.
