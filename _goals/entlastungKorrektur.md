@@ -20,13 +20,13 @@ history:
         comment: Quellen temporär runterkopiert
     v4:
         date: 2021-07-16
-        comment: back to two seperat goals
+        comment: back to two separate goals
     v5:
         date: 2021-07-16
-        comment: updated responible to match v4
+        comment: updated responsible to match v4
 
 todo:
-    - source hoch kopieren
+
 ---
 
 ## Beschreibung
@@ -37,4 +37,3 @@ Er möchte, dass möglichst viele Aufgaben vollautomatisch geprüft werden.
 ## Begründung
 
 Wird dieses Ziel erreicht, wird der Mitarbeiter etwas entlastet, was ein übergeordnetes Ziel ist.
-
