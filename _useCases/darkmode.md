@@ -22,11 +22,14 @@ history:
     v1:
         date: 2021-07-20
         comment: initially created
-
-todo: 
+todo:
+    - (sbe) "precondition Das Setting muss implementiert sein" - das macht man eher nicht, man geht davon aus, dass ein beschriebenes Feature auch implementiert ist. Oder haben Sie das anders gemeint? Dann bitte präzisieren. 
+    - (sbe) "Als User zählt bei diesem Use Case jeder Stakeholder, der mit diesem System interagiert und seine visuellen Settings anpassen möchte." - daher kommen dann auch die vielfachen primaryActors (mit Error). Aber der Darkmode ist doch hauptsächlich für die Studies interessant. Die Lehrenden nutzen gar nicht die Test-Webseite, sondern steuern Divekit hauptsächlich über Config Files, die mit IntelliJ oder VSCode erstellt werden. Da gibts einen Darkmode. 
+    - (sbe) "1) Der User entscheidet sich für die Änderung seiner visuellen Einstellungen" - das ist noch keine Aktion, eher ein Trigger. Dafür ist der momentane Trigger "Der User ruft das Darkmode-Setting auf" eine Aktion, statt einem Auslöser.
+    - (sbe) Alternativszenario macht keinen Sinn, oder?
 ---
 
-Als User zählt bei diesem Usecase jeder Stakeholder, der mit diesem System interagiert und seine visuellen Settings anpassen möchte.
+Als User zählt bei diesem Use Case jeder Stakeholder, der mit diesem System interagiert und seine visuellen Settings anpassen möchte.
 
 ## Hauptszenario
 
