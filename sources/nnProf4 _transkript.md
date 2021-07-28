@@ -4,12 +4,15 @@ responsible:
     - cpo
     - aha
 date: 2021-05-10
-duration: 00:00:00
+duration: 00:54:22
 location: BigBlueButton-Meeting
 history:
     v1:
         date: 2021-06-11
         comment: initially created
+    v2:
+        date: 2021-07-28
+        comment: fixed duration
 todo:
 ---
 ## Transkript nnProf4
