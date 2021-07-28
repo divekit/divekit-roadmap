@@ -14,6 +14,7 @@ history:
         date: 2021-07-21
         comment: initially created
 todo:
+    - (sbe) ein UC-Diagramm mit einem Use Case ???
 ---
 
 ## Beschreibung

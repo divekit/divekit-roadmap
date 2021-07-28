@@ -14,6 +14,8 @@ history:
         date: 2021-07-20
         comment: initially created
 todo: 
+    - (sbe) muss in das Diagramm zu Branding integriert werden - das ist doch derselbe Kontext.
+    - (sbe) Beziehungen zwischen UC sind entweder include, extends, oder Inheritence. Sie haben eine Menge einfacher Striche im Diagramm, die es in UML so nicht gibt.
 ---
 
 ## Beschreibung

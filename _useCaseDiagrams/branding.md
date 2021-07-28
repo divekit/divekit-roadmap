@@ -14,6 +14,8 @@ history:
         date: 2021-07-22
         comment: initially created
 todo: 
+    - (sbe) Use Cases sind viel zu kleinteilig - schauen Sie sich mal die "User Happiness Rule" an
+    - (sbe) Beziehungen zwischen UC sind entweder include, extends, oder Inheritence. Sie haben eine Menge einfacher Striche im Diagramm, die es in UML so nicht gibt.
 ---
 
 ## Beschreibung

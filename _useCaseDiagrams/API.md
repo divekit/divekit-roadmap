@@ -21,8 +21,10 @@ history:
     v2:
         date: 2021-07-27
         comment: update description
-
 todo:
+    - (sbe) "exclude" gibts nicht, ist "extends" gemeint?
+    - (sbe) Die include Beziehungen sind mir nicht so klar. Wieso included z.B. "Individuelle Aufgabe stellen" den UC "Lösungen einsenden" ? Das ist doch nicht zwangsläufig.
+    - (sbe) Layout eines Diagramms sollte so sein, dass man es von links nach rechts / oben nach unten liest. Ist hier eher umgekehrt (links/rechts). Oben/unten ist eher zufällig, oder? 
 ---
 
 ## Beschreibung

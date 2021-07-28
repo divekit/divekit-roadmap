@@ -16,7 +16,9 @@ history:
     v2:
         date: 2021-07-23
         comment: update Beschreibung
-todo: 
+todo:
+    - (sbe) ein UC-Diagramm mit einem Use Case ??? 
+    - (sbe) sollte in das Diagramm zu Branding integriert werden - das ist doch derselbe Kontext. Vielleicht können Sie sich da kurzschließen.
 ---
 
 ## Beschreibung
