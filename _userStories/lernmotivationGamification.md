@@ -1,6 +1,6 @@
 ---
 type: userStory
-acronym: Gamification
+acronym: lernmotivationGamification
 responsible:
     - psc
 title: Lernmotivation durch Gamification
