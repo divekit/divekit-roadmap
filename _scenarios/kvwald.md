@@ -1,7 +1,7 @@
 ---
 type: scenario
 acronym: kvwald
-title: bearbeitung eigener Aufgaben
+title: Bearbeitung eigener Aufgaben
 persona: 
     - kvwald
 scenarioTypes: 
@@ -19,7 +19,7 @@ todo:
 
 ## Beschreibung
 
-Klaus hört in seinem laufenden Semester das Modul Künstliche Intelligence. In den Übungsaufgaben sollen die Studierenden ein neuronales Netz schreiben. Aber Klaus hat das Gefühl,
+Klaus hört in seinem laufenden Semester das Modul Künstliche Intelligenz. In den Übungsaufgaben sollen die Studierenden ein neuronales Netz schreiben. Aber Klaus hat das Gefühl,
 das er das Thema nicht ausreichend verstanden hat, um die entsprechenden Aufgaben lösen zu können. Er fragt sich, ob er die Vorlesungsfolien einfach nicht gut genug verstanden und etwas Wichtiges in der Vorlesung verpasst hat.
 Deswegen schaut er im Divekit nach Extraaufgaben für sein Modul.
 Dort sind auch freiwillige Aufgaben zu neuronalen Netzen eingestellt. Nachdem er diese gelöst bekommen hat, fällt ihm auf, das er das Thema aus der Vorlesung gut verstanden hat,
