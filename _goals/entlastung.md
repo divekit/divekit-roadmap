@@ -25,17 +25,18 @@ history:
     v4:
         date: 2021-07-22
         comment: updated subgoal links
+    v5:
+        date: 2021-07-28
+        comment: Begründung textuell geglättet
 
 todo:
 ---
 
 ## Beschreibung
 
-Der Mitarbeiter möchte entlastet werden.
-
+Mitarbeiter möchten entlastet werden.
 
 ## Begründung
 
-In Bachelor-Studiengängen müssen viele Studierende betreut werden. In teilen werden Veranstaltungen mit über 100 Studierenden angeboten und gehalten. Die Auswertung selbst bei Kleingruppen kann hohe Aufwende für die Mitarbeiter erzeugen.
-Dies belastet die Mitarbeiter enorm.
+In Bachelor-Studiengängen müssen viele Studierende betreut werden. Es kann vorkommen, dass an Veranstaltungen über 100 Studierenden teilnehmen. Je nach Aufgabenstellung kann es zu hohem Aufwand bei der Erstellung, Betreuung, Bewertung etc. für die Lehrenden und Mitarbeiter kommen. Das System sollte dies berücksichtigen.
 
