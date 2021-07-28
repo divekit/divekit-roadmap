@@ -24,7 +24,7 @@ history:
         date: 2021-07-27
         comment: add about github
 ignore:
-    -w005
+    - w005
 todo:
 ---
 
