@@ -5,7 +5,7 @@ title: bearbeitung eigener Aufgaben
 persona: 
     - kvwald
 scenarioTypes: 
-    - main
+    - alternative
 responsible: 
     - fgr
 source: 
@@ -19,9 +19,9 @@ todo:
 
 ## Beschreibung
 
-Klaus hört in seinem laufenden Semester das Modul Künstliche Intelligence. In den Übungsaufgaben sollen sie ein neuronales Netz schreiben, aber er hat das Gefühl,
-das Thema nicht ausreichend verstanden zu haben, um die Aufgaben lösen zu können. Er fragt sich, ob er die Vorlesungsfolien einfach nicht gut genug verstanden und etwas Wichtiges in der Vorlesung verpasst hat.
-Deswegen schaut er bei in Divekit unter den Extraufgaben nach seinem Modul. Da diese nach Studiensemester und Studienfach geordnet sind, findet er sie nach wenigen Schritten.
-Dort sind zu den Kapiteln der Vorlesung Aufgaben eingestellt. Nachdem er die Aufgaben zu neuronalen Netzen gelöst hat, fällt ihm auf, das er das Thema aus der Vorlesung gut verstanden hat,
- aber dieser Wissenstand nicht für die Praktikumsaufgaben reicht. Er ist froh jetzt einschätzen zu können, das sein Wissenstand dem der Vorelsung entspricht und erz um lösen der Praktikumsufgaben 
+Klaus hört in seinem laufenden Semester das Modul Künstliche Intelligence. In den Übungsaufgaben sollen die Studierenden ein neuronales Netz schreiben. Aber Klaus hat das Gefühl,
+das er das Thema nicht ausreichend verstanden hat, um die entsprechenden Aufgaben lösen zu können. Er fragt sich, ob er die Vorlesungsfolien einfach nicht gut genug verstanden und etwas Wichtiges in der Vorlesung verpasst hat.
+Deswegen schaut er im Divekit nach Extraaufgaben für sein Modul.
+Dort sind auch freiwillige Aufgaben zu neuronalen Netzen eingestellt. Nachdem er diese gelöst bekommen hat, fällt ihm auf, das er das Thema aus der Vorlesung gut verstanden hat,
+ aber dieser Wissenstand nicht für die Praktikumsaufgaben reicht. Er ist froh jetzt einschätzen zu können, dass sein Wissenstand dem der Vorelsung entspricht und er zum Lösen der Praktikumsufgaben 
 nicht in den Vorlesungsunterlagen, sondern im Internet und entsprechender Fachliteratur nach den richtigen Ansätzen suchen muss.
