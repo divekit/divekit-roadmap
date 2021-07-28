@@ -16,7 +16,8 @@ history:
         date: 2021-07-28
         comment: improved wording
 todo:
-    
+    - (sbe) Sie haben jetzt hier zwei gleiche (?) Versionen der US - einmal die oben durch das Front Matter definierte (asA ... iWantTo ... forThisReason), und unten nochmal als Text. Bitte nutzen Sie *nur* das Front Matter.    
+    - (sbe) Passt glaube ich gut in einen Sprint. Allerdings würde ich noch eine Einschränkung / Klärung dazuschreiben, dass das erfordert, SCSS-Dateien zu editieren und das System neu zu bauen. Das wäre machbar. Außerdem müsste eine kurze Anleitung dafür in der US drin sein, kann man auch einfach dazuschreiben.     
 ---
 
 ## User Story
