@@ -12,15 +12,19 @@ history:
     v1:
         date: 2021-06-04
         comment: initially created
+    v2:
+        date: 2021-07-28
+        comment: ToDos eingearbeitet. Erläuterung präzisiert. 
 todo:
-    - nnWMA2 -> Aussage -> Für Klausuren lässt sich das Tool laut des Interviewten aus rechtlichen Gründen nicht nutzen
-    - besser als n.n. oder ähnlich markieren
-    - (sbe) bitte noch präzisieren, es gibt mehrere Prüfungsordnungen (eine pro Studiengang). Welche ist gemeint?
-    - (sbe) "In der Prüfungsordnung gibt es Richtlinien, wie eine Prüfung durchzuführen und zu bewerten ist." Lesen Sie mal, ob dazu was drin steht ...
-    - (sbe) "Es muss berücksichtigt werden, ob das Tool für die Prüfungen verwendet werden soll." - wie entscheiden Sie das?
+
 ---
 
 ## Erläuterung
 
-In der Prüfungsordnung gibt es Richtlinien, wie eine Prüfung durchzuführen und zu bewerten ist.
-Es muss berücksichtigt werden, ob das Tool für die Prüfungen verwendet werden soll. 
+An den Hochschulen werden (pro Studiengang) Prüfungsordnungen festgelegt.
+Diese beinhalten unter anderem Vorgaben zur Durchführung von Prüfungen/Klausuren.
+Es kann auch festgelegt werden, wie digitale Systeme verwendet werden sollen.\
+(siehe z.Bsp.: §19 [Prüfungsordnung Informatik (Bachelor)](https://www.th-koeln.de/mam/downloads/deutsch/studium/studiengaenge/f10/ordnungen_plaene/f10_bpo_ifb_tei_mif_wii_15112013.pdf); TH Köln; Stand: 15.11.2013)
+
+Die Lehrende müssen entsprechende Prüfungsordnung berücksichtigen und entscheiden,
+ob das Tool für die Prüfungen verwendet werden darf. 
