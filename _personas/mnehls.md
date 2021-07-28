@@ -6,7 +6,7 @@ responsible:
     - cpo
 name: Mark Nehls
 age: 76 
-isPrimary: yes
+isPrimary: no
 relationshipToProject: >
     Dozent an einer fremden Hochschule. Entwickelt eine Werkzeuge zur automatisierung und möchte diese auch in Zukunft weiter verwenden.
 source: 
@@ -32,9 +32,11 @@ history:
     v2:
         date: 2021-07-28
         comment: fixed age
+    v3: 
+        date: 2021-07-28
+        comment: changed to non-primary
 todo: 
-    - Stakeholder ergänzen und anpassen
-    - isPrimary anpasseen
+    - Rollen anwenderExtern und lehrende ergänzen, wenn möglich (cpo)
 ---
 
 ## Beschreibung
