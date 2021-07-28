@@ -14,13 +14,15 @@ history:
     v2:
         date: 2021-07-08
         comment: Zu Teil eines größeren Ziels gemacht
-todo: 
-    - (sbe) Warum gilt dieses Ziel nur für BWL-Profs? Und wenn ja, dann sollte das im Titel reflektiert sein.
+    v3:
+        date: 2021-07-28
+        comment: Ziel für allgemeine Professor:innen generalisiert
+todo:
 ---
 
 ## Beschreibung
 
-BWL Professor:innen können Aufgaben erstellen, die bei der Lösung Interpretationen zulassen.
+Professor:innen können Aufgaben erstellen, die bei der Lösung Interpretationen zulassen.
 
 ## Begründung
 
