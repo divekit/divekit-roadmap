@@ -8,19 +8,20 @@ description: Ein Student lässt eine Aufgabe auf Richtigkeit prüfen
 primaryActor: studierende
 secondaryActors:
     - wmaProg 
+    - wmaDev
 trigger: Student hat seine Aufgabe erledigt, und möchte sie testen lassen
-precondition: Student sein Ergebnisse im Divekit eingetragen
+precondition: Student hat sein Ergebnisse im Divekit eingetragen
 postcondition: Der Student erhält ein Ergbnis oder eine Fehlermeldung
 functionalRequirement: FehlermeldungAussagekraeftig
 history:
     v1:
-        date: 2021-19-07
+        date: 2021-07-19
         comment: initially created
+    v2: 
+        date: 2021-07-28
+        comment: resolved issues from review
 
 todo: 
-    - wmaDev als Actor eintragen (review)
-    - Da fehlt ein "hat" bei precondition (review)
-    - Tippfehler bei Hauptszenario 1) eine Aufgabe (review)
 ---
 
 
@@ -41,8 +42,9 @@ todo:
 
 * 4a) Aufgrund eines Fehlers kann keine Überprüfung durchgeführt werden 
 * 4b) Dem Studenten wird mitgeteilt, das derzeit aufgrund eines Systemfehlers keine Überprüfung möglich ist und es zu einem späteren Zeitpunkt erneut probiert werden soll
+* 4c) Dem wmaDev wird mitgeteilt, dass sein Systemfehler vorliegt
 
-**Andere Nachbedingung**: Prüfung nicht durchführbar, Student wird informiert, dass ein Systemfehler vorliegt
+**Andere Nachbedingung**: Prüfung nicht durchführbar, Student und wmaDev werden informiert, dass ein Systemfehler vorliegt
 
 
 
