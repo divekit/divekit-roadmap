@@ -4,7 +4,7 @@ acronym: WahlBenachrichtigungskanal
 responsible: 
     - cpo
 title: Freie Wahl des Benachrichtigungskanals
-goals: 
+goals: benachrichtigungskanal
 implementationStatus: open
 prefilterPriorizationPoints: 0
 kano:
@@ -24,8 +24,10 @@ history:
     v2:
         date: 2021-07-16
         comment: added kano classification 
+    v3: 
+        date: 2021-07-28
+        comment: added goal
 todo: 
-    - goals ergänzen (jlü)
 ---
 
 Das DiveKit soll Studierenden die Möglichkeit bieten, den Benachrichtigungskanal für das Informieren über eine abgeschlossene Korrektur frei wählen zu können.
