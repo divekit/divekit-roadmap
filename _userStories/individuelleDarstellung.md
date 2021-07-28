@@ -12,8 +12,9 @@ history:
     v1:
         date: 2021-07-23
         comment: initially created
-
 todo:
+    - (sbe) Was muss implementiert werden, damit diese US erfüllt ist? Ist mir unklar. Was soll das Team tun?
+    - (sbe) bitte so umformulieren, dass ein konkreter erster Schritt möglich ist. 
 ---
 
 ### ggf. Notizen / Hinweise / Bedingungen
