@@ -23,7 +23,8 @@ history:
         date: 2021-07-23
         comment: update header
 todo:
-    
+    - (sbe) komplettes Duplikat von barrierefreiheit_text, bitte eins von beiden löschen
+    - (sbe) viel zu griü
 ---
 
 ## User Story

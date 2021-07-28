@@ -13,7 +13,8 @@ history:
         date: 2021-07-21
         comment: initially created
 todo:
-
+    - (sbe) Sie haben jetzt hier zwei verschiedene Versionen der US - einmal die oben durch das Front Matter definierte (asA ... iWantTo ... forThisReason), und unten nochmal als Text. Bitte nutzen Sie *nur* das Front Matter.
+    - (sbe) Glauben Sie, dass Sie diese US in einem Sprint umsetzen können? Leider viel zu groß und in dieser Form als US komplett unbrauchbar (ist eher ein Epic oder gar ein Theme)
 ---
 
 ## User Story
