@@ -21,5 +21,5 @@ todo:
 
 | Referenz | Reviewer-Kommentar | Autor-Kommentar |
 |------------|------------------|-----------------|
-|Abs. 4 Satz 1 |Typo | |
+|Abs. 4 Satz 1 |Typo | Typo gefunden und behoben |
 
