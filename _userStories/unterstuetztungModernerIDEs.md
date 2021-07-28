@@ -12,8 +12,9 @@ history:
     v1:
         date: 2021-07-24
         comment: initially created
-
 todo:
+    - (sbe) Was muss implementiert werden, damit diese US erfüllt ist? Ist mir unklar. Was soll das Team tun?
+    - (sbe) Sie haben jetzt hier zwei gleiche (?) Versionen der US - einmal die oben durch das Front Matter definierte (asA ... iWantTo ... forThisReason), und unten nochmal als Text. Bitte nutzen Sie *nur* das Front Matter. Bitte passen Sie die Formulierung so an, dass das im Web Interface gut lesbar umgesetzt ist.     
 ---
 
 ## User Story
