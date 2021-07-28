@@ -26,10 +26,9 @@ history:
         date: 2021-07-26
         comment: Changed sytem to divekit
 todo:
-    - (sbe) bitte Satzschablone verwenden. Dann wird auch das gewünscht Feature klarer. Wenn das Requirement einen Terminkalender fordert, dann sollte das auch so in der Formulierung, im Titel und in der Begründung stehen.
 ---
 
-Das DiveKit sollte die Durchführung von manuellen Korrekturen bis kurz vor der Abgabe ermöglichen.
+Das DiveKit soll es Studierenden ermöglichen die Durchführung von manuellen Korrekturen bis kurz vor der Abgabe auszulösen.
 
 ## Begründung
-Die Studierenden wollen manuelle Korrekturen bis kurz vor der Abgabe, um ein genaueres Feedback zu erhalten. Das DiveKit könnte eine Art Terminkalender bereitstellen, um das Vorhaben zu koordinieren und somit bestenfalls beide Seiten zu entlasten.
+Die Studierenden wollen manuelle Korrekturen bis kurz vor der Abgabe, um noch schnell Feedback zu erhalten.

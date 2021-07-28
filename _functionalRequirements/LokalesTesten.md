@@ -25,7 +25,9 @@ history:
         date: 2021-07-16
         comment: Modified responsibles as discussed
 todo:
-    - (sbe) bitte genauer ausführen - das ist nahezu wortgleich die Wiederholung des Ziels. Welche Features braucht DiveKit, um das Ziel umzusetzen? Sonst bitte eher löschen, hat dann keinen Mehrwert.  
 ---
 
-Das DiveKit soll dem User die Möglichkeit bieten Tests lokal zu testen.
+Das DiveKit soll dem User die Möglichkeit bieten Tests lokal auszuführen.
+
+Anmerkung des Business-Analysten:
+Die lokaler Ausführung von Tests eines Repos sollte bereits möglich sein.

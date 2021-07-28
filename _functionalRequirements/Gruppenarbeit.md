@@ -8,7 +8,7 @@ responsible:
 title: Unterstützung von Gruppenarbeit
 goals: 
     - gruppenarbeit
-implementationStatus: open
+implementationStatus: implemented
 prefilterPriorizationPoints:
 source:
     - [interview, mreitano, Minute 00-19-50]
@@ -20,7 +20,9 @@ history:
         date: 2021-07-26
         comment: changed system name
 todo:
-    - (sbe) Das Requirement ist mehr oder weniger wortgleich dem Ziel, ohne zusätzliche Informationen zu bieten - in dieser Form IMHO nicht sinnvoll. Bitte entweder mehr Informationen, in welcher Weise das geschehen sollte, oder löschen.
 ---
 
 Das DiveKit soll den Nutzern die Möglichkeit bieten Aufgaben in Gruppen zu bearbeiten.
+
+Anmerkung des Business-Analysten:
+Durch allgemeine Zusammenarbeit mit Git oder Verwendung von Tools wie JetBrains "Code With Me" sollte dies bereits möglich sein. Wie eine anschließende Benotung abhängig von den Commits / Git Blame ablaufen könnte, ist noch ungeklärt.

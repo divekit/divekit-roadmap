@@ -28,7 +28,7 @@ history:
         date: 2021-07-26
         comment: Changed sytem to divekit
 todo:
-    - (sbe) Wie definieren Sie "anfängerfreundlich"?
 ---
 
-Das DiveKit muss Fehler von Studierenden in einer so verständlichen und anfängerfreundlichen Art und Weise ausgeben, wie möglich.
+Das DiveKit muss Fehler von Studierenden in einer so verständlichen und anfängerfreundlichen Art und Weise ausgeben, wie möglich. 
+Also auch Nutzer, die zum ersten Mal mit dem DiveKit oder der getesteten Technologie arbeiten, sollten verstehen können, was sie falsch gemacht haben.

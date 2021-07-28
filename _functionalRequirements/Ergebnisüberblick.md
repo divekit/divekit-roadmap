@@ -25,10 +25,13 @@ history:
         date: 2021-07-26
         comment: Changed sytem to divekit
 todo:
-    - (sbe) Das ist mir absolut unklar, wie das gemeint ist. Man gibt doch ab, indem man ein Repo pusht ...? Also nicht "auf einer Seite". Was also ist mit "auf der gleichen Seite" gemeint?
 ---
 
 Das DiveKit muss in der Lage sein die Ergebnisse eines Tests auf der gleichen Seite und nicht auf einer extra Seite anzeigen zu können.
 
 ## Begründung
+
 Eine extra Seite für die Ergebnisse wird nicht gewünscht. Stattdessen soll die Seite, auf der die Aufgabe abgegeben wird sich dynamisch anpassen und so die Ergebnisse auf dieser darstellen können.
+
+Anmerkung des Business-Analysten, da mit dem Studierenden keine Rücksprache mehr geführt werden kann: 
+Es handelt sich dabei um den genauen Wortlaut, so wie es vom Studierenden gefordert wurde. Vermutlich ist damit ein automatischer Refresh der Testseite, eine automatische Weiterleitung auf diese, o.Ä. gemeint. 

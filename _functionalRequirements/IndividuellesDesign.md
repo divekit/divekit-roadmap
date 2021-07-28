@@ -26,10 +26,9 @@ history:
         comment: Changed sytem to divekit
 todo:
     - (sbe) bitte Abgleich mit / Abgrenzung zu BereitstellungUserPreferences
-    - (sbe) welche Designelement sollen individualisierbar sein?
 ---
 
-Das DiveKit sollte Usern die Möglichkeit bieten das Design des Systems individuell festlegen zu können.
+Das DiveKit sollte Usern die Möglichkeit bieten das Design des Systems (Dark Mode, o. Ä.) individuell festlegen zu können.
 
 ## Begründung
 Eine Anpassung des Systems an die eigenen Vorstellungen motiviert und erleichtert die Nutzung dessen.
