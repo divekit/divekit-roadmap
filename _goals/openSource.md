@@ -1,9 +1,9 @@
 ---
 type: goal
-acronym: offenePlattform
+acronym: openSource
 responsible: 
     - cpo
-title: Offenheit der Plattform
+title: Open Source Entwicklung
 source:
     - [interview, nnProf4, Minute 00-43-41]
     - [interview, nnProf4, Minute 00-48-06]
@@ -13,8 +13,10 @@ history:
     v1:
         date: 2021-07-02
         comment: initially created
+    v2:
+        date: 2021-07-28
+        comment: changed name to openSource
 todo: 
-    - (sbe) Wenn es konkret um Open Source geht, sollte das auch so im Titel stehen. "Offenheit" kann auch Erweiterbarkeit mittels API heißen. 
 ---
 
 ## Beschreibung
