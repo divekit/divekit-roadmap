@@ -5,7 +5,7 @@ stakeholderRole: profInf
 responsible: 
     - cpo
 name: Mark Nehls
-age: 42 
+age: 76 
 isPrimary: yes
 relationshipToProject: >
     Dozent an einer fremden Hochschule. Entwickelt eine Werkzeuge zur automatisierung und möchte diese auch in Zukunft weiter verwenden.
@@ -32,7 +32,6 @@ history:
 todo: 
     - Stakeholder ergänzen und anpassen
     - isPrimary anpasseen
-    - (sbe) Alter im Front Matter = 42 und im Text = 76??
 ---
 
 ## Beschreibung
