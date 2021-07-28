@@ -20,13 +20,16 @@ history:
     v3:
         date: 2021-07-26
         comment: add sources
+    v4:
+        date: 2021-07-28
+        comment: Ziel für allgemeine Professor:innen generalisiert
+
 todo:
-    - (sbe) Warum gilt dieses Ziel nur für BWL-Profs? Und wenn ja, dann sollte das im Titel reflektiert sein.
 ---
 
 ## Beschreibung
 
-BWL Professor:innen können Mathematik Aufgaben erstellen.
+Professor:innen können Mathematik Aufgaben erstellen.
 
 ## Begründung
 

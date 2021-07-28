@@ -16,12 +16,15 @@ history:
     v2:
         date: 2021-07-16
         comment: Begründung hinzugefügt
+    v3:
+        date: 2021-07-28
+        comment: Ziel für allgemeine Professor:innen generalisiert
 todo: 
 ---
 
 ## Beschreibung
 
-BWL Professor:innen können (reale) Mini Cases erstellen, die möglichst zufällig generiert werden können.
+Professor:innen können (reale) Mini Cases erstellen, die möglichst zufällig generiert werden können.
 
 ## Begründung
 
