@@ -5,7 +5,7 @@ responsible:
     - fgr
 title: Verbessertes Feedback
 description: Ein*e Student*in kann sich zusätzliches Feedback anzeigen lassen.
-primaryActor: mma
+primaryActor: studierende
 secondaryActors:
     - wmaProg
     - profInf
@@ -15,7 +15,7 @@ trigger: Der/die User*in gibt seine Aufgaben ab
 precondition: > 
     Eine Musterlösung wurde zusammen mit den Aufgaben erstellt und es existiert für korrigierte Abgaben eine Option "Zusätzliches Feedback anzeigen".
 postcondition: Der/Die User*in bekommt zusätzliches Feedback.
-functionalRequirement: verbessertesFeedback
+functionalRequirement: VerbessertesFeedback
 history:
     v1:
         date: 2021-07-22
@@ -35,12 +35,11 @@ Als User*in gelten alle Studenten, welche Aufgaben im Divekit abgeben.
 
 ## Alternativszenario
 
-* 2a) Der/Die User*in bekommt das Ergebnis, das die Aufgabe mit über 55% der Punkte bestanden wurde.
-* 2b) Der/Die User*in wählt die Option "Zusätzliches Feedback anzeigen" aus.
+* 2a) Der/Die User*in bekommt das Ergebnis, das die Aufgabe mit über 55% der Punkte bestanden wurde und wählt die Option "Zusätzliches Feedback anzeigen" aus.
 ## Ausnahmeszenario 
 
-* 4a) Es konnte für die Aufgabe(n) keine Musterlösung erstellt werden.
-* 4b) Es wird keine Musterlösung angezeigt.
+* 4a) Es konnte für die Aufgabe(n) keine Musterlösung erstellt werden und daher wird keine angezeigt.
+
 
 **Andere Nachbedingung**: Der/Die User*in bekommt kein zusätzliches Feedback.
 
