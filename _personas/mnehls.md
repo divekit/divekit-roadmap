@@ -10,21 +10,21 @@ isPrimary: yes
 relationshipToProject: >
     Dozent an einer fremden Hochschule. Entwickelt eine Werkzeuge zur automatisierung und möchte diese auch in Zukunft weiter verwenden.
 source: 
-    - [interview, nnProf4, Minute 00:02:14]
-    - [interview, nnProf4, Minute 00:05:25]
-    - [interview, nnProf4, Minute 00:11:55]
-    - [interview, nnProf4, Minute 00:14:11]
-    - [interview, nnProf4, Minute 00:17:02]
-    - [interview, nnProf4, Minute 00:24:56]
-    - [interview, nnProf4, Minute 00:26:52]
-    - [interview, nnProf4, Minute 00:28:02]
-    - [interview, nnProf4, Minute 00:34:19]
-    - [interview, nnProf4, Minute 00:35:38]
-    - [interview, nnProf4, Minute 00:37:06]
-    - [interview, nnProf4, Minute 00:43:41]
-    - [interview, nnProf4, Minute 00:40:12]
-    - [interview, nnProf4, Minute 00:48:06]
-    - [interview, nnProf4, Minute 00:02:43]
+    - [interview, nnProf4, Minute 00-02-14]
+    - [interview, nnProf4, Minute 00-05-25]
+    - [interview, nnProf4, Minute 00-11-55]
+    - [interview, nnProf4, Minute 00-14-11]
+    - [interview, nnProf4, Minute 00-17-02]
+    - [interview, nnProf4, Minute 00-24-56]
+    - [interview, nnProf4, Minute 00-26-52]
+    - [interview, nnProf4, Minute 00-28-02]
+    - [interview, nnProf4, Minute 00-34-19]
+    - [interview, nnProf4, Minute 00-35-38]
+    - [interview, nnProf4, Minute 00-37-06]
+    - [interview, nnProf4, Minute 00-43-41]
+    - [interview, nnProf4, Minute 00-40-12]
+    - [interview, nnProf4, Minute 00-48-06]
+    - [interview, nnProf4, Minute 00-02-43]
 history:
     v1:
         date: 2021-07-09
