@@ -8,7 +8,7 @@ name: Siegmund Heinrich
 age: 44
 isPrimary: yes
 relationshipToProject: >
-    Anwender des Systems inin hauptsächlich einer Lehrveranstaltung. Interessiert an sinnvoller Weiterentwicklung,
+    Anwender des Systems in hauptsächlich einer Lehrveranstaltung. Interessiert an sinnvoller Weiterentwicklung,
     möchte eigene Ideen einbringen.
 source:
     - [interview, nnProf, Minute 00:04:22]
@@ -34,7 +34,7 @@ Siegmund arbeitet in seinen Veranstaltungen mit verschiedensten Technologien wie
 
 Siegmund möchte seinen Studenten eine große Anzahl generierter Datensätze zu Verfügung stellen, die im Modul Statistik von den Studenten zwecks einer Datenanalyse bearbeitet werden, die zu gleich in Form eines Fallstudienberichten festgehalten werden sollen. Ihm ist besonders wichtig, dass die generieten Datensätze realistisch und lösbar sind. Es wäre ihm eine große Hilfe, wenn das Tool bereits vor der eigentlichen Bewertung eine Art Einschätzung der vorliegenden Fallstudie ihm welchen Notenkorridor.
 
-Siegmund stört es, dass er seinen Studiereden nicht jederzeit tatkräftig unterstützen kann bzw. keinen Einblick darauf hat wie der aktuelle Stand der Bearbeitung von ihm gestellten Aufgaben ist. Wenn er genau diesen Einblick hätte, könnte er Ihnen wahrscheinlich sehr einfach weiterhelfen oder eventuell ein Tool. Weshalb es ihm wichtig, dass die Studenten während der Erarbeitung der Lösung vom Tool mit Feedback Schleifen unterstützen werden und die Studenten auch angeleitet werden.
+Siegmund stört es, dass er seinen Studierenden nicht jederzeit tatkräftig unterstützen kann bzw. keinen Einblick darauf hat wie der aktuelle Stand der Bearbeitung von ihm gestellten Aufgaben ist. Wenn er genau diesen Einblick hätte, könnte er Ihnen wahrscheinlich sehr einfach weiterhelfen oder eventuell ein Tool. Weshalb es ihm wichtig, dass die Studenten während der Erarbeitung der Lösung vom Tool mit Feedback Schleifen unterstützen werden und die Studenten auch angeleitet werden.
 
 Für seine andere Veranstaltung „Angewandte Mathematik“ wünscht er sich ein Tool, was die Menschliche Rechenweise versteht und so Aufgaben lösen kann und genau solch einen Lösungsweg darstellen kann. Ferner wäre ihm auch wichtig, dass seine Studierenden vom Tool an die Hand genommen werden und bei jedem Rechenschritt den sie zurücklegen weitere Optionen für nächste Schritte vorgestellt bekommen.
 

@@ -26,7 +26,7 @@ history:
         date: 2021-07-16
         comment: Modified responsibles as discussed
 
-todo
+todo:
     - (sbe) bitte genauer ausführen - das ist nahezu wortgleich die Wiederholung des Ziels. Welche Features braucht DiveKit, um das Ziel umzusetzen? Sonst bitte eher löschen, hat dann keinen Mehrwert. 
     - (sbe) Die Beispiele aus der Begründung können konkrete Anforderungen sein, die auf das Ziel einzahlen. 
 ---
