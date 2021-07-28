@@ -22,6 +22,8 @@ history:
         date: 2021-07-19
         comment: added wmaProg as actor 
 todo: 
+    - Tippfehler bei "Use Case Prüfungsstatus erlaubt" (review)
+    - Das System sollte auch automatisch den WMA-Dev benachrichtigen können (review)
 ---
 
 ## Beschreibung
