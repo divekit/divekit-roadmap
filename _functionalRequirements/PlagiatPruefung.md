@@ -27,6 +27,8 @@ history:
         date: 2021-07-16
         comment: added kano classification      
 todo: 
+    - (sbe) bitte als Satzschablone formulieren, um die Anforderung zu konkretesieren. Welches Feature soll wem zur Verfügung gestellt werden? (Man kann ja an sowas wie "Fraud Flags" denken, die individuell sind und bei Auftauchen woanders zu einem Alarm führen.) 
+    - (sbe) Das muss aber auch in der Begründung näher ausgeführt werden.
 ---
 
 Das DiveKit soll Plagiate erkennen und melden können.

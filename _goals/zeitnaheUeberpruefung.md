@@ -17,6 +17,7 @@ history:
         comment: initially created
 todo:
     - (sbe) Duplikat mit LokalerTest, bitte zusammenlegen
+    - (jlü )die Begründung passt meiner Meinung nach nicht zu dem Ziel, oder ihr meint etwas anderes mit dem ziel. Für mich würde das Ziel bedeuten, dass ein*e Betreuer*in feedback gibt und die Studierenden diesen Prozess manuell triggern können.  
 ---
 
 ## Beschreibung

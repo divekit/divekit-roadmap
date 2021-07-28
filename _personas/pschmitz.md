@@ -39,4 +39,4 @@ den Studierenden den gesamten Softwareentwicklungsprozess zu vermitteln;
 beginnend bei dem Requirement Engineering bis hin zum tatsächlichen Deployment und schließlich der Abnahme des Produktes. 
 
 Paul möchte in seinen Lehrveranstaltungen erreichen, dass die Studierenden praktische Erfahrungen in DevOps Aufgaben erlangen. 
-Zudem ist es ihm wichtig, dass seine Lehre modern ist. Er möchte seinen Student * innen die neusten Technologien vermitteln.  
+Zudem ist es ihm wichtig, dass seine Lehre modern ist. Er möchte seinen Student*innen die neusten Technologien vermitteln.  

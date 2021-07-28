@@ -27,8 +27,8 @@ todo:
     - (sbe) ... und dann sollte man eine solche Unterstützung auch für den Erstellungsprozess von Aufgaben fordern, z.B. in Form von Test-Libraries.
 ---
 
-Wenn der Dozierende Aufgaben im Umgang mit der Google Cloud stellt, soll das DiveKit die gestellten Aufgaben
+Wenn der Dozierende Aufgaben im Umgang mit der Google Cloud stellen möchte, soll das DiveKit die gestellten Aufgaben
 individualisieren und automatisch die eingereichten Lösungen auswerten können.
 
-## Begründung
+## Begründung und Erklärung
 

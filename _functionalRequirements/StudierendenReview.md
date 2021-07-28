@@ -23,6 +23,7 @@ history:
         date: 2021-07-16
         comment: Modified responsibles as discussed
 todo:
+    - (sbe) Titel bitte präzieren. Es geht doch eher um ein Peer Review, oder?
 ---
 
 Das DiveKit muss Studierenden die Möglichkeit bieten sich Hilfe oder (Code-) Reviews bei anderen Studierenden suchen zu können.

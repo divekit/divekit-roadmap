@@ -4,7 +4,7 @@ acronym: AnzeigevonEinfachenInformationen
 responsible:
     - jlü
     - duz
-title: Anzeigen von einfachen Informationen
+title: Anzeigen von Informationen wie Leistungstest
 goals: 
     - relevanteInformationen
 implementationStatus: open
@@ -33,8 +33,10 @@ history:
     v4:
         date: 2021-07-16
         comment: Modified responsibles as discussed
+    v5: 
+        date: 2021-07-27
+        comment: update title 
 todo:
-    - (sbe) Titel bitte entsprechend der Erklärung präzisieren
 ---
 
 Das DiveKit soll den Nutzenden einfache Qualitätstests, wie Ausführungszeit, Ressourcenauslastung, etc. bereitstellen.

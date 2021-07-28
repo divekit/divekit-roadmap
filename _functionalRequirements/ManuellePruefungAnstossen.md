@@ -18,6 +18,8 @@ history:
         date: 2021-07-08
         comment: update
 todo: 
+    - (sbe) bitte Satzschablone verwenden. Wem wird etwas ermöglicht?
+    - (sbe) wer ist der Nutzer? Studierender?
 ---
 
 

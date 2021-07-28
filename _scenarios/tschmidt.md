@@ -18,6 +18,7 @@ history:
         date: 2021-06-11
         comment: initially created
 todo:
+    - (sbe) warum wird das Alternativszenario gewählt?
 ---
 
 ## Beschreibung

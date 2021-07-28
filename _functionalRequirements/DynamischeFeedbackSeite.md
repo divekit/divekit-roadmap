@@ -3,15 +3,18 @@ type: functionalRequirement
 acronym: DynamischeFeedbackSeite
 responsible: 
     - hbu
+    - jlü
 title: Die Feedback-Seite muss dynamisch und interaktiv sein
 goals: 
     - entlastungAutoSystem
     - organisationKompakt
     - entlastung
+    - autoUpdate
 implementationStatus: open
 prefilterPriorizationPoints: 0
 source:
     - [sources/walt_disney_miro.pdf]
+    - [beobachtungstagebuch, AV1]
 history:
     v1:
         date: 2021-07-07
@@ -22,8 +25,10 @@ history:
     v3:
         date: 2021-07-16
         comment: Did TODOs
+    v4:
+        date: 2021-07-27
+        comment: merge duplicate
 todo:
-    - (sbe) scheint mir ein Duplikat mit AktualisierungDesFeedbacks zu sein - bitte zusammenführen oder besser abgrenzen
 ---
 
 Das DiveKit muss eine Feedback-Seite generieren, die bei der automatisierten Abgabe erstellt wird.

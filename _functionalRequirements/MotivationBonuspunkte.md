@@ -17,6 +17,7 @@ history:
         date: 2021-07-03
         comment: initially created
 todo: 
+    - (sbe) bitte Satzschablone verwenden
 ---
 
 Das DiveKit soll eine einfache Vergabe von Bonuspunkten für Klausuren o.Ä. bereitstellen, um die extrinsische Motivation von Studierenden zu erleichtern.

@@ -19,7 +19,7 @@ todo:
 
 ## Beschreibung
 
-Der Studierende wünscht, dass bei augetretenen Fehlern weiterführende Informationen und Materialien dazu bereitgestellt werden.
+Der Studierende wünscht, dass bei aufgetretenen Fehlern weiterführende Informationen und Materialien dazu bereitgestellt werden.
 
 ## Begründung
 

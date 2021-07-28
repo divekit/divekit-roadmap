@@ -31,6 +31,7 @@ history:
 
 todo:
     - mir ist nicht klar, was für dieses Requirement implementiert werden muss
+    - (sbe) wer sind "die Nutzer"? Lehrende? Studierende?
 ---
 
 Das DiveKit soll den Nutzern die Möglichkeit bieten, den Code durch die Bereitstellung von umfänglicheren Tests zu prüfen.
