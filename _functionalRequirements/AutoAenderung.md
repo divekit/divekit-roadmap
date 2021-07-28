@@ -24,8 +24,8 @@ history:
     v5:
         date: 2021-07-16
         comment: Modified responsibles as discussed
-
 todo:
+    - (sbe) ich glaube zu wissen, was gemeint ist - Änderung an Dateien, die mit der Aufgabenstellung geliefert werden, aber durch Studierende nicht verändert werden dürfen, z.B. pom.xml. Bitte in Titel, Formulierung und Begründung präzisieren. 
 ---
 
 Das DiveKit muss Änderungen der Nutzenden an den Dateien erkennen und entsprechend darauf reagieren.

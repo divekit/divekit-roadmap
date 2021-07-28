@@ -36,6 +36,8 @@ history:
     v4:
         date: 2021-07-16
         comment: Modified responsibles as discussed
+todo: 
+    - (sbe) Die Formulierung nach Satzschablone sollte noch insofern präzisiert werden, dass um eine Erweiterung für neue Aufgabentypen geht.         
 ---
 
 Das DiveKit muss eine API zur Erweiterung des Divekit bereitstellen.

@@ -17,6 +17,8 @@ history:
     v2:
         date: 2021-07-15
         comment: fix goals
+todo: 
+    - (sbe) Drehen Sie doch die Begründung um - wenn das Feedback sichtbar ist, wird das Fehlerbeheben leichter.         
 ---
 
 Das DiveKit soll alte Testergebnisse und deren Feedback speichern, statt sie mit dem Wiederholen des Tests zu

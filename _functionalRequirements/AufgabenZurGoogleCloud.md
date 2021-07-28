@@ -22,12 +22,13 @@ history:
     v3:
         date: 2021-07-15
         comment: Fixed goales
-todo: 
+todo:
+    - (sbe) finde ich in dieser Formulierung weniger sinnvoll. Das ist doch eine allgemeine Eigenschaft, die man nicht spezifisch für die Google Cloud wiederholen muss. Wäre es nicht sinnvoller, stattdessen eine Art "Plugin" oder Erweiterungs-API für Deployment in die Google Cloud zu fordern? 
+    - (sbe) ... und dann sollte man eine solche Unterstützung auch für den Erstellungsprozess von Aufgaben fordern, z.B. in Form von Test-Libraries.
 ---
 
 Wenn der Dozierende Aufgaben im Umgang mit der Google Cloud stellt, soll das DiveKit die gestellten Aufgaben
 individualisieren und automatisch die eingereichten Lösungen auswerten können.
-
 
 ## Begründung
 

@@ -29,8 +29,9 @@ history:
     v5: 
         date: 2021-07-16
         comment: Modified responsibles as discussed
-
-todo: 
+todo:
+    - (sbe) Was wäre denn die Alternative ...? Ist dieses Requirement wirklich sinnvoll, oder formuliert es nur eine Selbstverständlichkeit, die gar nicht anders sinnvoll geht?
+    - (sbe) warum nur "soll"? 
 ---
 
 Das DiveKit soll die Ergebnisse auf der Testübersichtsseite nach der Prüfung eines Testes selbstständig aktualisieren.

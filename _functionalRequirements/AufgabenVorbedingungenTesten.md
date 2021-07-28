@@ -18,7 +18,7 @@ history:
         date: 2021-07-21
         comment: todos goals, sources, FR changes
 todo:
-    - Bitte präzisieren. Vorgeben geht jetzt schon (einfach in die Aufgabenstellung schreiben). Soll das System das testen können?
+    - (sbe) Bitte präzisieren. Vorgeben geht jetzt schon (einfach in die Aufgabenstellung schreiben). Soll das System das testen können?
 ---
 
 Das Divekit sollte die Fähigkeit besitzen die für die Aufgabe definierten Vorbedingungen automatisch auf Richtigkeit zu Testen.

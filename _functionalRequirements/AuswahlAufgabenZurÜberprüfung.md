@@ -20,7 +20,7 @@ history:
         date: 2021-07-15
         comment: Fixed goals
 todo:
-    - Bitte Begründung klarer machen, ich verstehe das noch nicht. Was hat der Student davon, dass eine Aufgabe noch nicht kontrolliert wird, obwohl er/sie als fertig gepusht hat?
+    - (sbe) Bitte Begründung klarer machen, ich verstehe das noch nicht. Was hat der Student davon, dass eine Aufgabe noch nicht kontrolliert wird, obwohl er/sie als fertig gepusht hat?
     - bitte den Systemnamen verwenden -> Das DiveKit; siehe Template(jlü)
 ---
 
