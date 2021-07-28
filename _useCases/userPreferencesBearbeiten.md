@@ -14,9 +14,12 @@ history:
     v1:
         date: 2021-07-22
         comment: initially created
-
 todo:
-
+    - (sbe) Postcondition sollte eher sein, dass die gänderten UserPrefs auch wirken.
+    - (sbe) zwischen 1 und 2 im Hauptszenario fehlt was. Man sieht nicht sein Prefs direkt nach der Anmeldung. 
+    - (sbe) am besten ein Beispiel für UserPrefs nehmen. So ist das sehr pauschal. Perspektive sollte die eines Entwicklungsteams sein - die sollen durch das Lesen von UCs in der Lage sein, die richtige Software zu implementieren!
+    - (sbe) Ausnahmeszenario ist nicht valide - Bugs der Software werden nicht modelliert. 
+    - (sbe) Insgesamt etwas zu wenig detailliert.
 ---
 
 
