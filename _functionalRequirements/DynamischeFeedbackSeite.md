@@ -9,7 +9,7 @@ goals:
     - entlastungAutoSystem
     - organisationKompakt
     - entlastung
-    - autoupdate
+    - autoUpdate
 implementationStatus: open
 prefilterPriorizationPoints: 0
 source:
