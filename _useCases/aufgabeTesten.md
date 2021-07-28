@@ -18,6 +18,9 @@ history:
         comment: initially created
 
 todo: 
+    - wmaDev als Actor eintragen (review)
+    - Da fehlt ein "hat" bei precondition (review)
+    - Tippfehler bei Hauptszenario 1) eine Aufgabe (review)
 ---
 
 
