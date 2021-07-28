@@ -7,7 +7,7 @@ title: Use Case Diagram Verbessertess Feedback
 functionalRequirement: VerbessertesFeedback
 useCases:
 useCasesDetailedWithScenario:
-    - VerbessertesFeedback
+    -  verbessertesFeedback
 diagram: ./diagrams/useCaseVerbessertesFeedback.png
 history:
     v1:
