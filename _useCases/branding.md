@@ -8,7 +8,7 @@ description: Ein Anwender einer externen Hochschule kann das Design des Systems 
 primaryActor: anwenderExtern
 secondaryActors:
 trigger: Der externe Anwender möchte das Design des Systems an seine Hochschule anpassen
-precondition: Einstellungsmöglichkeiten für das Branding müssen implementiert sein und der externe Anwender muss als Verwalter im System eingeloggt sein
+precondition: Der externe Anwender muss als Verwalter im System eingeloggt sein
 postcondition: Das Design des Systems ist an die externe Hochschule angepasst
 functionalRequirement: IndividuellesDesign
 history:
@@ -18,9 +18,10 @@ history:
     v2: 
         date: 2021-07-28
         comment: improvements after review
+    v3:
+        date: 2021-07-28
+        comment: removed self explanatory precondition
 todo: 
-    - (sbe) "Einstellungsmöglichkeiten für das Branding müssen implementiert sein" - das macht man eher nicht, man geht davon aus, dass ein beschriebenes Feature auch implementiert ist. Oder haben Sie das anders gemeint? Dann bitte präzisieren. 
-    - (sbe) zu Schritt 6 - ggfs. nach einem Server-Restart
     - (sbe) deutlicher Überlapp mit UC "barrierefreiheit" - bitte abgrenzen oder zusammenführen
 ---
 
@@ -31,7 +32,7 @@ todo:
 * 3) Das System stellt die Standard-Einstellungen zur Verfügung
 * 4) Der externe Anwender passt alle  Einstellungen so an, wie er es möchte bzw. wie es zum Branding seiner Hochschule passt
 * 5) Der externe Anwender speichert die Einstellungen
-* 6) Das System übernimmt die Einstellungen und zeigt die Oberflächen im neuen Design an
+* 6) Das System übernimmt die Einstellungen und zeigt die Oberflächen nach einem Server-Restart im neuen Design an
 
 ## Alternativszenario
 
