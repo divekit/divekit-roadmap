@@ -27,7 +27,7 @@ todo:
 
 ## Hauptszenario
 
-* 1) Student schließt ein Aufgabe ab
+* 1) Student schließt eine Aufgabe ab
 * 2) Student speichert das Ergebnis
 * 4) Das Systemm führt eine automatische Überprüfung der Aufgabe durch
 * 5) Das System teilt dem Nutzer mit, ob die Aufgabe korrekt erledigt wurde
