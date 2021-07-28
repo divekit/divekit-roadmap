@@ -21,9 +21,10 @@ history:
     v3:
         date: 2021-07-19
         comment: added wmaProg as actor 
+    v4: 
+        date: 28-07-28
+        comment: resolved review issues
 todo: 
-    - Tippfehler bei "Use Case Prüfungsstatus erlaubt" (review)
-    - Das System sollte auch automatisch den WMA-Dev benachrichtigen können (review)
 ---
 
 ## Beschreibung
@@ -34,8 +35,9 @@ in Verbindung stehen.
 Der Use Case "Aufgabe testen" wird vom Studenten ausgeführt, um seine Aufgaben überprüfen zu lassen. Es soll eine 
 Rückmeldung geben, ob die Aufgabe richtig/falsch ist oder ob der Test derzeit nicht durchführbar ist.
 
-Der Use Case Prüfungsstatus erlaubt es dem Nutzer einzusehen, in welchem Zustand die Prüfung einer Aufgabe ist. Wenn die
-Prüfung vom System nicht durchführbar ist, wird hier der Systemfehler kommuniziert.
+Der Use Case Prüfungsstatus abrufen erlaubt es dem Nutzer einzusehen, in welchem Zustand die Prüfung einer Aufgabe ist. Wenn die
+Prüfung vom System nicht durchführbar ist, wird hier der Systemfehler an den Studenten kommuniziert. Zusätzlich wird ein wma-Dev benachrichtigt,
+wenn ein Systemfehler vorliegt-
 
 Wenn so ein Fehler auftritt, kann der Nutzer sofort einen Bug-Report rausschicken, der an die Entwickler vom Divekit
 gesendet wird. 
