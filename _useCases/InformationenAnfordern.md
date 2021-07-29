@@ -8,9 +8,9 @@ description: Das DiveKit muss in der Lage sein Studierenden weiterführende Info
 primaryActor: studierende
 secondaryActors:
     - wmaAutonomousLecturerInf
-trigger: Student:in stößt auf Fehler.
-precondition: Student:in kann den Fehler nicht adhoc lösen.
-postcondition: Student:in besitzt weitere Informationen zum Fehler.
+trigger: Die Student:in stößt auf einen Fehler auf der Testseite.
+precondition: Die Student:in hat eine Aufgabe bearbeitet und bekommt nach dem pushen der Aufgabe einen Fehler auf der Testseite.
+postcondition: Die Student:in besitzt weitere Informationen zum Fehler.
 functionalRequirement: WeiterfuehrendeInformationen
 history:
     v1:
@@ -22,29 +22,38 @@ history:
     v3:
         date: 2021-07-26
         comment: added missing FR
+    v4:
+        date: 2021-07-29
+        comment: added content from todos
+
 todo: 
-    - (sbe) Das Szenario fängt irgendwie mittendrin an. Was (welche Nutzeraktion) kommt vorher?
-    - (sbe) was ist XYZ? bitte lieber etwas Konkretes nehmen. Ist mir tatsächlich unklar, wenn ich nur das Szenario lese. 
-    - (sbe) Versetzen Sie sich mal in die Situation eines Entwicklungsteams - wären Sie in der Lage, auf der Basis dieser Beschreibung Software zu bauen? Natürlich sollte ein UC keine Implementierung (z.B. backend-seitig) spezifizieren. Aber mir ist auch der Bedienablauf ziemlich unklar, also z.B. _wo_ die Studentin einen Link zur Lösung sieht.
-    - (sbe) Vielleicht kann man zumindest _skizzieren_, wie das System zu dem Vorschlag kommt - z.B. sowas wie Pattern Matching auf eine Exception  
-    - (sbe) Das Alternativszenario sprengt den organisatorischen Rahmen ziemlich gründlich - wenn bei _jedem_ Fehler der WMA Hilfe anbietet. M.E. reicht es, wenn einfach in der Hinweis-Datenbank kein Link hinterlegt ist und da dann steht "keine Ahnung, guck halt selbst in stackoverflow und Buch X, Y und Z" (sinngemäss, grins)
-    - (sbe) Das Ausnahmeszenario bezieht sich auf das Alternativszenario, oder? Unüblich. Eher auf das Hauptszenario. Vielleicht gibts hier kein Ausnahmeszenario. 
 ---
 
 
 ## Hauptszenario
-* 1) Student:in fordert Informationen zum Fehler an.
-* 2) System durchsucht XYZ nach Informationen zum Fehler.
-* 3) System findet Informationen zum Fehler.
-* 4) System zeigt dem Studierenden die Informationen zur Verfügung.
+* 1) Die Student:in kann den Fehler nicht adhoc lösen und wählt auf der Testseite eine Schlatfläche neben der Fehlermeldung aus, um weiter Informationen anzufordern.
+* 2) Das System durchsucht seine Hinweis-Datenbank nach Informationen zum Fehler.
+* 3) Das System findet Informationen zum Fehler.
+* 4) Das System zeigt dem Student:in die Informationen in einem seperaten Dialog an.
 
 ## Alternativszenario
-* 3a1) System findet keine Informationen zum Fehler.
-* 3a2) System informiert WMA und Student:in über fehlende Informationen.
-* 3a3) WMA kontaktiert Student:in und biedet Hilfe an.
+<!-- UC ist zu klein für ein Altervativszenario -->
 
 ## Ausnahmeszenario 
-* 3a1) WMA hat keine Ressourcen nicht freu und lehnt Kontakt ab. 
-* 3a2) System teilt dem Studierenden mit, dass keine Informationen gefunden werden konnten.
+* 3a1) Das System findet keine Informationen zum Fehler.
+* 3a2) Die Student:in bekommt eine Nachricht anzeiget, dass keine Informationen vorhanden sind.
 
-**Andere Nachbedingung**: Student:in besitzt keine weitere Informationen zum Fehler.
+**Andere Nachbedingung**: Die Student:in besitzt keine weitere Informationen zum Fehler.
+
+## Anmerkung:
+Anmerkung des Buisness Analysten: Meiner Meiner nach würde ich die nachfolgenden Spezifizierungen zur Implentierung nicht oder nur "abgespeckt" in den Use Case integieren. Da es die Designentscheidung in der Entwicklung einschränken könnte.
+
+* Die Nachricht bei fehlenden weiterführenden Informationen (3a2) würde etwas wie "Keine Informationen vorhanden. Bitte schauen Sie dem Fehler in einer Suchmaschiene Ihrer Wahl nach." beinhalten.
+* Die erwähnte Schaltfläche kann ein Button oder Ähnliches sein.
+
+### Skizzierung der Fehlermatchings
+
+* Analyse ob es sich hierbei, um eine eigens geschriebene oder eine generische (bspw. MethodNotFound, etc) handelt
+    * Bei eigens geschriebene Fehlermeldung sollte die Nutzer:in darauf hingewiesen werden. Da daduch die Suche in einer Suchmaschinen erschwert werden könnte.
+    * Bei generellen Exception, könnte so etwas wie "Suche bei _Suchmaschiene Ihrer Wahl_ nach _aufgekommener Fehler_" einsetzt werden.  
+* Anschließend die Klassennamen o.Ä. in der Exception analysieren und in der Datenbank (o.Ä.) nach Pattern suchen.
