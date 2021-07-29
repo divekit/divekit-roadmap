@@ -33,7 +33,7 @@ todo:
 
 ---
 
-Das DiveKit soll dem Lehrer die Möglichkeit bieten eine Obergrenze für die Anzahl von Feedback-Anfragen zu setzen.
+Das DiveKit soll dem Lehrenden die Möglichkeit bieten eine Obergrenze für die Anzahl von Feedback-Anfragen zu setzen.
 
 ## Begründung
 

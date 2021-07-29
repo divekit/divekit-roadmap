@@ -19,10 +19,10 @@ history:
         date: 2021-07-15
         comment: Erklärung, warum integrierter Editor sinnvoll wäre, hinzugefügt 
 todo:
-    - bitte den Systemnamen verwenden -> Das DiveKit; siehe Template(jlü)
+
 ---
 
-Um UML-Diagramme zu bearbeiten, sollte das System einen einfachen UML-Editor bereitstellen.
+Um UML-Diagramme zu bearbeiten, sollte das DiveKit einen einfachen UML-Editor bereitstellen.
 
 ## Begründung
 
