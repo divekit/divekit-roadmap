@@ -25,8 +25,9 @@ history:
     v3:
         date: 2021-07-16
         comment: Modified responsibles as discussed
-todo:
-    - (sbe) aus meiner Sicht sollte das eine Anforderung aus Lehrendensicht sein - DiveKit muss eine Möglichkeit bieten, solche Verlinkungen einfach in den Test-Messages unterzubringen. Bitte Formulierung nochmal anschauen und auch eine kurze Begründung liefern. 
+    v4:
+        date: 2021-07-29
+        comment: improved Beschreibung to address todo
 ---
 
-Das DiveKit muss in der Lage sein Studierenden weiterführende Informationen (zum Beispiel Videos/Webseiten/Vorlesungsmaterialien) zu konkreten Fehlern zur Verfügung zu stellen.
+Das DiveKit soll Lehrenden die Möglichkeit bieten, Studierenden im Feedback direkte Verlinkungen auf weiterführende Informationen wie Videos oder Vorlesungsmaterialien zu bieten.

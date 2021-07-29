@@ -5,7 +5,7 @@ responsible:
     - mwi
     - duz
     - ako
-title: Studierenden Review
+title: Studentische Peer-Reviews
 goals:
     - studierendenAustausch
 source:
@@ -22,11 +22,13 @@ history:
     v3:
         date: 2021-07-16
         comment: Modified responsibles as discussed
+    v4:
+        date: 2021-07-29
+        comment: improved Title to address todo
 todo:
-    - (sbe) Titel bitte präzieren. Es geht doch eher um ein Peer Review, oder?
 ---
 
-Das DiveKit muss Studierenden die Möglichkeit bieten sich Hilfe oder (Code-) Reviews bei anderen Studierenden suchen zu können.
+Das DiveKit muss Studierenden die Möglichkeit bieten sich Hilfe oder (Code-) Reviews bei anderen Studierenden suchen zu können (Peer-Reviews).
 
 ## Begründung
 Durch den Wissensaustausch mit den Studierenden soll die Lösungsfindung verbessert und die Motivation gesteigert werden. Durch eine Code-Review-Funktion innerhalb des Systems sollen sich die Studierenden gegenseitig unterstützen können. Dies würde zudem die Betreuer entlasten.
