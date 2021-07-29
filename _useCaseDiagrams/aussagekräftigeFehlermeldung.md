@@ -35,7 +35,7 @@ todo:
 Hier werden mögliche Interaktionen mit dem System dargestellt, die mit der Anforderung "Aussagekräftige Fehlermeldung"
 in Verbindung stehen. 
 
-Der Use Case "Aufgabe einreichen" wird vom Studenten ausgeführt. Wenn der Student sein Ergebnis comitet und pusht,
+Der Use Case "Aufgabe einreichen" wird vom Studenten ausgeführt. Wenn der Student sein Ergebnis committet und pusht,
 wird zunächst die lokale pom.xml mit der pom.xml aus dem hidden Repo verglichen (pom.xml überprüfen). Werden Änderungen 
 festgestellt, wird das Compilieren der Aufgabe abgebrochen. Auf der Testseite wird eine Fehlermeldung ausgegeben, die den
 Studenten darauf hinweist, dass er die Datei "pom.xml" verändert hat, dies aber nicht sollte. Es werden auch die Änderungen
