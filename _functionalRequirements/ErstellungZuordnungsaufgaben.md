@@ -21,8 +21,10 @@ history:
     v3:
         date: 2021-07-15
         comment: Fixed goales
-todo: 
-    - (sbe) können Sie nur ein kurzes Beispiel in die Begründung aufnehmen, damit es deutlicher wird? Bin mir nicht sicher, dass ich verstehe, was gemeint ist. 
+    v4:
+        date: 2021-07-29
+        comment: Beispielaufgabe hinzugefügt
+todo:
 ---
 
 Bei der Aufgabenerstellung wird das DiveKit den Lehrverantwortlichen die Möglichkeit bieten, Zuordnungsaufgaben zu erstellen.
@@ -30,4 +32,20 @@ Bei der Aufgabenerstellung wird das DiveKit den Lehrverantwortlichen die Möglic
 ## Begründung
 
 Zuordnungsaufgaben sind sehr einfach strukturierte Übungs- und Lernaufgaben, bei denen zusammengehörige Begriffe, Werte, Formeln, Bezeichnungen etc. gefunden werden müssen. Mit Bezug auf das Kombinieren von Aufgaben im Kontext von fachfremden Modulen, kann dieser Aufgabentyp ein relevanter Baustein darstellen, der Aufgabenkomplexe ermöglicht.
+
+## Beispielaufgabe
+
+Im folgenden eine Beispielaufgabe. Weitere Möglichkeiten für Zuordnungsuafgaben sind denkbar.
+
+---
+
+Ordnen Sie die folgenden Einkäufe eines Rasenmäherherstellers den 4 Geschäftstypen zu:
+
+|   | Produkt/Sport | System | Anlage/Projekt | Zulieferer |
+|---|:---:|:---:|:---:|:---:|
+| Kauf von Druckerpapier |   |   |   | x |
+| Bau einer Montagehalle |   |   | x |   |
+| Installation und Wartung der Personalsoftware |   | x |   |   |
+| Kauf von Lebensmitteln für die Kantine |   |   |   | x |
+| Innenausstattung eines (einmaligen) Konzept-Stores |   |   | x |   |
 
