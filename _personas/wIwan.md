@@ -20,11 +20,14 @@ history:
         comment: changed stakeholderRole to studentInf (sbe)
     v2:
         date: 2021-07-27
-        comment: changed stakeholderRole to studierenderImHoeherenSemester      
+        comment: changed stakeholderRole to studierenderImHoeherenSemester
+    v3:
+        date: 2021-07-29
+        comment: change Beschreibungstext   
 todo:
 ---
 
 ## Beschreibung
-Walter ist 29 Jahre alt und ist im 9. Semester Medieninformatik Bachelor und hat die Praktikas von Softwaretechnik und Algorithmen und Programmieren 2 erfolgreich absolviert und muss nur noch die Klausuren schreiben.
-Er ist erleichtert, dass er nur noch die Klausuren schreiben muss, aber er findet es schade, dass er das Divekit nicht zu seiner Zeit benutzen konnte, als er noch die Praktikas machen musste. 
-Aber er ist glücklich darüber, dass er jetzt die Möglichkeit hat das Divekit zu benutzen, um sich für die Klausur besser vorzubereiten.
+Walter ist 29 Jahre alt und ist im 9. Semester Medieninformatik Bachelor und hat die Praktikas von Softwaretechnik und Algorithmen und Programmieren 2 erfolgreich absolviert und muss nur noch die Klausuren schreiben. Er hatte auch ein Auslandssemester in Kanada gemacht.
+Jetzt will er noch die restlichen Klausuren schreiben, um dann mit der Bachelorarbeit anfangen zu können. Walter hat mitbekommen, dass es das Divekit gibt und viele neue Studenten das Divekit fürs Praktikum und zur Klausurvorbereitung nutzen. Er ist etwas enttäuscht darüber, dass es sowas nicht zu seiner Zeit gab.
+Aber er jetzt die Möglichkeit hat das Divekit zu benutzen darüber, um sich für die Klausur besser vorzubereiten.
