@@ -1,9 +1,9 @@
 ---
 type: goal
-acronym: autoTeilkorrektur
+acronym: entlastungTeilkorrektur
 responsible:
     - mba
-title: Die teil Korrektur von Aufgaben
+title: Erstellung eines Notenkorridors für Fallberichte
 source:
     - [interview, nnProf, Minute 00-47-44]
 belongsTo: entlastung
@@ -14,19 +14,17 @@ history:
     v2:
         date: 2021-07-16
         comment: leave todo comment 
+    v3: 
+        date: 2021-07-28
+        comment: todos done, titel geändert; Fehler behoben; Begründung angepasst
 todo:
-    - Mergen mit Korrektur
-    - Das hier ist ein eigener goal, es sollte nicht gemerged werden
-    - Bitte dann umformulieren in erstellen eines Korrekturrahmens und die Ziel muss ausführlicher begründet werden
-    - Wenn der Titel / das Ziel umformuliert wurde, bitte auch das acronym anpassen
-    - Rechtscheib- und Grammatikfehler beheben
-    - (sbe) Die Begründung ist nicht gut verständlich. Bitte gehen Sie da nochmal drüber. 
+
 ---
 
 ## Beschreibung
 
-Die generierung einer teil Korrektur ohne wikrlich eine Note als Ergebniss abzuzielen. Es soll nur eine Einschätzung in F0rm eines Notenkorridors über die Bewertung des vorligenden Fallberichts liefern.
+Die Erstellung eines Korrekturrahmens ohne wikrlich eine Note als Ergebniss zu präsentieren. Es soll nur eine Einschätzung in Form eines Notenkorridors über die Bewertung des vorligenden Fallberichts geliefert werden.
 
 ## Begründung
 
-Entlastung für den Dozenten.
+Dem Dozenten soll der Notenkorridor dabei helfen eine Einschätzung zu bekommen wie der vorliegende Bericht zu bewerten ist, bevor der eigentliche manuelle Korrekturprozess beginnt.
