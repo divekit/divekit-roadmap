@@ -30,12 +30,14 @@ history:
 
 
 todo:
-    - mir ist nicht klar, was für dieses Requirement implementiert werden muss
-    - (sbe) wer sind "die Nutzer"? Lehrende? Studierende?
 ---
 
-Das DiveKit soll den Nutzern die Möglichkeit bieten, den Code durch die Bereitstellung von umfänglicheren Tests zu prüfen.
+<!-- (sbe) wer sind "die Nutzer"? Lehrende? Studierende? (kru) -> Studierende -->
+
+Das DiveKit soll den Studierenden die Möglichkeit bieten, den Code durch die Bereitstellung von umfänglicheren Tests zu prüfen.
 
 ## Begründung
 
-Durch umfänglicheres Testen können die Studierenden ihre Fehler 
+<!-- (sbe) mir ist nicht klar, was für dieses Requirement implementiert werden muss -->
+Vermutung des Business Analysten, da keine Rücksprache mehr mit dem Autoren gehalten werden kann: 
+Einige Studierenden wünschen sich, dass durch umfänglicheres Testen des Codes die Fehler besser zufinden sind. Zusätzlich könnte der Code auch auf "Clean-Code" Richtlinien getestet werden, damit die Studierenden sich frühzeitig an eine saubere Programmierung gewöhnen. 
