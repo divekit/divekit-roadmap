@@ -29,12 +29,15 @@ history:
     v5:
         date: 2021-07-29
         comment: updated references
+    v6:
+        date: 2021-07-29
+        comment: updated description  
 todo: 
 ---
 
 ## Beschreibung
 
-Die Aufgaben im und Arbeit mit dem DiveKit sollen in kompakte und separate Meilensteine aufgeteilt sein.
+Die Aufgaben resultierend aus dem DiveKit und die Bearbeitung dieser sollen in kompakte und separate Meilensteine aufgeteilt sein.
 
 Die genaueren Anforderungen sind hier jeweils in den Unterzielen ausführlicher beschrieben:
 
