@@ -35,7 +35,7 @@ Zuordnungsaufgaben sind sehr einfach strukturierte Übungs- und Lernaufgaben, be
 
 ## Beispielaufgabe
 
-Im folgenden eine Beispielaufgabe. Weitere Möglichkeiten für Zuordnungsuafgaben sind denkbar.
+Im folgenden eine Beispielaufgabe. Weitere Möglichkeiten für Zuordnungsaufgaben sind denkbar.
 
 ---
 
