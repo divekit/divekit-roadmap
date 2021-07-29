@@ -6,7 +6,7 @@ responsible:
 title: User Story Plagiatsprüfung
 functionalRequirement: PlagiatPruefung
 asA: profInf 
-iWantTo: eine Oberfläche haben, in der ich mehrere Dateien paarweise vergleichen lassen kann und potentielle Plagiate gefunden werden
+iWantTo: eine Oberfläche haben, in der ich mehrere Dateien paarweise vergleichen lassen kann und potentielle Plagiate finden lassen kann
 forThisReason: ich leichter Plagiate finden kann, die Studierenden nicht die Lösungen anderer übernehmen und davor abgeschreckt werden
 history:
     v1:
