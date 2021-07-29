@@ -4,7 +4,7 @@ acronym: barrierefreiheit
 responsible: 
     - jsp
 title: Use Case Diagram Barrierefreiheit
-functionalRequirement: barrierefreiheit
+functionalRequirement: Barrierefreiheit
 useCases:
 useCasesDetailedWithScenario:
     - barrierefreiheit
