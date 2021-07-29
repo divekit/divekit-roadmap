@@ -15,15 +15,14 @@ history:
         date: 2021-05-28
         comment: initially created
 todo:
-    - (sbe) "Studenten sollten die Möglichkeit haben eine  während des Praktikums in Anspruch zu nehmen." Eine was?
     - (sbe) Ziel ist sehr unspezifisch. Klar sollen alle Studies Hilfe bekommen. Können Sie das Ziel konkreter auf DiveKit hin ausrichten?
-    - (sbe) Doppelung mit studVorbereiten? bitte prüfen
 ---
 
 ## Beschreibung
 
-Studenten sollten die Möglichkeit haben eine  während des Praktikums in Anspruch zu nehmen. Sie sollen Hilfestellung
+Studenten sollten die Möglichkeit haben Beratung während des Praktikums in Anspruch zu nehmen. Sie sollen Hilfestellung
 zu jedem Zeitpunkt während des Praktikums in Anspruch nehmen können. Die Qualität der Betreuung ist dabei sehr wichtig.
+Das DiveKit sollte die Rahmenbedingungen (z.B. maximale Anzahl der Hilfeanforderung) abbilden.
 
 ## Begründung
 
