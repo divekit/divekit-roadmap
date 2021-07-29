@@ -1,11 +1,11 @@
 ---
 type: goal
-acronym: besseresVerstaendnis
+acronym: feedbackStudLeistungen
 responsible: 
     - kru
     - duz
     - ako
-title: Besseres Verständnis für eigene Leistungen
+title: Feedback zu studentischen Leistungen
 source:
     - [beobachtungstagebuch, PC7]
 belongsTo: 
@@ -17,9 +17,10 @@ history:
     v2:
         date: 2021-07-16
         comment: added description & reasoning
+    v3:
+        date: 2021-07-16
+        comment: updated title and acronym
 todo:
-    - (sbe) M.E. passt der Titel nicht so ganz - es geht doch um Verständlichkeit des Feedbacks, nicht Verständnis für eigene Leistungen ...? (sonst prima)
-    - (sbe) Doppelung mit relevanteInformationen? bitte prüfen und ggfs. abgrenzen
 ---
 ## Beschreibung 
 Das Feedback zu den studentischen Leistungen soll verständlicher bzw. ausführlicher formuliert werden.
