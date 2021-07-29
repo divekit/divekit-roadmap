@@ -22,14 +22,16 @@ history:
     v3:
         date: 2021-07-15
         comment: Fixed goales
+    v4:
+        date: 2021-07-29
+        comment: ToDos eingearbeitet
 todo:
-    - Bitte ergänzen - wem? Übersicht mit was?
-    - Sources fehlen
-    - bitte den Systemnamen verwenden -> Das DiveKit; siehe Template(jlü)
+
 ---
 
-Am Ende eines Praktikummeilensteins muss das System eine Übersicht über die Ergebnisse bereitstellen.
+Am Ende eines Praktikummeilensteins muss das DiveKit dem Lehrenden eine Übersicht über die Ergebnisse bereitstellen.
 
+(Hinweis: Die Ergebnisübersicht bedeutet eine Ansicht mit einer Liste der teilnehmenden Studierenden und ob sie einen Meilenstein bestanden haben oder nicht)
 ## Begründung
 
 Am Ende eines Praktikummeilensteins ist es notwendig sich einen Überblick zu verschaffen und zu wissen,
