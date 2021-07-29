@@ -1,6 +1,6 @@
 ---
 type: goal
-acronym: generierungVonDatensätzen
+acronym: generierungVonLoesungenFuerDatensaetze
 responsible:
     - mba
 title: Das generieren von Lösungen für generierte Datensätzen
@@ -13,11 +13,12 @@ history:
     v1:
         date: 2021-07-16
         comment: initially created
-
+    v2: 
+        date: 2021-07-16
+        comment: todos done, acronym geändert
 todo:
-    - implemtationStatus in Metainformationen richtig?
-    - acronym ist doppelt
     - Warum zwei Ziele für diesen Kontext?
+    - siehe generierungVonDatensätzen v3 comment
 ---
 
 ##Beschreibung
