@@ -12,7 +12,7 @@ responsible:
 distributionChannels: Ilias
 numberOfParticipants: 13
 referencePopulation: 100
-stakeholderRole: student
+stakeholderRole: studierende
 history:
     v1:
         date: 2021-06-17

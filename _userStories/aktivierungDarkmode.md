@@ -9,7 +9,7 @@ asA:
     - profBwl 
     - profInf
     - profMa
-    - student
+    - studierende
     - wmaAutonomousLecturerInf
     - wmaDev
     - wmaProg

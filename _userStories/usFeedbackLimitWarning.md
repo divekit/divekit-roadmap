@@ -6,8 +6,7 @@ responsible:
 title: Warnung über Feedback-Obergrenze
 functionalRequirement: FeedbackLimit
 asA: 
-    - student
-    - studentInf
+    - studierende
 iWantTo: Ich möchte gewarnt werden, dass ich bald die Obergrenze für Feedback-Anfragen erreicht habe
 forThisReason: damit ich schnellstmöglich darauf reagieren kann
 history:
