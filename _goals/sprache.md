@@ -22,15 +22,16 @@ history:
         date: 2021-07-26
         comment: updated subgoal links
 todo:
-    - (sbe) was genau ist eine "verbesserte Nutzung der Sprache" ?
-    - (sbe) aus meiner Sicht ist der Entwickler da leidenschaftslos - interessant ist das für die Lehrende, die Aufgabentexte erstellt.
 ---
 
 ## Beschreibung
 
-Der Entwickler strebt eine verbesserte Nutzung der Sprache an, sowohl grammatikalisch als auch technisch.
+Durch eine verbesserte Sprachunterstützung könnte der Entwurf und die Individualisierung von Aufgaben deutlich vereinfacht werden.
 
+Dies wird in den Unterzielen genauer erläutert:
+- [Automatische Sprachunterstützung](https://divekit.github.io/divekit-roadmap/goals/spracheGrammatik.html)
+- [(Optionale) Beschreibung von Beziehungen und Relationen zwischen Objekten](https://divekit.github.io/divekit-roadmap/goals/spracheOptionales.html)
 
 ## Begründung
 
-Eine vergesserte Unterstützung von der Sprache soll fördern, komplexere Aufgaben fachlich und grammatikalisch korrekt zu generieren. 
+Eine verbesserte Sprachunterstützung soll fördern, komplexere Aufgaben fachlich und grammatikalisch korrekt zu generieren. 

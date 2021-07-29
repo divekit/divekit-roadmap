@@ -4,10 +4,15 @@ acronym: LokalerTest
 responsible: 
     - fgr
     - jlü
+    - kru
+    - duz
+    - ako
 title: Lokale Tests für Aufgaben der Studenten
 source: 
     - [Workshop 6-3-5-No.2, Schwerpunkt Aufgaben]
     - [Beobachtungstagebuch, PS1]
+    - [beobachtungstagebuch, PC8]
+    - [beobachtungstagebuch, PC9]
 belongsTo: 
 isTopLevel: true
 history:
@@ -22,7 +27,11 @@ history:
         comment: enhance description to address todo 
     v4:
         date: 2021-07-29
-        comment: enhance description and remove todo 
+        comment: enhance description and remove todo
+    v5:
+        date: 2021-07-29
+        comment: combined with zeitnaheUeberpruefung as requested
+ignore: w005
 todo:
 ---
 
