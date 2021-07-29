@@ -6,7 +6,7 @@ responsible:
 title: Lernmotivation durch die Arbeit mit dem DiveKit
 functionalRequirement: MotivationDurchGamification
 asA: studierende
-iWantTo: wenn ich einen Commit ins System pushe möchte ich eine Errungenschaft oder Score erhalten
+iWantTo: wenn ich einen Commit ins System pushe, eine Errungenschaft oder einen Score erhalten
 forThisReason: ich länger an den Aufgaben arbeite.
 history:
     v1:
