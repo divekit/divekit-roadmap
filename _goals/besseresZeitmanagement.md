@@ -1,21 +1,28 @@
 ---
 type: goal
-acronym: besseresZeitmanagement
+acronym: organisationBesseresZeitmanagement
 responsible:
     - kru
     - duz
     - ako
-title: Anzeigen der Dauer und Stand der Korrektur 
+    - hbu
+title: Bessere Vermittlung der Wartezeiten
 source:
     - [beobachtungstagebuch, RD3]
-belongsTo:
+    - [workshop, waltDisney]
+    - [survey, beobachtungstagebuch]
+belongsTo: organisation
 isTopLevel: true
 history:
     v1:
         date: 2021-07-16
         comment: initially created
+    v2:
+        date: 2021-07-29
+        comment: zusammenlegung mit oraganisationKompakt
+ignore: w005
 todo:
-    - (sbe) inhaltliche Doppelung mit organisationKompakt - bitte zusammenlegen
+
 ---
 
 ## Beschreibung
@@ -24,4 +31,7 @@ Die Studierenden wollen Informationen über die Dauer und den Stand der Korrektu
 
 ## Begründung
 
+Das DiveKit bietet nicht viele Notifikationen und interaktive Elemente
+um schnell zu wissen wie es um die Aufgabenbearbeitung und -kontrolle steht. Und das wiederum führt zu Ungewissheit
+und Stress darüber, wann und ob die Aufgaben noch manuell korrigiert werden.
 Durch eine genaue Zeitangabe kann die Wartezeit besser eingeschätzt werden. So können bei längeren Wartezeiten andere Aufgaben erledigt werden.
