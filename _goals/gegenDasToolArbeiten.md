@@ -15,17 +15,18 @@ history:
     v2:
         date: 2021-07-16
         comment: source runterkopiert; source wieder hoch kopiert
-
+    v3: 
+        date: 2021-07-28
+        comment: todos done, Fehler behoben; Begründung präzisiert
 todo:
-    - Rechtscheib- und Grammatikfehler beheben
-    - Bitte geschlechtsneutral formulieren
+
 ---
 
 ## Beschreibung
 
-Studenten sollen nicht in der Lage sein gegen das Tool zu arbeiten. Das heißt sie sollen nicht in der Lage sein so lange ihre Lösungen einzutragen bis es richtig ist quasi Brute Force Methoden.
+Studierende sollen nicht in der Lage sein gegen das Tool zu arbeiten. Das heißt sie sollen nicht in der Lage sein, so lange ihre Lösungen eintragen zu können, bis das Ergebnis richtig ist, quasi Brute Force Methoden sollen verhindert werden.
 
 ## Begründung
 
-Es soll sichergestellt werden, dass das Tool mit den Lehrinhalten nämlich das Übermitteln von Wissen übereinstimmt.
+Es soll sichergestellt werden, dass das Tool mit den Lehrinhalten, nämlich das übermitteln von Wissen übereinstimmt.
  

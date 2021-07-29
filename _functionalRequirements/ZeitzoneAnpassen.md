@@ -4,14 +4,16 @@ acronym: LetzteAktualisierung
 responsible:
     - jlü
     - kru
-title: Letzte Aktualisierung des Codes
+title: Anpassen an die Zeitzone des Nutzers
 goals: 
     - entlastungKorrektur
     - relevanteInformationen
+    - robustheit
 implementationStatus: implemented
 prefilterPriorizationPoints: 1
 source:
     - [beobachtungstagebuch, AN2]
+    - [beobachtungstagebuch, PS3]
 history:
     v1:
         date: 2021-07-08
@@ -28,13 +30,15 @@ history:
     v5: 
         date: 2021-07-27
         comment: Add Erläuterung and modify FR 
+    v6: 
+        date: 2021-07-27
+        comment: Changed to ZeitzoneAnpassen & merged Zeitzone with LetzteAktualisierung
+
 todo:
-    - (sbe) zumindest teilweise Duplikat von Zeitzone. Bitte abgrenzen oder zusammenführen.
 ---
 
-Das DiveKit muss den Zeitstempel der letzten Aktualisierung des eingereichten Codes deutlich sichtbar und entsprechend der Zeitzone des Nutzers anzeigen.
+Das DiveKit muss die angezeigten Zeitstempel deutlich sichtbar und entsprechend der Zeitzone des Nutzers anzeigen.
 
 ## Erläuterung
 
-Eine falsch angezeigte oder nicht vorhandene Zeit, wann der Code zuletzt eingereicht und somit überprüft wurde, hat in der Vergangenheit
-oft für Verwirrungen geführt. 
+Die fehlerhafte oder fehldende Zeitanzeige, hat in der Vergangenheit oft für Verwirrungen geführt. Dies gilt besonders die Einreichung und Überprüfung des Codes.

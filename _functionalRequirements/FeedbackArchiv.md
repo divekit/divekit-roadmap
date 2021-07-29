@@ -29,12 +29,15 @@ history:
         date: 2021-07-26
         comment: changed system name
 todo:
-    - (sbe) bitte an Satzschablone anpassen, "sollte" gibts nicht
-    - (sbe) mir ist noch nicht klar, was genau das Archiv enthalten soll. Nur individuelles Feedback, also an die eigene Person? Welchen Nutzen hat der Studierende davon? 
 ---
 
-Das DiveKit sollte in der Lage sein den Studierenden ein Feedback-Archiv zur Verfügung zu stellen.
+Das DiveKit soll in der Lage sein den Studierenden ein Feedback-Archiv zur Verfügung zu stellen.
 
 ## Begründung
 
-Ein Feedback-Archiv enthält bereits gegebenes Feedback zu Aufgaben aus früheren und dem aktuellen Semester. Daran sollen sich Studierende orientieren können, um die Lösungsfindung zu fördern.
+Das Archiv enthält bereits erhaltene Kommentare zu den vorherigen Aufgaben. 
+
+<!-- (sbe) mir ist noch nicht klar, was genau das Archiv enthalten soll. Nur individuelles Feedback, also an die eigene Person? Welchen Nutzen hat der Studierende davon? -->
+Vermutung des Business Analysten, da keine Rücksprache mehr mit dem Autoren gehalten werden kann: 
+Damit sind wahrscheinlich Kommentare gemeint die aus den früheren und dem aktuellen Semester stammen. Daran sollen sich Studierende orientieren können, um die Lösungsfindung zu fördern. So können bspw. wiederholdende Fehler schneller gelöst und die Lösung besser eingeprägt werden.
+

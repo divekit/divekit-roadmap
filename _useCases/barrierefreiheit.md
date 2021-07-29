@@ -5,26 +5,20 @@ responsible:
     - jsp
 title: Barrierefreiheit
 description: Ein User kann die Form der Barrierefreiheit einstellen
-primaryActor: 
-    - profBwl
-    - profInf
-    - profMa
-    - studierende
-    - wmaAutonomousLecturerInf
-    - wmaDev
-    - wmaProg
-secondaryActors:
+primaryActor: studierende
 trigger: Der User ruft die Einstellung für Barrierefreiheit auf
-precondition: Das System muss die Funktion anbieten und die visuelle Änderung vornehmen können
+precondition: Der Nutzer leidet an einer Form der Farbschwäche
 postcondition: Farben sind aus dem System verschwunden und werden durch Symbole/Text ersetzt
 functionalRequirement: Barrierefreiheit
 history:
     v1:
         date: 2021-07-21
         comment: initially created
+    v2:
+        date: 2021-07-29
+        comment: fix todo
 todo: 
     - (sbe) deutlicher Überlapp mit UC "branding" - bitte abgrenzen oder zusammenführen
-    - (sbe) precondition "Das System muss die Funktion anbieten" - das macht man eher nicht, man geht davon aus, dass ein beschriebenes Feature auch implementiert ist. Oder haben Sie das anders gemeint? Dann bitte präzisieren. 
 ---
 
 Als User zählt bei diesem Usecase jeder Stakeholder, der mit diesem System interagiert und seine visuellen Settings anpassen möchte.

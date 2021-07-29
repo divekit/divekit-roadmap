@@ -1,6 +1,6 @@
 ---
 type: review
-acronym: sampleReview
+acronym: reviewKaffalterbachPersona
 responsible:
     - jsp
 reviewers:

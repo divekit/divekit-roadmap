@@ -16,6 +16,10 @@ history:
     v2:
         date: 2021-07-16
         comment: todos done, aufgeteilt in zwei goals und dieses goal präzisiert als Satzschablone.
+    v3:
+        date: 2021-07-28
+        comment: todos done, Begründung angepasst; bitte überprüfen zuerst waren es zu viele Ziele, worauf ich mba es in zwei geteilt habe, nun heißt es Ziel ist doppelt? Ziel ist nicht doppelt.
+
 todo:
     - implemtationStatus in Metainformationen richtig?
     - partofLagerGoal anpassen -> weglassen?
@@ -24,8 +28,7 @@ todo:
 ---
 
 ##Beschreibung
-Für das Modul Statistik, soll das Tool in der Lage sein Datensätze für Datenanalysen die mit Python durchgeführt werden generieren zu lassen.
-
+Für das Modul Statistik, soll das Tool in der Lage sein Datensätze für Datenanalysen generieren zu können.
 
 ##Begründung
-Entlastung des Dozenten. 
+Entlastung des Dozenten, der Datensätze automatisiert generieren möchte. 

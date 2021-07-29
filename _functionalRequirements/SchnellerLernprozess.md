@@ -25,14 +25,25 @@ history:
     v3:
         date: 2021-07-16
         comment: Modified responsibles as discussed
+    v4:
+        date: 2021-07-29
+        comment: Updated reasoning & fr, added note 
 
 todo:
     - (sbe) bitte genauer ausführen - das ist nahezu wortgleich die Wiederholung des Ziels. Welche Features braucht DiveKit, um das Ziel umzusetzen? Sonst bitte eher löschen, hat dann keinen Mehrwert. 
-    - (sbe) Die Beispiele aus der Begründung können konkrete Anforderungen sein, die auf das Ziel einzahlen. 
+    - (kru) Ist die Lösung aus der Anmerkung zufriedenstellend?
 ---
 
-Das DiveKit muss so aufgebaut sein, dass der (Kennen)Lernprozess einfach ist.
+Das DiveKit muss so aufgebaut sein, dass der (Kennen)Lernprozess durch kontextbezogene Hilfsmittel erleichtert wird.
 
 ## Begründung
 
-Um das Tool direkt verwenden zu können kann dieses zum Beispiel kontextbezogene Hilfen darstellen. In Form von Pop-ups, oder eingebundenen Tutorial-Videos kann die Nutzung des DiveKits vorgestellt werden.
+Vermutung des Business Analysten, da keine Rücksprache mehr mit dem Autoren gehalten werden kann: Der Einsatz von kontextbezogenen Hilfsmitteln können, bei Schwierigkeiten, die Nutzung und den Einstieg in das DiveKit vereinfachen. Diese können in Form von Pop-ups oder eingebundenen Tutorial-Videos eingebunden werden.
+
+### Anmerkung
+
+Von einer Aufteilung in mehrere Anforderung wird hier wegen die bereits durchgeführte Kano-Priosierung abgesehen, um diese nicht zu invalidieren. 
+Es werden nachfolgend mögliche neue Anforderungen beschrieben:
+
+* Das DiveKit soll dem Entwickler ermöglichen ein Tutorial einzubinden, um den Kennenlernprozess zu vereinfachen.
+* Das DiveKit soll der Nutzer:in ermöglichen Hilfsdialoge o. Ä. für den Einstieg anzuzeigen.
