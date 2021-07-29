@@ -51,4 +51,4 @@ Das DiveKit muss in der Lage sein, dem Studierenden zu nicht bestandenen Tests u
 ## Begründung
 Dem Benutzer soll auch eine Rückmeldung gegeben werden, wie “gut” eine Lösung ist. Es wird sich somit auch Feedback zu bestandenen Tests gewünscht. 
 
-Vermutende Lösung des Business Analysten: Eine erarbeitete Lösung kann auch "unschön" gelöst sein und das ist nicht zielführend. Vermutlich wird sich gewünscht, dass Feedback zum geschriebenen Code erfolgt. Das kann zum Beispiel auf Basis bestimmter eingehaltener Strukturen basieren, Stichwort Clean Code, oder auch die Einhaltung von Konventionen beinhalten.
+Vermutende Lösung des Business Analysten, da keine Rücksprache mehr mit dem Autoren gehalten werden kann: Eine erarbeitete Lösung kann auch "unschön" gelöst sein und das ist nicht zielführend. Vermutlich wird sich gewünscht, dass Feedback zum geschriebenen Code erfolgt. Das kann zum Beispiel auf Basis bestimmter eingehaltener Strukturen basieren, Stichwort Clean Code, oder auch die Einhaltung von Konventionen beinhalten.

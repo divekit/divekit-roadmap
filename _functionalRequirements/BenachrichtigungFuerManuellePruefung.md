@@ -6,7 +6,7 @@ responsible:
     - kru
 title: Benachrichtigung für manuelle Prüfung
 goals:
-    - zeitnaheUeberpruefung
+    - organisationBesseresZeitmanagement
 source:
     - [beobachtungstagebuch, PC8]
 implementationStatus: inProgress
