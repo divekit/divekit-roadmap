@@ -19,9 +19,12 @@ history:
     v2:
         date: 2021-07-23
         comment: Review-Anmerkungen eingearbeitet
+    v3:
+        date: 2021-07-29
+        comment: Alternativszenario wieder aufgenommen
 
 todo:
-    - (sbe) das Alternativszenario ergibt aus meiner Sicht Sinn. Man könnte das so machen, dass der Lehrende eine Strichliste führt und dann ab z.B. 5 Anfragen nicht mehr reagiert. Also machen Sie da ruhig ein Alternativszenario draus.
+    
 ---
 
 ## Hauptszenario
@@ -35,14 +38,10 @@ todo:
 
 ## Alternativszenario
 
-Es wurde kein Alternativszenario gefunden
-
-*Begründung:*
-Die gewünschte Nachbedingung kann mit den im System vorhandenen Mitteln nicht alternativ erreicht werden.
-Ein möglicher organisatorischer Umweg kann wie folgt beschrieben werden:
-* Lehrender navigiert zu "Benachrichtigungsmenü"
-* Er gibt eine Nachricht ein (mit der Information, dass die Studierenden nur eine bestimmte Anzahl von Feedback-Anfragen stellen dürfen und alle weitere Anfragen einfach ignoriert werden)
-* Er versendet die Nachricht an alle teilnehmende Studierende
+* 2a) Lehrender navigiert zu "Benachrichtigungsmenü"
+* 3a) Er gibt eine Nachricht ein (mit der Information, dass die Studierenden nur eine bestimmte Anzahl von Feedback-Anfragen stellen dürfen und alle weitere Anfragen einfach ignoriert werden)
+* 4a) Er versendet die Nachricht an alle teilnehmende Studierende
+* 5a) Er führt eine Strichliste und ignoriert Anfragen über einer bestimmten Anzahl
 
 Die Nachbedingung ist aber nicht vollständig erreicht. Die Studierende können rein technisch weiterhin unbegrenzte Anzahl an Feedback-Anfragen stellen. 
 
