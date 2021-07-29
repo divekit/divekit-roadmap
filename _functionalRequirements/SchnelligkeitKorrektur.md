@@ -28,14 +28,16 @@ history:
     v4:
         date: 2021-07-27
         comment: modified reason and fixed typo
+    v5:
+        date: 2021-07-29
+        comment: updated regarding todo   
 todo:
-    - (sbe) bitte Satzschablone verwenden
 ---
 
-Die automatischen Tests des DiveKit müssen in weniger als 5-10 Minuten ablaufen.
+Das DiveKit muss die automatischen Tests in weniger als 5-10 Minuten durchlaufen.
 
 ## Begründung
 
 Die Studenten können ihre Ergebnisse erst korrigieren, wenn sie ausgewertet wurden und wollen darauf nicht zu lange warten.
 
-Vermutende Lösung des Business Analyst: Eine präzisere Zeitangabe kann leider nicht gemacht werden. Vermutlich wird mit einem schnelleren Ablauf das Bauen der Testseite gemeint sein.
+Vermutende Lösung des Business Analyst, da keine Rücksprache mehr mit den Autoren gehalten werden kann: Eine präzisere Zeitangabe kann leider nicht gemacht werden. Vermutlich wird mit einem schnelleren Ablauf das Bauen der Testseite gemeint sein.

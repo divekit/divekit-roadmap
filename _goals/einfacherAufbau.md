@@ -5,7 +5,7 @@ responsible:
     - kru
     - duz
     - ako
-title: Einfachere Stuktur der Testseiten
+title: Einfachere Stuktur der Testseiten für einen besseren Überblick
 isTopLevel: true
 source:
     - [beobachtungstagebuch, PC6]
@@ -18,9 +18,10 @@ history:
     v2:
         date: 2021-07-26
         comment: modified reason
+    v3:
+        date: 2021-07-29
+        comment: updated title and reason regarding todo
 todo:
-    - (sbe) Können Sie Ihre Vermutung noch im Titel reflektieren?
-    - (sbe) Ich weiß, was gemeint ist, aber bitte schreiben Sie einen Satz dazu, dass die Quellen keine Nachfrage erlauben. 
 ---
 
 ## Beschreibung
@@ -29,4 +30,4 @@ Die Struktur der Testseite soll vereinfacht werden.
 
 ## Begründung
 
-Vermutende Lösung des Business Analyst: Eine vereinfachte Testseitenstruktur soll einen besseren Überblick über die eigenen Tests geben.
+Vermutende Lösung des Business Analyst, da keine Rücksprache mehr mit dem Autoren gehalten werden kann: Eine vereinfachte Testseitenstruktur soll einen besseren Überblick über die eigenen Tests geben.

@@ -24,8 +24,10 @@ history:
     v4:
         date: 2021-07-26
         comment: modified regarding todo and added reason
+    v5:
+        date: 2021-07-29
+        comment: modified guess regarding todo
 todo:
-    - (sbe) siehe entsprechende Bemerkung bei einem der Ziele - bitte schreiben Sie noch kurz, wieso Sie etwas vermuten müssen.
 ---
 
 Das DiveKit sollte in der Lage sein Studierenden anzuzeigen, wie lange die Korrektur der Aufgaben dauert bzw. welchen Stand die Korrektur gerade hat.
@@ -33,4 +35,4 @@ Das DiveKit sollte in der Lage sein Studierenden anzuzeigen, wie lange die Korre
 ## Begründung
 Sollte die Korrektur länger dauern kann die Wartezeit genutzt werden, um gegebenenfalls andere Aufgaben anzufangen.
 
-Vermutende Lösung des Business Analysten: Vermutlich wird die Prüfung der Aufgabe durch das System gemeint. Sofern dies bereits existiert (wovon auszugehen ist) wird wahrscheinlich die "Korrektur" beziehungsweise Prüfung durch einen Prüfer gemeint.
+Vermutende Lösung des Business Analysten, da keine Rücksprache mehr mit dem Autoren gehalten werden kann: Vermutlich wird mit der Anforderung die Prüfung der Aufgabe durch das System gemeint sein. Sofern dies bereits existiert (wovon auszugehen ist) wird wahrscheinlich die "Korrektur" beziehungsweise Prüfung durch einen Prüfer gemeint sein.
