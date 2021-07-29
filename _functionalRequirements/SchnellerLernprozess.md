@@ -25,6 +25,9 @@ history:
     v3:
         date: 2021-07-16
         comment: Modified responsibles as discussed
+    v4:
+        date: 2021-07-29
+        comment: Updated reasoning & fr, added note 
 
 todo:
     - (sbe) bitte genauer ausführen - das ist nahezu wortgleich die Wiederholung des Ziels. Welche Features braucht DiveKit, um das Ziel umzusetzen? Sonst bitte eher löschen, hat dann keinen Mehrwert. 
