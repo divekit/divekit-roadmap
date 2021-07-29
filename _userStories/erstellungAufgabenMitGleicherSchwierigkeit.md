@@ -17,6 +17,9 @@ history:
         date: 2021-07-22
         comment: initially created
 todo:
+    - (sbe) mehr oder weniger ein leicht abgewandeltes Duplikat von aendernMusterAufgabenGleicheSchwierigkeit
+    - (sbe) nur ein asA! lehrende schließt die anderen mit ein.
+    - (sbe) Glauben Sie, dass Sie diese US in einem Sprint umsetzen können? Leider viel zu groß und in dieser Form als US unbrauchbar (ist eher ein Epic oder gar ein Theme). Bitte einen kleinen und sehr konkreten ersten Schritt definieren.
 ---
 
 ## User Story

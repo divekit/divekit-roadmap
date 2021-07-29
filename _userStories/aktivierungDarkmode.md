@@ -9,7 +9,7 @@ asA:
     - profBwl 
     - profInf
     - profMa
-    - student
+    - studierende
     - wmaAutonomousLecturerInf
     - wmaDev
     - wmaProg
@@ -20,11 +20,9 @@ history:
         date: 2021-07-20
         comment: initially created
 todo:
-    
+    - (sbe) nur ein asA! Ich würde mich auf den Studierenden fokussieren und ggfs. andere Nutzer in den Hinweisen nennen. 
+    - (sbe) aus meiner Sicht immer noch sehr groß für einen Sprint. Ich würde mit einem Detail starten, also z.B. "Hintergrund und Font umschalten"    
 ---
-
-## User Story
-Als Nutzer des Systems möchte ich die visuellen Einstellungen ändern und den Darkmode aktivieren, damit ich eine augenschonendere Ansicht habe.
 
 ## Hinweise
 Als Nutzer des Systems gilt jeder, der mit dem System in irgendeiner Form interagiert.

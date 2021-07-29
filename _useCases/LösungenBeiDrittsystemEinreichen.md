@@ -4,13 +4,13 @@ acronym: LösungenBeiDrittsystemEinreichen
 responsible: 
     - jlü
 title: Lösungen einreichen
-description: Ein*e Student*in
+description: Ein*e Student*in muss eine Aufgabe in der Google Cloud lösen.
 primaryActor: studierende
 secondaryActors:
     - profInf
 trigger: Student*in will Lösung einreichen
-precondition: Student*in hat eine Aufgabe, die in einem Drittsystem zu lösen ist 
-postcondition: eingereichten Lösungen wurden übermittelt und überprüft
+precondition: Student*in soll einen Docker Container erstellen, der auf der Google Cloud läuft
+postcondition: eingereichtes Container-Image wurden übermittelt und überprüft
 functionalRequirement: API
 history:
     v1:
@@ -19,11 +19,10 @@ history:
     v2:
         date: 2021-07-27
         comment: update primary actor
+    v3:
+        date: 2021-07-29
+        comment: update scenarios
 todo:
-    - (sbe) Description ist unvollständig
-    - (sbe) "5) Lösung wird an Drittsystem zur Validierung geschickt" - was ist hier mit einem Drittsystem gemeint? Ist mir unklar. Vielleicht mit Beispiel? Ist sowas wie GoogleCloud gemeint? 
-    - (sbe) "5) Lösung wird an Drittsystem zur Validierung geschickt" - bitte machen Sie daraus eine Aktiv-Formulierung. Wer schickt? Das System? Der Prof? Ich wäre für ersteres (und vermute, dass Rene Wöärzberger sowas auch im Kopf hat).
-    - (sbe) "Die Student*in hat keine Lust die Aufgabe zu bearbeitn " - finde ich nicht so passend für Ausnahme. Wie wäre es denn z.B. mit Zugangsproblemen zum Drittsystem (Credentials fehlend?)
 ---
 
 
@@ -33,21 +32,21 @@ todo:
 * 2) Student*in sieht die Aufgabe
 * 3) Student*in löst die Aufgabe
 * 4) Student*in reicht die Lösung vollständig ein
-* 5) Lösung wird an Drittsystem zur Validierung geschickt 
+* 5) Das DiveKit deployt die Lösung zur Validierung und zum Testen auf die Google Cloud
 
 ## Alternativszenario
 
 * 5a) Die Lösung wird einer manuellen Korrektur unterzogen
-* 5b) Dozent*in prüft die Lösung im Drittsystem
+* 5b) Dozent*in prüft die Lösung in der Google Cloud
 
 ## Ausnahmeszenario 
 
-* 3a) Die Student*in hat keine Lust die Aufgabe zu bearbeitn 
-* 4a) Es werden keine Lösungen eingereicht
-* 5a) Das Drittsystem bekommt keine Lösungen zur Validierung
+* 3a) Der*Die Student*in hat keine gültigen Zugangsdaten für die Google Cloud
+* 4a) Der*Die Student*in kann keine Lösungen einreichen
+* 5a) Die Google Cloud bekommt keine Lösungen der Aufgabe zur Validierung deployt
 
 
-**Andere Nachbedingung**: Lösung wird nicht eingereicht und somit nicht an das Drittsystem übermittelt
+**Andere Nachbedingung**: Lösung kann nicht eingereicht werden und somit nicht an die Google Cloud übermittelt
 
 
 

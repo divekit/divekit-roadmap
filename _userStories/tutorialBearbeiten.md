@@ -13,6 +13,9 @@ history:
         date: 2021-07-21
         comment: initially created
 todo:
+    - (sbe) Sie haben jetzt hier zwei gleiche (?) Versionen der US - einmal die oben durch das Front Matter definierte (asA ... iWantTo ... forThisReason), und unten nochmal als Text. Bitte nutzen Sie *nur* das Front Matter.    
+    - (sbe) Passt glaube ich gut in einen Sprint, wenn man ein paar Einschränkungen macht. Also z.B. erstmal nur als Videolink in das README des DiveKit Repos auf Github.
+    - (sbe) User Stories aus Entwicklersicht macht man eher nicht. Können Sie das auf Anwendersicht umformulieren?
 ---
 
 ## User Story

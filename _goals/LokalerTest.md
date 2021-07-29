@@ -20,8 +20,10 @@ history:
     v3: 
         date: 2021-07-27
         comment: enhance description to address todo 
+    v4:
+        date: 2021-07-29
+        comment: enhance description and remove todo 
 todo:
-    - (sbe) Duplikat mit zeitnaheUeberpruefung, bitte zusammenlegen
 ---
 
 ## Beschreibung
@@ -29,7 +31,7 @@ todo:
 Von den Student*innen wird sich gewünscht, dass die Aufgaben aus dem DiveKit auch lokal auf ihrem Rechner getestet werden können, 
 anstatt diese erst einmal in das DiveKit committen zu müssen, und mit dem Ergebnis lokal weiterzuarbeiten. Dabei soll es nicht darum gehen, dass 
 die Aufgaben manuell von Betreuer*innen getestet werden, sondern darum, dass die Tests die zum automatischen auswerten 
-der Lösungen gedacht sind, von den Student*innen ausgeführt werden können, ohne das der produzierte Code gepushed werden muss. 
+der Lösungen gedacht sind, von den Student*innen ausgeführt werden können, ohne das der produzierte Code in das Repository gepushed werden muss. 
 
 
 ## Begründung

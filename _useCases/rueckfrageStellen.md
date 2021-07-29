@@ -16,9 +16,10 @@ history:
     v1:
         date: 2021-07-19
         comment: initially created
+    v2:
+        date: 2021-07-29
+        comment: fix todo
 todo: 
-    - (sbe) Alternativszenario gibts schon - da wird die Anfrage z.B. per Email geschickt
-    - (sbe) Ausnahmeszenario passt nicht so richtig. Andere Idee - WMA hat falsche Email eingestellt und bekommt nie die Nachricht.
 ---
 
 
@@ -33,14 +34,14 @@ todo:
 
 ## Alternativszenario
 
-_entfällt_
-
-## Ausnahmeszenario 
-
-* 3a) Der Student stellt seine Rückfragen nicht über das System, sondern über einen anderen Weg (z.B. Vorlesung)
+* 3a) Der Student stellt seine Rückfragen nicht über das System, sondern über einen anderen Weg (z.B. Vorlesung, E-Mail)
 * 4a) Ende des Szenarios durch Verlassen des Systems.
 
-**Andere Nachbedingung**: WMA wurde auf anderem Wege informiert.
+## Ausnahmeszenario
+
+* 6a) Das System sendet dem WMA eine Benachrichtung per E-Mail, der hat jedoch eine falsche E-Mail-Adresse im System hinterlegt. Die Benachrichtigung kommt daher nicht an.
+
+**Andere Nachbedingung**: WMA hat die Benachrichtigung nicht erhalten.
 
 
 

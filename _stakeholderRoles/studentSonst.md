@@ -13,17 +13,20 @@ history:
         comment: initially created
     v2:
         date: 2021-07-27
-        comment: renamed for consistency (sbe)         
+        comment: renamed for consistency (sbe)
+    v3:
+        date: 2021-07-29
+        comment: Rollenbeschreibung korrigiert und Hinweis hinzugefügt
 todo:
-    - bitte unbedingt Abgrenzung student - studentInf noch einmal angucken. Welche Studententypen haben wir hier bei uns? Kommen wir da mit den beiden aus? Oder müsste man eine allgemeine Rolle student machen und dann spezialisierte, wie z.B. studentMathe, studentInf, studentSonstig ...? (SB)
-    - (tza) Antwort auf obige TODO - In einem der Workshops wurde diskutiert, dass wir mit diesen beiden Rollen auskommen sollten. Durch diese Rollen bilden wir zwei wichtige Nutzern-Typen ab: Studenten, die mit IT-Tools (wie Git, IDEA usw.) vertraut sind, und Studenten, die heutzutage technisch versiert sind, aber die oben genannten IT-Tools nicht verwenden. Wir haben zuerst keine weitere Feinunterteilung gemacht.
-    - (sb) - Herr Zaika, bitte übernehmen Sie Ihre Antwort unten in den Content und dann können Sie die Todos auflösen. 
 
 ---
 
 ## Rollenbeschreibung
 
-Die Rolle _Studierende*r eines Nicht-Informatik-Studiengangs_ repräsentiert Studierende aus informatikfernen Studiengänge. Dies Rolle ist deshalb relevant, da sie durch fehlendes Know-How andere Ansprüche an das System stellt. Dieser Stakeholder ist insb. an guten User Interfaces interessiert. Es muss eine Lösbarkeit von Aufgaben sichergestellt werden, die kein Erlernen von Tools wie bspw. Git, GitHub oder IDEs verlangt.
+Die Rolle _Studierende*r eines Nicht-Informatik-Studiengangs_ repräsentiert Studierende aus informatikfernen Studiengänge.
+Diese Rolle ist deshalb relevant, da sie durch fehlendes Know-How andere Ansprüche an das System stellt.
+Dieser Stakeholder ist besonders an guten User Interfaces interessiert. Es muss eine Lösbarkeit
+von Aufgaben sichergestellt werden, die kein Erlernen von Tools wie Git, GitLab oder IDEs verlangt.
 
 Typische Aufgaben:
 
@@ -31,3 +34,9 @@ Typische Aufgaben:
 * Lösungen zu einem Zeitpunkt bereitstellen
 * Feedback / Beratung bei Lehrenden einfordern
 * Klausuren schreiben
+
+(Hinweis: In einem der Workshops wurde diskutiert, dass die zwei Stakeholder-Rollen: studentInf und studentSonst
+zuerst ausreichen sollten. Durch diese Rollen werden zwei wichtige Nutzern-Typen abgebildet:
+Studierenden, die mit IT-Tools (wie Git, IDEA usw.) vertraut sind,
+und Studierenden, die heutzutage technisch versiert sind, aber die oben genannten IT-Tools nicht verwenden.
+Es wurde zuerst keine weitere Feinunterteilung besprochen.)

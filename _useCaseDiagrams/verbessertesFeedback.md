@@ -3,7 +3,7 @@ type: useCaseDiagram
 acronym: verbessertesFeedback
 responsible: 
     - fgr
-title: Use Case Diagram Verbessertess Feedback
+title: Use Case Diagram verbessertes Feedback
 functionalRequirement: VerbessertesFeedback
 useCases:
 useCasesDetailedWithScenario:
@@ -14,6 +14,7 @@ history:
         date: 2021-07-22
         comment: initially created        
 todo: 
+    - (sbe) Sie haben jeden Szenarioschritt als einen UC abgebildet ... das geht leider komplett am Sinn eines UC-Diagramms vorbei. In der Form leider nicht brauchbar. Versuchen Sie, die weiteren Aspekte in diesem Kontext jeweils als ein UC zu modellieren, also z.B. das Erstellen einer Musterlösung, das Festlegen eines Punkteschema, etc.
 ---
 
 ## Beschreibung

@@ -1,7 +1,7 @@
 ---
 acronym: meilenstein
 type: systemContextElement
-subtype: prozess, event 
+subtype: event 
 responsible:
     - tza
 source:

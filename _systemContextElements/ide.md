@@ -17,9 +17,8 @@ history:
     v2:
         date: 2021-07-26
         comment: add source
-
 ignore:
-    -w005
+    - w005
 todo:
 ---
 

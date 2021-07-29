@@ -13,6 +13,7 @@ history:
         date: 2021-07-22
         comment: initially created
 todo:
+    - (sbe) Sie haben jetzt hier zwei verschiedene Versionen der US - einmal die oben durch das Front Matter definierte (asA ... iWantTo ... forThisReason), und unten nochmal als Text. Bitte nutzen Sie *nur* das Front Matter.
 ---
 
 ## User Story

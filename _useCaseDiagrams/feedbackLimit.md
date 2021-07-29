@@ -11,8 +11,9 @@ useCases:
     - Feedback geben
     - Aufgabe bearbeiten
     - Feedback einarbeiten
-    - Benachrichtigung durchlesen
+    - Benachrichtigungen anzeigen
 useCasesDetailedWithScenario:
+    - setFeedbackLimit
 diagram: ./diagrams/useCaseFeedbackLimit.jpg
 history:
     v1:
@@ -21,8 +22,11 @@ history:
     v2:
         date: 2021-07-23
         comment: Review-Anmerkungen eingearbeitet
+    v3:
+        date: 2021-07-29
+        comment: added Detailed UC. Use Case Benachrichtigung durchlesen durch Benachrichtigungen anzeigen ersetzt. Beschreibung etwas erweitert.
 todo: 
-    - (sbe) nur "Benachrichtigung durchlesen" ist mir unklar, sonst gut
+
 ---
 
 ## Beschreibung
@@ -36,7 +40,7 @@ Der Student kann das Feedback anfordern. Der Lehrende ist dagegen verpflichtet a
 (aber aus Systemsicht wird es nicht erzwungen).
 Außerdem arbeitet der Student das Feedback ein, was ein Spezialfall von "Aufgabe bearbeiten" ist.
 Sowohl der Student als auch der Lehrende werden über neue Feedback-Anfrage/-Antwort benachrichtigt.
-Das System übernimmt diese Benachrichtigungsfunktion.
+Das System übernimmt diese Benachrichtigungsfunktion. Die Benutzer können die Benachrichtigungen im System einsehen.
 
 
 
