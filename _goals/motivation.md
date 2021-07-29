@@ -18,7 +18,7 @@ history:
         date: 2021-07-03
         comment: added description and explanation
     v3:
-        date: 2021-07-26
+        date: 2021-07-29
         comment: updated subgoal links
 todo: 
 ---
@@ -26,6 +26,11 @@ todo:
 ## Beschreibung
 
 Die Studiernden sollen bei ihrer Arbeit motiviert werden. Motivation ist hierbei als Kollektivum (Sammelbegriff) zu betrachten, da es viele voneinander unabhängige Formen der Motivation gibt.
+
+Dieses Ziel ist Oberziel von:
+- [Extrinsischer Motivation](https://divekit.github.io/divekit-roadmap/goals/motivationExtrinsisch.html)
+- [Intrinsischer Motivation](https://divekit.github.io/divekit-roadmap/goals/motivationIntrinsisch.html)
+- [Motivation durch praktische / "hands-on" Aufgaben](https://divekit.github.io/divekit-roadmap/goals/motivationCodingAnteil.html)
 
 ## Begründung
 
