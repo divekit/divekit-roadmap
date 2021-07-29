@@ -18,7 +18,7 @@ history:
         comment: ToDos eingearbeitet. Max Maier wurde durch Studierende ersetzt. Beschreibung angepasst. 
 todo:
     - (sbe) Für eine Stakeholderbeschreibung würde schon ein viel kürzerer Text reichen. Relevanz für Studierende ist gegeben, weil ST1/2 Pflichtfächer sind, das reicht. Alles weitere muss ja erst erhoben werden - siehe die Workshops.
-    - (tza) (Antwort) Ich habe aus Max Maier 'Studierende' gemacht. Ich hoffe, es ist ok. Was die Beschreibung angeht: Ich habe das etwas angepasst. Ich habe diesem Stakeholder geschrieben, wo die Workshops mit QQ2-Studenten noch nicht stattgefunden hatten. Einige Überschriften habe ich dem Methodentraining des Teams entnommen.
+    - (tza) (Antwort) Ich habe aus Max Maier 'Studierende' gemacht. Ich hoffe, es ist ok. Was die Beschreibung angeht, habe ich das etwas angepasst. Ich habe diesem Stakeholder geschrieben, wo die Workshops mit QQ2-Studenten noch nicht stattgefunden hatten. Einige Überschriften habe ich dem Methodentraining des Teams entnommen.
 
 ---
 
