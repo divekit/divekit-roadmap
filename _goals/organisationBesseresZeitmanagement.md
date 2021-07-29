@@ -12,7 +12,6 @@ source:
     - [workshop, waltDisney]
     - [survey, beobachtungstagebuch]
 belongsTo: organisation
-isTopLevel: true
 history:
     v1:
         date: 2021-07-16

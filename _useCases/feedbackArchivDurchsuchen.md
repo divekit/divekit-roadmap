@@ -17,7 +17,8 @@ history:
         comment: initially created
     v2:
         date: 2021-07-29
-        comment: Removed secondary actors to fit UC, 
+        comment: Removed secondary actors to fit UC
+ignore: w051
 todo: 
     - (sbe) Das Szenario fängt irgendwie mittendrin an. Was (welche Nutzeraktion) kommt vorher?
     - (ako) Sollte das nicht durch den Trigger und die Precondition gegeben sein?
@@ -29,16 +30,16 @@ todo:
 
 * 1) Ein Studierender öffnet das Feedback-Archiv, in dem vorherige Kommentare einsehbar sind
 * 2) Ein Studierender gibt einen wichtigen Begriff in der Suche ein
-* 3) Das System gibt eine Liste mit Feedbacks aus die den Begriff enthalten
+* 3) Das Feedback-Archiv gibt eine Liste mit Feedbacks aus die den Begriff enthalten
 * 4) Der Studierende wählt ein Feedback aus
-* 5) Das System stellt das Feedback detailliert dar
+* 5) Das Feedback-Archiv stellt das Feedback detailliert dar
 
 ## Alternativszenario
 
-* 3a) Das System gibt eine Liste mit Feedbacks aus, die einen *ähnlichen* Begriff enthalten
+* 3a) Das Feedback-Archiv gibt eine Liste mit Feedbacks aus, die einen *ähnlichen* Begriff enthalten
 
 ## Ausnahmeszenario 
 
-* 3a) Das System findet kein Feedback das den genauen oder einen ähnlichen Begriff enthält
+* 3a) Das Feedback-Archiv findet kein Feedback das den genauen oder einen ähnlichen Begriff enthält
 
 **Andere Nachbedingung**: Studierender kann kein altes Feedback für seine Arbeit verwenden
