@@ -25,13 +25,15 @@ history:
     v2:
         date: 2021-07-16
         comment: Kano Klassifizierung hinzugefügt
+    v3:
+        date: 2021-07-29
+        comment: ToDos eingearbeitet
 
 todo:
-    - bitte den Systemnamen verwenden -> Das DiveKit; siehe Template(jlü)
-    - (sbe) `_wem_ soll die Möglichkeit gegeben werden?
+
 ---
 
-Das System soll die Möglichkeit bieten eine Obergrenze für die Anzahl von Feedback-Anfragen zu setzen.
+Das DiveKit soll dem Lehrenden die Möglichkeit bieten eine Obergrenze für die Anzahl von Feedback-Anfragen zu setzen.
 
 ## Begründung
 

@@ -6,7 +6,7 @@ responsible:
     - duz
 title: Zeitpunkt Korrektur
 goals:
-    - besseresZeitmanagement
+    - organisationBesseresZeitmanagement
 implementationStatus: open
 prefilterPriorizationPoints: 1
 source:

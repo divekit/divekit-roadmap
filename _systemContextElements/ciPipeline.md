@@ -32,7 +32,7 @@ history:
         comment: add sources
 
 ignore:
-    -w005
+    - w005
 todo:
 ---
 

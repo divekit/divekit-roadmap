@@ -4,10 +4,15 @@ acronym: LokalerTest
 responsible: 
     - fgr
     - jlü
+    - kru
+    - duz
+    - ako
 title: Lokale Tests für Aufgaben der Studenten
 source: 
     - [Workshop 6-3-5-No.2, Schwerpunkt Aufgaben]
     - [Beobachtungstagebuch, PS1]
+    - [beobachtungstagebuch, PC8]
+    - [beobachtungstagebuch, PC9]
 belongsTo: 
 isTopLevel: true
 history:
@@ -20,8 +25,14 @@ history:
     v3: 
         date: 2021-07-27
         comment: enhance description to address todo 
+    v4:
+        date: 2021-07-29
+        comment: enhance description and remove todo
+    v5:
+        date: 2021-07-29
+        comment: combined with zeitnaheUeberpruefung as requested
+ignore: w005
 todo:
-    - (sbe) Duplikat mit zeitnaheUeberpruefung, bitte zusammenlegen
 ---
 
 ## Beschreibung
@@ -29,7 +40,7 @@ todo:
 Von den Student*innen wird sich gewünscht, dass die Aufgaben aus dem DiveKit auch lokal auf ihrem Rechner getestet werden können, 
 anstatt diese erst einmal in das DiveKit committen zu müssen, und mit dem Ergebnis lokal weiterzuarbeiten. Dabei soll es nicht darum gehen, dass 
 die Aufgaben manuell von Betreuer*innen getestet werden, sondern darum, dass die Tests die zum automatischen auswerten 
-der Lösungen gedacht sind, von den Student*innen ausgeführt werden können, ohne das der produzierte Code gepushed werden muss. 
+der Lösungen gedacht sind, von den Student*innen ausgeführt werden können, ohne das der produzierte Code in das Repository gepushed werden muss. 
 
 
 ## Begründung

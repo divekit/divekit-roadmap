@@ -6,16 +6,15 @@ responsible:
 title: User Story Plagiatsprüfung
 functionalRequirement: PlagiatPruefung
 asA: profInf 
-iWantTo: Plagiate automatisch erkennen und melden
-forThisReason: Studenten sollen ihre Aufgaben selbstständig lösen
+iWantTo: eine Oberfläche haben, in der ich mehrere Dateien paarweise vergleichen lassen kann und potentielle Plagiate finden lassen kann
+forThisReason: ich leichter Plagiate finden kann, die Studierenden nicht die Lösungen anderer übernehmen und davor abgeschreckt werden
 history:
     v1:
         date: 2021-07-22
         comment: initially created
-todo:
-
+    v2: 
+        date: 2021-07-22
+        comment: removed redundant mention, changed to a smaller scope
+todo: 
 ---
 
-## User Story
-Als ein Lehrender möchte ich, dass Plagiate automatisch erkannt und mir gemeldet werden, damit die Studenten ihre 
-Aufgaben selbstständig lösen.

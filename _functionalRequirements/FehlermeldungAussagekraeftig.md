@@ -12,9 +12,9 @@ prefilterPriorizationPoints: 4
 kano:
     type: basic
     reasoning: >
-        Für die Studierenden sollte es deutlich ersichtlich sein, wenn Fehler nicht durch fehlerhafte Abgaben erzeugt 
-        werden. Das Fehlen einer passenden Fehlermeldung könnte eine unnötige Fehlersuche für den Studierenden 
-        verursachen und viel Frust erzeugen.
+        Für die Studierenden sollte es deutlich ersichtlich sein, wenn Fehler durch unerlaubte Änderungen an Dateien erzeugt 
+        werden, die von Studierenden nicht verändert werden sollten. Das Fehlen einer passenden Fehlermeldung könnte eine 
+        unnötige Fehlersuche für den Studierenden verursachen und viel Frust erzeugen.
 source:
     - Workshop 6-3-5-No.2
 history:
@@ -27,6 +27,9 @@ history:
     v3:
         date: 2021-07-16
         comment: added kano classification
+    v4:
+        date: 2021-07-29
+        comment: improved kano classification reasoning
 todo: 
     - (sbe) Duplikat zu AutoAenderung? - bitte zusammenführen oder abgrenzen 
 ---

@@ -6,16 +6,14 @@ responsible:
 title: Feedback-Archiv durchsuchen
 functionalRequirement: FeedbackArchiv
 asA: studentInf 
-iWantTo: ein Archiv von altem Feedback aus den letzten Jahren nach Fällen durchsuchen, die meiner Frage oder meinem Problem ähneln
-forThisReason: damit ich auf diesem Feedback aufbauen kann und dieses als Inspiration für meine eigene Lösung verwenden kann
+iWantTo: einen Suchbegriff in die Feedback-Archiv-Suche eingeben
+forThisReason: ich eine Liste von Feedback zu erhalten, die meinen Anforderungen entspricht
 history:
     v1:
         date: 2021-07-24
         comment: initially created
-
+    v2:
+        date: 2021-07-29
+        comment: updated story to address todo
 todo:
 ---
-
-## User Story
-
-Als Informatikstudent möchte ich ein Archiv von altem Feedback aus den letzten Jahren nach Fällen durchsuchen, die meiner Frage oder meinem Problem ähneln, damit ich auf diesem Feedback aufbauen kann und dieses als Inspiration für meine eigene Lösung verwenden kann.

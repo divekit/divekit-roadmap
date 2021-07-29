@@ -3,9 +3,13 @@ type: goal
 acronym: nutzerPraeferenz
 responsible:
     - jsp
+    - kru
+    - duz
+    - ako
 title: Bereitstellung von User Preferencen
 source:
     - [Workshop, Workshop 6-3-5-No.2, Schwerpunkt Technik No.3]
+    - [beobachtungstagebuch, HS3]
 belongsTo: 
 isTopLevel: true
 history:
@@ -15,15 +19,18 @@ history:
     v2:
         date: 2021-07-24
         comment: fix todo
+    v3:
+        date: 2021-07-29
+        comment: merged with nutzerPraeferenzDesign as requested
+ignore: w005
 todo:
-    - (sbe) inhaltliches Duplikat von nutzerPraeferenzDesign - bitte zusammenlegen
-
 ---
 
 ## Beschreibung
 
-Es soll möglich sein, Einstellungen im Design und für Benarichtigungen festzulegen.
+Es soll möglich sein, mithilfe von Einstellungen das Design des Systems und Verhalten von Benarichtigungen festzulegen.
 
 ## Begründung
 
-Die konfiguration von User Preferencen ermöglicht es, beispielsweise Barrierefreiheit konfigurierbar zu machen und andere Benachritigungs-Empfänger zu hinterlegen.
+Die Konfiguration von User Preferencen ermöglicht es, beispielsweise Barrierefreiheit konfigurierbar zu machen und andere Benachrichtigungs-Empfänger zu hinterlegen.
+Zudem würden kleine visuelle Änderungen wie ein Dark Mode o.Ä. eine einfache Möglichkeit die Nutzererfahrung positiv zu beeinflussen. 

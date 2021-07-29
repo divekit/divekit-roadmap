@@ -1,18 +1,18 @@
 ---
 type: userStory
-acronym: tutorialBearbeiten
+acronym: tutorialVorschlag
 responsible:
     - duz
-title: Bearbeiten eines Tutorials
+title: Vorschlagen eines Tutorials
 functionalRequirement: SchnellerLernprozess
 asA: lehrende
-iWantTo: , dass bestehende Tutorials im System bearbeitet werden können
-forThisReason: ich auf aktuelle und fehlerfreie Anleitungen zurückgreifen kann
+iWantTo: Tutorials vorgeschlagen bekommen
+forThisReason: ich das System effektiv nutzen kann
 history:
     v1:
         date: 2021-07-21
         comment: initially created
-    v2: 
+    v2:
         date: 2021-07-29
         comment: modified regarding todos
 todo:

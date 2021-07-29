@@ -9,7 +9,7 @@ asA:
     - profBwl
     - profInf
     - profMa
-    - student
+    - studierende
     - wmaAutonomousLecturerInf
     - wmaDev
     - wmaProg
@@ -20,7 +20,11 @@ history:
         date: 2021-07-23
         comment: initially created
 todo:
-    
+    - (sbe) nur ein asA! Ich würde mich auf den Studierenden fokussieren und ggfs. andere Nutzer in den Hinweisen nennen. 
+    - (sbe) bei "iWantTo die Einstellung für Farbenblinde vornehmen" könnte man ergänzen "falls ich eine Farb-Sehbehinderung habe"
+    - (sbe) aus meiner Sicht immer noch sehr groß für einen Sprint. Ich würde mit einem Detail starten, also z.B. "rot/grün-Darstellung der Tests auf ein entsprechendes Symbol umschalten"
+    - (sbe) komplettes Duplikat von barrierefreiheit, bitte eins von beiden löschen
+    - (sbe) Sie haben jetzt hier zwei verschiedene Versionen der US - einmal die oben durch das Front Matter definierte (asA ... iWantTo ... forThisReason), und unten nochmal als Text. Bitte nutzen Sie *nur* das Front Matter.
 ---
 
 ## User Story

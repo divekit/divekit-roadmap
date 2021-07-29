@@ -29,7 +29,7 @@ history:
         date: 2021-07-26
         comment: added timestamp
 ignore:
-    -w005
+    - w005
 todo:
 ---
 

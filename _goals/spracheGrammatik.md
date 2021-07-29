@@ -5,7 +5,7 @@ responsible:
     - kru
     - duz
     - ako
-title: Verbesserung von grammatikalischen Ausdrücken
+title: Verbesserte Unterstützung von grammatikalischen Ausdrücken
 source:
     - [interview, jintveen, Minute 00-35-39]
     - [interview, sbente, Minute 00-33-19]
@@ -20,14 +20,16 @@ history:
     v3:
         date: 2021-07-03
         comment: added source
+    v4:
+        date: 2021-07-29
+        comment: updated Beschreibung & Begründung
 todo:
-    - (sbe) Ich weiß, was gemeint ist, aber es ist ziemlich kryptisch formuliert. Sie meinen doch - mehr Unterstützung bei der Aufgabenerstellung, damit man nicht alle grammatischen Varianten (einer, eine, eines, ...) von Hand coden muss, oder? 
 ---
 
 ## Beschreibung
 
-Der Entwickler möchte die aktuell vorhandene Unterstützung der deutschen Sprache verbessern.
+Das DiveKit soll eine solide Sprachunterstützung bieten, mit deren Hilfe Texte leicht individualisiert werden können.  
 
 ## Begründung
 
-Eine Verbesserung fördert die Verständlichkeit und Richtigkeit der zu individualisierenden Texte. Zum Beispiel werden in der deutschen Sprachen die Artikel von Nomen und substantivierte Verben je nach Fall geändert.
+Aktuell bietet das DiveKit zwar verschiedenste Optionen zur Textindividualisierung, die aber noch sehr aufwendig zu bedienen ist. Es wäre eine deutliche Erleichterung, wenn beispielsweise grammatikalische Fälle o.Ä. automatisch erkannt und eingefügt werden, damit dies nicht mehr von Hand geschehen muss.

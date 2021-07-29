@@ -5,7 +5,7 @@ responsible:
     - kru
     - duz
     - ako
-title: Verschiedene Aspekte des organisatorischen Aufbaus
+title: Verbesserung von Berechenbarkeit und Organisation
 source: 
     - [workshop, waltDisney]
     - [survey, beobachtungstagebuch]
@@ -26,8 +26,10 @@ history:
     v4:
         date: 2021-07-27
         comment: updated Beschreibung & Begründung
+    v5:
+        date: 2021-07-29
+        comment: updated references
 todo: 
-    - (sbe) "Verschiedene Aspekte des organisatorischen Aufbaus" ist ein ungeeigneter Titel. Was _genau_ ist das Ziel? So etwas wie "Berechenbarkeit" vielleicht? 
 ---
 
 ## Beschreibung
@@ -36,7 +38,7 @@ Die Aufgaben im und Arbeit mit dem DiveKit sollen in kompakte und separate Meile
 
 Die genaueren Anforderungen sind hier jeweils in den Unterzielen ausführlicher beschrieben:
 
-* [Kompakte Organisation](https://divekit.github.io/divekit-roadmap/goals/organisationKompakt.html)
+* [Bessere Vermittlung der Wartezeiten](https://divekit.github.io/divekit-roadmap/goals/organisationBesseresZeitmanagement.html)
 * [Meilensteine](https://divekit.github.io/divekit-roadmap/goals/organisationMeilensteine.html)
 
 ## Begründung

@@ -14,8 +14,10 @@ history:
     v1:
         date: 2021-07-17
         comment: initially created
+    v2:
+        date: 2021-07-29
+        comment: updated diagram
 todo:  
-    - (sbe) Feedback filtern ist m.E. Teil von Suche nach Feedback, sonst gut
 ---
 
 ## Beschreibung
@@ -23,8 +25,7 @@ todo:
 Das Use-Case Diagramm stellt mögliche Nutzungen des Systemteils "Feedback-Archiv" dar.
 
 Das Feedback-Archiv besteht aus:
-* Suche nach Feedback
-  * Filtern von Feedback
+* Suche nach Feedback (inkl. Filter)
   * Anzeige von Feedback
     * Bearbeitung / Löschen von Feedback
 * Archivierung von Feedback

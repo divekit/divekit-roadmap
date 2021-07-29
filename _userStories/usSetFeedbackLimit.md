@@ -12,16 +12,22 @@ history:
     v1:
         date: 2021-07-23
         comment: initially created
+    v2:
+        date: 2021-07-29
+        comment: User Story kleiner gemacht, indem auf mehrere aufgeteilt.
 
 todo:
-    
+    - (sbe) (von tza verkürzt) US Ist zu groß
+    - (tza) (Antwort) Ich habe jetzt noch paar weitere US's daraus gemacht. Hier wird auch davon ausgegangen, dass unterschiedliche Einstellungen durch den Nutzer bereits möglich sind und jetzt nur noch eine neue dazu kommt. Es soll locker in einem Sprint umgesetzt werden.
+
 ---
 
-## User Story
-Als Lehrender möchte ich eine Obergrenze für die Anzahl von Feedback-Anfragen zu setzen,
-damit die Studierenden durch mehrere Feedback-Anfragen vollständige Lösung nicht erfragen können.
-
 ## Hinweise
-Nachdem der Lehrende die Obergrenze festgelegt hat, verbietet das System dem Studierenden,
-die *(n + 1)*-te Anfrage zu senden (wobei *n* die festgelegte Obergrenze ist).
-Die Studierenden werden durch eine entsprechende Meldung darauf aufmerksam gemacht.
+Es wird dem Nutzer ermöglicht eine neue Einstellung vorzunehmen.
+Es wird die Obergrenze für die Anzahl von Feedback-Anfragen gesetzt.
+Dies muss persistiert werden, um im weiteren Verlauf berücksichtigt zu werden.
+
+Siehe auch:
+- [Feedback-Obergrenze überwachen](./usMonitorFeedbackLimit.md)
+- [Feedback-Obergrenze erreicht](./usFeedbackLimitReached.md)
+- [Warnung über Feedback-Obergrenze](./usFeedbackLimitWarning.md)

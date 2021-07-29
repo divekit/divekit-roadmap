@@ -7,7 +7,7 @@ title: Auswahl der Aufgaben für Überprüfung
 goals:
     - studVorbereiten
     - entlastungAutoSystem
-    - organisationKompakt
+    - organisationBesseresZeitmanagement
 implementationStatus: open
 prefilterPriorizationPoints: 1
 source:
@@ -21,12 +21,16 @@ history:
         comment: Fixed goals
 todo:
     - (sbe) Bitte Begründung klarer machen, ich verstehe das noch nicht. Was hat der Student davon, dass eine Aufgabe noch nicht kontrolliert wird, obwohl er/sie als fertig gepusht hat?
-    - bitte den Systemnamen verwenden -> Das DiveKit; siehe Template(jlü)
+    - (tza) (Antwort) Ich habe die Begründung etwas erweitert. Für mich war es aber ziemlich eindeutig, was gemeint war. Ich hoffe, wir haben jetzt eine ähnliche Vorstellung von dem Problem.
+
 ---
 
-Das System soll dem Benutzer (Studierenden) die Möglichkeit bieten, die zu kontrollierenden Aufgaben zu markieren.
+Das DiveKit soll dem Benutzer (Studierenden) die Möglichkeit bieten, die zu kontrollierenden Aufgaben zu markieren.
 (Nur die markierten Aufgaben werden ausgeführt und geprüft)
 
 ## Begründung
 
-Wenn nicht alle Aufgaben ausgeführt werden, entsteht auch eine bessere und kompaktere Übersicht. Dies spart Zeit bei der Bearbeitung.
+Wenn die Studierenden mehrere Aufgaben gleichzeitig bearbeiten, sich aber nur für wenige interessieren
+(weil zum Beispiel der Rest schon grün ist), wollen sie nur die ausgewählten Ergebnisse sehen.
+Wenn nicht alle Aufgaben ausgeführt werden, entsteht auch eine bessere und kompaktere Übersicht.
+Dies spart Zeit bei der Bearbeitung.

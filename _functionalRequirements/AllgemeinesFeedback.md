@@ -4,7 +4,7 @@ acronym: AllgemeinesFeedback
 responsible:
     - mwi
     - duz
-title: Allgemeines Feedback
+title: Feedback zum Code nach bestandenem Tests
 goals:
     - ganzheitlichesFeedback
     - motivation
@@ -40,12 +40,15 @@ history:
     v6:
         date: 2021-07-26
         comment: modified regarding todo
+    v7:
+        date: 2021-07-29
+        comment: modified reason and title regarding todo
 todo:
-    - (sbe) Requirement ist etwas unklar. Welche Art Feedback genau ist bei _bestandenen_ Tests gewünscht?
-    - (sbe) Bitte dann auch Titel präzisieren
 ---
 
 Das DiveKit muss in der Lage sein, dem Studierenden zu nicht bestandenen Tests und auch bestandenen Tests Feedback zu geben.
 
 ## Begründung
-Dem Benutzer soll auch eine Rückmeldung gegeben werden, wie “gut” eine Lösung ist. Es wird sich somit auch Feedback zu bestandenen Tests gewünscht. Eine erarbeitete Lösung kann nämlich auch unschön sein und das ist nicht zielführend.
+Dem Benutzer soll auch eine Rückmeldung gegeben werden, wie “gut” eine Lösung ist. Es wird sich somit auch Feedback zu bestandenen Tests gewünscht. 
+
+Vermutende Lösung des Business Analysten: Eine erarbeitete Lösung kann auch "unschön" gelöst sein und das ist nicht zielführend. Vermutlich wird sich gewünscht, dass Feedback zum geschriebenen Code erfolgt. Das kann zum Beispiel auf Basis bestimmter eingehaltener Strukturen basieren, Stichwort Clean Code, oder auch die Einhaltung von Konventionen beinhalten.

@@ -6,16 +6,18 @@ responsible:
 title: Unterstützung moderner IDEs
 functionalRequirement: UnterstuetztIDE
 asA: profInf
-iWantTo: dass das Divekit die Verwendung moderner IDEs wie IntelliJ und VSCode ermöglicht
-forThisReason: damit Studierende, die das System verwenden, so die Verwendung dieser IDEs einüben können
+iWantTo: dass Studierende die im DiveKit gestellten Aufgaben in einer modernen IDE lösen können
+forThisReason: Studierende, die das System verwenden, so die Verwendung dieser IDEs einüben können
 history:
     v1:
         date: 2021-07-24
         comment: initially created
-
+    v2:
+        date: 2021-07-29
+        comment: updated story to address todo
 todo:
 ---
 
-## User Story
+## Anmerkung
 
-Als Informatikprofessor möchte ich, dass das Divekit die Verwendung moderner IDEs wie IntelliJ und VSCode ermöglicht, damit Studierende, die das System verwenden, so die Verwendung dieser IDEs einüben können.
+Da das DiveKit Repositories erzeugt, die bereits jetzt mit IDEs bearbeitet werden können, sollte dies bereits implementiert sein.

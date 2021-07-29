@@ -10,15 +10,15 @@ scenarioTypes:
 responsible: 
     - tza
 source:
-    - [interview, fkrampe, 00:09:47]
-    - [interview, fkrampe, 00:13:25]
-    - [interview, fkrampe, 00:27:17]
+    - [interview, fkrampe, 00-09-47]
+    - [interview, fkrampe, 00-13-25]
+    - [interview, fkrampe, 00-27-17]
 history:
     v1:
         date: 2021-06-11
         comment: initially created
 todo:
-    - (sbe) warum wird das Alternativszenario gewählt?
+    - (sbe) warum wird das Alternativszenario gewählt? (tza) siehe [interview, fkrampe, 00-13-25] und leider konnte ich mir keinen besseren Weg vorstellen, das Ziel mit anderen Systemmitteln zu erreichen. 
 ---
 
 ## Beschreibung

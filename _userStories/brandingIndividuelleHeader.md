@@ -6,7 +6,7 @@ responsible:
 title: Branding durch individuelle Header
 functionalRequirement: IndividuellesDesign
 asA: anwenderExtern
-iWantTo: individuelle Header in das System einfügen
+iWantTo: individuelle Header in das DiveKit einfügen
 forThisReason: Überschriften an meine Hochschule angepasst und auf meine Inhalte abgestimmt werden können
 history:
     v1:
@@ -15,12 +15,12 @@ history:
     v2:
         date: 2021-07-28
         comment: improved wording
-todo:
-    
+    v3:
+        date: 2021-07-28
+        comment: removed duplicate description
+todo:   
+    - (sbe) Passt glaube ich gut in einen Sprint. Allerdings würde ich noch eine Einschränkung / Klärung dazuschreiben, dass das erfordert, SCSS-Dateien zu editieren und das System neu zu bauen. Das wäre machbar. Außerdem müsste eine kurze Anleitung dafür in der US drin sein, kann man auch einfach dazuschreiben.     
 ---
-
-## User Story
-Als externer Anwender des Systems möchte ich individuelle Header in das System einfügen, um Überschriften an meine Hochschule anpassen und auf meine Inhalte abstimmen zu können.
 
 ## Bedingungen
 Der externe Anwender besitzt Verwaltungsrechte und die externe Hochschule möchte die Überschriften individualisieren bzw. es gibt sinnvolle Änderungsmöglichkeiten für den entsprechenden Kontext.

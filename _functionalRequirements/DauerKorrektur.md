@@ -6,7 +6,7 @@ responsible:
     - duz
 title: Dauer der Korrektur
 goals:
-    - besseresZeitmanagement
+    - organisationBesseresZeitmanagement
 source:
     - [beobachtungstagebuch, RD3]
 implementationStatus: open
