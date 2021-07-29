@@ -28,7 +28,12 @@ history:
         date: 2021-07-16
         comment: Modified responsibles as discussed
 todo:
-    - (sbe) bitte präzisieren - wie ist der Halbsatz "und diese als inkorrekt markieren" gemeint, wenn es sich zum Beispiel um Code handelt, bei dem der Test fehlschlägt? 
 ---
 
-Wenn die von den Studierenden eingereichte Lösung Fehler erzeugt, soll das DiveKit die Fehler feststellen und diese als inkorrekt markieren.
+Wenn die von den Studierenden eingereichte Lösung fehlerhaft ist, soll das DiveKit die Fehler feststellen, den Testprozess abbrechen und diesen Fehler als inkorrekt markieren.
+
+
+## Begründung
+<!--(sbe) bitte präzisieren - wie ist der Halbsatz "und diese als inkorrekt markieren" gemeint, wenn es sich zum Beispiel um Code handelt, bei dem der Test fehlschlägt? -->
+Vermutung des Business Analysten, da keine Rücksprache mehr mit dem Autoren gehalten werden kann: 
+Der Fehler soll dem Studierenden visuell angezeigt werden. Es könnte bei Code das Hervorheben der fehlerhaften Stellen durch Highlighting gemeint sein oder nur die Anzeige des Fehlerortes (Klassen-, Funktions- oder konkrete Zeilenangabe). Wie ausführlich das gestaltet werden soll, kann nicht ermittelt werden.  
