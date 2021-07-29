@@ -17,8 +17,10 @@ history:
     v2:
         date: 2021-07-15
         comment: fix goals
+    v3:
+        date: 2021-07-29
+        comment: fix todo
 todo: 
-    - (sbe) Drehen Sie doch die Begründung um - wenn das Feedback sichtbar ist, wird das Fehlerbeheben leichter.         
 ---
 
 Das DiveKit soll alte Testergebnisse und deren Feedback speichern, statt sie mit dem Wiederholen des Tests zu
@@ -26,4 +28,4 @@ Das DiveKit soll alte Testergebnisse und deren Feedback speichern, statt sie mit
 
 ## Begründung
 
-Der Verlust des alten Feedbacks kann das iterative Beheben von Fehlern deutlich erschweren.
+Wenn das alte Feedback sichtbar bleibt, macht das das Beheben von Fehlern zum Teil deutlich einfacher.
