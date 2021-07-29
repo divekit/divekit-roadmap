@@ -4,7 +4,7 @@ acronym: ZeitpunktKorrektur
 responsible:
     - mwi
     - duz
-title: Zeitpunkt Korrektur
+title: Rückmeldung zum Zeitpunkt der Korrektur
 goals:
     - organisationBesseresZeitmanagement
 implementationStatus: open
@@ -24,12 +24,13 @@ history:
     v4:
         date: 2021-07-16
         comment: fixed wrong responsible
+    v5:
+        date: 2021-07-29
+        comment: updated regarding todos
 todo:
-    - (sbe) bitte noch ergänzen - "und dem Studierenden mitteilen", das wird erst aus der Begründung ersichtlich
-    - (sbe) bitte Titel präzisieren
 ---
 
-Das DiveKit soll dem Betreuer die Möglichkeit bieten einen Zeitpunkt festzulegen, wann die Aufgaben korrigiert werden.
+Das DiveKit soll dem Betreuer die Möglichkeit bieten einen Zeitpunkt festzulegen, wann die Aufgaben korrigiert werden und dem Studierenden mitteilen.
 
 ## Begründung
 Durch den festgelegten, einsehbaren Zeitpunkt der Korrektur ist eine bessere Planbarkeit möglich.
