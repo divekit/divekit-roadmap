@@ -18,13 +18,16 @@ history:
     v2:
         date: 2021-07-16
         comment: merged with goal einstieg
+    v3:
+        date: 2021-07-29
+        comment: improved Beschreibung to address todo
 todo:
-    - (sbe) für welche Nutzer*innengruppe gilt das Ziel? Nur Studies oder auch Lehrende? 
 ---
 
 ## Beschreibung
 
-Die Einarbeitung in das System soll mit möglichst geringem Aufwand erfolgen. Der (Kennen)Lernprozess soll demnach einfach sein. Für den Einstieg könnten zum Beispiel Tutorials/Videos bereitgestellt werden.
+Die Einarbeitung in das System soll für alle Nutzer (Studierende wie Lehrende) mit möglichst geringem Aufwand erfolgen. Der (Kennen)Lernprozess soll demnach einfach sein. Für den Einstieg könnten zum Beispiel Tutorials/Videos bereitgestellt werden.
+Die angezeigte Anleitung müsste für Studierende und Lehrende allerdings jeweils an den Kontext angepasst sein.
 
 ## Begründung
 
