@@ -6,10 +6,10 @@ responsible:
 title: Use Case Diagram Aussagekräftige Fehlermeldung
 functionalRequirement: FehlermeldungAussagekraeftig
 useCases:
-    - Prüfungsstatus abrufen
-    - Divekit-Team benachrichtigen 
+    - pom.xml überprüfen
+    - Hilfe anfordern 
 useCasesDetailedWithScenario:
-    - UCaufgabeTesten 
+    - UCaufgabeEinreichen
 diagram: ./diagrams/useCaseAussagekräftigeFehlermeldung.jpg
 history:
     v1:
@@ -24,8 +24,10 @@ history:
     v4: 
         date: 28-07-28
         comment: resolved review issues
+    v5:
+        date: 2021-07-29
+        comment: fundamental changes in order to better reflect the functional requirement
 todo: 
-    - (sbe) verstehe ich nicht so richtig, aber Sie wollten es ja noch überarbeiten. 
 ---
 
 ## Beschreibung
@@ -33,14 +35,15 @@ todo:
 Hier werden mögliche Interaktionen mit dem System dargestellt, die mit der Anforderung "Aussagekräftige Fehlermeldung"
 in Verbindung stehen. 
 
-Der Use Case "Aufgabe testen" wird vom Studenten ausgeführt, um seine Aufgaben überprüfen zu lassen. Es soll eine 
-Rückmeldung geben, ob die Aufgabe richtig/falsch ist oder ob der Test derzeit nicht durchführbar ist.
+Der Use Case "Aufgabe einreichen" wird vom Studenten ausgeführt. Wenn der Student sein Ergebnis comitet und pusht,
+wird zunächst die lokale pom.xml mit der pom.xml aus dem hidden Repo verglichen (pom.xml überprüfen). Werden Änderungen 
+festgestellt, wird das Compilieren der Aufgabe abgebrochen. Auf der Testseite wird eine Fehlermeldung ausgegeben, die den
+Studenten darauf hinweist, dass er die Datei "pom.xml" verändert hat, dies aber nicht sollte. Es werden auch die Änderungen
+angezeigt, die der Student rückgängig machen muss, damit die Aufgabe wieder compilieren kann
 
-Der Use Case Prüfungsstatus abrufen erlaubt es dem Nutzer einzusehen, in welchem Zustand die Prüfung einer Aufgabe ist. Wenn die
-Prüfung vom System nicht durchführbar ist, wird hier der Systemfehler an den Studenten kommuniziert. Zusätzlich wird ein wma-Dev benachrichtigt,
-wenn ein Systemfehler vorliegt-
+Wenn die Überprüfung der pomm.xml keine unzulässigen Veränderungen findet, wird die Aufgabe compiliert und die Tests
+werden durchgeführt. Dem Studenten wird auf der Testseite angezeigt, ob die Tests bestanden wurden.
 
-Wenn so ein Fehler auftritt, kann der Nutzer sofort einen Bug-Report rausschicken, der an die Entwickler vom Divekit
-gesendet wird. 
-
+ Der Use Case "Hilfe anfordern" bildet ab, dass dem Studenten unter der Fehlermeldung Kontaktdaten angegeben werden, mit
+ denen er menschliche Hilfe anfordern kann, wenn er das Problem nicht selbständig lösen kann.
 

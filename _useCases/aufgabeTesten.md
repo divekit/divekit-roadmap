@@ -1,9 +1,9 @@
 ---
 type: useCase
-acronym: UCaufgabeTesten
+acronym: UCaufgabeEinreichen
 responsible: 
     - cpo
-title: Aufgabe testen
+title: Aufgabe einreichen
 description: Ein Student lässt eine Aufgabe auf Richtigkeit prüfen
 primaryActor: studierende
 secondaryActors:
