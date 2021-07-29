@@ -6,7 +6,7 @@ responsible:
 title: Bearbeiten eines Tutorials
 functionalRequirement: SchnellerLernprozess
 asA: lehrende
-iWantTo: , dass bestehende Tutorials im System bearbeitet werden können
+iWantTo: dass bestehende Tutorials im System bearbeitet werden können
 forThisReason: ich auf aktuelle und fehlerfreie Anleitungen zurückgreifen kann
 history:
     v1:
