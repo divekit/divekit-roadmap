@@ -15,6 +15,8 @@ history:
     v1:     
         date: 2021-05-27
         comment: initially created      
+ignore: w005
+
 ---
 
 ## Protokoll Workshop 6-3-5 Methode
