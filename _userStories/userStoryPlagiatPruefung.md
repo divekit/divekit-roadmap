@@ -13,7 +13,7 @@ history:
         date: 2021-07-22
         comment: initially created
     v2: 
-        date 2021-07-22
+        date: 2021-07-22
         comment: removed redundant mention, changed to a smaller scope
 todo: 
 ---
