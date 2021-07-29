@@ -7,7 +7,7 @@ responsible:
 title: Die Feedback-Seite muss dynamisch und interaktiv sein
 goals: 
     - entlastungAutoSystem
-    - organisationKompakt
+    - organisationBesseresZeitmanagement
     - entlastung
     - autoUpdate
 implementationStatus: open

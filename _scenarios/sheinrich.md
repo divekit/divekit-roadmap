@@ -4,14 +4,9 @@ acronym: sampleScenario
 title: Einfache Individualisierung von Aufgaben
 persona: sheinrich
 scenarioTypes:
-    - main
-    - exception
     - positive
     - negative
-    - concrete
-    - abstract
-    - interaction
-    - system
+    - abuse
 responsible:
     - mba
 source:
@@ -27,11 +22,11 @@ history:
     v1:
         date: 2021-06-18
         comment: initially created
+    v2:
+        date: 2021-07-28
+        comment: todos done, Szenariotypen aktualisiert; Negativszenario geaendert; Umgangssprache entfernt 
 todo:        
-    - (sbe) zu viele Szenariotypen - bitte lassen Sie nur die Szenariotypen oben im Front Matter übrig lassen, für die es auch wirklich ein Szenario gibt
-    - (sbe) Negativszenario - "dass sich manche über die Konstellation ihrer Datensätze beschweren. In den Nachrichten heißt es, dass die Datensätze keinen Sinn für eine Datenanalyse machen." - Das klingt nach einem Bug im Tool? Wenn dem so ist - so etwas wird grundsätzlich nicht modelliert, man nimmt immer an, dass das System fehlerfrei läuft. Negativszenario heißt, dass das Tool falsch oder missbräuchlich benutzt wird, entweder von Siegmund oder seinen Studies. Vielleicht kann man das Negativszenario in diese Richtung "drehen".
-    - (sbe) "solange die Ergebnisse reingeschmissen" - bitte keine Umgangssprache in Szenarien.
-     
+   
 ---
 
 ## Beschreibung
@@ -46,8 +41,8 @@ Das Semester neigt sich dem Ende und Siegmund würde sich gerne einen Notenkorri
 
 Siegmund hatte sehr lange seine Mathematik Veranstaltung vorbereitet und war fest davon überzeugt, dass die neue Methodik mit dem Tool auf helle Ohren stoßen wird. Er präsentierte seine Veranstaltung den Studenten, die sofort versuchten, das Tool zu installieren und zu benutzen. Dabei hatten die Studenten, die überwiegend Ingenieure sind, erhebliche Probleme bei der Installation und darauffolgend mit der Benutzung des Tools.
 
-Siegmund hat seine Datensätze generiert und sie an die Studenten verteilt. Kurz nachdem die Durchführung Datenanalyse von den Studenten begonnen wurde, haben Siegmund erste Nachrichten erreicht, dass sich manche über die Konstellation ihrer Datensätze beschweren. In den Nachrichten heißt es, dass die Datensätze keinen Sinn für eine Datenanalyse machen. 
+Siegmund hat seine Datensätze generiert und sie an die Studenten verteilt. Dabei hatte er vergessen, das DiveKit so zu konfigurieren, dass nur Daten in einem bestimmten Wertebereich generiert werden. Kurz nachdem die Durchführung Datenanalyse von den Studenten begonnen wurde, haben Siegmund erste Nachrichten erreicht, dass sich manche über die Konstellation ihrer Datensätze beschweren. In den Nachrichten heißt es, dass die Datensätze keinen Sinn für eine Datenanalyse machen. 
 
 ### Missbrauch Szenario
 
-Siegmund konnte im Log des Tools feststellen, dass einige Studenten ihre Aufgaben mit einer Art Brute Force Methode gelöst haben. Sie haben solange die Ergebnisse reingeschmissen, bis sie genau das raus hatten was das Tool von ihnen wollte. Somit ist der eigentliche Sinn des Tools völlig verloren gegangen. 
+Siegmund konnte im Log des Tools feststellen, dass einige Studenten ihre Aufgaben mit einer Art Brute Force Methode gelöst haben. Sie haben solange die Ergebnisse eingegeben, bis sie genau das raus hatten was das Tool von ihnen wollte. Somit ist der eigentliche Sinn des Tools völlig verloren gegangen. 

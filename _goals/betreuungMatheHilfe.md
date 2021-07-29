@@ -3,7 +3,7 @@ type: goal
 acronym: betreuungMatheHilfe
 responsible:
     - mba
-title: Die Teil Korrektur von Aufgaben
+title: Präsentieren von Lösungen von Matheaufgaben
 source:
     - [interview, nnProf, Minute 00-07-43]
 belongsTo: betreuung
@@ -11,15 +11,14 @@ history:
     v1:
         date: 2021-06-24
         comment: initially created
+    v2: 
+        date: 2021-07-28
+        comment: todos done, titel geändert; Fehler korrigiert; Beschreibung und Begründung präzisiert
 todo:
-    - Titel ist missverständlich und passt nicht gut zum Ziel
-    - Rechtscheib- und Grammatikfehler beheben
-    - Bitte geschlechtsneutral formulieren
-    - (sbe) "Eine Funktionalität, die die menschliche Rechenweise nachahmen kann  und als Lösungen präsentieren könnte." Der Satz ist mir unklar. Die ganze Begründung könnte etwas genauer formuliert sein.
 ---
 
 ## Beschreibung
-Eine Funktionalität, die die menschliche Rechenweise nachahmen kann  und als Lösungen präsentieren könnte. Es würde bereits  ein symbolischer Vergleich der Rechnung mit einer Musterlösung reichen. Dadurch, dass das Tool die Lösung berechnen kann soll, es den Studenten schrittweise zu Lösung bringen. 
+Für komplexe Matheaufgaben die aus mehreren Rechenschritten bestehen um diese zu lösen, sollen nachvollziehbare Lösungen generiert werden können. Es würde bereits ein symbolischer Vergleich der Rechnung mit einer Musterlösung reichen. Dadurch, dass das Tool die Lösung berechnen kann soll, es den Studenten schrittweise zu Lösung bringen.
 
 ## Begründung
-Hilfe für Studenten bei Mathe Aufgaben, die Schrittweise an  die Lösung herangetragen werden.
+Anhand der Lösungen sollen Studierende Schrittweise an die Lösung herangetragen werden.

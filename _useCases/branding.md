@@ -21,8 +21,10 @@ history:
     v3:
         date: 2021-07-28
         comment: removed self explanatory precondition
+    v4:
+        date: 2021-07-29
+        comment: removed barrierefreie Ansicht
 todo: 
-    - (sbe) deutlicher Überlapp mit UC "barrierefreiheit" - bitte abgrenzen oder zusammenführen
 ---
 
 ## Hauptszenario
@@ -39,11 +41,8 @@ todo:
 * 2a) Der externe Anwender ruft die Einstellungsmöglichkeiten für die Darkmode-Ansicht auf
 * 3a) Das System stellt die Darkmode-Einstellungen zur Verfügung
 
-* 2b) Der externe Anwender ruft die Einstellungsmöglichkeiten für die barrierearme Ansicht auf
-* 3b) Das System stellt die Einstellungen der barrierearmen Ansicht zur Verfügung
+* 2b) Der externe Anwender ruft die Einstellungsmöglichkeiten für individuelle Header auf
+* 3b) Das System stellt eine Übersicht aller möglichen Header zur Verfügung
 
-* 2c) Der externe Anwender ruft die Einstellungsmöglichkeiten für individuelle Header auf
-* 3c) Das System stellt eine Übersicht aller möglichen Header zur Verfügung
-
-* 2d) Der externe Anwender ruft die Einstellungsmöglichkeiten für Icons auf
-* 3d) Das System stellt eine Übersicht aller möglichen Icons zur Verfügung
+* 2c) Der externe Anwender ruft die Einstellungsmöglichkeiten für Icons auf
+* 3c) Das System stellt eine Übersicht aller möglichen Icons zur Verfügung
