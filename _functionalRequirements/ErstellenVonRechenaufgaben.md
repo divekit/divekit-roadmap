@@ -20,14 +20,16 @@ history:
         comment: added detailed explanation; removed wrong sources
     v3:
         date: 2021-07-15
-        comment: Fixed goalesS
+        comment: Fixed goales
+    v4:
+        date: 2021-07-29
+        comment: Vorschlag Rechenaufgaben auszutauschen eingebaut
 todo: 
-    - (sbe) ... vielleicht lieber "Anwendung von mathematischen Standardformeln" statt "Rechenaufgabe" ...? Klingt sonst eher nach Grundschule ...
 ---
 
-Bei der Aufgabenerstellung wird das DiveKit den Lehrverantwortlichen die Möglichkeit bieten, Rechenaufgaben zu erstellen.
+Bei der Aufgabenerstellung wird das DiveKit den Lehrverantwortlichen die Möglichkeit bieten, Aufgaben auf Grundlagen von mathematischen (Standard-)formeln zu erstellen.
 
 ## Begründung
 
-Mit Rechenaufgaben werden Aufgaben bezeichnet, in denen mathematische Probleme durch Rechnen gelöst werden. Mit Bezug auf das Kombinieren von Aufgaben im Kontext von fachfremden Modulen, kann dieser Aufgabentyp ein relevanter Baustein darstellen, der Aufgabenkomplexe ermöglicht. Gerade im Bereich von Betriebswirtschaft oder Marketing werden viele Sachverhalte, Probleme und Kenngrößen mathematisch ermittelt, um Aussagen bzw. Entscheidungen treffen zu können.
+Mit Mathematikaufgaben werden Aufgaben bezeichnet, in denen mathematische Probleme durch Rechnen gelöst werden. Mit Bezug auf das Kombinieren von Aufgaben im Kontext von fachfremden Modulen, kann dieser Aufgabentyp ein relevanter Baustein darstellen, der Aufgabenkomplexe ermöglicht. Gerade im Bereich von Betriebswirtschaft oder Marketing werden viele Sachverhalte, Probleme und Kenngrößen mathematisch ermittelt, um Aussagen bzw. Entscheidungen treffen zu können.
 
