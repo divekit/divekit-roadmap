@@ -6,17 +6,18 @@ responsible:
 title: Unterstützung moderner IDEs
 functionalRequirement: UnterstuetztIDE
 asA: profInf
-iWantTo: dass das Divekit die Verwendung moderner IDEs wie IntelliJ und VSCode ermöglicht
-forThisReason: damit Studierende, die das System verwenden, so die Verwendung dieser IDEs einüben können
+iWantTo: dass Studierende die im DiveKit gestellten Aufgaben in einer modernen IDE lösen können
+forThisReason: Studierende, die das System verwenden, so die Verwendung dieser IDEs einüben können
 history:
     v1:
         date: 2021-07-24
         comment: initially created
+    v2:
+        date: 2021-07-29
+        comment: updated story to address todo
 todo:
-    - (sbe) Was muss implementiert werden, damit diese US erfüllt ist? Ist mir unklar. Was soll das Team tun?
-    - (sbe) Sie haben jetzt hier zwei gleiche (?) Versionen der US - einmal die oben durch das Front Matter definierte (asA ... iWantTo ... forThisReason), und unten nochmal als Text. Bitte nutzen Sie *nur* das Front Matter. Bitte passen Sie die Formulierung so an, dass das im Web Interface gut lesbar umgesetzt ist.     
 ---
 
-## User Story
+## Anmerkung
 
-Als Informatikprofessor möchte ich, dass das Divekit die Verwendung moderner IDEs wie IntelliJ und VSCode ermöglicht, damit Studierende, die das System verwenden, so die Verwendung dieser IDEs einüben können.
+Da das DiveKit Repositories erzeugt, die bereits jetzt mit IDEs bearbeitet werden können, sollte dies bereits implementiert sein.
