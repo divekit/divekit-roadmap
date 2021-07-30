@@ -11,15 +11,14 @@ relationshipToProject: >
     Anwender des Systems in hauptsächlich einer Lehrveranstaltung. Interessiert an sinnvoller Weiterentwicklung,
     möchte eigene Ideen einbringen.
 source:
-    - [interview, nnProf, Minute 00:04:22]
-    - [interview, nnProf, Minute 00:07:30]
-    - [interview, nnProf, Minute 00:14:01]
-    - [interview, nnProf, Minute 00:25:27]
-    - [interview, nnProf, Minute 00:32:46]
-    - [interview, nnProf, Minute 00:40:56]
-    - [interview, nnProf, Minute 00:47:44]
-    - [interview, nnProf, Minute 00:57:57]
-
+    - [interview, nnProf, Minute 00-04-22]
+    - [interview, nnProf, Minute 00-07-30]
+    - [interview, nnProf, Minute 00-14-01]
+    - [interview, nnProf, Minute 00-25-27]
+    - [interview, nnProf, Minute 00-32-46]
+    - [interview, nnProf, Minute 00-40-56]
+    - [interview, nnProf, Minute 00-47-44]
+    - [interview, nnProf, Minute 00-57-57]
 history:
     v1:
         date: 2021-06-17
