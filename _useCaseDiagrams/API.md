@@ -7,11 +7,12 @@ title: Use Case Diagram Erweiterung durch API
 functionalRequirement: API
 useCases:
     - Individuelle Aufgabe stellen
+    - Aufgabe abrufen
+    - Aufgabe bearbeiten
+    - Lösung einsenden
+    - Lösung abrufen
     - Informationen bereitstellen
     - Informationen abrufen
-    - Lösungen bereitstellen
-    - Lösungen abrufen
-    - Lösungen einreichen
 useCasesDetailedWithScenario: LösungenBeiDrittsystemEinreichen
 diagram: ./diagrams/usecaseAPI.png
 history:
@@ -21,32 +22,33 @@ history:
     v2:
         date: 2021-07-27
         comment: update description
+    v3: 
+        date: 2021-07-30
+        comment: update diagramm and description
 todo:
-    - (sbe) "exclude" gibts nicht, ist "extends" gemeint?
-    - (sbe) Die include Beziehungen sind mir nicht so klar. Wieso included z.B. "Individuelle Aufgabe stellen" den UC "Lösungen einsenden" ? Das ist doch nicht zwangsläufig.
-    - (sbe) Layout eines Diagramms sollte so sein, dass man es von links nach rechts / oben nach unten liest. Ist hier eher umgekehrt (links/rechts). Oben/unten ist eher zufällig, oder? 
 ---
 
 ## Beschreibung
 
-Das Use Case Diagramm stellt einige Nutzungsmöglichkeiten für die funktionale Anforderung "API" dar.
+Das Use Case Diagramm stellt einige Nutzungsmöglichkeiten für die funktionale Anforderung "API" dar. Hier wird eine Api für 
+Google Cloud dargestellt. 
 
-Der Use Case "(Individuelle) Aufgabe stellen" beschreibt die Aktivität eine * r Dozent * in, die eine Aufgabe 
+Der Use Case "(Individuelle) Aufgabe stellen" beschreibt die Aktivität eine*r Dozent*in, die eine Aufgabe 
 stellen möchte, die die Einbindung eines Drittsystems erfordert. 
 
-Der Use Case "Informationen bereitstellen" wird durch das Drittsystem angestoßen. Notwendige Informationen werden an das 
+Der Use Case "Aufgabe abrufen" beschreibt die Aktivität, wenn ein*e Student*in die Aufgabe von dem Drittsystem abruft.
+
+Anschließend kann die*der Student*in die Aufgabe bearbeiten. Dementsprechend folgt der Use Case "Aufgabe bearbeiten". 
+
+Der Use Case "Lösung einsenden" wird von Studierenden ausgelöst. Nach dem Bearbeiten der durch die lehrende Person gestellte Aufgabe 
+können die Studierenden ihre Lösung zu den Aufgaben einreichen.
+
+Der Use Case "Lösungen abrufen" wird durch die Lehrenden angestoßen. Wenn die Studierenden die Aufgaben bearbeitet haben, 
+kann der*die Dozent*in die Lösungen, die eingereicht wurden, abrufen. 
+
+
+Der Use Case "Informationen bereitstellen" wird durch das Drittsystem angestoßen. Notwendige Informationen werden an das
 System übermittelt.
 
 Der Use Case "Informationen abrufen" kann nach dem Use Case "Informationen bereitstellen" durch die Studenten angestoßen werden.
 Informationen, die durch das Drittsystem bereitgestellt wurden, können hier abgerufen werden.
-
-Der Use Case "Lösung einsenden" wird von Studierenden ausgelöst. Nach dem Bearbeiten der durch die lehrende Person gestellte Aufgabe 
-können die Studierenden ihre Lösung zu den Aufgaben einreichen. 
-
-Der Use Case "Lösungen bereitstellen" muss nach dem Einsenden der Lösungen geschehen. Die eingereichten Lösungen müssen im DiveKit für 
-die Dozierenden abrufbar sein.
-
-Der Use Case "Lösungen abrufen" wird durch die Lehrenden angestoßen. Nachdem das Drittsystem, die durch Student * innen eingereichten Lösungen, bereitgestellt hat,
-können diese die Lösungen abrufen und so korrigieren. 
-
-
