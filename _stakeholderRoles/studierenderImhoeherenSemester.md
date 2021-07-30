@@ -1,12 +1,12 @@
 ---
 acronym: studierenderImHoeherenSemester
 type: stakeholderRole
-belongsTo: studentInf
+belongsTo: studierende
 responsible:
     - ama
 name: Studierende*r im höheren Semester
-  description: >
-Studierende*r eines Informatik Studiengangs im höheren Semester
+description: >
+    Studierende*r eines Informatik Studiengangs im höheren Semester
 history:
     v1:
         date: 2021-07-28

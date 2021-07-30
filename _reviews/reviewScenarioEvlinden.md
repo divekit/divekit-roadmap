@@ -17,9 +17,9 @@ history:
     v2:
         date: 2021-07-27
         comment: added author comment
-	v3:
-		date: 2021-07-28
-		comment: added review input
+    v3:
+        date: 2021-07-28
+        comment: added review input
 
 todo:
 ---
@@ -47,42 +47,42 @@ todo:
 Rahmenhandlung
 
 Satz 1:
-	- Emilia nimmt am Praktikum von Softwaretechnik 1 in diesem Semester teil.
+    - Emilia nimmt am Praktikum von Softwaretechnik 1 in diesem Semester teil.
 
 Satz 2:
-	- Während der Bearbeitung der Aufgaben im DiveKit stößt Emilia auf Probleme bei der Nutzung des Tools.
+    - Während der Bearbeitung der Aufgaben im DiveKit stößt Emilia auf Probleme bei der Nutzung des Tools.
 
 Hauptszenario
 
 Satz 3:
-	- Sie versucht über Discord eine betreuende Person zu erreichen.
+    - Sie versucht über Discord eine betreuende Person zu erreichen.
 
 Satz 4:
-	- Nach kurzer Zeit meldet sich eine betreuende Person bei ihr.
+    - Nach kurzer Zeit meldet sich eine betreuende Person bei ihr.
 
 Satz 5:
-	- Beide treffen sich in einem Discord Sprachkanal.
+    - Beide treffen sich in einem Discord Sprachkanal.
 
 Satz 6:
-	- Die betreuende Person kann Emilias Probleme beheben.
+    - Die betreuende Person kann Emilias Probleme beheben.
 
 Satz 7:
-	- Sie kann mit der Bearbeitung der Aufgabe beginnen/fortsetzen.
+    - Sie kann mit der Bearbeitung der Aufgabe beginnen/fortsetzen.
 
 
 Negativszenario
 
 Satz 17:
-	- Emilia versucht per E-Mail eine betreuende Person zu erreichen.
+    - Emilia versucht per E-Mail eine betreuende Person zu erreichen.
 
 Satz 18
-	- Da sie nach drei Tagen keine Reaktion auf ihre E-Mail erhalten hat, stellt sie ihre Fragen in Discord.
+    - Da sie nach drei Tagen keine Reaktion auf ihre E-Mail erhalten hat, stellt sie ihre Fragen in Discord.
 
 Satz 19:
-	- Nachdem Emilia weitere zwei Tage auf eine Rückmeldung gewartet hat, versucht sie es nun bei ihren Kommilitonen.
+    - Nachdem Emilia weitere zwei Tage auf eine Rückmeldung gewartet hat, versucht sie es nun bei ihren Kommilitonen.
 
 Satz 20:
-	- Diese können ihr allerdings auch keine Hilfe geben.
+    - Diese können ihr allerdings auch keine Hilfe geben.
 
 Satz 21:
-	- Sie kann die Aufgabe nicht bearbeiten. 
+    - Sie kann die Aufgabe nicht bearbeiten. 
