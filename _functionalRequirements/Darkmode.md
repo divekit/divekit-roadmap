@@ -6,7 +6,7 @@ responsible:
     - ngi
 title: Anbieten eines Darkmode 
 goals: 
-    - nutzerPraeferenzDesign
+    - nutzerPraeferenz
 source:
     - [sources/Ergebnisse_6-3-5-Methode-Workshop_Gruppe1.md]
 implementationStatus: open
