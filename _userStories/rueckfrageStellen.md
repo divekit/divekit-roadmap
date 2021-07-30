@@ -18,7 +18,8 @@ history:
 todo:
 ---
 
-### Abnahmebedingungen
+## Abnahmebedingungen
+
 * Neben jeder Aufgabenstellung befindet sich ein Button für Rückfragen
 * Dieser Button öffnet einen Nachrichten-Editor, in dem der Aufgabentext bereits in einem fest vorgegebenen Format vorausgefüllt ist
 * Unter dem Aufgabentext kann der/die Studierende seine/ihre Frage(n) verfassen
