@@ -1,4 +1,4 @@
-    ---
+---
 type: functionalRequirement
 acronym: UMLEditor
 responsible:
