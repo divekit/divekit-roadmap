@@ -4,11 +4,12 @@ acronym: FehlermeldungAussagekraeftig
 responsible: 
     - jsp
     - cpo
+    - jlü
 title: Aussagekräftige Fehlermeldungen
 goals: 
     - fehlerFalscheKonfig
 implementationStatus: open
-prefilterPriorizationPoints: 4
+prefilterPriorizationPoints: 6
 kano:
     type: basic
     reasoning: >
@@ -17,6 +18,7 @@ kano:
         unnötige Fehlersuche für den Studierenden verursachen und viel Frust erzeugen.
 source:
     - Workshop 6-3-5-No.2
+    - [beobachtungstagebuch, PB1]
 history:
     v1:
         date: 2021-07-08
@@ -30,8 +32,10 @@ history:
     v4:
         date: 2021-07-29
         comment: improved kano classification reasoning
-todo: 
-    - (sbe) Duplikat zu AutoAenderung? - bitte zusammenführen oder abgrenzen 
+    v5: 
+        date: 2021-07-30
+        comment: merge duplicate
+todo:
 ---
 
 Bei fehlerhaften Umgebungseinstellungen (pom.xml), muss das DiveKit eine entsprechende Fehlermeldung erzeugen.
