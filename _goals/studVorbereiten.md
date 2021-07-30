@@ -24,7 +24,8 @@ todo:
 
 ## Beschreibung
 
-Die Studenten sollen durch die Absolvierung des Praktikums auf die Klausur vorbereitet werden. Das Wissen und viele Tools, die für das Schreiben der Klausur nötig sind, werden im Praktikum vermittelt.
+Die Studenten sollen durch die Absolvierung des Praktikums auf die Klausur vorbereitet werden.
+Das Wissen und viele Tools, die für das Schreiben der Klausur nötig sind, werden im Praktikum vermittelt.
 
 ## Begründung
 
