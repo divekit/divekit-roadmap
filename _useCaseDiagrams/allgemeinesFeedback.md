@@ -5,9 +5,8 @@ responsible:
     - ama
 title: Use Case Diagram Allgemeines Feedback
 functionalRequirement: AllgemeinesFeedback
-useCases:
-useCasesDetailedWithScenario:
-    - UCausführlichesFeedback
+useCases: allgemeinesFeedback
+useCasesDetailedWithScenario:allgemeinesFeedback
 diagram: ./diagrams/useCaseAllgemeinesFeedback.png
 history:
     v1:
