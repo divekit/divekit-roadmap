@@ -17,11 +17,17 @@ history:
     v2:
         date: 2021-07-29
         comment: fix todo
+    v2:
+        date: 2021-07-31
+        comment: fix todo
 todo: 
-    - (sbe) deutlicher Überlapp mit UC "branding" - bitte abgrenzen oder zusammenführen
 ---
 
 Als User zählt bei diesem Usecase jeder Stakeholder, der mit diesem System interagiert und seine visuellen Settings anpassen möchte.
+
+Dieser UC ist vom UC Branding deutlich abzugrenzen. Hierbei geht es ausschließlich um das Aktivieren/Deaktivieren von einer Barrierefreien Ansicht.
+Diese ist vom System vorgegeben und nicht durch Einstellung der Uni änderbar. Vor Augen kann man sich das besonders gut führen, wenn man einmal die Barrierefreiheit und Branding in eine Kano-Klassifikation übernimmt.
+Barrierefreiheit ist hier eindeutig ein Basismerkmal, wohingegen Branding, je nach Szenario, ein Leistungs- oder Begeisterungsmerkmal ist.
 
 ## Hauptszenario
 
