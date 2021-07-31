@@ -28,7 +28,7 @@ todo:
 
 ## Ausgangsszenario
 
-Robert erstellt Übungsaufgaben für sein Fach Softwaretechnik und stellt diese den Studierenden zur Verfügung.
+Robert erstellt Übungsaufgaben für sein Fach Softwaretechnik und stellt diese seinen Studierenden zur Verfügung.
 
 ## Positives Hauptszenario
 
