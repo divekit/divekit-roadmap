@@ -28,7 +28,7 @@ history:
         comment: Verbesserungen aus Todos umgesetzt + Anmerkungen zu offenen Punkten addiert
 todo: 
     - (sbe) Ist die Trennung in "Auswahl, Bearbeitung und als Erweiterung das Finalisieren einer Aufgabe" nicht zu kleinteilig? Siehe User Happiness Rule.
-    - (psc) Schmaler Grad zwischen beiden Extremen. Das Finalisieren kann auch Tage dauern. Daher würde ich das Diagramm für diesen Kontext so lassen und im Falle einer Konkretisierung von Gamification erneut evaulieren. Als erste Idee sollte das passen.
+    - (psc) Schmaler Grad zwischen beiden Extremen. Das Finalisieren kann auch Tage dauern. Daher würde ich das Diagramm für diesen Kontext so lassen und im Falle einer Konkretisierung von Gamification erneut evaluieren. Als erste Idee sollte das passen.
     - (sbe) zumindest - was ist Unterschied zwischen "commit + push" und "finalisieren"? Wie bekommt das System und der WMA es mit, dass ab jetzt nichts mehr kommt?  
     - (psc) Der WMA sollte davon möglichst nichts mitbekommen und keine weitere Arbeit haben (siehe Ziel _Entlastung_). Die Errungenschaften sollten automatisiert geprüft und vergeben werden. Allerdings stellt sich hier die Frage, wie Gamification didaktisch sinnvoll integriert werden kann und ob dann eine rein automatisierte Überprüfung in allen Fällen möglich ist.
     - (sbe) wenn man die Trennung belässt - wann genau gibts doch Errungenschaft? Potenziell bei jedem der Schritte?
