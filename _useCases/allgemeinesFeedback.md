@@ -18,6 +18,7 @@ history:
     v2:
         date: 2021-07-31
         comment: fixed todos as possible
+ignore: w051
 todo:
     - (sbe) "4) Das System teilt der studierenden Person mit, welche Aspekte (trotz Korrektheit) nicht optimal gelöst wurden." Hier 
 ---
