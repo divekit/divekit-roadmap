@@ -4,14 +4,9 @@ acronym: UCausführlichesFeedback
 responsible:
     - mwi
 title: Ausführliches Feedback
-description: Eine studierende Person holt ausführliches Feedback zu einer Aufgabe ein.
+description: Eine studierende Person holt ausführliches automatisches Feedback zu einer Aufgabe ein.
 primaryActor: studierende
 secondaryActors:
-    - profBwl
-    - profInf
-    - profMa
-    - wmaAutonomousLecturerInf
-    - wmaProg
 trigger: Die studierende Person hat eine Lösung zu einer Aufgabe eingetragen.
 precondition: Die studierende Person hat die Aufgabe bearbeitet.
 postcondition: Die studierende Person erhält ausführliches Feedback zur abgegebenen Lösung unabhängig davon, ob sie korrekt gelöst wurde oder fehlerhaft ist.
@@ -20,37 +15,30 @@ history:
     v1:
         date: 2021-07-22
         comment: initially created
-todo: 
-    - (sbe) die secondaryActors kommen sämtlich nicht im Use Case vor!
-    - (sbe) "1) Die studierende Person legt eine Lösung zur Prüfung vor." Wie genau macht sie das?
+    v2:
+        date: 2021-07-31
+        comment: fixed todos as possible
+todo:
     - (sbe) "4) Das System teilt der studierenden Person mit, welche Aspekte (trotz Korrektheit) nicht optimal gelöst wurden." Hier 
-    - (sbe) Wenn man mal mit den Augen eines Entwicklungsteams guckt - können die auf der Basis dieser Beschreibung Software bauen? Natürlich sollte ein UC keine Implementierung (z.B. backend-seitig) spezifizieren. Aber mir ist total unklar, wie ungefähr so ein Vorschlag aussehen kann. Vielleicht kann man zumindest _skizzieren_, wie das System zu dem Vorschlag kommt - z.B. sowas wie KI ...?   
-    - (sbe) Das Alternativszenario beschreibt m.E. einen komplett anderen Use Case (also manuelle statt automatische Prüfung)
-    - (sbe) dito Ausnahmeszenario. Man könnte da jeweils eigene UC draus machen.
 ---
 
 ## Hauptszenario
 
-* 1) Die studierende Person legt eine Lösung zur Prüfung vor.
-* 2) Das System führt eine automatische Überprüfung der Lösung durch.
-* 3) Das System teilt der studierenden Person mit, ob die Aufgabe korrekt erledigt wurde.
-* 4) Das System teilt der studierenden Person mit, welche Aspekte (trotz Korrektheit) nicht optimal gelöst wurden.
+1) Die studierende Person reicht eine Lösung durch ein _git commit/git push_ zur Prüfung ein.
+2) Das System führt anhand der hinterlegten JUnit- und Markdown-Testbibliotheken eine automatische Überprüfung der Lösung durch.
+3) Das System teilt der studierenden Person mit, ob die Aufgabe korrekt erledigt wurde.
+4) Das System ermittelt mithilfe künstlicher Intelligenz die Optimalität der eingereichten Lösung.
+5) Das System teilt der studierenden Person mit, welche Aspekte (trotz Korrektheit) nicht optimal gelöst wurden.
 
 
 ## Alternativszenario
 
-* 2a) Die Aufgabe muss manuell überprüft werden.
-* 2b) Eine prüfberechtigte Person wird informiert, dass die Aufgabe geprüft werden muss.
-* 2c) Die prüfberechtigte Person prüft die Aufgabe.
-* 3a) Die prüfberechtigte Person trägt im System ein, ob die Aufgabe korrekt erledigt wurde.
-* 4a) Die prüfberechtigte Person teilt der studierenden Person über das System mit, welche Aspekte (trotz Korrektheit) nicht optimal gelöst wurden.
+Entfällt, da es sich hierbei um eine automatische Prüfung handelt und eine Lösung nur auf dem im Hauptszenario beschriebenen Weg eingereicht werden kann. 
 
 ## Ausnahmeszenario
 
 * 2a) Das System findet bei der automatischen Überprüfung Anzeichen für ein Plagiat.
-* 2b) Eine prüfberechtigte Person wird informiert, dass die Lösung Anzeichen für ein Plagiat enthält und manuell überprüft werden muss.
-* 2c) Die prüfberechtigte Person überprüft die Lösung.
-* 3a) Die prüfberechtigte Person vermerkt im System, dass die Überprüfung mehr Zeit benötigt.
-* 3b) Das System teilt der studierenden Person mit, dass die Überprüfung mehr Zeit benötigt.
+* 3a) Das System teilt der studierenden Person mit, dass die Überprüfung mehr Zeit benötigt.
+* 3b) Das System informiert eine prüfberechtigte Person, dass die automatische Überprüfung Anzeichen für ein Plagiat gefunden hat und eine manuelle Prüfung erforderlich ist.
 
-**Andere Nachbedingung**: Plagiat wurde erkannt, der Versuch wird als Betrugsversuch gewertet.
+**Andere Nachbedingung**: Plagiatanzeichen wurden erkannt, eine manuelle Prüfung wurde eingeleitet.
