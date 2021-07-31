@@ -1,9 +1,9 @@
 ---
 type: useCase
-acronym: allgemeinesFeedback
+acronym: UCausführlichesFeedback
 responsible:
     - mwi
-title: Allgemeines Feedback
+title: Ausführliches Feedback
 description: Eine studierende Person holt ausführliches automatisches Feedback zu einer Aufgabe ein.
 primaryActor: studierende
 secondaryActors:
