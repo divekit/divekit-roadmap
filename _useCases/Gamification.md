@@ -48,9 +48,9 @@ Da für die funktionale Anforderung das Thema Gamification nur oberflächlich an
 
 ### Beispiele für Errungenschaften
 
-* Für den ersten gestellten Commit | _Willkommen Neuling_ - 5 Punkte
-* Für das Aufrufen einer bestimmten Seite im DiveKit (z. B. Seite über Aufgabenstellung) | _Wissen ist Macht_ - 5 Punkte
-* Für den ersten Commit der bei den Tests zu Fehlern führt | _Nobody is perfect_ - 15 Punkte
-* Für die erste fehlerfreiv gelöste Aufgabe | _Noob++_ - 25 Punkte
+* Für den ersten gestellten Commit - _Willkommen Neuling_ - 5 Punkte
+* Für das Aufrufen einer bestimmten Seite im DiveKit (z. B. Seite über Aufgabenstellung) - _Wissen ist Macht_ - 5 Punkte
+* Für den ersten Commit der bei den Tests zu Fehlern führt - _Nobody is perfect_ - 15 Punkte
+* Für die erste fehlerfreiv gelöste Aufgabe - _Noob++_ - 25 Punkte
 * etc.
 
