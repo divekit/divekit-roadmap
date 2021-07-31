@@ -14,12 +14,14 @@ history:
     v2:
         date: 2021-07-22
         comment: Erklärung zu Stack Overflow ergänzt und beurteilt
+    v3:
+        date: 2021-07-31
+        comment: Link hinzugefügt
 todo:
-    - (sbe) bitte Link noch einfügen
 ---
 
 ## Erläuterung
 
-Bei Fehlermeldungen könnten weiterführende Informationen zu dem Fehler verlinkt werden. Zum Beispiel könnte u.a. ein Link zu der Suchseite von _Stack Overflow_ für die Studierenden bereitgestellt werden.
+Bei Fehlermeldungen könnten weiterführende Informationen zu dem Fehler verlinkt werden. Zum Beispiel könnte u.a. ein [Link zu der Suchseite von _Stack Overflow_](https://stackoverflow.com) für die Studierenden bereitgestellt werden.
 
-_Stack Overflow_ ist die größte Frage-Antwort Seite des _Stack-Exchange-Netzwerks_ und fokussiert sich hauptsächlich auf Themen der Softwareentwicklung. Als große Wissensbasis kann eine erste Durchsicht hilfreich sein. Die meisten Probleme sind in der Regel ausführlich mit weiterführenden Links und ggf. mit Code-Snippes beantwortet. Ebenso wird seitens der Community ein hoher Standard über die Qualität der Beiträge gesetzt.
+[_Stack Overflow_](https://stackoverflow.com) ist die größte Frage-Antwort Seite des _Stack-Exchange-Netzwerks_ und fokussiert sich hauptsächlich auf Themen der Softwareentwicklung. Als große Wissensbasis kann eine erste Durchsicht hilfreich sein. Die meisten Probleme sind in der Regel ausführlich mit weiterführenden Links und ggf. mit Code-Snippes beantwortet. Ebenso wird seitens der Community ein hoher Standard über die Qualität der Beiträge gesetzt.
