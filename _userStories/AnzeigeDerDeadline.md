@@ -6,7 +6,7 @@ responsible:
 title: Anzeige der Deadline
 functionalRequirement: AnzeigederDeadline
 asA: studierende
-iWantTo: die Deadline von abzugebenden Aufgaben angezeigt bekommen
+iWantTo: die Deadline von abzugebenden Aufgaben auf der Startseite angezeigt bekommen,
 forThisReason: ich meine Abgaben besser planen kann.
 history:
     v1:
