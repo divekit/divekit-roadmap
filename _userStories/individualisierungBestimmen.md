@@ -5,8 +5,7 @@ responsible:
     - mba
 title: Die Stellen der Individualisierung bestimmen
 functionalRequirement: GleicheSchwierigkeit
-asA:
-    - lehrende
+asA: lehrende
 iWantTo: ändern der Stellen in den Aufgaben, die individualisert werden sollen
 forThisReason: ich eine einheitliche Individualisierung gewährleisten kann
 history:

@@ -5,8 +5,7 @@ responsible:
     - mba
 title: Einpflegen von Aufgaben in das DiveKit
 functionalRequirement: GleicheSchwierigkeit
-asA:
-    - lehrende
+asA: lehrende
 iWantTo: einpflegen von Aufgaben 
 forThisReason: ich dem DiveKit Aufgaben bereitstellen kann die individulisiert werden sollen
 history:
