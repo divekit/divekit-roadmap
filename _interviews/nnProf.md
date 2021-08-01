@@ -1,5 +1,5 @@
 ---
-acronym: n. n. Prof
+acronym: nnProf
 type: interview
 responsible: 
     - mba
