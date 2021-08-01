@@ -18,6 +18,8 @@ history:
 todo:
 ---
 
+ignore: e052
+
 ## User Story
 
 Als Nutzer des Systems möchte ich Aufgaben die individualisiert werden sollen, einpflegen können.
