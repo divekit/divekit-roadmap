@@ -7,10 +7,12 @@ responsible:
 name: n. n. Prof
 anonymous: true
 stakeholderRole: 
+    - lehrender
+    - dozent
     - profMa
     - anwenderExtern
 relationshipToProject: >
-    Jemand, der potenziell das Tool in seiner Lehre einsetzten könnte. 
+    Potenzieller Dozent, der das Tool in seiner Lehre einsetzten könnte. 
 history:
     v1:
         date: 2021-06-18

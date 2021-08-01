@@ -13,8 +13,11 @@ history:
     v1:
         date: 2021-07-19
         comment: initially created
+    v2: 
+        date: 2021-07-29
+        comment: todos done
 todo: 
-    - (sbe) Was ist Inhalt von UC "Generierte Aufgaben den Studenten stellen" (insb. in Abgrenzung zu "Aufgaben generieren")
+
 ---
 
 ## Beschreibung
@@ -26,7 +29,5 @@ Da es sich bei dieser Funktionalen Anforderung um ein Basismerkmal handelt, wird
 Um Aufgaben mit gleicher Schwierigkeit generieren zu können sind im Diagramm folgende Aktivitäten dargestellt:
 * Aufgabenmuster einpflegen
 * Aufgaben Generieren
-* Generierte Aufgaben den Studenten stellen
-
 
 
