@@ -15,6 +15,9 @@ history:
     v1:
         date: 2021-07-19
         comment: initially created
+    v2:
+        date: 2021-08-01
+        comment: todos done, Alternativszenario, Ausnahmeszenario, description, postcondition, precondition, secondaryActors, primaryActor changed
 todo:
 ---
 
