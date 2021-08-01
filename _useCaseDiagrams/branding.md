@@ -5,7 +5,13 @@ responsible:
     - ngi
 title: Use Case Diagram Branding
 functionalRequirement: BereitstellungUserPreferences
-useCases:
+useCases: 
+    - Aufrufen der Seite mit den Einstellungsmögichkeiten für das Branding
+    - Anpassen der Einstellungsmöglichkeiten der Standardansicht
+    - Anpassen der Einstellungsmöglichkeiten der Darkmode-Ansicht
+    - Anpassen der individuellen Header
+    - Anpassen der individuellen Icons
+    - Automatisches Abspeichern der Einstellungen durch das System
 useCasesDetailedWithScenario:
     - branding
 diagram: ./diagrams/useCaseBranding.jpg
@@ -16,9 +22,10 @@ history:
     v2:
         date: 2021-08-01
         comment: fix functionalRequirement because merge
+    v3:
+        date: 2021-08-01
+        comment: updated usecase diagram, added usecases
 todo: 
-    - (sbe) Use Cases sind viel zu kleinteilig - schauen Sie sich mal die "User Happiness Rule" an
-    - (sbe) Beziehungen zwischen UC sind entweder include, extends, oder Inheritence. Sie haben eine Menge einfacher Striche im Diagramm, die es in UML so nicht gibt.
 ---
 
 ## Beschreibung
