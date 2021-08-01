@@ -19,10 +19,9 @@ history:
         date: 2021-08-01
         comment: todos done, Alternativszenario, Ausnahmeszenario, description, postcondition, precondition, secondaryActors, primaryActor changed
 todo:
----
 
 ignore: w051
-
+---
 ## Hauptszenario
 
 * 1) Nutzer öffnet die Aufgaben Individualisierung
