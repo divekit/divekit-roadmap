@@ -21,9 +21,11 @@ history:
     v4:
         date: 2021-08-01
         comment: fix functionalRequirement because merge
+    v5:
+        date: 2021-08-01
+        comment: further specified user story
 todo: 
-    - (sbe) Passt glaube ich gut in einen Sprint. Allerdings würde ich noch eine Einschränkung / Klärung dazuschreiben, dass das erfordert, Grafikdateien auszutauschen und das System neu zu bauen. Das wäre machbar. Außerdem müsste eine kurze Anleitung dafür in der US drin sein, kann man auch einfach dazuschreiben.       
 ---
 
 ## Bedingungen
-Der externe Anwender besitzt Verwaltungsrechte und die externe Hochschule möchte sich durch ihr Logo und ihre Zeichen im System repräsentieren.
+Der externe Anwender besitzt Verwaltungsrechte und die externe Hochschule möchte sich durch ihr Logo und ihre Zeichen im DiveKit repräsentieren. Zudem wird eine Implementation im Backend benötigt, welche die Eingaben des Nutzers übernimmt, abspeichert und nach dem nächsten System-Neustart anwendet.

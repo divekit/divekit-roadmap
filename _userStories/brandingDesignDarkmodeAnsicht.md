@@ -6,7 +6,7 @@ responsible:
 title: Branding des Designs der Darkmode-Ansicht
 functionalRequirement: BereitstellungUserPreferences
 asA: anwenderExtern
-iWantTo: das Design der Darkmode-Ansicht des DiveKits ändern
+iWantTo: das Design der Darkmode-Ansicht des DiveKits in der graphischen Oberfläche ändern
 forThisReason: die graphische Oberfläche des DiveKits in dieser Ansicht an die Farben meiner Hochschule angepasst sind
 history:
     v1:
@@ -21,9 +21,11 @@ history:
     v4:
         date: 2021-08-01
         comment: fix functionalRequirement because merge
-todo:   
-    - (sbe) damit das in einen Sprint passt, würde ich Einschränkungen / Klärungen einbauen - z.B. könnte das erfordern, SCSS-Dateien zu editieren und das System neu zu bauen. Das wäre machbar. Dann würde ich aber auch z.B. noch eine zweite US schreiben, wie man eine Anleitung dazu liest.     
+    v5:
+        date: 2021-08-01
+        comment: further specified user story
+todo: 
 ---
 
 ## Bedingungen
-Der externe Anwender besitzt Verwaltungsrechte und die externe Hochschule möchte das Aussehen des Tools an ihre Brand und damit an ihr Design anpassen, ohne dabei die Funktionalität des Darkmodes zu beeinträchtigen.
+Der externe Anwender besitzt Verwaltungsrechte und die externe Hochschule möchte das Aussehen des DiveKits an ihre Brand und damit an ihr Design anpassen, ohne dabei die Funktionalität des Darkmodes zu beeinträchtigen. Zudem wird eine Implementation im Backend benötigt, welche die Eingaben des Nutzers übernimmt, abspeichert und nach dem nächsten System-Neustart anwendet.
