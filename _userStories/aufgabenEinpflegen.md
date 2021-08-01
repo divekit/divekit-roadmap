@@ -18,7 +18,6 @@ history:
 todo:
 ---
 
-ignore: w052
 
 ## User Story
 
