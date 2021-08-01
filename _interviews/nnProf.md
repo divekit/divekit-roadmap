@@ -7,7 +7,7 @@ stakeholder: n. n. Prof
 date: 2021-05-17
 duration: 1h
 location: Zoom-Meeting
-transcriptUrl: /sources/nnProf_transkript.md
+transcriptUrl: sources/nnProf_transkript.md
 history:
     v1:
         date: 2021-05-25
