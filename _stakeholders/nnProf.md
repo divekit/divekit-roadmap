@@ -7,8 +7,7 @@ responsible:
 name: n. n. Prof
 anonymous: true
 stakeholderRole: 
-    - lehrender
-    - dozent
+    - lehrende
     - profMa
     - anwenderExtern
 relationshipToProject: >
@@ -21,8 +20,7 @@ history:
         date: 2021-07-19
         comment: todos done, changed stakeholder role and name
 todo:
-    - potentielle Anwenderrolle hinzufügen (SB)
-    - Rolle "Dozent" fehlt (SB)
+
 ---
 
 ## Steckbrief
