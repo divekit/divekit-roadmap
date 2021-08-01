@@ -27,7 +27,7 @@ Das Use Case Diagram stellt die Funktionale Anforderung GleicheSchwierigkeit im 
 Da es sich bei dieser Funktionalen Anforderung um ein Basismerkmal handelt, wird die Forderung nach einem identischen Schwierigkeitsgrad bei dem Generieren der Aufgaben vorausgesetzt und muss somit nicht als zusätzliche Funktion dargestellt werden.
 
 Um Aufgaben mit gleicher Schwierigkeit generieren zu können sind im Diagramm folgende Aktivitäten dargestellt:
-* Aufgabenmuster einpflegen
+* Aufgaben einpflegen
 * Aufgaben Generieren
 
 
