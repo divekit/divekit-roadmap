@@ -4,8 +4,8 @@ acronym: gleicheSchwierigkeit
 responsible: 
     - mba
 title: Use Case Diagram Aufgaben mit gleicher Schwierigkeit 
-functionalRequirement: gleicheSchwierigkeit
-useCases:
+functionalRequirement: GleicheSchwierigkeit
+useCases: aufgabenMitGleicherSchwierigkeit
 useCasesDetailedWithScenario:
     - aufgabenMitGleicherSchwierigkeit
 diagram: ./diagrams/useCaseGleicheSchwierigkeit.png
