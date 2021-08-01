@@ -5,8 +5,7 @@ responsible:
     - ngi
 title: Aktivierung des Darkmodes
 functionalRequirement: Darkmode
-asA: 
-    - studierende
+asA: studierende
 iWantTo: bei den angebotenen Einstellungsmöglichkeiten für die visuelle Ansicht des Frontends den Darkmode aktivieren
 forThisReason: damit ich eine augenschonendere Ansicht habe
 history:
