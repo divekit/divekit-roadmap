@@ -17,16 +17,14 @@ history:
     v2:
         date: 2021-07-29
         comment: changes on trigger, precondition, Hauptszenario
+    v3:
+        date: 2021-08-01
+        comment: change Hauptszenario
 todo:
 ---
 
 ## Hauptszenario
 
 * 1) Der Studierende öffnet die Deadlines Übersicht auf der Testseite
-* 2) Das System zeigt dem Studierenden die Deadlines an
-* 3) Der Studierende notiert sich die Deadlines
-
-## Alternativszenario
-
-
-## Ausnahmeszenario 
+* 2) Das System zeigt dem Studierenden die Deadlines auf der Testseite an
+* 3) Der Studierende sucht nach den Deadlines von seinen Aufgaben.

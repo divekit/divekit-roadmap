@@ -19,10 +19,10 @@ history:
 ---
 
 ## Beschreibung
-Walter ist im 9. Semester und hat das Praktikum vor 3 Jahren gemacht und muss nur noch die Klausur schreiben.
+Walter ist im 9. Semester und hat das Praktikas schon vor 3 Jahren gemacht und muss nur noch die Klausuren schreiben.
 
 ### Hauptszenario:
-Walter ist schon mittlerweile im 9. Semester und hatte schon die Praktikas zu den Modulen Softwaretechnik und Algorithmen und Programmieren 2 in den ersten beiden Semester absolviert. 
+Walter ist 29 Jahre alt und ist im 9. Semester Medieninformatik Bachelor und hat schon viele Module erfolgreich abgeschlossen. Er hat nur die beiden Module Softwaretechnik und Algorithmen und Programmieren 2 offen. Wovon er schon die Praktikas erfolgreich absolviert hat und nur noch die Klausuren schreiben muss.
 Er muss jetzt nur noch die Klausuren schreiben und das Divekit verwendet er, um sich besser auf die Klausuren vorzubereiten. 
-Walter schaut sich das Divekit an und sucht nach Übungsaufgaben für die Klausuren, die er noch schreiben muss. 
+Walter schaut sich das Divekit an und sucht nach Übungsaufgaben, die Walter lösen kann für die Module Softwaretechnik und Algorithmen und Programmieren 2.
 
