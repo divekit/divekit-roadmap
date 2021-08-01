@@ -25,4 +25,4 @@ todo:
 Für das Modul Statistik, soll das Tool in der Lage sein zu generierten Datensätzen Lösungen zu generieren.
 
 ##Begründung
-Entlastung des Dozenten und hilfe für die Studenten. 
+Entlastung des Dozenten und Hilfe für die Studenten. 
