@@ -8,7 +8,7 @@ implementationStatus: open
 source:
     - [interview, nnProf, Minute 00-04-22]
     - [interview, nnProf, Minute 00-07-30]
-belongsTo:
+belongsTo: entlastung
 history:
     v1:
         date: 2021-06-18
