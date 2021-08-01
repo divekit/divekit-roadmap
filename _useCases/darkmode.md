@@ -18,6 +18,8 @@ history:
         date: 2021-07-31
         comment: specified wording and actor
 todo:
+
+ignore: w051
 ---
 
 Als User zählt bei diesem Use Case jede Stakeholder-Rolle, welche mit dem Frontend des DiveKits interagiert und das Darkmode-Setting in den visuellen Einstellungen aktivieren möchte. Das sind primär die Studierenden, da die anderen Stakeholder-Rollen das DiveKit hauptsächlich über Config-Files steuern und diese in externen Tools (z.B. IntelliJ) erstellen.
