@@ -8,7 +8,7 @@ implementationStatus: open
 source:
     - [interview, nnProf, Minute 00-04-22]
     - [interview, nnProf, Minute 00-07-30]
-belongsTo: Entlastung und Hilfestellung für Studenten.
+belongsTo:
 history:
     v1:
         date: 2021-06-18
@@ -19,7 +19,6 @@ history:
     v3:
         date: 2021-07-28
         comment: todos done, Begründung angepasst; bitte überprüfen zuerst waren es zu viele Ziele, worauf ich mba es in zwei geteilt habe, nun heißt es Ziel ist doppelt? Ziel ist nicht doppelt.
-
 todo:
     
 ---
