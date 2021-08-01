@@ -21,6 +21,9 @@ history:
         date: 2021-07-31
         comment: fix todo
 todo: 
+
+ignore: w051
+
 ---
 
 Als User zählt bei diesem Usecase jeder Stakeholder, der mit diesem System interagiert und seine visuellen Settings anpassen möchte.
