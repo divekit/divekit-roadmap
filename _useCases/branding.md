@@ -28,6 +28,8 @@ history:
         date: 2021-08-01
         comment: fix functionalRequirement because merge
 todo: 
+
+ignore: w051, w670
 ---
 
 ## Hauptszenario
