@@ -18,8 +18,6 @@ history:
         date: 2021-06-16
         comment: created initially
 todo:
-    - potentielle Divekit-Anwenderrolle hinzufügen (SB)
-    - Wie ist das gemeint? Es gibt doch 3 verlinkte Stakeholder-Roles
 ---
 
 ## Steckbrief
@@ -36,12 +34,12 @@ Seit 2019 ist er Hauptverantwortlicher von einigen Modulen im Bachelor-/ Masters
 * Beautiful Code im Master
 * Algorithmen der Programmierung 1&2 als Verantwortlicher für die Praktika
 
-## Sonstige Tätigkeitsgebiete
+### Sonstige Tätigkeitsgebiete
 
 * Entwickler für Tools der TH Köln
 * Leiter des Praktikumtools
 
-### Relevanz als Stakeholder
+## Relevanz als Stakeholder
 
 Der Stakeholder ist ein potentieller Nutzer des DiveKits. Er betreut Programmierkurse in der Lehre und ist sehr interessiert an Tools, die eine individuelle und automatisierte Aufgabenstellung ermöglichen. Er ist der Meinung, dass sich damit die Lehre für die Studierenden sehr verbessern lässt. Hierbei hebt er vor allem das sofortige, automatische Feedback für die Abgaben der Aufgaben hervor. 
 Zudem kann er sich aus Entwicklersicht gut vorstellen, etwaige Schnittstellen für die Entwicklung zusätzlicher Tools unterstützend zum DiveKit oder zur Integration beispielsweise in das ILIAS-System der TH Köln zu nutzen.
