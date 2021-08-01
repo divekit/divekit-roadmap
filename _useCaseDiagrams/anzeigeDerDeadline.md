@@ -5,11 +5,11 @@ responsible:
     - mwi
 title: Use Case Diagramm Anzeige der Deadline
 functionalRequirement: AnzeigederDeadline
-useCases: AnzeigederDeadline
-useCasesDetailedWithScenario: 
-    - AnzeigederDeadline
+useCases:
     - Testseite aufrufen
     - Deadline spezifizieren
+useCasesDetailedWithScenario: 
+    - AnzeigederDeadline
 diagram: ./diagrams/useCaseAnzeigeDerDeadline.png
 history:
     v1:
