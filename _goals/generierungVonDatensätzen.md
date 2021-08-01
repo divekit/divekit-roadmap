@@ -21,10 +21,7 @@ history:
         comment: todos done, Begründung angepasst; bitte überprüfen zuerst waren es zu viele Ziele, worauf ich mba es in zwei geteilt habe, nun heißt es Ziel ist doppelt? Ziel ist nicht doppelt.
 
 todo:
-    - implemtationStatus in Metainformationen richtig?
-    - partofLagerGoal anpassen -> weglassen?
-    - Titel, Beschreibung, Begründung passen nicht
-    - Ziel ist doppelt!
+    
 ---
 
 ##Beschreibung
