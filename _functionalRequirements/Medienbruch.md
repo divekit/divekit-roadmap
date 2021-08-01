@@ -9,19 +9,21 @@ goals:
 implementationStatus: implemented
 prefilterPriorizationPoints: 0
 source:
-    - Interview nnProf1
+    - [Interview, nnProf1, Minute 00-17-05]
 history:
     v1:
         date: 2021-06-25
         comment: initially created
-    v1:
+    v2:
         date: 2021-07-08
         comment: update
+    v3:
+        date: 2021-08-01
+        comment: fix todo and source
 todo: 
-    - (sbe) bitte Satzschablone verwenden. Wem wird etwas ermöglicht?
 ---
 
-Das DiveKit soll es ermöglichen, dass Dokumente/Aufgabenstellungen bereitgestellt werden können.
+Das DiveKit wird die Möglichkeit bieten, dass Dokumente/Aufgabenstellungen dem Studierenden bereitgestellt werden können.
 
 ## Begründung
 
