@@ -6,7 +6,6 @@ responsible:
 title: Darkmode
 description: Ein User kann den Darkmode aktivieren
 primaryActor: studierende
-secondaryActors: 
 trigger: Der User entscheidet sich für die Änderung seiner visuellen Einstellungen
 precondition: Der User mag das Darkmode-Setting und findet es besser als die Standard-Ansicht
 postcondition: Das Darkmode-Setting ist aktiviert
