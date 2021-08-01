@@ -13,7 +13,7 @@ kano:
     reasoning: >
         Als Software, welche dazu dient Abgaben in Modulen vorzunehmen, erwarte ich keine Kommunikationsmöglichkeit, da hierfür meist andere Kanäle verfügbar sind (besonders in Präsenz).
 source:
-    - Interview nnProf1
+    - [Interview, nnProf1, Minute 00-17-05]
 history:
     v1:
         date: 2021-06-25

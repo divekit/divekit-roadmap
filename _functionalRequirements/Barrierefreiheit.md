@@ -15,7 +15,7 @@ kano:
         In der heutigen Zeit geht man davon aus, dass Software auch von Farbenblinden problemlos angewendet werden können. Dies merkt man auch an
         Funktionen andere Software, welche meist mit Symbol und Text angezeigt werden.
 source:
-    - Workshop 6-3-5-No.1
+    - [Workshop, Workshop 6-3-5-No.1, Schwerpunkt Interface No.3]
     - Beobachtungstagebuch
 history:
     v1:

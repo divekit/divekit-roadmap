@@ -17,7 +17,7 @@ kano:
         werden, die von Studierenden nicht verändert werden sollten. Das Fehlen einer passenden Fehlermeldung könnte eine 
         unnötige Fehlersuche für den Studierenden verursachen und viel Frust erzeugen.
 source:
-    - Workshop 6-3-5-No.2
+    - [WOrkshop, Workshop 6-3-5-No.2, Schwerpunkt Technik No.1]
     - [beobachtungstagebuch, PB1]
 history:
     v1:
