@@ -6,7 +6,7 @@ responsible:
     - hbu
     - mwi
     - ako
-title: Bereitstellung von User Preferencen
+title: Bereitstellung von User Preferences
 goals: 
     - nutzerPraeferenz
     - barrierefreiheit
