@@ -25,12 +25,12 @@ todo:
 
 Dieses Usecase-Diagramm stellt die Interaktionen eines hochschulexternen Anwenders dar, die für die Änderung des Brandings relevant sind.
 
-Dabei kann der externe Anwender nach dem Aufrufen der Seite mit den Einstellungsmöglichkeiten für das Branding drei verschiedene Anpassungen vornehmen und das Design des Systems and das Branding seiner Hochschule anzupassen.
+Dabei kann der externe Anwender nach dem Aufrufen der Seite mit den Einstellungsmöglichkeiten für das Branding drei verschiedene Anpassungen vornehmen um das Design des Systems and das Branding seiner Hochschule anzupassen.
 * Anpassen der Einstellungen für die farbliche Gestaltung der graphischen Oberfläche für die drei verschiedenen Ansichten Standard und Darkmode
 * Anpassen von individuellen Headern
 * Hochladen individueller Icons
 
-Nach dem Anpassen der entsprechenden Einstellungsmöglichkeit wird die Änderung abgespeichert.
+Nach dem Anpassen der entsprechenden Einstellungsmöglichkeit wird die Änderung automatisch vom System abgespeichert.
 
 Voraussetzung für das Aufrufen dieser Einstellungsmöglichkeiten ist ein Login in das System mit der entsprechenden Berechtigung, beispielsweise als Verwalter.
 

@@ -39,7 +39,7 @@ ignore: w051, w670
 * 3) Das System stellt die Standard-Einstellungen zur Verfügung
 * 4) Der externe Anwender passt alle  Einstellungen so an, wie er es möchte bzw. wie es zum Branding seiner Hochschule passt
 * 5) Der externe Anwender speichert die Einstellungen
-* 6) Das System übernimmt die Einstellungen und zeigt die Oberflächen nach einem Server-Restart im neuen Design an
+* 6) Das System übernimmt die Einstellungen, speichert sie automatisch ab und zeigt die Oberflächen nach einem Server-Restart im neuen Design an
 
 ## Alternativszenario
 
