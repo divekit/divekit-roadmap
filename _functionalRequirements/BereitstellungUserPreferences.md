@@ -35,6 +35,9 @@ history:
         date: 2021-08-01
         comment: merge with FA IndividuellesDesign
 todo: 
+
+ignore:
+    - w005
 ---
 
 Das DiveKit sollte Usern die Möglichkeit bieten das Design des Systems (Dark Mode, o. Ä.) individuell festlegen zu können (User Preferences).
