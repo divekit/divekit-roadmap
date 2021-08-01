@@ -21,6 +21,7 @@ history:
 todo:
 ---
 
+ignore: w051
 
 ## Hauptszenario
 
