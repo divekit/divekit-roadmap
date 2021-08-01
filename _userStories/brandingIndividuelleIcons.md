@@ -4,7 +4,7 @@ acronym: brandingindividuelleIcons
 responsible:
     - ngi
 title: Branding durch individuelle Icons
-functionalRequirement: IndividuellesDesign
+functionalRequirement: BereitstellungUserPreferences
 asA: anwenderExtern
 iWantTo: individuelle Icons in das DiveKit einfügen
 forThisReason: das Logo und alle Zeichen meiner Hochschule im System abgebildet werden können
@@ -18,6 +18,9 @@ history:
     v3:
         date: 2021-07-28
         comment: removed duplicate description
+    v4:
+        date: 2021-08-01
+        comment: fix functionalRequirement because merge
 todo: 
     - (sbe) Passt glaube ich gut in einen Sprint. Allerdings würde ich noch eine Einschränkung / Klärung dazuschreiben, dass das erfordert, Grafikdateien auszutauschen und das System neu zu bauen. Das wäre machbar. Außerdem müsste eine kurze Anleitung dafür in der US drin sein, kann man auch einfach dazuschreiben.       
 ---

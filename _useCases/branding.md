@@ -10,7 +10,7 @@ secondaryActors:
 trigger: Der externe Anwender möchte das Design des Systems an seine Hochschule anpassen
 precondition: Der externe Anwender muss als Verwalter im System eingeloggt sein
 postcondition: Das Design des Systems ist an die externe Hochschule angepasst
-functionalRequirement: IndividuellesDesign
+functionalRequirement: BereitstellungUserPreferences
 history:
     v1:
         date: 2021-07-22
@@ -24,6 +24,9 @@ history:
     v4:
         date: 2021-07-29
         comment: removed barrierefreie Ansicht
+    v5:
+        date: 2021-08-01
+        comment: fix functionalRequirement because merge
 todo: 
 ---
 

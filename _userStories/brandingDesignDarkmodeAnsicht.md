@@ -4,7 +4,7 @@ acronym: brandingDesignDarkmodeAnsicht
 responsible:
     - ngi
 title: Branding des Designs der Darkmode-Ansicht
-functionalRequirement: IndividuellesDesign
+functionalRequirement: BereitstellungUserPreferences
 asA: anwenderExtern
 iWantTo: das Design der Darkmode-Ansicht des DiveKits ändern
 forThisReason: die graphische Oberfläche des DiveKits in dieser Ansicht an die Farben meiner Hochschule angepasst sind
@@ -18,6 +18,9 @@ history:
     v3:
         date: 2021-07-28
         comment: removed duplicate description
+    v4:
+        date: 2021-08-01
+        comment: fix functionalRequirement because merge
 todo:   
     - (sbe) damit das in einen Sprint passt, würde ich Einschränkungen / Klärungen einbauen - z.B. könnte das erfordern, SCSS-Dateien zu editieren und das System neu zu bauen. Das wäre machbar. Dann würde ich aber auch z.B. noch eine zweite US schreiben, wie man eine Anleitung dazu liest.     
 ---

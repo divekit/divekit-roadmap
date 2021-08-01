@@ -4,7 +4,7 @@ acronym: branding
 responsible: 
     - ngi
 title: Use Case Diagram Branding
-functionalRequirement: IndividuellesDesign
+functionalRequirement: BereitstellungUserPreferences
 useCases:
 useCasesDetailedWithScenario:
     - branding
@@ -13,6 +13,9 @@ history:
     v1:
         date: 2021-07-22
         comment: initially created
+    v2:
+        date: 2021-08-01
+        comment: fix functionalRequirement because merge
 todo: 
     - (sbe) Use Cases sind viel zu kleinteilig - schauen Sie sich mal die "User Happiness Rule" an
     - (sbe) Beziehungen zwischen UC sind entweder include, extends, oder Inheritence. Sie haben eine Menge einfacher Striche im Diagramm, die es in UML so nicht gibt.
