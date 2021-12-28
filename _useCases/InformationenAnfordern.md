@@ -46,7 +46,7 @@ todo:
 **Andere Nachbedingung**: Die Student:in besitzt keine weitere Informationen zum Fehler.
 
 ## Anmerkung:
-Anmerkung des Buisness Analysten: Meiner Meiner nach würde ich die nachfolgenden Spezifizierungen zur Implentierung nicht oder nur "abgespeckt" in den Use Case integieren. Da es die Designentscheidung in der Entwicklung einschränken könnte.
+Anmerkung des Buisness Analysten: Meiner Meinung nach würde ich die nachfolgenden Spezifizierungen zur Implentierung nicht oder nur "abgespeckt" in den Use Case integieren. Da es die Designentscheidung in der Entwicklung einschränken könnte.
 
 * Die Nachricht bei fehlenden weiterführenden Informationen (3a2) würde etwas wie "Keine Informationen vorhanden. Bitte schauen Sie dem Fehler in einer Suchmaschiene Ihrer Wahl nach." beinhalten.
 * Die erwähnte Schaltfläche kann ein Button oder Ähnliches sein.
