@@ -10,7 +10,7 @@ secondaryActors:
 trigger: Der externe Anwender möchte das Design des Systems an seine Hochschule anpassen
 precondition: Der externe Anwender muss als Verwalter im System eingeloggt sein
 postcondition: Das Design des Systems ist an die externe Hochschule angepasst
-functionalRequirement: IndividuellesDesign
+functionalRequirement: BereitstellungUserPreferences
 history:
     v1:
         date: 2021-07-22
@@ -24,7 +24,12 @@ history:
     v4:
         date: 2021-07-29
         comment: removed barrierefreie Ansicht
+    v5:
+        date: 2021-08-01
+        comment: fix functionalRequirement because merge
 todo: 
+
+ignore: w051, w670
 ---
 
 ## Hauptszenario
@@ -34,7 +39,7 @@ todo:
 * 3) Das System stellt die Standard-Einstellungen zur Verfügung
 * 4) Der externe Anwender passt alle  Einstellungen so an, wie er es möchte bzw. wie es zum Branding seiner Hochschule passt
 * 5) Der externe Anwender speichert die Einstellungen
-* 6) Das System übernimmt die Einstellungen und zeigt die Oberflächen nach einem Server-Restart im neuen Design an
+* 6) Das System übernimmt die Einstellungen, speichert sie automatisch ab und zeigt die Oberflächen nach einem Server-Restart im neuen Design an
 
 ## Alternativszenario
 

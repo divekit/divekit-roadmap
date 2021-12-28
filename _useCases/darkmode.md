@@ -5,48 +5,31 @@ responsible:
     - ngi
 title: Darkmode
 description: Ein User kann den Darkmode aktivieren
-primaryActor: 
-    - profBwl
-    - profInf
-    - profMa
-    - studierende
-    - wmaAutonomousLecturerInf
-    - wmaDev
-    - wmaProg
-secondaryActors:
-trigger: Der User ruft das Darkmode-Setting auf
-precondition: Das Setting muss implementiert sein
+primaryActor: studierende
+trigger: Der User entscheidet sich für die Änderung seiner visuellen Einstellungen
+precondition: Der User mag das Darkmode-Setting und findet es besser als die Standard-Ansicht
 postcondition: Das Darkmode-Setting ist aktiviert
 functionalRequirement: Darkmode
 history:
     v1:
         date: 2021-07-20
         comment: initially created
+    v2:
+        date: 2021-07-31
+        comment: specified wording and actor
 todo:
-    - (sbe) "precondition Das Setting muss implementiert sein" - das macht man eher nicht, man geht davon aus, dass ein beschriebenes Feature auch implementiert ist. Oder haben Sie das anders gemeint? Dann bitte präzisieren. 
-    - (sbe) "Als User zählt bei diesem Use Case jeder Stakeholder, der mit diesem System interagiert und seine visuellen Settings anpassen möchte." - daher kommen dann auch die vielfachen primaryActors (mit Error). Aber der Darkmode ist doch hauptsächlich für die Studies interessant. Die Lehrenden nutzen gar nicht die Test-Webseite, sondern steuern Divekit hauptsächlich über Config Files, die mit IntelliJ oder VSCode erstellt werden. Da gibts einen Darkmode. 
-    - (sbe) "1) Der User entscheidet sich für die Änderung seiner visuellen Einstellungen" - das ist noch keine Aktion, eher ein Trigger. Dafür ist der momentane Trigger "Der User ruft das Darkmode-Setting auf" eine Aktion, statt einem Auslöser.
-    - (sbe) Alternativszenario macht keinen Sinn, oder?
+
+ignore: w051, w670
 ---
 
-Als User zählt bei diesem Use Case jeder Stakeholder, der mit diesem System interagiert und seine visuellen Settings anpassen möchte.
+Als User zählt bei diesem Use Case jede Stakeholder-Rolle, welche mit dem Frontend des DiveKits interagiert und das Darkmode-Setting in den visuellen Einstellungen aktivieren möchte. Das sind primär die Studierenden, da die anderen Stakeholder-Rollen das DiveKit hauptsächlich über Config-Files steuern und diese in externen Tools (z.B. IntelliJ) erstellen.
 
 ## Hauptszenario
 
-* 1) Der User entscheidet sich für die Änderung seiner visuellen Einstellungen
-* 2) Der User ruft die Seite mit den Einstellungen auf
-* 3) Der User aktiviert das Darkmode-Setting
-* 4) Das System ändert die visuelle Ansicht zum Darkmode
+* 1) Der User ruft die Seite mit den Einstellungen auf
+* 2) Der User aktiviert das Darkmode-Setting
+* 3) Das System ändert die visuelle Ansicht zum Darkmode
 
-## Alternativszenario
-
-* 3a) Der User entscheidet sich gegen die Aktivierung des Darkmode-Settings
-
-## Ausnahmeszenario 
-
-Bei korrekter Implementierung des Darkmode-Settings entfällt dies.
-
-**Andere Nachbedingung**: Das Darkmode-Setting ist nicht aktiviert.
 
 
 

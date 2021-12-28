@@ -22,13 +22,20 @@ history:
     v3:
         date: 2021-07-15
         comment: Fixed goales
+    v4:
+        date: 2021-07-30
+        comment: specify FR and add a comment
 todo:
-    - (sbe) finde ich in dieser Formulierung weniger sinnvoll. Das ist doch eine allgemeine Eigenschaft, die man nicht spezifisch für die Google Cloud wiederholen muss. Wäre es nicht sinnvoller, stattdessen eine Art "Plugin" oder Erweiterungs-API für Deployment in die Google Cloud zu fordern?
-    - (sbe) ... und dann sollte man eine solche Unterstützung auch für den Erstellungsprozess von Aufgaben fordern, z.B. in Form von Test-Libraries.
 ---
 
-Wenn der Dozierende Aufgaben im Umgang und der Erstellung von Docker Containern stellt, soll das DiveKit die gestellten Aufgaben
-individualisieren und automatisch die eingereichten Lösungen auswerten können.
+Wenn der Dozierende Aufgaben im Umgang und der Erstellung von Docker Containern stellt, soll das DiveKit den Aufgabenstellenden in 
+der Erstellung der Aufgabe und der Erstellung von Tests zur automatischen Validierung der eingereichten Lösung unterstützen, sowie 
+die gestellten Aufgaben individualisieren und automatisch die eingereichten Lösungen, auf Basis der erstellten Docker-Images auswerten.
 
+
+## Anmerkung
+Die Frage wie die Anbindung zur Unterstützung von Aufgaben zu Docker Containern aussehen kann, muss in den NFR behandelt werden. Denkbar wäre beispielsweise
+eine Anbindung mit einem Plugin, dass sich installieren lässt oder einer Library, die bereits einige Tests zur automatischen Auswertung 
+des Docker-Images beinhaltet.
 
 

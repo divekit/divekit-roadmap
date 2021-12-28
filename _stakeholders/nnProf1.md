@@ -23,7 +23,6 @@ history:
         date: 2021-07-24
         comment: remove and fix todos
 todo: 
-    - Bitte eine einheitliche Namenskonvention für anonymisierte Namen verwenden (SB) 
 ---
 ## Steckbrief
 

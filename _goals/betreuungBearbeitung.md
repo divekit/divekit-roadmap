@@ -16,16 +16,13 @@ history:
         comment: added larger goal
 
 todo:
-    - Begründung ausführlicher formulieren
-    - Bitte geschlechtsneutral formulieren
-    - (sbe) "Der Student soll die Möglichkeit haben mit dem Tool zusammen an die Lösung angeleitet zu werden." Was genau heißt das?
-    - (sbe) "Ein effektiverer Lernprozess für die Studenten." Bitte machen Sie da einen ganzen Satz draus.
+    
 ---
 
 ## Beschreibung
 
-Der Student soll die Möglichkeit haben mit dem Tool zusammen an die Lösung angeleitet zu werden.
+Die Studierenden sollen Lösungvorschläge während der Bearbeitung von Aufgaben bekommen. 
 
 ## Begründung
 
-Ein effektiverer Lernprozess für die Studenten.
+Durch die Betreuung während der Bearbeitung von Aufgaben soll ein effektiverer Lernprozess für die Studierenden erreicht werden.

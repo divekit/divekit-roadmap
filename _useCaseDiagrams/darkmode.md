@@ -5,7 +5,9 @@ responsible:
     - ngi
 title: Use Case Diagram Darkmode
 functionalRequirement: Darkmode
-useCases:
+useCases: 
+    - Aufrufen der User Preferences für den Endnutzer
+    - User ändert visuelle Settings zum Darkmode
 useCasesDetailedWithScenario:
     - darkmode
 diagram: ./diagrams/useCaseDarkmode.jpg
@@ -13,18 +15,18 @@ history:
     v1:
         date: 2021-07-20
         comment: initially created
+    v2:
+        date: 2021-08-01
+        comment: updated usecase diagram, added usecases
 todo: 
-    - (sbe) muss in das Diagramm zu Branding integriert werden - das ist doch derselbe Kontext.
-    - (sbe) Beziehungen zwischen UC sind entweder include, extends, oder Inheritence. Sie haben eine Menge einfacher Striche im Diagramm, die es in UML so nicht gibt.
 ---
 
 ## Beschreibung
 
-Dieses Usecase-Diagramm stellt die beiden Interaktionen des Nutzers dar, die für die funktionale Anforderung _Darkmode_ auftreten können. Als Nutzer gilt in diesem Usecase jeder Stakeholder, welcher mit dem System interagiert.  
+Dieses Usecase-Diagramm stellt die Interaktion des Nutzers dar, welche für die funktionale Anforderung _Darkmode_ auftreten kann. Als Nutzer gilt in diesem Usecase jeder Stakeholder, welcher mit dem System als Endnutzer interagiert und das Darkmode-Setting aktivieren möchte. 
 
-Die beiden Aktionen "User ändert visuelle Settings zum Darkmode" und "User entscheidet sich gegen die Änderung der visuellen Settings", welche in diesem Usecase nach der Aktion "Aufrufen der Seite mit den visuellen Einstellungen" durchgeführt werden können, werden von jedem Nutzer ausgeführt, der den Wunsch verspürt seine visuellen Settings zu bearbeiten.  
+Wichtig hierbei ist, dass es nicht um eine Bearbeitung der Darkmode-Ansicht geht, sondern um die Möglichkeit des Endbenutzers, das Setting in seinen User Preferences zu aktivieren.
 
-Hierbei werden sowohl das Haupszenario als auch das Alternativszenario abgebildet, denn der Nutzer aktiviert das Darkmode-Setting oder lässt es bleiben.
 
 
 

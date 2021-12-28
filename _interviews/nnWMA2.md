@@ -14,8 +14,6 @@ history:
         date: 2021-05-24
         comment: initially created
 todo: 
-    - Stakeholder-Referenz
-    - Wie ist das gemeint? Der Stakeholder ist doch referenziert?
 ---
 ## Interviewleitfaden
 

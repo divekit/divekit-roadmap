@@ -20,26 +20,28 @@ history:
     v2:
         date: 2021-07-28
         comment: added input from review
+    v3: 
+        date: 2021-07-31
+        comment: fixed both todos
 todo:
-    - (sbe) "Alternativszenario" - mir ist nicht ganz klar, was hier die alternative Benutzung ausmacht. Kann man das noch schärfen?
-    - (sbe) Die Szenarien könnten jeweils etwas detaillierter sein. Z.B. Missbrauchsszenario - hier könnte die Individualisierung von Robert zu "einfach" ausgefallen sein, oder die Aufgabe war zu klein, so dass der Missbrauch dann sehr leicht war. So in der Art.
 ---
+
 ## Ausgangsszenario
 
-Robert erstellt Übungsaufgaben für sein Fach Softwaretechnik und stellt diese den Studierenden zur Verfügung.
+Robert erstellt Übungsaufgaben für sein Fach Softwaretechnik und stellt diese seinen Studierenden zur Verfügung.
 
 ## Positives Hauptszenario
 
-Einige Studierende haben Probleme mit den Übungen und kommunizieren über Divekit mit anderen Studierenden, um Hilfe für ihre Probleme zu erhalten. Die Studierenden helfen sich untereinander und alle Kursteilnehmer sind imstande, eine Lösung zu den Übungsaufgaben abzugeben.
+Einige Studierende haben Verständnisprobleme bei der Bearbeitung der aktuellen Praktikumsaufgaben und nutzen die Funktion, über DiveKit eine Frage an alle anderen Studierenden stellen zu können, um Hilfe bei der Aufgabenbearbeitung zu erhalten. Die Studierenden diskutieren miteinander und aufgrund des offenen Austauschs untereinander ist jeder Studierende in der Lage, eine Lösung für die Aufgaben abzugeben.
 
 ## Alternativszenario
 
-Einige Studierende haben Probleme mit den Übungen und fragen über Divekit Robert und seine wissenschaftlichen Mitarbeiter, um Hilfe für ihre Probleme zu erhalten. Die Lehrenden geben den Studierenden kleine Hilfestellungen und Tipps für die weitere Bearbeitung. So sind alle KursteilnehmerInnen imstande, eine Lösung zu den Übungsaufgaben abzugeben.
+Einige Studierende haben Verständnisprobleme bei der Bearbeitung der aktuellen Praktikumsaufgaben und nutzen die Funktion, über DiveKit mit Robert oder einem seiner wissenschaftlichen Mitarbeiter direkt in Kontakt treten zu können, um Hilfe für ihre Probleme zu erhalten. Die Lehrenden kommunizieren direkt in der Anwendung mit den Studierenden und geben ihnen kleine Hilfestellungen und Tipps für die weitere Bearbeitung. So sind alle KursteilnehmerInnen imstande, eine Lösung zu den Übungsaufgaben abzugeben.
 
 ## Negatives Szenario
 
-Einige Studierende haben Probleme mit den Übungen und fragen über E-Mail und Discord Robert und seine wissenschaftlichen Mitarbeiter, um Hilfe für ihre Probleme zu erhalten. Aufgrund der verschiedenen zur Kommunikation verwendeten Plattformen und der Menge an sonstigen anderen Anfragen gehen viele der Hilfsanfragen verloren und werden nicht beantwortet. Nicht alle KursteilnehmerInnen sind imstande, eine Lösung zu den Übungsaufgaben abzugeben.
+Einige Studierende haben Verständnisprobleme bei der Bearbeitung der aktuellen Praktikumsaufgaben und fragen über E-Mail und Discord Robert oder einen seiner wissenschaftlichen Mitarbeiter, um ihre Fragen beantwortet zu bekommen. Aufgrund der verschiedenen zur Kommunikation verwendeten Plattformen und der Menge an sonstigen anderen Anfragen gehen viele der Unterstützungsanfragen verloren und werden nicht beantwortet. Nicht alle KursteilnehmerInnen sind imstande, eine Lösung zu den Übungsaufgaben abzugeben.
 
 ## Missbrauchsszenario
 
-Robert erstellt Übungsaufgaben für eines seiner Fächer und stellt diese den Studierenden zur Verfügung. Einige Studierende bemerken, dass die Individualisierung der Aufgaben nicht so sorgfältig wie sonst durchgeführt wurde. Sie tauschen ihre Lösungen privat über WhatsApp und Discord untereinander aus und haben keine Probleme, die Aufgabe zu lösen. Dadurch sind alle KursteilnehmerInnen imstande, die korrekte Lösung zu den Übungsaufgaben abzugeben. Ein Lernprozess fand so nicht statt. Außerdem beging ein Großteil der Studierenden einen Täuschungsversuch.
+Einige Studierende bemerken, dass die Individualisierung der Aufgaben nicht so sorgfältig wie sonst durchgeführt wurde. Sie tauschen ihre Lösungen privat über WhatsApp und Discord untereinander aus und haben keine Probleme, die Aufgabe zu lösen. Dadurch sind alle KursteilnehmerInnen imstande, die korrekte Lösung zu den Übungsaufgaben abzugeben. Ein Lernprozess fand so nicht statt. Außerdem begingen viele Studierenden einen Täuschungsversuch.

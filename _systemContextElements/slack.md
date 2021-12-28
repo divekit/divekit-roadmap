@@ -3,9 +3,7 @@ acronym: Slack
 type: systemContextElement
 subtype: itsystem
 responsible:
-    - jsp
 source:
-    - Interview nnProf1
     - [interview, nnWMA4, Minute 00-38-26]
 history:
     v1:

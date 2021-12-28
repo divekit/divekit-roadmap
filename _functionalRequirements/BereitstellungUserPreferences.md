@@ -4,7 +4,9 @@ acronym: BereitstellungUserPreferences
 responsible: 
     - jsp
     - hbu
-title: Bereitstellung von User Preferencen
+    - mwi
+    - ako
+title: Bereitstellung von User Preferences
 goals: 
     - nutzerPraeferenz
     - barrierefreiheit
@@ -17,7 +19,8 @@ kano:
         aber manche Benutzer würden sich sicher über die Einstellungen freuen und diese auch verwenden. Viele Nutzer
         würde dieses Feature nicht vermissen oder suchen, falls es nicht vorhanden wäre.
 source:
-    - Workshop 6-3-5-No.2
+    - [Workshop,Workshop 6-3-5-No.2, Schwerpunkt Technik No.3]
+    - [beobachtungstagebuch, HS3]
 history:
     v1:
         date: 2021-07-08
@@ -28,13 +31,19 @@ history:
     v3:
         date: 2021-07-15
         comment: Fixed goales
+    v4:
+        date: 2021-08-01
+        comment: merge with FA IndividuellesDesign
 todo: 
-    - (sbe) bitte Abgleich mit / Abgrenzung zu IndividuellesDesign
+
+ignore:
+    - w005
 ---
 
-Das DiveKit soll eine Konfiguration von User Preferences ermöglichen.
+Das DiveKit sollte Usern die Möglichkeit bieten das Design des Systems (Dark Mode, o. Ä.) individuell festlegen zu können (User Preferences).
 
 ## Begründung
 
 Die Konfiguration von User Preferences ermöglicht es, besser auf Barrierefreiheit einzugehen, weil beispielsweise Leute, die keine Farbschwäche haben, 
-Farben schneller aufnehmen als bspw. Zeichen.
+Farben schneller aufnehmen als bspw. Zeichen. Außerdem kann eine Anpassung des Systems an die eigenen Vorstellungen motivieren und die Nutzung erleichtern.
+Ebenfalls kann sich so, besser mit dem System identifiziert werden.

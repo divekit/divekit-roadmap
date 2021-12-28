@@ -1,13 +1,13 @@
 ---
-acronym: n. n. Prof
+acronym: nnProf
 type: interview
 responsible: 
     - mba
-stakeholder: n. n. Prof
+stakeholder: nnProf
 date: 2021-05-17
 duration: 1h
 location: Zoom-Meeting
-transcriptUrl: 
+transcriptUrl: /sources/nnProf_transkript.md
 history:
     v1:
         date: 2021-05-25
@@ -304,4 +304,4 @@ PROBLEM: Gegen das Tool arbeiten.
  ZIEL Lehre verbessern \
  ZIEL zeitliche Entlastung
 
-* [Volles Interview](https://github.com/divekit/divekit-roadmap/blob/master/_interviews/nnProfTranskirpt.md)
+* [Volles Interview](https://github.com/divekit/divekit-roadmap/blob/master/_interviews/nnProf_transkirpt.md)

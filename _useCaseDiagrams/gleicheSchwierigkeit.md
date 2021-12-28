@@ -4,8 +4,8 @@ acronym: gleicheSchwierigkeit
 responsible: 
     - mba
 title: Use Case Diagram Aufgaben mit gleicher Schwierigkeit 
-functionalRequirement: gleicheSchwierigkeit
-useCases:
+functionalRequirement: GleicheSchwierigkeit
+useCases: aufgabenMitGleicherSchwierigkeit
 useCasesDetailedWithScenario:
     - aufgabenMitGleicherSchwierigkeit
 diagram: ./diagrams/useCaseGleicheSchwierigkeit.png
@@ -13,8 +13,14 @@ history:
     v1:
         date: 2021-07-19
         comment: initially created
+    v2: 
+        date: 2021-07-29
+        comment: todos done
+    v3:
+        date: 2021-08-01
+        comment: description changed
 todo: 
-    - (sbe) Was ist Inhalt von UC "Generierte Aufgaben den Studenten stellen" (insb. in Abgrenzung zu "Aufgaben generieren")
+
 ---
 
 ## Beschreibung
@@ -24,9 +30,7 @@ Das Use Case Diagram stellt die Funktionale Anforderung GleicheSchwierigkeit im 
 Da es sich bei dieser Funktionalen Anforderung um ein Basismerkmal handelt, wird die Forderung nach einem identischen Schwierigkeitsgrad bei dem Generieren der Aufgaben vorausgesetzt und muss somit nicht als zusätzliche Funktion dargestellt werden.
 
 Um Aufgaben mit gleicher Schwierigkeit generieren zu können sind im Diagramm folgende Aktivitäten dargestellt:
-* Aufgabenmuster einpflegen
+* Aufgaben einpflegen
 * Aufgaben Generieren
-* Generierte Aufgaben den Studenten stellen
-
 
 

@@ -6,6 +6,7 @@ responsible:
 title: Use Case Diagram Barrierefreiheit
 functionalRequirement: Barrierefreiheit
 useCases:
+    - barrierefreiheit
 useCasesDetailedWithScenario:
     - barrierefreiheit
 diagram: ./diagrams/useCaseBarrierefreiheit.png
@@ -16,9 +17,10 @@ history:
     v2:
         date: 2021-07-23
         comment: update Beschreibung
+    v3:
+        date: 2021-08-01
+        comment: fix todos
 todo:
-    - (sbe) ein UC-Diagramm mit einem Use Case ??? 
-    - (sbe) sollte in das Diagramm zu Branding integriert werden - das ist doch derselbe Kontext. Vielleicht können Sie sich da kurzschließen.
 ---
 
 ## Beschreibung
@@ -27,7 +29,10 @@ Der User, welcher für alle Personen gilt, welche mit dem System interagieren, k
 
 Abhängig ist der Use Case von der Implementierung in der Software.
 Hierbei kann es beispielsweise Möglichkeiten geben, statt der Farben Symbole anzuzeigen oder Text.
-So etwas könnte konfigurierbar sein. Im weiteren Verlauf des Use Cases wird davon ausgegangen, dass solch eine Funktion existiert.
+So etwas könnte konfigurierbar sein. 
+
+Das Diagramm wird nicht in den Kontext von Branding übernommen, weil auch die beiden UseCases nicht zusammengeführt werden. Dies liegt daran, dass das Ein- und Ausschalten der Barrierefreiheit, unserer Meinung
+nach nichts mit dem Konfigurieren des Brandings zu tun hat.
 
 
 

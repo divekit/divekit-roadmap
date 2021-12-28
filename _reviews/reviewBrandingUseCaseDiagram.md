@@ -22,4 +22,4 @@ todo:
 | Referenz | Reviewer-Kommentar | Autor-Kommentar |
 |------------|------------------|-----------------|
 | Use Case Diagramm | include sollte eine gestrichelte Linie sein mit Pfeilrichtung | Stimmt, wird angepasst |
-| Analog zu den Anpassungen im Use Case | Stylesheets können nicht von jedem bedient werden und eine Anpassungsmöglichkeit mit implementierter Oberfläche wäre ja vielleicht eine sinnvolle Alternative. | Stimmt, daher wird das Wort Stylesheet durch Einstellungsmöglichkeiten ersetzt und die technische Umsetzung aus dem Use Case rauszuhalten |
+| Analog zu den Anpassungen im Use Case | Stylesheets können nicht von jedem bedient werden und eine Anpassungsmöglichkeit mit implementierter Oberfläche wäre ja vielleicht eine sinnvolle Alternative. | Stimmt, daher wird das Wort Stylesheet durch Einstellungsmöglichkeiten ersetzt um die technische Umsetzung aus dem Use Case rauszuhalten |
