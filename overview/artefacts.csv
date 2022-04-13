@@ -1,0 +1,8 @@
+---
+layout: none
+---
+Type;Acronym;Author1;Author2;Author3;Author4;Author5;Author6;Author7;Author8;Author9;Author10;
+{% for item in site.functionalRequirements %}functionalRequirement;{{ item.acronym }};{% for author in item.responsible %}{{ author }};{% endfor %}
+{% endfor %}{% for item in site.goals %}goal;{{ item.acronym }};{% for author in item.responsible %}{{ author }};{% endfor %}
+{% endfor %}{% for item in site.interviews %}interview;{{ item.acronym }};{% for author in item.responsible %}{{ author }};{% endfor %}
+{% endfor %}
