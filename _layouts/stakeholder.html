@@ -5,6 +5,8 @@ layout: default
 {% include /functions/get-artefact-name.html myArtefact=page myIdFormat="postfixWithBrackets" %}
 <h1>Stakeholder {{ artefactName }}</h1>
 
+{% include /functions/print-page-navigation.html myArtefact=page %}
+
 {% if page.anonymous %}
     <p>
         Auf Wunsch des Stakeholders wird der Klarname hier nicht genannt.

@@ -3,7 +3,7 @@ type: goal
 acronym: aufgabentypenIndividual
 responsible: 
     - hbu
-    title: Einfache Individualisierung von Aufgaben
+title: Einfache Individualisierung von Aufgaben
 source: 
     - [interview, fkrampe, Minute 00-05-05]
     - [interview, fkrampe, Minute 00-12-01]

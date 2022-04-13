@@ -5,7 +5,9 @@ layout: default
 {% include /functions/get-artefact-name.html myArtefact=page myIdFormat="postfixWithBrackets" %}
 <h1>Persona {{ artefactName }}</h1>
 
-`<p>tbd. primäre Persona?</p>
+{% include /functions/print-page-navigation.html myArtefact=page %}
+
+<p>tbd. primäre Persona?</p>
 
 <dl>
     <dt>Autor(en)</dt>

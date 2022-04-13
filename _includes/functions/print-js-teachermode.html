@@ -1,0 +1,22 @@
+<script>
+    function setGrading( keyStr, value ) {
+        localStorage.setItem( keyStr, value );
+    }
+    function getGrading( keyStr ) {
+        return localStorage.getItem( keyStr );
+    }
+    function isGrading( keyStr, value ) {
+        return ( localStorage.getItem( keyStr ) == value );
+    }
+    function exportData() {
+        var compositeCSV = "";
+        for ( var i = 0; i < localStorage.length; i++ ) {
+            compositeCSV += localStorage.key(i) + ";" + localStorage.getItem(localStorage.key(i)) + "\n";
+        }
+        var blob = new Blob([compositeCSV], {type: "text/csv"});
+        var url = URL.createObjectURL(blob);
+        var a = document.querySelector("#results"); // id of the <a> element to render the download link
+        a.href = url;
+        a.download = "file.csv";
+    }
+</script>

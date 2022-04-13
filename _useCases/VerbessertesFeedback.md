@@ -13,7 +13,8 @@ secondaryActors:
     - profBwl
 trigger: Der/die User*in gibt seine Aufgaben ab
 precondition: > 
-Es muss eine Möglichkeit geben, die Ergebnisse zu den Aufgaben und das Ergebnis der Kontrolle einzureichen und Verbesserungsvorschläge anzuzeigen.
+    Es muss eine Möglichkeit geben, die Ergebnisse zu den Aufgaben und das Ergebnis der Kontrolle einzureichen und 
+    Verbesserungsvorschläge anzuzeigen.
 postcondition: Der/Die User*in bekommt zusätzliches Feedback.
 functionalRequirement: VerbessertesFeedback
 history:

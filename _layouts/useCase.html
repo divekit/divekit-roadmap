@@ -5,6 +5,8 @@ layout: default
 {% include /functions/get-artefact-name.html myArtefact=page myIdFormat="postfixWithBrackets" %}
 <h1>Use Case {{ artefactName }}</h1>
 
+{% include /functions/print-page-navigation.html myArtefact=page %}
+
 <dl>
     <dt>Autor(en)</dt>
     {% include /functions/resolve-names.html myResponsible=page.responsible %}
