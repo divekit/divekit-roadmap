@@ -8,6 +8,14 @@ goal:
     sortField: "title"
     prefix: "GO"
     collection: "goals"
+    grading:
+        p00: Nonsense
+        p05:
+        p10: Inconsistent / source missing
+        p15:
+        p20: Good, but requirement, not goal / mostly consistent
+        p25: Content very good, minor formal flaws
+        p30: Content & form perfect
 interview:
     fullName: "Interview"
     sortField: "date"
