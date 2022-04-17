@@ -1,0 +1,18 @@
+{% assign localArtefact = include.myArtefact %}
+
+{% if site.teacherMode == true %}
+    {% assign localKey = localArtefact.type | append: ";" | append: localArtefact.acronym %}
+    <div class="teachergrid">
+        <button id="t00" class="teacherbutton" onclick="setGrading( '{{ localKey }}', 0 )">0</button>
+        <button id="t05" class="teacherbutton" onclick="setGrading( '{{ localKey }}', 5 )">0.5</button>
+        <button id="t10" class="teacherbutton" onclick="setGrading( '{{ localKey }}', 10 )">1</button>
+        <button id="t15" class="teacherbutton" onclick="setGrading( '{{ localKey }}', 15 )">1.5</button>
+        <button id="t20" class="teacherbutton" onclick="setGrading( '{{ localKey }}', 20 )" >2</button>
+        <button id="t25" class="teacherbutton" onclick="setGrading( '{{ localKey }}', 25 )">2.5</button>
+        <button id="t30" class="teacherbutton" onclick="setGrading( '{{ localKey }}', 30 )">3</button>
+        &nbsp;&nbsp;&nbsp;
+        <button class="teacherbutton" onclick="resetAll()">Reset</button>
+        <button class="teacherbutton" onclick="exportData()">Prepare</button>
+        <a id="results">Download CSV</a><br>
+    </div>
+{% endif %}

@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% include /functions/print-teacherbuttons.html myArtefact=page %}
+
 {% assign stakeholder = site.stakeholders | where: "acronym", page.stakeholder | first %}
 
 {% include /functions/get-artefact-name.html myArtefact=page myIdFormat="postfix" %}

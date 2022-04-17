@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% include /functions/print-teacherbuttons.html myArtefact=page %}
+
 {% include /functions/get-artefact-name.html myArtefact=page myIdFormat="postfixWithBrackets" %}
 <h1>Use Case {{ artefactName }}</h1>
 

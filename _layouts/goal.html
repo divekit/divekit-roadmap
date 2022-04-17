@@ -2,21 +2,7 @@
 layout: default
 ---
 
-{% if site.teacherMode == true %}
-<div class="teachergrid">
-    <button onclick="setGrading()">0</button>
-    <button onclick="setGrading()">0,5</button>
-    <button onclick="setGrading()">1</button>
-    <button onclick="setGrading()">1,5</button>
-    <button onclick="setGrading()">2</button>
-    <button onclick="setGrading()">2,5</button>
-    <button onclick="setGrading()">3</button>
-    <a id="results">Download CSV</a><br>
-</div>
-{% endif %}
-
-
-
+{% include /functions/print-teacherbuttons.html myArtefact=page %}
 
 {% include /functions/get-artefact-name.html myArtefact=page myIdFormat="postfixWithBrackets" %}
 {% if page.isTopLevel %}
