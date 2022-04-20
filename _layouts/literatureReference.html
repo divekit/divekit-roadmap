@@ -16,8 +16,8 @@ layout: default
     <dt>Titel</dt>
     <dd>{{ page.title }}</dd>
 
-    <dt>Autor</dt>
-    <dd>{{page.author}}</dd>
+    {% include /functions/print-authors.html page=page %}
+
 
     <dt>Publisher</dt>
     <dd>{{page.publisher}}</dd>

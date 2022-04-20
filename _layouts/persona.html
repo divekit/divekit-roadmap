@@ -12,9 +12,8 @@ layout: default
 <p>tbd. primäre Persona?</p>
 
 <dl>
-    <dt>Autor(en)</dt>
-    {% include /functions/resolve-names.html myResponsible=page.responsible %}
-    <dd>{{ responsibleString }}</dd>
+    {% include /functions/print-authors.html page=page %}
+
 
     <dt>Alter</dt>
     <dt>{{ page.age }}</dt>

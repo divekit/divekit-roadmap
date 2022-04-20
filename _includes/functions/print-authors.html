@@ -1,0 +1,7 @@
+{% assign localPage = include.myPage %}
+
+{% if site.teacherMode == false or site.teacherMode == Nil %}
+    <dt>Autor(en)</dt>
+    {% include /functions/resolve-names.html myResponsible=localPage.responsible %}
+    <dd>{{ responsibleString }}</dd>
+{% endif %}

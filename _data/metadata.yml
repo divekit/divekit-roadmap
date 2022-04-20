@@ -11,9 +11,9 @@ goal:
     grading:
         p00: Nonsense
         p05:
-        p10: Inconsistent / source missing
-        p15:
-        p20: Good, but requirement, not goal / mostly consistent
+        p10: Inconsistent / irrelevant / source missing
+        p15: Slightly confusing wording / redundant
+        p20: A bit superficial / requirement, not goal
         p25: Content very good, minor formal flaws
         p30: Content & form perfect
 interview:
@@ -57,11 +57,27 @@ stakeholder:
     collection: "stakeholders"
     stakeholderRoleRef:
         asList: "stakeholderRole"
+    grading:
+        p00: Incomprehensible
+        p05:
+        p10: Inconsistent / source missing / very brief
+        p15:
+        p20: Fitting but superficial
+        p25:
+        p30: Well researched, stakes described in detail
 stakeholderRole:
     fullName: "Stakeholder-Rolle"
     sortField: "name"
     prefix: "STR"
     collection: "stakeholderRoles"
+    grading:
+        p00: Incomprehensible
+        p05:
+        p10: Inconsistent / source missing / very brief / not needed
+        p15:
+        p20: Fitting but superficial / stakeholder rather than role
+        p25:
+        p30: Well researched, stakes described in detail
 survey:
     fullName: "Umfrage"
     sortField: "subject"
@@ -74,6 +90,14 @@ systemContextElement:
     sortField: "title"
     prefix: "SYC"
     collection: "systemContextElements"
+    grading:
+        p00: Nonsense
+        p05:
+        p10: Little relevance / relevance not explained
+        p15:
+        p20: Fits, but a bit superficial
+        p25:
+        p30: Well researched, detailed
 useCase:
     fullName: "Use Case"
     sortField: "title"

@@ -10,6 +10,8 @@ layout: default
 {% include /functions/print-page-navigation.html myArtefact=page %}
 
 <dl>
+    {% include /functions/print-authors.html page=page %}
+
     <dt>Acronym</dt>
     <dd>{{ page.acronym }}</dd>
 

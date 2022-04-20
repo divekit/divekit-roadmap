@@ -18,9 +18,7 @@ layout: default
     <dt>Stakeholder</dt>
     <dd>{{ stakeholder.name }}</dd>
 
-    <dt>Responsible</dt>
-    <dd>{% include /functions/resolve-names.html myResponsible=page.responsible %}{{ responsibleString }}</dd>
-
+    {% include /functions/print-authors.html page=page %}
 
 
     {% if page.todos and page.todos.size > 0 %}

@@ -9,7 +9,7 @@ Type;Acronym;Author1;Author2;Author3;Author4;Author5;Author6;Author7;Author8;Aut
 {% endfor %}{% for item in site.personas %}persona;{{ item.acronym }};{% for author in item.responsible %}{{ author }};{% endfor %}
 {% endfor %}{% for item in site.reviews %}review;{{ item.acronym }};{% for author in item.responsible %}{{ author }};{% endfor %}
 {% endfor %}{% for item in site.scenarios %}scenario;{{ item.acronym }};{% for author in item.responsible %}{{ author }};{% endfor %}
-{% endfor %}{% for item in site.stakeholderRole %}stakeholderRole;{{ item.acronym }};{% for author in item.responsible %}{{ author }};{% endfor %}
+{% endfor %}{% for item in site.stakeholderRoles %}stakeholderRole;{{ item.acronym }};{% for author in item.responsible %}{{ author }};{% endfor %}
 {% endfor %}{% for item in site.stakeholders %}stakeholder;{{ item.acronym }};{% for author in item.responsible %}{{ author }};{% endfor %}
 {% endfor %}{% for item in site.systemContextElements %}systemContextElement;{{ item.acronym }};{% for author in item.responsible %}{{ author }};{% endfor %}
 {% endfor %}{% for item in site.useCaseDiagrams %}useCaseDiagram;{{ item.acronym }};{% for author in item.responsible %}{{ author }};{% endfor %}

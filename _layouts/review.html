@@ -11,6 +11,7 @@ layout: default
 
 <dl>
     {% include /functions/print-history.html myArtefact=page %}
+    {% include /functions/print-authors.html page=page %}
 
     {% include /functions/checks/check-review.html myArtefact=page %}
     {% include /functions/print-detailed-check-messages.html errors=errorString warnings=warningString todos=page.todo %}

@@ -12,9 +12,7 @@ layout: default
 <p>tbd. Szenariotyp</p>
 
 <dl>
-    <dt>Autor(en)</dt>
-    {% include /functions/resolve-names.html myResponsible=page.responsible %}
-    <dd>{{ responsibleString }}</dd>
+    {% include /functions/print-authors.html page=page %}
 
     <dt>Persona für dieses Szenario</dt>
     <dd>{{ page.persona }} (tbd. - als Link)</dd>

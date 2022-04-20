@@ -14,9 +14,7 @@ layout: default
 {% include /functions/print-page-navigation.html myArtefact=page %}
 
 <dl>
-    <dt>Autor(en)</dt>
-    {% include /functions/resolve-names.html myResponsible=page.responsible %}
-    <dd>{{ responsibleString }}</dd>
+    {% include /functions/print-authors.html page=page %}
 
     {% if page.isTopLevel == true %}
         {% assign thisAcronym = page.acronym %}

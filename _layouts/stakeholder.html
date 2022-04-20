@@ -16,9 +16,7 @@ layout: default
 {% endif %}
 
 <dl>
-    <dt>Autor(en)</dt>
-    {% include /functions/resolve-names.html myResponsible=page.responsible %}
-    <dd>{{ responsibleString }}</dd>
+    {% include /functions/print-authors.html page=page %}
 
     <dt>Stakeholder-Rolle, zu der dieser Stakeholder gehört</dt>
     {% for shr in page.stakeholderRole %}
