@@ -1,6 +1,6 @@
 ---
 type: scenario
-acronym: sampleScenario
+acronym: sheinrich
 title: Einfache Individualisierung von Aufgaben
 persona: sheinrich
 scenarioTypes:

@@ -1,11 +1,11 @@
 ---
 type: persona
 acronym: mkramüller
-stakeholderRole: profInf
+stakeholderRole: 
 responsible: 
     - sbe
     - mba
-name: Martin Kramüller
+name: Martin Kramüller (Sample, Löschen wenn fertig)
 age: 42 
 isPrimary: yes
 relationshipToProject: >

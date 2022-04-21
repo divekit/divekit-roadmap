@@ -21,6 +21,14 @@ interview:
     sortField: "date"
     prefix: "INT"
     collection: "interviews"
+    grading:
+        p00: No transcript
+        p05:
+        p10: Very short / questions incoherent
+        p15:
+        p20: Sloppy transcript, otherwise good / summarizing transcript
+        p25: some formal flaws, otherwise good
+        p30: Perfectly prepared, perfect transcript
 literatureReference:
     fullName: "Literaturverweis"
     sortField: "title"
@@ -38,6 +46,14 @@ persona:
     collection: "personas"
     stakeholderRoleRef:
         asString: "stakeholderRole"
+    grading:
+        p00: Nonsense
+        p05:
+        p10: Inconsistent / irrelevant for project
+        p15: Slightly confusing description / redundant / cliché
+        p20: A bit superficial / quite brief / some irrelevant information
+        p25: Content very good, minor formal flaws
+        p30: Content & form perfect
 review:
     fullName: "Formales Review"
     sortField: "referencedType"
@@ -50,6 +66,14 @@ scenario:
     collection: "scenarios"
     stakeholderRoleRef:
         asString: "stakeholderRole"
+    grading:
+        p00: Nonsense
+        p05:
+        p10: Inconsistent / irrelevant for project
+        p15: Slightly confusing wording / redundant / cliché / not very authentic / formally flawed
+        p20: A bit superficial / quite brief / some redundant or irrelevant actions
+        p25: Content very good, minor formal flaws
+        p30: Content & form perfect
 stakeholder:
     fullName: "Stakeholder"
     sortField: "name"
