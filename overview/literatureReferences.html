@@ -2,7 +2,10 @@
 layout: default
 ---
 
-<h1>Literatur</h1>
+{% assign sortField = site.data.metadata["literatureReference"].sortField %}
+{% assign collection = site.literatureReferences | sort: sortField %}
+
+<h1>Literatur ({{ collection.size }})</h1>
 
 <p>
     Ein <b>Literaturverweis</b> ist ein Verweis auf eine Quelle, die in der Literatur oder im Web zu finden ist.
@@ -19,8 +22,6 @@ layout: default
     </tr>
     </thead>
     <tbody>
-        {% assign sortField = site.data.metadata["literatureReference"].sortField %}
-        {% assign collection = site.literatureReferences | sort: sortField %}
         {% for literatureReference in collection %}
         <tr>
             <td>{{ reference.acronym }}</td>

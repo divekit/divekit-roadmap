@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
+{% assign sortField = site.data.metadata["workshop"].sortField %}
+{% assign collection = site.workshops | sort: sortField %}
 
-<h1>Workshops</h1>
+<h1>Workshops ({{ collection.size }})</h1>
 
 <p>
     Workshops sind methodisch vorbereitete, auf bestimmte Stakeholder-Rollen fokussierte Veranstaltung zur Informations- und
@@ -20,8 +22,6 @@ layout: default
     </tr>
     </thead>
     <tbody>
-    {% assign sortField = site.data.metadata["workshop"].sortField %}
-    {% assign collection = site.workshops | sort: sortField %}
     {% for workshop in collection %}
         <tr>
             <td>{{ workshop.acronym }}</td>

@@ -2,7 +2,10 @@
 layout: default
 ---
 
-<h1>Stakeholder</h1>
+{% assign sortField = site.data.metadata["stakeholder"].sortField %}
+{% assign collection = site.stakeholders | sort: sortField %}
+
+<h1>Stakeholder ({{ collection.size }})</h1>
 
 <p>
     Ein <b>Stakeholder</b> ist eine Person oder eine Organisation, die direkten Einfluss auf die Anforderungen
@@ -28,8 +31,7 @@ layout: default
     </tr>
     </thead>
     <tbody>
-        {% assign sortField = site.data.metadata["stakeholder"].sortField %}
-        {% assign collection = site.stakeholders | sort: sortField %}
+
         {% for stakeholder in collection %}
         <tr>
             {% include /functions/checks/check-stakeholder.html myArtefact=stakeholder %}

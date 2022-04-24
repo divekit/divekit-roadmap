@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
+{% assign sortField = site.data.metadata["systemContextElement"].sortField %}
+{% assign collection = site.systemContextElements | sort: sortField %}
 
-<h1>Systemkontext</h1>
+<h1>Systemkontext ({{ collection.size }})</h1>
 
 <p>
     Der <b>Systemkontext</b> ist der Teil der Umgebung des Systems, der für die Definition und das Verständnis der Systemanforderungen relevant ist, selbst aber nicht gestalt- oder veränderbar ist
@@ -20,8 +22,6 @@ layout: default
     </tr>
     </thead>
     <tbody>
-    {% assign sortField = site.data.metadata["systemContextElement"].sortField %}
-    {% assign collection = site.systemContextElements | sort: sortField %}
     {% for systemContextElement in collection %}
     <tr>
         {% include /functions/checks/check-systemContextElement.html myArtefact=systemContextElement %}

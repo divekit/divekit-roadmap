@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
+{% assign functionalRequirements = site.functionalRequirements | sort: "prefilterPriorizationPoints" | reverse %}
 
-<h1>Funktionale Anforderungen</h1>
+<h1>Funktionale Anforderungen ({{ functionalRequirements.size }})</h1>
 
 <p>
     Funktionale Anforderungen beschreiben die gewünschte Funktionalität eines Systems, dessen
@@ -30,7 +31,7 @@ layout: default
     </tr>
     </thead>
     <tbody>
-        {% assign functionalRequirements = site.functionalRequirements | sort: "prefilterPriorizationPoints" | reverse %}
+
         {% for functionalRequirement in functionalRequirements %}
         <tr>
             {% include /functions/checks/check-functionalRequirement.html myArtefact=functionalRequirement %}

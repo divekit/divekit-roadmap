@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
+{% assign sortField = site.data.metadata["userStory"].sortField %}
+{% assign collection = site.userStories | sort: sortField %}
 
-<h1>User Stories</h1>
+<h1>User Stories ({{ collection.size }})</h1>
 
 <p>
     Agile Anforderungen werden (anders als bei der dokumentenzentrierten Anfoderungsermittlung, die auf einem
@@ -24,8 +26,7 @@ layout: default
     </tr>
     </thead>
     <tbody>
-    {% assign sortField = site.data.metadata["userStory"].sortField %}
-    {% assign collection = site.userStories | sort: sortField %}
+
     {% for userStory in collection %}
     <tr>
         {% include /functions/checks/check-userStory.html myArtefact=userStory %}

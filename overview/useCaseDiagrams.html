@@ -2,7 +2,10 @@
 layout: default
 ---
 
-<h1>Use Cases</h1>
+{% assign sortField = site.data.metadata["useCaseDiagram"].sortField %}
+{% assign collection = site.useCaseDiagrams | sort: sortField %}
+
+<h1>Use-Case-Diagramme ({{ collection.size }})</h1>
 
 <p>
     Ein <b>Use-Case-Diagramm</b> nutzt UML-Notation, um alle Use Cases zu einem bestimmten Aspekt, beispielsweise
@@ -20,8 +23,7 @@ layout: default
     </tr>
     </thead>
     <tbody>
-    {% assign sortField = site.data.metadata["useCaseDiagram"].sortField %}
-    {% assign collection = site.useCaseDiagrams | sort: sortField %}
+
     {% for useCaseDiagram in collection %}
     <tr>
         {% include /functions/checks/check-useCaseDiagram.html myArtefact=useCaseDiagram %}

@@ -2,7 +2,10 @@
 layout: default
 ---
 
-<h1>Use Cases</h1>
+{% assign sortField = site.data.metadata["useCase"].sortField %}
+{% assign collection = site.useCases | sort: sortField %}
+
+<h1>Use Cases ({{ collection.size }})</h1>
 
 <p>
     Ein <b>Use Case</b> bündelt alle möglichen Szenarien, die eintreten können, wenn ein Akteur versucht,
@@ -20,8 +23,7 @@ layout: default
     </tr>
     </thead>
     <tbody>
-    {% assign sortField = site.data.metadata["useCase"].sortField %}
-    {% assign collection = site.useCases | sort: sortField %}
+
     {% for useCase in collection %}
     <tr>
         {% include /functions/checks/check-useCase.html myArtefact=useCase %}

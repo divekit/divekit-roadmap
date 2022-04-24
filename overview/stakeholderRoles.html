@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
+{% assign sortField = site.data.metadata["stakeholderRole"].sortField %}
+{% assign collection = site.stakeholderRoles | sort: sortField %}
 
-<h1>Stakeholder-Rollen</h1>
+<h1>Stakeholder-Rollen ({{ collection.size }})</h1>
 
 <p>
     <b>Stakeholder-Rollen</b> sind verallgemeinerte, "typische" Rollen von Stakeholdern, die dann etwa in
@@ -21,9 +23,6 @@ layout: default
     </tr>
     </thead>
     <tbody>
-    {% assign sortField = site.data.metadata["stakeholderRole"].sortField %}
-    {% assign collection = site.stakeholderRoles | sort: sortField %}
-
     {% comment %} --- sort the artefacts in a tree-like fashion, with the top-level stakeholders above their specialization --- {% endcomment %}
     {% assign topLevelItems = collection | where_exp: "item", "item.isTopLevel == true" %}
     {% assign treeSortedCollection = "" | split: ";" %}

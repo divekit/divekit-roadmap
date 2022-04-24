@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
+{% assign sortField = site.data.metadata["survey"].sortField %}
+{% assign collection = site.surveys | sort: sortField %}
 
-<h1>(Online-)Umfragen</h1>
+<h1>(Online-)Umfragen ({{ collection.size }})</h1>
 
 <p>
     Durch eine Umfrage lassen sich viele potentielle Nutzer mit geringen Aufwand erreichen. Zusätzlich
@@ -20,8 +22,6 @@ layout: default
     </tr>
     </thead>
     <tbody>
-    {% assign sortField = site.data.metadata["survey"].sortField %}
-    {% assign collection = site.surveys | sort: sortField %}
     {% for survey in collection %}
         <tr>
             {% include /functions/get-artefact-name.html myArtefact=survey %}

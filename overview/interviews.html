@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
+{% assign sortField = site.data.metadata["interview"].sortField %}
+{% assign collection = site.interviews | sort: sortField %}
 
-<h1>Interviews</h1>
+<h1>Interviews ({{ collection.size }})</h1>
 
 <p>
     Ein <b>Interview</b> eine Form der Befragung mit dem Ziel, persönliche Informationen, Sachverhalte oder Meinungen zu ermitteln.
@@ -18,8 +20,7 @@ layout: default
     </tr>
     </thead>
     <tbody>
-        {% assign sortField = site.data.metadata["interview"].sortField %}
-        {% assign collection = site.interviews | sort: sortField %}
+
         {% for interview in collection %}
         <tr>
             <td>&nbsp;</td>

@@ -4,10 +4,10 @@ layout: default
 
 {% include /functions/print-teacherbuttons.html myArtefact=page %}
 
+{% include /functions/print-page-navigation.html myArtefact=page %}
+
 {% include /functions/get-artefact-name.html myArtefact=page myIdFormat="postfixWithBrackets" %}
 <h1>Umfrage {{ artefactName }}</h1>
-
-{% include /functions/print-page-navigation.html myArtefact=page %}
 
 <dl>
     {% include /functions/print-authors.html page=page %}

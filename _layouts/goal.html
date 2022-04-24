@@ -4,14 +4,14 @@ layout: default
 
 {% include /functions/print-teacherbuttons.html myArtefact=page %}
 
+{% include /functions/print-page-navigation.html myArtefact=page %}
+
 {% include /functions/get-artefact-name.html myArtefact=page myIdFormat="postfixWithBrackets" %}
 {% if page.isTopLevel %}
     <h1>Hauptziel {{ artefactName }}</h1>
 {% else %}
     <h1>Unterziel {{ artefactName }}</h1>
 {% endif %}
-
-{% include /functions/print-page-navigation.html myArtefact=page %}
 
 <dl>
     {% include /functions/print-authors.html page=page %}

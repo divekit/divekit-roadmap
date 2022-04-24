@@ -4,11 +4,11 @@ layout: default
 
 {% include /functions/print-teacherbuttons.html myArtefact=page %}
 
+{% include /functions/print-page-navigation.html myArtefact=page %}
+
 {% include /functions/get-artefact-name.html myArtefact=page myIdFormat="postfixWithBrackets" %}
 {% include /functions/get-system-context-subtype.html mySystemContextElement=page %}
 <h1>Systemkontext: {{ subTypeString }} {{ artefactName }}</h1>
-
-{% include /functions/print-page-navigation.html myArtefact=page %}
 
 <dl>
     {% include /functions/print-authors.html page=page %}

@@ -6,10 +6,10 @@ layout: default
 
 {% assign stakeholder = site.stakeholders | where: "acronym", page.stakeholder | first %}
 
+{% include /functions/print-page-navigation.html myArtefact=page %}
+
 {% include /functions/get-artefact-name.html myArtefact=page myIdFormat="postfix" %}
 <h1>{{ artefactName }}</h1>
-
-{% include /functions/print-page-navigation.html myArtefact=page %}
 
 <dl>
     <dt>Acronym</dt>

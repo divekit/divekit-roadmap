@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
+{% assign sortField = site.data.metadata["goal"].sortField %}
+{% assign collection = site.goals | sort: sortField %}
 
-<h1>Ziele</h1>
+<h1>Ziele ({{ collection.size }})</h1>
 
 <p>
     Ein <b>Ziel</b> ist die intentionale Beschreibung eines charakteristischen Merkmals
@@ -20,9 +22,6 @@ layout: default
     </tr>
     </thead>
     <tbody>
-        {% assign sortField = site.data.metadata["goal"].sortField %}
-        {% assign collection = site.goals | sort: sortField %}
-
         {% comment %} --- sort the artefacts in a tree-like fashion, with the top-level stakeholders above their specialization --- {% endcomment %}
         {% assign topLevelItems = collection | where_exp: "item", "item.isTopLevel == true" %}
         {% assign treeSortedCollection = "" | split: ";" %}

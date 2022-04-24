@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
+{% assign sortField = site.data.metadata["scenario"].sortField %}
+{% assign collection = site.scenarios | sort: sortField %}
 
-<h1>Szenarien</h1>
+<h1>Szenarien ({{ collection.size }})</h1>
 
 <p>
     <b>Szenarien</b> beschreiben Situationen, in denen Menschen mit einem System interagieren (Handlungsstrang).
@@ -29,8 +31,7 @@ layout: default
     </tr>
     </thead>
     <tbody>
-    {% assign sortField = site.data.metadata["scenario"].sortField %}
-    {% assign collection = site.scenarios | sort: sortField %}
+
     {% for scenario in collection %}
         <tr>
             {% include /functions/checks/check-scenario.html myArtefact=scenario %}

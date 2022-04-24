@@ -2,7 +2,10 @@
 layout: default
 ---
 
-<h1>Review</h1>
+{% assign sortField = site.data.metadata["review"].sortField %}
+{% assign collection = site.reviews | sort: sortField %}
+
+<h1>Reviews ({{ collection.size }})</h1>
 
 <p>
     (tbd. kurze Erklärung)
@@ -19,8 +22,7 @@ layout: default
     </tr>
     </thead>
     <tbody>
-        {% assign sortField = site.data.metadata["review"].sortField %}
-        {% assign collection = site.reviews | sort: sortField %}
+
 
         {% for review in collection %}
         <tr>

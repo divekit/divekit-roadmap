@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
+{% assign sortField = site.data.metadata["persona"].sortField %}
+{% assign collection = site.personas | sort: sortField %}
 
-<h1>Personas</h1>
+<h1>Personas ({{ collection.size }})</h1>
 
 <p>
     Eine <b>Persona</b> stellt einen Prototyp für eine Gruppe von Stakeholdern dar, mit konkret ausgeprägten Eigenschaften und einem konkreten Nutzungsverhalten.
@@ -21,8 +23,7 @@ layout: default
     </tr>
     </thead>
     <tbody>
-    {% assign sortField = site.data.metadata["persona"].sortField %}
-    {% assign collection = site.personas | sort: sortField %}
+
     {% for persona in collection %}
         <tr>
             {% include /functions/checks/check-scenario.html myArtefact=persona %}

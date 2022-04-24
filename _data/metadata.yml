@@ -3,6 +3,14 @@ functionalRequirement:
     sortField: "title"
     prefix: "FR"
     collection: "functionalRequirements"
+    grading:
+        p00: Nonsense
+        p05:
+        p10: Inconsistent / irrelevant / source missing
+        p15: Confusing wording / redundant / violates sentence blueprint / NFR rather than FR / reasons for requirement unclear
+        p20: A bit superficial / slightly inconsistent / not fully compliant with sentence blueprint / Kano missing / goal, not requirement
+        p25: Content very good, minor formal flaws
+        p30: Content & form perfect
 goal:
     fullName: "Ziel"
     sortField: "title"
@@ -59,6 +67,14 @@ review:
     sortField: "referencedType"
     prefix: "RV"
     collection: "reviews"
+    grading:
+        p00: Nonsense
+        p05:
+        p10: Inconsistent / irrelevant / redundant / very brief
+        p15:
+        p20: OK, but rather brief
+        p25:
+        p30: Comprehensive, detailed, to the point
 scenario:
     fullName: "Szenario"
     sortField: "title"
@@ -130,11 +146,27 @@ useCase:
     stakeholderRoleRef:
         asString: "primaryActor"
         asList: "secondaryActors"
+    grading:
+        p00: Nonsense
+        p05:
+        p10: Inconsistent / irrelevant / very brief
+        p15: Confusing / redundant / severe formal flaws / quite brief
+        p20: A bit superficial / slightly inconsistent / quite short / visible formal flaws
+        p25: Good, but ... a bit short / minor formal flaws
+        p30: Comprehensive, well defined, formally fine
 useCaseDiagram:
     fullName: "Use-Case-Diagramm"
     sortField: "title"
     prefix: "UCD"
     collection: "useCaseDiagrams"
+    grading:
+        p00: Nonsense
+        p05:
+        p10: Inconsistent / irrelevant / very brief
+        p15: Confusing / redundant / severe formal flaws / quite brief
+        p20: A bit superficial / slightly inconsistent / quite short / visible formal flaws
+        p25: Good, but ... a bit short / minor formal flaws
+        p30: Comprehensive, well defined, formally fine
 userStory:
     fullName: "User Story"
     sortField: "title"
@@ -142,6 +174,14 @@ userStory:
     collection: "userStories"
     stakeholderRoleRef:
         asString: "asA"
+    grading:
+        p00: Nonsense
+        p05:
+        p10: Inconsistent / irrelevant / redundant / user story format broken
+        p15: Confusing / redundant / way too big / severe formal flaws
+        p20: Too big / slightly inconsistent / visible formal flaws
+        p25: A bit too big / minor formal flaws
+        p30: Makes sense, right size, formally fine
 workshop:
     fullName: "Workshop"
     sortField: "goal"
